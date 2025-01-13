@@ -1,0 +1,8 @@
+{
+    "translation": "Draconium",
+    "texture": "draconicevolution:block/draconium_block",
+    "growth_chance": 2,
+    "dropped_item": "draconicevolution:draconium_ingot",
+    "normal_drop_chance": 2,
+    "max_drop_chance": 3
+}

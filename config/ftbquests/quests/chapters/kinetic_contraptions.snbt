@@ -1,0 +1,513 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "kinetic_contraptions"
+	group: ""
+	id: "61049036FCFF39B9"
+	order_index: 1
+	quest_links: [
+		{
+			id: "1E93DD850670C896"
+			linked_quest: "1A7820CA8E752427"
+			shape: "gear"
+			size: 2.0d
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			id: "55A9C1527EB470F7"
+			linked_quest: "2D69C4A5F91F3CF7"
+			x: 6.0d
+			y: -1.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["1A7820CA8E752427"]
+			id: "6F753FCA6748FBF0"
+			require_sequential_tasks: false
+			tasks: [{
+				id: "3C964ABA1D3875DA"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6F753FCA6748FBF0"]
+			id: "3BEACA2DE7728F3B"
+			require_sequential_tasks: false
+			tasks: [
+				{
+					id: "080EDFFC473A9956"
+					item: "create:andesite_casing"
+					type: "item"
+				}
+				{
+					id: "0E6D1B04A6EB80F7"
+					item: "create:shaft"
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3BEACA2DE7728F3B"]
+			id: "492689370B0F4731"
+			tasks: [{
+				id: "030877F13C9C2DF0"
+				item: "create:millstone"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3BEACA2DE7728F3B"]
+			id: "36851BE0E8C197B9"
+			require_sequential_tasks: false
+			tasks: [
+				{
+					id: "01B1916A97CB8518"
+					item: "create:hand_crank"
+					type: "item"
+				}
+				{
+					id: "3458F29671796673"
+					item: "create:cogwheel"
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["492689370B0F4731"]
+			id: "499522428D11BBAA"
+			require_sequential_tasks: false
+			tasks: [{
+				id: "386F31DDB1282352"
+				item: "create:encased_fan"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3BEACA2DE7728F3B"]
+			id: "2380E54A5C3D8DE1"
+			require_sequential_tasks: false
+			tasks: [{
+				id: "1A1868716B754E36"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3BEACA2DE7728F3B"]
+			id: "636F68E40072AD9B"
+			require_sequential_tasks: false
+			tasks: [
+				{
+					id: "770BC15F78F59CB3"
+					item: "create:encased_chain_drive"
+					type: "item"
+				}
+				{
+					id: "2FEB915E29DA6EFE"
+					item: "create:gearbox"
+					type: "item"
+				}
+				{
+					id: "1A8429177786A9B6"
+					item: "create:vertical_gearbox"
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3BEACA2DE7728F3B"]
+			id: "0125871937D41659"
+			require_sequential_tasks: false
+			tasks: [
+				{
+					id: "042A12C0808EC866"
+					item: "create:depot"
+					type: "item"
+				}
+				{
+					id: "7AB9EDF5ADD387D4"
+					item: "create:mechanical_press"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0125871937D41659"]
+			id: "67ECCDF67AB9BAB1"
+			require_sequential_tasks: false
+			tasks: [
+				{
+					id: "792182B38440AD42"
+					item: "create:wrench"
+					type: "item"
+				}
+				{
+					id: "1BD06F5A307E7609"
+					item: "create:goggles"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3BEACA2DE7728F3B"]
+			id: "0F2E8D7DA23070FC"
+			require_sequential_tasks: false
+			tasks: [{
+				id: "0317A95F8A0A2663"
+				item: "create:mechanical_saw"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"75D693CEC7D6685A"
+				"289E79DDFD2D2544"
+			]
+			id: "1F652642467E9A58"
+			require_sequential_tasks: false
+			tasks: [
+				{
+					id: "294F7514A5080D8A"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(create:sandpaper)"
+						}
+					}
+					title: "Any #create:sandpaper"
+					type: "item"
+				}
+				{
+					id: "2E20CDE92F2DA6FC"
+					item: "create:polished_rose_quartz"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"1F652642467E9A58"
+				"7775FADFB311BFD9"
+			]
+			id: "582C193207B94611"
+			require_sequential_tasks: false
+			tasks: [{
+				id: "47563916AFE5679D"
+				item: "create:deployer"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0125871937D41659"]
+			id: "34E47BB009AC7D5C"
+			require_sequential_tasks: false
+			tasks: [{
+				id: "69A7EE5E2529FFFF"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2380E54A5C3D8DE1"]
+			id: "30D33E535025EAD8"
+			tasks: [{
+				id: "1D7A390E57D5549F"
+				item: "create:large_water_wheel"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"582C193207B94611"
+				"5C1E3ACFD2F9C650"
+			]
+			id: "3DF334D3DF981D3D"
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				count: 8L
+				id: "289B998D28AEC2DD"
+				item: { Count: 8, id: "immersiveengineering:alloybrick" }
+				type: "item"
+			}]
+			x: 2.25d
+			y: -0.75d
+		}
+		{
+			dependencies: ["3BEACA2DE7728F3B"]
+			id: "27E0AF46F908E6D9"
+			tasks: [{
+				id: "508A6ACCC44FF498"
+				item: "create:windmill_bearing"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["27E0AF46F908E6D9"]
+			id: "357F849466783496"
+			tasks: [
+				{
+					id: "77BDD4341211E182"
+					item: "create:white_sail"
+					type: "item"
+				}
+				{
+					id: "001684BCD76FAF3B"
+					item: {
+						Count: 1
+						id: "create:super_glue"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0125871937D41659"]
+			id: "4492B51A9C727D78"
+			tasks: [{
+				id: "39B4DE436D44D22B"
+				item: "create:fluid_tank"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4492B51A9C727D78"]
+			id: "49A2F592D12DC5A5"
+			tasks: [{
+				id: "6EC59B566C9FC00B"
+				item: "create:steam_engine"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["49A2F592D12DC5A5"]
+			id: "4D0E448D7C9C75F4"
+			tasks: [
+				{
+					id: "17A0DB398DB2E6EA"
+					item: "create:fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "52C7247CBE36475F"
+					item: "create:mechanical_pump"
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["36851BE0E8C197B9"]
+			id: "2CAAA679089FD1CF"
+			tasks: [{
+				id: "00C734E1FEA7CB99"
+				item: "create:large_cogwheel"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0125871937D41659"]
+			id: "660794159EA5572C"
+			tasks: [{
+				id: "2AE1E260C38DE5AC"
+				item: "create:mechanical_mixer"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["660794159EA5572C"]
+			id: "59BFD6155D218C12"
+			tasks: [{
+				id: "5253F24261F0CBF6"
+				item: "create:basin"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["59BFD6155D218C12"]
+			icon_scale: 0.75d
+			id: "165BA06960C5C2AB"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "5CA4F9D5CFF2132C"
+				item: "immersiveengineering:creosote_bucket"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["165BA06960C5C2AB"]
+			id: "11BCD612FAD8E339"
+			tasks: [{
+				id: "2BD6ABD53968F98F"
+				item: "create:spout"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3DF334D3DF981D3D"]
+			id: "252BCFE557632122"
+			tasks: [{
+				id: "01CB77B4A9AC9F2D"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["59BFD6155D218C12"]
+			id: "7775FADFB311BFD9"
+			tasks: [{
+				id: "7CD1328C854E8072"
+				item: "create:brass_nugget"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["59BFD6155D218C12"]
+			id: "0B5E7A2FDA4CA4FB"
+			tasks: [{
+				id: "4F532A7CBC005080"
+				item: "mekanism:nugget_steel"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0B5E7A2FDA4CA4FB"]
+			id: "75D693CEC7D6685A"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "37FA7387698C1FD0"
+				type: "dimension"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0125871937D41659"]
+			id: "289E79DDFD2D2544"
+			tasks: [{
+				id: "0A7F9DD9B3B82BF9"
+				item: "createaddition:rolling_mill"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["59BFD6155D218C12"]
+			id: "03DABB1116552D1A"
+			tasks: [{
+				id: "52844B34C6562701"
+				item: "create:chute"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["252BCFE557632122"]
+			id: "27F37B9E48984AD7"
+			tasks: [{
+				id: "25C0C94075F4557E"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["27F37B9E48984AD7"]
+			id: "5ABFAA79C02431C7"
+			tasks: [{
+				id: "0ABD667CE6E8AA79"
+				item: "create:crushing_wheel"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["27F37B9E48984AD7"]
+			id: "0B9B63389931F8CD"
+			tasks: [{
+				id: "1DF6BC618D3FA8F1"
+				item: "create:empty_blaze_burner"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5ABFAA79C02431C7"]
+			id: "7E35C3054ADB7374"
+			tasks: [{
+				id: "4E50ED896C426427"
+				item: "immersiveengineering:dust_coke"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.5d
+		}
+	]
+	title: "Create"
+}

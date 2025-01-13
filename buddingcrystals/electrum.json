@@ -1,0 +1,8 @@
+{
+    "translation": "Electrum",
+    "texture": "minecraft:block/yellow_glazed_terracotta",
+    "growth_chance": 5,
+    "dropped_item": "immersiveengineering:ingot_electrum",
+    "normal_drop_chance": 2,
+    "max_drop_chance": 6
+}

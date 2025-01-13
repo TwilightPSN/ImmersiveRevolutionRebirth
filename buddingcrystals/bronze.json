@@ -1,0 +1,8 @@
+{
+    "translation": "Bronze",
+    "texture": "mekanism:block/block_bronze",
+    "growth_chance": 5,
+    "dropped_item": "mekanism:ingot_bronze",
+    "normal_drop_chance": 2,
+    "max_drop_chance": 6
+}

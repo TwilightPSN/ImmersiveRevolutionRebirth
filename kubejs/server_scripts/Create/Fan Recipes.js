@@ -1,0 +1,13 @@
+ServerEvents.recipes(IRRebirth => {
+    IRRebirth.recipes.create.splashing('immersiveengineering:dust_nickel', 'jaopca:mekanism_dirty_dusts.nickel')
+    IRRebirth.recipes.create.splashing('immersiveengineering:dust_silver', 'jaopca:mekanism_dirty_dusts.silver')
+    IRRebirth.recipes.create.splashing('immersiveengineering:dust_aluminum', 'jaopca:mekanism_dirty_dusts.aluminum')
+    IRRebirth.recipes.create.splashing('mekanism:dust_uranium', 'mekanism:dirty_dust_uranium')
+    IRRebirth.recipes.create.splashing('mekanism:dust_lead', 'mekanism:dirty_dust_lead')
+    IRRebirth.recipes.create.splashing('mekanism:dust_tin', 'mekanism:dirty_dust_tin')
+    IRRebirth.recipes.create.splashing('mekanism:dust_osmium', 'mekanism:dirty_dust_osmium')
+    IRRebirth.recipes.create.splashing('mekanism:dust_gold', 'mekanism:dirty_dust_gold')
+    IRRebirth.recipes.create.splashing('mekanism:dust_copper', 'mekanism:dirty_dust_copper')
+    IRRebirth.recipes.create.splashing('mekanism:dust_iron', 'mekanism:dirty_dust_iron')
+    IRRebirth.recipes.create.splashing('jaopca:dusts.zinc', 'jaopca:mekanism_dirty_dusts.zinc')
+  })

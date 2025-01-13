@@ -1,0 +1,16 @@
+# Default config file that will be copied to saves\New World\serverconfig\ftbchunks-world.snbt if it doesn't exist!
+# Just copy any values you wish to override in here!
+
+{
+    # Max claimed chunks.
+	# You can override this with FTB Ranks 'ftbchunks.max_claimed' permission
+	# Default: 500
+	# Range: -∞ ~ +∞
+	max_claimed_chunks: 50
+	
+	# Max force loaded chunks.
+	# You can override this with FTB Ranks 'ftbchunks.max_force_loaded' permission
+	# Default: 25
+	# Range: -∞ ~ +∞
+	max_force_loaded_chunks: 0
+}

@@ -1,0 +1,252 @@
+
+[general]
+	#Determines if the mineshaft chest is included when building mineshafts for various structures.
+	"Include Mineshaft Chest" = false
+	#Determines if the Preview buttons in structure GUIs and other structure previews functions are enabled. Client side only.
+	"Include Structure Previews" = true
+	#General
+	#Determines which starting item a player gets on first world join. Valid values for this option are: "Starting House", "Moderate House", "Nothing". Server configuration overrides client.
+	"Starting Item" = "Starting House"
+	#Can new players for a world receive a starting item?. Server configuration overrides client.
+	"New Players Get Starting Item" = false
+	#Determines if the bulldozer item can create drops when it clears an area.
+	"Bulldozer Creates Drops" = false
+	#Determines if the spawners for the Monster Masher building are included. Server configuration overrides client.
+	"Include Spawners in Monster Masher" = false
+	#Play Sound When Generating Blueprint
+	"Play Building Sound" = true
+	#Determines if water can be generated in structures when the current dimension is not the oveworld. Does not affect Nether
+	"Include Water In Non-Overworld Dimesions" = false
+
+	[general."starter house"]
+		#Determines if the mineshaft is included in the starter house. When playing on a server, the server configuration is used
+		"Add Mineshaft" = false
+		#Starter House Options
+		#Determines if the bed is included in the starter house. When playing on a server, the server configuration is used
+		"Add Bed" = true
+		#Determines if chests are included in the starter house. When playing on a server, the server configuration is used
+		"Add Chests" = false
+		#Determines if the crafting table is included in the starter house. When playing on a server, the server configuration is used
+		"Add Crafting Table" = false
+		#Determines if the chest contents is included in the starter house. When playing on a server, the server configuration is used
+		"Add Chest Contents" = false
+		#Determines if the furnace is included in the starter house. When playing on a server, the server configuration is used
+		"Add Furnace" = false
+
+	[general.recipes]
+		#Determines if the recipe(s) associated with the Grassy Plains are enabled.
+		"Grassy Plains" = false
+		#Determines if the recipe(s) associated with the Upgrade are enabled.
+		Upgrade = false
+		#Determines if the recipe(s) associated with the Smart Glass are enabled.
+		"Smart Glass" = false
+		#Determines if the recipe(s) associated with the Jail are enabled.
+		Jail = false
+		#Determines if the recipe(s) associated with the Windmill are enabled.
+		Windmill = false
+		#Determines if the recipe(s) associated with the Dirt Recipes are enabled.
+		"Dirt Recipes" = false
+		#Determines if the recipe(s) associated with the Modern Buildings are enabled.
+		"Modern Buildings" = false
+		#Determines if the recipe(s) associated with the Mineshaft Entrance are enabled.
+		"Mineshaft Entrance" = false
+		#Determines if the recipe(s) associated with the Watch Tower are enabled.
+		"Watch Tower" = false
+		#Determines if the recipe(s) associated with the Bunch of Potatoes are enabled.
+		"Bunch of Potatoes" = false
+		#Determines if the recipe(s) associated with the Bunch of Carrots are enabled.
+		"Bunch of Carrots" = false
+		#Determines if the recipe(s) associated with the Pile of Bricks are enabled.
+		"Pile of Bricks" = false
+		#Determines if the recipe(s) associated with the Ton of Timber are enabled.
+		"Ton of Timber" = false
+		#Determines if the recipe(s) associated with the Green House are enabled.
+		"Green House" = false
+		#Determines if the recipe(s) associated with the Compressed Glowstone are enabled.
+		"Compressed Glowstone" = false
+		#Determines if the recipe(s) associated with the House are enabled.
+		House = false
+		#Determines if the recipe(s) associated with the Light Switch are enabled.
+		"Light Switch" = false
+		#Determines if the recipe(s) associated with the Ender Gateway are enabled.
+		"Ender Gateway" = false
+		#Determines if the recipe(s) associated with the Town Hall are enabled.
+		"Town Hall" = false
+		#Determines if the recipe(s) associated with the Compressed Obsidian are enabled.
+		"Compressed Obsidian" = false
+		#Determines if the recipe(s) associated with the Advanced Farm are enabled.
+		"Advanced Farm" = false
+		#Determines if the recipe(s) associated with the Machinery Tower are enabled.
+		"Machinery Tower" = false
+		#Determines if the recipe(s) associated with the Bundle of Timber are enabled.
+		"Bundle of Timber" = false
+		#Determines if the recipe(s) associated with the Villager Houses are enabled.
+		"Villager Houses" = false
+		#Determines if the recipe(s) associated with the Saloon are enabled.
+		Saloon = false
+		#Determines if the recipe(s) associated with the Advanced House are enabled.
+		"Advanced House" = false
+		#Determines if the recipe(s) associated with the Paper Lantern are enabled.
+		"Paper Lantern" = false
+		#Determines if the recipe(s) associated with the Warehouse are enabled.
+		Warehouse = false
+		#Determines if the recipe(s) associated with the Bulldozer are enabled.
+		Bulldozer = false
+		#Determines if the recipe(s) associated with the Compressed Chest are enabled.
+		"Compressed Chest" = false
+		#Determines if the recipe(s) associated with the Magic Temple are enabled.
+		"Magic Temple" = false
+		#Determines if the recipe(s) associated with the Compressed Stone are enabled.
+		"Compressed Stone" = false
+		#Determines if the recipe(s) associated with the Sickle are enabled.
+		Sickle = false
+		#Determines if the recipe(s) associated with the Defense Bunker are enabled.
+		"Defense Bunker" = false
+		#Determines if the recipe(s) associated with the Aqua Base are enabled.
+		"Aqua Base" = false
+		#Determines if the recipe(s) associated with the Wooden Crate are enabled.
+		"Wooden Crate" = false
+		#Determines if the recipe(s) associated with the Workshop are enabled.
+		Workshop = false
+		#Determines if the recipe(s) associated with the Glass Stairs are enabled.
+		"Glass Stairs" = false
+		#Determines if the recipe(s) associated with the Swift Blade are enabled.
+		"Swift Blade" = false
+		#Determines if the recipe(s) associated with the Glass Slabs are enabled.
+		"Glass Slabs" = false
+		#Determines if the recipe(s) associated with the Phasic Block are enabled.
+		"Phasic Block" = false
+		#Determines if the recipe(s) associated with the Ski Lodge are enabled.
+		"Ski Lodge" = false
+		#Determines if the recipe(s) associated with the Compressed Dirt are enabled.
+		"Compressed Dirt" = false
+		#Determines if the recipe(s) associated with the Improved House are enabled.
+		"Improved House" = false
+		#Determines if the recipe(s) associated with the Bunch of Eggs are enabled.
+		"Bunch of Eggs" = false
+		#Determines if the recipe(s) associated with the Quartz-Crete are enabled.
+		Quartz-Crete = false
+		#Determines if the recipe(s) associated with the Improved Warehouse are enabled.
+		"Improved Warehouse" = false
+		#Determines if the recipe(s) associated with the Nether Gate are enabled.
+		"Nether Gate" = false
+		#Determines if the recipe(s) associated with the Instant Bridge are enabled.
+		"Instant Bridge" = false
+		#Determines if the recipe(s) associated with the Dark Light Lamp are enabled.
+		"Dark Light Lamp" = false
+		#Determines if the recipe(s) associated with the Heap of Timber are enabled.
+		"Heap of Timber" = false
+		#Determines if the recipe(s) associated with the Farm are enabled.
+		Farm = false
+		#Determines if the recipe(s) associated with the Bunch of Beets are enabled.
+		"Bunch of Beets" = false
+		#Determines if the recipe(s) associated with the Improved Farm are enabled.
+		"Improved Farm" = false
+
+	[general."structure options"]
+		item_prefab_item_house_prefab_gui_house_tree_display = true
+		item_prefab_item_modern_buildings_improved_prefab_gui_modern_construction_site = false
+		item_prefab_item_house_improved_prefab_gui_modern_house = false
+		item_prefab_item_farm_advanced_prefab_gui_farm_advanced_melon = false
+		item_prefab_item_farm_advanced_prefab_gui_farm_advanced_monster = false
+		item_prefab_item_farm_prefab_gui_farm_cactus = false
+		item_prefab_item_modern_buildings_prefab_gui_modern_mini_hotel = false
+		item_prefab_item_house_prefab_gui_house_izba_display = true
+		item_prefab_item_house_improved_prefab_gui_house_improved_acacia = false
+		item_prefab_item_house_improved_prefab_gui_house_improved_jungle = false
+		item_prefab_item_house_improved_prefab_gui_house_improved_earthen = false
+		item_prefab_item_house_improved_prefab_gui_house_improved_spruce = false
+		item_prefab_item_house_improved_prefab_gui_house_improved_crimson_house = false
+		item_prefab_item_farm_improved_prefab_gui_farm_improved_chicken = false
+		item_prefab_item_villager_houses_prefab_gui_villager_house_fenced = false
+		item_prefab_item_farm_improved_prefab_gui_farm_improved_automated = false
+		item_prefab_item_modern_buildings_improved_prefab_gui_modern_gas_station = false
+		item_prefab_item_farm_prefab_gui_farm_berry = false
+		item_prefab_item_farm_prefab_gui_farm_chicken = false
+		item_prefab_item_villager_houses_prefab_gui_villager_house_flat = false
+		item_prefab_item_house_prefab_gui_house_subaquatic_display = true
+		item_prefab_item_house_prefab_gui_house_desert_display = true
+		item_prefab_item_house_improved_prefab_gui_house_improved_cottage_house = false
+		item_prefab_item_house_improved_prefab_gui_house_improved_hobbit_house = false
+		item_prefab_item_modern_buildings_prefab_gui_modern_hipster_fruit_stand = false
+		item_prefab_item_house_prefab_gui_house_loft_display = true
+		item_prefab_item_nether_gate_item_prefab_item_nether_gate_skull = false
+		item_prefab_item_house_advanced_prefab_gui_house_advanced_estate = false
+		item_prefab_item_farm_advanced_prefab_gui_farm_advanced_barn = false
+		item_prefab_item_nether_gate_item_prefab_item_nether_gate_tree = false
+		item_prefab_item_farm_advanced_prefab_gui_farm_advanced_produce = false
+		item_prefab_item_watch_tower_item_prefab_item_watch_tower_dark = false
+		item_prefab_item_villager_houses_prefab_gui_villager_long_house = false
+		item_prefab_item_farm_prefab_gui_farm_beef = false
+		item_prefab_item_farm_prefab_gui_farm_horse = false
+		item_prefab_item_house_prefab_gui_house_tower_display = true
+		item_prefab_item_house_advanced_prefab_gui_house_advanced_manor = false
+		item_prefab_item_farm_advanced_prefab_gui_farm_advanced_tree = false
+		item_prefab_item_house_prefab_gui_house_snowy_display = true
+		item_prefab_item_modern_buildings_prefab_gui_modern_cottage = false
+		item_prefab_item_modern_buildings_prefab_gui_modern_apartment = false
+		item_prefab_item_modern_buildings_improved_prefab_gui_modern_bank = false
+		item_prefab_item_farm_improved_prefab_gui_farm_improved_bee = false
+		item_prefab_item_farm_improved_prefab_gui_farm_improved_sugar_cane = false
+		item_prefab_item_farm_advanced_prefab_gui_farm_advanced_green_house = false
+		item_prefab_item_modern_buildings_prefab_gui_modern_cinema = false
+		item_prefab_item_villager_houses_prefab_gui_villager_house_angled = false
+		item_prefab_item_house_prefab_gui_house_modern_display = false
+		item_prefab_item_modern_buildings_improved_prefab_gui_modern_water_park = false
+		item_prefab_item_house_prefab_gui_house_cabin_display = true
+		item_prefab_item_house_prefab_gui_house_basic_display = true
+		item_prefab_item_farm_improved_prefab_gui_farm_mushroom = false
+		item_prefab_item_modern_buildings_prefab_gui_modern_juice_shop = false
+		item_prefab_item_farm_prefab_gui_farm_elevated = false
+		item_prefab_item_farm_prefab_gui_farm_rabbit = false
+		item_prefab_item_villager_houses_prefab_gui_villager_blacksmith = false
+		item_prefab_item_farm_prefab_gui_farm_multi_level = false
+		item_prefab_item_farm_improved_prefab_gui_farm_advanced_green_house = false
+		item_prefab_item_house_improved_prefab_gui_house_improved_nether = false
+		item_prefab_item_house_improved_prefab_gui_house_improved_tower_house = true
+		item_prefab_item_farm_improved_prefab_gui_farm_advanced_barn = false
+		item_prefab_item_house_improved_prefab_gui_house_improved_mountain = true
+		item_prefab_item_watch_tower_item_prefab_item_watch_tower_2 = false
+		item_prefab_item_farm_advanced_prefab_gui_farm_advanced_bamboo = false
+		item_prefab_item_farm_advanced_prefab_gui_farm_advanced_horse = false
+		item_prefab_item_modern_buildings_improved_prefab_gui_modern_library = false
+		item_prefab_item_modern_buildings_prefab_gui_modern_restaurant = false
+		item_prefab_item_farm_improved_prefab_gui_farm_improved_fish = false
+		item_prefab_item_house_prefab_gui_house_mushroom_display = true
+		item_prefab_item_house_prefab_gui_house_desert_display2 = true
+		item_prefab_item_house_improved_prefab_gui_house_improved_acacia_2 = true
+		item_prefab_item_modern_buildings_improved_prefab_gui_modern_house = false
+		item_prefab_item_watch_tower_item_prefab_item_watch_tower = false
+		item_prefab_item_modern_buildings_improved_prefab_gui_modern_mall_store = false
+		item_prefab_item_house_prefab_gui_house_hobbit_display = true
+		item_prefab_item_house_prefab_gui_house_camping_display = true
+		item_prefab_item_house_prefab_gui_house_ranch_display = true
+		item_prefab_item_house_advanced_prefab_gui_house_advanced_workshop = false
+
+	[general."chest contents"]
+		#Determines if seeds, potatoes and carrots are added the the chest when the house is created.
+		"Add Crops" = false
+		#Determines if a set of oak saplings are added the the chest when the house is created.
+		"Add Saplings" = false
+		#Determines if a Stone Axe is added the the chest when the house is created.
+		"Add Axe" = false
+		#Determines if a Stone Hoe is added the the chest when the house is created.
+		"Add Hoe" = false
+		#Determines if a stack of dirt is added the the chest when the house is created.
+		"Add Dirt" = false
+		#Chest Options
+		#Determines if a Stone Sword is added the the chest when the house is created.
+		"Add Sword" = false
+		#Determines if a set of torches are added the the chest when the house is created.
+		"Add Torches" = false
+		#Determines if a stack of cobble is added the the chest when the house is created.
+		"Add Cobblestone" = false
+		#Determines if a Stone Pickaxe is added the the chest when the house is created.
+		"Add Pickaxe" = false
+		#Determines if Leather Armor is added the the chest when the house is created.
+		"Add Armor" = false
+		#Determines if Bread is added the the chest when the house is created.
+		"Add Food" = false
+		#Determines if a Stone Shovel is added the the chest when the house is created.
+		"Add Shovel" = false
+

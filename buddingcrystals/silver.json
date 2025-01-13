@@ -1,0 +1,8 @@
+{
+    "translation": "Silver",
+    "texture":  "minecraft:block/clay",
+    "growth_chance": 5,
+    "dropped_item": "immersiveengineering:ingot_silver",
+    "normal_drop_chance": 2,
+    "max_drop_chance": 6
+}
