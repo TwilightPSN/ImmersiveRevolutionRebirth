@@ -1,3 +1,5 @@
+<p><a href="https://www.curseforge.com/minecraft/modpacks/the-immersive-revolution-rebirth">Download the Pack on Curseforge!</a></p>
+
 <p><strong>The Immersive Revolution: Rebirth</strong> is a technology-driven Minecraft modpack that takes you on an exciting journey through exploration, innovation, and automation. Born from the beloved 1.12.2 pack&nbsp;<strong>The Immersive Revolution,</strong>&nbsp;this reborn version expands on the original's foundation with new features, dimensions, and automation possibilities.</p>
 <p>In this pack, you start by exploring the world around you, gathering resources and discovering new biomes, structures, and dimensions that offer rare materials and advanced technologies.</p>
 <p>As you progress, you'll unlock powerful tech tools and machines that allow you to automate mundane tasks and develop complex systems. The modpack emphasizes immersion, where each new discovery opens the door to even more powerful ways to automate your processes and create machines that integrate seamlessly into your world.</p>
