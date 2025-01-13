@@ -1,0 +1,8 @@
+{
+    "translation": "Steel",
+    "texture":  "mekanism:block/block_steel",
+    "growth_chance": 5,
+    "dropped_item": "mekanism:ingot_steel",
+    "normal_drop_chance": 2,
+    "max_drop_chance": 6
+}

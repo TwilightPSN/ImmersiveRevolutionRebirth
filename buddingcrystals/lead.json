@@ -1,0 +1,8 @@
+{
+    "translation": "Lead",
+    "texture":  "mekanism:block/block_lead",
+    "growth_chance": 5,
+    "dropped_item": "mekanism:ingot_lead",
+    "normal_drop_chance": 2,
+    "max_drop_chance": 6
+}

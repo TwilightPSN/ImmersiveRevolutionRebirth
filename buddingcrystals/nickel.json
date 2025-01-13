@@ -1,0 +1,8 @@
+{
+    "translation": "Nickel",
+    "texture": "minecraft:block/weathered_copper",
+    "growth_chance": 5,
+    "dropped_item": "immersiveengineering:ingot_nickel",
+    "normal_drop_chance": 2,
+    "max_drop_chance": 6
+}

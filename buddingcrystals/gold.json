@@ -1,0 +1,8 @@
+{
+    "translation": "Gold",
+    "texture":  "minecraft:block/gold_block",
+    "growth_chance": 5,
+    "dropped_item": "minecraft:gold_ingot",
+    "normal_drop_chance": 2,
+    "max_drop_chance": 6
+}

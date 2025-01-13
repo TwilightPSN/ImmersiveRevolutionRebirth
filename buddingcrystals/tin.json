@@ -1,0 +1,8 @@
+{
+    "translation": "Tin",
+    "texture":  "mekanism:block/block_tin",
+    "growth_chance": 5,
+    "dropped_item": "mekanism:ingot_tin",
+    "normal_drop_chance": 2,
+    "max_drop_chance": 6
+}

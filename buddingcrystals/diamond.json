@@ -1,0 +1,9 @@
+{
+  "dropped_item": "minecraft:diamond",
+  "recipe_item": "minecraft:diamond",
+  "normal_drop_chance": 1.0,
+  "max_drop_chance": 3.0,
+  "translation": "Diamond",
+  "texture": "minecraft:item/diamond",
+  "growth_chance": 5
+}

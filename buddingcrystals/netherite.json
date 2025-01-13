@@ -1,0 +1,8 @@
+{
+    "translation": "Netherite",
+    "texture":  "minecraft:block/netherite_block",
+    "growth_chance": 5,
+    "dropped_item": "minecraft:netherite_ingot",
+    "normal_drop_chance": 1,
+    "max_drop_chance": 2
+}

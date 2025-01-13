@@ -1,0 +1,8 @@
+{
+    "translation": "Aluminum",
+    "texture": "minecraft:block/calcite",
+    "growth_chance": 5,
+    "dropped_item": "immersiveengineering:ingot_aluminum",
+    "normal_drop_chance": 2,
+    "max_drop_chance": 6
+}

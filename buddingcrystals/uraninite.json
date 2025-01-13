@@ -1,0 +1,8 @@
+{
+    "translation": "Uraninite",
+    "texture": "powah:block/uraninite_block",
+    "growth_chance": 5,
+    "dropped_item": "powah:uraninite",
+    "normal_drop_chance": 2,
+    "max_drop_chance": 6
+}
