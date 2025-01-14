@@ -1,10 +1,23 @@
 ||Alpha 0.0.10||
 
 // Mods Updated //
--HammerLib
+-Sophisticated Storage
+-Sophisticated Backpacks
+-Sophisticated Core
+-Moonlight Lib
+-Create Crafts & Additions
 
 // Mods Removed //
 -Eccentric Tome (Few Guide Books - Unneeded)
+-HammerLib
+
+// Mods Added //
+-Custom Portal Builder
+
+// Config Updates //
+-Custom Portals for JAMD
+-Disabled JAMD Portals
+-Restricted Portals for All Dimensions
 
 ||Alpha 0.0.9||
 

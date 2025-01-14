@@ -25,4 +25,5 @@ JEIEvents.hideItems(IRRebirth => {
     IRRebirth.hide('#minecraft:decorated_pot_sherds');
     IRRebirth.hide('wstweaks:lava_blade');
     IRRebirth.hide('wstweaks:blaze_blade');
+    IRRebirth.hide("@jamd");
 })

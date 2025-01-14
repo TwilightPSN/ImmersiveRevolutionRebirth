@@ -459,45 +459,6 @@
             "predicate_type": "minecraft:tag_match"
           },
           "state": {
-            "Name": "draconicevolution:nether_draconium_ore"
-          }
-        }
-      ]
-    },
-    {
-      "ore_size": 8,
-      "discard_on_air_chance": 0.0,
-      "modifiers": [
-        {
-          "count": 6,
-          "type": "minecraft:count"
-        },
-        {
-          "type": "minecraft:in_square"
-        },
-        {
-          "height": {
-            "min_inclusive": {
-              "absolute": 25
-            },
-            "max_inclusive": {
-              "absolute": 105
-            },
-            "type": "minecraft:uniform"
-          },
-          "type": "minecraft:height_range"
-        },
-        {
-          "type": "minecraft:biome"
-        }
-      ],
-      "targets": [
-        {
-          "target": {
-            "tag": "minecraft:base_stone_nether",
-            "predicate_type": "minecraft:tag_match"
-          },
-          "state": {
             "Name": "bno:nether_copper_ore"
           }
         }

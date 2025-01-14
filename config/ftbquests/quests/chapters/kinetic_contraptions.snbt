@@ -207,8 +207,8 @@
 					type: "item"
 				}
 			]
-			x: -1.0d
-			y: -2.5d
+			x: -1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -222,8 +222,8 @@
 				item: "create:deployer"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -1.0d
+			x: 0.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0125871937D41659"]
@@ -359,8 +359,8 @@
 				item: "create:mechanical_mixer"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 0.5d
+			x: -3.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["660794159EA5572C"]
@@ -371,7 +371,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 0.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["59BFD6155D218C12"]
@@ -384,8 +384,8 @@
 				item: "immersiveengineering:creosote_bucket"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 2.0d
+			x: 0.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["165BA06960C5C2AB"]
@@ -395,8 +395,8 @@
 				item: "create:spout"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 3.0d
+			x: 2.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["3DF334D3DF981D3D"]
@@ -417,8 +417,8 @@
 				item: "create:brass_nugget"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 0.5d
+			x: 0.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["59BFD6155D218C12"]
@@ -428,19 +428,20 @@
 				item: "mekanism:nugget_steel"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -0.5d
+			x: -2.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["0B5E7A2FDA4CA4FB"]
+			hide_dependent_lines: true
 			id: "75D693CEC7D6685A"
 			tasks: [{
 				dimension: "minecraft:the_nether"
 				id: "37FA7387698C1FD0"
 				type: "dimension"
 			}]
-			x: -1.5d
-			y: -1.0d
+			x: -2.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["0125871937D41659"]
@@ -450,8 +451,8 @@
 				item: "createaddition:rolling_mill"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -0.5d
+			x: -2.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["59BFD6155D218C12"]
@@ -461,8 +462,8 @@
 				item: "create:chute"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 1.5d
+			x: -1.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["252BCFE557632122"]
@@ -507,6 +508,46 @@
 			}]
 			x: 6.0d
 			y: -2.5d
+		}
+		{
+			dependencies: ["75D693CEC7D6685A"]
+			id: "1201B29D3A11C204"
+			tasks: [
+				{
+					count: 3L
+					id: "2458C43ECC433878"
+					item: { Count: 3, id: "minecraft:wither_skeleton_skull" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "5A1A472113EECEAD"
+					item: { Count: 4, id: "minecraft:soul_sand" }
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1201B29D3A11C204"]
+			id: "66440D61AD3ECFBC"
+			tasks: [
+				{
+					count: 10L
+					id: "7344315C2BAEBF07"
+					item: { Count: 10, id: "minecraft:quartz_bricks" }
+					type: "item"
+				}
+				{
+					id: "2A8E87CF26F90EF1"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+			]
+			title: "Nether Mining Dim"
+			x: -4.5d
+			y: -4.0d
 		}
 	]
 	title: "Create"
