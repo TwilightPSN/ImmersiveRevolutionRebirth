@@ -35,54 +35,6 @@
             "predicate_type": "minecraft:tag_match"
           },
           "state": {
-            "Name": "draconicevolution:overworld_draconium_ore"
-          }
-        },
-        {
-          "target": {
-            "tag": "minecraft:deepslate_ore_replaceables",
-            "predicate_type": "minecraft:tag_match"
-          },
-          "state": {
-            "Name": "draconicevolution:deepslate_draconium_ore"
-          }
-        }
-      ]
-    },
-    {
-      "ore_size": 9,
-      "discard_on_air_chance": 0.0,
-      "modifiers": [
-        {
-          "count": 10,
-          "type": "minecraft:count"
-        },
-        {
-          "type": "minecraft:in_square"
-        },
-        {
-          "height": {
-            "min_inclusive": {
-              "absolute": -24
-            },
-            "max_inclusive": {
-              "absolute": 56
-            },
-            "type": "minecraft:trapezoid"
-          },
-          "type": "minecraft:height_range"
-        },
-        {
-          "type": "minecraft:biome"
-        }
-      ],
-      "targets": [
-        {
-          "target": {
-            "tag": "minecraft:stone_ore_replaceables",
-            "predicate_type": "minecraft:tag_match"
-          },
-          "state": {
             "Name": "minecraft:iron_ore"
           }
         },

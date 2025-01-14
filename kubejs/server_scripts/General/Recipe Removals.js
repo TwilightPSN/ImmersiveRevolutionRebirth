@@ -36,4 +36,5 @@ ServerEvents.recipes(IRRebirth => {
     IRRebirth.remove({ output: 'ftbfiltersystem:smart_filter'})
     IRRebirth.remove({ output: 'wstweaks:lava_blade'})
     IRRebirth.remove({ output: 'wstweaks:blaze_blade'})
+    IRRebirth.remove({ mod: 'jamd' })
 })
