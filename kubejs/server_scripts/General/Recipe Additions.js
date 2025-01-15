@@ -11,26 +11,6 @@ ServerEvents.recipes(IRRebirth => {
           A: '#minecraft:logs',
         }
       )
-    IRRebirth.shaped(
-        Item.of('minecraft:stick', 4), 
-        [
-          'A',
-          'A'
-        ],
-        {
-          A: '#minecraft:planks',
-        }
-      )
-    IRRebirth.shaped(
-        Item.of('minecraft:stick'), 
-        [
-          'A',
-          'A'
-        ],
-        {
-          A: 'minecraft:bamboo',
-        }
-      )
     IRRebirth.shapeless(
         Item.of('minecraft:flint'),
         [

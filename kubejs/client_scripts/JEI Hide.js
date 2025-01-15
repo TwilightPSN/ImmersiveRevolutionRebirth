@@ -26,4 +26,6 @@ JEIEvents.hideItems(IRRebirth => {
     IRRebirth.hide('wstweaks:lava_blade');
     IRRebirth.hide('wstweaks:blaze_blade');
     IRRebirth.hide("@jamd");
+    IRRebirth.hide(['quarryplus:solid_fuel_quarry', 'quarryplus:mining_well', 'quarryplus:book_mover', 'quarryplus:pump_plus', 'quarryplus:replacer', 'quarryplus:exp_pump', 'quarryplus:adv_quarry', 'quarryplus:mini_quarry', 'quarryplus:filler', 'quarryplus:waterlogged_marker', 'quarryplus:waterlogged_flex_marker', 'quarryplus:waterlogged_marker16', 'quarryplus:placer_plus', 'quarryplus:remote_placer', 'quarryplus:spawner_controller', 'quarryplus:frame', 'quarryplus:creative_generator', 'quarryplus:status_checker', 'quarryplus:y_setter', 'quarryplus:replacer_module', 'quarryplus:exp_module', 'quarryplus:remove_bedrock_module', 'quarryplus:fuel_module_normal', 'quarryplus:filler_module', 'quarryplus:repeat_tick_module', 'quarryplus:dummy', 'quarryplus:dummy_replacer', 'quarryplus:adv_pump']);
+
 })

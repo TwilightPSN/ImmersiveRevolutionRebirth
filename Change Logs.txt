@@ -6,6 +6,7 @@
 -Sophisticated Core
 -Moonlight Lib
 -Create Crafts & Additions
+-Fullblock Energistics
 
 // Mods Removed //
 -Eccentric Tome (Few Guide Books - Unneeded)
@@ -13,11 +14,17 @@
 
 // Mods Added //
 -Custom Portal Builder
+-Additional Enchanted Miner
 
 // Config Updates //
 -Custom Portals for JAMD
 -Disabled JAMD Portals
 -Restricted Portals for All Dimensions
+
+// Script Updates //
+-Quarry Recipe Modifications
+-IE Recipe Changes
+-Powah gating added to Mekanism
 
 ||Alpha 0.0.9||
 

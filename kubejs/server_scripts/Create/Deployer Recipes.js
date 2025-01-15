@@ -5,4 +5,5 @@ ServerEvents.recipes(IRRebirth => {
     IRRebirth.recipes.create.deploying('create:copper_casing', ['#forge:stripped_wood', '#forge:plates/copper'])
     IRRebirth.recipes.create.deploying('createaddition:diamond_grit_sandpaper', ['create:sand_paper', '#forge:dusts/diamond'])
     IRRebirth.recipes.create.deploying('createaddition:diamond_grit_sandpaper', ['create:red_sand_paper', '#forge:dusts/diamond'])
+    IRRebirth.recipes.create.deploying('immersiveengineering:blastbrick_reinforced', ['immersiveengineering:blastbrick', '#forge:plates/steel'])
   })
