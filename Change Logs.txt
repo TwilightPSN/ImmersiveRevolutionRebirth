@@ -11,15 +11,34 @@
 // Mods Removed //
 -Eccentric Tome (Few Guide Books - Unneeded)
 -HammerLib
+-Amplified Nether
+-Rest of YUNG's
+-BiomeInfo
+-BlockRunner
+-Compressium
+-Crawl on Demand
+-Diagonal Fences
+-Default Options
+-Easy Mob Farm
+-Large Ore Deposits
 
 // Mods Added //
 -Custom Portal Builder
 -Additional Enchanted Miner
+-Advancement Plaques
+-Terralith
+-Incendium
+-Nullscape
+-Structory
+-Structory: Towers
+-Continents
+-Bygone Nether
 
 // Config Updates //
 -Custom Portals for JAMD
 -Disabled JAMD Portals
 -Restricted Portals for All Dimensions
+-Config Cleanup
 
 // Script Updates //
 -Quarry Recipe Modifications
