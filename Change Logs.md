@@ -11,7 +11,7 @@
 <li>Cobweb</li></ol><br>
 <br>
 <h5><strong><em>Mods Removed</h5></strong></em><br>
-<ol><li>Eccentric Tome (Few Guide Books <li> Unneeded)</li><br>
+<ol><li>Eccentric Tome (Few Guide Books was Unneeded)</li><br>
 <li>HammerLib</li></ol><br>
 <br>
 <h5><strong><em>Mods Added</h5></strong></em><br>
