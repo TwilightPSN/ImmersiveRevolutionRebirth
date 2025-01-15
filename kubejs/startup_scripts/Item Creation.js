@@ -1,3 +1,5 @@
 StartupEvents.registry('item', IRRebirth => {
-    //Rebirth.create('item_name')
+    IRRebirth.create('blaze_clay')
+        .displayName('Blazing Clay')
+        .tooltip('Clay with a Firey Like Color')
 })
