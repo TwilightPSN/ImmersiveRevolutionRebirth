@@ -6,6 +6,7 @@ ServerEvents.recipes(IRRebirth => {
     IRRebirth.remove({ output: 'immersiveengineering:stick_steel', type: "minecraft:crafting_shaped"})
     IRRebirth.remove({ output: 'immersiveengineering:stick_aluminum', type: "minecraft:crafting_shaped"})
     IRRebirth.remove({ id: 'immersiveengineering:crafting/cokebrick'})
+    IRRebirth.remove({ id: 'immersiveengineering:crafting/blastbrick'})
     IRRebirth.remove({ id: 'immersiveengineering:crafting/blastbrick_reinforced'})
     IRRebirth.remove({ output: 'immersiveengineering:blastbrick_reinforced', type: 'create:item_application'})
 })
