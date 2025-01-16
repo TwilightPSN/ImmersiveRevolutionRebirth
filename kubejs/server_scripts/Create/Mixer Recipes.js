@@ -16,5 +16,4 @@ ServerEvents.recipes(IRRebirth => {
     IRRebirth.recipes.create.mixing('minecraft:obsidian', [Fluid.water(1000), Fluid.lava(1000)])
     IRRebirth.recipes.create.mixing('immersiveengineering:dust_coke', [Item.of('#forge:dusts/coal', 4), Fluid.of("immersiveengineering:creosote", 1000)]).heated()
     IRRebirth.recipes.create.mixing('kubejs:raw_blast_brick', [Item.of('create:cinder_flour', 4), 'minecraft:clay', Fluid.water(100)]).heated()
-
   })

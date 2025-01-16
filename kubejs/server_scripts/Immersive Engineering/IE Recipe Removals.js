@@ -9,4 +9,6 @@ ServerEvents.recipes(IRRebirth => {
     IRRebirth.remove({ id: 'immersiveengineering:crafting/blastbrick'})
     IRRebirth.remove({ id: 'immersiveengineering:crafting/blastbrick_reinforced'})
     IRRebirth.remove({ output: 'immersiveengineering:blastbrick_reinforced', type: 'create:item_application'})
+    IRRebirth.remove({ output: 'immersiveengineering:waterwheel_segment'})
+    IRRebirth.remove({ output: 'immersiveengineering:watermill'})
 })

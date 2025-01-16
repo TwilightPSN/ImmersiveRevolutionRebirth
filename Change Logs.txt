@@ -1,3 +1,12 @@
+||Alpha 0.0.11||
+
+// Mods Updated //
+-Sophisticated Storage
+-Applied Energistics 2
+
+// Mods Removed //
+-Advancement Plaques (Weird Blinking Issues)
+
 ||Alpha 0.0.10||
 
 // Mods Updated //
@@ -74,7 +83,7 @@
 -Refined Cooking
 -Refined Polymorphism
 -Refined Storage
--Refined Stroage Addons
+-Refined Storage Addons
 -Refined Storage: Requestify
 -RSInfinityBooster
 -Universal Grid

@@ -30,4 +30,16 @@ ServerEvents.recipes(IRRebirth => {
           C: 'immersiveengineering:stick_treated'
         }
       )
+      IRRebirth.shaped(
+        Item.of('immersiveengineering:blueprint', '{blueprint:"electrode"}'), 
+        [
+          'AAA',
+          'ABA',
+          'AAA'
+        ],
+        {
+          A: '#forge:storage_blocks/hop_graphite',
+          B: '#forge:dyes/blue'
+        }
+      )
 })

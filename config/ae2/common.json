@@ -53,7 +53,7 @@
   },
   "worldGen": {
     "spawnPressesInMeteorites": true,
-    "spawnFlawlessOnly": true
+    "spawnFlawlessOnly": false
   },
   "wireless": {
     "wirelessBaseCost": 8.0,
