@@ -8,36 +8,21 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: [
-				"Welcome, visionary! You've just embarked on the beginning of an extraordinary technological journey. With iron tools and iron armor already in your possession, you stand at the edge of endless possibilities. These early tools will help you gather resources, defend against dangers, and lay the foundation for your rise to technological mastery."
-				""
-				"But this is only the start. As you explore and discover new materials, your quest for knowledge will open the door to crafting advanced tools, building complex machines, and unlocking the power to reshape the world around you. The world is full of hidden potential—every block you mine, every resource you gather, brings you closer to harnessing new technologies that will revolutionize your world."
-				""
-				"Your journey will take you from simple mechanics to grand inventions, from creating automated farms to mastering electricity and beyond. The road ahead is full of discovery, and every step forward brings you closer to mastering the art of technology."
-			]
+			description: [""]
 			icon: "minecraft:clock"
-			icon_scale: 0.75d
 			id: "599030C9DB9B1E08"
-			shape: "diamond"
-			size: 2.0d
+			size: 1.0d
 			tasks: [{
 				dimension: "minecraft:overworld"
 				id: "495696F88D8C4A53"
 				type: "dimension"
 			}]
-			title: "The Spark of Innovation"
-			x: -6.0d
-			y: -2.0d
+			x: -7.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["599030C9DB9B1E08"]
-			description: [
-				"The journey begins with the simplest of resources—wood. To build the foundation of your future, you must gather wood from the trees around you. These essential materials will be used to craft tools, create shelter, and fuel your early survival."
-				""
-				"Chop down trees and collect wood to kickstart your adventure. The more you gather, the more possibilities open up—whether it’s crafting a crafting table, making torches, or building your first home, wood is the building block of everything to come."
-				""
-				"Take your time, explore the land, and gather plenty of wood—this is just the first step towards a world of creation."
-			]
+			description: [""]
 			icon: "minecraft:oak_log"
 			id: "150B3A6B61937F78"
 			require_sequential_tasks: false
@@ -67,19 +52,12 @@
 					type: "item"
 				}
 			]
-			title: "The First Harvest"
-			x: -4.0d
-			y: 0.0d
+			x: -6.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["150B3A6B61937F78"]
-			description: [
-				"Now that you have gathered wood, it's time to turn those resources into something more useful. To continue your journey, you’ll need to craft two essential items: a crafting station and a furnace."
-				""
-				"The crafting station will allow you to create a wide variety of tools and items, expanding your crafting possibilities beyond what you can do with your basic inventory. The furnace will be key for smelting ores, cooking food, and turning raw materials into valuable resources for the future."
-				""
-				"Gather the necessary materials, craft these essential stations, and prepare for the next phase of your adventure. These tools will unlock new opportunities and help you build a strong foundation for everything that comes next."
-			]
+			description: [""]
 			id: "35008BA8C5E8AD5B"
 			require_sequential_tasks: false
 			tasks: [
@@ -94,19 +72,12 @@
 					type: "item"
 				}
 			]
-			title: "Crafting Essentials"
-			x: -2.5d
-			y: -0.5d
+			x: -5.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["35008BA8C5E8AD5B"]
-			description: [
-				"As you gather more resources, it's time to create a safe place to store them. Chests will help you organize your items and keep them protected as you continue your journey."
-				""
-				"Craft a chest using wood, and you’ll gain more space to store tools, ores, and other materials. This will help you manage your growing collection of resources and make exploring and building much easier."
-				""
-				"With your new chest, you’ll be ready to keep everything organized and efficient as you move forward."
-			]
+			description: [""]
 			id: "5EB800B895DDCBFB"
 			require_sequential_tasks: false
 			tasks: [{
@@ -115,19 +86,12 @@
 				title: "Any Chest"
 				type: "item"
 			}]
-			title: "Organize Your Supplies"
-			x: -1.0d
-			y: 1.0d
+			x: -4.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["5EB800B895DDCBFB"]
-			description: [
-				"Now that you’ve acquired redstone, you can make use of Sophisticated Storage, which allows you to craft larger chests capable of holding bigger stacks of items. This means more space for your growing collection of resources, tools, and materials."
-				""
-				"With these expanded storage options, you can organize and store much more than before, making it easier to manage your items as you venture further into your journey. No more cluttered inventory—larger chests will help keep things tidy and efficient."
-				""
-				"Take advantage of this new storage system and enjoy a more organized, spacious inventory for whatever lies ahead!"
-			]
+			description: [""]
 			icon: {
 				Count: 1
 				id: "sophisticatedstorage:chest"
@@ -150,19 +114,12 @@
 				title: "Any Basic Sophisiticated Storage"
 				type: "item"
 			}]
-			title: "Expanding Your Storage"
-			x: -0.5d
-			y: -0.5d
+			x: -4.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["5EB800B895DDCBFB"]
-			description: [
-				"Now that your storage systems are expanding, it's time to take it to the next level with a backpack. A backpack allows you to carry even more items with you, giving you the freedom to explore and gather without constantly worrying about running out of inventory space."
-				""
-				"Acquire a backpack to increase your mobility and store additional resources, tools, and materials while you're out and about. It’s the perfect companion for your adventures, allowing you to keep essential items on hand and manage your load more efficiently."
-				""
-				"Equip yourself with a backpack, and prepare for the next phase of your journey—your inventory just got a whole lot bigger!"
-			]
+			description: [""]
 			id: "626D8B47A8BE8566"
 			require_sequential_tasks: false
 			tasks: [{
@@ -172,19 +129,12 @@
 				title: "Any Color Backpack"
 				type: "item"
 			}]
-			title: "Pack for Adventure"
-			x: 1.0d
-			y: 0.0d
+			x: -3.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["24DB690822140D7E"]
-			description: [
-				"With your Sophisticated Storage system in place, it’s time to make organizing your items even easier. The Storage Controller will allow you to manage your chests and barrels with incredible efficiency, making it simple to put items away with just a few clicks."
-				""
-				"No longer will you need to open each chest individually—link your Storage Controller to your storage units, and you can deposit items quickly and easily from anywhere. This will save you time and effort, especially as your collection of resources grows."
-				""
-				"Set up the Storage Controller and enjoy streamlined item management, allowing you to focus on exploring, crafting, and building without worrying about your inventory."
-			]
+			description: [""]
 			id: "631AFA5E8CC2810D"
 			require_sequential_tasks: false
 			tasks: [{
@@ -192,13 +142,12 @@
 				item: "sophisticatedstorage:controller"
 				type: "item"
 			}]
-			title: "Effortless Storage"
-			x: 0.5d
-			y: -1.5d
+			x: -4.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["631AFA5E8CC2810D"]
-			description: ["To enhance your storage organization, you’ll need the Storage Tool. This tool allows you to link your storage units to the Storage Controller, lock items in place, and hide icons on your barrels and chests for a cleaner look."]
+			description: [""]
 			id: "367827D38EAE8781"
 			require_sequential_tasks: false
 			tasks: [{
@@ -206,17 +155,12 @@
 				item: "sophisticatedstorage:storage_tool"
 				type: "item"
 			}]
-			title: "Crafting the Storage Tool"
-			x: 0.0d
-			y: -3.0d
+			x: -5.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["24DB690822140D7E"]
-			description: [
-				"As your resource collection grows, so does the need for more storage space. Upgrade your chests to increase their storage capacity and provide more slots for your items. With upgraded chests, you’ll be able to store more materials and keep everything better organized."
-				""
-				"Using materials like iron, gold, or other resources, you can enhance your chests to hold even more items. This will save you from constantly running out of space and help you manage your growing inventory more efficiently."
-			]
+			description: [""]
 			icon: "sophisticatedstorage:basic_to_diamond_tier_upgrade"
 			id: "4717B8DD6ABFFB74"
 			require_sequential_tasks: false
@@ -232,13 +176,12 @@
 				title: "Any Chest Upgrade"
 				type: "item"
 			}]
-			title: "Expanding Storage Capacity"
-			x: -1.5d
-			y: -1.5d
+			x: -5.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["5EB800B895DDCBFB"]
-			description: ["Say goodbye to cluttered inventories and wasted time. The Dank Storage cube is the ultimate tool for miners, allowing you to collect valuable resources while automatically voiding excess materials you don’t need. Keep your inventory clean, organized, and ready for numerous raw materials you will be gathering."]
+			description: [""]
 			id: "71BB6AA60647CE9E"
 			require_sequential_tasks: false
 			tasks: [{
@@ -246,13 +189,12 @@
 				item: "dankstorage:dank_1"
 				type: "item"
 			}]
-			title: "Cube of Endless Capacity"
-			x: -2.5d
-			y: 1.5d
+			x: -5.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["5EB800B895DDCBFB"]
-			description: ["Deep within the stone lies the lifeblood of creation—iron and copper. These essential metals are the foundation of progress, from sturdy tools to intricate contraptions. Grab your pickaxe and delve into the caves, where veins of iron and copper await. Unearth these treasures and lay the groundwork for your next great adventure!"]
+			description: [""]
 			id: "43EA598EC21DA525"
 			require_sequential_tasks: false
 			tasks: [
@@ -267,13 +209,12 @@
 					type: "item"
 				}
 			]
-			title: "Metallic Riches Below"
-			x: 0.5d
-			y: 1.5d
+			x: -3.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["43EA598EC21DA525"]
-			description: ["Carry your tools like a true craftsman with the ultimate utility upgrade—a toolbelt! No more fumbling through your inventory; keep your pickaxe, shovel, and other essentials at your side, ready for any task. Forge this handy accessory and take your efficiency to the next level!"]
+			description: [""]
 			id: "7EC8D3471FB3EEDE"
 			require_sequential_tasks: false
 			tasks: [{
@@ -281,26 +222,23 @@
 				item: "toolbelt:belt"
 				type: "item"
 			}]
-			title: "Belt of Mastery"
-			x: 3.0d
-			y: 0.0d
+			x: -2.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["43EA598EC21DA525"]
-			description: ["Every great invention begins with a solid foundation. Andesite, the cornerstone of mechanical ingenuity, is the key to unlocking the wonders of the Create mod. Venture into the depths of the earth to gather this versatile stone and prepare to craft the machines that will shape your world!"]
-			icon_scale: 0.75d
+			description: [""]
 			id: "1A7820CA8E752427"
 			require_sequential_tasks: false
 			shape: "gear"
-			size: 2.0d
+			size: 1.0d
 			tasks: [{
 				id: "40674DAE65D0069F"
 				item: "minecraft:andesite"
 				type: "item"
 			}]
-			title: "Foundation of Innovation"
-			x: 3.0d
-			y: 2.0d
+			x: -2.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["631AFA5E8CC2810D"]
@@ -322,8 +260,8 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: -2.0d
+			x: -3.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["232B6B3758CD612E"]
@@ -340,8 +278,8 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
-			y: -3.5d
+			x: -2.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["43EA598EC21DA525"]
@@ -355,8 +293,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.5d
-			y: 3.0d
+			x: -4.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["599030C9DB9B1E08"]
@@ -372,8 +310,8 @@
 				}
 				type: "item"
 			}]
-			x: -4.5d
-			y: -3.5d
+			x: -7.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["599030C9DB9B1E08"]
@@ -383,8 +321,8 @@
 				item: "cookingforblockheads:cooking_table"
 				type: "item"
 			}]
-			x: -7.5d
-			y: -0.5d
+			x: -8.0d
+			y: -3.5d
 		}
 		{
 			dependencies: [
@@ -397,8 +335,8 @@
 				item: "appliedcooking:kitchen_station"
 				type: "item"
 			}]
-			x: -9.0d
-			y: -1.0d
+			x: -8.0d
+			y: -4.5d
 		}
 	]
 	title: "Getting Started"
