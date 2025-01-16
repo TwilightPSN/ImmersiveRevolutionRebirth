@@ -15,5 +15,25 @@ ServerEvents.recipes(IRRebirth => {
     'minecraft:iron_ingot',
     '#forge:ingots/steel'
   )
+  IRRebirth.replaceInput(
+    { output: 'storagenetwork:kabel' },
+    'minecraft:iron_ingot',
+    '#forge:plates/brass'
+  )
+  IRRebirth.replaceInput(
+    { output: 'storagenetwork:master' },
+    'minecraft:quartz',
+    'create:polished_rose_quartz'
+  )
+  IRRebirth.replaceInput(
+    { output: 'storagenetwork:inventory' },
+    'minecraft:iron_nugget',
+    'create:brass_nugget'
+  )
+  IRRebirth.replaceInput(
+    { output: 'storagenetwork:request' },
+    'minecraft:gold_ingot',
+    '#forge:plates/brass'
+  )
 })
 

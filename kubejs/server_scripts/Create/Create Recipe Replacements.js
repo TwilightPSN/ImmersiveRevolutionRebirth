@@ -40,4 +40,9 @@ ServerEvents.recipes(IRRebirth => {
     '#minecraft:logs',
     '#forge:treated_wood'
   )
+  IRRebirth.replaceInput(
+    { output: 'create:white_sail' },
+    '#forge:rods/wooden',
+    'immersiveengineering:stick_treated'
+  )
 })

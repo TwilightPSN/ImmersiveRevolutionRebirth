@@ -39,5 +39,34 @@ ServerEvents.recipes(IRRebirth => {
     'minecraft:iron_ingot',
     '#forge:plates/brass'
   )
+  IRRebirth.replaceInput(
+    { output: 'immersiveengineering:conveyor_basic' },
+    'minecraft:iron_ingot',
+    '#forge:plates/steel'
+  )
+  IRRebirth.replaceInput(
+    { output: 'immersiveengineering:conveyor_vertical' },
+    'minecraft:iron_ingot',
+    '#forge:plates/steel'
+  )
+  IRRebirth.replaceInput(
+    { output: 'immersiveengineering:conveyor_splitter' },
+    'minecraft:iron_ingot',
+    '#forge:plates/steel'
+  )
+  IRRebirth.replaceInput(
+    { output: 'immersiveengineering:wirecoil_structure_rope' },
+    '#forge:rods/wooden',
+    'immersiveengineering:stick_treated'
+  )
+  IRRebirth.replaceInput(
+    { output: 'immersiveengineering:coil_mv' },
+    'minecraft:iron_ingot',
+    '#forge:plates/electrum'
+  )
+  IRRebirth.replaceInput(
+    { output: 'immersiveengineering:coil_hv' },
+    'minecraft:iron_ingot',
+    '#forge:plates/steel'
+  )
 })
-

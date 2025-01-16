@@ -23,4 +23,6 @@ ServerEvents.recipes(IRRebirth => {
     rolling('immersiveengineering:wire_aluminum', '#forge:plates/aluminum', 1)
     rolling('immersiveengineering:wire_lead', '#forge:plates/lead', 1)
     rolling('immersiveengineering:wire_steel', '#forge:plates/steel', 1)
+    rolling('immersiveengineering:hemp_fabric', 'immersiveengineering:wirecoil_structure_rope', 1)
+    rolling('createaddition:straw', 'minecraft:bamboo', 1)
 })
