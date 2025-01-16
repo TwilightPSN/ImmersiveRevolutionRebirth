@@ -32,4 +32,7 @@ JEIEvents.hideItems(IRRebirth => {
     IRRebirth.hide(['createaddition:large_connector', 'createaddition:connector', 'createaddition:festive_spool', 'createaddition:spool', 'createaddition:copper_spool', 'createaddition:gold_spool', 'createaddition:electrum_spool', 'createaddition:gold_wire', 'create_sa:andesite_jetpack_chestplate', 'create_sa:copper_jetpack_chestplate', 'create_sa:brass_jetpack_chestplate', 'create_sa:andesite_exoskeleton_chestplate', 'create_sa:copper_exoskeleton_chestplate', 'create_sa:brass_exoskeleton_chestplate'])
     IRRebirth.hide('immersiveengineering:windmill_blade');
     IRRebirth.hide('immersiveengineering:waterwheel_segment');
+    IRRebirth.hide('create:crushed_raw_osmium');
+    IRRebirth.hide('create:crushed_raw_platinum');
+    IRRebirth.hide('create:crushed_raw_quicksilver');
 })

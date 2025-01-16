@@ -10,15 +10,14 @@
 			id: "1E93DD850670C896"
 			linked_quest: "1A7820CA8E752427"
 			shape: "gear"
-			size: 2.0d
-			x: -8.0d
+			x: -9.5d
 			y: 0.0d
 		}
 		{
 			id: "55A9C1527EB470F7"
 			linked_quest: "2D69C4A5F91F3CF7"
-			x: 6.5d
-			y: -1.5d
+			x: 2.0d
+			y: 0.0d
 		}
 	]
 	quests: [
@@ -31,8 +30,8 @@
 				item: "create:andesite_alloy"
 				type: "item"
 			}]
-			x: -6.5d
-			y: -0.5d
+			x: -8.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["6F753FCA6748FBF0"]
@@ -50,7 +49,7 @@
 					type: "item"
 				}
 			]
-			x: -5.5d
+			x: -7.5d
 			y: 0.0d
 		}
 		{
@@ -61,8 +60,8 @@
 				item: "create:millstone"
 				type: "item"
 			}]
-			x: -5.5d
-			y: -1.5d
+			x: -7.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["3BEACA2DE7728F3B"]
@@ -80,8 +79,8 @@
 					type: "item"
 				}
 			]
-			x: -6.5d
-			y: -1.5d
+			x: -8.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["492689370B0F4731"]
@@ -92,8 +91,8 @@
 				item: "create:encased_fan"
 				type: "item"
 			}]
-			x: -6.0d
-			y: -2.5d
+			x: -7.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["3BEACA2DE7728F3B"]
@@ -104,7 +103,7 @@
 				item: "create:water_wheel"
 				type: "item"
 			}]
-			x: -5.5d
+			x: -6.5d
 			y: 1.0d
 		}
 		{
@@ -128,8 +127,8 @@
 					type: "item"
 				}
 			]
-			x: -4.5d
-			y: -0.5d
+			x: -6.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["3BEACA2DE7728F3B"]
@@ -147,8 +146,8 @@
 					type: "item"
 				}
 			]
-			x: -4.0d
-			y: 0.5d
+			x: -5.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0125871937D41659"]
@@ -166,8 +165,8 @@
 					type: "item"
 				}
 			]
-			x: -3.5d
-			y: -1.5d
+			x: -5.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["3BEACA2DE7728F3B"]
@@ -178,8 +177,8 @@
 				item: "create:mechanical_saw"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -1.5d
+			x: -6.5d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -207,7 +206,7 @@
 					type: "item"
 				}
 			]
-			x: -1.5d
+			x: -3.0d
 			y: 0.0d
 		}
 		{
@@ -222,7 +221,7 @@
 				item: "create:deployer"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -2.0d
 			y: 0.0d
 		}
 		{
@@ -234,8 +233,8 @@
 				item: "create:belt_connector"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 1.5d
+			x: -4.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["2380E54A5C3D8DE1"]
@@ -245,7 +244,7 @@
 				item: "create:large_water_wheel"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -6.5d
 			y: 2.0d
 		}
 		{
@@ -253,17 +252,20 @@
 				"582C193207B94611"
 				"5C1E3ACFD2F9C650"
 			]
+			icon: "immersiveengineering:alloy_smelter"
 			id: "3DF334D3DF981D3D"
 			shape: "octagon"
-			size: 1.5d
+			size: 1.0d
 			tasks: [{
-				count: 8L
-				id: "289B998D28AEC2DD"
-				item: { Count: 8, id: "immersiveengineering:alloybrick" }
-				type: "item"
+				icon: "immersiveengineering:alloy_smelter"
+				id: "155FEAB08CD34D33"
+				observe_type: 0
+				timer: 0L
+				to_observe: "immersiveengineering:alloy_smelter"
+				type: "observation"
 			}]
-			x: 2.25d
-			y: -0.75d
+			x: -1.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["3BEACA2DE7728F3B"]
@@ -273,8 +275,8 @@
 				item: "create:windmill_bearing"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 0.5d
+			x: -7.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["27E0AF46F908E6D9"]
@@ -297,8 +299,8 @@
 					type: "item"
 				}
 			]
-			x: -7.0d
-			y: 1.5d
+			x: -8.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["0125871937D41659"]
@@ -308,8 +310,8 @@
 				item: "create:fluid_tank"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 1.5d
+			x: -5.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["4492B51A9C727D78"]
@@ -319,8 +321,8 @@
 				item: "create:steam_engine"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 2.5d
+			x: -5.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["49A2F592D12DC5A5"]
@@ -337,7 +339,7 @@
 					type: "item"
 				}
 			]
-			x: -5.0d
+			x: -5.5d
 			y: 3.0d
 		}
 		{
@@ -348,8 +350,8 @@
 				item: "create:large_cogwheel"
 				type: "item"
 			}]
-			x: -7.0d
-			y: -2.5d
+			x: -8.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["0125871937D41659"]
@@ -359,8 +361,8 @@
 				item: "create:mechanical_mixer"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -0.5d
+			x: -4.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["660794159EA5572C"]
@@ -370,22 +372,21 @@
 				item: "create:basin"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -2.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["59BFD6155D218C12"]
-			icon_scale: 0.75d
 			id: "165BA06960C5C2AB"
 			shape: "gear"
-			size: 2.0d
+			size: 1.0d
 			tasks: [{
 				id: "5CA4F9D5CFF2132C"
 				item: "immersiveengineering:creosote_bucket"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -3.0d
+			x: -1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["165BA06960C5C2AB"]
@@ -395,8 +396,8 @@
 				item: "create:spout"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -4.5d
+			x: -1.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["3DF334D3DF981D3D"]
@@ -406,8 +407,8 @@
 				item: "create:brass_ingot"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -3.0d
+			x: 0.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["59BFD6155D218C12"]
@@ -417,8 +418,8 @@
 				item: "create:brass_nugget"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -1.5d
+			x: -1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["59BFD6155D218C12"]
@@ -429,7 +430,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -3.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["0B5E7A2FDA4CA4FB"]
@@ -440,7 +441,7 @@
 				id: "37FA7387698C1FD0"
 				type: "dimension"
 			}]
-			x: -2.5d
+			x: -3.0d
 			y: -2.0d
 		}
 		{
@@ -451,8 +452,8 @@
 				item: "createaddition:rolling_mill"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 0.5d
+			x: -4.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["59BFD6155D218C12"]
@@ -462,8 +463,8 @@
 				item: "create:chute"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -2.0d
+			x: -1.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["252BCFE557632122"]
@@ -473,8 +474,8 @@
 				item: "create:mechanical_crafter"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -3.5d
+			x: 0.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["27F37B9E48984AD7"]
@@ -484,8 +485,8 @@
 				item: "create:crushing_wheel"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -4.5d
+			x: 1.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["27F37B9E48984AD7"]
@@ -495,8 +496,8 @@
 				item: "create:empty_blaze_burner"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -2.0d
+			x: 1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5ABFAA79C02431C7"]
@@ -506,8 +507,8 @@
 				item: "immersiveengineering:dust_coke"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -3.0d
+			x: 2.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["75D693CEC7D6685A"]
@@ -527,7 +528,7 @@
 				}
 			]
 			x: -4.0d
-			y: -2.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["1201B29D3A11C204"]
@@ -546,8 +547,8 @@
 				}
 			]
 			title: "Nether Mining Dim"
-			x: -4.5d
-			y: -4.0d
+			x: -5.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["27F37B9E48984AD7"]
@@ -557,8 +558,8 @@
 				item: "createaddition:alternator"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -4.5d
+			x: 0.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["776398BD6BADD04E"]
@@ -568,8 +569,8 @@
 				item: "createaddition:tesla_coil"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -4.5d
+			x: 0.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["7238E258FDDBD561"]
@@ -586,8 +587,8 @@
 				title: "Any #forge:gems/certus_quartz"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -5.5d
+			x: 0.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["64F5495E1A5DFC9A"]
@@ -597,8 +598,8 @@
 				item: "ae2:meteorite_compass"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -6.0d
+			x: 0.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["776398BD6BADD04E"]
@@ -609,8 +610,8 @@
 				item: { Count: 4, id: "createaddition:modular_accumulator" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: -6.0d
+			x: 1.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["776398BD6BADD04E"]
@@ -620,8 +621,8 @@
 				item: "createaddition:electric_motor"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -5.0d
+			x: 1.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["11BCD612FAD8E339"]
@@ -636,8 +637,8 @@
 				match_nbt: false
 				type: "item"
 			}]
-			x: -3.0d
-			y: -4.0d
+			x: -2.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["3CB496E8E1B8ABF2"]
@@ -652,8 +653,8 @@
 				match_nbt: false
 				type: "item"
 			}]
-			x: -3.5d
-			y: -5.5d
+			x: -3.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["27F37B9E48984AD7"]
@@ -663,8 +664,8 @@
 				item: "quarryplus:workbench"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -2.0d
+			x: 1.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["66440D61AD3ECFBC"]
@@ -675,7 +676,7 @@
 				type: "dimension"
 			}]
 			x: -5.0d
-			y: -5.0d
+			y: -3.0d
 		}
 	]
 	title: "Create"

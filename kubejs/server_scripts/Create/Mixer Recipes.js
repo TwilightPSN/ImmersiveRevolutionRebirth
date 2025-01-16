@@ -6,7 +6,6 @@ ServerEvents.recipes(IRRebirth => {
     IRRebirth.recipes.create.mixing(['mekanism:dust_uranium', Item.of('mekanism:dust_uranium').withChance(0.25)], [Fluid.water(100), 'mekanism:dirty_dust_uranium'])
     IRRebirth.recipes.create.mixing(['mekanism:dust_lead', Item.of('mekanism:dust_lead').withChance(0.25)], [Fluid.water(100), 'mekanism:dirty_dust_lead'])
     IRRebirth.recipes.create.mixing(['mekanism:dust_tin', Item.of('mekanism:dust_tin').withChance(0.25)], [Fluid.water(100), 'mekanism:dirty_dust_tin'])
-    IRRebirth.recipes.create.mixing(['mekanism:dust_osmium', Item.of('mekanism:dust_osmium').withChance(0.25)], [Fluid.water(100), 'mekanism:dirty_dust_osmium'])
     IRRebirth.recipes.create.mixing(['mekanism:dust_gold', Item.of('mekanism:dust_gold').withChance(0.25)], [Fluid.water(100), 'mekanism:dirty_dust_gold'])
     IRRebirth.recipes.create.mixing(['mekanism:dust_copper', Item.of('mekanism:dust_copper').withChance(0.25)], [Fluid.water(100), 'mekanism:dirty_dust_copper'])
     IRRebirth.recipes.create.mixing(['mekanism:dust_iron', Item.of('mekanism:dust_iron').withChance(0.25)], [Fluid.water(100), 'mekanism:dirty_dust_iron'])
