@@ -1,6 +1,6 @@
 ServerEvents.recipes(IRRebirth => {
     IRRebirth.remove({ output: 'create:crushing_wheel'})
-    IRRebirth.recipes.create.mechanical_crafting('create:crushing_wheel', [
+    IRRebirth.recipes.create.mechanical_crafting(Item.of('create:crushing_wheel', 4), [
       ' ABA ',
       'ACBCA',
       'BACAB',
@@ -11,7 +11,7 @@ ServerEvents.recipes(IRRebirth => {
       B: '#forge:treated_wood',
       C: '#forge:rods/brass'
     })
-    IRRebirth.recipes.create.mechanical_crafting('create:empty_blaze_burner', [
+    IRRebirth.recipes.create.mechanical_crafting(Item.of('create:empty_blaze_burner', 4), [
       'ABBA',
       'B  B',
       'BDDB',
@@ -41,5 +41,33 @@ ServerEvents.recipes(IRRebirth => {
       F: '#forge:storage_blocks/gold',
       G: 'minecraft:diamond_pickaxe',
       H: '#forge:storage_blocks/diamond'
+    }) 
+    IRRebirth.recipes.create.mechanical_crafting(Item.of('immersiveengineering:watermill',3), [
+      ' AAA ',
+      'ABCBA',
+      'ACDCA',
+      'ABCBA',
+      ' AAA '
+    ], {
+      A: 'immersiveengineering:stick_treated',
+      B: '#forge:treated_wood',
+      C: '#forge:plates/brass',
+      D: '#forge:storage_blocks/steel'
+    })
+    IRRebirth.recipes.create.mechanical_crafting(Item.of('immersiveengineering:windmill', 2), [
+      'A       A',
+      ' AAB BAA ',
+      ' AAABAAA ',
+      ' BACCCAB ',
+      '  BCDCB  ',
+      ' BACCCAB',
+      ' AAABAAA ',
+      ' AAB BAA ',
+      'A        A'
+    ], {
+      A: 'immersiveengineering:stick_treated',
+      B: '#forge:treated_wood',
+      C: '#forge:plates/brass',
+      D: '#forge:storage_blocks/steel'
     }) 
   })

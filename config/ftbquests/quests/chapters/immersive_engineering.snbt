@@ -109,6 +109,90 @@
 			x: -0.5d
 			y: 3.0d
 		}
+		{
+			dependencies: ["38DE58C8666609EC"]
+			id: "1274E79019C28F4A"
+			tasks: [{
+				id: "069DC4997CC22589"
+				item: "immersiveengineering:dynamo"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["38DE58C8666609EC"]
+			id: "77D17C04DD364CAE"
+			tasks: [{
+				id: "16193146B991AF3D"
+				item: "immersiveengineering:thermoelectric_generator"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["266CDDD166A086DA"]
+			id: "780D07242DE7E506"
+			tasks: [
+				{
+					id: "3144AACC48F9F7D5"
+					item: "create:schematicannon"
+					type: "item"
+				}
+				{
+					id: "7CD13D0F35112632"
+					item: "create:schematic_table"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1274E79019C28F4A"]
+			id: "2926E1B744FACF79"
+			tasks: [{
+				id: "6D5AE46CF4E7D8BC"
+				item: "immersiveengineering:watermill"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1274E79019C28F4A"]
+			id: "68BD97666C35C625"
+			tasks: [{
+				id: "53B5DAA33C56D39D"
+				item: "immersiveengineering:windmill"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["68BD97666C35C625"]
+			id: "6A0DFE1D63712423"
+			tasks: [{
+				count: 8L
+				id: "6D1FB1ADEE757FD8"
+				item: { Count: 8, id: "immersiveengineering:windmill_sail" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			id: "1AAF8C310BB892B1"
+			tasks: [{
+				id: "2C10A6F80AD59F06"
+				item: "ae2:energy_acceptor"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
 	]
 	title: "Immersive Engineering"
 }

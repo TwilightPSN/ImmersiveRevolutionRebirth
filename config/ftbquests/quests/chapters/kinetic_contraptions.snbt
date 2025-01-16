@@ -17,8 +17,8 @@
 		{
 			id: "55A9C1527EB470F7"
 			linked_quest: "2D69C4A5F91F3CF7"
-			x: 6.0d
-			y: -1.0d
+			x: 6.5d
+			y: -1.5d
 		}
 	]
 	quests: [
@@ -395,8 +395,8 @@
 				item: "create:spout"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -4.0d
+			x: -1.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["3DF334D3DF981D3D"]
@@ -407,7 +407,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: -2.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["59BFD6155D218C12"]
@@ -473,8 +473,8 @@
 				item: "create:mechanical_crafter"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -3.0d
+			x: 4.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["27F37B9E48984AD7"]
@@ -484,8 +484,8 @@
 				item: "create:crushing_wheel"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -3.5d
+			x: 6.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["27F37B9E48984AD7"]
@@ -495,7 +495,7 @@
 				item: "create:empty_blaze_burner"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 5.0d
 			y: -2.0d
 		}
 		{
@@ -506,8 +506,8 @@
 				item: "immersiveengineering:dust_coke"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -2.5d
+			x: 7.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["75D693CEC7D6685A"]
@@ -548,6 +548,123 @@
 			title: "Nether Mining Dim"
 			x: -4.5d
 			y: -4.0d
+		}
+		{
+			dependencies: ["27F37B9E48984AD7"]
+			id: "776398BD6BADD04E"
+			tasks: [{
+				id: "0357964FD25C85E8"
+				item: "createaddition:alternator"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["776398BD6BADD04E"]
+			id: "64F5495E1A5DFC9A"
+			tasks: [{
+				id: "03DC5C378249169D"
+				item: "createaddition:tesla_coil"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7238E258FDDBD561"]
+			id: "03835B0AAF486B09"
+			tasks: [{
+				id: "00D67D3800EA7997"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:gems/certus_quartz)"
+					}
+				}
+				title: "Any #forge:gems/certus_quartz"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["64F5495E1A5DFC9A"]
+			id: "7238E258FDDBD561"
+			tasks: [{
+				id: "65A211BB1C58471F"
+				item: "ae2:meteorite_compass"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["776398BD6BADD04E"]
+			id: "5FC594E072F963F2"
+			tasks: [{
+				count: 4L
+				id: "222A097D86461AAB"
+				item: { Count: 4, id: "createaddition:modular_accumulator" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["776398BD6BADD04E"]
+			id: "378D0AAEBF5DF0A8"
+			tasks: [{
+				id: "2E4AAAE64FD85455"
+				item: "createaddition:electric_motor"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["11BCD612FAD8E339"]
+			id: "3CB496E8E1B8ABF2"
+			tasks: [{
+				id: "726A72ECAC71E646"
+				item: {
+					Count: 1
+					id: "create:copper_backtank"
+					tag: { }
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3CB496E8E1B8ABF2"]
+			id: "4970997693A84D4E"
+			tasks: [{
+				id: "2023F96CA80F37E5"
+				item: {
+					Count: 1
+					id: "create_jetpack:jetpack"
+					tag: { }
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: -3.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["27F37B9E48984AD7"]
+			id: "3BA75F6038555CD8"
+			tasks: [{
+				id: "701C8A2E99C2B110"
+				item: "quarryplus:workbench"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.0d
 		}
 	]
 	title: "Create"

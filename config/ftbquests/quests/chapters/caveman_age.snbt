@@ -16,15 +16,18 @@
 				"Your journey will take you from simple mechanics to grand inventions, from creating automated farms to mastering electricity and beyond. The road ahead is full of discovery, and every step forward brings you closer to mastering the art of technology."
 			]
 			icon: "minecraft:clock"
+			icon_scale: 0.75d
 			id: "599030C9DB9B1E08"
+			shape: "diamond"
+			size: 2.0d
 			tasks: [{
 				dimension: "minecraft:overworld"
 				id: "495696F88D8C4A53"
 				type: "dimension"
 			}]
 			title: "The Spark of Innovation"
-			x: -2.0d
-			y: -0.5d
+			x: -6.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["599030C9DB9B1E08"]
@@ -65,8 +68,8 @@
 				}
 			]
 			title: "The First Harvest"
-			x: -1.0d
-			y: -0.5d
+			x: -4.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["150B3A6B61937F78"]
@@ -92,7 +95,7 @@
 				}
 			]
 			title: "Crafting Essentials"
-			x: 0.0d
+			x: -2.5d
 			y: -0.5d
 		}
 		{
@@ -113,8 +116,8 @@
 				type: "item"
 			}]
 			title: "Organize Your Supplies"
-			x: 1.0d
-			y: -0.5d
+			x: -1.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["5EB800B895DDCBFB"]
@@ -148,8 +151,8 @@
 				type: "item"
 			}]
 			title: "Expanding Your Storage"
-			x: 0.5d
-			y: -1.5d
+			x: -0.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["5EB800B895DDCBFB"]
@@ -170,8 +173,8 @@
 				type: "item"
 			}]
 			title: "Pack for Adventure"
-			x: 1.5d
-			y: -1.5d
+			x: 1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["24DB690822140D7E"]
@@ -191,7 +194,7 @@
 			}]
 			title: "Effortless Storage"
 			x: 0.5d
-			y: -2.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["631AFA5E8CC2810D"]
@@ -204,8 +207,8 @@
 				type: "item"
 			}]
 			title: "Crafting the Storage Tool"
-			x: -0.5d
-			y: -2.5d
+			x: 0.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["24DB690822140D7E"]
@@ -230,7 +233,7 @@
 				type: "item"
 			}]
 			title: "Expanding Storage Capacity"
-			x: -0.5d
+			x: -1.5d
 			y: -1.5d
 		}
 		{
@@ -244,8 +247,8 @@
 				type: "item"
 			}]
 			title: "Cube of Endless Capacity"
-			x: 0.5d
-			y: 0.5d
+			x: -2.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["5EB800B895DDCBFB"]
@@ -265,8 +268,8 @@
 				}
 			]
 			title: "Metallic Riches Below"
-			x: 2.0d
-			y: -0.5d
+			x: 0.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["43EA598EC21DA525"]
@@ -279,8 +282,8 @@
 				type: "item"
 			}]
 			title: "Belt of Mastery"
-			x: 2.5d
-			y: -1.5d
+			x: 3.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["43EA598EC21DA525"]
@@ -296,8 +299,8 @@
 				type: "item"
 			}]
 			title: "Foundation of Innovation"
-			x: 3.5d
-			y: 0.5d
+			x: 3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["631AFA5E8CC2810D"]
@@ -319,8 +322,8 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
-			y: -2.5d
+			x: 2.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["232B6B3758CD612E"]
@@ -337,7 +340,7 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
+			x: 2.5d
 			y: -3.5d
 		}
 		{
@@ -352,8 +355,50 @@
 				}
 				type: "item"
 			}]
-			x: 1.5d
-			y: 0.5d
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["599030C9DB9B1E08"]
+			id: "7A49B7F5D8A4E9E6"
+			tasks: [{
+				id: "6AE7FAFB31083063"
+				item: {
+					Count: 1
+					id: "hangglider:hang_glider"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["599030C9DB9B1E08"]
+			id: "62BE232080B9F262"
+			tasks: [{
+				id: "3FC5E0F2E8B08133"
+				item: "cookingforblockheads:cooking_table"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"62BE232080B9F262"
+				"1AAF8C310BB892B1"
+			]
+			id: "256CAD10733A0F26"
+			tasks: [{
+				id: "2AA90669F4539DE1"
+				item: "appliedcooking:kitchen_station"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -1.0d
 		}
 	]
 	title: "Getting Started"
