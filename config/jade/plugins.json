@@ -51,6 +51,10 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
+  "agricraft": {
+    "soil": true,
+    "crop_block": true
+  },
   "dimstorage": {
     "dim_block_base": true,
     "dim_tank": true
@@ -76,6 +80,7 @@
     "mod_name": true
   },
   "apotheosis": {
+    "adventure": true,
     "ench": true,
     "spawner": true
   },
@@ -96,9 +101,6 @@
   },
   "jadeaddons": {
     "equipment_requirement": ""
-  },
-  "hammerlib": {
-    "root": true
   },
   "mekanism": {
     "infuse_type": true,

@@ -1,8 +1,15 @@
 ||Alpha 0.0.11||
 
+// Mods Added //
+-Apotheosis
+-Apotheotic Additions
+-Agricraft
+
 // Mods Updated //
 -Sophisticated Storage
 -Applied Energistics 2
+-Sophisticated Core
+-KleeSlabs
 
 // Mods Removed //
 -Advancement Plaques (Weird Blinking Issues)

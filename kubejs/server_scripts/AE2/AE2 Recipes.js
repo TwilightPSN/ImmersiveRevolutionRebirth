@@ -75,4 +75,17 @@ ServerEvents.recipes(IRRebirth => {
               C: '#forge:plates/steel'
             }
           )
+        IRRebirth.shaped(
+            Item.of('ae2:drive', 1), 
+            [
+              'ABA',
+              'C C',
+              'ABA'
+            ],
+            {
+              A: '#forge:plates/certus',
+              B: 'ae2:engineering_processor',
+              C: 'more_immersive_wires:ae_coil'
+            }
+          )
 })

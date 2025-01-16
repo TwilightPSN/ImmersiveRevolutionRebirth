@@ -1,0 +1,13 @@
+ServerEvents.recipes(IRRebirth => {
+    IRRebirth.recipes.create.compacting('immersiveengineering:sheetmetal_constantan', Item.of('#forge:plates/constantan', 2)).heated()
+    IRRebirth.recipes.create.compacting('immersiveengineering:sheetmetal_iron', Item.of('#forge:plates/iron', 2)).heated()
+    IRRebirth.recipes.create.compacting('immersiveengineering:sheetmetal_electrum', Item.of('#forge:plates/electrum', 2)).heated()
+    IRRebirth.recipes.create.compacting('immersiveengineering:sheetmetal_copper', Item.of('#forge:plates/copper', 2)).heated()
+    IRRebirth.recipes.create.compacting('immersiveengineering:sheetmetal_aluminum', Item.of('#forge:plates/aluminum', 2)).heated()
+    IRRebirth.recipes.create.compacting('immersiveengineering:sheetmetal_lead', Item.of('#forge:plates/lead', 2)).heated()
+    IRRebirth.recipes.create.compacting('immersiveengineering:sheetmetal_silver', Item.of('#forge:plates/silver', 2)).heated()
+    IRRebirth.recipes.create.compacting('immersiveengineering:sheetmetal_nickel', Item.of('#forge:plates/nickel', 2)).heated()
+    IRRebirth.recipes.create.compacting('immersiveengineering:sheetmetal_uranium', Item.of('#forge:plates/uranioum', 2)).heated()
+    IRRebirth.recipes.create.compacting('immersiveengineering:sheetmetal_steel', Item.of('#forge:plates/steel', 2)).heated()
+    IRRebirth.recipes.create.compacting('immersiveengineering:sheetmetal_gold', Item.of('#forge:plates/gold', 2)).heated()
+})

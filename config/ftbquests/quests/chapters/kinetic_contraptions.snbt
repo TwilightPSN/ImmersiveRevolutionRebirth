@@ -666,6 +666,17 @@
 			x: 3.5d
 			y: -2.0d
 		}
+		{
+			dependencies: ["66440D61AD3ECFBC"]
+			id: "0877B7E49CB54FD3"
+			tasks: [{
+				dimension: "jamd:nether"
+				id: "7D10A073373461E4"
+				type: "dimension"
+			}]
+			x: -5.0d
+			y: -5.0d
+		}
 	]
 	title: "Create"
 }
