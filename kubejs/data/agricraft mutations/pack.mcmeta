@@ -6,7 +6,8 @@
   "filter": {
     "block": [
       {
-        "path": "agricraft/(mutations))"
+        "namespace": "agricraft",
+        "path": "agricraft/mutations/.*"
       }
     ]
   }

@@ -3,7 +3,7 @@ ae2Multiplier: 4
 allowAdventureTwerking: true
 chance: 0.5
 debug: false
-enableAE2Accelerator: true
+enableAE2Accelerator: false
 enableDirtToGrass: true
 enableMysticalCrops: true
 hoeTakesDamage: false

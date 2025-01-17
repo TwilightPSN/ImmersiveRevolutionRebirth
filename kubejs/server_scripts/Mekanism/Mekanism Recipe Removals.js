@@ -6,4 +6,6 @@ ServerEvents.recipes(IRRebirth => {
     IRRebirth.remove({output: 'ae2:certus_quartz_dust', type: 'mekanism:crushing'})
     IRRebirth.remove({ input: '#forge:ores/draconium', type: 'mekanism:enriching'})
     IRRebirth.remove({ input: 'create:crushed_raw_osmium'})
+    IRRebirth.remove({output: 'ae2:fluix_dust', type: 'mekanism:crushing'})
+    IRRebirth.remove({ output: 'mekanism:enriched_carbon'})
 })
