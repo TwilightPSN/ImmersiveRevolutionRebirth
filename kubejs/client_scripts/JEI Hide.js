@@ -19,7 +19,6 @@ JEIEvents.hideItems(IRRebirth => {
     IRRebirth.hide('storagenetwork:operation_upgrade');
     IRRebirth.hide('ae2:facade');
     IRRebirth.hide('immersiveengineering:shader');
-    IRRebirth.hide('easy_mob_farm:mob_capture_card');
     IRRebirth.hide("@ftbquests");
     IRRebirth.hide('ftbfiltersystem:smart_filter');
     IRRebirth.hide('#minecraft:decorated_pot_sherds');
@@ -35,4 +34,21 @@ JEIEvents.hideItems(IRRebirth => {
     IRRebirth.hide('create:crushed_raw_osmium');
     IRRebirth.hide('create:crushed_raw_platinum');
     IRRebirth.hide('create:crushed_raw_quicksilver');
+    IRRebirth.hide('agricraft:nethereed');
+    IRRebirth.hide('agricraft:niccissus');
+    IRRebirth.hide('agricraft:osmonium');
+    IRRebirth.hide('agricraft:petinia');
+    IRRebirth.hide('agricraft:platiolus');
+    IRRebirth.hide('agricraft:plombean');
+    IRRebirth.hide('agricraft:quartzanthemum');
+    IRRebirth.hide('agricraft:redstodendron');
+    IRRebirth.hide('agricraft:ferranium');
+    IRRebirth.hide('agricraft:emeryllis');
+    IRRebirth.hide('agricraft:diamahlia');
+    IRRebirth.hide('agricraft:cuprosia');
+    IRRebirth.hide('agricraft:carbonation');
+    IRRebirth.hide('agricraft:aurigold');
+    IRRebirth.hide('agricraft:amathyllis');
+    IRRebirth.hide('agricraft:lapender');
+    IRRebirth.hide('agricraft:jaslumine');
 })

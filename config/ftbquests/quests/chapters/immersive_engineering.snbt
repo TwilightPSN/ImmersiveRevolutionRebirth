@@ -355,7 +355,7 @@
 				}
 			]
 			x: 2.0d
-			y: -1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["68FF89B494B577B4"]
@@ -366,7 +366,7 @@
 				type: "dimension"
 			}]
 			x: 2.0d
-			y: -2.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["1AAF8C310BB892B1"]
@@ -380,15 +380,21 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["7B0F71B2E191845D"]
+			dependencies: ["0AA2F1B9EDB6605E"]
 			id: "57B3C17EF15A6EB4"
 			tasks: [{
-				id: "34D484981A5C95E1"
-				item: "ae2:crafting_terminal"
+				id: "520C8B278FF5D28A"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(ae2:crafting_terminal)item(fulleng:crafting_terminal))"
+					}
+				}
 				type: "item"
 			}]
 			x: 0.0d
-			y: -3.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["1AAF8C310BB892B1"]
@@ -433,7 +439,7 @@
 				title: "Any #forge:dusts/saltpeter"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 1.0d
 			y: 3.0d
 		}
 		{
@@ -615,6 +621,104 @@
 			}]
 			x: -2.0d
 			y: 3.0d
+		}
+		{
+			dependencies: ["7B0F71B2E191845D"]
+			id: "0AA2F1B9EDB6605E"
+			tasks: [{
+				id: "3271B42DC76FFFE0"
+				item: "ae2:inscriber"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0AA2F1B9EDB6605E"]
+			id: "6ACABDB12C4824B6"
+			tasks: [{
+				id: "1CE20185D5645109"
+				item: "ae2:drive"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["546D8110EC3DA895"]
+			id: "6C694DEF01960C4A"
+			shape: "gear"
+			tasks: [{
+				id: "20D73BFEE7D35A88"
+				item: "mekanism:ingot_osmium"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"0649FCAA578DC2E6"
+				"47EA72930E8B263C"
+			]
+			id: "087EFD6289DFBB70"
+			tasks: [{
+				id: "023A91782FFF74AE"
+				item: {
+					Count: 1
+					id: "immersiveengineering:graphite_electrode"
+					tag: {
+						graphDmg: 0
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["546D8110EC3DA895"]
+			id: "1DD257B96B934201"
+			tasks: [{
+				id: "1977BC57EAAFBA93"
+				item: {
+					Count: 1
+					id: "immersiveengineering:blueprint"
+					tag: {
+						blueprint: "electrode"
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["47EA72930E8B263C"]
+			hide_dependency_lines: true
+			id: "6CBE6DD3F776E019"
+			tasks: [{
+				id: "32896D04250F32B3"
+				observe_type: 0
+				timer: 0L
+				to_observe: "immersiveengineering:mixer"
+				type: "observation"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6CBE6DD3F776E019"]
+			id: "430751120FB42896"
+			shape: "octagon"
+			tasks: [{
+				id: "311597CFF3B2A57F"
+				item: "immersiveengineering:redstone_acid_bucket"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
 		}
 	]
 	title: "Immersive Engineering"

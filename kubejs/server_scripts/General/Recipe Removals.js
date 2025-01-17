@@ -29,5 +29,4 @@ ServerEvents.recipes(IRRebirth => {
     IRRebirth.remove({ id: 'utilitarian:utility/logs_to_sticks'})
     IRRebirth.remove({ id: 'utilitarian:utility/logs_to_chests'})
     IRRebirth.remove({ output: 'explorerscompass:explorerscompass'})
-
 })

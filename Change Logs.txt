@@ -1,9 +1,14 @@
-||Alpha 0.0.11||
+||Beta 0.1.0||
+
+FIRST BETA! QUESTS HAVE NO TEXT AND ARE STRICTLY THERE TO TEST GATING!
+PLEASE REPORT ANY ISSUES YOU FIND TO THE TRACKER!
 
 // Mods Added //
 -Apotheosis
 -Apotheotic Additions
 -Agricraft
+-Mob Grinding Utils
+-Extended Crafting
 
 // Mods Updated //
 -Sophisticated Storage
@@ -13,6 +18,18 @@
 
 // Mods Removed //
 -Advancement Plaques (Weird Blinking Issues)
+
+// Config Updates //
+-Resource Packs added to make Sophisticated Backpacks and Simple Storage Network fit more into Create age
+
+// Script Updates //
+-Added Various Rods & Plates to be used
+-Adjusted many recipes from IE, AE2 and Create
+-Started Mekanism Gating
+
+// Quest Updates //
+-Starter, Create & Immersive Engingeering Lines cleaned and organized
+-Mekanism inital gating quest added
 
 ||Alpha 0.0.10||
 
