@@ -15,7 +15,7 @@ hide_in_game_switcher = true
 #Allowed Values: NONE, TITLE_SCREEN, PAUSE_SCREEN, BOTH
 dark_mode_toggle_screens = "BOTH"
 #Exclude certain screens from being affected by any text color alterations.
-font_color_blacklist = ["chat_screen.title", "sign.edit", "hanging_sign.edit", "book.edit", "book.view"]
+font_color_blacklist = ["chat_screen.title", "sign.edit", "hanging_sign.edit", "book.edit", "book.view", "urbine.mekanismgenerators.stats", "fission.mekanismgenerators.stats", "boiler.mekanismgenerators.stats"]
 #Use a dark theme for the configuration screens.
 dark_theme = true
 #Percentage of original interface brightness to apply.
@@ -23,7 +23,7 @@ dark_theme = true
 texture_darkness = 0.5
 #The minimum brightness value of font while dark mode is enabled.
 #Range: 0.0 ~ 1.0
-font_brightness = 0.75
+font_brightness = 0.5046985035211269
 #Algorithm selector for darkening interface pixels.
 #Allowed Values: GRAYSCALE_AND_HSP, HSP, GRAYSCALE_AND_HSL, HSL, GRAYSCALE_AND_LINEAR, LINEAR
 darkening_algorithm = "GRAYSCALE_AND_HSP"

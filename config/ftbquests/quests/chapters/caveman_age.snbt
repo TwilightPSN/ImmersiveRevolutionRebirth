@@ -338,6 +338,48 @@
 			x: -8.0d
 			y: -4.5d
 		}
+		{
+			dependencies: ["599030C9DB9B1E08"]
+			id: "0900A4B5AB566AC8"
+			tasks: [{
+				id: "32502E95BDDD9035"
+				item: "chunkloaders:basic_chunk_loader"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["599030C9DB9B1E08"]
+			id: "501F2B7F2A872111"
+			tasks: [
+				{
+					id: "3D6785C2DC88FFC2"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(waystones:waystones)"
+						}
+					}
+					title: "Any #waystones:waystones"
+					type: "item"
+				}
+				{
+					id: "0AF3B1C046B54BA0"
+					item: {
+						Count: 1
+						id: "waystones:warp_stone"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: -2.5d
+		}
 	]
-	title: "Getting Started"
+	title: "General"
 }

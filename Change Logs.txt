@@ -1,3 +1,26 @@
+||Beta 0.2.0||
+
+// Mods Update //
+=Fzzy Config
+
+// Quest Updates //
+-Chunk Loader and Waystone Quests in Intro
+-Mekanism Quests Staged
+
+// Config Updates //
+-Mindful Darkness Blacklist for Mekanism menus
+
+// Recipes Updates //
+-Carbon now needs Coal Coke
+-Redstone uses Acidic for Mekanism
+
+// Script Changes //
+-Dust Mold Added
+-Acidic Redstone and Block Added
+-Mekanism Recipes Changes
+-Draconium gated behind quintuple Processing
+-Powah recipes slightly gated
+
 ||Beta 0.1.0||
 
 FIRST BETA! QUESTS HAVE NO TEXT AND ARE STRICTLY THERE TO TEST GATING!
@@ -21,6 +44,7 @@ PLEASE REPORT ANY ISSUES YOU FIND TO THE TRACKER!
 
 // Config Updates //
 -Resource Packs added to make Sophisticated Backpacks and Simple Storage Network fit more into Create age
+-Generated schematics for all Immersive Engineering multiblocks for use with Schematiccannon
 
 // Script Updates //
 -Added Various Rods & Plates to be used

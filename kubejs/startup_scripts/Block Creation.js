@@ -3,9 +3,19 @@ StartupEvents.registry('block', IRRebirth => {
       .displayName('Unfinished Coke Brick')
       .soundType('gravel')
       .tagBlock('create:sequenced_assembly') 
-      .tagBlock('minecraft:mineable/shovel'),
+      .tagBlock('minecraft:mineable/shovel')
+      .tagBlock('forge:mineable/paxel')
+      .tagBlock('cucumber:mineable/paxel'),
     IRRebirth.create('raw_blast_brick')
       .displayName('Raw Blast Brick')
       .soundType('gravel')
       .tagBlock('minecraft:mineable/shovel')
+      .tagBlock('forge:mineable/paxel')
+      .tagBlock('cucumber:mineable/paxel'),
+    IRRebirth.create('acidic_redstone_block')
+      .displayName('Block of Acidic Redstone')
+      .soundType('stone')
+      .tagBlock('minecraft:mineable/pickaxe')
+      .tagBlock('forge:storage_blocks')
+      .tagBlock('cucumber:mineable/paxel')
 })
