@@ -25,4 +25,5 @@ ServerEvents.recipes(IRRebirth => {
     IRRebirth.recipes.create.crushing(['create:cinder_flour', Item.of('create:cinder_flour').withChance(0.50)], '#forge:netherrack')
     IRRebirth.recipes.create.crushing([Item.of('ae2:certus_quartz_dust').withChance(0.25)], '#forge:gems/certus_quartz')
     IRRebirth.recipes.create.crushing([Item.of('ae2:fluix_dust').withChance(0.25)], '#forge:gems/fluix')
+    IRRebirth.recipes.create.crushing(['mekanism:dust_obsidian', Item.of('mekanism:dust_obsidian').withChance(0.25)], 'minecraft:obsidian')
 })

@@ -21,19 +21,713 @@
 			y: -1.5d
 		}
 	]
-	quests: [{
-		dependencies: [
-			"6C694DEF01960C4A"
-			"430751120FB42896"
-		]
-		id: "10010D0E4452ACC7"
-		tasks: [{
-			id: "2565C9482FDD591D"
-			item: "mekanism:metallurgic_infuser"
-			type: "item"
-		}]
-		x: -1.5d
-		y: -0.5d
-	}]
+	quests: [
+		{
+			dependencies: [
+				"6C694DEF01960C4A"
+				"430751120FB42896"
+			]
+			id: "10010D0E4452ACC7"
+			tasks: [{
+				id: "2565C9482FDD591D"
+				item: "mekanism:metallurgic_infuser"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["10010D0E4452ACC7"]
+			id: "237CEA82FEF95C4F"
+			tasks: [{
+				id: "53174D7BD63F4A68"
+				item: "mekanism:enrichment_chamber"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["237CEA82FEF95C4F"]
+			id: "3ABAA63194B62E70"
+			tasks: [{
+				id: "6FD91FA3C4D74817"
+				item: "mekanism:crusher"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["10010D0E4452ACC7"]
+			id: "325CFDEF7D3CB73D"
+			tasks: [{
+				id: "28ADC2F87D0052D9"
+				item: "mekanism:energized_smelter"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["10010D0E4452ACC7"]
+			id: "576F711A38F08993"
+			tasks: [{
+				id: "0A2AF7B197DF3107"
+				item: "mekanism:precision_sawmill"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["427D1479DD8718A0"]
+			id: "26EC3327B0845800"
+			tasks: [{
+				id: "006ACAB593CD06DE"
+				item: "mekanism:purification_chamber"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3ABAA63194B62E70"]
+			id: "427D1479DD8718A0"
+			tasks: [{
+				id: "6F8176BAD38099BB"
+				item: "mekanism:electrolytic_separator"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["26EC3327B0845800"]
+			id: "6E9FEFE34F9A1E79"
+			tasks: [{
+				id: "1526E2B8B2045811"
+				item: "mekanism:chemical_infuser"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6E9FEFE34F9A1E79"]
+			id: "317DDBD71B8C1CA2"
+			tasks: [{
+				id: "7DAE3AFD28BABD9F"
+				item: "mekanism:thermal_evaporation_controller"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["317DDBD71B8C1CA2"]
+			id: "643B3397182106D0"
+			tasks: [{
+				id: "07015887E8803138"
+				item: "mekanismgenerators:advanced_solar_generator"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["10010D0E4452ACC7"]
+			id: "1DB1FCBFB7431E7A"
+			tasks: [{
+				id: "07695DAAC196F9A4"
+				item: "mekanism:configurator"
+				match_nbt: false
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6E9FEFE34F9A1E79"]
+			id: "0B5CECC9F68A74B0"
+			tasks: [{
+				id: "32C1F4A2D608C2BE"
+				item: "mekanism:chemical_injection_chamber"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"0B5CECC9F68A74B0"
+				"61E85271778CA2A2"
+			]
+			id: "27E46FBECCC8939B"
+			tasks: [{
+				id: "584DAD83D079713E"
+				item: "mekanism:chemical_crystallizer"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["10010D0E4452ACC7"]
+			id: "1C77BC5EF2916F72"
+			tasks: [{
+				id: "6BAE1AB8DFB19C0D"
+				item: "mekanism:osmium_compressor"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1C77BC5EF2916F72"]
+			id: "61E85271778CA2A2"
+			tasks: [{
+				id: "4CF199CB3137D4DE"
+				item: "mekanism:ingot_refined_obsidian"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["27E46FBECCC8939B"]
+			id: "715A817659EB76A5"
+			tasks: [{
+				id: "3AE9D5227960F311"
+				item: "mekanism:chemical_washer"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["715A817659EB76A5"]
+			id: "4EFFA60CDB84839A"
+			tasks: [{
+				id: "403E366A5FAB8B52"
+				item: "mekanism:chemical_dissolution_chamber"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4EFFA60CDB84839A"]
+			id: "4FBCAA8E1B7BEB5A"
+			tasks: [{
+				id: "5A9746ACA7E816D0"
+				item: "mekanism:rotary_condensentrator"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4EFFA60CDB84839A"]
+			id: "455E59188BC53E86"
+			tasks: [{
+				id: "4AEBDCB70FB7CF65"
+				item: "mekanism:chemical_oxidizer"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"4FBCAA8E1B7BEB5A"
+				"455E59188BC53E86"
+			]
+			id: "1D95E21C7984BD6C"
+			shape: "gear"
+			tasks: [{
+				id: "044681639AD2EE8D"
+				item: "draconicevolution:draconium_dust"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["10010D0E4452ACC7"]
+			id: "421B6C0FA9E9D45D"
+			tasks: [{
+				id: "7D995BF5D3470215"
+				item: {
+					Count: 1
+					id: "mekanism:combiner"
+					tag: {
+						mekData: {
+							EnergyContainers: [{
+								Container: 0b
+								stored: "40000"
+							}]
+							componentConfig: {
+								config0: {
+									side0: 1
+									side1: 1
+									side2: 1
+									side3: 1
+									side4: 1
+									side5: 1
+								}
+								config6: {
+									side0: 1
+									side1: 1
+									side2: 4
+									side3: 8
+									side4: 1
+									side5: 9
+								}
+								eject0: 0b
+								eject6: 0b
+							}
+							componentEjector: {
+								color0: -1
+								color1: -1
+								color2: -1
+								color3: -1
+								color4: -1
+								color5: -1
+								strictInput: 0b
+							}
+							componentUpgrade: {
+								Items: [ ]
+								upgrades: [ ]
+							}
+							controlType: 0
+							owner: [I;
+								1491986589
+								276121894
+								-1625504343
+								-95657751
+							]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["421B6C0FA9E9D45D"]
+			id: "299F28BD3E7F3946"
+			tasks: [{
+				id: "5C76F0A07FD9D9B7"
+				item: "kubejs:blaze_clay"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["299F28BD3E7F3946"]
+			id: "7A88E6320FFD7765"
+			tasks: [{
+				id: "4B9202F03EBE9358"
+				item: "powah:dielectric_paste"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["046A228271FDC590"]
+			id: "4B9C07A9C5C26E87"
+			tasks: [{
+				id: "0A12C4300467D084"
+				item: "mekanism:pellet_antimatter"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3ABAA63194B62E70"]
+			id: "4E2FA15DA307C086"
+			tasks: [{
+				id: "78E5DED9462B6209"
+				item: "mekanism:bio_fuel"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4E2FA15DA307C086"]
+			id: "7457E1DFC9A7607A"
+			tasks: [{
+				id: "329A4C913587E15B"
+				item: "mekanismgenerators:bio_generator"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4E2FA15DA307C086"]
+			id: "5C3507BA0D05D0B0"
+			tasks: [{
+				id: "68523164B88BB9B2"
+				item: "mekanism:pressurized_reaction_chamber"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5C3507BA0D05D0B0"]
+			id: "2C482BEF3223B19E"
+			tasks: [{
+				id: "71405B21DB2559A9"
+				item: "mekanism:hdpe_sheet"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["57B92A99D1F22EF4"]
+			id: "046A228271FDC590"
+			tasks: [
+				{
+					id: "4CC0DFB2A1162584"
+					item: "mekanism:sps_port"
+					type: "item"
+				}
+				{
+					id: "50746E40275923C0"
+					item: "mekanism:sps_casing"
+					type: "item"
+				}
+				{
+					id: "56E0CE0D237B12AE"
+					item: "mekanism:supercharged_coil"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["4B9C07A9C5C26E87"]
+			id: "2FAC50FBEE2700B7"
+			tasks: [{
+				id: "0D14187279041662"
+				item: "mekanism:antiprotonic_nucleosynthesizer"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["723406FFFBCABD10"]
+			id: "0A10EED5B07A50AA"
+			tasks: [{
+				id: "229A338733B3980B"
+				item: "mekanism:isotopic_centrifuge"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"57B92A99D1F22EF4"
+				"2C482BEF3223B19E"
+			]
+			id: "0FEAC602149968EC"
+			tasks: [{
+				id: "58BC854B1F8B6F34"
+				item: "mekanism:solar_neutron_activator"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0FEAC602149968EC"]
+			id: "604A081DA509D34A"
+			tasks: [{
+				id: "43E20C528160519D"
+				item: "mekanism:pellet_polonium"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"604A081DA509D34A"
+				"2C482BEF3223B19E"
+			]
+			id: "6E91F909451E62B4"
+			tasks: [
+				{
+					id: "18A671A9198C0B57"
+					item: "mekanism:mekasuit_helmet"
+					type: "item"
+				}
+				{
+					id: "10BFFBCA57F3FB5D"
+					item: "mekanism:mekasuit_bodyarmor"
+					type: "item"
+				}
+				{
+					id: "70C1157184F0CEDB"
+					item: "mekanism:mekasuit_pants"
+					type: "item"
+				}
+				{
+					id: "2C2B14F876377CD4"
+					item: "mekanism:mekasuit_boots"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["57B92A99D1F22EF4"]
+			id: "7A8540C6331D26E4"
+			tasks: [{
+				id: "4A4BCE13BF1E51CC"
+				item: "mekanism:radioactive_waste_barrel"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0A10EED5B07A50AA"]
+			id: "57B92A99D1F22EF4"
+			tasks: [
+				{
+					id: "1D66BAC807DFC586"
+					item: "mekanismgenerators:fission_reactor_casing"
+					type: "item"
+				}
+				{
+					id: "3459EA721815C446"
+					item: "mekanismgenerators:fission_reactor_port"
+					type: "item"
+				}
+				{
+					id: "5C0234FD8A324DB6"
+					item: "mekanismgenerators:fission_fuel_assembly"
+					type: "item"
+				}
+				{
+					id: "528D3058C8D6C73F"
+					item: "mekanismgenerators:reactor_glass"
+					type: "item"
+				}
+				{
+					id: "0B34DD90E71D0CDD"
+					item: "mekanismgenerators:control_rod_assembly"
+					type: "item"
+				}
+				{
+					id: "09431F070AA27090"
+					item: "mekanismgenerators:reactor_glass"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2F105B2DF532ABE5"]
+			id: "723406FFFBCABD10"
+			tasks: [{
+				id: "0D66A389FE863BDB"
+				item: "mekanism:yellow_cake_uranium"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["57B92A99D1F22EF4"]
+			id: "6674853D1EFF6FCC"
+			tasks: [
+				{
+					id: "7F3AC913CDB8C787"
+					item: "mekanism:hazmat_mask"
+					type: "item"
+				}
+				{
+					id: "0B4E882874F97A7B"
+					item: "mekanism:hazmat_gown"
+					type: "item"
+				}
+				{
+					id: "728755836D8DBDDA"
+					item: "mekanism:hazmat_pants"
+					type: "item"
+				}
+				{
+					id: "0900FADB1A5D6860"
+					item: "mekanism:hazmat_boots"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["237CEA82FEF95C4F"]
+			id: "29F574AEBD0ED865"
+			tasks: [
+				{
+					id: "3D921E3052B8D966"
+					item: "mekanismgenerators:turbine_rotor"
+					type: "item"
+				}
+				{
+					id: "56CD5D9E80BB3528"
+					item: "mekanismgenerators:turbine_blade"
+					type: "item"
+				}
+				{
+					id: "507C63A9B8312494"
+					item: "mekanismgenerators:turbine_valve"
+					type: "item"
+				}
+				{
+					id: "31E72037F5B0AA83"
+					item: "mekanismgenerators:saturating_condenser"
+					type: "item"
+				}
+				{
+					id: "7A921CA00D7999C4"
+					item: "mekanismgenerators:turbine_casing"
+					type: "item"
+				}
+				{
+					id: "26A0945C9465564D"
+					item: "mekanismgenerators:turbine_vent"
+					type: "item"
+				}
+				{
+					id: "58C74B1D8E703F1B"
+					item: "mekanismgenerators:rotational_complex"
+					type: "item"
+				}
+				{
+					id: "30A582C893C74651"
+					item: "mekanismgenerators:electromagnetic_coil"
+					type: "item"
+				}
+				{
+					id: "7FC9A1682F5C2AA5"
+					item: "mekanism:pressure_disperser"
+					type: "item"
+				}
+				{
+					id: "5D43D015080038C4"
+					item: "mekanism:structural_glass"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["29F574AEBD0ED865"]
+			id: "2F105B2DF532ABE5"
+			tasks: [
+				{
+					id: "5E37A1F6DE60B61C"
+					item: "mekanism:boiler_casing"
+					type: "item"
+				}
+				{
+					id: "7107F7BF744C4528"
+					item: "mekanism:boiler_valve"
+					type: "item"
+				}
+				{
+					id: "08B5173997A20957"
+					item: "mekanism:superheating_element"
+					type: "item"
+				}
+				{
+					id: "073FC9EE1917AB8B"
+					item: "mekanism:pressure_disperser"
+					type: "item"
+				}
+				{
+					id: "098341900CABCD0D"
+					item: "mekanism:structural_glass"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2F105B2DF532ABE5"]
+			id: "75ED6BE305AE1F39"
+			tasks: [{
+				id: "32A6EDD472657279"
+				item: "mekanism:resistive_heater"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["29F574AEBD0ED865"]
+			id: "616DCDDA0A1D5232"
+			tasks: [
+				{
+					id: "468DA66EDFC97AB3"
+					item: "mekanism:induction_casing"
+					type: "item"
+				}
+				{
+					id: "04676892430515C3"
+					item: "mekanism:induction_port"
+					type: "item"
+				}
+				{
+					id: "6A71D98DD52E5E66"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(mekanism:basic_induction_cell)item(mekanism:advanced_induction_cell)item(mekanism:elite_induction_cell)item(mekanism:ultimate_induction_cell))"
+						}
+					}
+					title: "Any Induction Cell"
+					type: "item"
+				}
+				{
+					id: "74EE26E663A651E3"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(mekanism:basic_induction_provider)item(mekanism:advanced_induction_provider)item(mekanism:elite_induction_provider)item(mekanism:ultimate_induction_provider))"
+						}
+					}
+					title: "Any Induction Provider"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -2.5d
+		}
+	]
 	title: "Mekanism"
 }

@@ -51,4 +51,7 @@ JEIEvents.hideItems(IRRebirth => {
     IRRebirth.hide('agricraft:amathyllis');
     IRRebirth.hide('agricraft:lapender');
     IRRebirth.hide('agricraft:jaslumine');
+    IRRebirth.hide('draconicevolution:magnet');
+    IRRebirth.hide('draconicevolution:advanced_magnet');
+
 })

@@ -42,4 +42,21 @@ ServerEvents.recipes(IRRebirth => {
           B: '#forge:dyes/blue'
         }
       )
+      IRRebirth.shapeless(
+        Item.of('kubejs:acidic_redstone', 9),
+        [
+          'kubejs:acidic_redstone_block'
+        ]
+      )
+      IRRebirth.shaped(
+        Item.of('kubejs:acidic_redstone_block'), 
+        [
+          'AAA',
+          'AAA',
+          'AAA'
+        ],
+        {
+          A: 'kubejs:acidic_redstone'
+        }
+      )
 })

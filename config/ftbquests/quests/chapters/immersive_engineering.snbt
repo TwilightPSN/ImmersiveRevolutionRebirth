@@ -312,7 +312,7 @@
 				type: "observation"
 			}]
 			x: 3.0d
-			y: 1.0d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -422,7 +422,7 @@
 				type: "observation"
 			}]
 			x: 0.0d
-			y: 3.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["1787025054B9F175"]
@@ -440,7 +440,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 3.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -457,7 +457,7 @@
 				type: "observation"
 			}]
 			x: 0.0d
-			y: 2.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["47EA72930E8B263C"]
@@ -553,7 +553,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 1.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["07283140B11FB4CC"]
@@ -699,26 +699,30 @@
 			hide_dependency_lines: true
 			id: "6CBE6DD3F776E019"
 			tasks: [{
+				icon: "immersiveengineering:mixer"
 				id: "32896D04250F32B3"
 				observe_type: 0
 				timer: 0L
 				to_observe: "immersiveengineering:mixer"
 				type: "observation"
 			}]
-			x: 3.0d
-			y: 0.0d
+			x: 0.0d
+			y: 2.0d
 		}
 		{
-			dependencies: ["6CBE6DD3F776E019"]
+			dependencies: [
+				"6CBE6DD3F776E019"
+				"7BE55FA9BDE5E7F6"
+			]
 			id: "430751120FB42896"
 			shape: "octagon"
 			tasks: [{
-				id: "311597CFF3B2A57F"
-				item: "immersiveengineering:redstone_acid_bucket"
+				id: "22767EB0AD91A891"
+				item: "kubejs:acidic_redstone"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -1.0d
+			x: 1.0d
+			y: 3.0d
 		}
 	]
 	title: "Immersive Engineering"

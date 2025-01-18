@@ -8,4 +8,8 @@ ServerEvents.recipes(IRRebirth => {
     IRRebirth.remove({ input: 'create:crushed_raw_osmium'})
     IRRebirth.remove({output: 'ae2:fluix_dust', type: 'mekanism:crushing'})
     IRRebirth.remove({ output: 'mekanism:enriched_carbon'})
+    IRRebirth.remove({ id: 'mekanism:infusion_conversion/carbon/from_charcoal'})
+    IRRebirth.remove({ id: 'mekanism:infusion_conversion/carbon/from_coal_block'})
+    IRRebirth.remove({ id: 'mekanism:infusion_conversion/carbon/from_coal'})
+    IRRebirth.remove({ id: 'mekanism:infusion_conversion/carbon/from_charcoal_block'})
 })
