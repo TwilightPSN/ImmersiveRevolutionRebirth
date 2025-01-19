@@ -2,9 +2,9 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "draconic_evolution"
-	group: ""
+	group: "6BFADEFDE68D0649"
 	id: "17FB7BECC622A718"
-	order_index: 4
+	order_index: 0
 	quest_links: [{
 		id: "194AAB595E86D0D2"
 		linked_quest: "1D95E21C7984BD6C"

@@ -1,0 +1,17 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "powah"
+	group: "24DDA86A89505444"
+	id: "442074482D959C85"
+	order_index: 1
+	quest_links: [{
+		id: "401C889D13E1ED00"
+		linked_quest: "7A88E6320FFD7765"
+		shape: "gear"
+		x: -4.0d
+		y: -1.0d
+	}]
+	quests: [ ]
+	title: "Powah"
+}

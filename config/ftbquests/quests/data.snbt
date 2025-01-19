@@ -10,7 +10,6 @@
 	emergency_items: [{ Count: 1, id: "pamhc2foodextended:hamandpineapplepizzaitem" }]
 	emergency_items_cooldown: 1800
 	grid_scale: 0.5d
-	icon: "create:flywheel"
 	lock_message: ""
 	loot_crate_no_drop: {
 		boss: 0

@@ -407,4 +407,64 @@ ServerEvents.recipes(IRRebirth => {
         600,
         1
     )
+    IRRebirth.recipes.botanypots.crop(
+        'buddingcrystals:energizedsteel_cluster',
+        ['buddingcrystals:budding_energizedsteel'], 
+        { block: 'buddingcrystals:energizedsteel_cluster' },
+        [
+            Item.of('powah:steel_energized')
+                .withChance(100)
+                .withRolls(1, 3) 
+        ],
+        600,
+        1
+    )
+    IRRebirth.recipes.botanypots.crop(
+        'buddingcrystals:blazingcrystal_cluster',
+        ['buddingcrystals:budding_blazingcrystal'], 
+        { block: 'buddingcrystals:blazingcrystal_cluster' },
+        [
+            Item.of('powah:crystal_blazing')
+                .withChance(100)
+                .withRolls(1, 2) 
+        ],
+        600,
+        1
+    )
+    IRRebirth.recipes.botanypots.crop(
+        'buddingcrystals:nioticcrystal_cluster',
+        ['buddingcrystals:budding_nioticcrystal'], 
+        { block: 'buddingcrystals:nioticcrystal_cluster' },
+        [
+            Item.of('powah:crystal_niotic')
+                .withChance(100)
+                .withRolls(1, 2) 
+        ],
+        600,
+        1
+    )    
+    IRRebirth.recipes.botanypots.crop(
+        'buddingcrystals:spiritedcrystal_cluster',
+        ['buddingcrystals:budding_spiritedcrystal'], 
+        { block: 'buddingcrystals:spiritedcrystal_cluster' },
+        [
+            Item.of('powah:crystal_spirited')
+                .withChance(100)
+                .withRolls(1, 2) 
+        ],
+        600,
+        1
+    )    
+    IRRebirth.recipes.botanypots.crop(
+        'buddingcrystals:nitrocrystal_cluster',
+        ['buddingcrystals:budding_nitrocrystal'], 
+        { block: 'buddingcrystals:nitrocrystal_cluster' },
+        [
+            Item.of('powah:crystal_nitro')
+                .withChance(100)
+                .withRolls(1, 2) 
+        ],
+        600,
+        1
+    )
 })

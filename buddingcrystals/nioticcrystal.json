@@ -1,0 +1,8 @@
+{
+    "translation": "Niotic Crystal",
+    "texture": "powah:block/niotic_crystal_block",
+    "growth_chance": 5,
+    "dropped_item": "powah:crystal_niotic",
+    "normal_drop_chance": 2,
+    "max_drop_chance": 6
+}

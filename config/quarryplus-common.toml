@@ -30,7 +30,7 @@
 	chunkDestroyerLimit = -1
 	#The max distance(unit: blocks) Flexible Marker can reach
 	#Range: 16 ~ 4096
-	flexMarkerMaxDistance = 256
+	flexMarkerMaxDistance = 32
 	#True to allow pipes to extract items in WorkbenchPlus
 	allowWorkbenchExtraction = false
 	#Use simple chunk load function.
@@ -165,7 +165,7 @@
 
 #Enchantments. Defines enchantments machines can accept.
 [enchantments]
-	quarry = ["minecraft:efficiency", "minecraft:unbreaking", "minecraft:fortune", "minecraft:silk_touch"]
+	quarry = ["minecraft:efficiency", "minecraft:fortune"]
 	adv_quarry = ["minecraft:efficiency", "minecraft:unbreaking", "minecraft:fortune", "minecraft:silk_touch"]
 	mini_quarry = ["minecraft:efficiency", "minecraft:unbreaking"]
 	adv_pump = ["minecraft:efficiency", "minecraft:unbreaking", "minecraft:fortune"]
