@@ -244,4 +244,39 @@ ServerEvents.recipes(IRRebirth => {
         -1, 
         1
     )
+    IRRebirth.recipes.botanypots.soil(
+        'buddingcrystals:budding_energizedsteel',
+        { block: 'buddingcrystals:budding_energizedsteel' },
+        ['buddingcrystals:budding_energizedsteel'], 
+        -1, 
+        1
+    )
+    IRRebirth.recipes.botanypots.soil(
+        'buddingcrystals:budding_blazingcrystal',
+        { block: 'buddingcrystals:budding_blazingcrystal' },
+        ['buddingcrystals:budding_blazingcrystal'], 
+        -1, 
+        1
+    )
+    IRRebirth.recipes.botanypots.soil(
+        'buddingcrystals:budding_nioticcrystal',
+        { block: 'buddingcrystals:budding_nioticcrystal' },
+        ['buddingcrystals:budding_nioticcrystal'], 
+        -1, 
+        1
+    )    
+    IRRebirth.recipes.botanypots.soil(
+        'buddingcrystals:budding_spiritedcrystal',
+        { block: 'buddingcrystals:budding_spiritedcrystal' },
+        ['buddingcrystals:budding_spiritedcrystal'], 
+        -1, 
+        1
+    )    
+    IRRebirth.recipes.botanypots.soil(
+        'buddingcrystals:budding_nitrocrystal',
+        { block: 'buddingcrystals:budding_nitrocrystal' },
+        ['buddingcrystals:budding_nitrocrystal'], 
+        -1, 
+        1
+    )
 })

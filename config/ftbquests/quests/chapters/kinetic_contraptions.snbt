@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "kinetic_contraptions"
-	group: ""
+	group: "773EE9D912C508CA"
 	id: "61049036FCFF39B9"
 	images: [
 		{
@@ -30,7 +30,7 @@
 			y: -5.0d
 		}
 	]
-	order_index: 1
+	order_index: 0
 	quest_links: [
 		{
 			id: "1E93DD850670C896"

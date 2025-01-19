@@ -1,0 +1,202 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "creative"
+	group: "63000A16FEB9A8D0"
+	id: "6CAEF7FBD6368953"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "239A275132232EAE"
+			tasks: [{
+				id: "5843C8BBE96FA517"
+				item: "extendedcrafting:basic_table"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["239A275132232EAE"]
+			id: "4EB113EEB24B25E6"
+			tasks: [{
+				id: "04D293781443240C"
+				item: "extendedcrafting:advanced_table"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4EB113EEB24B25E6"]
+			id: "227C83E382B395F0"
+			tasks: [{
+				id: "12D4CF24B96EC327"
+				item: "extendedcrafting:elite_table"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["227C83E382B395F0"]
+			id: "1D902F876F951BDC"
+			tasks: [{
+				id: "4C1C2BAAAD762EC0"
+				item: "extendedcrafting:ultimate_table"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["227C83E382B395F0"]
+			id: "1F45BD1880EEC602"
+			tasks: [{
+				id: "133F6D8A6B35EE9A"
+				item: "extendedcrafting:crystaltine_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["72B64716048DB345"]
+			id: "52674B61FB3B27A2"
+			tasks: [{
+				id: "59DFB97D9EF87FFB"
+				item: "extendedcrafting:ultimate_singularity"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1D902F876F951BDC"]
+			id: "72B64716048DB345"
+			tasks: [{
+				id: "13C55EA05A0F7C85"
+				item: "extendedcrafting:compressor"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["52674B61FB3B27A2"]
+			id: "773CE17D19BCA68C"
+			tasks: [{
+				id: "03568F771707EE15"
+				item: "create:creative_motor"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["52674B61FB3B27A2"]
+			id: "6022FC88C06DE19F"
+			tasks: [{
+				id: "6A07ACEECA9FE050"
+				item: "create:creative_crate"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["52674B61FB3B27A2"]
+			id: "77D99EEC75C4D053"
+			tasks: [{
+				id: "0B381418BA4DEED4"
+				item: "create:creative_blaze_cake"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["52674B61FB3B27A2"]
+			id: "0ADC2595EE5A446E"
+			tasks: [{
+				id: "2019AF9250FE0661"
+				item: "mekanism:creative_fluid_tank"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["52674B61FB3B27A2"]
+			id: "36DAD3ADCD082BEF"
+			tasks: [{
+				id: "7F0D117C69EB0488"
+				item: "mekanism:creative_chemical_tank"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["52674B61FB3B27A2"]
+			id: "5B4CE64D0826E021"
+			tasks: [{
+				id: "2742359EFFA4CA42"
+				item: "powah:energy_cell_creative"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["52674B61FB3B27A2"]
+			id: "6F39580072FB269E"
+			tasks: [{
+				id: "602D093DDCCDDFE4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: {
+									charge_armor: {
+										hud: 1b
+									}
+									charge_curios: {
+										hud: 1b
+									}
+									charge_held_item: {
+										hud: 1b
+									}
+									charge_hot_bar: {
+										hud: 1b
+									}
+									charge_main: {
+										hud: 1b
+									}
+								}
+								provider_id: [I;
+									1567661472
+									1684556833
+									-1264552657
+									-1837220134
+								]
+							}
+						}
+					}
+					id: "draconicevolution:creative_capacitor"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.5d
+		}
+	]
+	title: "Creative"
+}

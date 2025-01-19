@@ -1,3 +1,26 @@
+||Beta 0.3.0
+
+// Mods Updated //
+-Just Enough Immersive Multiblocks
+-Moonlight Lib
+-Not Enough Animations
+-Oh The Biomes We've Gone
+
+// Config Changes //
+-Prismarine Budding Crystal now drops Shards
+-Buddings Crystals added for Powah resources
+-Enchantable Miner now only accepts Efficiency and Fortune
+
+// Script Updates //
+-Custom metal gasses added
+
+// Quest Updates //
+-Organized Chapters
+-Mekanism Fusion Reactor
+-Mekanism Digital Miner
+-Budding Resources Chapter
+-Creative Chapter
+
 ||Beta 0.2.0||
 
 // Mods Update //
@@ -9,6 +32,7 @@
 
 // Config Updates //
 -Mindful Darkness Blacklist for Mekanism menus
+-Removed Sophisticated Backpacks Resource Pack Override
 
 // Recipes Updates //
 -Carbon now needs Coal Coke

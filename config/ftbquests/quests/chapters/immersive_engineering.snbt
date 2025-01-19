@@ -2,9 +2,9 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "immersive_engineering"
-	group: ""
+	group: "556104C289391CD6"
 	id: "3DAD57E3F71B4E27"
-	order_index: 2
+	order_index: 0
 	quest_links: [
 		{
 			id: "1053DB2B1F2F9B7C"
@@ -189,6 +189,7 @@
 		{
 			dependencies: ["546D8110EC3DA895"]
 			id: "1AAF8C310BB892B1"
+			shape: "gear"
 			tasks: [{
 				id: "2C10A6F80AD59F06"
 				item: "ae2:energy_acceptor"
@@ -366,45 +367,6 @@
 				type: "dimension"
 			}]
 			x: 2.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["1AAF8C310BB892B1"]
-			id: "7B0F71B2E191845D"
-			tasks: [{
-				id: "55172E1F2B1AF2EA"
-				item: "ae2:crystal_resonance_generator"
-				type: "item"
-			}]
-			x: 0.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["0AA2F1B9EDB6605E"]
-			id: "57B3C17EF15A6EB4"
-			tasks: [{
-				id: "520C8B278FF5D28A"
-				item: {
-					Count: 1
-					id: "ftbfiltersystem:smart_filter"
-					tag: {
-						"ftbfiltersystem:filter": "or(item(ae2:crafting_terminal)item(fulleng:crafting_terminal))"
-					}
-				}
-				type: "item"
-			}]
-			x: 0.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["1AAF8C310BB892B1"]
-			id: "5253FE03D294AB57"
-			tasks: [{
-				id: "033E0CA24D720990"
-				item: "ae2:storage_bus"
-				type: "item"
-			}]
-			x: 1.0d
 			y: -3.0d
 		}
 		{
@@ -621,28 +583,6 @@
 			}]
 			x: -2.0d
 			y: 3.0d
-		}
-		{
-			dependencies: ["7B0F71B2E191845D"]
-			id: "0AA2F1B9EDB6605E"
-			tasks: [{
-				id: "3271B42DC76FFFE0"
-				item: "ae2:inscriber"
-				type: "item"
-			}]
-			x: 0.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["0AA2F1B9EDB6605E"]
-			id: "6ACABDB12C4824B6"
-			tasks: [{
-				id: "1CE20185D5645109"
-				item: "ae2:drive"
-				type: "item"
-			}]
-			x: 1.0d
-			y: -4.0d
 		}
 		{
 			dependencies: ["546D8110EC3DA895"]

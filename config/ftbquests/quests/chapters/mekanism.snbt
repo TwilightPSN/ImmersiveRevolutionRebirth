@@ -2,9 +2,9 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "mekanism"
-	group: ""
+	group: "24DDA86A89505444"
 	id: "6D1D42C1FD190CA2"
-	order_index: 3
+	order_index: 0
 	quest_links: [
 		{
 			id: "19B1D564CE307C1D"
@@ -175,6 +175,7 @@
 		{
 			dependencies: ["10010D0E4452ACC7"]
 			id: "1C77BC5EF2916F72"
+			shape: "octagon"
 			tasks: [{
 				id: "6BAE1AB8DFB19C0D"
 				item: "mekanism:osmium_compressor"
@@ -329,6 +330,7 @@
 		{
 			dependencies: ["299F28BD3E7F3946"]
 			id: "7A88E6320FFD7765"
+			shape: "gear"
 			tasks: [{
 				id: "4B9202F03EBE9358"
 				item: "powah:dielectric_paste"
@@ -345,7 +347,7 @@
 				item: "mekanism:pellet_antimatter"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.5d
 			y: -6.5d
 		}
 		{
@@ -393,7 +395,7 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["57B92A99D1F22EF4"]
+			dependencies: ["604A081DA509D34A"]
 			id: "046A228271FDC590"
 			tasks: [
 				{
@@ -412,7 +414,7 @@
 					type: "item"
 				}
 			]
-			x: 0.5d
+			x: 1.5d
 			y: -6.5d
 		}
 		{
@@ -423,7 +425,7 @@
 				item: "mekanism:antiprotonic_nucleosynthesizer"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 3.5d
 			y: -6.5d
 		}
 		{
@@ -727,6 +729,97 @@
 			]
 			x: -2.5d
 			y: -2.5d
+		}
+		{
+			dependencies: ["604A081DA509D34A"]
+			id: "40E04E2A10170421"
+			tasks: [
+				{
+					id: "640DB1BAC6E8C5EB"
+					item: "mekanism:electric_pump"
+					type: "item"
+				}
+				{
+					id: "0B0E89D205549DE5"
+					item: "mekanism:upgrade_filter"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["40E04E2A10170421"]
+			id: "13160B706803907B"
+			tasks: [
+				{
+					id: "0826132E1C246BE4"
+					item: "mekanismgenerators:fusion_reactor_controller"
+					type: "item"
+				}
+				{
+					id: "363F96C9859E2826"
+					item: "mekanismgenerators:fusion_reactor_frame"
+					type: "item"
+				}
+				{
+					id: "21504F052E7A6FF6"
+					item: "mekanismgenerators:fusion_reactor_port"
+					type: "item"
+				}
+				{
+					id: "6A360D390EEA2419"
+					item: "mekanismgenerators:reactor_glass"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["13160B706803907B"]
+			id: "10376E2B2F657966"
+			tasks: [
+				{
+					id: "6E5BC67BD9C8357B"
+					item: "mekanism:laser_amplifier"
+					type: "item"
+				}
+				{
+					id: "3956EF1C92E99402"
+					item: "mekanism:laser"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["13160B706803907B"]
+			id: "18A432450A2F7CF3"
+			tasks: [{
+				id: "600EFD42374A25F2"
+				item: {
+					Count: 1
+					id: "mekanismgenerators:hohlraum"
+					tag: {
+						mekData: {
+							GasTanks: [{
+								Tank: 0b
+								stored: {
+									amount: 10L
+									gasName: "mekanismgenerators:fusion_fuel"
+								}
+							}]
+						}
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: 0.5d
+			y: -8.5d
 		}
 	]
 	title: "Mekanism"
