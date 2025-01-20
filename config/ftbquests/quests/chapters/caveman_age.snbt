@@ -3,13 +3,13 @@
 	default_quest_shape: ""
 	filename: "caveman_age"
 	group: "71B685F96CCAC47A"
+	icon: "sophisticatedbackpacks:backpack"
 	id: "3CB134302D896226"
 	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
 			description: [""]
-			icon: "minecraft:clock"
 			id: "599030C9DB9B1E08"
 			size: 1.0d
 			tasks: [{

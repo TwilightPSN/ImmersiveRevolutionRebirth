@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "kinetic_contraptions"
 	group: "773EE9D912C508CA"
+	icon: "create:crushing_wheel"
 	id: "61049036FCFF39B9"
 	images: [
 		{

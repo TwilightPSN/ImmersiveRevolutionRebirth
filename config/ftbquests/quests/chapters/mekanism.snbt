@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "mekanism"
 	group: "24DDA86A89505444"
+	icon: "mekanism:pellet_antimatter"
 	id: "6D1D42C1FD190CA2"
 	order_index: 0
 	quest_links: [
@@ -498,6 +499,7 @@
 		{
 			dependencies: ["57B92A99D1F22EF4"]
 			id: "7A8540C6331D26E4"
+			shape: "octagon"
 			tasks: [{
 				id: "4A4BCE13BF1E51CC"
 				item: "mekanism:radioactive_waste_barrel"
@@ -820,6 +822,17 @@
 			}]
 			x: 0.5d
 			y: -8.5d
+		}
+		{
+			dependencies: ["6C694DEF01960C4A"]
+			id: "4EC55231A0860146"
+			tasks: [{
+				id: "1738AE8CC293AB22"
+				item: "mekanism:digital_miner"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -0.5d
 		}
 	]
 	title: "Mekanism"

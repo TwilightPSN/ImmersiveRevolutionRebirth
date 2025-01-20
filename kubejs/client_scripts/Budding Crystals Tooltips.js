@@ -87,4 +87,5 @@ ItemEvents.tooltip(IRRebirth => {
     IRRebirth.add('buddingcrystals:nioticcrystal_cluster', 'NOTE: Requires Silk Touch')
     IRRebirth.add('buddingcrystals:spiritedcrystal_cluster', 'NOTE: Requires Silk Touch')
     IRRebirth.add('buddingcrystals:nitrocrystal_cluster', 'NOTE: Requires Silk Touch')
+    IRRebirth.add('buddingcrystals:coal_cluster', 'NOTE: Requires Silk Touch')
 })

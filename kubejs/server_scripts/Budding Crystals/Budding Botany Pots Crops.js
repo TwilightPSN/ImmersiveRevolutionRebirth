@@ -467,4 +467,28 @@ ServerEvents.recipes(IRRebirth => {
         600,
         1
     )
+    IRRebirth.recipes.botanypots.crop(
+        'buddingcrystals:coal_cluster',
+        ['buddingcrystals:budding_coal'], 
+        { block: 'buddingcrystals:coal_cluster' },
+        [
+            Item.of('minecraft:coal')
+                .withChance(100)
+                .withRolls(1, 3) 
+        ],
+        600,
+        1
+    )
+    IRRebirth.recipes.botanypots.crop(
+        'minecraft:amethyst_cluster',
+        ['minecraft:budding_amethyst'], 
+        { block: 'minecraft:amethyst_cluster' },
+        [
+            Item.of('minecraft:amethyst_shard')
+                .withChance(100)
+                .withRolls(1, 3) 
+        ],
+        600,
+        1
+    )
 })

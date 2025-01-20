@@ -59,4 +59,16 @@ ServerEvents.recipes(IRRebirth => {
           A: 'kubejs:acidic_redstone'
         }
       )
+      IRRebirth.shapeless(
+        Item.of('minecraft:quartz', 4),
+        [
+          'minecraft:quartz_block'
+        ]
+      )
+      IRRebirth.shapeless(
+        Item.of('minecraft:glowstone_dust', 4),
+        [
+          'minecraft:glowstone'
+        ]
+      )
 })

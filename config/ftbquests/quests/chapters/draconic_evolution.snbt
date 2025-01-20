@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "draconic_evolution"
 	group: "6BFADEFDE68D0649"
+	icon: "draconicevolution:reactor_stabilizer"
 	id: "17FB7BECC622A718"
 	order_index: 0
 	quest_links: [{
@@ -12,6 +13,16 @@
 		x: -3.0d
 		y: 1.5d
 	}]
-	quests: [ ]
+	quests: [{
+		dependencies: ["1D95E21C7984BD6C"]
+		id: "176DAA22E30BE295"
+		tasks: [{
+			id: "25DD4B714A88E839"
+			item: "draconicevolution:draconium_core"
+			type: "item"
+		}]
+		x: -3.0d
+		y: 2.5d
+	}]
 	title: "Draconic Evolution"
 }

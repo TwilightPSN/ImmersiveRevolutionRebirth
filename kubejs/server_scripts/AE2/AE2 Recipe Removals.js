@@ -13,4 +13,5 @@ ServerEvents.recipes(IRRebirth => {
     IRRebirth.remove({ id: 'more_immersive_wires:ae_connector'})
     IRRebirth.remove({ id: 'more_immersive_wires:ae_dense_relay'})
     IRRebirth.remove({ id: 'more_immersive_wires:ae_dense_connector'})
+    IRRebirth.remove({ id: 'ae2:network/cables/glass_fluix'})
 })

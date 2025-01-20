@@ -9,4 +9,7 @@ ServerEvents.recipes(IRRebirth => {
     IRRebirth.recipes.immersiveengineeringMetalPress('kubejs:refined_glowstone_plate', '#forge:ingots/refined_glowstone', 'immersiveengineering:mold_plate')
     IRRebirth.recipes.immersiveengineeringMetalPress(Item.of('kubejs:refined_obsidian_rod', 2), '#forge:ingots/refined_obsidian', 'immersiveengineering:mold_rod')
     IRRebirth.recipes.immersiveengineeringMetalPress(Item.of('kubejs:refined_glowstone_rod', 2), '#forge:ingots/refined_glowstone', 'immersiveengineering:mold_rod')
+    IRRebirth.recipes.immersiveengineeringMetalPress(Item.of('kubejs:diamond_rod', 2), '#forge:gems/diamond', 'immersiveengineering:mold_rod')
+    IRRebirth.recipes.immersiveengineeringMetalPress('kubejs:diamond_plate', '#forge:gems/diamond', 'immersiveengineering:mold_plate')
+
 })

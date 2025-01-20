@@ -279,4 +279,18 @@ ServerEvents.recipes(IRRebirth => {
         -1, 
         1
     )
+    IRRebirth.recipes.botanypots.soil(
+        'buddingcrystals:budding_coal',
+        { block: 'buddingcrystals:budding_coal' },
+        ['buddingcrystals:budding_coal'], 
+        -1, 
+        1
+    )
+    IRRebirth.recipes.botanypots.soil(
+        'minecraft:budding_amethyst',
+        { block: 'minecraft:budding_amethyst' },
+        ['minecraft:budding_amethyst'], 
+        -1, 
+        1
+    )
 })

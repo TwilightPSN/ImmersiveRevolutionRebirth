@@ -4,4 +4,6 @@ LootJS.modifiers((IRRebirth) => {
     IRRebirth.addBlockLootModifier("draconicevolution:end_draconium_ore").addLoot("draconicevolution:end_draconium_ore");
     IRRebirth.addBlockLootModifier("draconicevolution:overworld_draconium_ore").addLoot("draconicevolution:overworld_draconium_ore");
     IRRebirth.addBlockLootModifier("draconicevolution:deepslate_draconium_ore").addLoot("draconicevolution:deepslate_draconium_ore");
+    IRRebirth.addBlockLootModifier("minecraft:budding_amethyst").randomChanceWithEnchantment("minecraft:silk_touch", [0, 1]).addLoot("minecraft:budding_amethyst");
+
 });
