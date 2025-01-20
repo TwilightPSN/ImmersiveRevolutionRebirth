@@ -1,10 +1,11 @@
-||Beta 0.3.0
+||Beta 0.3.0||
 
 // Mods Updated //
 -Just Enough Immersive Multiblocks
 -Moonlight Lib
 -Not Enough Animations
 -Oh The Biomes We've Gone
+-Friends & Foes
 
 // Config Changes //
 -Prismarine Budding Crystal now drops Shards
@@ -13,6 +14,14 @@
 
 // Script Updates //
 -Custom metal gasses added
+-KubeJS added items now display Immersive Revolution as mod name
+-Diamond Plates and Rods
+
+// Recipe Changes //
+-Budding Crystal Recipes
+-Acidic Redstone through gas
+-AE2 Recipe Changes
+-AdvancedAE Gated behind MegaCells
 
 // Quest Updates //
 -Organized Chapters
@@ -20,6 +29,8 @@
 -Mekanism Digital Miner
 -Budding Resources Chapter
 -Creative Chapter
+-Dimension Travel Chapter
+-AE2 Quests
 
 ||Beta 0.2.0||
 

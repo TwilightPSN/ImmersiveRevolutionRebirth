@@ -16,7 +16,7 @@
 	transmitterAlloyUpgrade = true
 	#Base factor for working out machine performance with upgrades - UpgradeModifier * (UpgradesInstalled/UpgradesPossible).
 	#Range: > 1
-	maxUpgradeMultiplier = 10
+	maxUpgradeMultiplier = 25
 	#How much Boiler heat is immediately usable to convert water to steam.
 	#Range: 0.01 ~ 1.0
 	boilerWaterConductivity = 0.7

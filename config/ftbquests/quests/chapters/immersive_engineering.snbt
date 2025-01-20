@@ -3,6 +3,13 @@
 	default_quest_shape: ""
 	filename: "immersive_engineering"
 	group: "556104C289391CD6"
+	icon: {
+		Count: 1
+		id: "immersiveengineering:hammer"
+		tag: {
+			Damage: 0
+		}
+	}
 	id: "3DAD57E3F71B4E27"
 	order_index: 0
 	quest_links: [
@@ -187,7 +194,10 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["546D8110EC3DA895"]
+			dependencies: [
+				"546D8110EC3DA895"
+				"03835B0AAF486B09"
+			]
 			id: "1AAF8C310BB892B1"
 			shape: "gear"
 			tasks: [{
@@ -237,6 +247,7 @@
 		}
 		{
 			dependencies: ["60C64ED98B3DA5FE"]
+			hide_dependency_lines: true
 			id: "73F11332415E1484"
 			tasks: [
 				{
@@ -256,6 +267,7 @@
 		}
 		{
 			dependencies: ["60C64ED98B3DA5FE"]
+			hide_dependency_lines: true
 			id: "6601CE0A294C091A"
 			tasks: [
 				{

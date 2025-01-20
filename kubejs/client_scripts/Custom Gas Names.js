@@ -35,4 +35,7 @@ ClientEvents.highPriorityAssets(IRRebirth => {
     IRRebirth.addLang('gas.kubejs.niotic_gas', "Niotic Gas")
     IRRebirth.addLang('gas.kubejs.spirited_gas', "Spirited Gas")
     IRRebirth.addLang('gas.kubejs.nitro_gas', "Nitro Gas")
+    IRRebirth.addLang('gas.kubejs.carbon_gas', "Carbon Gas")
+    IRRebirth.addLang('gas.kubejs.fluorite_gas', "Fluorite Gas")
+    IRRebirth.addLang('gas.kubejs.amethyst_gas', "Amethyst Gas")
 })

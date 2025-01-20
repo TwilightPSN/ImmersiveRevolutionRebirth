@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "powah"
 	group: "24DDA86A89505444"
+	icon: "powah:uraninite"
 	id: "442074482D959C85"
 	order_index: 1
 	quest_links: [{
