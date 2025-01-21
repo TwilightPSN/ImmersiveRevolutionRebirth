@@ -676,6 +676,20 @@
 			x: 1.0d
 			y: 3.0d
 		}
+		{
+			dependencies: ["1DD257B96B934201"]
+			icon: "immersiveengineering:auto_workbench"
+			id: "02AED649A06B3A01"
+			tasks: [{
+				id: "436FF3111A1A7EBF"
+				observe_type: 0
+				timer: 0L
+				to_observe: "immersiveengineering:auto_workbench"
+				type: "observation"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
 	]
 	title: "Immersive Engineering"
 }

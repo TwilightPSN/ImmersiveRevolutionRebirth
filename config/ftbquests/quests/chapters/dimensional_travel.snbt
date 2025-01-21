@@ -1424,6 +1424,139 @@
 			x: -4.5d
 			y: -5.5d
 		}
+		{
+			height: 1.25d
+			image: "ae2:block/fluix_block"
+			order: 100
+			rotation: 0.0d
+			width: 1.25d
+			x: 14.0d
+			y: -4.5d
+		}
+		{
+			height: 1.25d
+			image: "ae2:block/fluix_block"
+			order: 100
+			rotation: 0.0d
+			width: 1.25d
+			x: 15.0d
+			y: -4.5d
+		}
+		{
+			height: 1.25d
+			image: "ae2:block/fluix_block"
+			order: 100
+			rotation: 0.0d
+			width: 1.25d
+			x: 16.0d
+			y: -4.5d
+		}
+		{
+			height: 1.25d
+			image: "ae2:block/fluix_block"
+			order: 100
+			rotation: 0.0d
+			width: 1.25d
+			x: 17.0d
+			y: -5.5d
+		}
+		{
+			height: 1.25d
+			image: "ae2:block/fluix_block"
+			order: 100
+			rotation: 0.0d
+			width: 1.25d
+			x: 17.0d
+			y: -6.5d
+		}
+		{
+			height: 1.25d
+			image: "ae2:block/fluix_block"
+			order: 100
+			rotation: 0.0d
+			width: 1.25d
+			x: 17.0d
+			y: -7.5d
+		}
+		{
+			height: 1.25d
+			image: "ae2:block/fluix_block"
+			order: 100
+			rotation: 0.0d
+			width: 1.25d
+			x: 16.0d
+			y: -8.5d
+		}
+		{
+			height: 1.25d
+			image: "ae2:block/fluix_block"
+			order: 100
+			rotation: 0.0d
+			width: 1.25d
+			x: 15.0d
+			y: -8.5d
+		}
+		{
+			height: 1.25d
+			image: "ae2:block/fluix_block"
+			order: 100
+			rotation: 0.0d
+			width: 1.25d
+			x: 14.0d
+			y: -8.5d
+		}
+		{
+			height: 1.25d
+			image: "ae2:block/fluix_block"
+			order: 100
+			rotation: 0.0d
+			width: 1.25d
+			x: 13.0d
+			y: -5.5d
+		}
+		{
+			height: 1.25d
+			image: "ae2:block/fluix_block"
+			order: 100
+			rotation: 0.0d
+			width: 1.25d
+			x: 13.0d
+			y: -6.5d
+		}
+		{
+			height: 1.25d
+			image: "ae2:block/fluix_block"
+			order: 100
+			rotation: 0.0d
+			width: 1.25d
+			x: 13.0d
+			y: -7.5d
+		}
+		{
+			height: 1.0d
+			image: "fzzy_config:textures/gui/sprites/widget/validation/ingredient/frame.png"
+			order: -500
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.0d
+			y: -8.5d
+		}
+		{
+			height: 3.5d
+			image: "minecraft:textures/environment/end_sky.png"
+			rotation: 0.0d
+			width: 3.5d
+			x: 15.0d
+			y: -6.5d
+		}
+		{
+			height: 0.75d
+			image: "ae2:item/fluix_pearl"
+			rotation: 0.0d
+			width: 0.75d
+			x: 13.0d
+			y: -8.5d
+		}
 	]
 	order_index: 1
 	quest_links: [
@@ -1486,6 +1619,18 @@
 			linked_quest: "6601CE0A294C091A"
 			x: 8.5d
 			y: -5.5d
+		}
+		{
+			id: "1372AE879FB0824F"
+			linked_quest: "66F8A2FE57A0FEE2"
+			x: 15.0d
+			y: -5.5d
+		}
+		{
+			id: "5DD747A7081D6B3A"
+			linked_quest: "4EDEFDEDD7BD7145"
+			x: 15.0d
+			y: -6.5d
 		}
 	]
 	quests: [ ]

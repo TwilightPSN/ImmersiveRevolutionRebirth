@@ -53,5 +53,5 @@ JEIEvents.hideItems(IRRebirth => {
     IRRebirth.hide('agricraft:jaslumine');
     IRRebirth.hide('draconicevolution:magnet');
     IRRebirth.hide('draconicevolution:advanced_magnet');
-
+    IRRebirth.hide('javd:portal_block');
 })
