@@ -1,3 +1,27 @@
+||Beta 0.4.0||
+
+// Mods Added //
+-Just Another Void Dimension
+-No Farmland Trample
+
+// Mods Updated //
+-Fusion
+-Jade
+-Moonlight Lib
+
+// Mods Removed //
+-Mantle (Unnecessary Library Leftover)
+
+// Config Updates //
+-Powah Machines Buffed
+-Void Dimensions locked behind Fluix Pearl
+
+// Script Changes //
+-Budding Crystals added to forge:budding tag to enable use of AE2 Growth Accelerators
+
+// Quest Updates //
+-Powah and Draconic Lines staged!!
+
 ||Beta 0.3.0||
 
 // Mods Updated //

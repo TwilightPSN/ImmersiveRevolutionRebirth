@@ -40,6 +40,16 @@
       "r": 255,
       "g": 252,
       "b": 204
+    },
+    {
+      "isFlat": false,
+      "frameBlock": "ae2:fluix_block",
+      "isFluidIgniter": false,
+      "itemIgniter": "ae2:fluix_pearl",
+      "dimension": "javd:void",
+      "r": 255,
+      "g": 252,
+      "b": 204
     }
   ]
 }

@@ -30,48 +30,48 @@ ServerEvents.recipes(IRRebirth => {
     '#forge:rods/refined_obsidian'
   )
   IRRebirth.replaceInput(
-    { output: 'powah:ender_cell_starter' },
+    { output: 'powah:crystal_nitro' },
+    'minecraft:redstone_block',
+    'kubejs:acidic_redstone_block'
+  )
+  IRRebirth.replaceInput(
+    { output: 'powah:dielectric_rod' },
+    'minecraft:iron_bars',
+    'mekanism:hdpe_rod'
+  )
+  IRRebirth.replaceInput(
+    { output: 'powah:dielectric_rod_horizontal' },
+    'minecraft:iron_bars',
+    'mekanism:hdpe_rod'
+  )
+  IRRebirth.replaceInput(
+    { output: 'powah:energy_cable_starter' },
     'minecraft:iron_nugget',
-    '#forge:ingots/silver'
+    '#forge:wires/iron'
   )
   IRRebirth.replaceInput(
-    { output: 'powah:ender_cell_starter' },
-    'minecraft:obsidian',
-    '#forge:plates/refined_obsidian'
+    { output: 'powah:photoelectric_pane' },
+    '#c:glass_panes',
+    'mekanismgenerators:solar_panel'
   )
   IRRebirth.replaceInput(
-    { output: 'powah:ender_cell_basic' },
-    'minecraft:iron_ingot',
-    '#forge:ingots/steel'
+    { output: 'powah:photoelectric_pane' },
+    'minecraft:lapis_lazuli',
+    '#forge:rods/electrum'
   )
   IRRebirth.replaceInput(
-    { output: 'powah:ender_cell_basic' },
-    'minecraft:obsidian',
-    '#forge:plates/refined_obsidian'
+    { output: 'powah:aerial_pearl' },
+    'minecraft:iron_bars',
+    'mekanism:hdpe_rod'
   )
   IRRebirth.replaceInput(
-    { output: 'powah:ender_cell_hardened' },
-    'minecraft:obsidian',
-    '#forge:plates/refined_obsidian'
+    { output: 'powah:aerial_pearl' },
+    'minecraft:ender_pearl',
+    'ae2:fluix_pearl'
   )
   IRRebirth.replaceInput(
-    { output: 'powah:ender_cell_blazing' },
-    'minecraft:obsidian',
-    '#forge:plates/refined_obsidian'
-  )
-  IRRebirth.replaceInput(
-    { output: 'powah:ender_cell_niotic' },
-    'minecraft:obsidian',
-    '#forge:plates/refined_obsidian'
-  )
-  IRRebirth.replaceInput(
-    { output: 'powah:ender_cell_spirited' },
-    'minecraft:obsidian',
-    '#forge:plates/refined_obsidian'
-  )
-  IRRebirth.replaceInput(
-    { output: 'powah:ender_cell_nitro' },
-    'minecraft:obsidian',
-    '#forge:plates/refined_obsidian'
+    { output: 'powah:energizing_orb' },
+    '#c:glass_blocks',
+    'mekanismgenerators:reactor_glass'
   )
 })
