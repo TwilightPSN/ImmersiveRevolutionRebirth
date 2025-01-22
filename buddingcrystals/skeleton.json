@@ -1,0 +1,8 @@
+{
+    "translation": "Skeleton",
+    "texture": "minecraft:block/white_glazed_terracotta",
+    "growth_chance": 15,
+    "dropped_item": "minecraft:bone",
+    "normal_drop_chance": 4,
+    "max_drop_chance": 6
+}

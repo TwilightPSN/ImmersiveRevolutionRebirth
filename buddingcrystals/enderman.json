@@ -1,0 +1,8 @@
+{
+    "translation": "Enderman",
+    "texture": "extendedcrafting:block/ender_ingot_block",
+    "growth_chance": 15,
+    "dropped_item": "minecraft:ender_pearl",
+    "normal_drop_chance": 4,
+    "max_drop_chance": 6
+}

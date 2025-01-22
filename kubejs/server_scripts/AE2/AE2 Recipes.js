@@ -11,7 +11,7 @@ ServerEvents.recipes(IRRebirth => {
           B: 'immersiveengineering:stick_treated'
         }
       )
-      IRRebirth.shaped(
+    IRRebirth.shaped(
         Item.of('more_immersive_wires:ae_dense_coil', 4), 
         [
           'AAA',
@@ -23,7 +23,7 @@ ServerEvents.recipes(IRRebirth => {
           B: 'immersiveengineering:stick_treated'
         }
       )
-      IRRebirth.shaped(
+    IRRebirth.shaped(
         Item.of('more_immersive_wires:ae_relay', 2), 
         [
           ' A ',
@@ -36,7 +36,7 @@ ServerEvents.recipes(IRRebirth => {
           C: '#forge:wires/fluix'
         }
       )
-      IRRebirth.shaped(
+    IRRebirth.shaped(
         Item.of('more_immersive_wires:ae_connector', 2), 
         [
           'AAA',
@@ -49,7 +49,7 @@ ServerEvents.recipes(IRRebirth => {
           C: '#forge:plates/steel'
         }
       )
-      IRRebirth.shaped(
+    IRRebirth.shaped(
         Item.of('more_immersive_wires:ae_dense_connector', 2), 
         [
           'AAA',
@@ -62,19 +62,19 @@ ServerEvents.recipes(IRRebirth => {
           C: '#forge:plates/steel'
         }
       )
-        IRRebirth.shaped(
-            Item.of('more_immersive_wires:ae_dense_relay', 2), 
-            [
-              'AAA',
-              'ABA',
-              'CBC'
-            ],
-            {
-              A: 'more_immersive_wires:ae_dense_coil',
-              B: 'more_immersive_wires:ae_relay',
-              C: '#forge:plates/steel'
-            }
-          )
+    IRRebirth.shaped(
+      Item.of('more_immersive_wires:ae_dense_relay', 2), 
+        [
+          'AAA',
+          'ABA',
+          'CBC'
+        ],
+        {
+          A: 'more_immersive_wires:ae_dense_coil',
+          B: 'more_immersive_wires:ae_relay',
+          C: '#forge:plates/steel'
+        }
+     )
         IRRebirth.shaped(
             Item.of('ae2:drive', 1), 
             [
@@ -88,4 +88,18 @@ ServerEvents.recipes(IRRebirth => {
               C: 'more_immersive_wires:ae_coil'
             }
           )
+        IRRebirth.shaped(
+            Item.of('ae2:charger', 1), 
+            [
+              'ABA',
+              'CD ',
+              'ABA'
+            ],
+            {
+              A: '#forge:plates/fluix',
+              B: '#forge:rods/steel',
+              C: '#forge:plates/certus',
+              D: 'ae2:charged_certus_quartz_crystal'
+            }
+          ).id('ae2:network/blocks/crystal_processing_charger')
 })

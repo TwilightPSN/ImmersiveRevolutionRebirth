@@ -10,7 +10,7 @@ ServerEvents.recipes(IRRebirth => {
         A: '#forge:ingots/draconium',
         B: 'mekanism:pellet_polonium',
         C: 'mekanism:pellet_plutonium',
-        D: 'mekanism:pellet_antimatter'
+        D: '#forge:plates/diamond'
       }
     ).id('draconicevolution:components/draconium_core')
 })

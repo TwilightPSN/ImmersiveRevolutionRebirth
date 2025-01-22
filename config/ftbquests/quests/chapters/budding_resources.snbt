@@ -3,15 +3,15 @@
 	default_quest_shape: ""
 	filename: "budding_resources"
 	group: "24DDA86A89505444"
-	icon: "buddingcrystals:nitrocrystal_cluster"
+	icon: "minecraft:diamond"
 	id: "7BC44003BE5DAC4C"
 	order_index: 2
 	quest_links: [{
 		id: "60B535CC26DB2517"
 		linked_quest: "1C77BC5EF2916F72"
 		shape: "octagon"
-		x: 4.0d
-		y: 0.5d
+		x: 5.5d
+		y: -5.5d
 	}]
 	quests: [
 		{
@@ -22,8 +22,8 @@
 				item: "buddingcrystals:budding_copper"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -0.5d
+			x: 3.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["1C77BC5EF2916F72"]
@@ -33,8 +33,8 @@
 				item: "buddingcrystals:budding_prismarine"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 0.5d
+			x: 3.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["1C77BC5EF2916F72"]
@@ -44,8 +44,8 @@
 				item: "buddingcrystals:budding_steel"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 3.5d
+			x: 8.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["1C77BC5EF2916F72"]
@@ -56,7 +56,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 3.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["1C77BC5EF2916F72"]
@@ -66,8 +66,8 @@
 				item: "buddingcrystals:budding_refinedobsidian"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -3.0d
+			x: 4.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["1C77BC5EF2916F72"]
@@ -77,8 +77,8 @@
 				item: "buddingcrystals:budding_aluminum"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 1.5d
+			x: 10.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["1C77BC5EF2916F72"]
@@ -88,8 +88,8 @@
 				item: "buddingcrystals:budding_energizedsteel"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 3.5d
+			x: 8.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["1C77BC5EF2916F72"]
@@ -99,8 +99,8 @@
 				item: "buddingcrystals:budding_nitrocrystal"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 4.5d
+			x: 9.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["1C77BC5EF2916F72"]
@@ -110,8 +110,8 @@
 				item: "buddingcrystals:budding_nioticcrystal"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 3.5d
+			x: 9.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["1C77BC5EF2916F72"]
@@ -121,8 +121,8 @@
 				item: "buddingcrystals:budding_blazingcrystal"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 3.5d
+			x: 7.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["1C77BC5EF2916F72"]
@@ -132,8 +132,8 @@
 				item: "buddingcrystals:budding_glowstone"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 0.5d
+			x: 2.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["1C77BC5EF2916F72"]
@@ -144,7 +144,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 4.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["1C77BC5EF2916F72"]
@@ -154,8 +154,8 @@
 				item: "buddingcrystals:budding_netherite"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -0.5d
+			x: 0.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["1C77BC5EF2916F72"]
@@ -165,8 +165,8 @@
 				item: "buddingcrystals:budding_gold"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -0.5d
+			x: 1.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["1C77BC5EF2916F72"]
@@ -176,8 +176,8 @@
 				item: "buddingcrystals:budding_lapis_lazuli"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -1.5d
+			x: 1.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["1C77BC5EF2916F72"]
@@ -187,8 +187,8 @@
 				item: "buddingcrystals:budding_emerald"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -1.5d
+			x: 0.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["1C77BC5EF2916F72"]
@@ -198,8 +198,8 @@
 				item: "buddingcrystals:budding_redstone"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -1.5d
+			x: 3.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["1C77BC5EF2916F72"]
@@ -209,8 +209,8 @@
 				item: "buddingcrystals:budding_uranium"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 1.5d
+			x: 9.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["1C77BC5EF2916F72"]
@@ -220,8 +220,8 @@
 				item: "buddingcrystals:budding_silver"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -0.5d
+			x: 10.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["1C77BC5EF2916F72"]
@@ -231,8 +231,8 @@
 				item: "buddingcrystals:budding_iron"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -0.5d
+			x: 2.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["1C77BC5EF2916F72"]
@@ -242,8 +242,8 @@
 				item: "buddingcrystals:budding_uraninite"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 4.5d
+			x: 7.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["1C77BC5EF2916F72"]
@@ -253,8 +253,8 @@
 				item: "buddingcrystals:budding_spiritedcrystal"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 4.5d
+			x: 8.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["1C77BC5EF2916F72"]
@@ -264,8 +264,8 @@
 				item: "buddingcrystals:budding_diamond"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -1.5d
+			x: 2.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["1C77BC5EF2916F72"]
@@ -275,8 +275,8 @@
 				item: "buddingcrystals:budding_draconium"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -2.0d
+			x: 5.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["1C77BC5EF2916F72"]
@@ -286,8 +286,8 @@
 				item: "buddingcrystals:budding_bronze"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 4.5d
+			x: 9.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["1C77BC5EF2916F72"]
@@ -297,8 +297,8 @@
 				item: "buddingcrystals:budding_electrum"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 3.5d
+			x: 11.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["1C77BC5EF2916F72"]
@@ -308,8 +308,8 @@
 				item: "buddingcrystals:budding_nickel"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 0.5d
+			x: 8.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["1C77BC5EF2916F72"]
@@ -319,8 +319,8 @@
 				item: "buddingcrystals:budding_nether_quartz"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 0.5d
+			x: 1.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["1C77BC5EF2916F72"]
@@ -330,8 +330,8 @@
 				item: "buddingcrystals:budding_salt"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -2.0d
+			x: 3.0d
+			y: -8.5d
 		}
 		{
 			dependencies: ["1C77BC5EF2916F72"]
@@ -341,8 +341,8 @@
 				item: "buddingcrystals:budding_hopgraphite"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 3.5d
+			x: 11.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["1C77BC5EF2916F72"]
@@ -352,8 +352,8 @@
 				item: "buddingcrystals:budding_osmium"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -2.0d
+			x: 4.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["1C77BC5EF2916F72"]
@@ -363,8 +363,8 @@
 				item: "buddingcrystals:budding_brass"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 2.0d
+			x: 7.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["1C77BC5EF2916F72"]
@@ -374,8 +374,8 @@
 				item: "buddingcrystals:budding_constantan"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 4.5d
+			x: 9.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["1C77BC5EF2916F72"]
@@ -385,8 +385,8 @@
 				item: "buddingcrystals:budding_lead"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -0.5d
+			x: 8.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["1C77BC5EF2916F72"]
@@ -396,8 +396,8 @@
 				item: "buddingcrystals:budding_tin"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 0.5d
+			x: 10.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["1C77BC5EF2916F72"]
@@ -407,8 +407,8 @@
 				item: "buddingcrystals:budding_fluorite"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -2.0d
+			x: 3.0d
+			y: -9.5d
 		}
 		{
 			dependencies: ["1C77BC5EF2916F72"]
@@ -418,8 +418,8 @@
 				item: "buddingcrystals:budding_zinc"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 2.0d
+			x: 7.5d
+			y: -9.0d
 		}
 		{
 			dependencies: ["1C77BC5EF2916F72"]
@@ -429,8 +429,8 @@
 				item: "buddingcrystals:budding_awakeneddraconium"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -3.0d
+			x: 5.5d
+			y: -9.0d
 		}
 		{
 			dependencies: ["1C77BC5EF2916F72"]
@@ -440,8 +440,52 @@
 				item: "buddingcrystals:budding_refinedglowstone"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 4.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["1C77BC5EF2916F72"]
+			id: "5E1B0FA478EA6212"
+			tasks: [{
+				id: "055F817B61A48E21"
+				item: "buddingcrystals:budding_acidicredstone"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["1C77BC5EF2916F72"]
+			id: "3A50D262F2AC949E"
+			tasks: [{
+				id: "37585D07E022326B"
+				item: "buddingcrystals:budding_quantumalloy"
+				type: "item"
+			}]
+			x: 3.0d
 			y: -3.0d
+		}
+		{
+			dependencies: ["1C77BC5EF2916F72"]
+			id: "3B2A919A44F93CB1"
+			tasks: [{
+				id: "25D16D482A88649E"
+				item: "buddingcrystals:budding_skysteel"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1C77BC5EF2916F72"]
+			id: "61E44084E7DBCD8B"
+			tasks: [{
+				id: "6B550A9F74E312C8"
+				item: "buddingcrystals:budding_flint"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.5d
 		}
 	]
 	title: "Budding Resources"

@@ -17,14 +17,14 @@
 		{
 			id: "37A1E401898B7323"
 			linked_quest: "7238E258FDDBD561"
-			x: -4.5d
+			x: -3.5d
 			y: 0.5d
 		}
 		{
 			id: "697132B393FA3B53"
 			linked_quest: "03835B0AAF486B09"
 			x: -4.5d
-			y: -0.5d
+			y: 0.5d
 		}
 	]
 	quests: [
@@ -42,7 +42,7 @@
 				item: "ae2:storage_bus"
 				type: "item"
 			}]
-			x: -3.5d
+			x: -4.5d
 			y: -1.5d
 		}
 		{
@@ -114,17 +114,6 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["6ACABDB12C4824B6"]
-			id: "30FD9AE969522ADB"
-			tasks: [{
-				id: "786B2703C330FDA8"
-				item: "ae2:cell_component_1k"
-				type: "item"
-			}]
-			x: -0.5d
-			y: 0.5d
-		}
-		{
 			dependencies: ["0AA2F1B9EDB6605E"]
 			id: "22F3F63D08B38C13"
 			tasks: [{
@@ -147,7 +136,7 @@
 				}
 				type: "item"
 			}]
-			x: -2.5d
+			x: -3.5d
 			y: -1.5d
 		}
 		{
@@ -159,7 +148,7 @@
 				type: "item"
 			}]
 			x: -5.5d
-			y: -0.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["0AA2F1B9EDB6605E"]
@@ -278,7 +267,8 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["30FD9AE969522ADB"]
+			dependencies: ["1AAF8C310BB892B1"]
+			hide_dependency_lines: true
 			id: "3362930245E966F4"
 			tasks: [{
 				id: "137E1CD63DB3C712"
@@ -320,7 +310,7 @@
 				}
 			]
 			x: -4.5d
-			y: -1.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["3362930245E966F4"]
@@ -602,8 +592,8 @@
 				id: "3DFE818FC13DA48A"
 				type: "dimension"
 			}]
-			x: -6.5d
-			y: 0.5d
+			x: -5.5d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -624,8 +614,99 @@
 					type: "item"
 				}
 			]
-			x: -5.5d
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5C4B22675FF3B0D7"]
+			id: "1B94E08682932915"
+			tasks: [{
+				id: "6DE7BEB492F43B89"
+				item: "expatternprovider:ex_molecular_assembler"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6ACABDB12C4824B6"]
+			id: "1363430C198CFFBE"
+			tasks: [{
+				id: "1B117B00B49CB508"
+				item: "expatternprovider:ex_drive"
+				type: "item"
+			}]
+			x: -0.5d
 			y: 0.5d
+		}
+		{
+			dependencies: ["0AA2F1B9EDB6605E"]
+			id: "670AA495488E1238"
+			tasks: [{
+				id: "3D58C444E69AF8D3"
+				item: "expatternprovider:circuit_cutter"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6ACABDB12C4824B6"]
+			id: "7F6783C938238C2B"
+			tasks: [
+				{
+					id: "23D3F1F03808C6A6"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:f"
+								id: "minecraft:water"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "120FF694FF3C811A"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "minecraft:cobblestone"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["03835B0AAF486B09"]
+			id: "21E8F6587D7D6182"
+			tasks: [{
+				id: "0E6C26F2B1DBE888"
+				item: "ae2:charger"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["21E8F6587D7D6182"]
+			id: "1DBA560A5B20F8AB"
+			tasks: [{
+				id: "241719A610FFF586"
+				item: "expatternprovider:ex_charger"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.5d
 		}
 	]
 	title: "Applied Energistics"

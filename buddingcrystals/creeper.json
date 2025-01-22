@@ -1,0 +1,8 @@
+{
+    "translation": "Creeper",
+    "texture": "minecraft:block/gray_glazed_terracotta",
+    "growth_chance": 15,
+    "dropped_item": "minecraft:gunpowder",
+    "normal_drop_chance": 4,
+    "max_drop_chance": 6
+}

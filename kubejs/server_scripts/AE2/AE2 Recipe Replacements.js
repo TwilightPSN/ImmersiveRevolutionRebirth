@@ -1,5 +1,4 @@
 ServerEvents.recipes(IRRebirth => {
-
   IRRebirth.replaceInput(
     { output: 'ae2:energy_acceptor' },
     'minecraft:iron_ingot',
@@ -169,5 +168,10 @@ ServerEvents.recipes(IRRebirth => {
     { output: 'advanced_ae:quantum_unit' },
     'ae2:crafting_unit',
     'megacells:mega_crafting_unit'
+  )
+  IRRebirth.replaceInput(
+    { output: 'expatternprovider:circuit_cutter' },
+    'minecraft:iron_ingot',
+    'advanced_ae:quantum_alloy'
   )
 })

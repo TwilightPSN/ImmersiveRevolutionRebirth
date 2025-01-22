@@ -1,0 +1,8 @@
+{
+    "translation": "Sheep",
+    "texture": "minecraft:block/white_wool",
+    "growth_chance": 15,
+    "dropped_item": "minecraft:string",
+    "normal_drop_chance": 4,
+    "max_drop_chance": 6
+}

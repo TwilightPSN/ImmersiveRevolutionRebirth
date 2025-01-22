@@ -1,0 +1,8 @@
+{
+    "translation": "Bee",
+    "texture": "minecraft:block/honeycomb_block",
+    "growth_chance": 15,
+    "dropped_item": "minecraft:honeycomb",
+    "normal_drop_chance": 4,
+    "max_drop_chance": 6
+}

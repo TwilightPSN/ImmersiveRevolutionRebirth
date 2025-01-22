@@ -3,6 +3,11 @@
 // Mods Added //
 -Just Another Void Dimension
 -No Farmland Trample
+-Stellar View
+-Silent Gear
+-Silent's gems
+-SilentGear Compat
+-ExtendedAE
 
 // Mods Updated //
 -Fusion
@@ -11,16 +16,24 @@
 
 // Mods Removed //
 -Mantle (Unnecessary Library Leftover)
+-TxniLib (Unnecessary Library Leftover)
+-Prefab (Large Mod - Little Use)
 
 // Config Updates //
 -Powah Machines Buffed
 -Void Dimensions locked behind Fluix Pearl
+-Added Mob Budding Crystals
 
 // Script Changes //
 -Budding Crystals added to forge:budding tag to enable use of AE2 Growth Accelerators
+-Agricraft Crops added to minecraft:crops tag to enable user of AE2 Growth Accelerators
+-Custom Experience fluids for Mobs
+-Flint Gas Budding Crystal
 
 // Quest Updates //
--Powah and Draconic Lines staged!!
+-Powah and Draconic Lines staged
+-AE2 Quests for ExtendedAE Items
+-Budding Mobs Quests
 
 ||Beta 0.3.0||
 

@@ -1,0 +1,8 @@
+{
+    "translation": "Spider",
+    "texture": "minecraft:block/black_glazed_terracotta",
+    "growth_chance": 15,
+    "dropped_item": "minecraft:spider_eye",
+    "normal_drop_chance": 4,
+    "max_drop_chance": 6
+}

@@ -2,12 +2,12 @@
   "oreMultiplier": 1,
   "ores": [
     {
-      "ore_size": 8,
+      "ore_size": 4,
       "discard_on_air_chance": 0.0,
       "modifiers": [
         {
-          "chance": 10,
-          "type": "minecraft:rarity_filter"
+          "count": 10,
+          "type": "minecraft:count"
         },
         {
           "type": "minecraft:in_square"
@@ -15,10 +15,10 @@
         {
           "height": {
             "min_inclusive": {
-              "absolute": -64
+              "above_bottom": 0
             },
             "max_inclusive": {
-              "absolute": -48
+              "absolute": 72
             },
             "type": "minecraft:uniform"
           },
@@ -54,7 +54,7 @@
       "discard_on_air_chance": 0.0,
       "modifiers": [
         {
-          "count": 5,
+          "count": 16,
           "type": "minecraft:count"
         },
         {
@@ -63,118 +63,10 @@
         {
           "height": {
             "min_inclusive": {
-              "absolute": -63
+              "absolute": -16
             },
             "max_inclusive": {
-              "absolute": 60
-            },
-            "type": "minecraft:uniform"
-          },
-          "type": "minecraft:height_range"
-        },
-        {
-          "type": "create:config_filter"
-        }
-      ],
-      "targets": [
-        {
-          "target": {
-            "tag": "minecraft:stone_ore_replaceables",
-            "predicate_type": "minecraft:tag_match"
-          },
-          "state": {
-            "Name": "tfmg:lead_ore"
-          }
-        },
-        {
-          "target": {
-            "tag": "minecraft:deepslate_ore_replaceables",
-            "predicate_type": "minecraft:tag_match"
-          },
-          "state": {
-            "Name": "tfmg:deepslate_lead_ore"
-          }
-        }
-      ]
-    },
-    {
-      "ore_size": 13,
-      "discard_on_air_chance": 1.0,
-      "modifiers": [
-        {
-          "oreVeinType": {
-            "type": "fluorite",
-            "index": 1
-          },
-          "retroGen": false,
-          "type": "mekanism:disableable"
-        },
-        {
-          "count": {
-            "oreVeinType": {
-              "type": "fluorite",
-              "index": 1
-            },
-            "type": "mekanism:configurable_constant"
-          },
-          "type": "minecraft:count"
-        },
-        {
-          "type": "minecraft:in_square"
-        },
-        {
-          "height": {
-            "oreVeinType": {
-              "type": "fluorite",
-              "index": 1
-            },
-            "type": "mekanism:configurable"
-          },
-          "type": "minecraft:height_range"
-        },
-        {
-          "type": "minecraft:biome"
-        }
-      ],
-      "targets": [
-        {
-          "target": {
-            "tag": "minecraft:stone_ore_replaceables",
-            "predicate_type": "minecraft:tag_match"
-          },
-          "state": {
-            "Name": "mekanism:fluorite_ore"
-          }
-        },
-        {
-          "target": {
-            "tag": "minecraft:deepslate_ore_replaceables",
-            "predicate_type": "minecraft:tag_match"
-          },
-          "state": {
-            "Name": "mekanism:deepslate_fluorite_ore"
-          }
-        }
-      ]
-    },
-    {
-      "ore_size": 7,
-      "discard_on_air_chance": 0.0,
-      "modifiers": [
-        {
-          "count": 2,
-          "type": "minecraft:count"
-        },
-        {
-          "type": "minecraft:in_square"
-        },
-        {
-          "height": {
-            "min_inclusive": {
-              "absolute": -32
-            },
-            "max_inclusive": {
-              "absolute": 32
+              "absolute": 112
             },
             "type": "minecraft:trapezoid"
           },
@@ -191,7 +83,7 @@
             "predicate_type": "minecraft:tag_match"
           },
           "state": {
-            "Name": "minecraft:lapis_ore"
+            "Name": "minecraft:copper_ore"
           }
         },
         {
@@ -200,17 +92,65 @@
             "predicate_type": "minecraft:tag_match"
           },
           "state": {
-            "Name": "minecraft:deepslate_lapis_ore"
+            "Name": "minecraft:deepslate_copper_ore"
           }
         }
       ]
     },
     {
-      "ore_size": 5,
+      "ore_size": 8,
+      "discard_on_air_chance": 1.0,
+      "modifiers": [
+        {
+          "count": 4,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "above_bottom": -80
+            },
+            "max_inclusive": {
+              "above_bottom": 80
+            },
+            "type": "minecraft:trapezoid"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "tag": "minecraft:stone_ore_replaceables",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "minecraft:diamond_ore"
+          }
+        },
+        {
+          "target": {
+            "tag": "minecraft:deepslate_ore_replaceables",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "minecraft:deepslate_diamond_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 8,
       "discard_on_air_chance": 0.0,
       "modifiers": [
         {
-          "count": 8,
+          "count": 4,
           "type": "minecraft:count"
         },
         {
@@ -222,7 +162,7 @@
               "above_bottom": 0
             },
             "max_inclusive": {
-              "absolute": 64
+              "absolute": 15
             },
             "type": "minecraft:uniform"
           },
@@ -239,7 +179,10 @@
             "predicate_type": "minecraft:tag_match"
           },
           "state": {
-            "Name": "powah:uraninite_ore_poor"
+            "Properties": {
+              "lit": "false"
+            },
+            "Name": "minecraft:redstone_ore"
           }
         },
         {
@@ -248,7 +191,10 @@
             "predicate_type": "minecraft:tag_match"
           },
           "state": {
-            "Name": "powah:deepslate_uraninite_ore_poor"
+            "Properties": {
+              "lit": "false"
+            },
+            "Name": "minecraft:deepslate_redstone_ore"
           }
         }
       ]
@@ -318,67 +264,7 @@
       "discard_on_air_chance": 0.0,
       "modifiers": [
         {
-          "oreVeinType": {
-            "type": "osmium",
-            "index": 2
-          },
-          "retroGen": false,
-          "type": "mekanism:disableable"
-        },
-        {
-          "count": {
-            "oreVeinType": {
-              "type": "osmium",
-              "index": 2
-            },
-            "type": "mekanism:configurable_constant"
-          },
-          "type": "minecraft:count"
-        },
-        {
-          "type": "minecraft:in_square"
-        },
-        {
-          "height": {
-            "oreVeinType": {
-              "type": "osmium",
-              "index": 2
-            },
-            "type": "mekanism:configurable"
-          },
-          "type": "minecraft:height_range"
-        },
-        {
-          "type": "minecraft:biome"
-        }
-      ],
-      "targets": [
-        {
-          "target": {
-            "tag": "minecraft:stone_ore_replaceables",
-            "predicate_type": "minecraft:tag_match"
-          },
-          "state": {
-            "Name": "mekanism:osmium_ore"
-          }
-        },
-        {
-          "target": {
-            "tag": "minecraft:deepslate_ore_replaceables",
-            "predicate_type": "minecraft:tag_match"
-          },
-          "state": {
-            "Name": "mekanism:deepslate_osmium_ore"
-          }
-        }
-      ]
-    },
-    {
-      "ore_size": 4,
-      "discard_on_air_chance": 0.0,
-      "modifiers": [
-        {
-          "count": 10,
+          "count": 6,
           "type": "minecraft:count"
         },
         {
@@ -390,7 +276,7 @@
               "above_bottom": 0
             },
             "max_inclusive": {
-              "absolute": 72
+              "absolute": 20
             },
             "type": "minecraft:uniform"
           },
@@ -407,7 +293,7 @@
             "predicate_type": "minecraft:tag_match"
           },
           "state": {
-            "Name": "minecraft:iron_ore"
+            "Name": "powah:uraninite_ore"
           }
         },
         {
@@ -416,32 +302,223 @@
             "predicate_type": "minecraft:tag_match"
           },
           "state": {
-            "Name": "minecraft:deepslate_iron_ore"
+            "Name": "powah:deepslate_uraninite_ore"
           }
         }
       ]
     },
     {
-      "ore_size": 64,
+      "ore_size": 7,
       "discard_on_air_chance": 0.0,
       "modifiers": [
         {
-          "count": 0,
+          "count": 2,
           "type": "minecraft:count"
         },
         {
-          "chance": 2,
-          "type": "minecraft:rarity_filter"
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "absolute": -32
+            },
+            "max_inclusive": {
+              "absolute": 32
+            },
+            "type": "minecraft:trapezoid"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:biome"
         }
       ],
       "targets": [
         {
           "target": {
-            "tag": "minecraft:base_stone_overworld",
+            "tag": "minecraft:stone_ore_replaceables",
             "predicate_type": "minecraft:tag_match"
           },
           "state": {
-            "Name": "minecraft:granite"
+            "Name": "minecraft:lapis_ore"
+          }
+        },
+        {
+          "target": {
+            "tag": "minecraft:deepslate_ore_replaceables",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "minecraft:deepslate_lapis_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 9,
+      "discard_on_air_chance": 0.0,
+      "modifiers": [
+        {
+          "oreVeinType": {
+            "type": "tin",
+            "index": 1
+          },
+          "retroGen": false,
+          "type": "mekanism:disableable"
+        },
+        {
+          "count": {
+            "oreVeinType": {
+              "type": "tin",
+              "index": 1
+            },
+            "type": "mekanism:configurable_constant"
+          },
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "oreVeinType": {
+              "type": "tin",
+              "index": 1
+            },
+            "type": "mekanism:configurable"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "tag": "minecraft:stone_ore_replaceables",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "mekanism:tin_ore"
+          }
+        },
+        {
+          "target": {
+            "tag": "minecraft:deepslate_ore_replaceables",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "mekanism:deepslate_tin_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 17,
+      "discard_on_air_chance": 0.5,
+      "modifiers": [
+        {
+          "count": 20,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "absolute": 0
+            },
+            "max_inclusive": {
+              "absolute": 192
+            },
+            "type": "minecraft:trapezoid"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "tag": "minecraft:stone_ore_replaceables",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "minecraft:coal_ore"
+          }
+        },
+        {
+          "target": {
+            "tag": "minecraft:deepslate_ore_replaceables",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "minecraft:deepslate_coal_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 9,
+      "discard_on_air_chance": 0.75,
+      "modifiers": [
+        {
+          "oreVeinType": {
+            "type": "uranium",
+            "index": 1
+          },
+          "retroGen": false,
+          "type": "mekanism:disableable"
+        },
+        {
+          "count": {
+            "oreVeinType": {
+              "type": "uranium",
+              "index": 1
+            },
+            "type": "mekanism:configurable_constant"
+          },
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "oreVeinType": {
+              "type": "uranium",
+              "index": 1
+            },
+            "type": "mekanism:configurable"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "tag": "minecraft:stone_ore_replaceables",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "mekanism:uranium_ore"
+          }
+        },
+        {
+          "target": {
+            "tag": "minecraft:deepslate_ore_replaceables",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "mekanism:deepslate_uranium_ore"
           }
         }
       ]
@@ -507,6 +584,291 @@
       ]
     },
     {
+      "ore_size": 64,
+      "discard_on_air_chance": 0.0,
+      "modifiers": [
+        {
+          "count": 0,
+          "type": "minecraft:count"
+        },
+        {
+          "chance": 2,
+          "type": "minecraft:rarity_filter"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "tag": "minecraft:base_stone_overworld",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "minecraft:andesite"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 64,
+      "discard_on_air_chance": 0.0,
+      "modifiers": [
+        {
+          "count": 0,
+          "type": "minecraft:count"
+        },
+        {
+          "chance": 1,
+          "type": "minecraft:rarity_filter"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "tag": "minecraft:base_stone_overworld",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "minecraft:andesite"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 4,
+      "discard_on_air_chance": 0.5,
+      "modifiers": [
+        {
+          "count": 7,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "above_bottom": -80
+            },
+            "max_inclusive": {
+              "above_bottom": 80
+            },
+            "type": "minecraft:trapezoid"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "tag": "minecraft:stone_ore_replaceables",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "minecraft:diamond_ore"
+          }
+        },
+        {
+          "target": {
+            "tag": "minecraft:deepslate_ore_replaceables",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "minecraft:deepslate_diamond_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 9,
+      "discard_on_air_chance": 0.5,
+      "modifiers": [
+        {
+          "count": {
+            "type": "minecraft:uniform",
+            "value": {
+              "min_inclusive": 0,
+              "max_inclusive": 1
+            }
+          },
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "absolute": -64
+            },
+            "max_inclusive": {
+              "absolute": -48
+            },
+            "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "tag": "minecraft:stone_ore_replaceables",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "minecraft:gold_ore"
+          }
+        },
+        {
+          "target": {
+            "tag": "minecraft:deepslate_ore_replaceables",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "minecraft:deepslate_gold_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 5,
+      "discard_on_air_chance": 0.0,
+      "modifiers": [
+        {
+          "count": 8,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "above_bottom": 0
+            },
+            "max_inclusive": {
+              "absolute": 64
+            },
+            "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "tag": "minecraft:stone_ore_replaceables",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "powah:uraninite_ore_poor"
+          }
+        },
+        {
+          "target": {
+            "tag": "minecraft:deepslate_ore_replaceables",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "powah:deepslate_uraninite_ore_poor"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 5,
+      "discard_on_air_chance": 0.0,
+      "modifiers": [
+        {
+          "oreVeinType": {
+            "type": "fluorite",
+            "index": 0
+          },
+          "retroGen": false,
+          "type": "mekanism:disableable"
+        },
+        {
+          "count": {
+            "oreVeinType": {
+              "type": "fluorite",
+              "index": 0
+            },
+            "type": "mekanism:configurable_constant"
+          },
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "oreVeinType": {
+              "type": "fluorite",
+              "index": 0
+            },
+            "type": "mekanism:configurable"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "tag": "minecraft:stone_ore_replaceables",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "mekanism:fluorite_ore"
+          }
+        },
+        {
+          "target": {
+            "tag": "minecraft:deepslate_ore_replaceables",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "mekanism:deepslate_fluorite_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 64,
+      "discard_on_air_chance": 0.0,
+      "modifiers": [
+        {
+          "count": 0,
+          "type": "minecraft:count"
+        },
+        {
+          "chance": 1,
+          "type": "minecraft:rarity_filter"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "tag": "minecraft:base_stone_overworld",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "minecraft:diorite"
+          }
+        }
+      ]
+    },
+    {
       "ore_size": 9,
       "discard_on_air_chance": 0.25,
       "modifiers": [
@@ -567,6 +929,262 @@
       ]
     },
     {
+      "ore_size": 12,
+      "discard_on_air_chance": 0.7,
+      "modifiers": [
+        {
+          "chance": 9,
+          "type": "minecraft:rarity_filter"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "above_bottom": -80
+            },
+            "max_inclusive": {
+              "above_bottom": 80
+            },
+            "type": "minecraft:trapezoid"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "tag": "minecraft:stone_ore_replaceables",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "minecraft:diamond_ore"
+          }
+        },
+        {
+          "target": {
+            "tag": "minecraft:deepslate_ore_replaceables",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "minecraft:deepslate_diamond_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 3,
+      "discard_on_air_chance": 0.0,
+      "modifiers": [
+        {
+          "count": 3,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "above_bottom": 0
+            },
+            "max_inclusive": {
+              "absolute": 0
+            },
+            "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "tag": "minecraft:stone_ore_replaceables",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "powah:uraninite_ore_dense"
+          }
+        },
+        {
+          "target": {
+            "tag": "minecraft:deepslate_ore_replaceables",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "powah:deepslate_uraninite_ore_dense"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 12,
+      "discard_on_air_chance": 0.0,
+      "modifiers": [
+        {
+          "count": 8,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "absolute": -63
+            },
+            "max_inclusive": {
+              "absolute": 70
+            },
+            "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "create:config_filter"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "tag": "minecraft:stone_ore_replaceables",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "create:zinc_ore"
+          }
+        },
+        {
+          "target": {
+            "tag": "minecraft:deepslate_ore_replaceables",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "create:deepslate_zinc_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 64,
+      "discard_on_air_chance": 0.0,
+      "modifiers": [
+        {
+          "count": 0,
+          "type": "minecraft:count"
+        },
+        {
+          "chance": 2,
+          "type": "minecraft:rarity_filter"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "tag": "minecraft:base_stone_overworld",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "minecraft:diorite"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 33,
+      "discard_on_air_chance": 0.0,
+      "modifiers": [
+        {
+          "count": 7,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "absolute": 0
+            },
+            "max_inclusive": {
+              "absolute": 160
+            },
+            "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "tag": "minecraft:base_stone_overworld",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "minecraft:dirt"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 9,
+      "discard_on_air_chance": 0.5,
+      "modifiers": [
+        {
+          "count": 4,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "absolute": -64
+            },
+            "max_inclusive": {
+              "absolute": 32
+            },
+            "type": "minecraft:trapezoid"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "tag": "minecraft:stone_ore_replaceables",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "minecraft:gold_ore"
+          }
+        },
+        {
+          "target": {
+            "tag": "minecraft:deepslate_ore_replaceables",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "minecraft:deepslate_gold_ore"
+          }
+        }
+      ]
+    },
+    {
       "ore_size": 9,
       "discard_on_air_chance": 0.0,
       "modifiers": [
@@ -615,11 +1233,11 @@
       ]
     },
     {
-      "ore_size": 8,
+      "ore_size": 9,
       "discard_on_air_chance": 0.0,
       "modifiers": [
         {
-          "count": 4,
+          "count": 10,
           "type": "minecraft:count"
         },
         {
@@ -628,12 +1246,133 @@
         {
           "height": {
             "min_inclusive": {
-              "above_bottom": 0
+              "absolute": -24
             },
             "max_inclusive": {
-              "absolute": 15
+              "absolute": 56
+            },
+            "type": "minecraft:trapezoid"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "tag": "minecraft:stone_ore_replaceables",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "minecraft:iron_ore"
+          }
+        },
+        {
+          "target": {
+            "tag": "minecraft:deepslate_ore_replaceables",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "minecraft:deepslate_iron_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 17,
+      "discard_on_air_chance": 0.0,
+      "modifiers": [
+        {
+          "count": 30,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "absolute": 136
+            },
+            "max_inclusive": {
+              "below_top": 0
             },
             "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "tag": "minecraft:stone_ore_replaceables",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "minecraft:coal_ore"
+          }
+        },
+        {
+          "target": {
+            "tag": "minecraft:deepslate_ore_replaceables",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "minecraft:deepslate_coal_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 64,
+      "discard_on_air_chance": 0.0,
+      "modifiers": [
+        {
+          "count": 0,
+          "type": "minecraft:count"
+        },
+        {
+          "chance": 2,
+          "type": "minecraft:rarity_filter"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "tag": "minecraft:base_stone_overworld",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "minecraft:granite"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 8,
+      "discard_on_air_chance": 0.0,
+      "modifiers": [
+        {
+          "count": 8,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "above_bottom": -32
+            },
+            "max_inclusive": {
+              "above_bottom": 32
+            },
+            "type": "minecraft:trapezoid"
           },
           "type": "minecraft:height_range"
         },
@@ -664,237 +1403,6 @@
               "lit": "false"
             },
             "Name": "minecraft:deepslate_redstone_ore"
-          }
-        }
-      ]
-    },
-    {
-      "ore_size": 8,
-      "discard_on_air_chance": 0.0,
-      "modifiers": [
-        {
-          "count": 4,
-          "type": "minecraft:count"
-        },
-        {
-          "type": "minecraft:in_square"
-        },
-        {
-          "height": {
-            "min_inclusive": {
-              "absolute": -63
-            },
-            "max_inclusive": {
-              "absolute": 20
-            },
-            "type": "minecraft:uniform"
-          },
-          "type": "minecraft:height_range"
-        },
-        {
-          "type": "create:config_filter"
-        }
-      ],
-      "targets": [
-        {
-          "target": {
-            "tag": "minecraft:stone_ore_replaceables",
-            "predicate_type": "minecraft:tag_match"
-          },
-          "state": {
-            "Name": "tfmg:nickel_ore"
-          }
-        },
-        {
-          "target": {
-            "tag": "minecraft:deepslate_ore_replaceables",
-            "predicate_type": "minecraft:tag_match"
-          },
-          "state": {
-            "Name": "tfmg:deepslate_nickel_ore"
-          }
-        }
-      ]
-    },
-    {
-      "ore_size": 12,
-      "discard_on_air_chance": 0.0,
-      "modifiers": [
-        {
-          "count": 2,
-          "type": "minecraft:count"
-        },
-        {
-          "type": "minecraft:in_square"
-        },
-        {
-          "height": {
-            "min_inclusive": {
-              "absolute": -63
-            },
-            "max_inclusive": {
-              "absolute": 0
-            },
-            "type": "minecraft:uniform"
-          },
-          "type": "minecraft:height_range"
-        },
-        {
-          "type": "create:config_filter"
-        }
-      ],
-      "targets": [
-        {
-          "target": {
-            "tag": "minecraft:stone_ore_replaceables",
-            "predicate_type": "minecraft:tag_match"
-          },
-          "state": {
-            "Name": "tfmg:lithium_ore"
-          }
-        },
-        {
-          "target": {
-            "tag": "minecraft:deepslate_ore_replaceables",
-            "predicate_type": "minecraft:tag_match"
-          },
-          "state": {
-            "Name": "tfmg:deepslate_lithium_ore"
-          }
-        }
-      ]
-    },
-    {
-      "ore_size": 10,
-      "discard_on_air_chance": 0.0,
-      "modifiers": [
-        {
-          "count": 16,
-          "type": "minecraft:count"
-        },
-        {
-          "type": "minecraft:in_square"
-        },
-        {
-          "height": {
-            "min_inclusive": {
-              "absolute": -16
-            },
-            "max_inclusive": {
-              "absolute": 112
-            },
-            "type": "minecraft:trapezoid"
-          },
-          "type": "minecraft:height_range"
-        },
-        {
-          "type": "minecraft:biome"
-        }
-      ],
-      "targets": [
-        {
-          "target": {
-            "tag": "minecraft:stone_ore_replaceables",
-            "predicate_type": "minecraft:tag_match"
-          },
-          "state": {
-            "Name": "minecraft:copper_ore"
-          }
-        },
-        {
-          "target": {
-            "tag": "minecraft:deepslate_ore_replaceables",
-            "predicate_type": "minecraft:tag_match"
-          },
-          "state": {
-            "Name": "minecraft:deepslate_copper_ore"
-          }
-        }
-      ]
-    },
-    {
-      "ore_size": 4,
-      "discard_on_air_chance": 0.4,
-      "modifiers": [
-        {
-          "count": 15,
-          "type": "minecraft:count"
-        },
-        {
-          "type": "minecraft:in_square"
-        },
-        {
-          "height": {
-            "min_inclusive": {
-              "absolute": -20
-            },
-            "max_inclusive": {
-              "absolute": 60
-            },
-            "type": "minecraft:uniform"
-          },
-          "type": "minecraft:height_range"
-        },
-        {
-          "type": "minecraft:biome"
-        }
-      ],
-      "targets": [
-        {
-          "target": {
-            "tag": "minecraft:stone_ore_replaceables",
-            "predicate_type": "minecraft:tag_match"
-          },
-          "state": {
-            "Name": "create_new_age:magnetite_block"
-          }
-        }
-      ]
-    },
-    {
-      "ore_size": 12,
-      "discard_on_air_chance": 0.7,
-      "modifiers": [
-        {
-          "chance": 9,
-          "type": "minecraft:rarity_filter"
-        },
-        {
-          "type": "minecraft:in_square"
-        },
-        {
-          "height": {
-            "min_inclusive": {
-              "above_bottom": -80
-            },
-            "max_inclusive": {
-              "above_bottom": 80
-            },
-            "type": "minecraft:trapezoid"
-          },
-          "type": "minecraft:height_range"
-        },
-        {
-          "type": "minecraft:biome"
-        }
-      ],
-      "targets": [
-        {
-          "target": {
-            "tag": "minecraft:stone_ore_replaceables",
-            "predicate_type": "minecraft:tag_match"
-          },
-          "state": {
-            "Name": "minecraft:diamond_ore"
-          }
-        },
-        {
-          "target": {
-            "tag": "minecraft:deepslate_ore_replaceables",
-            "predicate_type": "minecraft:tag_match"
-          },
-          "state": {
-            "Name": "minecraft:deepslate_diamond_ore"
           }
         }
       ]
@@ -960,11 +1468,11 @@
       ]
     },
     {
-      "ore_size": 9,
-      "discard_on_air_chance": 0.5,
+      "ore_size": 33,
+      "discard_on_air_chance": 0.0,
       "modifiers": [
         {
-          "count": 4,
+          "count": 14,
           "type": "minecraft:count"
         },
         {
@@ -973,12 +1481,63 @@
         {
           "height": {
             "min_inclusive": {
-              "absolute": -64
+              "above_bottom": 0
             },
             "max_inclusive": {
-              "absolute": 32
+              "below_top": 0
             },
-            "type": "minecraft:trapezoid"
+            "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "tag": "minecraft:base_stone_overworld",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "minecraft:gravel"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 13,
+      "discard_on_air_chance": 1.0,
+      "modifiers": [
+        {
+          "oreVeinType": {
+            "type": "fluorite",
+            "index": 1
+          },
+          "retroGen": false,
+          "type": "mekanism:disableable"
+        },
+        {
+          "count": {
+            "oreVeinType": {
+              "type": "fluorite",
+              "index": 1
+            },
+            "type": "mekanism:configurable_constant"
+          },
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "oreVeinType": {
+              "type": "fluorite",
+              "index": 1
+            },
+            "type": "mekanism:configurable"
           },
           "type": "minecraft:height_range"
         },
@@ -993,7 +1552,7 @@
             "predicate_type": "minecraft:tag_match"
           },
           "state": {
-            "Name": "minecraft:gold_ore"
+            "Name": "mekanism:fluorite_ore"
           }
         },
         {
@@ -1002,80 +1561,7 @@
             "predicate_type": "minecraft:tag_match"
           },
           "state": {
-            "Name": "minecraft:deepslate_gold_ore"
-          }
-        }
-      ]
-    },
-    {
-      "ore_size": 64,
-      "discard_on_air_chance": 0.0,
-      "modifiers": [
-        {
-          "count": 0,
-          "type": "minecraft:count"
-        },
-        {
-          "chance": 1,
-          "type": "minecraft:rarity_filter"
-        }
-      ],
-      "targets": [
-        {
-          "target": {
-            "tag": "minecraft:base_stone_overworld",
-            "predicate_type": "minecraft:tag_match"
-          },
-          "state": {
-            "Name": "minecraft:granite"
-          }
-        }
-      ]
-    },
-    {
-      "ore_size": 12,
-      "discard_on_air_chance": 0.0,
-      "modifiers": [
-        {
-          "count": 8,
-          "type": "minecraft:count"
-        },
-        {
-          "type": "minecraft:in_square"
-        },
-        {
-          "height": {
-            "min_inclusive": {
-              "absolute": -63
-            },
-            "max_inclusive": {
-              "absolute": 70
-            },
-            "type": "minecraft:uniform"
-          },
-          "type": "minecraft:height_range"
-        },
-        {
-          "type": "create:config_filter"
-        }
-      ],
-      "targets": [
-        {
-          "target": {
-            "tag": "minecraft:stone_ore_replaceables",
-            "predicate_type": "minecraft:tag_match"
-          },
-          "state": {
-            "Name": "create:zinc_ore"
-          }
-        },
-        {
-          "target": {
-            "tag": "minecraft:deepslate_ore_replaceables",
-            "predicate_type": "minecraft:tag_match"
-          },
-          "state": {
-            "Name": "create:deepslate_zinc_ore"
+            "Name": "mekanism:deepslate_fluorite_ore"
           }
         }
       ]
@@ -1168,403 +1654,13 @@
       ]
     },
     {
-      "ore_size": 64,
-      "discard_on_air_chance": 0.0,
-      "modifiers": [
-        {
-          "count": 0,
-          "type": "minecraft:count"
-        },
-        {
-          "chance": 1,
-          "type": "minecraft:rarity_filter"
-        }
-      ],
-      "targets": [
-        {
-          "target": {
-            "tag": "minecraft:base_stone_overworld",
-            "predicate_type": "minecraft:tag_match"
-          },
-          "state": {
-            "Name": "minecraft:diorite"
-          }
-        }
-      ]
-    },
-    {
-      "ore_size": 64,
-      "discard_on_air_chance": 0.0,
-      "modifiers": [
-        {
-          "count": 0,
-          "type": "minecraft:count"
-        },
-        {
-          "chance": 1,
-          "type": "minecraft:rarity_filter"
-        }
-      ],
-      "targets": [
-        {
-          "target": {
-            "tag": "minecraft:base_stone_overworld",
-            "predicate_type": "minecraft:tag_match"
-          },
-          "state": {
-            "Name": "minecraft:andesite"
-          }
-        }
-      ]
-    },
-    {
-      "ore_size": 17,
-      "discard_on_air_chance": 0.0,
-      "modifiers": [
-        {
-          "count": 30,
-          "type": "minecraft:count"
-        },
-        {
-          "type": "minecraft:in_square"
-        },
-        {
-          "height": {
-            "min_inclusive": {
-              "absolute": 136
-            },
-            "max_inclusive": {
-              "below_top": 0
-            },
-            "type": "minecraft:uniform"
-          },
-          "type": "minecraft:height_range"
-        },
-        {
-          "type": "minecraft:biome"
-        }
-      ],
-      "targets": [
-        {
-          "target": {
-            "tag": "minecraft:stone_ore_replaceables",
-            "predicate_type": "minecraft:tag_match"
-          },
-          "state": {
-            "Name": "minecraft:coal_ore"
-          }
-        },
-        {
-          "target": {
-            "tag": "minecraft:deepslate_ore_replaceables",
-            "predicate_type": "minecraft:tag_match"
-          },
-          "state": {
-            "Name": "minecraft:deepslate_coal_ore"
-          }
-        }
-      ]
-    },
-    {
-      "ore_size": 33,
-      "discard_on_air_chance": 0.0,
-      "modifiers": [
-        {
-          "count": 14,
-          "type": "minecraft:count"
-        },
-        {
-          "type": "minecraft:in_square"
-        },
-        {
-          "height": {
-            "min_inclusive": {
-              "above_bottom": 0
-            },
-            "max_inclusive": {
-              "below_top": 0
-            },
-            "type": "minecraft:uniform"
-          },
-          "type": "minecraft:height_range"
-        },
-        {
-          "type": "minecraft:biome"
-        }
-      ],
-      "targets": [
-        {
-          "target": {
-            "tag": "minecraft:base_stone_overworld",
-            "predicate_type": "minecraft:tag_match"
-          },
-          "state": {
-            "Name": "minecraft:gravel"
-          }
-        }
-      ]
-    },
-    {
-      "ore_size": 64,
-      "discard_on_air_chance": 0.0,
-      "modifiers": [
-        {
-          "count": 0,
-          "type": "minecraft:count"
-        },
-        {
-          "chance": 2,
-          "type": "minecraft:rarity_filter"
-        }
-      ],
-      "targets": [
-        {
-          "target": {
-            "tag": "minecraft:base_stone_overworld",
-            "predicate_type": "minecraft:tag_match"
-          },
-          "state": {
-            "Name": "minecraft:diorite"
-          }
-        }
-      ]
-    },
-    {
       "ore_size": 4,
-      "discard_on_air_chance": 0.5,
-      "modifiers": [
-        {
-          "count": 7,
-          "type": "minecraft:count"
-        },
-        {
-          "type": "minecraft:in_square"
-        },
-        {
-          "height": {
-            "min_inclusive": {
-              "above_bottom": -80
-            },
-            "max_inclusive": {
-              "above_bottom": 80
-            },
-            "type": "minecraft:trapezoid"
-          },
-          "type": "minecraft:height_range"
-        },
-        {
-          "type": "minecraft:biome"
-        }
-      ],
-      "targets": [
-        {
-          "target": {
-            "tag": "minecraft:stone_ore_replaceables",
-            "predicate_type": "minecraft:tag_match"
-          },
-          "state": {
-            "Name": "minecraft:diamond_ore"
-          }
-        },
-        {
-          "target": {
-            "tag": "minecraft:deepslate_ore_replaceables",
-            "predicate_type": "minecraft:tag_match"
-          },
-          "state": {
-            "Name": "minecraft:deepslate_diamond_ore"
-          }
-        }
-      ]
-    },
-    {
-      "ore_size": 33,
       "discard_on_air_chance": 0.0,
-      "modifiers": [
-        {
-          "count": 7,
-          "type": "minecraft:count"
-        },
-        {
-          "type": "minecraft:in_square"
-        },
-        {
-          "height": {
-            "min_inclusive": {
-              "absolute": 0
-            },
-            "max_inclusive": {
-              "absolute": 160
-            },
-            "type": "minecraft:uniform"
-          },
-          "type": "minecraft:height_range"
-        },
-        {
-          "type": "minecraft:biome"
-        }
-      ],
-      "targets": [
-        {
-          "target": {
-            "tag": "minecraft:base_stone_overworld",
-            "predicate_type": "minecraft:tag_match"
-          },
-          "state": {
-            "Name": "minecraft:dirt"
-          }
-        }
-      ]
-    },
-    {
-      "ore_size": 16,
-      "discard_on_air_chance": 0.4,
-      "modifiers": [
-        {
-          "count": 2,
-          "type": "minecraft:count"
-        },
-        {
-          "type": "minecraft:in_square"
-        },
-        {
-          "height": {
-            "min_inclusive": {
-              "absolute": 20
-            },
-            "max_inclusive": {
-              "absolute": 120
-            },
-            "type": "minecraft:uniform"
-          },
-          "type": "minecraft:height_range"
-        },
-        {
-          "type": "minecraft:biome"
-        }
-      ],
-      "targets": [
-        {
-          "target": {
-            "tag": "minecraft:stone_ore_replaceables",
-            "predicate_type": "minecraft:tag_match"
-          },
-          "state": {
-            "Name": "create_new_age:thorium_ore"
-          }
-        }
-      ]
-    },
-    {
-      "ore_size": 8,
-      "discard_on_air_chance": 0.0,
-      "modifiers": [
-        {
-          "count": 8,
-          "type": "minecraft:count"
-        },
-        {
-          "type": "minecraft:in_square"
-        },
-        {
-          "height": {
-            "min_inclusive": {
-              "above_bottom": -32
-            },
-            "max_inclusive": {
-              "above_bottom": 32
-            },
-            "type": "minecraft:trapezoid"
-          },
-          "type": "minecraft:height_range"
-        },
-        {
-          "type": "minecraft:biome"
-        }
-      ],
-      "targets": [
-        {
-          "target": {
-            "tag": "minecraft:stone_ore_replaceables",
-            "predicate_type": "minecraft:tag_match"
-          },
-          "state": {
-            "Properties": {
-              "lit": "false"
-            },
-            "Name": "minecraft:redstone_ore"
-          }
-        },
-        {
-          "target": {
-            "tag": "minecraft:deepslate_ore_replaceables",
-            "predicate_type": "minecraft:tag_match"
-          },
-          "state": {
-            "Properties": {
-              "lit": "false"
-            },
-            "Name": "minecraft:deepslate_redstone_ore"
-          }
-        }
-      ]
-    },
-    {
-      "ore_size": 3,
-      "discard_on_air_chance": 0.0,
-      "modifiers": [
-        {
-          "count": 3,
-          "type": "minecraft:count"
-        },
-        {
-          "type": "minecraft:in_square"
-        },
-        {
-          "height": {
-            "min_inclusive": {
-              "above_bottom": 0
-            },
-            "max_inclusive": {
-              "absolute": 0
-            },
-            "type": "minecraft:uniform"
-          },
-          "type": "minecraft:height_range"
-        },
-        {
-          "type": "minecraft:biome"
-        }
-      ],
-      "targets": [
-        {
-          "target": {
-            "tag": "minecraft:stone_ore_replaceables",
-            "predicate_type": "minecraft:tag_match"
-          },
-          "state": {
-            "Name": "powah:uraninite_ore_dense"
-          }
-        },
-        {
-          "target": {
-            "tag": "minecraft:deepslate_ore_replaceables",
-            "predicate_type": "minecraft:tag_match"
-          },
-          "state": {
-            "Name": "powah:deepslate_uraninite_ore_dense"
-          }
-        }
-      ]
-    },
-    {
-      "ore_size": 9,
-      "discard_on_air_chance": 0.75,
       "modifiers": [
         {
           "oreVeinType": {
-            "type": "uranium",
-            "index": 1
+            "type": "osmium",
+            "index": 2
           },
           "retroGen": false,
           "type": "mekanism:disableable"
@@ -1572,8 +1668,8 @@
         {
           "count": {
             "oreVeinType": {
-              "type": "uranium",
-              "index": 1
+              "type": "osmium",
+              "index": 2
             },
             "type": "mekanism:configurable_constant"
           },
@@ -1585,8 +1681,8 @@
         {
           "height": {
             "oreVeinType": {
-              "type": "uranium",
-              "index": 1
+              "type": "osmium",
+              "index": 2
             },
             "type": "mekanism:configurable"
           },
@@ -1603,7 +1699,7 @@
             "predicate_type": "minecraft:tag_match"
           },
           "state": {
-            "Name": "mekanism:uranium_ore"
+            "Name": "mekanism:osmium_ore"
           }
         },
         {
@@ -1612,211 +1708,7 @@
             "predicate_type": "minecraft:tag_match"
           },
           "state": {
-            "Name": "mekanism:deepslate_uranium_ore"
-          }
-        }
-      ]
-    },
-    {
-      "ore_size": 4,
-      "discard_on_air_chance": 0.0,
-      "modifiers": [
-        {
-          "count": 6,
-          "type": "minecraft:count"
-        },
-        {
-          "type": "minecraft:in_square"
-        },
-        {
-          "height": {
-            "min_inclusive": {
-              "above_bottom": 0
-            },
-            "max_inclusive": {
-              "absolute": 20
-            },
-            "type": "minecraft:uniform"
-          },
-          "type": "minecraft:height_range"
-        },
-        {
-          "type": "minecraft:biome"
-        }
-      ],
-      "targets": [
-        {
-          "target": {
-            "tag": "minecraft:stone_ore_replaceables",
-            "predicate_type": "minecraft:tag_match"
-          },
-          "state": {
-            "Name": "powah:uraninite_ore"
-          }
-        },
-        {
-          "target": {
-            "tag": "minecraft:deepslate_ore_replaceables",
-            "predicate_type": "minecraft:tag_match"
-          },
-          "state": {
-            "Name": "powah:deepslate_uraninite_ore"
-          }
-        }
-      ]
-    },
-    {
-      "ore_size": 17,
-      "discard_on_air_chance": 0.5,
-      "modifiers": [
-        {
-          "count": 20,
-          "type": "minecraft:count"
-        },
-        {
-          "type": "minecraft:in_square"
-        },
-        {
-          "height": {
-            "min_inclusive": {
-              "absolute": 0
-            },
-            "max_inclusive": {
-              "absolute": 192
-            },
-            "type": "minecraft:trapezoid"
-          },
-          "type": "minecraft:height_range"
-        },
-        {
-          "type": "minecraft:biome"
-        }
-      ],
-      "targets": [
-        {
-          "target": {
-            "tag": "minecraft:stone_ore_replaceables",
-            "predicate_type": "minecraft:tag_match"
-          },
-          "state": {
-            "Name": "minecraft:coal_ore"
-          }
-        },
-        {
-          "target": {
-            "tag": "minecraft:deepslate_ore_replaceables",
-            "predicate_type": "minecraft:tag_match"
-          },
-          "state": {
-            "Name": "minecraft:deepslate_coal_ore"
-          }
-        }
-      ]
-    },
-    {
-      "ore_size": 9,
-      "discard_on_air_chance": 0.0,
-      "modifiers": [
-        {
-          "oreVeinType": {
-            "type": "tin",
-            "index": 1
-          },
-          "retroGen": false,
-          "type": "mekanism:disableable"
-        },
-        {
-          "count": {
-            "oreVeinType": {
-              "type": "tin",
-              "index": 1
-            },
-            "type": "mekanism:configurable_constant"
-          },
-          "type": "minecraft:count"
-        },
-        {
-          "type": "minecraft:in_square"
-        },
-        {
-          "height": {
-            "oreVeinType": {
-              "type": "tin",
-              "index": 1
-            },
-            "type": "mekanism:configurable"
-          },
-          "type": "minecraft:height_range"
-        },
-        {
-          "type": "minecraft:biome"
-        }
-      ],
-      "targets": [
-        {
-          "target": {
-            "tag": "minecraft:stone_ore_replaceables",
-            "predicate_type": "minecraft:tag_match"
-          },
-          "state": {
-            "Name": "mekanism:tin_ore"
-          }
-        },
-        {
-          "target": {
-            "tag": "minecraft:deepslate_ore_replaceables",
-            "predicate_type": "minecraft:tag_match"
-          },
-          "state": {
-            "Name": "mekanism:deepslate_tin_ore"
-          }
-        }
-      ]
-    },
-    {
-      "ore_size": 8,
-      "discard_on_air_chance": 1.0,
-      "modifiers": [
-        {
-          "count": 4,
-          "type": "minecraft:count"
-        },
-        {
-          "type": "minecraft:in_square"
-        },
-        {
-          "height": {
-            "min_inclusive": {
-              "above_bottom": -80
-            },
-            "max_inclusive": {
-              "above_bottom": 80
-            },
-            "type": "minecraft:trapezoid"
-          },
-          "type": "minecraft:height_range"
-        },
-        {
-          "type": "minecraft:biome"
-        }
-      ],
-      "targets": [
-        {
-          "target": {
-            "tag": "minecraft:stone_ore_replaceables",
-            "predicate_type": "minecraft:tag_match"
-          },
-          "state": {
-            "Name": "minecraft:diamond_ore"
-          }
-        },
-        {
-          "target": {
-            "tag": "minecraft:deepslate_ore_replaceables",
-            "predicate_type": "minecraft:tag_match"
-          },
-          "state": {
-            "Name": "minecraft:deepslate_diamond_ore"
+            "Name": "mekanism:deepslate_osmium_ore"
           }
         }
       ]
@@ -1882,78 +1774,37 @@
       ]
     },
     {
-      "ore_size": 5,
+      "ore_size": 64,
       "discard_on_air_chance": 0.0,
       "modifiers": [
         {
-          "oreVeinType": {
-            "type": "fluorite",
-            "index": 0
-          },
-          "retroGen": false,
-          "type": "mekanism:disableable"
-        },
-        {
-          "count": {
-            "oreVeinType": {
-              "type": "fluorite",
-              "index": 0
-            },
-            "type": "mekanism:configurable_constant"
-          },
+          "count": 0,
           "type": "minecraft:count"
         },
         {
-          "type": "minecraft:in_square"
-        },
-        {
-          "height": {
-            "oreVeinType": {
-              "type": "fluorite",
-              "index": 0
-            },
-            "type": "mekanism:configurable"
-          },
-          "type": "minecraft:height_range"
-        },
-        {
-          "type": "minecraft:biome"
+          "chance": 1,
+          "type": "minecraft:rarity_filter"
         }
       ],
       "targets": [
         {
           "target": {
-            "tag": "minecraft:stone_ore_replaceables",
+            "tag": "minecraft:base_stone_overworld",
             "predicate_type": "minecraft:tag_match"
           },
           "state": {
-            "Name": "mekanism:fluorite_ore"
-          }
-        },
-        {
-          "target": {
-            "tag": "minecraft:deepslate_ore_replaceables",
-            "predicate_type": "minecraft:tag_match"
-          },
-          "state": {
-            "Name": "mekanism:deepslate_fluorite_ore"
+            "Name": "minecraft:granite"
           }
         }
       ]
     },
     {
-      "ore_size": 9,
-      "discard_on_air_chance": 0.5,
+      "ore_size": 8,
+      "discard_on_air_chance": 0.0,
       "modifiers": [
         {
-          "count": {
-            "type": "minecraft:uniform",
-            "value": {
-              "min_inclusive": 0,
-              "max_inclusive": 1
-            }
-          },
-          "type": "minecraft:count"
+          "chance": 10,
+          "type": "minecraft:rarity_filter"
         },
         {
           "type": "minecraft:in_square"
@@ -1981,7 +1832,7 @@
             "predicate_type": "minecraft:tag_match"
           },
           "state": {
-            "Name": "minecraft:gold_ore"
+            "Name": "draconicevolution:overworld_draconium_ore"
           }
         },
         {
@@ -1990,32 +1841,46 @@
             "predicate_type": "minecraft:tag_match"
           },
           "state": {
-            "Name": "minecraft:deepslate_gold_ore"
+            "Name": "draconicevolution:deepslate_draconium_ore"
           }
         }
       ]
     },
     {
-      "ore_size": 64,
+      "ore_size": 50,
       "discard_on_air_chance": 0.0,
       "modifiers": [
         {
-          "count": 0,
-          "type": "minecraft:count"
+          "chance": 3,
+          "type": "minecraft:rarity_filter"
         },
         {
-          "chance": 2,
-          "type": "minecraft:rarity_filter"
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "absolute": 57
+            },
+            "max_inclusive": {
+              "absolute": 62
+            },
+            "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:biome"
         }
       ],
       "targets": [
         {
           "target": {
-            "tag": "minecraft:base_stone_overworld",
-            "predicate_type": "minecraft:tag_match"
+            "block": "minecraft:sand",
+            "predicate_type": "minecraft:block_match"
           },
           "state": {
-            "Name": "minecraft:andesite"
+            "Name": "minecraft:clay"
           }
         }
       ]
@@ -2064,45 +1929,6 @@
           },
           "state": {
             "Name": "minecraft:deepslate_diamond_ore"
-          }
-        }
-      ]
-    },
-    {
-      "ore_size": 50,
-      "discard_on_air_chance": 0.0,
-      "modifiers": [
-        {
-          "chance": 3,
-          "type": "minecraft:rarity_filter"
-        },
-        {
-          "type": "minecraft:in_square"
-        },
-        {
-          "height": {
-            "min_inclusive": {
-              "absolute": 57
-            },
-            "max_inclusive": {
-              "absolute": 62
-            },
-            "type": "minecraft:uniform"
-          },
-          "type": "minecraft:height_range"
-        },
-        {
-          "type": "minecraft:biome"
-        }
-      ],
-      "targets": [
-        {
-          "target": {
-            "block": "minecraft:sand",
-            "predicate_type": "minecraft:block_match"
-          },
-          "state": {
-            "Name": "minecraft:clay"
           }
         }
       ]
@@ -2515,6 +2341,45 @@
           },
           "state": {
             "Name": "minecraft:clay"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 30,
+      "discard_on_air_chance": 0.5,
+      "modifiers": [
+        {
+          "count": 60,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "above_bottom": 62
+            },
+            "max_inclusive": {
+              "absolute": 256
+            },
+            "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "block": "minecraft:grass_block",
+            "predicate_type": "minecraft:block_match"
+          },
+          "state": {
+            "Name": "minecraft:mud"
           }
         }
       ]

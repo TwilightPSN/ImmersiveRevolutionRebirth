@@ -1,0 +1,8 @@
+{
+    "translation": "Snow Golem",
+    "texture": "minecraft:block/white_concrete",
+    "growth_chance": 15,
+    "dropped_item": "minecraft:snowball",
+    "normal_drop_chance": 4,
+    "max_drop_chance": 6
+}

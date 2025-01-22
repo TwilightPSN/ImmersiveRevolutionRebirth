@@ -14,9 +14,6 @@ ServerEvents.tags('item', IRRebirth => {
     IRRebirth.add('sophisticatedstorage:chestupgrades', 'sophisticatedstorage:basic_to_gold_tier_upgrade')
     IRRebirth.add('sophisticatedstorage:chestupgrades', 'sophisticatedstorage:basic_to_iron_tier_upgrade')
     IRRebirth.add('sophisticatedstorage:chestupgrades', 'sophisticatedstorage:basic_to_copper_tier_upgrade') 
-})
-
-ServerEvents.tags('block', IRRebirth => {
     IRRebirth.add('forge:workbenches', 'biomeswevegone:green_enchanted_crafting_table')
     IRRebirth.add('forge:workbenches', 'biomeswevegone:holly_crafting_table')
     IRRebirth.add('forge:workbenches', 'biomeswevegone:ironwood_crafting_table')
