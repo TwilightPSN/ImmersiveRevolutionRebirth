@@ -293,4 +293,172 @@ ServerEvents.recipes(IRRebirth => {
         -1, 
         1
     )
+    IRRebirth.recipes.botanypots.soil(
+        'buddingcrystals:budding_skeleton',
+        { block: 'buddingcrystals:budding_skeleton' },
+        ['buddingcrystals:budding_skeleton'], 
+        -1, 
+        1
+    )
+    IRRebirth.recipes.botanypots.soil(
+        'buddingcrystals:budding_creeper',
+        { block: 'buddingcrystals:budding_creeper' },
+        ['buddingcrystals:budding_creeper'], 
+        -1, 
+        1
+    )
+    IRRebirth.recipes.botanypots.soil(
+        'buddingcrystals:budding_zombie',
+        { block: 'buddingcrystals:budding_zombie' },
+        ['buddingcrystals:budding_zombie'], 
+        -1, 
+        1
+    )
+    IRRebirth.recipes.botanypots.soil(
+        'buddingcrystals:budding_blaze',
+        { block: 'buddingcrystals:budding_blaze' },
+        ['buddingcrystals:budding_blaze'], 
+        -1, 
+        1
+    )
+    IRRebirth.recipes.botanypots.soil(
+        'buddingcrystals:budding_witherskeleton',
+        { block: 'buddingcrystals:budding_witherskeleton' },
+        ['buddingcrystals:budding_witherskeleton'], 
+        -1, 
+        1
+    )
+    IRRebirth.recipes.botanypots.soil(
+        'buddingcrystals:budding_ghast',
+        { block: 'buddingcrystals:budding_ghast' },
+        ['buddingcrystals:budding_ghast'], 
+        -1, 
+        1
+    )
+    IRRebirth.recipes.botanypots.soil(
+        'buddingcrystals:budding_enderman',
+        { block: 'buddingcrystals:budding_enderman' },
+        ['buddingcrystals:budding_enderman'], 
+        -1, 
+        1
+    )
+    IRRebirth.recipes.botanypots.soil(
+        'buddingcrystals:budding_sculk',
+        { block: 'buddingcrystals:budding_sculk' },
+        ['buddingcrystals:budding_sculk'], 
+        -1, 
+        1
+    )
+    IRRebirth.recipes.botanypots.soil(
+        'buddingcrystals:budding_cow',
+        { block: 'buddingcrystals:budding_cow' },
+        ['buddingcrystals:budding_cow'], 
+        -1, 
+        1
+    )
+    IRRebirth.recipes.botanypots.soil(
+        'buddingcrystals:budding_sheep',
+        { block: 'buddingcrystals:budding_sheep' },
+        ['buddingcrystals:budding_sheep'], 
+        -1, 
+        1
+    )
+    IRRebirth.recipes.botanypots.soil(
+        'buddingcrystals:budding_spider',
+        { block: 'buddingcrystals:budding_spider' },
+        ['buddingcrystals:budding_spider'], 
+        -1, 
+        1
+    )
+    IRRebirth.recipes.botanypots.soil(
+        'buddingcrystals:budding_bee',
+        { block: 'buddingcrystals:budding_bee' },
+        ['buddingcrystals:budding_bee'], 
+        -1, 
+        1
+    )
+    IRRebirth.recipes.botanypots.soil(
+        'buddingcrystals:budding_snowgolem',
+        { block: 'buddingcrystals:budding_snowgolem' },
+        ['buddingcrystals:budding_snowgolem'], 
+        -1, 
+        1
+    )
+    IRRebirth.recipes.botanypots.soil(
+        'buddingcrystals:budding_skysteel',
+        { block: 'buddingcrystals:budding_skysteel' },
+        ['buddingcrystals:budding_skysteel'], 
+        -1, 
+        1
+    )
+    IRRebirth.recipes.botanypots.soil(
+        'buddingcrystals:budding_quantumalloy',
+        { block: 'buddingcrystals:budding_quantumalloy' },
+        ['buddingcrystals:budding_quantumalloy'], 
+        -1, 
+        1
+    )
+    IRRebirth.recipes.botanypots.soil(
+        'buddingcrystals:budding_acidicredstone',
+        { block: 'buddingcrystals:budding_acidicredstone' },
+        ['buddingcrystals:budding_acidicredstone'], 
+        -1, 
+        1
+    )
+    IRRebirth.recipes.botanypots.soil(
+        'buddingcrystals:budding_squid',
+        { block: 'buddingcrystals:budding_squid' },
+        ['buddingcrystals:budding_squid'], 
+        -1, 
+        1
+    )
+    IRRebirth.recipes.botanypots.soil(
+        'buddingcrystals:budding_glowsquid',
+        { block: 'buddingcrystals:budding_glowsquid' },
+        ['buddingcrystals:budding_glowsquid'], 
+        -1, 
+        1
+    )
+    IRRebirth.recipes.botanypots.soil(
+        'buddingcrystals:budding_flint',
+        { block: 'buddingcrystals:budding_flint' },
+        ['buddingcrystals:budding_flint'], 
+        -1, 
+        1
+    )
+    IRRebirth.recipes.botanypots.soil(
+        'buddingcrystals:budding_slime',
+        { block: 'buddingcrystals:budding_slime' },
+        ['buddingcrystals:budding_slime'], 
+        -1, 
+        1
+    )
+    IRRebirth.recipes.botanypots.soil(
+        'buddingcrystals:budding_wither',
+        { block: 'buddingcrystals:budding_wither' },
+        ['buddingcrystals:budding_wither'], 
+        -1, 
+        1
+    )
+    IRRebirth.recipes.botanypots.soil(
+        'buddingcrystals:budding_magmacube',
+        { block: 'buddingcrystals:budding_magmacube' },
+        ['buddingcrystals:budding_magmacube'], 
+        -1, 
+        1
+    )
+    IRRebirth.recipes.botanypots.soil(
+        'buddingcrystals:budding_phantom',
+        { block: 'buddingcrystals:budding_phantom' },
+        ['buddingcrystals:budding_phantom'], 
+        -1, 
+        1
+    )
+    IRRebirth.recipes.botanypots.soil(
+        'buddingcrystals:budding_chicken',
+        { block: 'buddingcrystals:budding_chicken' },
+        ['buddingcrystals:budding_chicken'], 
+        -1, 
+        1
+    )
 })

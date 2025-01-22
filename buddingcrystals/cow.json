@@ -1,0 +1,8 @@
+{
+    "translation": "Cow",
+    "texture": "extendedcrafting:block/enhanced_redstone_ingot_block",
+    "growth_chance": 15,
+    "dropped_item": "minecraft:leather",
+    "normal_drop_chance": 4,
+    "max_drop_chance": 6
+}

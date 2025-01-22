@@ -1,0 +1,8 @@
+{
+    "translation": "Wither Skeleton",
+    "texture": "minecraft:block/blackstone",
+    "growth_chance": 15,
+    "dropped_item": "wstweaks:fragment",
+    "normal_drop_chance": 2,
+    "max_drop_chance": 4
+}

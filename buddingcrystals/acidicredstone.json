@@ -1,0 +1,8 @@
+{
+    "translation": "Acidic Redstone",
+    "texture": "minecraft:block/red_glazed_terracotta",
+    "growth_chance": 15,
+    "dropped_item": "kubejs:acidic_redstone",
+    "normal_drop_chance": 2,
+    "max_drop_chance": 4
+}

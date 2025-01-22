@@ -1,0 +1,8 @@
+{
+    "translation": "Ghast",
+    "texture": "biomeswevegone:block/white_sandstone",
+    "growth_chance": 15,
+    "dropped_item": "minecraft:ghast_tear",
+    "normal_drop_chance": 4,
+    "max_drop_chance": 6
+}

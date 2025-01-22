@@ -1,0 +1,8 @@
+{
+    "translation": "Phantom",
+    "texture": "minecraft:block/granite",
+    "growth_chance": 15,
+    "dropped_item": "minecraft:phantom_membrane",
+    "normal_drop_chance": 4,
+    "max_drop_chance": 6
+}

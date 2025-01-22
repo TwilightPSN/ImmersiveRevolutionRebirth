@@ -12,6 +12,6 @@ ServerEvents.recipes(IRRebirth => {
   IRRebirth.replaceInput(
     { output: 'draconicevolution:module_core' },
     'minecraft:redstone',
-    'mekanism:pellet_antimatter'
+    '#forge:plates/diamond'
   )
 })

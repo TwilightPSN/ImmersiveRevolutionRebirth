@@ -3,7 +3,6 @@ ServerEvents.recipes(IRRebirth => {
     IRRebirth.remove({ output: 'ae2:damaged_budding_quartz'})
     IRRebirth.remove({ output: 'ae2:chipped_budding_quartz'})
     IRRebirth.remove({ output: 'ae2:flawed_budding_quartz'})
-    IRRebirth.remove({ output: 'ae2:charger'})
     IRRebirth.remove({ output: 'ae2:crank'})
     IRRebirth.remove({ id: 'ae2:decorative/quartz_glass'})
     IRRebirth.remove({ id: 'ae2:network/parts/quartz_fiber_part'})
@@ -14,4 +13,5 @@ ServerEvents.recipes(IRRebirth => {
     IRRebirth.remove({ id: 'more_immersive_wires:ae_dense_relay'})
     IRRebirth.remove({ id: 'more_immersive_wires:ae_dense_connector'})
     IRRebirth.remove({ id: 'ae2:network/cables/glass_fluix'})
+    IRRebirth.remove({ output: 'expatternprovider:crystal_fixer'})
 })

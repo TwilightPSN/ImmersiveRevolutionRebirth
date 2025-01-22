@@ -1,0 +1,8 @@
+{
+    "translation": "Wither",
+    "texture": "extendedcrafting:block/nether_star_block",
+    "growth_chance": 15,
+    "dropped_item": "progressivebosses:nether_star_shard",
+    "normal_drop_chance": 2,
+    "max_drop_chance": 4
+}

@@ -1,0 +1,8 @@
+{
+    "translation": "Chicken",
+    "texture": "minecraft:block/yellow_wool",
+    "growth_chance": 15,
+    "dropped_item": "minecraft:feather",
+    "normal_drop_chance": 4,
+    "max_drop_chance": 6
+}

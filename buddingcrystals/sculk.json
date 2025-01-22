@@ -1,0 +1,8 @@
+{
+    "translation": "Sculk",
+    "texture": "minecraft:block/sculk",
+    "growth_chance": 15,
+    "dropped_item": "minecraft:echo_shard",
+    "normal_drop_chance": 4,
+    "max_drop_chance": 6
+}

@@ -15,7 +15,7 @@ hide_in_game_switcher = true
 #Allowed Values: NONE, TITLE_SCREEN, PAUSE_SCREEN, BOTH
 dark_mode_toggle_screens = "BOTH"
 #Exclude certain screens from being affected by any text color alterations.
-font_color_blacklist = ["chat_screen.title", "sign.edit", "hanging_sign.edit", "book.edit", "book.view", "urbine.mekanismgenerators.stats", "fission.mekanismgenerators.stats", "boiler.mekanismgenerators.stats"]
+font_color_blacklist = ["chat_screen.title", "sign.edit", "hanging_sign.edit", "book.edit", "book.view", "urbine.mekanismgenerators.stats", "fission.mekanismgenerators.stats", "boiler.mekanismgenerators.stats", "book.apotheosis.name"]
 #Use a dark theme for the configuration screens.
 dark_theme = true
 #Percentage of original interface brightness to apply.

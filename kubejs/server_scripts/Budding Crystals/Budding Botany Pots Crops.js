@@ -5,7 +5,7 @@ ServerEvents.recipes(IRRebirth => {
         { block: 'buddingcrystals:prismarine_cluster' },
         [
             Item.of('minecraft:prismarine_crystals')
-                .withChance(100)
+                .withChance(1)
                 .withRolls(1, 3) 
         ],
         600,
@@ -17,7 +17,7 @@ ServerEvents.recipes(IRRebirth => {
         { block: 'buddingcrystals:steel_cluster' },
         [
             Item.of('mekanism:ingot_steel')
-                .withChance(100)
+                .withChance(1)
                 .withRolls(1, 3) 
         ],
         600,
@@ -29,7 +29,7 @@ ServerEvents.recipes(IRRebirth => {
         { block: 'buddingcrystals:certus_quartz_cluster' },
         [
             Item.of('ae2:certus_quartz_crystal')
-                .withChance(100)
+                .withChance(1)
                 .withRolls(1, 3) 
         ],
         600,
@@ -41,7 +41,7 @@ ServerEvents.recipes(IRRebirth => {
         { block: 'buddingcrystals:refinedobsidian_cluster' },
         [
             Item.of('mekanism:ingot_refined_obsidian')
-                .withChance(100)
+                .withChance(1)
                 .withRolls(1, 3) 
         ],
         600,
@@ -53,7 +53,7 @@ ServerEvents.recipes(IRRebirth => {
         { block: 'buddingcrystals:aluminum_cluster' },
         [
             Item.of('immersiveengineering:ingot_aluminum')
-                .withChance(100)
+                .withChance(1)
                 .withRolls(1, 3) 
         ],
         600,
@@ -65,7 +65,7 @@ ServerEvents.recipes(IRRebirth => {
         { block: 'buddingcrystals:glowstone_cluster' },
         [
             Item.of('minecraft:glowstone_dust')
-                .withChance(100)
+                .withChance(1)
                 .withRolls(1, 3) 
         ],
         600,
@@ -77,7 +77,7 @@ ServerEvents.recipes(IRRebirth => {
         { block: 'buddingcrystals:fluix_cluster' },
         [
             Item.of('ae2:fluix_crystal')
-                .withChance(100)
+                .withChance(1)
                 .withRolls(1, 3) 
         ],
         600,
@@ -89,7 +89,7 @@ ServerEvents.recipes(IRRebirth => {
         { block: 'buddingcrystals:netherite_cluster' },
         [
             Item.of('minecraft:netherite_ingot')
-                .withChance(100)
+                .withChance(1)
                 .withRolls(1, 3) 
         ],
         600,
@@ -101,7 +101,7 @@ ServerEvents.recipes(IRRebirth => {
         { block: 'buddingcrystals:gold_cluster' },
         [
             Item.of('minecraft:gold_ingot')
-                .withChance(100)
+                .withChance(1)
                 .withRolls(1, 3) 
         ],
         600,
@@ -113,7 +113,7 @@ ServerEvents.recipes(IRRebirth => {
         { block: 'buddingcrystals:lapis_lazuli_cluster' },
         [
             Item.of('minecraft:lapis_lazuli')
-                .withChance(100)
+                .withChance(1)
                 .withRolls(1, 3) 
         ],
         600,
@@ -125,7 +125,7 @@ ServerEvents.recipes(IRRebirth => {
         { block: 'buddingcrystals:tin_cluster' },
         [
             Item.of('mekanism:ingot_tin')
-                .withChance(100)
+                .withChance(1)
                 .withRolls(1, 3) 
         ],
         600,
@@ -137,7 +137,7 @@ ServerEvents.recipes(IRRebirth => {
         { block: 'buddingcrystals:fluorite_cluster' },
         [
             Item.of('mekanism:fluorite_gem')
-                .withChance(100)
+                .withChance(1)
                 .withRolls(1, 3) 
         ],
         600,
@@ -149,7 +149,7 @@ ServerEvents.recipes(IRRebirth => {
         { block: 'buddingcrystals:copper_cluster' },
         [
             Item.of('minecraft:copper_ingot')
-                .withChance(100)
+                .withChance(1)
                 .withRolls(1, 3) 
         ],
         600,
@@ -161,7 +161,7 @@ ServerEvents.recipes(IRRebirth => {
         { block: 'buddingcrystals:refinedglowstone_cluster' },
         [
             Item.of('mekanism:ingot_refined_glowstone')
-                .withChance(100)
+                .withChance(1)
                 .withRolls(1, 3) 
         ],
         600,
@@ -173,7 +173,7 @@ ServerEvents.recipes(IRRebirth => {
         { block: 'buddingcrystals:awakeneddraconium_cluster' },
         [
             Item.of('draconicevolution:awakened_draconium_nugget')
-                .withChance(100)
+                .withChance(1)
                 .withRolls(1, 3) 
         ],
         600,
@@ -185,7 +185,7 @@ ServerEvents.recipes(IRRebirth => {
         { block: 'buddingcrystals:zinc_cluster' },
         [
             Item.of('create:zinc_ingot')
-                .withChance(100)
+                .withChance(1)
                 .withRolls(1, 3) 
         ],
         600,
@@ -197,7 +197,7 @@ ServerEvents.recipes(IRRebirth => {
         { block: 'buddingcrystals:electrum_cluster' },
         [
             Item.of('immersiveengineering:ingot_electrum')
-                .withChance(100)
+                .withChance(1)
                 .withRolls(1, 3) 
         ],
         600,
@@ -209,7 +209,7 @@ ServerEvents.recipes(IRRebirth => {
         { block: 'buddingcrystals:nickel_cluster' },
         [
             Item.of('immersiveengineering:ingot_nickel')
-                .withChance(100)
+                .withChance(1)
                 .withRolls(1, 3) 
         ],
         600,
@@ -221,7 +221,7 @@ ServerEvents.recipes(IRRebirth => {
         { block: 'buddingcrystals:nether_quartz_cluster' },
         [
             Item.of('minecraft:quartz')
-                .withChance(100)
+                .withChance(1)
                 .withRolls(1, 3) 
         ],
         600,
@@ -233,7 +233,7 @@ ServerEvents.recipes(IRRebirth => {
         { block: 'buddingcrystals:salt_cluster' },
         [
             Item.of('mekanism:salt')
-                .withChance(100)
+                .withChance(1)
                 .withRolls(1, 3) 
         ],
         600,
@@ -245,7 +245,7 @@ ServerEvents.recipes(IRRebirth => {
         { block: 'buddingcrystals:hopgraphite_cluster' },
         [
             Item.of('immersiveengineering:ingot_hop_graphite')
-                .withChance(100)
+                .withChance(1)
                 .withRolls(1, 3) 
         ],
         600,
@@ -257,7 +257,7 @@ ServerEvents.recipes(IRRebirth => {
         { block: 'buddingcrystals:osmium_cluster' },
         [
             Item.of('mekanism:ingot_osmium')
-                .withChance(100)
+                .withChance(1)
                 .withRolls(1, 3) 
         ],
         600,
@@ -269,7 +269,7 @@ ServerEvents.recipes(IRRebirth => {
         { block: 'buddingcrystals:brass_cluster' },
         [
             Item.of('create:brass_ingot')
-                .withChance(100)
+                .withChance(1)
                 .withRolls(1, 3) 
         ],
         600,
@@ -281,7 +281,7 @@ ServerEvents.recipes(IRRebirth => {
         { block: 'buddingcrystals:constantan_cluster' },
         [
             Item.of('immersiveengineering:ingot_constantan')
-                .withChance(100)
+                .withChance(1)
                 .withRolls(1, 3) 
         ],
         600,
@@ -293,7 +293,7 @@ ServerEvents.recipes(IRRebirth => {
         { block: 'buddingcrystals:lead_cluster' },
         [
             Item.of('mekanism:ingot_lead')
-                .withChance(100)
+                .withChance(1)
                 .withRolls(1, 3) 
         ],
         600,
@@ -305,7 +305,7 @@ ServerEvents.recipes(IRRebirth => {
         { block: 'buddingcrystals:bronze_cluster' },
         [
             Item.of('mekanism:ingot_bronze')
-                .withChance(100)
+                .withChance(1)
                 .withRolls(1, 3) 
         ],
         600,
@@ -317,7 +317,7 @@ ServerEvents.recipes(IRRebirth => {
         { block: 'buddingcrystals:draconium_cluster' },
         [
             Item.of('draconicevolution:draconium_ingot')
-                .withChance(100)
+                .withChance(1)
                 .withRolls(1, 3) 
         ],
         600,
@@ -329,7 +329,7 @@ ServerEvents.recipes(IRRebirth => {
         { block: 'buddingcrystals:diamond_cluster' },
         [
             Item.of('minecraft:diamond')
-                .withChance(100)
+                .withChance(1)
                 .withRolls(1, 3) 
         ],
         600,
@@ -341,7 +341,7 @@ ServerEvents.recipes(IRRebirth => {
         { block: 'buddingcrystals:uraninite_cluster' },
         [
             Item.of('powah:uraninite')
-                .withChance(100)
+                .withChance(1)
                 .withRolls(1, 3) 
         ],
         600,
@@ -353,7 +353,7 @@ ServerEvents.recipes(IRRebirth => {
         { block: 'buddingcrystals:iron_cluster' },
         [
             Item.of('minecraft:iron_ingot')
-                .withChance(100)
+                .withChance(1)
                 .withRolls(1, 3) 
         ],
         600,
@@ -365,7 +365,7 @@ ServerEvents.recipes(IRRebirth => {
         { block: 'buddingcrystals:silver_cluster' },
         [
             Item.of('immersiveengineering:ingot_silver')
-                .withChance(100)
+                .withChance(1)
                 .withRolls(1, 3) 
         ],
         600,
@@ -377,7 +377,7 @@ ServerEvents.recipes(IRRebirth => {
         { block: 'buddingcrystals:uranium_cluster' },
         [
             Item.of('mekanism:ingot_uranium')
-                .withChance(100)
+                .withChance(1)
                 .withRolls(1, 3) 
         ],
         600,
@@ -389,7 +389,7 @@ ServerEvents.recipes(IRRebirth => {
         { block: 'buddingcrystals:redstone_cluster' },
         [
             Item.of('minecraft:redstone')
-                .withChance(100)
+                .withChance(1)
                 .withRolls(1, 3) 
         ],
         600,
@@ -401,7 +401,7 @@ ServerEvents.recipes(IRRebirth => {
         { block: 'buddingcrystals:emerald_cluster' },
         [
             Item.of('minecraft:emerald')
-                .withChance(100)
+                .withChance(1)
                 .withRolls(1, 3) 
         ],
         600,
@@ -413,7 +413,7 @@ ServerEvents.recipes(IRRebirth => {
         { block: 'buddingcrystals:energizedsteel_cluster' },
         [
             Item.of('powah:steel_energized')
-                .withChance(100)
+                .withChance(1)
                 .withRolls(1, 3) 
         ],
         600,
@@ -425,7 +425,7 @@ ServerEvents.recipes(IRRebirth => {
         { block: 'buddingcrystals:blazingcrystal_cluster' },
         [
             Item.of('powah:crystal_blazing')
-                .withChance(100)
+                .withChance(1)
                 .withRolls(1, 2) 
         ],
         600,
@@ -437,7 +437,7 @@ ServerEvents.recipes(IRRebirth => {
         { block: 'buddingcrystals:nioticcrystal_cluster' },
         [
             Item.of('powah:crystal_niotic')
-                .withChance(100)
+                .withChance(1)
                 .withRolls(1, 2) 
         ],
         600,
@@ -449,7 +449,7 @@ ServerEvents.recipes(IRRebirth => {
         { block: 'buddingcrystals:spiritedcrystal_cluster' },
         [
             Item.of('powah:crystal_spirited')
-                .withChance(100)
+                .withChance(1)
                 .withRolls(1, 2) 
         ],
         600,
@@ -461,7 +461,7 @@ ServerEvents.recipes(IRRebirth => {
         { block: 'buddingcrystals:nitrocrystal_cluster' },
         [
             Item.of('powah:crystal_nitro')
-                .withChance(100)
+                .withChance(1)
                 .withRolls(1, 2) 
         ],
         600,
@@ -473,7 +473,7 @@ ServerEvents.recipes(IRRebirth => {
         { block: 'buddingcrystals:coal_cluster' },
         [
             Item.of('minecraft:coal')
-                .withChance(100)
+                .withChance(1)
                 .withRolls(1, 3) 
         ],
         600,
@@ -485,8 +485,308 @@ ServerEvents.recipes(IRRebirth => {
         { block: 'minecraft:amethyst_cluster' },
         [
             Item.of('minecraft:amethyst_shard')
-                .withChance(100)
+                .withChance(1)
                 .withRolls(1, 3) 
+        ],
+        600,
+        1
+    )
+    IRRebirth.recipes.botanypots.crop(
+        'buddingcrystals:skeleton_cluster',
+        ['buddingcrystals:budding_skeleton'], 
+        { block: 'buddingcrystals:skeleton_cluster' },
+        [
+            Item.of('minecraft:bone')
+                .withChance(1)
+                .withRolls(4, 6) 
+        ],
+        600,
+        1
+    )
+    IRRebirth.recipes.botanypots.crop(
+        'buddingcrystals:creeper_cluster',
+        ['buddingcrystals:budding_creeper'], 
+        { block: 'buddingcrystals:creeper_cluster' },
+        [
+            Item.of('minecraft:gunpowder')
+                .withChance(1)
+                .withRolls(4, 6) 
+        ],
+        600,
+        1
+    )
+    IRRebirth.recipes.botanypots.crop(
+        'buddingcrystals:zombie_cluster',
+        ['buddingcrystals:budding_zombie'], 
+        { block: 'buddingcrystals:zombie_cluster' },
+        [
+            Item.of('minecraft:rotten_flesh')
+                .withChance(1)
+                .withRolls(4, 6) 
+        ],
+        600,
+        1
+    )
+    IRRebirth.recipes.botanypots.crop(
+        'buddingcrystals:blaze_cluster',
+        ['buddingcrystals:budding_blaze'], 
+        { block: 'buddingcrystals:blaze_cluster' },
+        [
+            Item.of('minecraft:blaze_rod')
+                .withChance(1)
+                .withRolls(4, 6) 
+        ],
+        600,
+        1
+    )
+    IRRebirth.recipes.botanypots.crop(
+        'buddingcrystals:witherskeleton_cluster',
+        ['buddingcrystals:budding_witherskeleton'], 
+        { block: 'buddingcrystals:witherskeleton_cluster' },
+        [
+            Item.of('wstweaks:fragment')
+                .withChance(1)
+                .withRolls(4, 6) 
+        ],
+        600,
+        1
+    )
+    IRRebirth.recipes.botanypots.crop(
+        'buddingcrystals:ghast_cluster',
+        ['buddingcrystals:budding_ghast'], 
+        { block: 'buddingcrystals:ghast_cluster' },
+        [
+            Item.of('minecraft:ghast_tear')
+                .withChance(1)
+                .withRolls(4, 6) 
+        ],
+        600,
+        1
+    )
+    IRRebirth.recipes.botanypots.crop(
+        'buddingcrystals:enderman_cluster',
+        ['buddingcrystals:budding_enderman'], 
+        { block: 'buddingcrystals:enderman_cluster' },
+        [
+            Item.of('minecraft:ender_pearl')
+                .withChance(1)
+                .withRolls(4, 6) 
+        ],
+        600,
+        1
+    )
+    IRRebirth.recipes.botanypots.crop(
+        'buddingcrystals:sculk_cluster',
+        ['buddingcrystals:budding_sculk'], 
+        { block: 'buddingcrystals:sculk_cluster' },
+        [
+            Item.of('minecraft:echo_shard')
+                .withChance(1)
+                .withRolls(4, 6) 
+        ],
+        600,
+        1
+    )
+    IRRebirth.recipes.botanypots.crop(
+        'buddingcrystals:cow_cluster',
+        ['buddingcrystals:budding_cow'], 
+        { block: 'buddingcrystals:cow_cluster' },
+        [
+            Item.of('minecraft:leather')
+                .withChance(1)
+                .withRolls(4, 6),
+            Item.of('minecraft:beef')
+                .withChance(0.75)
+                .withRolls(1, 2) 
+        ],
+        600,
+        1
+    )
+    IRRebirth.recipes.botanypots.crop(
+        'buddingcrystals:sheep_cluster',
+        ['buddingcrystals:budding_sheep'], 
+        { block: 'buddingcrystals:sheep_cluster' },
+        [
+            Item.of('minecraft:string')
+                .withChance(1)
+                .withRolls(4, 6),
+            Item.of('minecraft:mutton')
+                .withChance(0.75)
+                .withRolls(1, 2) 
+        ],
+        600,
+        1
+    )
+    IRRebirth.recipes.botanypots.crop(
+        'buddingcrystals:spider_cluster',
+        ['buddingcrystals:budding_spider'], 
+        { block: 'buddingcrystals:spider_cluster' },
+        [
+            Item.of('minecraft:spider_eye')
+                .withChance(1)
+                .withRolls(4, 6) 
+        ],
+        600,
+        1
+    )
+    IRRebirth.recipes.botanypots.crop(
+        'buddingcrystals:bee_cluster',
+        ['buddingcrystals:budding_bee'], 
+        { block: 'buddingcrystals:bee_cluster' },
+        [
+            Item.of('minecraft:honeycomb')
+                .withChance(1)
+                .withRolls(4, 6) 
+        ],
+        600,
+        1
+    )
+    IRRebirth.recipes.botanypots.crop(
+        'buddingcrystals:snowgolem_cluster',
+        ['buddingcrystals:budding_snowgolem'], 
+        { block: 'buddingcrystals:snowgolem_cluster' },
+        [
+            Item.of('minecraft:snowball')
+                .withChance(1)
+                .withRolls(4, 6) 
+        ],
+        600,
+        1
+    )
+    IRRebirth.recipes.botanypots.crop(
+        'buddingcrystals:squid_cluster',
+        ['buddingcrystals:budding_squid'], 
+        { block: 'buddingcrystals:squid_cluster' },
+        [
+            Item.of('minecraft:ink_sac')
+                .withChance(1)
+                .withRolls(4, 6) 
+        ],
+        600,
+        1
+    )
+    IRRebirth.recipes.botanypots.crop(
+        'buddingcrystals:glowsquid_cluster',
+        ['buddingcrystals:budding_glowsquid'], 
+        { block: 'buddingcrystals:glowsquid_cluster' },
+        [
+            Item.of('minecraft:glow_ink_sac')
+                .withChance(1)
+                .withRolls(4, 6) 
+        ],
+        600,
+        1
+    )
+    IRRebirth.recipes.botanypots.crop(
+        'buddingcrystals:flint_cluster',
+        ['buddingcrystals:budding_flint'], 
+        { block: 'buddingcrystals:flint_cluster' },
+        [
+            Item.of('minecraft:flint')
+                .withChance(1)
+                .withRolls(4, 6) 
+        ],
+        600,
+        1
+    )
+    IRRebirth.recipes.botanypots.crop(
+        'buddingcrystals:slime_cluster',
+        ['buddingcrystals:budding_slime'], 
+        { block: 'buddingcrystals:slime_cluster' },
+        [
+            Item.of('minecraft:slime_ball')
+                .withChance(1)
+                .withRolls(4, 6) 
+        ],
+        600,
+        1
+    )
+    IRRebirth.recipes.botanypots.crop(
+        'buddingcrystals:wither_cluster',
+        ['buddingcrystals:budding_wither'], 
+        { block: 'buddingcrystals:wither_cluster' },
+        [
+            Item.of('progressivebosses:nether_star_shard')
+                .withChance(1)
+                .withRolls(2, 3) 
+        ],
+        600,
+        1
+    )
+    IRRebirth.recipes.botanypots.crop(
+        'buddingcrystals:magmacube_cluster',
+        ['buddingcrystals:budding_magmacube'], 
+        { block: 'buddingcrystals:magmacube_cluster' },
+        [
+            Item.of('minecraft:magma_cream')
+                .withChance(1)
+                .withRolls(4, 6) 
+        ],
+        600,
+        1
+    )
+    IRRebirth.recipes.botanypots.crop(
+        'buddingcrystals:phantom_cluster',
+        ['buddingcrystals:budding_phantom'], 
+        { block: 'buddingcrystals:phantom_cluster' },
+        [
+            Item.of('minecraft:phantom_membrane')
+                .withChance(1)
+                .withRolls(4, 6) 
+        ],
+        600,
+        1
+    )
+    IRRebirth.recipes.botanypots.crop(
+        'buddingcrystals:chicken_cluster',
+        ['buddingcrystals:budding_chicken'], 
+        { block: 'buddingcrystals:chicken_cluster' },
+        [
+            Item.of('minecraft:feather')
+                .withChance(1)
+                .withRolls(4, 6),
+            Item.of('minecraft:egg')
+                .withChance(0.75)
+                .withRolls(2, 3),
+            Item.of('minecraft:chicken')
+                .withChance(0.75)
+                .withRolls(1, 2) 
+        ],
+        600,
+        1
+    )
+    IRRebirth.recipes.botanypots.crop(
+        'buddingcrystals:skysteel_cluster',
+        ['buddingcrystals:budding_skysteel'], 
+        { block: 'buddingcrystals:skysteel_cluster' },
+        [
+            Item.of('megacells:sky_steel_ingot')
+                .withChance(1)
+                .withRolls(2, 3) 
+        ],
+        600,
+        1
+    )
+    IRRebirth.recipes.botanypots.crop(
+        'buddingcrystals:acidicredstone_cluster',
+        ['buddingcrystals:budding_acidicredstone'], 
+        { block: 'buddingcrystals:acidicredstone_cluster' },
+        [
+            Item.of('kubejs:acidic_redstone')
+                .withChance(1)
+                .withRolls(2, 3) 
+        ],
+        600,
+        1
+    )
+    IRRebirth.recipes.botanypots.crop(
+        'buddingcrystals:quantumalloy_cluster',
+        ['buddingcrystals:budding_quantumalloy'], 
+        { block: 'buddingcrystals:quantumalloy_cluster' },
+        [
+            Item.of('kubejs:acidic_redstone')
+                .withChance(1)
+                .withRolls(2, 3) 
         ],
         600,
         1
