@@ -35,16 +35,6 @@ ServerEvents.recipes(IRRebirth => {
     'kubejs:osmium_plate'
   )
   IRRebirth.replaceInput(
-    { id: 'mekanism:tier_installer/basic' },
-    'minecraft:redstone',
-    'kubejs:acidic_redstone'
-  )
-  IRRebirth.replaceInput(
-    { id: 'mekanism:tier_installer/basic' },
-    'minecraft:iron_ingot',
-    '#forge:plates/steel'
-  )
-  IRRebirth.replaceInput(
     { output: 'mekanism:energy_tablet' },
     'minecraft:gold_ingot',
     '#forge:plates/brass'
@@ -53,53 +43,6 @@ ServerEvents.recipes(IRRebirth => {
     { output: 'mekanism:energy_tablet' },
     'minecraft:redstone',
     'kubejs:acidic_redstone'
-  )
-  IRRebirth.replaceInput(
-    { output: 'mekanism:basic_bin' },
-    'minecraft:cobblestone',
-    'create:andesite_casing'
-  )
-  IRRebirth.replaceInput(
-    { output: 'mekanism:basic_bin' },
-    'minecraft:redstone',
-    'kubejs:acidic_redstone'
-  )
-  IRRebirth.shaped(
-    Item.of('mekanism:basic_fluid_tank'), 
-    [
-      'ABA',
-      'C C',
-      'ABA'
-    ],
-    {
-      A: 'kubejs:acidic_redstone',
-      B: '#forge:plates/steel',
-      C: '#forge:rods/steel'
-    }
-  ).id('mekanism:fluid_tank/basic')
-  IRRebirth.shaped(
-    Item.of('mekanism:basic_energy_cube'), 
-    [
-      'ABA',
-      'CDC',
-      'ABA'
-    ],
-    {
-      A: 'kubejs:acidic_redstone',
-      B: 'mekanism:energy_tablet',
-      C: '#forge:plates/steel',
-      D: 'mekanism:steel_casing'
-    }
-  ).id('mekanism:energy_cube/basic')
-  IRRebirth.replaceInput(
-    { output: 'mekanism:basic_chemical_tank' },
-    'minecraft:redstone',
-    'kubejs:acidic_redstone'
-  )
-  IRRebirth.replaceInput(
-    { output: 'mekanism:basic_chemical_tank' },
-    'mekanism:ingot_osmium',
-    'kubejs:osmium_plate'
   )
   IRRebirth.shaped(
     Item.of('mekanism:thermal_evaporation_block', 4), 

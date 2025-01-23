@@ -19,5 +19,4 @@ ServerEvents.recipes(IRRebirth => {
   IRRebirth.recipes.create.milling(['mekanism:dirty_dust_copper', Item.of('mekanism:dirty_dust_copper').withChance(0.25)], 'create:crushed_raw_copper')
   IRRebirth.recipes.create.milling(['mekanism:dirty_dust_iron', Item.of('mekanism:dirty_dust_iron').withChance(0.25)], 'create:crushed_raw_iron')
   IRRebirth.recipes.create.milling(['jaopca:mekanism_dirty_dusts.zinc', Item.of('jaopca:mekanism_dirty_dusts.zinc').withChance(0.25)], 'create:crushed_raw_zinc')
-  IRRebirth.remove({type: "create:milling"})
 })

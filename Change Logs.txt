@@ -1,3 +1,27 @@
+||Beta 0.5.0||
+
+// Mods Added //
+-Rechiseled
+-Rechiseled: Create
+-Rechiseled: AE2
+-Chipped
+-Rechiseled: Chipped
+
+// Mods Updated //
+-ExtendedAE
+-Moonlight Lib
+-Sophisticated Backpacks
+-Sophisticated Storage
+-Stellar View
+
+// Quest Changes //
+-Removed DE Generator Quest
+
+// Recipe Changes //
+-Modified how some Create recipes were generated
+-Mekanism Tier Recipes
+-DE Mob Grinder and Generator Disabled
+
 ||Beta 0.4.0||
 
 // Mods Added //
