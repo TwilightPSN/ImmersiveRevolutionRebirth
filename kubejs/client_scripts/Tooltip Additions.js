@@ -112,5 +112,5 @@ ItemEvents.tooltip(IRRebirth => {
     IRRebirth.add('buddingcrystals:spider_cluster', 'NOTE: Requires Silk Touch')
     IRRebirth.add('buddingcrystals:sheep_cluster', 'NOTE: Requires Silk Touch')
     IRRebirth.add('buddingcrystals:chicken_cluster', 'NOTE: Requires Silk Touch')
-
+    IRRebirth.add('rechiseled:chisel', 'Can be used for Rechiseled & Chipped Blocks')
 })

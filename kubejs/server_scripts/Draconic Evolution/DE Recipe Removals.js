@@ -7,4 +7,7 @@ ServerEvents.recipes(IRRebirth => {
     IRRebirth.remove({ output: 'draconicevolution:advanced_magnet'})
     IRRebirth.remove({ id: 'jaopca:mekanism.ore_to_clump.draconium'})
     IRRebirth.remove({ id: 'jaopca:mekanism.ore_to_shard.draconium'})
+    IRRebirth.remove({ output: 'draconicevolution:grinder'})
+    IRRebirth.remove({ output: 'draconicevolution:generator'})
+    IRRebirth.remove({ output: 'draconicevolution:draconium_chest'})
 })
