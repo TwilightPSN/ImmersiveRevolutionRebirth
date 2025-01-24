@@ -13,6 +13,10 @@
 -Sophisticated Backpacks
 -Sophisticated Storage
 -Stellar View
+-AdvancedAE
+
+// Config Chanes //
+-Draconic Reactor explosion increased 10x
 
 // Quest Changes //
 -Removed DE Generator Quest
@@ -21,6 +25,10 @@
 -Modified how some Create recipes were generated
 -Mekanism Tier Recipes
 -DE Mob Grinder and Generator Disabled
+
+// Script Changes //
+-All Budding Crystals now gatherable with Silk Touch
+-Prismarine Budding Cluster now drops Clusters as intended.
 
 ||Beta 0.4.0||
 

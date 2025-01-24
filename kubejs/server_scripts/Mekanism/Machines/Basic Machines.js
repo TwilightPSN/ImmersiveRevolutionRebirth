@@ -218,4 +218,77 @@ ServerEvents.recipes(IRRebirth => {
       B: 'immersiveengineering:thermoelectric_generator'
     }
   ).id('mekanism:transmitter/thermodynamic_conductor/basic')
+  IRRebirth.shaped(
+    Item.of('mekanism:pressurized_reaction_chamber'), 
+    [
+      'ABA',
+      'CDC',
+      'EFE'
+    ],
+    {
+      A: '#forge:plates/hop_graphite',
+      B: 'mekanism:alloy_infused',
+      C: 'mekanism:basic_control_circuit',
+      D: 'mekanism:enrichment_chamber',
+      E: 'mekanism:basic_chemical_tank',
+      F: 'mekanism:dynamic_tank'
+    }
+  ).id('mekanism:pressurized_reaction_chamber')
+  IRRebirth.shaped(
+    Item.of('mekanism:isotopic_centrifuge'), 
+    [
+      'AAA',
+      'BCB',
+      'AAA'
+    ],
+    {
+      A: '#forge:plates/lead',
+      B: 'mekanism:ultimate_control_circuit',
+      C: 'mekanism:ultimate_chemical_tank'
+    }
+  ).id('mekanism:isotopic_centrifuge')
+  IRRebirth.shaped(
+    Item.of('mekanism:fluidic_plenisher'), 
+    [
+      'AAA',
+      'BCB',
+      'AAA'
+    ],
+    {
+      A: '#forge:plates/tin',
+      B: 'mekanism:basic_control_circuit',
+      C: 'mekanism:electric_pump'
+    }
+  ).id('mekanism:fluidic_plenisher')
+  IRRebirth.shaped(
+    Item.of('mekanism:solar_neutron_activator'), 
+    [
+      'ABA',
+      'CDC',
+      'EFE'
+    ],
+    {
+      A: 'mekanism:alloy_reinforced',
+      B: 'mekanismgenerators:solar_panel',
+      C: 'mekanism:elite_control_circuit',
+      D: 'mekanism:hdpe_sheet',
+      E: '#forge:plates/bronze',
+      F: 'mekanism:steel_casing'
+    }
+  ).id('mekanism:solar_neutron_activator')
+  IRRebirth.shaped(
+    Item.of('mekanism:resistive_heater'), 
+    [
+      'ABA',
+      'BCB',
+      'DED'
+    ],
+    {
+      A: '#forge:rods/tin',
+      B: 'kubejs:acidic_redstone',
+      C: 'mekanism:steel_casing',
+      D: 'immersiveengineering:generator',
+      E: 'mekanism:energy_tablet'
+        }
+  ).id('mekanism:resistive_heater')
 })
