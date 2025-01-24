@@ -31,4 +31,20 @@ ServerEvents.recipes(IRRebirth => {
     showInJEI: true,
     subType: 'default'
   })
+  IRRebirth.custom({
+    type: 'quarryplus:workbench_recipe',
+    conditions: [{ type: 'quarryplus:machine_enabled', value: 'quarry' }],
+    energy: 500000,
+    ingredients: [
+      { count: 32, item: 'mekanism:alloy_atomic' },
+      { count: 10, item: 'mekanism:logistical_sorter' },
+      { count: 4, item: 'mekanism:robit' },
+      { count: 32, item: 'mekanism:teleportation_core' },
+      { count: 1, item: 'quarryplus:quarry' },
+      { count: 4, item: 'mekanism:steel_casing' }
+    ],
+    result: { count: 1, item: 'mekanism:digital_miner' },
+    showInJEI: true,
+    subType: 'default'
+  })
 })
