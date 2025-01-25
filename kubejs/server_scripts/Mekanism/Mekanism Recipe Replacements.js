@@ -66,4 +66,169 @@ ServerEvents.recipes(IRRebirth => {
   IRRebirth.replaceInput({ output: 'mekanism:upgrade_filter' },'#forge:glass/silica', 'immersiveengineering:insulating_glass')
   IRRebirth.replaceInput({ output: 'mekanism:upgrade_energy' },'#forge:glass/silica', 'immersiveengineering:insulating_glass')
   IRRebirth.replaceInput({ output: 'mekanism:upgrade_speed' },'#forge:glass/silica', 'immersiveengineering:insulating_glass')
+  IRRebirth.replaceInput({ output: 'mekanism:electrolytic_core' },'#forge:dusts/gold', '#forge:plates/brass')
+  IRRebirth.replaceInput({ output: 'mekanism:electrolytic_core' },'#forge:dusts/iron', '#forge:plates/electrum')
+  IRRebirth.replaceInput({ output: 'mekanism:electrolytic_core' },'#forge:dusts/osmium', '#forge:rods/osmium')
+  IRRebirth.replaceInput({ output: 'mekanism:teleportation_core' },'minecraft:lapis_lazuli', '#forge:plates/fluix')
+  IRRebirth.replaceInput({ output: 'mekanism:teleportation_core' },'minecraft:gold_ingot', '#forge:rods/electrum')
+  IRRebirth.replaceInput({ output: 'mekanism:teleportation_core' },'minecraft:diamond', '#forge:plates/diamond')
+  IRRebirth.shaped(
+    Item.of('mekanism:structural_glass', 2), 
+    [
+      'ABA',
+      'BCB',
+      'ABA'
+    ],
+    {
+      A: '#forge:plates/steel',
+      B: '#forge:rods/steel',
+      C: 'immersiveengineering:insulating_glass'
+    }
+  ).id('mekanism:structural_glass')
+  IRRebirth.shaped(
+    Item.of('mekanismgenerators:reactor_glass', 2), 
+    [
+      'ABA',
+      'BCB',
+      'ABA'
+    ],
+    {
+      A: '#forge:plates/lead',
+      B: '#forge:rods/osmium',
+      C: 'immersiveengineering:insulating_glass'
+    }
+  ).id('mekanismgenerators:reactor/glass')
+  IRRebirth.shaped(
+    Item.of('mekanism:boiler_casing', 2), 
+    [
+      'ABA',
+      'BCB',
+      'ABA'
+    ],
+    {
+      A: '#forge:plates/iron',
+      B: '#forge:rods/steel',
+      C: 'immersiveengineering:radiator'
+    }
+  ).id('mekanism:boiler_casing')
+  IRRebirth.replaceInput({ output: 'mekanismgenerators:control_rod_assembly' },'#forge:ingots/steel', 'immersiveengineering:graphite_electrode')
+  IRRebirth.replaceInput({ output: 'mekanismgenerators:control_rod_assembly' },'#forge:ingots/lead', '#forge:plates/lead')
+  IRRebirth.replaceInput({ output: 'mekanismgenerators:electromagnetic_coil' },'#forge:ingots/steel', 'immersiveengineering:coil_hv')
+  IRRebirth.replaceInput({ output: 'mekanismgenerators:electromagnetic_coil' },'#forge:ingots/gold', 'immersiveengineering:coil_mv')
+  IRRebirth.replaceInput({ output: 'mekanismgenerators:fission_fuel_assembly' },'#forge:ingots/steel', 'immersiveengineering:graphite_electrode')
+  IRRebirth.replaceInput({ output: 'mekanismgenerators:fission_fuel_assembly' },'#forge:ingots/lead', 'immersiveengineering:component_steel')
+  IRRebirth.replaceInput({ output: 'mekanismgenerators:fission_fuel_assembly' },'mekanism:basic_chemical_tank', 'mekanism:ultimate_chemical_tank')
+  IRRebirth.shaped(
+    Item.of('mekanism:radioactive_waste_barrel', 2), 
+    [
+      'ABA',
+      'BCB',
+      'ABA'
+    ],
+    {
+      A: 'immersiveengineering:plate_duroplast',
+      B: '#forge:plates/osmium',
+      C: 'mekanism:ultimate_chemical_tank'
+    }
+  ).id('mekanism:radioactive_waste_barrel')
+  IRRebirth.shaped(
+    Item.of('mekanismgenerators:turbine_rotor'), 
+    [
+      'ABA',
+      'CDC',
+      'ABA'
+    ],
+    {
+      A: '#forge:plates/steel',
+      B: 'mekanism:alloy_infused',
+      C: '#forge:rods/steel',
+      D: 'mekanism:advanced_control_circuit'
+    }
+  ).id('mekanismgenerators:turbine/rotor')
+  IRRebirth.replaceInput({ output: 'mekanismgenerators:laser_focus_matrix' },'minecraft:redstone_block', 'kubejs:acidic_redstone_block')
+  IRRebirth.replaceInput({ output: 'mekanism:fuelwood_heater' },'minecraft:furnace', 'immersiveengineering:generator')
+  IRRebirth.replaceInput({ output: 'mekanism:fuelwood_heater' },'#forge:ingots/steel', 'immersiveengineering:component_steel')
+  IRRebirth.shaped(
+    Item.of('mekanismgenerators:fission_reactor_casing'), 
+    [
+      'ABA',
+      'CDC',
+      'ABA'
+    ],
+    {
+      A: '#forge:plates/lead',
+      B: '#forge:plates/aluminum',
+      C: '#forge:rods/aluminum',
+      D: 'mekanism:steel_casing'
+    }
+  ).id('mekanismgenerators:fission_reactor/casing')
+  IRRebirth.replaceInput({ output: 'mekanismgenerators:heat_generator' },'#forge:ingots/iron', 'immersiveengineering:component_iron')
+  IRRebirth.replaceInput({ output: 'mekanismgenerators:heat_generator' },'#minecraft:planks', '#forge:treated_wood')
+  IRRebirth.replaceInput({ output: 'mekanismgenerators:heat_generator' },'#forge:ingots/osmium', '#forge:plates/osmium')
+  IRRebirth.replaceInput({ output: 'mekanismgenerators:heat_generator' },'#forge:ingots/copper', '#forge:rods/bronze')
+  IRRebirth.replaceInput({ output: 'mekanism:induction_casing' },'#forge:ingots/steel', 'immersiveengineering:coil_hv')
+  IRRebirth.replaceInput({ output: 'mekanismgenerators:rotational_complex' },'#forge:ingots/steel', '#forge:plates/refined_glowstone')
+  IRRebirth.replaceInput({ output: 'mekanismgenerators:saturating_condenser' },'#forge:ingots/tin', '#forge:rods/tin')
+  IRRebirth.replaceInput({ output: 'mekanismgenerators:saturating_condenser' },'#forge:ingots/steel', '#forge:plates/steel')
+  IRRebirth.replaceInput({ output: 'mekanismgenerators:saturating_condenser' },'minecraft:bucket', 'immersiveengineering:fluid_pipe')
+  IRRebirth.replaceInput({ output: 'mekanism:superheating_element' },'minecraft:redstone', 'immersiveengineering:rs_engineering')
+  IRRebirth.replaceInput({ output: 'mekanism:superheating_element' },'minecraft:copper_ingot', '#forge:plates/bronze')
+  IRRebirth.shaped(
+    Item.of('mekanismgenerators:turbine_blade'), 
+    [
+      'ABA',
+      'BCB',
+      'ABA'
+    ],
+    {
+      A: '#forge:rods/steel',
+      B: '#forge:plates/steel',
+      C: 'mekanism:alloy_atomic'
+    }
+  ).id('mekanismgenerators:turbine/blade')
+  IRRebirth.shaped(
+    Item.of('mekanismgenerators:turbine_casing'), 
+    [
+      'ABA',
+      'BCB',
+      'ABA'
+    ],
+    {
+      A: '#forge:plates/lead',
+      B: '#forge:plates/steel',
+      C: '#forge:storage_blocks/osmium'
+    }
+  ).id('mekanismgenerators:turbine/casing')
+  IRRebirth.replaceInput({ output: 'mekanism:pressure_disperser' },'minecraft:iron_bars', '#forge:sheetmetals/steel')
+  IRRebirth.replaceInput({ output: 'mekanism:pressure_disperser' },'#forge:ingots/steel', '#forge:rods/steel')
+  IRRebirth.replaceInput({ output: 'mekanism:supercharged_coil' },'#forge:ingots/copper', 'immersiveengineering:light_engineering')
+  IRRebirth.shaped(
+    Item.of('mekanism:laser_amplifier'), 
+    [
+      'ABC',
+      'BDE',
+      'ABC'
+    ],
+    {
+      A: '#forge:plates/steel',
+      B: '#forge:rods/steel',
+      C: 'immersiveengineering:rs_engineering',
+      D: 'mekanism:ultimate_energy_cube',
+      E: 'mekanism:ultimate_control_circuit'
+    }
+  ).id('mekanism:laser_amplifier')
+  IRRebirth.shaped(
+    Item.of('mekanism:module_base'), 
+    [
+      'ABC',
+      'ADC',
+      'BBB'
+    ],
+    {
+      A: '#forge:rods/bronze',
+      B: 'mekanism:hdpe_sheet',
+      C: '#forge:plates/tin',
+      D: 'create_sa:hydraulic_engine'
+    }
+  ).id('mekanism:module_base')
 })

@@ -6,6 +6,12 @@
 -Rechiseled: AE2
 -Chipped
 -Rechiseled: Chipped
+-Tectonic
+-Underground Bunkers
+-Loot Integration
+-Loot Integration Randomized Loot
+-Integrated Villages
+-Supplementaries
 
 // Mods Updated //
 -ExtendedAE
@@ -14,21 +20,27 @@
 -Sophisticated Storage
 -Stellar View
 -AdvancedAE
+-Sophisticated Core
+-KleeSlabs
+-Cooking for Blockheads
 
 // Config Chanes //
 -Draconic Reactor explosion increased 10x
+-Cooking for Blockheads sink requires water
 
 // Quest Changes //
 -Removed DE Generator Quest
 
 // Recipe Changes //
 -Modified how some Create recipes were generated
--Mekanism Tier Recipes
--DE Mob Grinder and Generator Disabled
+-Mekanism Recipes finished
+-Disabled multiple items from Draconic
+-Started Draconic Recipe Changes
 
 // Script Changes //
 -All Budding Crystals now gatherable with Silk Touch
 -Prismarine Budding Cluster now drops Clusters as intended.
+-Cleaned up scripts and shortened files
 
 ||Beta 0.4.0||
 
