@@ -33,12 +33,14 @@
 
 // Recipe Changes //
 -Modified how some Create recipes were generated
--Mekanism Tier Recipes
--DE Mob Grinder and Generator Disabled
+-Mekanism Recipes finished
+-Disabled multiple items from Draconic
+-Started Draconic Recipe Changes
 
 // Script Changes //
 -All Budding Crystals now gatherable with Silk Touch
 -Prismarine Budding Cluster now drops Clusters as intended.
+-Cleaned up scripts and shortened files
 
 ||Beta 0.4.0||
 
