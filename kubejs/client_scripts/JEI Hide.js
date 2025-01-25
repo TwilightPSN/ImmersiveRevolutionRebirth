@@ -60,12 +60,7 @@ JEIEvents.hideItems(IRRebirth => {
     IRRebirth.hide(['buddingcrystals:small_snowgolem_bud', 'buddingcrystals:medium_snowgolem_bud', 'buddingcrystals:large_snowgolem_bud', 'buddingcrystals:small_witherskeleton_bud', 'buddingcrystals:medium_witherskeleton_bud', 'buddingcrystals:large_witherskeleton_bud', 'buddingcrystals:small_slime_bud', 'buddingcrystals:medium_slime_bud', 'buddingcrystals:large_slime_bud', 'buddingcrystals:small_blaze_bud', 'buddingcrystals:medium_blaze_bud', 'buddingcrystals:large_blaze_bud', 'buddingcrystals:small_zombie_bud', 'buddingcrystals:medium_zombie_bud', 'buddingcrystals:large_zombie_bud', 'buddingcrystals:small_ghast_bud', 'buddingcrystals:medium_ghast_bud', 'buddingcrystals:large_ghast_bud', 'buddingcrystals:small_sheep_bud', 'buddingcrystals:medium_sheep_bud', 'buddingcrystals:large_sheep_bud', 'buddingcrystals:small_quantumalloy_bud', 'buddingcrystals:medium_quantumalloy_bud', 'buddingcrystals:large_quantumalloy_bud', 'buddingcrystals:small_sculk_bud', 'buddingcrystals:medium_sculk_bud', 'buddingcrystals:large_sculk_bud', 'buddingcrystals:small_spider_bud', 'buddingcrystals:medium_spider_bud', 'buddingcrystals:large_spider_bud', 'buddingcrystals:small_wither_bud', 'buddingcrystals:medium_wither_bud', 'buddingcrystals:large_wither_bud']);
     IRRebirth.hide(['buddingcrystals:small_chicken_bud', 'buddingcrystals:medium_chicken_bud', 'buddingcrystals:large_chicken_bud']);
     IRRebirth.hide(['draconicevolution:grinder', 'draconicevolution:generator', 'draconicevolution:draconium_chest']);
-    IRRebirth.hide('@chipped');
-    IRRebirth.hide('@rechiseled')
-    IRRebirth.hide('@rechiseledcreate')
-    IRRebirth.hide('@rechiseledae2')
-})
-
-JEIEvents.addItems(IRRebirth => {
-    IRRebirth.add('rechiseled:chisel')
+    IRRebirth.hide(['draconicevolution:p2p_dislocator_unbound', 'draconicevolution:dislocator', 'draconicevolution:potentiometer', 'draconicevolution:rain_sensor', 'draconicevolution:dislocator_pedestal', 'draconicevolution:dislocator_receptacle', 'draconicevolution:celestial_manipulator', 'draconicevolution:entity_detector', 'draconicevolution:entity_detector_advanced', 'draconicevolution:p2p_dislocator', 'draconicevolution:player_dislocator', 'draconicevolution:player_dislocator_unbound']);
+    IRRebirth.hide('draconicevolution:dislocation_inhibitor');
+    IRRebirth.hide('draconicevolution:advanced_dislocator');
 })

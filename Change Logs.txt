@@ -6,6 +6,12 @@
 -Rechiseled: AE2
 -Chipped
 -Rechiseled: Chipped
+-Tectonic
+-Underground Bunkers
+-Loot Integration
+-Loot Integration Randomized Loot
+-Integrated Villages
+-Supplementaries
 
 // Mods Updated //
 -ExtendedAE
@@ -14,9 +20,13 @@
 -Sophisticated Storage
 -Stellar View
 -AdvancedAE
+-Sophisticated Core
+-KleeSlabs
+-Cooking for Blockheads
 
 // Config Chanes //
 -Draconic Reactor explosion increased 10x
+-Cooking for Blockheads sink requires water
 
 // Quest Changes //
 -Removed DE Generator Quest

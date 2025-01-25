@@ -1,69 +1,17 @@
 ServerEvents.recipes(IRRebirth => {
-  IRRebirth.replaceInput(
-    { output: 'mekanism:metallurgic_infuser' },
-    'minecraft:iron_ingot',
-    'kubejs:graphite_plate'
-  )
-  IRRebirth.replaceInput(
-    { output: 'mekanism:metallurgic_infuser' },
-    'minecraft:furnace',
-    'immersiveengineering:radiator'
-  )
-  IRRebirth.replaceInput(
-    { output: 'mekanism:metallurgic_infuser' },
-    'mekanism:ingot_osmium',
-    '#forge:plates/osmium'
-  )
-  IRRebirth.replaceInput(
-    { output: 'mekanism:metallurgic_infuser' },
-    'minecraft:redstone',
-    'kubejs:acidic_redstone'
-  )
-  IRRebirth.replaceInput(
-    { output: 'mekanism:energized_smelter' },
-    'minecraft:redstone',
-    'kubejs:acidic_redstone'
-  )
-  IRRebirth.replaceInput(
-    { output: 'mekanism:energized_smelter' },
-    '#forge:glass/silica',
-    'immersiveengineering:slag_glass'
-  )
-  IRRebirth.replaceInput(
-    { output: 'mekanism:precision_sawmill' },
-    'minecraft:iron_ingot',
-    '#forge:plates/steel'
-  )
-  IRRebirth.replaceInput(
-    { output: 'mekanism:electrolytic_separator' },
-    'minecraft:iron_ingot',
-    '#forge:plates/steel'
-  )
-  IRRebirth.replaceInput(
-    { output: 'mekanism:electrolytic_separator' },
-    'minecraft:redstone',
-    'kubejs:acidic_redstone'
-  )
-  IRRebirth.replaceInput(
-    { output: 'mekanism:enrichment_chamber' },
-    'minecraft:iron_ingot',
-    '#forge:plates/steel'
-  )
-  IRRebirth.replaceInput(
-    { output: 'mekanism:enrichment_chamber' },
-    'minecraft:redstone',
-    'kubejs:acidic_redstone'
-  )
-  IRRebirth.replaceInput(
-    { output: 'mekanism:combiner' },
-    'minecraft:cobblestone',
-    'create:andesite_casing'
-  )
-  IRRebirth.replaceInput(
-    { output: 'mekanism:crusher' },
-    'minecraft:redstone',
-    'kubejs:acidic_redstone'
-  )
+  IRRebirth.replaceInput({ output: 'mekanism:metallurgic_infuser' },'minecraft:iron_ingot','kubejs:graphite_plate')
+  IRRebirth.replaceInput({ output: 'mekanism:metallurgic_infuser' },'minecraft:furnace','immersiveengineering:radiator')
+  IRRebirth.replaceInput({ output: 'mekanism:metallurgic_infuser' },'mekanism:ingot_osmium','#forge:plates/osmium')
+  IRRebirth.replaceInput({ output: 'mekanism:metallurgic_infuser' },'minecraft:redstone','kubejs:acidic_redstone')
+  IRRebirth.replaceInput({ output: 'mekanism:energized_smelter' },'minecraft:redstone','kubejs:acidic_redstone')
+  IRRebirth.replaceInput({ output: 'mekanism:energized_smelter' },'#forge:glass/silica','immersiveengineering:slag_glass')
+  IRRebirth.replaceInput({ output: 'mekanism:precision_sawmill' },'minecraft:iron_ingot','#forge:plates/steel')
+  IRRebirth.replaceInput({ output: 'mekanism:electrolytic_separator' },'minecraft:iron_ingot','#forge:plates/steel')
+  IRRebirth.replaceInput({ output: 'mekanism:electrolytic_separator' },'minecraft:redstone','kubejs:acidic_redstone')
+  IRRebirth.replaceInput({ output: 'mekanism:enrichment_chamber' },'minecraft:iron_ingot','#forge:plates/steel')
+  IRRebirth.replaceInput({ output: 'mekanism:enrichment_chamber' },'minecraft:redstone','kubejs:acidic_redstone')
+  IRRebirth.replaceInput({ output: 'mekanism:combiner' },'minecraft:cobblestone','create:andesite_casing')
+  IRRebirth.replaceInput({ output: 'mekanism:crusher' },'minecraft:redstone','kubejs:acidic_redstone')
   IRRebirth.shaped(
     Item.of('mekanism:purification_chamber'), 
     [
