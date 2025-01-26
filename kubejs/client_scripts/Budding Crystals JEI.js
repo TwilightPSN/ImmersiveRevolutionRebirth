@@ -105,4 +105,5 @@ JEIEvents.hideItems(IRRebirth => {
     IRRebirth.hide(['buddingcrystals:small_spiritedcrystal_bud', 'buddingcrystals:medium_spiritedcrystal_bud', 'buddingcrystals:large_spiritedcrystal_bud']);
     IRRebirth.hide(['buddingcrystals:small_coal_bud', 'buddingcrystals:medium_coal_bud', 'buddingcrystals:large_coal_bud']);
     IRRebirth.hide('buddingcrystals:crystal_catalyst');
+    IRRebirth.hide(['buddingcrystals:small_chaosdragon_bud', 'buddingcrystals:medium_chaosdragon_bud', 'buddingcrystals:large_chaosdragon_bud']);
 })

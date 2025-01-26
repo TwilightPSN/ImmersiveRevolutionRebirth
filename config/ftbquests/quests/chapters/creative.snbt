@@ -9,6 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["6D16B78F407C777E"]
 			id: "239A275132232EAE"
 			tasks: [{
 				id: "5843C8BBE96FA517"
@@ -144,7 +145,7 @@
 			id: "5B4CE64D0826E021"
 			tasks: [{
 				id: "2742359EFFA4CA42"
-				item: "powah:energy_cell_creative"
+				item: "draconicevolution:creative_op_capacitor"
 				type: "item"
 			}]
 			x: 4.0d

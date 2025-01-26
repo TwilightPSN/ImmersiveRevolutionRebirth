@@ -63,4 +63,8 @@ JEIEvents.hideItems(IRRebirth => {
     IRRebirth.hide(['draconicevolution:p2p_dislocator_unbound', 'draconicevolution:dislocator', 'draconicevolution:potentiometer', 'draconicevolution:rain_sensor', 'draconicevolution:dislocator_pedestal', 'draconicevolution:dislocator_receptacle', 'draconicevolution:celestial_manipulator', 'draconicevolution:entity_detector', 'draconicevolution:entity_detector_advanced', 'draconicevolution:p2p_dislocator', 'draconicevolution:player_dislocator', 'draconicevolution:player_dislocator_unbound']);
     IRRebirth.hide('draconicevolution:dislocation_inhibitor');
     IRRebirth.hide('draconicevolution:advanced_dislocator');
+    IRRebirth.hide('draconicevolution:info_tablet');
+    IRRebirth.hide('draconicevolution:mob_soul');
+    IRRebirth.hide('draconicevolution:structure_block');
+    IRRebirth.hide(['silentcompat:capsid_alloy_ingot', 'silentcompat:source_steel_ingot', 'silentcompat:dark_chocolate_ingot', 'silentcompat:sculk_alloy_ingot']);
 })

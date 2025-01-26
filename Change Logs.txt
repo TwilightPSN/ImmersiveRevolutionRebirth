@@ -1,3 +1,24 @@
+||Beta 0.6.0||
+
+// Mod Updates //
+-Mekanism
+-Mekanism Generators
+-Mekanism Tools
+-JAOPCA
+-ImmediatelyFast
+-ModernFix
+
+// Quest Updates //
+-Budding Chaos Dragon
+-Creative properly Gated
+
+// Script Changes //
+-Budding Quantum in Botany pots fixed to drop Qunatum Alloy Ingots
+
+// Recipe Changes //
+-Draconic Evolution Recipes
+-Extended Crafting Tables & Components
+
 ||Beta 0.5.0||
 
 // Mods Added //

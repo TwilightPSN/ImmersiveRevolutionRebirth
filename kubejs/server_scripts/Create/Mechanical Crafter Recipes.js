@@ -170,5 +170,88 @@ ServerEvents.recipes(IRRebirth => {
       C: '#forge:plates/constantan',
       D: 'create_sa:heat_engine',
       E: '#forge:sheetmetals/constantan'
-    }) 
+    })
+    IRRebirth.recipes.create.mechanical_crafting(Item.of('draconicevolution:reactor_prt_stab_frame'), [
+      'ABBBA',
+      'B C B',
+      'BCDDB',
+      'B C B',
+      'ABBBA'
+    ], {
+      A: '#forge:plates/refined_obsidian',
+      B: '#forge:rods/refined_obsidian',
+      C: 'draconicevolution:wyvern_core',
+      D: '#forge:storage_blocks/draconium_awakened'
+    }).id('draconicevolution:machines/reactor_prt_stab_frame')
+    IRRebirth.recipes.create.mechanical_crafting(Item.of('draconicevolution:reactor_prt_focus_ring'), [
+      '  AA  ',
+      ' ABBA ',
+      'AD  CA',
+      'AC  DA',
+      ' ABBA ',
+      '  AA  '
+    ], {
+      A: '#forge:plates/refined_glowstone',
+      B: 'draconicevolution:wyvern_core',
+      C: 'mekanism:ultimate_control_circuit',
+      D: '#forge:plates/diamond'
+    }).id('draconicevolution:machines/reactor_prt_focus_ring')
+    IRRebirth.recipes.create.mechanical_crafting(Item.of('draconicevolution:reactor_prt_in_rotor'), [
+      'AAAAAAA',
+      'ABCDCBA',
+      'ABDCDBA',
+      'AAAAAAA'
+    ], {
+      A: '#forge:plates/refined_glowstone',
+      B: 'draconicevolution:wyvern_core',
+      C: '#forge:ingots/draconium',
+      D: '#forge:ingots/draconium_awakened'
+    }).id('draconicevolution:machines/reactor_prt_in_rotor')
+    IRRebirth.recipes.create.mechanical_crafting(Item.of('draconicevolution:reactor_prt_out_rotor'), [
+      'AAAAAAA',
+      'ABCDCBA',
+      'ABDCDBA',
+      'AAAAAAA'
+    ], {
+      A: '#forge:plates/refined_obsidian',
+      B: 'draconicevolution:wyvern_core',
+      C: '#forge:ingots/draconium',
+      D: '#forge:ingots/draconium_awakened'
+    }).id('draconicevolution:machines/reactor_prt_out_rotor')
+    IRRebirth.recipes.create.mechanical_crafting(Item.of('draconicevolution:reactor_prt_rotor_full'), [
+      ' AAAAA ',
+      'ABBBBBA',
+      'CCDDDCC',
+      'ABBBBBA',
+      ' AAAAA '
+    ], {
+      A: 'draconicevolution:reactor_prt_out_rotor',
+      B: 'draconicevolution:reactor_prt_in_rotor',
+      C: 'draconicevolution:wyvern_core',
+      D: '#forge:ingots/draconium'
+    }).id('draconicevolution:machines/reactor_prt_rotor_full')
+    IRRebirth.recipes.create.mechanical_crafting(Item.of('draconicevolution:fluid_gate'), [
+      'ABBBA',
+      'B C B',
+      'BCDDB',
+      'B C B',
+      'ABBBA'
+    ], {
+      A: '#forge:plates/refined_obsidian',
+      B: '#forge:rods/refined_obsidian',
+      C: 'draconicevolution:wyvern_core',
+      D: 'mekanism:ultimate_fluid_tank'
+    }).id('draconicevolution:fluid_gate')
+    IRRebirth.recipes.create.mechanical_crafting(Item.of('draconicevolution:flux_gate'), [
+      'ABBBA',
+      'B C B',
+      'BCDDB',
+      'B C B',
+      'ABBBA'
+    ], {
+      A: '#forge:plates/refined_obsidian',
+      B: '#forge:rods/refined_obsidian',
+      C: 'draconicevolution:wyvern_core',
+      D: 'mekanism:ultimate_energy_cube'
+    }).id('draconicevolution:flux_gate')
   })

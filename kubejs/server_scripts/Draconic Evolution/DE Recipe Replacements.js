@@ -25,4 +25,19 @@ ServerEvents.recipes(IRRebirth => {
     }
   ).id('draconicevolution:machines/energy_core_stabilizer')
   IRRebirth.replaceInput({ output: 'draconicevolution:wyvern_relay_crystal' },'draconicevolution:draconium_core','draconicevolution:wyvern_core')
+  IRRebirth.shaped(
+    Item.of('draconicevolution:energy_pylon', 2), 
+    [
+      'ABA',
+      'CDC',
+      'AEA'
+    ],
+    {
+      A: '#forge:ingots/draconium',
+      B: 'mekanism:alloy_atomic',
+      C: 'mekanism:pellet_antimatter',
+      D: 'draconicevolution:wyvern_core',
+      E: 'mekanism:ultimate_control_circuit'
+    }
+  ).id('draconicevolution:machines/energy_pylon')
 })
