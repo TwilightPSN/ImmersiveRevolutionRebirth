@@ -39,4 +39,5 @@ ServerEvents.recipes(IRRebirth => {
     IRRebirth.remove({ id: 'silentgear:bronze_ingot'})
     IRRebirth.remove({ id: 'utilitarian:utility/logs_to_hopper'})
     IRRebirth.remove(['chipped:botanist_workbench', 'chipped:glassblower', 'chipped:carpenters_table', 'chipped:loom_table', 'chipped:mason_table', 'chipped:alchemy_bench', 'chipped:tinkering_table'])
+    IRRebirth.remove(['silentcompat:capsid_alloy_ingot', 'silentcompat:source_steel_ingot', 'silentcompat:dark_chocolate_ingot', 'silentcompat:sculk_alloy_ingot'])
 })

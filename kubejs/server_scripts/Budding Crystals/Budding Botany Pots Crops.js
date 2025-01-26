@@ -784,9 +784,21 @@ ServerEvents.recipes(IRRebirth => {
         ['buddingcrystals:budding_quantumalloy'], 
         { block: 'buddingcrystals:quantumalloy_cluster' },
         [
-            Item.of('kubejs:acidic_redstone')
+            Item.of('advanced_ae:quantum_alloy')
                 .withChance(1)
                 .withRolls(2, 3) 
+        ],
+        600,
+        1
+    )
+    IRRebirth.recipes.botanypots.crop(
+        'buddingcrystals:chaosdragon_cluster',
+        ['buddingcrystals:budding_chaosdragon'], 
+        { block: 'buddingcrystals:chaosdragon_cluster' },
+        [
+            Item.of('draconicevolution:small_chaos_frag')
+                .withChance(1)
+                .withRolls(5, 10) 
         ],
         600,
         1

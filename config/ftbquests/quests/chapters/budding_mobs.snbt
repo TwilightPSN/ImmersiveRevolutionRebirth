@@ -233,6 +233,17 @@
 			x: -1.5d
 			y: 3.0d
 		}
+		{
+			dependencies: ["6D16B78F407C777E"]
+			id: "387EE9071B07C941"
+			tasks: [{
+				id: "274D6D638188070D"
+				item: "buddingcrystals:budding_chaosdragon"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
 	]
 	title: "Budding Mobs"
 }
