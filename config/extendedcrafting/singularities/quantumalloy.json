@@ -1,0 +1,10 @@
+{
+  "name": "Quantum Alloy",
+  "colors": [
+    "22275b",
+    "a262e5"
+  ],
+  "ingredient": {
+    "item": "advanced_ae:quantum_alloy"
+  }
+}

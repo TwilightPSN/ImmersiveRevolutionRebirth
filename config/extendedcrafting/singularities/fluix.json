@@ -1,0 +1,10 @@
+{
+  "name": "Fluix",
+  "colors": [
+    "4d3b93",
+    "d358ad"
+  ],
+  "ingredient": {
+    "tag": "forge:gems/fluix"
+  }
+}

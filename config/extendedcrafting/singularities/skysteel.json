@@ -1,0 +1,10 @@
+{
+  "name": "Sky Steel",
+  "colors": [
+    "161616",
+    "313131"
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/sky_steel"
+  }
+}

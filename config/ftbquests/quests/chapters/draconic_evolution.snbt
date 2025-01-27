@@ -384,6 +384,7 @@
 		{
 			dependencies: ["2027EC662CB9A837"]
 			id: "6D16B78F407C777E"
+			shape: "gear"
 			tasks: [{
 				id: "2E94D43A118B33AD"
 				item: "draconicevolution:chaotic_crafting_injector"

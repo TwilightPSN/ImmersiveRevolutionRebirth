@@ -1,0 +1,10 @@
+{
+  "name": "Awakened Draconium",
+  "colors": [
+    "fc6100",
+    "fcbc00"
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/draconium_awakened"
+  }
+}
