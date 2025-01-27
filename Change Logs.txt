@@ -7,10 +7,15 @@
 -JAOPCA
 -ImmediatelyFast
 -ModernFix
+-Fzzy Config
 
 // Quest Updates //
 -Budding Chaos Dragon
 -Creative properly Gated
+
+// Config Updates //
+-Added Numerous Singularities
+-Singularities take 500m FE to make
 
 // Script Changes //
 -Budding Quantum in Botany pots fixed to drop Qunatum Alloy Ingots
@@ -18,6 +23,7 @@
 // Recipe Changes //
 -Draconic Evolution Recipes
 -Extended Crafting Tables & Components
+-Creative Item Recipes
 
 ||Beta 0.5.0||
 

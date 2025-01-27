@@ -1,0 +1,10 @@
+{
+  "name": "Refined Obsidian",
+  "colors": [
+    "584277",
+    "b798c7"
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/refined_obsidian"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Energized Steel",
+  "colors": [
+    "837054",
+    "ceb08a"
+  ],
+  "ingredient": {
+    "item": "powah:steel_energized"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Certus Quartz",
+  "colors": [
+    "8ab4d8",
+    "adcdef"
+  ],
+  "ingredient": {
+    "tag": "forge:gems/certus_quartz"
+  }
+}

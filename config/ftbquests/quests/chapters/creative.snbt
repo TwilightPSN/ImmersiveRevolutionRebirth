@@ -6,7 +6,13 @@
 	icon: "extendedcrafting:ultimate_singularity"
 	id: "6CAEF7FBD6368953"
 	order_index: 0
-	quest_links: [ ]
+	quest_links: [{
+		id: "57D81A1972A74426"
+		linked_quest: "6D16B78F407C777E"
+		shape: "gear"
+		x: 0.5d
+		y: -1.5d
+	}]
 	quests: [
 		{
 			dependencies: ["6D16B78F407C777E"]
@@ -16,8 +22,8 @@
 				item: "extendedcrafting:basic_table"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -0.5d
+			x: 2.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["239A275132232EAE"]
@@ -27,8 +33,8 @@
 				item: "extendedcrafting:advanced_table"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -0.5d
+			x: 2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4EB113EEB24B25E6"]
@@ -38,8 +44,8 @@
 				item: "extendedcrafting:elite_table"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 1.0d
+			x: 0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["227C83E382B395F0"]
@@ -49,19 +55,8 @@
 				item: "extendedcrafting:ultimate_table"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["227C83E382B395F0"]
-			id: "1F45BD1880EEC602"
-			tasks: [{
-				id: "133F6D8A6B35EE9A"
-				item: "extendedcrafting:crystaltine_ingot"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 1.0d
+			x: 0.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["72B64716048DB345"]
@@ -71,8 +66,8 @@
 				item: "extendedcrafting:ultimate_singularity"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 2.5d
+			x: 2.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["1D902F876F951BDC"]
@@ -82,8 +77,8 @@
 				item: "extendedcrafting:compressor"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 2.5d
+			x: 2.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["52674B61FB3B27A2"]
@@ -93,8 +88,8 @@
 				item: "create:creative_motor"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 4.5d
+			x: 0.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["52674B61FB3B27A2"]
@@ -104,8 +99,8 @@
 				item: "create:creative_crate"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 4.5d
+			x: 0.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["52674B61FB3B27A2"]
@@ -116,7 +111,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 4.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["52674B61FB3B27A2"]
@@ -127,7 +122,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 4.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["52674B61FB3B27A2"]
@@ -138,7 +133,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 4.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["52674B61FB3B27A2"]
@@ -148,8 +143,8 @@
 				item: "draconicevolution:creative_op_capacitor"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 4.5d
+			x: 3.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["52674B61FB3B27A2"]
@@ -196,8 +191,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.0d
-			y: 4.5d
+			x: 3.5d
+			y: 3.0d
 		}
 	]
 	title: "Creative"

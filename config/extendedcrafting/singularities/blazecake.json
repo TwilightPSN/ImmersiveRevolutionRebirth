@@ -1,0 +1,10 @@
+{
+  "name": "Blaze Cake",
+  "colors": [
+    "ca4527",
+    "fce083"
+  ],
+  "ingredient": {
+    "item": "create:blaze_cake"
+  }
+}

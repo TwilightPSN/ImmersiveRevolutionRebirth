@@ -1,0 +1,10 @@
+{
+  "name": "Hydraulic Engine",
+  "colors": [
+    "284cb1",
+    "fcf1b6"
+  ],
+  "ingredient": {
+    "item": "create_sa:hydraulic_engine"
+  }
+}

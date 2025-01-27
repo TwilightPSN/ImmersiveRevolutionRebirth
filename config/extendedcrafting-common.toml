@@ -10,7 +10,7 @@
 	defaultRecipes = true
 	#The default amount of FE required to create a Singularity.
 	#Range: > 0
-	defaultPowerRequired = 5000000
+	defaultPowerRequired = 500000000
 	#Should the Singularities be enabled?
 	enabled = true
 	#The item to use as the Catalyst in default Singularity recipes.
@@ -54,10 +54,10 @@
 ["Quantum Compression"]
 	#How much FE the Quantum Compressor should hold.
 	#Range: > 0
-	powerCapacity = 10000000
+	powerCapacity = 1000000000
 	#How much FE/t the Quantum Compressor should use when crafting by default.
 	#Range: > 0
-	powerRate = 5000
+	powerRate = 500000
 	#Should the Quantum Compressor be enabled?
 	enabled = true
 
