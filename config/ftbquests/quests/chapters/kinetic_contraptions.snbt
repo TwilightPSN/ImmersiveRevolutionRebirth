@@ -460,7 +460,7 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["0B5E7A2FDA4CA4FB"]
+			dependencies: ["510ABFA37AE208DF"]
 			hide_dependent_lines: true
 			id: "75D693CEC7D6685A"
 			tasks: [{
@@ -469,7 +469,7 @@
 				type: "dimension"
 			}]
 			x: -3.0d
-			y: -2.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["0125871937D41659"]
@@ -569,7 +569,7 @@
 				}
 				{
 					id: "2A8E87CF26F90EF1"
-					item: "minecraft:nether_star"
+					item: "kubejs:nether_mining_key"
 					type: "item"
 				}
 			]
@@ -704,6 +704,25 @@
 			}]
 			x: -5.0d
 			y: -3.0d
+		}
+		{
+			dependencies: ["0B5E7A2FDA4CA4FB"]
+			id: "510ABFA37AE208DF"
+			tasks: [
+				{
+					count: 10L
+					id: "7D1B4AD869CF0A36"
+					item: "minecraft:nether_bricks"
+					type: "item"
+				}
+				{
+					id: "7D787915F887A349"
+					item: "kubejs:nether_key"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -2.0d
 		}
 	]
 	title: "Create"

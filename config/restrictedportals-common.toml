@@ -9,7 +9,7 @@
 	#Description for the Advancements
 	description = "%item% required to access this dimension"
 	#Comma seperated list of items that when crafted unlock the corresponding dimension
-	craftitems = "minecraft:flint_and_steel,explorerscompass:explorerscompass,immersiveengineering:insulating_glass,minecraft:nether_star,minecraft:shulker_shell,ae2:fluix_pearl"
+	craftitems = "kubejs:nether_key,explorerscompass:explorerscompass,kubejs:mining_key,kubejs:nether_mining_key,kubejs:end_mining_key,kubejs:void_key"
 	#Comma seperated list of Dimension Resource Names
 	dimresname = "minecraft:the_nether,minecraft:the_end,jamd:mining,jamd:nether,jamd:end,javd:void"
 	#Comma seperated list of Dimension Display Names

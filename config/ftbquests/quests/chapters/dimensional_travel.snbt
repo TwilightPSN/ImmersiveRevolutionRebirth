@@ -94,7 +94,7 @@
 		}
 		{
 			height: 1.25d
-			image: "minecraft:block/obsidian"
+			image: "minecraft:block/nether_bricks"
 			order: 100
 			rotation: 0.0d
 			width: 1.25d
@@ -103,7 +103,7 @@
 		}
 		{
 			height: 1.25d
-			image: "minecraft:block/obsidian"
+			image: "minecraft:block/nether_bricks"
 			order: 100
 			rotation: 0.0d
 			width: 1.25d
@@ -112,7 +112,7 @@
 		}
 		{
 			height: 1.25d
-			image: "minecraft:block/obsidian"
+			image: "minecraft:block/nether_bricks"
 			order: 100
 			rotation: 0.0d
 			width: 1.25d
@@ -121,7 +121,7 @@
 		}
 		{
 			height: 1.25d
-			image: "minecraft:block/obsidian"
+			image: "minecraft:block/nether_bricks"
 			order: 102
 			rotation: 0.0d
 			width: 1.25d
@@ -130,7 +130,7 @@
 		}
 		{
 			height: 1.25d
-			image: "minecraft:block/obsidian"
+			image: "minecraft:block/nether_bricks"
 			order: 101
 			rotation: 0.0d
 			width: 1.25d
@@ -139,7 +139,7 @@
 		}
 		{
 			height: 1.25d
-			image: "minecraft:block/obsidian"
+			image: "minecraft:block/nether_bricks"
 			order: 100
 			rotation: 0.0d
 			width: 1.25d
@@ -148,7 +148,7 @@
 		}
 		{
 			height: 1.25d
-			image: "minecraft:block/obsidian"
+			image: "minecraft:block/nether_bricks"
 			order: 100
 			rotation: 0.0d
 			width: 1.25d
@@ -157,7 +157,7 @@
 		}
 		{
 			height: 1.25d
-			image: "minecraft:block/obsidian"
+			image: "minecraft:block/nether_bricks"
 			order: 100
 			rotation: 0.0d
 			width: 1.25d
@@ -166,7 +166,7 @@
 		}
 		{
 			height: 1.25d
-			image: "minecraft:block/obsidian"
+			image: "minecraft:block/nether_bricks"
 			order: 100
 			rotation: 0.0d
 			width: 1.25d
@@ -175,7 +175,7 @@
 		}
 		{
 			height: 1.25d
-			image: "minecraft:block/obsidian"
+			image: "minecraft:block/nether_bricks"
 			order: 100
 			rotation: 0.0d
 			width: 1.25d
@@ -184,7 +184,7 @@
 		}
 		{
 			height: 1.25d
-			image: "minecraft:block/obsidian"
+			image: "minecraft:block/nether_bricks"
 			order: 100
 			rotation: 0.0d
 			width: 1.25d
@@ -193,7 +193,7 @@
 		}
 		{
 			height: 1.25d
-			image: "minecraft:block/obsidian"
+			image: "minecraft:block/nether_bricks"
 			order: 100
 			rotation: 0.0d
 			width: 1.25d
@@ -227,20 +227,20 @@
 		{
 			height: 0.5d
 			image: "ftbchunks:textures/faces/minecraft/blaze.png"
-			order: 50
+			order: 500
 			rotation: 0.0d
 			width: 0.5d
 			x: 1.0d
-			y: -0.5d
+			y: -2.0d
 		}
 		{
 			height: 0.5d
 			image: "ftbchunks:textures/faces/minecraft/wither_skeleton.png"
-			order: 50
+			order: 500
 			rotation: 0.0d
 			width: 0.5d
 			x: 3.0d
-			y: -0.5d
+			y: -2.0d
 		}
 		{
 			height: 1.25d
@@ -523,7 +523,7 @@
 		}
 		{
 			height: 1.25d
-			image: "minecraft:block/nether_bricks"
+			image: "minecraft:block/gilded_blackstone"
 			order: 25
 			rotation: 0.0d
 			width: 1.25d
@@ -532,7 +532,7 @@
 		}
 		{
 			height: 1.25d
-			image: "minecraft:block/nether_bricks"
+			image: "minecraft:block/gilded_blackstone"
 			rotation: 0.0d
 			width: 1.25d
 			x: 3.0d
@@ -540,7 +540,7 @@
 		}
 		{
 			height: 1.25d
-			image: "minecraft:block/nether_bricks"
+			image: "minecraft:block/gilded_blackstone"
 			rotation: 0.0d
 			width: 1.25d
 			x: 3.0d
@@ -548,7 +548,7 @@
 		}
 		{
 			height: 1.25d
-			image: "minecraft:block/nether_bricks"
+			image: "minecraft:block/gilded_blackstone"
 			rotation: 0.0d
 			width: 1.25d
 			x: 2.0d
@@ -556,7 +556,7 @@
 		}
 		{
 			height: 1.25d
-			image: "minecraft:block/nether_bricks"
+			image: "minecraft:block/gilded_blackstone"
 			rotation: 0.0d
 			width: 1.25d
 			x: 1.0d
@@ -564,7 +564,7 @@
 		}
 		{
 			height: 1.25d
-			image: "minecraft:block/nether_bricks"
+			image: "minecraft:block/gilded_blackstone"
 			rotation: 0.0d
 			width: 1.25d
 			x: 2.0d
@@ -668,8 +668,8 @@
 		}
 		{
 			height: 0.75d
-			image: "minecraft:item/dragon_breath"
-			rotation: 0.0d
+			image: "kubejs:item/end_key"
+			rotation: 45.0d
 			width: 0.75d
 			x: 13.0d
 			y: -2.0d
@@ -783,8 +783,8 @@
 		}
 		{
 			height: 0.75d
-			image: "minecraft:item/flint_and_steel"
-			rotation: 0.0d
+			image: "kubejs:item/nether_key"
+			rotation: 45.0d
 			width: 0.75d
 			x: 0.0d
 			y: -2.0d
@@ -896,14 +896,6 @@
 			width: 1.25d
 			x: -5.5d
 			y: -7.5d
-		}
-		{
-			height: 0.75d
-			image: "immersiveengineering:item/tool_hammer"
-			rotation: 0.0d
-			width: 0.75d
-			x: -5.5d
-			y: -8.5d
 		}
 		{
 			height: 1.25d
@@ -1150,14 +1142,6 @@
 			y: -7.5d
 		}
 		{
-			height: 0.75d
-			image: "minecraft:item/nether_star"
-			rotation: 0.0d
-			width: 0.75d
-			x: 0.0d
-			y: -8.5d
-		}
-		{
 			height: 1.25d
 			image: "minecraft:block/end_stone_bricks"
 			order: 100
@@ -1345,14 +1329,6 @@
 			width: 1.25d
 			x: 9.5d
 			y: -6.5d
-		}
-		{
-			height: 0.75d
-			image: "minecraft:item/shulker_shell"
-			rotation: 0.0d
-			width: 0.75d
-			x: 6.5d
-			y: -8.5d
 		}
 		{
 			height: 1.0d
@@ -1551,10 +1527,34 @@
 		}
 		{
 			height: 0.75d
-			image: "ae2:item/fluix_pearl"
-			rotation: 0.0d
+			image: "kubejs:item/void_key"
+			rotation: 45.0d
 			width: 0.75d
 			x: 13.0d
+			y: -8.5d
+		}
+		{
+			height: 0.75d
+			image: "kubejs:item/mining_key"
+			rotation: 45.0d
+			width: 0.75d
+			x: -5.5d
+			y: -8.5d
+		}
+		{
+			height: 0.75d
+			image: "kubejs:item/nether_mining_key"
+			rotation: 45.0d
+			width: 0.75d
+			x: 0.0d
+			y: -8.5d
+		}
+		{
+			height: 0.75d
+			image: "kubejs:item/end_mining_key"
+			rotation: 45.0d
+			width: 0.75d
+			x: 6.5d
 			y: -8.5d
 		}
 	]
@@ -1570,7 +1570,7 @@
 			id: "6E4694CED304A109"
 			linked_quest: "75D693CEC7D6685A"
 			x: 2.0d
-			y: 0.5d
+			y: 0.0d
 		}
 		{
 			id: "3108C74EA1A67305"
@@ -1631,6 +1631,12 @@
 			linked_quest: "4EDEFDEDD7BD7145"
 			x: 15.0d
 			y: -6.5d
+		}
+		{
+			id: "5C62038A07085251"
+			linked_quest: "510ABFA37AE208DF"
+			x: 2.0d
+			y: 1.0d
 		}
 	]
 	quests: [ ]
