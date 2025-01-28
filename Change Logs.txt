@@ -1,3 +1,18 @@
+||Beta 0.7.0||
+
+// Quest Changes //
+-Removed Tier 0 group and moved 2 chapters outside
+-Emergency pizza changed to once every 10 minutes
+
+// Config Changes //
+-Disabled automatic replant for Tree Harvester mod
+-Limited Chunk Loaders to 50 chunks and inactivity of 48 Hours
+
+// Script Changes //
+-Enabled modded village trades
+-Starter gear changed to stone and leather
+-Flint and Steel removed from loot tables
+
 ||Beta 0.6.1||
 
 Fixed Issue with Mods not exporting correctly!

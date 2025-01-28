@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "dimensional_travel"
-	group: "71B685F96CCAC47A"
+	group: ""
 	icon: "minecraft:recovery_compass"
 	id: "28DA7A38FC807045"
 	images: [
