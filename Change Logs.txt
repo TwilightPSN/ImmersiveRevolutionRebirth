@@ -2,11 +2,17 @@
 
 // Mods Added //
 -No Nether Portal
+-Skay's Overworld Quartz
+-Skay's Overworld Netherite Ore
+-Basic Nether Ores
+-Basic End Ores
+-Alex's Mobs
 
 // Mods Updated //
 -FTB Quests
 -InsaneLib
 -Create Stuff & Additions
+-FTB Library
 
 // Mods Removed //
 -Restricted Portals (No Longer Needed with Portal Keys)
@@ -22,12 +28,17 @@
 -Limited Chunk Loaders to 50 chunks and inactivity of 48 Hours
 -Custom portal generated for nether
 -Portals now require special keys
+-Reset JAMD configs to regenerate all ores and removed Silent's Ores
+-FTB Ultimine increased to 64 blocks
+-Warmup times removed from FTB Essentials
 
 // Script Changes //
 -Enabled modded village trades
 -Starter gear changed to stone and leather
 -Flint and Steel removed from loot tables
 -Created custom portal activators
+-Datapacks for BNO and BEO
+-Unbreakable removed from all items except Warp Stone and Silent Gear
 
 // Recipe Changes //
 -Removed Create Rolling recipes for ingot to plates
