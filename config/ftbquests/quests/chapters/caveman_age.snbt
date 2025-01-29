@@ -37,7 +37,7 @@
 							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:logs)"
 						}
 					}
-					title: "Any Wooden Log"
+					title: "Logs"
 					type: "item"
 				}
 				{
@@ -49,7 +49,7 @@
 							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:cobblestone)"
 						}
 					}
-					title: "Any #forge:cobblestone"
+					title: "Cobblestone"
 					type: "item"
 				}
 			]

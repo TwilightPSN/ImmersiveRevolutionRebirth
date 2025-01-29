@@ -94,7 +94,7 @@
 		}
 		{
 			height: 1.25d
-			image: "minecraft:block/nether_bricks"
+			image: "minecraft:block/sculk"
 			order: 100
 			rotation: 0.0d
 			width: 1.25d
@@ -103,7 +103,7 @@
 		}
 		{
 			height: 1.25d
-			image: "minecraft:block/nether_bricks"
+			image: "minecraft:block/sculk"
 			order: 100
 			rotation: 0.0d
 			width: 1.25d
@@ -112,7 +112,7 @@
 		}
 		{
 			height: 1.25d
-			image: "minecraft:block/nether_bricks"
+			image: "minecraft:block/sculk"
 			order: 100
 			rotation: 0.0d
 			width: 1.25d
@@ -121,7 +121,7 @@
 		}
 		{
 			height: 1.25d
-			image: "minecraft:block/nether_bricks"
+			image: "minecraft:block/sculk"
 			order: 102
 			rotation: 0.0d
 			width: 1.25d
@@ -130,7 +130,7 @@
 		}
 		{
 			height: 1.25d
-			image: "minecraft:block/nether_bricks"
+			image: "minecraft:block/sculk"
 			order: 101
 			rotation: 0.0d
 			width: 1.25d
@@ -139,7 +139,7 @@
 		}
 		{
 			height: 1.25d
-			image: "minecraft:block/nether_bricks"
+			image: "minecraft:block/sculk"
 			order: 100
 			rotation: 0.0d
 			width: 1.25d
@@ -148,7 +148,7 @@
 		}
 		{
 			height: 1.25d
-			image: "minecraft:block/nether_bricks"
+			image: "minecraft:block/sculk"
 			order: 100
 			rotation: 0.0d
 			width: 1.25d
@@ -157,7 +157,7 @@
 		}
 		{
 			height: 1.25d
-			image: "minecraft:block/nether_bricks"
+			image: "minecraft:block/sculk"
 			order: 100
 			rotation: 0.0d
 			width: 1.25d
@@ -166,7 +166,7 @@
 		}
 		{
 			height: 1.25d
-			image: "minecraft:block/nether_bricks"
+			image: "minecraft:block/sculk"
 			order: 100
 			rotation: 0.0d
 			width: 1.25d
@@ -175,7 +175,7 @@
 		}
 		{
 			height: 1.25d
-			image: "minecraft:block/nether_bricks"
+			image: "minecraft:block/sculk"
 			order: 100
 			rotation: 0.0d
 			width: 1.25d
@@ -184,7 +184,7 @@
 		}
 		{
 			height: 1.25d
-			image: "minecraft:block/nether_bricks"
+			image: "minecraft:block/sculk"
 			order: 100
 			rotation: 0.0d
 			width: 1.25d
@@ -193,7 +193,7 @@
 		}
 		{
 			height: 1.25d
-			image: "minecraft:block/nether_bricks"
+			image: "minecraft:block/sculk"
 			order: 100
 			rotation: 0.0d
 			width: 1.25d
@@ -231,7 +231,7 @@
 			rotation: 0.0d
 			width: 0.5d
 			x: 1.0d
-			y: -2.0d
+			y: -1.0d
 		}
 		{
 			height: 0.5d
@@ -240,7 +240,7 @@
 			rotation: 0.0d
 			width: 0.5d
 			x: 3.0d
-			y: -2.0d
+			y: -1.0d
 		}
 		{
 			height: 1.25d
@@ -523,7 +523,7 @@
 		}
 		{
 			height: 1.25d
-			image: "minecraft:block/gilded_blackstone"
+			image: "minecraft:block/nether_bricks"
 			order: 25
 			rotation: 0.0d
 			width: 1.25d
@@ -532,7 +532,7 @@
 		}
 		{
 			height: 1.25d
-			image: "minecraft:block/gilded_blackstone"
+			image: "minecraft:block/nether_bricks"
 			rotation: 0.0d
 			width: 1.25d
 			x: 3.0d
@@ -540,7 +540,7 @@
 		}
 		{
 			height: 1.25d
-			image: "minecraft:block/gilded_blackstone"
+			image: "minecraft:block/cracked_nether_bricks"
 			rotation: 0.0d
 			width: 1.25d
 			x: 3.0d
@@ -548,7 +548,7 @@
 		}
 		{
 			height: 1.25d
-			image: "minecraft:block/gilded_blackstone"
+			image: "minecraft:block/nether_bricks"
 			rotation: 0.0d
 			width: 1.25d
 			x: 2.0d
@@ -556,7 +556,7 @@
 		}
 		{
 			height: 1.25d
-			image: "minecraft:block/gilded_blackstone"
+			image: "minecraft:block/nether_bricks"
 			rotation: 0.0d
 			width: 1.25d
 			x: 1.0d
@@ -564,7 +564,7 @@
 		}
 		{
 			height: 1.25d
-			image: "minecraft:block/gilded_blackstone"
+			image: "minecraft:block/cracked_nether_bricks"
 			rotation: 0.0d
 			width: 1.25d
 			x: 2.0d

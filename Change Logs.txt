@@ -6,6 +6,10 @@
 // Mods Updated //
 -FTB Quests
 -InsaneLib
+-Create Stuff & Additions
+
+// Mods Removed //
+-Restricted Portals (No Longer Needed with Portal Keys)
 
 // Quest Changes //
 -Removed Tier 0 group and moved 2 chapters outside
@@ -18,13 +22,17 @@
 -Limited Chunk Loaders to 50 chunks and inactivity of 48 Hours
 -Custom portal generated for nether
 -Portals now require special keys
--Restricted portals updated to lock behind the keys
 
 // Script Changes //
 -Enabled modded village trades
 -Starter gear changed to stone and leather
 -Flint and Steel removed from loot tables
 -Created custom portal activators
+
+// Recipe Changes //
+-Removed Create Rolling recipes for ingot to plates
+-Removed duplicate Cinder Flour Recipe
+-Removed Agricraft Amethyst recipe
 
 ||Beta 0.6.1||
 

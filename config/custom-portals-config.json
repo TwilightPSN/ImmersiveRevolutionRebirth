@@ -13,7 +13,7 @@
     },
     {
       "isFlat": false,
-      "frameBlock": "minecraft:nether_bricks",
+      "frameBlock": "minecraft:sculk",
       "isFluidIgniter": false,
       "itemIgniter": "kubejs:nether_key",
       "dimension": "minecraft:the_nether",
