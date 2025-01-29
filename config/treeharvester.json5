@@ -14,7 +14,7 @@
 	// If enabled, trees with leaves placed by players won't be destroyed.
 	"ignorePlayerMadeTrees": true,
 	// If enabled, automatically replaces the sapling from the drops when a tree is harvested.
-	"replaceSaplingOnTreeHarvest": true,
+	"replaceSaplingOnTreeHarvest": false,
 	// If enabled, automatically replaces the sapling from the drops when a huge mushroom is harvested and 'enableHugeMushrooms' is enabled.
 	"replaceMushroomOnMushroomHarvest": true,
 	// If enabled, for every log harvested, the axe held loses durability.

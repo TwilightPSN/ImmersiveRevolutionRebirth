@@ -43,13 +43,14 @@
 		{
 			id: "55A9C1527EB470F7"
 			linked_quest: "2D69C4A5F91F3CF7"
-			x: 2.0d
-			y: 0.0d
+			x: 1.5d
+			y: 1.0d
 		}
 	]
 	quests: [
 		{
 			dependencies: ["1A7820CA8E752427"]
+			description: ["By taking the Andesite we've mined, it can be combined with minerals to create an alloy to start our kinetic machines. This allow will allow us to begin producing casings."]
 			id: "6F753FCA6748FBF0"
 			require_sequential_tasks: false
 			tasks: [{
@@ -57,11 +58,13 @@
 				item: "create:andesite_alloy"
 				type: "item"
 			}]
+			title: "Combining Minerals"
 			x: -8.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["6F753FCA6748FBF0"]
+			description: ["Taking our Andesite Alloy, we can create the compents for starting our kinetic adventures. We will need an Andesite Casing to create the machines and shafts to connect them to our kinetic motion."]
 			id: "3BEACA2DE7728F3B"
 			require_sequential_tasks: false
 			tasks: [
@@ -76,22 +79,26 @@
 					type: "item"
 				}
 			]
+			title: "Andesite Equipment"
 			x: -7.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["3BEACA2DE7728F3B"]
+			description: ["A Millstone is a starter way to grinding up our materials we gather. We can break them down into a finer substance to potentially gain more from what we have gathered."]
 			id: "492689370B0F4731"
 			tasks: [{
 				id: "030877F13C9C2DF0"
 				item: "create:millstone"
 				type: "item"
 			}]
+			title: "Get Grinding"
 			x: -7.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["3BEACA2DE7728F3B"]
+			description: ["Before we have a machine to start producing the kinetic energy we need, we can use a Hand Crank to get these machines rolling. This will also be used to jump start our later machines if needed."]
 			id: "36851BE0E8C197B9"
 			require_sequential_tasks: false
 			tasks: [
@@ -106,11 +113,13 @@
 					type: "item"
 				}
 			]
+			title: "Hand Grinding"
 			x: -8.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["492689370B0F4731"]
+			description: ["Grinding down our minerals multiple times provides us with a dirt dust we can cook into an ingot. We need to use the fan with water to clear our all the bad particles. The fan also has many other uses such as bulk smelting items when blowing through lava."]
 			id: "499522428D11BBAA"
 			require_sequential_tasks: false
 			tasks: [{
@@ -118,11 +127,13 @@
 				item: "create:encased_fan"
 				type: "item"
 			}]
+			title: "Get Washing"
 			x: -7.5d
 			y: -2.0d
 		}
 		{
 			dependencies: ["3BEACA2DE7728F3B"]
+			description: ["Water wheels are one of our first methods to passive kinetic energy. Some water and a wooden wheel can go a long way."]
 			id: "2380E54A5C3D8DE1"
 			require_sequential_tasks: false
 			tasks: [{
@@ -130,7 +141,8 @@
 				item: "create:water_wheel"
 				type: "item"
 			}]
-			x: -6.5d
+			title: "Water Kinetics"
+			x: -7.5d
 			y: 1.0d
 		}
 		{
@@ -159,6 +171,7 @@
 		}
 		{
 			dependencies: ["3BEACA2DE7728F3B"]
+			description: ["With our systems getting in place, we can begin to work on compressing the ingots we have. The Mechanical Press will stamp our ingots into plates that will be used to further our advancements."]
 			id: "0125871937D41659"
 			require_sequential_tasks: false
 			tasks: [
@@ -173,11 +186,13 @@
 					type: "item"
 				}
 			]
-			x: -5.5d
+			title: "Pressing Metals"
+			x: -6.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["0125871937D41659"]
+			description: ["Being able to easily rotate, disassemble and monitor our machines is crucial. Having a Wrench and Goggles will allow us to disect the machinery and manage everything properly."]
 			id: "67ECCDF67AB9BAB1"
 			require_sequential_tasks: false
 			tasks: [
@@ -192,11 +207,13 @@
 					type: "item"
 				}
 			]
+			title: "Gearing Up"
 			x: -5.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["3BEACA2DE7728F3B"]
+			description: ["When working with wood, our hands can only get so many planks from a log. With a Mechanical Saw, we can optimize the logs we gather and produce even more planks."]
 			id: "0F2E8D7DA23070FC"
 			require_sequential_tasks: false
 			tasks: [{
@@ -204,6 +221,7 @@
 				item: "create:mechanical_saw"
 				type: "item"
 			}]
+			title: "Cutting Time"
 			x: -6.5d
 			y: -2.0d
 		}
@@ -212,6 +230,7 @@
 				"75D693CEC7D6685A"
 				"289E79DDFD2D2544"
 			]
+			description: ["Our roller can be used to compress sand into a fine paper to polish items. This will allow creation of even more advanced equipment."]
 			id: "1F652642467E9A58"
 			require_sequential_tasks: false
 			tasks: [
@@ -224,7 +243,7 @@
 							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(create:sandpaper)"
 						}
 					}
-					title: "Any #create:sandpaper"
+					title: "Sand Paper"
 					type: "item"
 				}
 				{
@@ -233,8 +252,9 @@
 					type: "item"
 				}
 			]
-			x: -3.0d
-			y: 0.0d
+			title: "Get Sanding"
+			x: -4.5d
+			y: 1.0d
 		}
 		{
 			dependencies: [
@@ -248,11 +268,12 @@
 				item: "create:deployer"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 0.0d
+			x: -3.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["0125871937D41659"]
+			description: ["Mechanical Belts allow us to use the kinetic motion to begin to automate our machines. Attached either end to a shaft and the belt will begin to move at the speed the shafts rotate."]
 			id: "34E47BB009AC7D5C"
 			require_sequential_tasks: false
 			tasks: [{
@@ -260,18 +281,21 @@
 				item: "create:belt_connector"
 				type: "item"
 			}]
-			x: -4.5d
+			title: "Belt Systems"
+			x: -5.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["2380E54A5C3D8DE1"]
+			description: ["Larger water wheels can be used to increase the SU that are handled. They move slower but handle more stress."]
 			id: "30D33E535025EAD8"
 			tasks: [{
 				id: "1D7A390E57D5549F"
 				item: "create:large_water_wheel"
 				type: "item"
 			}]
-			x: -6.5d
+			title: "Water Stress"
+			x: -7.5d
 			y: 2.0d
 		}
 		{
@@ -291,31 +315,26 @@
 				to_observe: "immersiveengineering:alloy_smelter"
 				type: "observation"
 			}]
-			x: -1.0d
+			x: -2.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["3BEACA2DE7728F3B"]
+			description: ["Wind can be used as a passive generation source. This requires a complex build involving the strong glue and sails, but can be modified and improved."]
 			id: "27E0AF46F908E6D9"
-			tasks: [{
-				id: "508A6ACCC44FF498"
-				item: "create:windmill_bearing"
-				type: "item"
-			}]
-			x: -7.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["27E0AF46F908E6D9"]
-			id: "357F849466783496"
 			tasks: [
 				{
-					id: "77BDD4341211E182"
+					id: "508A6ACCC44FF498"
+					item: "create:windmill_bearing"
+					type: "item"
+				}
+				{
+					id: "260517822A597F4E"
 					item: "create:white_sail"
 					type: "item"
 				}
 				{
-					id: "001684BCD76FAF3B"
+					id: "7509A0906441D288"
 					item: {
 						Count: 1
 						id: "create:super_glue"
@@ -326,33 +345,39 @@
 					type: "item"
 				}
 			]
+			title: "Wind Power"
 			x: -8.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["0125871937D41659"]
+			description: ["With all of the systems we have going, fluid will be something we acquire in abundance. Fluid tanks will help store these. Fluid tanks are also utilized in steam engines for more rotational force."]
 			id: "4492B51A9C727D78"
 			tasks: [{
 				id: "39B4DE436D44D22B"
 				item: "create:fluid_tank"
 				type: "item"
 			}]
-			x: -5.5d
+			title: "Fluid Storage"
+			x: -6.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["4492B51A9C727D78"]
+			description: ["By connecting a Steam Engine to our fluid tanks, we can start to generate energy from steam power. This does, however, mean we need to heat this water in some way."]
 			id: "49A2F592D12DC5A5"
 			tasks: [{
 				id: "6EC59B566C9FC00B"
 				item: "create:steam_engine"
 				type: "item"
 			}]
-			x: -5.5d
+			title: "Steam Ahoy!"
+			x: -6.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["49A2F592D12DC5A5"]
+			description: ["In order to move our fluids around, we need pipes and pumps. pumps will pull or push the fluids into the connected pipes."]
 			id: "4D0E448D7C9C75F4"
 			tasks: [
 				{
@@ -366,44 +391,46 @@
 					type: "item"
 				}
 			]
+			title: "Fluid Motion"
 			x: -5.5d
-			y: 3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["36851BE0E8C197B9"]
+			description: ["For some machines, our tiny Cogwheel just won't cut it. Creating a larger cogwheel will allow handling of faster kinetic motion."]
 			id: "2CAAA679089FD1CF"
 			tasks: [{
 				id: "00C734E1FEA7CB99"
 				item: "create:large_cogwheel"
 				type: "item"
 			}]
+			title: "Larger Rotation"
 			x: -8.5d
 			y: -2.0d
 		}
 		{
 			dependencies: ["0125871937D41659"]
+			description: ["The Mechanical Mixer gets us entered into a new world of resource generation. We can begin to create new materials and liquids within the basin below."]
 			id: "660794159EA5572C"
-			tasks: [{
-				id: "2AE1E260C38DE5AC"
-				item: "create:mechanical_mixer"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2AE1E260C38DE5AC"
+					item: "create:mechanical_mixer"
+					type: "item"
+				}
+				{
+					id: "711B4101C6C46F00"
+					item: "create:basin"
+					type: "item"
+				}
+			]
+			title: "Mix It Up"
 			x: -4.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["660794159EA5572C"]
-			id: "59BFD6155D218C12"
-			tasks: [{
-				id: "5253F24261F0CBF6"
-				item: "create:basin"
-				type: "item"
-			}]
-			x: -2.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["59BFD6155D218C12"]
+			description: ["Creosote allows us to make our planks and materials into a sturdier version. We will need a surplus of this to begin moving forward into our multi-block machinery."]
 			id: "165BA06960C5C2AB"
 			shape: "gear"
 			size: 1.0d
@@ -412,7 +439,8 @@
 				item: "immersiveengineering:creosote_bucket"
 				type: "item"
 			}]
-			x: -1.0d
+			title: "Log Water"
+			x: -3.5d
 			y: -2.0d
 		}
 		{
@@ -423,8 +451,8 @@
 				item: "create:spout"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -3.0d
+			x: -2.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["3DF334D3DF981D3D"]
@@ -434,33 +462,38 @@
 				item: "create:brass_ingot"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -1.5d
 			y: 1.0d
 		}
 		{
-			dependencies: ["59BFD6155D218C12"]
+			dependencies: ["660794159EA5572C"]
+			description: ["Getting brass is rough to start with. We will need to use more resources and will only generate a single nugget. This will improve as we get further technology."]
 			id: "7775FADFB311BFD9"
 			tasks: [{
 				id: "7CD1328C854E8072"
 				item: "create:brass_nugget"
 				type: "item"
 			}]
-			x: -1.0d
+			title: "Crude Brass"
+			x: -4.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["59BFD6155D218C12"]
+			dependencies: ["660794159EA5572C"]
+			description: ["Steel is such a powerful resource in the production of machines. We will use this in almost every piece of equipment we develop. We must produce nuggets to start and get rolling but will begin to make ingots and use less resources later on."]
 			id: "0B5E7A2FDA4CA4FB"
 			tasks: [{
 				id: "4F532A7CBC005080"
 				item: "mekanism:nugget_steel"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -2.0d
+			title: "Crude Steel"
+			x: -3.5d
+			y: -1.0d
 		}
 		{
-			dependencies: ["0B5E7A2FDA4CA4FB"]
+			dependencies: ["510ABFA37AE208DF"]
+			description: ["With our Nether portal built and activated with the key, we gain access to The Nether. We can gather a whole new slew of resources and mob drops within this dimension."]
 			hide_dependent_lines: true
 			id: "75D693CEC7D6685A"
 			tasks: [{
@@ -468,30 +501,22 @@
 				id: "37FA7387698C1FD0"
 				type: "dimension"
 			}]
-			x: -3.0d
-			y: -2.0d
+			title: "The Nether"
+			x: -3.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0125871937D41659"]
+			description: ["A Mechanical Roller will allow us to take our plates and convert them into rods. These rods will be used to produce more machines."]
 			id: "289E79DDFD2D2544"
 			tasks: [{
 				id: "0A7F9DD9B3B82BF9"
 				item: "createaddition:rolling_mill"
 				type: "item"
 			}]
-			x: -4.0d
+			title: "Keep it Rolling"
+			x: -5.5d
 			y: 0.0d
-		}
-		{
-			dependencies: ["59BFD6155D218C12"]
-			id: "03DABB1116552D1A"
-			tasks: [{
-				id: "52844B34C6562701"
-				item: "create:chute"
-				type: "item"
-			}]
-			x: -1.0d
-			y: -1.0d
 		}
 		{
 			dependencies: ["252BCFE557632122"]
@@ -501,7 +526,7 @@
 				item: "create:mechanical_crafter"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -0.5d
 			y: 0.0d
 		}
 		{
@@ -512,8 +537,8 @@
 				item: "create:crushing_wheel"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -1.0d
+			x: 0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["27F37B9E48984AD7"]
@@ -523,8 +548,8 @@
 				item: "create:empty_blaze_burner"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 0.0d
+			x: 0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["5ABFAA79C02431C7"]
@@ -534,11 +559,12 @@
 				item: "immersiveengineering:dust_coke"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -1.0d
+			x: 1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["75D693CEC7D6685A"]
+			description: ["Within the Nether, we will find Soul Sand and Wither Skeletons. We will need to gather a surplus of these items to summon The Wither and collect many Nether Stars."]
 			id: "1201B29D3A11C204"
 			tasks: [
 				{
@@ -554,11 +580,13 @@
 					type: "item"
 				}
 			]
-			x: -4.0d
-			y: -2.0d
+			title: "The Wither"
+			x: -2.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1201B29D3A11C204"]
+			description: ["With Nether Quartz in hand and access to a Nether Star, we can create a key to access the Nether Mining Dimmension. This will allow us to strip mine more effectively for materials we may need."]
 			id: "66440D61AD3ECFBC"
 			tasks: [
 				{
@@ -569,13 +597,13 @@
 				}
 				{
 					id: "2A8E87CF26F90EF1"
-					item: "minecraft:nether_star"
+					item: "kubejs:nether_mining_key"
 					type: "item"
 				}
 			]
-			title: "Nether Mining Dim"
-			x: -5.0d
-			y: -2.0d
+			title: "Nether Mining Portal"
+			x: -1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["27F37B9E48984AD7"]
@@ -585,7 +613,7 @@
 				item: "createaddition:alternator"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -0.5d
 			y: -1.0d
 		}
 		{
@@ -596,8 +624,8 @@
 				item: "createaddition:tesla_coil"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -3.0d
+			x: -0.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["7238E258FDDBD561"]
@@ -614,8 +642,8 @@
 				title: "Any #forge:gems/certus_quartz"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -5.0d
+			x: 0.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["64F5495E1A5DFC9A"]
@@ -625,8 +653,8 @@
 				item: "ae2:meteorite_compass"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -4.0d
+			x: 0.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["776398BD6BADD04E"]
@@ -637,8 +665,8 @@
 				item: { Count: 4, id: "createaddition:modular_accumulator" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: -3.0d
+			x: 0.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["776398BD6BADD04E"]
@@ -648,8 +676,8 @@
 				item: "createaddition:electric_motor"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -2.0d
+			x: 0.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["11BCD612FAD8E339"]
@@ -664,8 +692,8 @@
 				match_nbt: false
 				type: "item"
 			}]
-			x: -2.0d
-			y: -3.0d
+			x: -1.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["3CB496E8E1B8ABF2"]
@@ -680,7 +708,7 @@
 				match_nbt: false
 				type: "item"
 			}]
-			x: -3.0d
+			x: -1.5d
 			y: -3.0d
 		}
 		{
@@ -691,19 +719,46 @@
 				item: "quarryplus:workbench"
 				type: "item"
 			}]
-			x: 1.0d
+			x: -0.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["66440D61AD3ECFBC"]
+			description: ["With our portal built and key utilized, we now have access to an endless dimension of Nether resources without the fear of lava or mobs."]
 			id: "0877B7E49CB54FD3"
 			tasks: [{
 				dimension: "jamd:nether"
 				id: "7D10A073373461E4"
 				type: "dimension"
 			}]
-			x: -5.0d
-			y: -3.0d
+			title: "Nether Mining Dimension"
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0B5E7A2FDA4CA4FB"]
+			description: [
+				"With access to Steel, we can gain access to The Nether. We can craft a Nether Key and gather some Sculk from underground to build a portal to The Nether."
+				""
+				"&oStandard Nether Portals are DISABLED&r"
+			]
+			id: "510ABFA37AE208DF"
+			tasks: [
+				{
+					count: 10L
+					id: "7D1B4AD869CF0A36"
+					item: "minecraft:sculk"
+					type: "item"
+				}
+				{
+					id: "7D787915F887A349"
+					item: "kubejs:nether_key"
+					type: "item"
+				}
+			]
+			title: "Nether Portal"
+			x: -2.5d
+			y: -1.0d
 		}
 	]
 	title: "Create"

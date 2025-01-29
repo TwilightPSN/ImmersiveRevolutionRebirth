@@ -1,6 +1,5 @@
 {
 	chapter_groups: [
-		{ id: "71B685F96CCAC47A", title: "Tier 0: Caveman" }
 		{ id: "773EE9D912C508CA", title: "Tier 1: Kinetics" }
 		{ id: "556104C289391CD6", title: "Tier 2: Multiblocks" }
 		{ id: "24DDA86A89505444", title: "Tier 3: Robotics" }

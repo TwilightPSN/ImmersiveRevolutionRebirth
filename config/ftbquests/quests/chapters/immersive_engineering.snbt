@@ -252,7 +252,7 @@
 			tasks: [
 				{
 					id: "33FB53A03F1A82E7"
-					item: "minecraft:dragon_breath"
+					item: "kubejs:end_key"
 					type: "item"
 				}
 				{
@@ -272,7 +272,7 @@
 			tasks: [
 				{
 					id: "1A1BDE791A0C2189"
-					item: "minecraft:shulker_shell"
+					item: "kubejs:end_mining_key"
 					type: "item"
 				}
 				{
@@ -357,13 +357,7 @@
 				}
 				{
 					id: "4CDA58F3A6E0C3C8"
-					item: {
-						Count: 1
-						id: "immersiveengineering:hammer"
-						tag: {
-							Damage: 0
-						}
-					}
+					item: "kubejs:mining_key"
 					type: "item"
 				}
 			]

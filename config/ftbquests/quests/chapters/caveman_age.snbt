@@ -2,14 +2,14 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "caveman_age"
-	group: "71B685F96CCAC47A"
+	group: ""
 	icon: "sophisticatedbackpacks:backpack"
 	id: "3CB134302D896226"
 	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
-			description: [""]
+			description: ["Welcome to The Immersive Revolution: Rebirth. We begin our adventure in a world unknown. Looking around all seems familiar and we must use our knowledge to progress ever forward into automation."]
 			id: "599030C9DB9B1E08"
 			size: 1.0d
 			tasks: [{
@@ -17,12 +17,13 @@
 				id: "495696F88D8C4A53"
 				type: "dimension"
 			}]
+			title: "Welcome to your Revolution"
 			x: -7.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["599030C9DB9B1E08"]
-			description: [""]
+			description: ["As with any adventure, we begin with needing some basic resources. We need to gather some wood from the world around us and begin to dig deeper into the worlds core."]
 			icon: "minecraft:oak_log"
 			id: "150B3A6B61937F78"
 			require_sequential_tasks: false
@@ -36,7 +37,7 @@
 							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:logs)"
 						}
 					}
-					title: "Any Wooden Log"
+					title: "Logs"
 					type: "item"
 				}
 				{
@@ -48,16 +49,17 @@
 							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:cobblestone)"
 						}
 					}
-					title: "Any #forge:cobblestone"
+					title: "Cobblestone"
 					type: "item"
 				}
 			]
+			title: "The Basics"
 			x: -6.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["150B3A6B61937F78"]
-			description: [""]
+			description: ["We begin needing a Furnace and a Crafting Station. These devices allow us to being making the tools we need and process the resources we have gathered."]
 			id: "35008BA8C5E8AD5B"
 			require_sequential_tasks: false
 			tasks: [
@@ -72,12 +74,13 @@
 					type: "item"
 				}
 			]
+			title: "Crafting Starts"
 			x: -5.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["35008BA8C5E8AD5B"]
-			description: [""]
+			description: ["Chests are the heart of our operations. They house all of our plunders as we come home from adventures. We only have so much space in our pockets and the resources we need are endless."]
 			id: "5EB800B895DDCBFB"
 			require_sequential_tasks: false
 			tasks: [{
@@ -86,12 +89,13 @@
 				title: "Any Chest"
 				type: "item"
 			}]
+			title: "Getting Organized"
 			x: -4.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["5EB800B895DDCBFB"]
-			description: [""]
+			description: ["Once we have access to Redstone, we can get sophisticated with our storage. Taking our standard chests and expanding them further allows us to store more in a single space."]
 			icon: {
 				Count: 1
 				id: "sophisticatedstorage:chest"
@@ -114,12 +118,13 @@
 				title: "Any Basic Sophisiticated Storage"
 				type: "item"
 			}]
+			title: "Getting Sophisticated"
 			x: -4.0d
 			y: -4.5d
 		}
 		{
 			dependencies: ["5EB800B895DDCBFB"]
-			description: [""]
+			description: ["Having a backpack is almost necessary when we are out adventuring. We can only hold so much in our pockets and need more space. A backpack will allow you to store even more materials."]
 			id: "626D8B47A8BE8566"
 			require_sequential_tasks: false
 			tasks: [{
@@ -129,12 +134,13 @@
 				title: "Any Color Backpack"
 				type: "item"
 			}]
+			title: "Backpacking"
 			x: -3.0d
 			y: -4.5d
 		}
 		{
 			dependencies: ["24DB690822140D7E"]
-			description: [""]
+			description: ["The Storage Controller allows us to link all of our storage chests together in one block. This comes in handy for quickly putting away loot from our adventures. This also comes in handy when we have a starter storage system."]
 			id: "631AFA5E8CC2810D"
 			require_sequential_tasks: false
 			tasks: [{
@@ -142,12 +148,13 @@
 				item: "sophisticatedstorage:controller"
 				type: "item"
 			}]
+			title: "Linking Storage"
 			x: -4.0d
 			y: -5.5d
 		}
 		{
 			dependencies: ["631AFA5E8CC2810D"]
-			description: [""]
+			description: ["In order to link all of our chests to the controller, we are going to need a Storage Tool. This allows connecting the system together."]
 			id: "367827D38EAE8781"
 			require_sequential_tasks: false
 			tasks: [{
@@ -155,12 +162,13 @@
 				item: "sophisticatedstorage:storage_tool"
 				type: "item"
 			}]
+			title: "THE Tool"
 			x: -5.0d
 			y: -5.5d
 		}
 		{
 			dependencies: ["24DB690822140D7E"]
-			description: [""]
+			description: ["Sophisticated Storage chests can be upgraded with the materials we gather. This increases the internal size of the chests allowing a single chest to eventually hold more than double its size."]
 			icon: "sophisticatedstorage:basic_to_diamond_tier_upgrade"
 			id: "4717B8DD6ABFFB74"
 			require_sequential_tasks: false
@@ -176,12 +184,13 @@
 				title: "Any Chest Upgrade"
 				type: "item"
 			}]
+			title: "Make 'em Bigger"
 			x: -5.0d
 			y: -4.5d
 		}
 		{
 			dependencies: ["5EB800B895DDCBFB"]
-			description: [""]
+			description: ["When we are out gathering, we have numerous items we do not need to gather stacks of. This is where the Dank storage comes in to play. This cube, when properly configured, will gather all of the items we do not want an excess of and void the extra. It can even be used to place the block selected inside of it."]
 			id: "71BB6AA60647CE9E"
 			require_sequential_tasks: false
 			tasks: [{
@@ -189,12 +198,13 @@
 				item: "dankstorage:dank_1"
 				type: "item"
 			}]
+			title: "The Magic Cube"
 			x: -5.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["5EB800B895DDCBFB"]
-			description: [""]
+			description: ["To get started with any of our machinery, we need Iron and Copper. A simply mining trip should net all of the resources we need to get rolling on our adventure."]
 			id: "43EA598EC21DA525"
 			require_sequential_tasks: false
 			tasks: [
@@ -209,12 +219,13 @@
 					type: "item"
 				}
 			]
+			title: "Getting Minerals"
 			x: -3.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["43EA598EC21DA525"]
-			description: [""]
+			description: ["With all of the tools we need for our adventures and machines, we need a place to store them. The toolbelt will allow you to keep everything in stow and quickly accesible."]
 			id: "7EC8D3471FB3EEDE"
 			require_sequential_tasks: false
 			tasks: [{
@@ -222,12 +233,13 @@
 				item: "toolbelt:belt"
 				type: "item"
 			}]
+			title: "All the Tools"
 			x: -2.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["43EA598EC21DA525"]
-			description: [""]
+			description: ["Our first venture into technology starts with kinetic energy. This is powered through the Create mod. Andesite is a key resource in getting started with anything kinetic. You can find this while mining or craft it by combining other resources."]
 			id: "1A7820CA8E752427"
 			require_sequential_tasks: false
 			shape: "gear"
@@ -237,11 +249,13 @@
 				item: "minecraft:andesite"
 				type: "item"
 			}]
+			title: "Get Create-ive"
 			x: -2.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["631AFA5E8CC2810D"]
+			description: ["Digging through endless chests to find what you want or where to put something can grow tiresome. Thankfully, we have a simple storage solution. Simple Storage Network is a nice starter system before we get an AE2 system up and running. It will allow you to utilize the Storage Controller and access all your chest inventories in one spot."]
 			id: "232B6B3758CD612E"
 			tasks: [
 				{
@@ -260,11 +274,13 @@
 					type: "item"
 				}
 			]
+			title: "It's Simple"
 			x: -3.0d
 			y: -5.5d
 		}
 		{
 			dependencies: ["232B6B3758CD612E"]
+			description: ["Emptying an entire backpack after and adventure can be alot of work. We have the same issue with wanting to restock for a new mining trip. Import and export cables can allow you to setup a hub or early system to end or start and adventure or automate our early machines."]
 			id: "44FB0F9E709186CA"
 			tasks: [
 				{
@@ -278,11 +294,13 @@
 					type: "item"
 				}
 			]
+			title: "Early Moving"
 			x: -2.0d
 			y: -5.5d
 		}
 		{
 			dependencies: ["43EA598EC21DA525"]
+			description: ["Running around and picking up every item can be a chore. Getting a magnet will allow you to pull all these items to you so you aren't chasing around that random piece of dirt. Or, you know, praying you don't drop that ore you just mined down the cavern."]
 			id: "063F26267EC1C500"
 			tasks: [{
 				id: "6448EF40172C593D"
@@ -293,11 +311,13 @@
 				}
 				type: "item"
 			}]
+			title: "Magnetize"
 			x: -4.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["599030C9DB9B1E08"]
+			description: ["Getting around the world early on can be a treck without the proper tools. A hang glider will allow you to climb to high locations and just glider yourself down to saftey or to somewhere new."]
 			id: "7A49B7F5D8A4E9E6"
 			tasks: [{
 				id: "6AE7FAFB31083063"
@@ -310,17 +330,20 @@
 				}
 				type: "item"
 			}]
+			title: "Gliding Around"
 			x: -7.0d
 			y: -4.5d
 		}
 		{
 			dependencies: ["599030C9DB9B1E08"]
+			description: ["Being well fed is a crucial part of surviving the wilds of the world. Keeping a diverse diet has many benefits to any adventurer. The cooking table will allow you to keep up with recipes and make anything your heart may desire, that is with what food you have available."]
 			id: "62BE232080B9F262"
 			tasks: [{
 				id: "3FC5E0F2E8B08133"
 				item: "cookingforblockheads:cooking_table"
 				type: "item"
 			}]
+			title: "Cooking Food"
 			x: -8.0d
 			y: -3.5d
 		}
@@ -329,28 +352,37 @@
 				"62BE232080B9F262"
 				"1AAF8C310BB892B1"
 			]
+			description: ["With access to an AE2 system, we can create a digital kitchen station. This will allow us to use the resources within our AE2 network to continue to cook up delicious meals."]
 			id: "256CAD10733A0F26"
 			tasks: [{
 				id: "2AA90669F4539DE1"
 				item: "appliedcooking:kitchen_station"
 				type: "item"
 			}]
+			title: "Digital Cooking"
 			x: -8.0d
 			y: -4.5d
 		}
 		{
 			dependencies: ["599030C9DB9B1E08"]
+			description: ["When you have machines running and need to go out and adventure far away, you want to be able to keep everything running. Using the resources around, you can build a machine that will allow everything to run. Be wary, you can only allow so many things to go at once."]
 			id: "0900A4B5AB566AC8"
 			tasks: [{
 				id: "32502E95BDDD9035"
 				item: "chunkloaders:basic_chunk_loader"
 				type: "item"
 			}]
+			title: "Keep it Running"
 			x: -8.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["599030C9DB9B1E08"]
+			description: [
+				"Getting around the world is a matter of knowing where you are and where you've been. Leaving markers around will allow you to quickly travel to the places you know. A waystone will allow you to quickly move about when you may not be near any of your landmarks."
+				""
+				"/home and /sethome are disabled in this pack by default."
+			]
 			id: "501F2B7F2A872111"
 			tasks: [
 				{
@@ -377,9 +409,10 @@
 					type: "item"
 				}
 			]
+			title: "Fast Travel"
 			x: -7.0d
 			y: -2.5d
 		}
 	]
-	title: "General"
+	title: "Getting Started"
 }
