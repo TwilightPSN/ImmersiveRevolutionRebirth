@@ -32,7 +32,13 @@
 	quests: [
 		{
 			dependencies: ["266CDDD166A086DA"]
-			description: ["In order to get moving with our multi-block structures, we need to get a hammer to assemble the structure together. This requires using plates we produce and stick from treated planks to produce a sturdy hammer."]
+			description: [
+				"As we progress into more advanced technology, we will encounter multi-block structures—large, complex machines that require precise assembly. These structures cannot simply be placed like standard blocks; they must be formed properly using a special Engineer's Hammer."
+				""
+				"This hammer is crafted from metal plates, which we produce using the Mechanical Press, and a sturdy treated wood stick, ensuring durability and resilience. Without it, our multi-block machines will remain incomplete and non-functional."
+				""
+				"Once crafted, the Engineer's Hammer allows us to finalize the construction of powerful machines that will significantly enhance our automation, efficiency, and resource processing. Ensuring we always have one on hand is crucial as we continue to build and expand our technological empire."
+			]
 			id: "5C1E3ACFD2F9C650"
 			tasks: [{
 				id: "1F061A6ED30AE0F9"
@@ -51,7 +57,11 @@
 		}
 		{
 			dependencies: ["165BA06960C5C2AB"]
-			description: ["Treated planks will be used throughout our advancements in technology. We need to ensure we keep them in a steady supply moving forward."]
+			description: [
+				"As we continue advancing in technology, Treated Planks will become a fundamental resource used in crafting machines, structures, and advanced components. They provide durability and strength, making them essential for many mid-to-late-game builds."
+				""
+				"To ensure we never run short, we must establish a steady supply of both Creosote Oil and wood. Automating the production of Creosote Oil through a Coke Oven and setting up a sustainable wood farm will help maintain efficiency. Investing in a spout system to coat planks with Creosote will further streamline production, keeping our supply consistent as we move forward in our technological journey."
+			]
 			id: "266CDDD166A086DA"
 			tasks: [{
 				id: "0E47F7EF09AE37FD"
@@ -89,7 +99,11 @@
 		}
 		{
 			dependencies: ["2D69C4A5F91F3CF7"]
-			description: ["Now that we are getting rolling with our multi-block structures, steel will become heavily needed. Creating a Blast Furnace will allow us to produce steel in a more efficient manner than before."]
+			description: [
+				"As your technological journey progresses, steel becomes essential for more advanced machinery and multi-block structures. To streamline this process, you can build a Blast Furnace."
+				""
+				"This powerful multi-block structure will allow you to produce steel much more efficiently than previous methods. With a steady supply of steel, you'll be ready to take on more complex advancements and build the machines that will propel your adventure forward."
+			]
 			icon: "immersiveengineering:blast_furnace"
 			id: "38DE58C8666609EC"
 			tasks: [{
@@ -106,7 +120,11 @@
 		}
 		{
 			dependencies: ["38DE58C8666609EC"]
-			description: ["With access to more steel and steel plates, we can improved our Blast Furnace to a more powerful machine. This machine can be automated with more efficiency."]
+			description: [
+				"With an ample supply of steel and steel plates, you can take your Blast Furnace to the next level. Upgrading it enhances its power and efficiency, allowing it to produce steel at a much faster rate."
+				""
+				"This upgraded furnace can also be automated, reducing the need for manual input and enabling continuous steel production. With this more powerful and efficient machine, you’ll be able to keep up with the increasing demands of your technological advancements."
+			]
 			icon: "immersiveengineering:advanced_blast_furnace"
 			id: "023D129314703FD1"
 			tasks: [{
@@ -123,7 +141,11 @@
 		}
 		{
 			dependencies: ["023D129314703FD1"]
-			description: ["With access to an Improved Blast Furnace and electricity, we can apply preheaters to the furnace to increase its heat. This allows us to produce steel even faster than before."]
+			description: [
+				"With an upgraded Improved Blast Furnace and access to electricity, you can take steel production to new heights by adding preheaters."
+				""
+				"These preheaters increase the furnace's internal temperature, significantly speeding up the steel production process. By harnessing electricity to power the preheaters, you’ll be able to create steel faster and more efficiently, keeping your machines and systems well-supplied with this vital resource."
+			]
 			id: "1A7921559FFAACAA"
 			tasks: [{
 				count: 2L
@@ -137,7 +159,11 @@
 		}
 		{
 			dependencies: ["38DE58C8666609EC"]
-			description: ["Kinetic energy can be used to produce power as well. By constructing a Kinetic Dynamo, we can use a water wheel or windmill to produce power."]
+			description: [
+				"Kinetic energy isn't just for motion—it's also a valuable source of power. By constructing a Kinetic Dynamo, you can convert the rotational energy from a water wheel or windmill into usable power."
+				""
+				"This allows you to generate electricity passively, using natural resources like wind or water. The Kinetic Dynamo is a great way to produce power early on without relying on more complex systems, setting a solid foundation for further advancements."
+			]
 			id: "1274E79019C28F4A"
 			tasks: [{
 				id: "069DC4997CC22589"
@@ -150,7 +176,11 @@
 		}
 		{
 			dependencies: ["38DE58C8666609EC"]
-			description: ["Steel gives us access to a passive source of electricity. Thermo generators produce power base of the heat differential of blocks around it. Water and lava can be used to generate power for small form use."]
+			description: [
+				"Steel grants us access to Thermo Generators, a passive source of electricity. These generators harness the heat differential between blocks, such as water and lava, to produce power. The power generated is ideal for small-scale needs, making it a useful early game solution for basic energy requirements."
+				""
+				"By placing a Thermo Generator near a heat source, like lava, it can efficiently convert the temperature difference into usable energy. This method is ideal for powering simpler machines and systems without requiring the more complex setup of other power sources, making it a reliable, low-maintenance option for early energy needs."
+			]
 			id: "77D17C04DD364CAE"
 			tasks: [{
 				id: "16193146B991AF3D"
@@ -163,7 +193,13 @@
 		}
 		{
 			dependencies: ["266CDDD166A086DA"]
-			description: ["With entering the age of multi-block structures, keeping up with their builds can be a lot of work. The Schematicannon from Create can be provided with the schematic and resources and prepare the multi-blocks."]
+			description: [
+				"As we step into the era of multi-block structures, keeping track of their complex builds can become a daunting task. Manually placing each block in the correct position is both time-consuming and prone to mistakes. Fortunately, Create's Schematicannon provides an efficient solution."
+				""
+				"By supplying the Schematicannon with a schematic of the structure and all the required building materials, it will systematically place each block, assembling multi-block structures with precision and ease. This eliminates the hassle of manually piecing together large machines, allowing us to focus on automation and expansion rather than tedious construction."
+				""
+				"As our technology advances, leveraging tools like the Schematicannon will become essential for efficient large-scale production and expanding our industrial empire."
+			]
 			id: "780D07242DE7E506"
 			tasks: [
 				{
@@ -183,7 +219,11 @@
 		}
 		{
 			dependencies: ["1274E79019C28F4A"]
-			description: ["Water wheels can connect to a Kinetic Dynamo in groups of three. When provided with water sources, the wheels will rotate and provide passive electricity in small increments."]
+			description: [
+				"Water wheels can be connected to a Kinetic Dynamo in groups of up to three. When placed near water sources, the wheels will begin to rotate, generating passive electricity."
+				""
+				"Though each wheel provides only small amounts of power, the combined effect of multiple wheels can generate a steady flow of energy. This setup is an efficient and reliable way to power your machines early in the game while using natural resources to your advantage."
+			]
 			id: "2926E1B744FACF79"
 			tasks: [{
 				id: "6D5AE46CF4E7D8BC"
@@ -196,7 +236,11 @@
 		}
 		{
 			dependencies: ["1274E79019C28F4A"]
-			description: ["Windmills are produced of treated wood and built to be much sturdier. Weather can play into effect for a windmill and improve the power it produces. Be weary, you do not want to have multiple windmills within a close proximity or it will negatively effect one another."]
+			description: [
+				"These windmills are constructed from treated wood and are built to be far sturdier than those from the Create mod. While they still harness wind to generate kinetic energy, their design ensures greater durability and resilience, allowing them to withstand harsher conditions and generate more consistent power."
+				""
+				"However, just like regular windmills, weather can influence their output, with stronger winds resulting in more power. Keep in mind, multiple windmills placed too close together can cause interference, so be mindful of their positioning to optimize efficiency."
+			]
 			id: "68BD97666C35C625"
 			tasks: [{
 				id: "53B5DAA33C56D39D"
@@ -209,7 +253,11 @@
 		}
 		{
 			dependencies: ["68BD97666C35C625"]
-			description: ["To improve the efficieny of our windmill, we can apply windmill sails to it. The sails allow wind to flow more freely and rotate the arms faster."]
+			description: [
+				"To improve the efficiency of your windmill, you can attach windmill sails to it. These sails allow the wind to flow more freely over the windmill, causing the arms to rotate faster and generate more power."
+				""
+				"The increased surface area provided by the sails enhances the windmill's ability to harness energy from the wind, making it a more effective and reliable power source for your systems. The more sails you apply, the more energy your windmill can produce, especially in windy conditions."
+			]
 			id: "6A0DFE1D63712423"
 			tasks: [{
 				count: 8L
@@ -226,7 +274,11 @@
 				"546D8110EC3DA895"
 				"03835B0AAF486B09"
 			]
-			description: ["The Energy Acceptor is our entrance into the digital age. We can use this machine to get a basic ME system up and running and move to a more complex system that will allow us to setup crafting automation."]
+			description: [
+				"The Energy Acceptor is the cornerstone of your transition into the digital era. This machine allows you to channel energy into an ME system, marking the beginning of a more efficient and automated base. With it, you’ll be able to power up your Applied Energistics 2 system and prepare for future advancements like crafting automation and mass storage."
+				""
+				"Setting up an ME system will significantly improve your resource management, enabling you to store and access materials at the push of a button. The Energy Acceptor helps lay the foundation for these systems and opens the door to digital processing and automation."
+			]
 			id: "1AAF8C310BB892B1"
 			shape: "gear"
 			tasks: [{
@@ -240,7 +292,11 @@
 		}
 		{
 			dependencies: ["1274E79019C28F4A"]
-			description: ["Capacitors provide us with a method of storing large quantities of power in a little space. These can be used to have a buffer of power for any machines that may need it."]
+			description: [
+				"Capacitors offer an efficient way to store large amounts of energy in a small, manageable space. They act as power buffers, ensuring your machines have a consistent energy supply even during times of high demand or power fluctuations."
+				""
+				"These devices are perfect for situations where you need to store energy for future use or when dealing with machines that require quick bursts of power. By integrating capacitors into your setup, you can improve the reliability and efficiency of your power systems, keeping everything running smoothly."
+			]
 			id: "07283140B11FB4CC"
 			tasks: [{
 				id: "25D9E8A7DBDFAFC5"
@@ -253,7 +309,11 @@
 		}
 		{
 			dependencies: ["3DF334D3DF981D3D"]
-			description: ["With all of the structures and discoveries that exist in the world, it is hard to keep up with them all. Thankfully there is a compass that can be used to help us find our way. The Explorer's Compass allows you to select a structure and help guide you towards its location."]
+			description: [
+				"With countless structures and hidden locations scattered throughout the world, keeping track of them all can be overwhelming. Fortunately, the Explorer’s Compass provides a reliable way to navigate and discover these points of interest."
+				""
+				"By using the Explorer’s Compass, you can select a specific structure, and it will guide you towards its location. Whether you're searching for ancient ruins, dungeons, or valuable landmarks, this tool ensures that no discovery goes unnoticed. It’s an essential companion for any adventurer looking to uncover the world’s secrets with precision and ease."
+			]
 			id: "4E1CAFE752AE48F3"
 			tasks: [{
 				id: "3A7CFDEF9161CFE4"
@@ -270,7 +330,13 @@
 		}
 		{
 			dependencies: ["4E1CAFE752AE48F3"]
-			description: ["With our compass in hand, we can easilt find our way to The End. We need to prepare for a fight with the Ender Dragon before we enter the portal. Ensure to bring enough Eyes of Ender to complete the portal. You may also want some glass bottles to gather the dragon's breath."]
+			description: [
+				"With the Explorer’s Compass in hand, locating the stronghold and finding The End portal becomes much easier. However, before stepping through, preparation is key."
+				""
+				"The Ender Dragon awaits on the other side, ready to defend its realm. Be sure to bring plenty of Eyes of Ender to activate the portal, along with weapons, armor, and supplies for the battle ahead. Glass bottles are also useful for collecting Dragon’s Breath, a crucial ingredient for advanced brewing."
+				""
+				"Once you’re fully equipped, it’s time to step into The End and face one of the more challenging foes of your adventure."
+			]
 			id: "60C64ED98B3DA5FE"
 			tasks: [{
 				dimension: "minecraft:the_end"
@@ -283,8 +349,11 @@
 		}
 		{
 			dependencies: ["60C64ED98B3DA5FE"]
-			description: ["Gathering breath from the dragon and some End Stone allows us to build a special key. This key can be used to open an End Portal back at our base for easy access to The End without the travel."]
-			hide_dependency_lines: true
+			description: [
+				"Defeating the Ender Dragon isn’t just about victory—it’s also about securing valuable resources. By collecting Dragon’s Breath and mining some End Stone, you can craft a special key that allows you to open an End Portal right at your base."
+				""
+				"This permanent gateway removes the need for long journeys to a stronghold, making travel to The End effortless. With easy access, farming Shulkers, Elytra, and other End resources becomes much more convenient."
+			]
 			id: "73F11332415E1484"
 			tasks: [
 				{
@@ -305,8 +374,11 @@
 		}
 		{
 			dependencies: ["60C64ED98B3DA5FE"]
-			description: ["By venturing to an End City and gathering shells from the Shulker, we can create another key to access the mining dimension of The End. This is a safer way to gather the materials we need from The End."]
-			hide_dependency_lines: true
+			description: [
+				"By exploring an End City and collecting Shulker Shells from the Shulkers, you can craft a special key to access the End Mining Dimension."
+				""
+				"This dimension offers a safer way to gather valuable End materials, like End Stone and other resources, without the threat of Endermen or navigating the dangerous void. It provides a controlled environment for efficient mining and resource collection."
+			]
 			id: "6601CE0A294C091A"
 			tasks: [
 				{
@@ -327,7 +399,11 @@
 		}
 		{
 			dependencies: ["6601CE0A294C091A"]
-			description: ["While this dimension does provide us with valuable resources, many cannot be used just yet. This doesn't mean we shouldn't gather then yet. The End Mining dimensions provides access to precious Draconic resources that we will be using later in our technological journey."]
+			description: [
+				"While the End Mining Dimension offers valuable resources, many of them may not have immediate use. However, it's still crucial to gather them."
+				""
+				"This dimension is home to precious Draconic resources, which will play a vital role in advancing your technological journey. These materials may be needed later for crafting powerful tools, machines, and energy systems, so stockpiling them now will set you up for success down the road."
+			]
 			id: "00859E1E3971657F"
 			tasks: [{
 				dimension: "jamd:end"
@@ -340,7 +416,11 @@
 		}
 		{
 			dependencies: ["38DE58C8666609EC"]
-			description: ["Moving from kinetics to electricity, we gain access to a metal press than can be used for far more than the mechanical press. This machine can be provided with differing dies to provide more parts."]
+			description: [
+				"As we move from kinetic energy to electricity, we gain access to the Metal Press, a far more advanced machine than the mechanical press. This machine is powered by electricity and can be equipped with different dies, allowing it to produce a wide variety of parts."
+				""
+				"With the Metal Press, we can create items such as plates, rods, and gear components more efficiently, supporting the production of advanced machinery and structures. Its versatility makes it an essential tool for scaling up production in our technological journey."
+			]
 			icon: "immersiveengineering:metal_press"
 			id: "47EA72930E8B263C"
 			tasks: [{
@@ -357,7 +437,11 @@
 		}
 		{
 			dependencies: ["47EA72930E8B263C"]
-			description: ["Our multi-block crusher is a very powerful machine. It can break down resources into much finer elements we will need. One notable element is Nitrate Dust which is needed for the production of our Biodiesel. This machine is also precise enough to grind up our Raw Osmium and get more out of one chunk."]
+			description: [
+				"The Crusher is a powerful machine designed to break down resources into finer, more usable elements. One of its most important byproducts is Nitrate Dust, a key ingredient for producing Biodiesel. This makes the crusher a vital part of your fuel production chain, enabling more efficient energy generation for your machines."
+				""
+				"In addition to processing materials for Biodiesel, the crusher can be used to grind up Raw Osmium, providing a higher yield per chunk. This feature is especially valuable when working with scarce or high-demand materials, allowing you to stretch your resources further. With its precision and versatility, the Crusher is an essential tool for anyone looking to optimize their material processing."
+			]
 			hide_dependency_lines: true
 			icon: "immersiveengineering:crusher"
 			id: "1787025054B9F175"
@@ -378,7 +462,11 @@
 				"1787025054B9F175"
 				"0649FCAA578DC2E6"
 			]
-			description: ["With an Arc Furnace now available to us, we can begin to process even more resources. Processing our HOP Graphite Dust can now be done more efficientally with this furnace and provide us with ingots instead of nuggets. This machine also allows us to begin to process the Osmium we should have an abundance of."]
+			description: [
+				"Now that we have access to the Arc Furnace, we can vastly improve the efficiency of our resource processing. Instead of just turning HOP Graphite Dust into nuggets, we can now smelt it into ingots, which are far more useful for crafting and other advanced processes. This upgrade also allows us to now process Osmium, a resource that we should have in abundance by now."
+				""
+				"With the Arc Furnace, you’ll be able to handle larger quantities of materials, leading to better scalability for your operations and paving the way for more complex machinery down the road."
+			]
 			icon: "immersiveengineering:arc_furnace"
 			id: "546D8110EC3DA895"
 			tasks: [{
@@ -395,7 +483,11 @@
 		}
 		{
 			dependencies: ["546D8110EC3DA895"]
-			description: ["One material the Arc Furnace provides to us is Insulating Glass. This is used in many refined recipes to produce equipment that needs this far strudier glass. It is also used to allow access to the Mining dimension. We can construct a portal with it and use a Mining Dimension key and we gain access to this new dimension."]
+			description: [
+				"Insulating Glass is a key material produced by the Arc Furnace, providing stronger and more refined glass for crafting advanced equipment. It's used in various recipes, notably for creating machines and components requiring a higher level of durability."
+				""
+				"More importantly, Insulating Glass is integral to accessing the Mining Dimension. By constructing a portal using this special glass and combining it with a Mining Dimension key, you'll open the doorway to a new realm. This dimension allows you to mine resources efficiently without the hazards of the overworld, offering a safe and controlled environment for resource gathering. It's an essential step forward in automating your resource acquisition!"
+			]
 			id: "68FF89B494B577B4"
 			tasks: [
 				{
@@ -416,7 +508,11 @@
 		}
 		{
 			dependencies: ["68FF89B494B577B4"]
-			description: ["The land of goodies and resources awaits us. This dimension has all the resources the Overworld provides without the chaos and clutter. All gems that are not necessary for technology do not generate in this dimension. This provides a very good place to plant our Quarry and begin strip mining for resources."]
+			description: [
+				"The Mining Dimension is a pristine land filled with all the resources that the Overworld provides, but with a crucial difference: it's free from the chaos and clutter. Gems and other non-essential resources for technology do not spawn here, making it the perfect place to focus on gathering the materials needed for your advancements."
+				""
+				"This dimension is ideal for setting up your Quarry and beginning efficient strip mining. Without the distractions of other elements, you can easily gather ores and materials at a faster rate, ensuring a steady supply for your technological projects. It’s an excellent location to streamline your resource gathering and automate your mining processes."
+			]
 			id: "3A8F47D818681F44"
 			tasks: [{
 				dimension: "jamd:mining"
@@ -429,7 +525,11 @@
 		}
 		{
 			dependencies: ["5ECDD562A5C902F6"]
-			description: ["Albeit bad for the environment, a Diesel Generator can be filled with the Biodiesel we are not producing to generate power for us. This is one of our first large scale power productions we have access too and should try and build multiple to keep our power flowing."]
+			description: [
+				"The Diesel Generator is a key component in our power infrastructure. While it may be less environmentally friendly, it provides a reliable and efficient method for generating electricity when filled with Biodiesel. This is one of the first large-scale power sources we have access to and is crucial for powering advanced machinery and multi-block structures."
+				""
+				"To ensure we have a steady power supply, it's important to build multiple Diesel Generators. This will help keep our power grid stable and prevent any downtime in our operations. Keep an eye on your fuel production to ensure the generators remain fully stocked and operational."
+			]
 			id: "29E99CB108C9DD1E"
 			tasks: [{
 				icon: "immersiveengineering:diesel_generator"
@@ -448,7 +548,11 @@
 				"1CA2206C39C24626"
 				"18EEE381A90610B5"
 			]
-			description: ["With Ethanol and Plant Oil in production, we can use a Refinery to begin to produce Biodiesel. This is utilized to generate power withing a Diesel Generator. Ethanol is also used to produce Acetaldehyde which can be combined with Creosote to produce Phenolic Resin which will have uses in pushing our technology further."]
+			description: [
+				"The Refinery allows us to take Ethanol and Plant Oil and refine them into Biodiesel. This powerful fuel source is key to generating energy within a Diesel Generator. Biodiesel provides a more sustainable and efficient method of powering large-scale operations."
+				""
+				"In addition to Biodiesel, the Refinery also helps in creating Acetaldehyde from Ethanol. This valuable chemical can then be combined with Creosote to produce Phenolic Resin. This resin is a crucial material for advancing our technology, allowing for more complex machinery and higher-tier crafting recipes to be unlocked."
+			]
 			id: "5ECDD562A5C902F6"
 			tasks: [{
 				icon: "immersiveengineering:refinery"
@@ -464,7 +568,11 @@
 		}
 		{
 			dependencies: ["47EA72930E8B263C"]
-			description: ["Ethanol is a crucial fluid to getting going with our power from multi-blocks. The Industrial Fermenter will take crops and mash them into ethanol that we can use and process in other machines."]
+			description: [
+				"Ethanol is a crucial fuel for powering multi-block structures and machinery. The Industrial Fermenter plays a key role in this process by taking crops and mashing them into ethanol. This biofuel can then be processed further and used to power machines and generators."
+				""
+				"By supplying the Industrial Fermenter with crops like sugar cane or corn, you can begin to generate a steady supply of ethanol. This will be essential for fueling various machines and systems as you continue to expand your technological capabilities."
+			]
 			id: "1CA2206C39C24626"
 			tasks: [{
 				icon: "immersiveengineering:fermenter"
@@ -480,7 +588,11 @@
 		}
 		{
 			dependencies: ["47EA72930E8B263C"]
-			description: ["The Industrial Squeezer is a machine that can be used to extra the fluids from within seeds. This will produce Plant Oil that we can utilize to produce further refined fluids. The squeezer can also be used to turn Coke Dust into HOP Graphite dust to begin using an Arc Furnace."]
+			description: [
+				"The Industrial Squeezer is a versatile machine used to extract fluids from seeds, producing valuable Plant Oil. This plant-based oil can be utilized for further refining and processing in your machinery. By running various seeds through the squeezer, you can gather resources to fuel other industrial processes."
+				""
+				"Additionally, the Industrial Squeezer has another important function: it can turn Coke Dust into HOP Graphite Dust. This is a crucial step in progressing towards using an Arc Furnace for more advanced material processing. The combination of Plant Oil and HOP Graphite Dust allows for powerful advancements in energy production and material refining."
+			]
 			id: "18EEE381A90610B5"
 			tasks: [{
 				icon: "immersiveengineering:squeezer"
@@ -496,7 +608,11 @@
 		}
 		{
 			dependencies: ["7BE55FA9BDE5E7F6"]
-			description: ["Letting our Phenolic Resin rest in the Bottling Machine with a plate mold will have it harden into a plastic that we can use for more advanced machinery."]
+			description: [
+				"When we place Phenolic Resin into the Bottling Machine along with a plate mold, the resin undergoes a transformation, hardening into a durable plastic material. This hardened plastic is critical for the construction of more advanced machinery and components, which are vital for progressing our technological journey."
+				""
+				"As we move forward, this plastic will be used in a variety of crafting recipes, allowing us to build more sophisticated systems, machines, and devices, ultimately enhancing the efficiency and capabilities of our operations."
+			]
 			id: "67BC88B015A8D092"
 			tasks: [{
 				id: "02BD93CCBB0CFBA7"
@@ -513,7 +629,11 @@
 				"67BC88B015A8D092"
 				"0A434EF4EF6F0435"
 			]
-			description: ["There comes a time where we no longer want to go mining for ourselves. That time is now! With access to all these new materials, we can produce a powered quarry to strip mine the world. This machine is not the fastest as it needs to dig up every block in the area you assign it to. They can also accept enchantments, however this requires a large amount of refined resources to gain access to."]
+			description: [
+				"With all the materials we’ve gathered and the advancements we’ve made, it’s time to stop mining manually. The Powered Quarry allows us to automate the mining process and strip-mine vast areas for resources. While not the fastest, it’s an efficient way to gather materials as it systematically digs up every block in the designated area."
+				""
+				"One key feature is the ability to apply enchantments to the quarry, boosting its capabilities. However, unlocking this requires a significant amount of refined resources. Once set up, the quarry can provide a constant stream of materials without the need for constant manual labor."
+			]
 			id: "45F9ED8270B59E26"
 			tasks: [{
 				id: "21F5B2A57AD3D468"
@@ -526,7 +646,11 @@
 		}
 		{
 			dependencies: ["18EEE381A90610B5"]
-			description: ["HOP Graphite is one of the major resources we need to get our Arc Furnace up and running. Without having the Arc Furnace, we are only able to process the dusts we are producing into nuggets. These nuggets will get us started for now."]
+			description: [
+				"HOP Graphite is a vital material for kickstarting your Arc Furnace. While you don’t have access to the full capabilities of the Arc Furnace just yet, you can still process dusts into nuggets as a stepping stone. These nuggets will provide you with the essential materials needed for early advancements."
+				""
+				"HOP Graphite is an important resource to gather and refine because, once you’re ready, the Arc Furnace will greatly improve your ability to process materials more efficiently and in larger quantities."
+			]
 			id: "0649FCAA578DC2E6"
 			tasks: [{
 				id: "004E60EE3CA2E2E1"
@@ -542,7 +666,11 @@
 				"5ECDD562A5C902F6"
 				"6CBE6DD3F776E019"
 			]
-			description: ["The Bottling Machine can be used to take many of our liquids we are producing and generate newer resources from them. We can turn our Phenolic Resin into sheets to craft as well as discs that can be used in machines. We also have the ability to mold Acidic Redstone into solid dust form to use it for machines that need it."]
+			description: [
+				"The Bottling Machine offers a key function in converting liquids into usable forms for crafting and further processing. It can take liquids like Phenolic Resin and mold them into sheets for crafting or discs for use in machines. This opens up new opportunities for advanced crafting."
+				""
+				"Additionally, the Bottling Machine can transform Acidic Redstone into solid dust, a critical resource needed for more advanced machines and processes. With this machine, we can efficiently convert liquids into the materials that drive our technological advancements."
+			]
 			id: "7BE55FA9BDE5E7F6"
 			tasks: [{
 				icon: "immersiveengineering:bottling_machine"
@@ -558,7 +686,11 @@
 		}
 		{
 			dependencies: ["7BE55FA9BDE5E7F6"]
-			description: ["Our Phenolic Resin can be used for multiple different purposes. One of these is to create Grinding Disks. These disks can be utilized in our Quarry to allow digging up the minerals from the world. We do need a bulk of these and should get them crafting as soon as possible."]
+			description: [
+				"Phenolic Resin can be processed into Grinding Disks, a vital component for enhancing the Quarry’s mining efficiency. These disks significantly improve the Quarry’s ability to break down and extract valuable resources from the world as it digs. By using these disks, the Quarry can process more blocks at a faster rate, increasing its resource yield."
+				""
+				"Given the importance of Grinding Disks in ensuring the smooth operation of the Quarry, it's essential to start crafting them in bulk. Make sure to monitor your supply of Phenolic Resin, as running out of resin could delay the production of these disks and affect your mining operations. Keep your resources flowing to maintain a continuous and efficient quarrying process!"
+			]
 			id: "0A434EF4EF6F0435"
 			tasks: [{
 				id: "2462BD80874C7BEE"
@@ -577,7 +709,11 @@
 		}
 		{
 			dependencies: ["07283140B11FB4CC"]
-			description: ["When it's thunder and lightning out, most people like to sleep and get it over with. This is not the case if you want to maximize its potential. We can use a Lightning Rod to generate electricity from lightning strikes. Stack up steel fences nice and tall from the center and you will be able to triangulate where the lightning will hit."]
+			description: [
+				"When storms roll in, most people seek shelter, but if you're looking to maximize the storm’s potential, a Lightning Rod can be your best friend. By building a tall structure with steel fences, you can increase the chances of lightning striking at a specific point. The Lightning Rod will capture this energy, converting the raw power of a thunderstorm into usable electricity."
+				""
+				"This is a great way to harvest free energy, especially when you need a burst of power for your machines or systems. The setup requires some precision, but with the right configuration, you can turn nature's fury into a valuable resource."
+			]
 			id: "1BFE52C0479C592E"
 			tasks: [{
 				icon: "immersiveengineering:lightning_rod"
@@ -593,7 +729,11 @@
 		}
 		{
 			dependencies: ["29E99CB108C9DD1E"]
-			description: ["Chunks within the world are rich in untapped resources that we can gather up. With an Excavator, we can gather these untapped resources and generate resources without digging deep underground. Each chunk only provides a certain mineral and some may not provide any."]
+			description: [
+				"The Excavator is a powerful tool that allows us to gather untapped resources directly from the surface of the world. Rather than digging deep underground, this machine enables us to extract valuable minerals from chunks without the need for traditional mining."
+				""
+				"Each chunk has a limited supply of resources, and not all chunks will yield valuable materials. You'll need to carefully choose where to deploy the Excavator to maximize your returns. This method can be a quicker and safer way to gather resources, especially when you're looking for specific minerals that can be found near the surface. However, be mindful of resource depletion as each chunk has its own supply limits."
+			]
 			id: "7D4499A428665144"
 			tasks: [
 				{
@@ -619,7 +759,11 @@
 		}
 		{
 			dependencies: ["7D4499A428665144"]
-			description: ["In order to find where we want to build our Excavator, we need a survey kit to inspect the chunks. This will alloy us to sample the land for what minerals that chunk holds before we setup to dig."]
+			description: [
+				"The Survey Kit is an essential tool for locating the best spots to deploy your Excavator. Before setting up the machine, you can use the Survey Kit to sample a chunk's resources. This allows you to determine which minerals are available in that area, ensuring that you are targeting the right places for your excavation."
+				""
+				"By using the Survey Kit, you can make more informed decisions about where to dig, saving time and resources. Whether you're looking for specific ores or want to avoid barren chunks, the Survey Kit is a key step in optimizing your resource gathering process."
+			]
 			id: "1B82B4B2D6BFADF9"
 			tasks: [{
 				id: "786E007B9E07F36E"
@@ -639,7 +783,11 @@
 		}
 		{
 			dependencies: ["546D8110EC3DA895"]
-			description: ["Our Arc Furnace should have allowed us to gain access to our first Osmium ingot. Osmium is our gateway into the robotic technology of Mekanism."]
+			description: [
+				"The first Osmium ingot you obtain marks an important milestone in your technological journey. Osmium is a crucial resource in Mekanism, unlocking the potential for advanced machinery and robotics. As you begin to work with Osmium, you'll gain access to a host of new capabilities, including the ability to craft powerful components like the Robit and other automation tools that will greatly enhance your efficiency."
+				""
+				"Mekanism's robots will allow for automation across many tasks, helping you streamline processes and reduce the need for manual labor. This new phase in your adventure will enable you to focus more on exploration and further technological advancements."
+			]
 			id: "6C694DEF01960C4A"
 			shape: "gear"
 			tasks: [{
@@ -656,7 +804,11 @@
 				"0649FCAA578DC2E6"
 				"47EA72930E8B263C"
 			]
-			description: ["When we start getting in to use an Arc Furnae, we will need Electrodes to allow the machine to run. The Metal Press provides a way to inefficiently produce electrodes and get the machine started."]
+			description: [
+				"When working with an Arc Furnace, you’ll need Electrodes to enable the machine to function. These are essential for the smelting process, as they facilitate the high-energy environment required for advanced material processing."
+				""
+				"To get started with the Arc Furnace, the Metal Press can be used to craft electrodes. While this method isn't the most efficient, it will allow you to begin using the Arc Furnace. Over time, you can explore more efficient ways to produce electrodes, but this is a good starting point to kick off your high-tech smelting operations."
+			]
 			id: "087EFD6289DFBB70"
 			tasks: [{
 				id: "023A91782FFF74AE"
@@ -676,7 +828,11 @@
 		}
 		{
 			dependencies: ["47EA72930E8B263C"]
-			description: ["The Mixer is a powerful tool for creating potions but, it also has other uses. Redstone Acid is produced in the machine to then be sent to the Bottling Machine to be hardened into dust form. The Mixer also provides a way to make mob experience essences for production of special crystals mutated from Amethyst. These crystals seem to take on the energy of the mob they are infused with and their clusters drop the materials their mobs would."]
+			description: [
+				"The Mixer is not just limited to potion brewing; it has versatile applications that enhance our technological progression. One key function is its ability to produce Redstone Acid, which is then sent to the Bottling Machine to be hardened into dust form. This helps us gather crucial resources for advanced machinery."
+				""
+				"In addition, the Mixer allows us to create mob experience essences, which are essential for crafting special mutated crystals from Amethyst. These unique crystals take on the energy of the mobs they are infused with, and their clusters drop the materials that the corresponding mobs would, providing a valuable resource for further developments."
+			]
 			hide_dependency_lines: true
 			id: "6CBE6DD3F776E019"
 			tasks: [{
@@ -693,7 +849,11 @@
 		}
 		{
 			dependencies: ["7BE55FA9BDE5E7F6"]
-			description: ["With the Bottling Machine and a Dust Mold. We can produce a hardened, more conductive redstone. This hardened dust seems to allow for more advanced technology to be developed from its composition."]
+			description: [
+				"By utilizing the Bottling Machine alongside a Dust Mold, we can create a hardened, more conductive form of Redstone. This upgraded version of Redstone is a crucial step in advancing our technology. Its enhanced conductivity not only makes it more efficient in power transmission but also opens the door to creating more powerful and sophisticated machines."
+				""
+				"The production of this hardened Redstone will be key to pushing our technological progression forward, allowing us to unlock and utilize more advanced systems and equipment. As we move towards greater automation and efficiency, this conductive Redstone will play a pivotal role in powering the next generation of machines."
+			]
 			id: "430751120FB42896"
 			shape: "octagon"
 			tasks: [{
@@ -707,7 +867,11 @@
 		}
 		{
 			dependencies: ["546D8110EC3DA895"]
-			description: ["With the premise of getting all our items automated, we want to get our blueprint schematics automated as well. The Auto Workbench allows us to create the parts from our blueprints by simply supplying the resources it needs."]
+			description: [
+				"The Auto Workbench is an essential tool in your automation journey. Once equipped with the required resources, this machine can take the blueprint schematics and automatically craft the parts for you. This eliminates the need for manual crafting, allowing you to focus on more complex tasks and resource gathering."
+				""
+				"By streamlining the process of crafting essential parts from blueprints, the Auto Workbench significantly boosts your productivity and helps maintain a steady flow of components. It’s a must-have for anyone aiming to automate their entire base efficiently."
+			]
 			icon: "immersiveengineering:auto_workbench"
 			id: "02AED649A06B3A01"
 			tasks: [{

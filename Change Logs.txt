@@ -1,5 +1,9 @@
 ||Beta 0.8.0||
 
+// Mods Updated //
+-Moonlight Lib
+-Supplementaries
+
 // Quest Changes //
 -Immersive Enginering written
 -Budding Mobs written
@@ -13,6 +17,7 @@
 -Industrial Fermenter recipes adjusted to support all crops
 -HOP Graphite Nugget to Ingot/Ingot to Nugget
 -HOP Graphite Dust only makes nuggets if not in ARC Furance
+-Updated recipe for ME Controller
 
 ||Beta 0.7.0||
 
