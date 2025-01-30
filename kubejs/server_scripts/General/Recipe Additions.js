@@ -30,18 +30,6 @@ ServerEvents.recipes(IRRebirth => {
           C: 'immersiveengineering:stick_treated'
         }
       )
-      IRRebirth.shaped(
-        Item.of('immersiveengineering:blueprint', '{blueprint:"electrode"}'), 
-        [
-          'AAA',
-          'ABA',
-          'AAA'
-        ],
-        {
-          A: '#forge:storage_blocks/hop_graphite',
-          B: '#forge:dyes/blue'
-        }
-      )
       IRRebirth.shapeless(
         Item.of('kubejs:acidic_redstone', 9),
         [
@@ -71,4 +59,24 @@ ServerEvents.recipes(IRRebirth => {
           'minecraft:glowstone'
         ]
       )
+      IRRebirth.shaped(
+        Item.of('immersiveengineering:ingot_hop_graphite'), 
+        [
+          'AAA',
+          'AAA',
+          'AAA'
+        ],
+        {
+          A: '#forge:nuggets/hop_graphite'
+        }
+      )
+      IRRebirth.shapeless(
+        Item.of('kubejs:hop_graphite_nugget', 9),
+        [
+          '#forge:ingots/hop_graphite'
+        ]
+      )
+      IRRebirth.smelting('kubejs:hop_graphite_nugget', '#forge:dusts/hop_graphite')
+      IRRebirth.blasting('kubejs:hop_graphite_nugget', '#forge:dusts/hop_graphite')
+      IRRebirth.remove({type: 'mekanism:energized_smelter', id: 'minecraft:kjs/hop_graphite_nugget_2'})
 })

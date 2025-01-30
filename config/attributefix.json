@@ -407,17 +407,6 @@
         "value": 100
       }
     },
-    "vminus:fall_protection": {
-      "enabled": false,
-      "min": {
-        "default": -100,
-        "value": -100
-      },
-      "max": {
-        "default": 100,
-        "value": 100
-      }
-    },
     "attributeslib:prot_pierce": {
       "enabled": false,
       "min": {
@@ -427,6 +416,17 @@
       "max": {
         "default": 34,
         "value": 34
+      }
+    },
+    "vminus:fall_protection": {
+      "enabled": false,
+      "min": {
+        "default": -100,
+        "value": -100
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "minecraft:generic.flying_speed": {

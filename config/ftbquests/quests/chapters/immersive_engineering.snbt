@@ -32,6 +32,7 @@
 	quests: [
 		{
 			dependencies: ["266CDDD166A086DA"]
+			description: ["In order to get moving with our multi-block structures, we need to get a hammer to assemble the structure together. This requires using plates we produce and stick from treated planks to produce a sturdy hammer."]
 			id: "5C1E3ACFD2F9C650"
 			tasks: [{
 				id: "1F061A6ED30AE0F9"
@@ -44,17 +45,20 @@
 				}
 				type: "item"
 			}]
+			title: "Hammah!"
 			x: -4.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["165BA06960C5C2AB"]
+			description: ["Treated planks will be used throughout our advancements in technology. We need to ensure we keep them in a steady supply moving forward."]
 			id: "266CDDD166A086DA"
 			tasks: [{
 				id: "0E47F7EF09AE37FD"
 				item: "immersiveengineering:treated_wood_horizontal"
 				type: "item"
 			}]
+			title: "Get Treated"
 			x: -5.0d
 			y: 1.0d
 		}
@@ -85,6 +89,7 @@
 		}
 		{
 			dependencies: ["2D69C4A5F91F3CF7"]
+			description: ["Now that we are getting rolling with our multi-block structures, steel will become heavily needed. Creating a Blast Furnace will allow us to produce steel in a more efficient manner than before."]
 			icon: "immersiveengineering:blast_furnace"
 			id: "38DE58C8666609EC"
 			tasks: [{
@@ -95,11 +100,13 @@
 				to_observe: "immersiveengineering:blast_furnace"
 				type: "observation"
 			}]
+			title: "Crudely Blasting"
 			x: -2.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["38DE58C8666609EC"]
+			description: ["With access to more steel and steel plates, we can improved our Blast Furnace to a more powerful machine. This machine can be automated with more efficiency."]
 			icon: "immersiveengineering:advanced_blast_furnace"
 			id: "023D129314703FD1"
 			tasks: [{
@@ -110,11 +117,13 @@
 				to_observe: "immersiveengineering:advanced_blast_furnace"
 				type: "observation"
 			}]
+			title: "Improved Blasting"
 			x: -2.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["023D129314703FD1"]
+			description: ["With access to an Improved Blast Furnace and electricity, we can apply preheaters to the furnace to increase its heat. This allows us to produce steel even faster than before."]
 			id: "1A7921559FFAACAA"
 			tasks: [{
 				count: 2L
@@ -122,33 +131,39 @@
 				item: { Count: 2, id: "immersiveengineering:blastfurnace_preheater" }
 				type: "item"
 			}]
+			title: "Powered Blasting"
 			x: -3.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["38DE58C8666609EC"]
+			description: ["Kinetic energy can be used to produce power as well. By constructing a Kinetic Dynamo, we can use a water wheel or windmill to produce power."]
 			id: "1274E79019C28F4A"
 			tasks: [{
 				id: "069DC4997CC22589"
 				item: "immersiveengineering:dynamo"
 				type: "item"
 			}]
+			title: "Electrical Kinetics"
 			x: -2.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["38DE58C8666609EC"]
+			description: ["Steel gives us access to a passive source of electricity. Thermo generators produce power base of the heat differential of blocks around it. Water and lava can be used to generate power for small form use."]
 			id: "77D17C04DD364CAE"
 			tasks: [{
 				id: "16193146B991AF3D"
 				item: "immersiveengineering:thermoelectric_generator"
 				type: "item"
 			}]
+			title: "Heat Differential"
 			x: -3.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["266CDDD166A086DA"]
+			description: ["With entering the age of multi-block structures, keeping up with their builds can be a lot of work. The Schematicannon from Create can be provided with the schematic and resources and prepare the multi-blocks."]
 			id: "780D07242DE7E506"
 			tasks: [
 				{
@@ -162,33 +177,39 @@
 					type: "item"
 				}
 			]
+			title: "Laying Schematics"
 			x: -5.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["1274E79019C28F4A"]
+			description: ["Water wheels can connect to a Kinetic Dynamo in groups of three. When provided with water sources, the wheels will rotate and provide passive electricity in small increments."]
 			id: "2926E1B744FACF79"
 			tasks: [{
 				id: "6D5AE46CF4E7D8BC"
 				item: "immersiveengineering:watermill"
 				type: "item"
 			}]
+			title: "Water Wheeling"
 			x: -3.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["1274E79019C28F4A"]
+			description: ["Windmills are produced of treated wood and built to be much sturdier. Weather can play into effect for a windmill and improve the power it produces. Be weary, you do not want to have multiple windmills within a close proximity or it will negatively effect one another."]
 			id: "68BD97666C35C625"
 			tasks: [{
 				id: "53B5DAA33C56D39D"
 				item: "immersiveengineering:windmill"
 				type: "item"
 			}]
+			title: "Windy Ways"
 			x: -2.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["68BD97666C35C625"]
+			description: ["To improve the efficieny of our windmill, we can apply windmill sails to it. The sails allow wind to flow more freely and rotate the arms faster."]
 			id: "6A0DFE1D63712423"
 			tasks: [{
 				count: 8L
@@ -196,7 +217,8 @@
 				item: { Count: 8, id: "immersiveengineering:windmill_sail" }
 				type: "item"
 			}]
-			x: -2.0d
+			title: "Sailing Away"
+			x: -3.0d
 			y: -2.0d
 		}
 		{
@@ -204,6 +226,7 @@
 				"546D8110EC3DA895"
 				"03835B0AAF486B09"
 			]
+			description: ["The Energy Acceptor is our entrance into the digital age. We can use this machine to get a basic ME system up and running and move to a more complex system that will allow us to setup crafting automation."]
 			id: "1AAF8C310BB892B1"
 			shape: "gear"
 			tasks: [{
@@ -211,22 +234,26 @@
 				item: "ae2:energy_acceptor"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -2.0d
+			title: "Energy Acceptance"
+			x: 0.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["1274E79019C28F4A"]
+			description: ["Capacitors provide us with a method of storing large quantities of power in a little space. These can be used to have a buffer of power for any machines that may need it."]
 			id: "07283140B11FB4CC"
 			tasks: [{
 				id: "25D9E8A7DBDFAFC5"
 				item: "immersiveengineering:capacitor_lv"
 				type: "item"
 			}]
+			title: "Compact Storage"
 			x: -1.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["3DF334D3DF981D3D"]
+			description: ["With all of the structures and discoveries that exist in the world, it is hard to keep up with them all. Thankfully there is a compass that can be used to help us find our way. The Explorer's Compass allows you to select a structure and help guide you towards its location."]
 			id: "4E1CAFE752AE48F3"
 			tasks: [{
 				id: "3A7CFDEF9161CFE4"
@@ -237,22 +264,26 @@
 				}
 				type: "item"
 			}]
+			title: "Explorer's World"
 			x: -4.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["4E1CAFE752AE48F3"]
+			description: ["With our compass in hand, we can easilt find our way to The End. We need to prepare for a fight with the Ender Dragon before we enter the portal. Ensure to bring enough Eyes of Ender to complete the portal. You may also want some glass bottles to gather the dragon's breath."]
 			id: "60C64ED98B3DA5FE"
 			tasks: [{
 				dimension: "minecraft:the_end"
 				id: "3D0FA8D7861266DA"
 				type: "dimension"
 			}]
+			title: "The End..."
 			x: -5.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["60C64ED98B3DA5FE"]
+			description: ["Gathering breath from the dragon and some End Stone allows us to build a special key. This key can be used to open an End Portal back at our base for easy access to The End without the travel."]
 			hide_dependency_lines: true
 			id: "73F11332415E1484"
 			tasks: [
@@ -268,11 +299,13 @@
 					type: "item"
 				}
 			]
+			title: "The End at Home"
 			x: -4.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["60C64ED98B3DA5FE"]
+			description: ["By venturing to an End City and gathering shells from the Shulker, we can create another key to access the mining dimension of The End. This is a safer way to gather the materials we need from The End."]
 			hide_dependency_lines: true
 			id: "6601CE0A294C091A"
 			tasks: [
@@ -288,22 +321,26 @@
 					type: "item"
 				}
 			]
+			title: "End Mining Portal"
 			x: -5.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["6601CE0A294C091A"]
+			description: ["While this dimension does provide us with valuable resources, many cannot be used just yet. This doesn't mean we shouldn't gather then yet. The End Mining dimensions provides access to precious Draconic resources that we will be using later in our technological journey."]
 			id: "00859E1E3971657F"
 			tasks: [{
 				dimension: "jamd:end"
 				id: "7B6FE3DE5DC54A76"
 				type: "dimension"
 			}]
+			title: "End Mining Dimension"
 			x: -5.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["38DE58C8666609EC"]
+			description: ["Moving from kinetics to electricity, we gain access to a metal press than can be used for far more than the mechanical press. This machine can be provided with differing dies to provide more parts."]
 			icon: "immersiveengineering:metal_press"
 			id: "47EA72930E8B263C"
 			tasks: [{
@@ -314,11 +351,13 @@
 				to_observe: "immersiveengineering:metal_press"
 				type: "observation"
 			}]
+			title: "Electrical Press"
 			x: -1.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["47EA72930E8B263C"]
+			description: ["Our multi-block crusher is a very powerful machine. It can break down resources into much finer elements we will need. One notable element is Nitrate Dust which is needed for the production of our Biodiesel. This machine is also precise enough to grind up our Raw Osmium and get more out of one chunk."]
 			hide_dependency_lines: true
 			icon: "immersiveengineering:crusher"
 			id: "1787025054B9F175"
@@ -330,14 +369,16 @@
 				to_observe: "immersiveengineering:crusher"
 				type: "observation"
 			}]
-			x: 3.0d
-			y: 1.5d
+			title: "Can it Crush"
+			x: 1.0d
+			y: -1.0d
 		}
 		{
 			dependencies: [
 				"1787025054B9F175"
 				"0649FCAA578DC2E6"
 			]
+			description: ["With an Arc Furnace now available to us, we can begin to process even more resources. Processing our HOP Graphite Dust can now be done more efficientally with this furnace and provide us with ingots instead of nuggets. This machine also allows us to begin to process the Osmium we should have an abundance of."]
 			icon: "immersiveengineering:arc_furnace"
 			id: "546D8110EC3DA895"
 			tasks: [{
@@ -348,11 +389,13 @@
 				to_observe: "immersiveengineering:arc_furnace"
 				type: "observation"
 			}]
-			x: 1.0d
-			y: -1.0d
+			title: "Power Arc"
+			x: 0.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["546D8110EC3DA895"]
+			description: ["One material the Arc Furnace provides to us is Insulating Glass. This is used in many refined recipes to produce equipment that needs this far strudier glass. It is also used to allow access to the Mining dimension. We can construct a portal with it and use a Mining Dimension key and we gain access to this new dimension."]
 			id: "68FF89B494B577B4"
 			tasks: [
 				{
@@ -367,25 +410,26 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: -2.0d
+			title: "Mining Dimension Portal"
+			x: 1.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["68FF89B494B577B4"]
+			description: ["The land of goodies and resources awaits us. This dimension has all the resources the Overworld provides without the chaos and clutter. All gems that are not necessary for technology do not generate in this dimension. This provides a very good place to plant our Quarry and begin strip mining for resources."]
 			id: "3A8F47D818681F44"
 			tasks: [{
 				dimension: "jamd:mining"
 				id: "2E4ED95A8147FFBF"
 				type: "dimension"
 			}]
+			title: "Mining Dimension"
 			x: 2.0d
-			y: -3.0d
+			y: -2.5d
 		}
 		{
-			dependencies: [
-				"2FA01FA86A96B077"
-				"5ECDD562A5C902F6"
-			]
+			dependencies: ["5ECDD562A5C902F6"]
+			description: ["Albeit bad for the environment, a Diesel Generator can be filled with the Biodiesel we are not producing to generate power for us. This is one of our first large scale power productions we have access too and should try and build multiple to keep our power flowing."]
 			id: "29E99CB108C9DD1E"
 			tasks: [{
 				icon: "immersiveengineering:diesel_generator"
@@ -395,32 +439,16 @@
 				to_observe: "immersiveengineering:diesel_generator"
 				type: "observation"
 			}]
+			title: "Environmental Catastrophe"
 			x: 0.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["1787025054B9F175"]
-			id: "2FA01FA86A96B077"
-			tasks: [{
-				id: "443B12E0CDC8ADB9"
-				item: {
-					Count: 1
-					id: "ftbfiltersystem:smart_filter"
-					tag: {
-						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:dusts/saltpeter)"
-					}
-				}
-				title: "Any #forge:dusts/saltpeter"
-				type: "item"
-			}]
-			x: 1.0d
-			y: 4.0d
+			y: 2.5d
 		}
 		{
 			dependencies: [
 				"1CA2206C39C24626"
 				"18EEE381A90610B5"
 			]
+			description: ["With Ethanol and Plant Oil in production, we can use a Refinery to begin to produce Biodiesel. This is utilized to generate power withing a Diesel Generator. Ethanol is also used to produce Acetaldehyde which can be combined with Creosote to produce Phenolic Resin which will have uses in pushing our technology further."]
 			id: "5ECDD562A5C902F6"
 			tasks: [{
 				icon: "immersiveengineering:refinery"
@@ -430,11 +458,13 @@
 				to_observe: "immersiveengineering:refinery"
 				type: "observation"
 			}]
+			title: "Refined"
 			x: 0.0d
-			y: 3.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["47EA72930E8B263C"]
+			description: ["Ethanol is a crucial fluid to getting going with our power from multi-blocks. The Industrial Fermenter will take crops and mash them into ethanol that we can use and process in other machines."]
 			id: "1CA2206C39C24626"
 			tasks: [{
 				icon: "immersiveengineering:fermenter"
@@ -444,11 +474,13 @@
 				to_observe: "immersiveengineering:fermenter"
 				type: "observation"
 			}]
+			title: "Fermentation"
 			x: -1.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["47EA72930E8B263C"]
+			description: ["The Industrial Squeezer is a machine that can be used to extra the fluids from within seeds. This will produce Plant Oil that we can utilize to produce further refined fluids. The squeezer can also be used to turn Coke Dust into HOP Graphite dust to begin using an Arc Furnace."]
 			id: "18EEE381A90610B5"
 			tasks: [{
 				icon: "immersiveengineering:squeezer"
@@ -458,17 +490,20 @@
 				to_observe: "immersiveengineering:squeezer"
 				type: "observation"
 			}]
+			title: "Squeezed Dry"
 			x: 0.0d
-			y: 1.0d
+			y: 0.5d
 		}
 		{
-			dependencies: ["5ECDD562A5C902F6"]
+			dependencies: ["7BE55FA9BDE5E7F6"]
+			description: ["Letting our Phenolic Resin rest in the Bottling Machine with a plate mold will have it harden into a plastic that we can use for more advanced machinery."]
 			id: "67BC88B015A8D092"
 			tasks: [{
 				id: "02BD93CCBB0CFBA7"
 				item: "immersiveengineering:plate_duroplast"
 				type: "item"
 			}]
+			title: "Hardened Plastic"
 			x: 1.0d
 			y: 1.0d
 		}
@@ -478,28 +513,36 @@
 				"67BC88B015A8D092"
 				"0A434EF4EF6F0435"
 			]
+			description: ["There comes a time where we no longer want to go mining for ourselves. That time is now! With access to all these new materials, we can produce a powered quarry to strip mine the world. This machine is not the fastest as it needs to dig up every block in the area you assign it to. They can also accept enchantments, however this requires a large amount of refined resources to gain access to."]
 			id: "45F9ED8270B59E26"
 			tasks: [{
 				id: "21F5B2A57AD3D468"
 				item: "quarryplus:quarry"
 				type: "item"
 			}]
+			title: "Can't Touch This"
 			x: 1.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["18EEE381A90610B5"]
+			description: ["HOP Graphite is one of the major resources we need to get our Arc Furnace up and running. Without having the Arc Furnace, we are only able to process the dusts we are producing into nuggets. These nuggets will get us started for now."]
 			id: "0649FCAA578DC2E6"
 			tasks: [{
 				id: "004E60EE3CA2E2E1"
-				item: "immersiveengineering:dust_hop_graphite"
+				item: "kubejs:hop_graphite_nugget"
 				type: "item"
 			}]
+			title: "Graphiti"
 			x: 0.0d
-			y: 0.0d
+			y: -0.5d
 		}
 		{
-			dependencies: ["5ECDD562A5C902F6"]
+			dependencies: [
+				"5ECDD562A5C902F6"
+				"6CBE6DD3F776E019"
+			]
+			description: ["The Bottling Machine can be used to take many of our liquids we are producing and generate newer resources from them. We can turn our Phenolic Resin into sheets to craft as well as discs that can be used in machines. We also have the ability to mold Acidic Redstone into solid dust form to use it for machines that need it."]
 			id: "7BE55FA9BDE5E7F6"
 			tasks: [{
 				icon: "immersiveengineering:bottling_machine"
@@ -509,11 +552,13 @@
 				to_observe: "immersiveengineering:bottling_machine"
 				type: "observation"
 			}]
+			title: "Bottled Up"
 			x: 1.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["7BE55FA9BDE5E7F6"]
+			description: ["Our Phenolic Resin can be used for multiple different purposes. One of these is to create Grinding Disks. These disks can be utilized in our Quarry to allow digging up the minerals from the world. We do need a bulk of these and should get them crafting as soon as possible."]
 			id: "0A434EF4EF6F0435"
 			tasks: [{
 				id: "2462BD80874C7BEE"
@@ -526,11 +571,13 @@
 				}
 				type: "item"
 			}]
+			title: "Getting Grinding"
 			x: 2.0d
-			y: 1.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["07283140B11FB4CC"]
+			description: ["When it's thunder and lightning out, most people like to sleep and get it over with. This is not the case if you want to maximize its potential. We can use a Lightning Rod to generate electricity from lightning strikes. Stack up steel fences nice and tall from the center and you will be able to triangulate where the lightning will hit."]
 			id: "1BFE52C0479C592E"
 			tasks: [{
 				icon: "immersiveengineering:lightning_rod"
@@ -540,22 +587,13 @@
 				to_observe: "immersiveengineering:lightning_rod"
 				type: "observation"
 			}]
-			x: -1.0d
+			title: "Ka Chow!"
+			x: -2.0d
 			y: -2.0d
 		}
 		{
-			dependencies: ["1BFE52C0479C592E"]
-			id: "35A7CEB8B543EC61"
-			tasks: [{
-				id: "1F52F9871CF58943"
-				item: "immersiveengineering:steel_fence"
-				type: "item"
-			}]
-			x: -1.0d
-			y: -3.0d
-		}
-		{
 			dependencies: ["29E99CB108C9DD1E"]
+			description: ["Chunks within the world are rich in untapped resources that we can gather up. With an Excavator, we can gather these untapped resources and generate resources without digging deep underground. Each chunk only provides a certain mineral and some may not provide any."]
 			id: "7D4499A428665144"
 			tasks: [
 				{
@@ -575,11 +613,13 @@
 					type: "observation"
 				}
 			]
+			title: "Diggy Diggy Hole"
 			x: -1.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["7D4499A428665144"]
+			description: ["In order to find where we want to build our Excavator, we need a survey kit to inspect the chunks. This will alloy us to sample the land for what minerals that chunk holds before we setup to dig."]
 			id: "1B82B4B2D6BFADF9"
 			tasks: [{
 				id: "786E007B9E07F36E"
@@ -593,11 +633,13 @@
 				match_nbt: false
 				type: "item"
 			}]
+			title: "Finding Minerals"
 			x: -2.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["546D8110EC3DA895"]
+			description: ["Our Arc Furnace should have allowed us to gain access to our first Osmium ingot. Osmium is our gateway into the robotic technology of Mekanism."]
 			id: "6C694DEF01960C4A"
 			shape: "gear"
 			tasks: [{
@@ -605,14 +647,16 @@
 				item: "mekanism:ingot_osmium"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -1.0d
+			title: "New Age Metal"
+			x: 1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
 				"0649FCAA578DC2E6"
 				"47EA72930E8B263C"
 			]
+			description: ["When we start getting in to use an Arc Furnae, we will need Electrodes to allow the machine to run. The Metal Press provides a way to inefficiently produce electrodes and get the machine started."]
 			id: "087EFD6289DFBB70"
 			tasks: [{
 				id: "023A91782FFF74AE"
@@ -626,28 +670,13 @@
 				match_nbt: false
 				type: "item"
 			}]
+			title: "Early Electrodes"
 			x: -1.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["546D8110EC3DA895"]
-			id: "1DD257B96B934201"
-			tasks: [{
-				id: "1977BC57EAAFBA93"
-				item: {
-					Count: 1
-					id: "immersiveengineering:blueprint"
-					tag: {
-						blueprint: "electrode"
-					}
-				}
-				type: "item"
-			}]
-			x: 0.0d
-			y: -1.0d
-		}
-		{
 			dependencies: ["47EA72930E8B263C"]
+			description: ["The Mixer is a powerful tool for creating potions but, it also has other uses. Redstone Acid is produced in the machine to then be sent to the Bottling Machine to be hardened into dust form. The Mixer also provides a way to make mob experience essences for production of special crystals mutated from Amethyst. These crystals seem to take on the energy of the mob they are infused with and their clusters drop the materials their mobs would."]
 			hide_dependency_lines: true
 			id: "6CBE6DD3F776E019"
 			tasks: [{
@@ -658,14 +687,13 @@
 				to_observe: "immersiveengineering:mixer"
 				type: "observation"
 			}]
-			x: 0.0d
-			y: 2.0d
+			title: "Multi-Mixer"
+			x: 1.0d
+			y: 3.0d
 		}
 		{
-			dependencies: [
-				"6CBE6DD3F776E019"
-				"7BE55FA9BDE5E7F6"
-			]
+			dependencies: ["7BE55FA9BDE5E7F6"]
+			description: ["With the Bottling Machine and a Dust Mold. We can produce a hardened, more conductive redstone. This hardened dust seems to allow for more advanced technology to be developed from its composition."]
 			id: "430751120FB42896"
 			shape: "octagon"
 			tasks: [{
@@ -673,21 +701,25 @@
 				item: "kubejs:acidic_redstone"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 3.0d
+			title: "Hardened Acid"
+			x: 2.0d
+			y: 2.0d
 		}
 		{
-			dependencies: ["1DD257B96B934201"]
+			dependencies: ["546D8110EC3DA895"]
+			description: ["With the premise of getting all our items automated, we want to get our blueprint schematics automated as well. The Auto Workbench allows us to create the parts from our blueprints by simply supplying the resources it needs."]
 			icon: "immersiveengineering:auto_workbench"
 			id: "02AED649A06B3A01"
 			tasks: [{
+				icon: "immersiveengineering:auto_workbench"
 				id: "436FF3111A1A7EBF"
 				observe_type: 0
 				timer: 0L
 				to_observe: "immersiveengineering:auto_workbench"
 				type: "observation"
 			}]
-			x: 0.0d
+			title: "AutoBelts Assemble"
+			x: -1.0d
 			y: -2.0d
 		}
 	]

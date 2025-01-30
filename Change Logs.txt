@@ -1,3 +1,19 @@
+||Beta 0.8.0||
+
+// Quest Changes //
+-Immersive Enginering written
+-Budding Mobs written
+
+// Script Changes //
+-Generated HOP Graphite Nugget
+
+// Recipes Changes //
+-Removed recipe for Electrode Blueprint (Trader's were Enabled again to get these)
+-Industrial Squeezer recipes adjusted to support all seeds
+-Industrial Fermenter recipes adjusted to support all crops
+-HOP Graphite Nugget to Ingot/Ingot to Nugget
+-HOP Graphite Dust only makes nuggets if not in ARC Furance
+
 ||Beta 0.7.0||
 
 // Mods Added //
@@ -8,7 +24,7 @@
 -Basic End Ores
 -Alex's Mobs
 -Corail Tombstones
-=Alex's Mobs - Naturalist Compat
+-Alex's Mobs - Naturalist Compat
 
 // Mods Updated //
 -FTB Quests

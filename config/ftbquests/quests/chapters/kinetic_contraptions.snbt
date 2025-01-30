@@ -5,32 +5,6 @@
 	group: "773EE9D912C508CA"
 	icon: "create:crushing_wheel"
 	id: "61049036FCFF39B9"
-	images: [
-		{
-			height: 1.0d
-			image: "minecraft:block/nether_portal"
-			rotation: 0.0d
-			width: 0.03125d
-			x: -5.5d
-			y: -4.5d
-		}
-		{
-			height: 1.0d
-			image: "minecraft:block/nether_portal"
-			rotation: 0.0d
-			width: 0.03125d
-			x: -5.5d
-			y: -4.5d
-		}
-		{
-			height: 1.0d
-			image: "cpapireforged:block/customportalblock"
-			rotation: 0.0d
-			width: 0.03125d
-			x: -5.5d
-			y: -5.0d
-		}
-	]
 	order_index: 0
 	quest_links: [
 		{
