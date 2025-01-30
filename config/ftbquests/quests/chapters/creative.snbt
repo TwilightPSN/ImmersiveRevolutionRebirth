@@ -96,11 +96,11 @@
 			id: "6022FC88C06DE19F"
 			tasks: [{
 				id: "6A07ACEECA9FE050"
-				item: "create:creative_crate"
+				item: "sophisticatedstorage:infinity_upgrade"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 4.0d
+			x: 2.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["52674B61FB3B27A2"]
@@ -121,8 +121,8 @@
 				item: "mekanism:creative_fluid_tank"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 5.5d
+			x: 0.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["52674B61FB3B27A2"]

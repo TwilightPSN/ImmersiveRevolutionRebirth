@@ -64,6 +64,11 @@
 				"0B9B63389931F8CD"
 				"7E35C3054ADB7374"
 			]
+			description: [
+				"Using Coke Dust, we can craft a Coke Oven from sandstone bricks. This machine is specialized in producing Coal Coke and Creosote at an improved rate."
+				""
+				"The Coke Oven is essential for processing coal more efficiently, providing you with a steady supply of both materials for further advancements. You'll need Coal Coke for smelting and crafting, while Creosote is vital for crafting treated wood and other essential components."
+			]
 			icon: "immersiveengineering:coke_oven"
 			id: "2D69C4A5F91F3CF7"
 			tasks: [{
@@ -74,6 +79,7 @@
 				to_observe: "immersiveengineering:coke_oven"
 				type: "observation"
 			}]
+			title: "Sequential Oven"
 			x: -3.0d
 			y: 1.0d
 		}

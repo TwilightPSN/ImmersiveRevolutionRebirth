@@ -59,11 +59,11 @@
     "dim_block_base": true,
     "dim_tank": true
   },
+  "tombstone": {
+    "graves": true
+  },
   "mekanismcovers": {
     "cover_component": true
-  },
-  "enigmaticgraves": {
-    "grave": true
   },
   "immersiveengineering": {
     "multiblock_icon": true

@@ -66,5 +66,4 @@ JEIEvents.hideItems(IRRebirth => {
     IRRebirth.hide('draconicevolution:info_tablet');
     IRRebirth.hide('draconicevolution:mob_soul');
     IRRebirth.hide('draconicevolution:structure_block');
-    IRRebirth.hide(['silentcompat:capsid_alloy_ingot', 'silentcompat:source_steel_ingot', 'silentcompat:dark_chocolate_ingot', 'silentcompat:sculk_alloy_ingot']);
 })
