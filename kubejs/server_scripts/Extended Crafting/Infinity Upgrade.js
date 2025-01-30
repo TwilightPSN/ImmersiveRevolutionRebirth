@@ -114,7 +114,7 @@ ServerEvents.recipes(IRRebirth => {
           }
         },
         "result": {
-          "item": "create:creative_crate"
+          "item": "sophisticatedstorage:infinity_upgrade"
         }
       })
 })

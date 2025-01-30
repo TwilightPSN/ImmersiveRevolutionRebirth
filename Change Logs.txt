@@ -7,21 +7,30 @@
 -Basic Nether Ores
 -Basic End Ores
 -Alex's Mobs
+-Corail Tombstones
+=Alex's Mobs - Naturalist Compat
 
 // Mods Updated //
 -FTB Quests
 -InsaneLib
 -Create Stuff & Additions
 -FTB Library
+-Sophisticated Storage
+-Sophisticated Core
+-Sophisticated Backpacks
+-Oh The Biomes We've Gone
 
 // Mods Removed //
 -Restricted Portals (No Longer Needed with Portal Keys)
+-Engimatic Gravestones
 
 // Quest Changes //
 -Removed Tier 0 group and moved 2 chapters outside
 -Emergency pizza changed to once every 10 minutes
 -Adjusted quests with keys for portals
 -Changed portals on Dimensional Travel page to match portal usage
+-Changed Creative Crate Quest to Infinity Upgrade
+-Getting Started and Create quests written
 
 // Config Changes //
 -Disabled automatic replant for Tree Harvester mod
@@ -30,7 +39,8 @@
 -Portals now require special keys
 -Reset JAMD configs to regenerate all ores and removed Silent's Ores
 -FTB Ultimine increased to 64 blocks
--Warmup times removed from FTB Essentials
+-Disabled /back and /spawn commands
+-Warmup for RTP and TPA set to 5s
 
 // Script Changes //
 -Enabled modded village trades
@@ -44,6 +54,8 @@
 -Removed Create Rolling recipes for ingot to plates
 -Removed duplicate Cinder Flour Recipe
 -Removed Agricraft Amethyst recipe
+-Creative Crate recipe changed to Infinity Upgrade
+-Coal Dust no longer 100% from Crusher
 
 ||Beta 0.6.1||
 

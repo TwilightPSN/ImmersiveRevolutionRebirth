@@ -50,7 +50,13 @@
 	quests: [
 		{
 			dependencies: ["1A7820CA8E752427"]
-			description: ["By taking the Andesite we've mined, it can be combined with minerals to create an alloy to start our kinetic machines. This allow will allow us to begin producing casings."]
+			description: [
+				"Once you’ve gathered enough Andesite, it’s time to combine it with other minerals to create a powerful Alloy. This alloy is the key to unlocking the first stages of kinetic machinery, allowing you to build essential components for automation and energy transfer."
+				""
+				"With the alloy in hand, you'll be able to start crafting Casings, which are crucial for enclosing and protecting your early machines. These casings will house your kinetic devices, ensuring they’re properly encased for safety and efficiency as you begin to power up your mechanical systems."
+				""
+				"Craft, combine, and start building—the world of kinetic energy is ready to take shape!"
+			]
 			id: "6F753FCA6748FBF0"
 			require_sequential_tasks: false
 			tasks: [{
@@ -64,7 +70,13 @@
 		}
 		{
 			dependencies: ["6F753FCA6748FBF0"]
-			description: ["Taking our Andesite Alloy, we can create the compents for starting our kinetic adventures. We will need an Andesite Casing to create the machines and shafts to connect them to our kinetic motion."]
+			description: [
+				"With Andesite Alloy in hand, we’re now ready to craft the components that will fuel our kinetic adventure. The first essential piece is the Andesite Casing, which will form the protective shell for our machines and ensure everything is properly enclosed and functional."
+				""
+				"To make the most of this power, we’ll also need Shafts—the connectors that transfer kinetic energy between different machines. These shafts link your powered devices to one another, allowing motion to flow from one machine to the next, setting the stage for the automation of your operations."
+				""
+				"Now that we’ve got the basics in place, the world of kinetic energy and Create-powered machinery is within reach. Let’s start building!"
+			]
 			id: "3BEACA2DE7728F3B"
 			require_sequential_tasks: false
 			tasks: [
@@ -85,7 +97,13 @@
 		}
 		{
 			dependencies: ["3BEACA2DE7728F3B"]
-			description: ["A Millstone is a starter way to grinding up our materials we gather. We can break them down into a finer substance to potentially gain more from what we have gathered."]
+			description: [
+				"A Millstone is one of the first machines that can significantly boost your resource efficiency. By using this simple yet effective tool, you can grind materials like ores, grains, and other resources into finer substances, often giving you extra yields from what you’ve gathered."
+				""
+				"For example, grinding ores might result in additional dust, which can then be smelted to yield more ingots. This means you get more value from the same amount of material—perfect for maximizing your resources early on."
+				""
+				"Set up your Millstone, feed it the raw materials, and watch as it turns your gathered resources into even greater rewards!"
+			]
 			id: "492689370B0F4731"
 			tasks: [{
 				id: "030877F13C9C2DF0"
@@ -98,7 +116,13 @@
 		}
 		{
 			dependencies: ["3BEACA2DE7728F3B"]
-			description: ["Before we have a machine to start producing the kinetic energy we need, we can use a Hand Crank to get these machines rolling. This will also be used to jump start our later machines if needed."]
+			description: [
+				"Before we dive into fully automated systems, we need a way to kickstart our machines. That’s where the Hand Crank comes in."
+				""
+				"This simple yet essential tool allows us to manually generate kinetic energy to power our early machines. By cranking it by hand, we can set the wheels in motion, jump-starting our mechanical systems and getting our operations rolling. The Hand Crank isn’t just for the early stages—it will also serve as a useful tool to kickstart later machines if they need a quick boost of energy."
+				""
+				"Turn the crank, feel the power, and watch your creations come to life!"
+			]
 			id: "36851BE0E8C197B9"
 			require_sequential_tasks: false
 			tasks: [
@@ -119,7 +143,13 @@
 		}
 		{
 			dependencies: ["492689370B0F4731"]
-			description: ["Grinding down our minerals multiple times provides us with a dirt dust we can cook into an ingot. We need to use the fan with water to clear our all the bad particles. The fan also has many other uses such as bulk smelting items when blowing through lava."]
+			description: [
+				"Grinding your minerals multiple times yields dirt dust, a byproduct that can be cooked into valuable ingots. But before you can get to that step, you need to cleanse the dust and separate the useful particles from the unwanted debris. This is where the Fan with water comes in."
+				""
+				"By placing the Fan in a setup with flowing water, you can wash away the bad particles, leaving you with the refined materials you need for smelting. But the Fan’s usefulness doesn’t end there—it also has the power to bulk smelt items when directed over lava, providing a faster, more efficient method for processing large quantities of materials."
+				""
+				"Use the Fan to both refine your resources and speed up your smelting process, making the entire operation more efficient and productive!"
+			]
 			id: "499522428D11BBAA"
 			require_sequential_tasks: false
 			tasks: [{
@@ -133,7 +163,13 @@
 		}
 		{
 			dependencies: ["3BEACA2DE7728F3B"]
-			description: ["Water wheels are one of our first methods to passive kinetic energy. Some water and a wooden wheel can go a long way."]
+			description: [
+				"Water wheels are one of the earliest and simplest ways to harness passive kinetic energy. By using the natural flow of water, you can generate consistent energy to power your machines with minimal input."
+				""
+				"A Wooden Water Wheel is placed in moving water, and as the water flows, it turns the wheel, generating kinetic energy. This is one of the easiest methods to get started with automation, and it can power a variety of early machines with little effort."
+				""
+				"With just some water and a wooden wheel, you can unlock the power of passive kinetic energy and start moving your mechanical systems forward. It’s a reliable, renewable source of energy that’ll serve you well as you build and expand your world!"
+			]
 			id: "2380E54A5C3D8DE1"
 			require_sequential_tasks: false
 			tasks: [{
@@ -147,6 +183,13 @@
 		}
 		{
 			dependencies: ["3BEACA2DE7728F3B"]
+			description: [
+				"When dealing with kinetic energy, moving it vertically or horizontally can be tricky, especially if you don’t have the right setup. That’s where Chain Drives and Gearboxes come into play."
+				""
+				"The Chain Drive links motion over a distance, while the Gearbox allows you to change the direction of the kinetic energy, whether it’s moving vertically or horizontally across your machine setups. Gearboxes make it possible to redirect motion and adapt to different orientations in your machinery, while the Chain Drive helps extend that motion across blocks."
+				""
+				"With these two components, you can easily transfer and adjust your kinetic energy, ensuring a smooth flow of motion wherever it’s needed, whether on the same level or multiple heights."
+			]
 			id: "636F68E40072AD9B"
 			require_sequential_tasks: false
 			tasks: [
@@ -166,12 +209,19 @@
 					type: "item"
 				}
 			]
+			title: "Moving Motion"
 			x: -6.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["3BEACA2DE7728F3B"]
-			description: ["With our systems getting in place, we can begin to work on compressing the ingots we have. The Mechanical Press will stamp our ingots into plates that will be used to further our advancements."]
+			description: [
+				"As your systems evolve and you gather more materials, you’ll need a way to compress and refine your resources. Enter the Mechanical Press—a crucial tool for stamping ingots into plates that are vital for further advancements in automation and machine crafting."
+				""
+				"By using the Mechanical Press, you can take your basic ingots and shape them into flat, usable plates, which are necessary for crafting more advanced machinery, tools, and components. This step significantly improves the efficiency of your production process, allowing you to create the parts needed for even more sophisticated builds."
+				""
+				"Set up your Mechanical Press, feed it your ingots, and watch as your resources are transformed into the foundation of your next big leap in technology!"
+			]
 			id: "0125871937D41659"
 			require_sequential_tasks: false
 			tasks: [
@@ -192,7 +242,15 @@
 		}
 		{
 			dependencies: ["0125871937D41659"]
-			description: ["Being able to easily rotate, disassemble and monitor our machines is crucial. Having a Wrench and Goggles will allow us to disect the machinery and manage everything properly."]
+			description: [
+				"As your mechanical systems grow more complex, it becomes essential to have tools that help you rotate, disassemble, and monitor your machines. This is where the Wrench and Goggles come into play."
+				""
+				"The Wrench is a versatile tool that lets you rotate machines, change their orientation, and disassemble components without causing damage. Whether you need to adjust the direction of a machine or reconfigure your setup, the Wrench will help you make quick, precise changes."
+				""
+				"The Goggles give you the ability to monitor your machines and understand their status. By wearing them, you can get a clear view of each machine’s function, making it easier to troubleshoot, ensure everything’s running smoothly, and optimize performance."
+				""
+				"With the Wrench to adjust and the Goggles to observe, you’ll have full control over your machines and their efficiency, keeping everything in top working condition."
+			]
 			id: "67ECCDF67AB9BAB1"
 			require_sequential_tasks: false
 			tasks: [
@@ -213,7 +271,13 @@
 		}
 		{
 			dependencies: ["3BEACA2DE7728F3B"]
-			description: ["When working with wood, our hands can only get so many planks from a log. With a Mechanical Saw, we can optimize the logs we gather and produce even more planks."]
+			description: [
+				"When working with wood, cutting logs by hand limits the number of planks you can get from each log. But with a Mechanical Saw, you can dramatically optimize the amount of wood you harvest, turning every log into a higher yield of planks."
+				""
+				"The Mechanical Saw is a key tool for automating your lumber processing, allowing you to cut through logs quickly and efficiently without breaking a sweat. With its ability to increase the output of each log, you’ll have a steady supply of planks for crafting, building, and powering your machines."
+				""
+				"Set up your Mechanical Saw, feed it logs, and watch as your wood supply multiplies effortlessly!"
+			]
 			id: "0F2E8D7DA23070FC"
 			require_sequential_tasks: false
 			tasks: [{
@@ -230,7 +294,13 @@
 				"75D693CEC7D6685A"
 				"289E79DDFD2D2544"
 			]
-			description: ["Our roller can be used to compress sand into a fine paper to polish items. This will allow creation of even more advanced equipment."]
+			description: [
+				"The Mechanical Roller not only helps with converting plates into rods, but it also plays a key role in refining sand into fine paper. This paper is essential for polishing items and creating a smoother finish on components, which is crucial for crafting more advanced equipment."
+				""
+				"By feeding sand into the roller, you can produce paper sheets that can be used in various crafting recipes. This process will allow you to refine your equipment and prepare for the creation of even more complex and precise machines. The fine paper will also be helpful in improving the efficiency and performance of your existing tools and machinery."
+				""
+				"With the Mechanical Roller now helping you craft both rods and fine paper, you’ll be well on your way to producing the advanced materials needed for your future technological breakthroughs!"
+			]
 			id: "1F652642467E9A58"
 			require_sequential_tasks: false
 			tasks: [
@@ -261,6 +331,13 @@
 				"1F652642467E9A58"
 				"7775FADFB311BFD9"
 			]
+			description: [
+				"Why spend your time manually crafting when the Deployer can do the work for you? The Deployer is a powerful tool that automates the crafting process, allowing you to focus on other tasks while it takes care of the repetitive work."
+				""
+				"To use the Deployer, simply supply it with a tool or component, and place the second component below it, either on a belt or depot. Once everything is in place, the Deployer will use kinetic energy to automatically craft items for you, saving you time and effort. This is perfect for crafting materials in bulk or automating tasks that would normally require constant attention."
+				""
+				"With the Deployer, you can streamline your crafting process and integrate it into your larger automated systems, allowing you to focus on expanding your technological empire. Let the Deployer handle the crafting while you focus on the bigger picture!"
+			]
 			id: "582C193207B94611"
 			require_sequential_tasks: false
 			tasks: [{
@@ -273,7 +350,13 @@
 		}
 		{
 			dependencies: ["0125871937D41659"]
-			description: ["Mechanical Belts allow us to use the kinetic motion to begin to automate our machines. Attached either end to a shaft and the belt will begin to move at the speed the shafts rotate."]
+			description: [
+				"Mechanical Belts are the key to starting your journey into automation. By connecting the belts to rotating shafts, you can transfer kinetic energy from one machine to another, enabling the automation of various tasks."
+				""
+				"Once attached, the belts will begin to move at the same speed as the rotating shafts. This motion is then used to power other machines, such as grinders, saws, or even assembly lines. Mechanical Belts make it possible to automate processes, reduce manual labor, and streamline your entire operation."
+				""
+				"By linking different machines together with belts, you can extend the power of your kinetic energy systems, turning them into an efficient, interconnected network that drives your machines without constant attention."
+			]
 			id: "34E47BB009AC7D5C"
 			require_sequential_tasks: false
 			tasks: [{
@@ -287,7 +370,13 @@
 		}
 		{
 			dependencies: ["2380E54A5C3D8DE1"]
-			description: ["Larger water wheels can be used to increase the SU that are handled. They move slower but handle more stress."]
+			description: [
+				"As your needs grow, so can your energy generation! Larger Water Wheels are the next step in maximizing your passive kinetic energy. While these wheels move slower than their smaller counterparts, they can handle significantly more stress and generate greater kinetic energy."
+				""
+				"These bigger wheels are perfect for powering more demanding machines or more complex setups. Though they take longer to spin up, their increased capacity ensures they can handle the heavy workloads of automation as you expand your operation."
+				""
+				"Upgrade to a larger water wheel, and enjoy a reliable source of energy that can support your growing mechanical empire, providing both strength and endurance as your needs evolve."
+			]
 			id: "30D33E535025EAD8"
 			tasks: [{
 				id: "1D7A390E57D5549F"
@@ -303,6 +392,13 @@
 				"582C193207B94611"
 				"5C1E3ACFD2F9C650"
 			]
+			description: [
+				"With the ability to craft Kiln Bricks, you're now ready to build an Alloy Kiln, which will greatly improve your efficiency in producing a variety of alloys. The Alloy Kiln allows you to combine raw materials to create essential alloys for your technological progress, such as Brass and other key resources, all within its specialized walls."
+				""
+				"Once you've constructed the Alloy Kiln, you can supply it with the necessary materials to begin alloy creation. This will allow you to produce alloys in bulk, saving time and resources compared to manual crafting methods."
+				""
+				"Set up your Alloy Kiln, feed it the required ingredients, and take advantage of its power to streamline your alloy production, which will be crucial for advancing through your technological journey!"
+			]
 			icon: "immersiveengineering:alloy_smelter"
 			id: "3DF334D3DF981D3D"
 			shape: "octagon"
@@ -315,12 +411,19 @@
 				to_observe: "immersiveengineering:alloy_smelter"
 				type: "observation"
 			}]
+			title: "Simple Alloying"
 			x: -2.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["3BEACA2DE7728F3B"]
-			description: ["Wind can be used as a passive generation source. This requires a complex build involving the strong glue and sails, but can be modified and improved."]
+			description: [
+				"Wind can be a powerful source of kinetic energy, offering a passive generation method for powering your machines. By setting up a wind-powered system, you can use sails to catch the wind and turn that motion into usable energy for your setups."
+				""
+				"To build a windmill, you’ll need strong glue to keep everything together and sails to capture the wind’s force. This setup may require a bit of complexity to assemble initially, but it will provide you with continuous motion as long as the wind blows."
+				""
+				"As you progress, you can modify and improve your windmill system, scaling it up for more power or optimizing it for different machine needs. With the wind at your back, your machines will keep running effortlessly, providing a renewable, passive source of kinetic energy."
+			]
 			id: "27E0AF46F908E6D9"
 			tasks: [
 				{
@@ -351,7 +454,13 @@
 		}
 		{
 			dependencies: ["0125871937D41659"]
-			description: ["With all of the systems we have going, fluid will be something we acquire in abundance. Fluid tanks will help store these. Fluid tanks are also utilized in steam engines for more rotational force."]
+			description: [
+				"As you advance in automation and energy production, you’ll find that fluids—whether water, lava, or steam—become essential to your systems. To manage and store these fluids, Fluid Tanks are a must-have."
+				""
+				"These tanks allow you to store large amounts of fluid safely and efficiently, ensuring that you have a steady supply for your machines and processes. In addition to storage, Fluid Tanks play a key role in Steam Engines, where they hold steam to generate additional rotational force, powering your machines with even greater efficiency."
+				""
+				"With the right setup, you’ll have fluid storage that supports your growing needs and a reliable energy source to keep your machines running smoothly. Store fluids, fuel steam engines, and keep your systems working at full capacity with Fluid Tanks!"
+			]
 			id: "4492B51A9C727D78"
 			tasks: [{
 				id: "39B4DE436D44D22B"
@@ -364,7 +473,13 @@
 		}
 		{
 			dependencies: ["4492B51A9C727D78"]
-			description: ["By connecting a Steam Engine to our fluid tanks, we can start to generate energy from steam power. This does, however, mean we need to heat this water in some way."]
+			description: [
+				"By connecting Steam Engines to Fluid Tanks, you can tap into the power of steam for your systems. The Fluid Tank stores the heated water or steam, which is then drawn by the Steam Engine to produce rotational force. This rotational energy can power various machines, giving you a sustainable and efficient energy source."
+				""
+				"However, to get the steam flowing, you’ll need to heat the water in the tank. This can be achieved through fuel-burning sources like a furnace or lava, or you can explore other heating methods. Once the water turns into steam, the engine will convert that energy into rotational motion, driving your systems."
+				""
+				"With the right setup, you’ll have a reliable and scalable power system that harnesses the potential of steam energy to fuel your growing mechanical empire."
+			]
 			id: "49A2F592D12DC5A5"
 			tasks: [{
 				id: "6EC59B566C9FC00B"
@@ -377,7 +492,15 @@
 		}
 		{
 			dependencies: ["49A2F592D12DC5A5"]
-			description: ["In order to move our fluids around, we need pipes and pumps. pumps will pull or push the fluids into the connected pipes."]
+			description: [
+				"To efficiently move fluids between Fluid Tanks, Steam Engines, and other machines, you'll need a system of Pipes and Pumps."
+				""
+				"The Pipes are used to transport the fluids from one location to another, allowing you to create networks that connect various machines, storage, and energy sources. These pipes can be routed through your base, ensuring fluids are delivered exactly where they’re needed."
+				""
+				"The Pumps, on the other hand, are the active components that push or pull fluids into the connected pipes. Whether you're extracting fluids from a tank or pushing them into a steam engine or other machines, pumps make sure the flow stays consistent and controlled."
+				""
+				"Together, pipes and pumps form an essential part of your fluid management system, enabling you to move fluids efficiently and power your machines without interruption. Set them up, and let your fluid network keep everything running smoothly!"
+			]
 			id: "4D0E448D7C9C75F4"
 			tasks: [
 				{
@@ -397,7 +520,13 @@
 		}
 		{
 			dependencies: ["36851BE0E8C197B9"]
-			description: ["For some machines, our tiny Cogwheel just won't cut it. Creating a larger cogwheel will allow handling of faster kinetic motion."]
+			description: [
+				"As you progress in your kinetic journey, you'll quickly realize that the tiny Cogwheel just won’t be able to handle the increasing demands of faster motion. To accommodate more powerful, high-speed machines, you'll need to craft a Larger Cogwheel."
+				""
+				"The larger cogwheel allows for the transfer of faster kinetic energy while maintaining stability, enabling you to power more complex systems without overloading your machines. By upgrading to these bigger gears, you unlock the potential to run more intricate and efficient setups, moving your automation to the next level."
+				""
+				"Craft your larger cogwheels and embrace the power of speed as you take your mechanical systems to new heights!"
+			]
 			id: "2CAAA679089FD1CF"
 			tasks: [{
 				id: "00C734E1FEA7CB99"
@@ -410,7 +539,13 @@
 		}
 		{
 			dependencies: ["0125871937D41659"]
-			description: ["The Mechanical Mixer gets us entered into a new world of resource generation. We can begin to create new materials and liquids within the basin below."]
+			description: [
+				"The Mechanical Mixer opens the door to a whole new world of resource generation and material creation. With this machine, you can combine different ingredients in the basin below to create new materials and liquids essential for further advancements in your technology."
+				""
+				"By feeding the correct ingredients into the mixer, you can craft alloys, compounds, and even new liquids that will fuel your next steps in automation, machinery, and energy production. The power of the Mechanical Mixer lies in its ability to combine resources in ways that were previously unavailable, letting you create the building blocks for more complex systems and machines."
+				""
+				"Get your Mechanical Mixer set up, experiment with new combinations, and start creating the resources that will take your adventure to the next level!"
+			]
 			id: "660794159EA5572C"
 			tasks: [
 				{
@@ -430,7 +565,13 @@
 		}
 		{
 			dependencies: ["660794159EA5572C"]
-			description: ["Creosote allows us to make our planks and materials into a sturdier version. We will need a surplus of this to begin moving forward into our multi-block machinery."]
+			description: [
+				"Creosote is a key resource for strengthening your materials, especially your planks and wooden components. By infusing your materials with creosote, you can create a sturdier version that will be essential for building multi-block machinery and other advanced structures."
+				""
+				"To get started, you’ll need to produce a surplus of creosote, as it will be required in large quantities for crafting stronger building materials and components. This will enable you to move forward into the more complex multi-block machines, which will require these improved materials for their construction."
+				""
+				"Focus on generating and storing creosote early on to ensure you have enough to fuel your progress into larger and more sophisticated builds. With stronger planks and components, your machines will become more resilient and capable of handling the demands of your growing automation system!"
+			]
 			id: "165BA06960C5C2AB"
 			shape: "gear"
 			size: 1.0d
@@ -445,7 +586,15 @@
 		}
 		{
 			dependencies: ["165BA06960C5C2AB"]
+			description: [
+				"With Creosote in hand, you're now ready to create Treated Wood Planks, a sturdier material that's essential for crafting more durable and powerful machinery. To make these planks, you'll need to use a spout, which will allow you to infuse the wood with creosote, turning it into treated wood."
+				""
+				"These Treated Wood Planks are not only stronger than regular planks but are also crucial in the construction of more advanced machines, multi-block structures, and other complex crafting recipes. As you move forward, these treated planks will become an integral part of your build, allowing your machines and equipment to handle the increased demands of your growing technological empire."
+				""
+				"Start producing treated wood as soon as possible to ensure you have a sturdy base for all your future constructions, and keep your systems running smoothly as you progress into larger-scale machinery!"
+			]
 			id: "11BCD612FAD8E339"
+			subtitle: "Squirting Out"
 			tasks: [{
 				id: "2BD6ABD53968F98F"
 				item: "create:spout"
@@ -456,18 +605,32 @@
 		}
 		{
 			dependencies: ["3DF334D3DF981D3D"]
+			description: [
+				"With your Alloy Kiln up and running, it's time to start producing Brass in bulk. Brass is a key material in advancing your technology and crafting essential components for your machines and automation systems. Whether you're creating mechanical components, pipes, or other specialized parts, you will need a steady supply of Brass to continue progressing."
+				""
+				"To produce Brass in large quantities, make sure your Alloy Kiln is properly supplied with the right materials, such as Copper and Zinc. The Kiln will combine them into Brass, allowing you to gather a plentiful amount for your future projects."
+				""
+				"Focus on scaling up your Brass production to ensure you have enough for the various advanced machines, tools, and systems you'll be building as you continue to expand your technological empire. Brass will be a cornerstone of your crafting needs, so start generating it in bulk now to stay ahead in your journey!"
+			]
 			id: "252BCFE557632122"
 			tasks: [{
 				id: "01CB77B4A9AC9F2D"
 				item: "create:brass_ingot"
 				type: "item"
 			}]
+			title: "Consistent Brass"
 			x: -1.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["660794159EA5572C"]
-			description: ["Getting brass is rough to start with. We will need to use more resources and will only generate a single nugget. This will improve as we get further technology."]
+			description: [
+				"In the early stages of your adventure, obtaining brass can be a bit of a challenge. You’ll need to combine zinc and copper, but the process will only generate a single brass nugget at first, which isn’t much for your growing needs. This limited output can slow down your progress as you try to advance through your technology."
+				""
+				"However, as you continue to develop and unlock more advanced machines and processes, your ability to generate brass more efficiently will improve. With new tools, mixers, and automation, you’ll be able to produce brass in larger quantities, speeding up your progress and unlocking new opportunities in your technological journey."
+				""
+				"Start small with your brass production, but know that your systems will grow and improve over time, allowing you to produce more as you advance in your quest!"
+			]
 			id: "7775FADFB311BFD9"
 			tasks: [{
 				id: "7CD1328C854E8072"
@@ -480,7 +643,13 @@
 		}
 		{
 			dependencies: ["660794159EA5572C"]
-			description: ["Steel is such a powerful resource in the production of machines. We will use this in almost every piece of equipment we develop. We must produce nuggets to start and get rolling but will begin to make ingots and use less resources later on."]
+			description: [
+				"At the start of your journey, steel will be an incredibly resource-draining material. You'll need to produce steel nuggets, and these require a significant amount of resources to create. These nuggets will be used in your initial equipment, but due to the high resource cost, your steel production will be slow and costly early on."
+				""
+				"As you progress and improve your production systems, you’ll move towards creating steel ingots, which are more cost-effective and will help reduce the strain on your resources. This transition will allow you to produce larger quantities of steel with fewer materials, making your future creations more sustainable."
+				""
+				"While steel is essential for advanced machines, getting the resources you need to make it will be a challenge in the beginning. Focus on gathering a surplus of raw materials early on, as you’ll need them to fuel your steel production until you can streamline the process and use ingots more efficiently later on."
+			]
 			id: "0B5E7A2FDA4CA4FB"
 			tasks: [{
 				id: "4F532A7CBC005080"
@@ -493,7 +662,13 @@
 		}
 		{
 			dependencies: ["510ABFA37AE208DF"]
-			description: ["With our Nether portal built and activated with the key, we gain access to The Nether. We can gather a whole new slew of resources and mob drops within this dimension."]
+			description: [
+				"With your Nether portal now built and activated using the Nether Key, you've unlocked access to one of the most dangerous and resource-rich dimensions in the game: The Nether."
+				""
+				"In this new, fiery world, you'll find a wide array of new resources and mob drops that will be essential for your progress. Nether Quartz, Glowstone, and Blaze Rods are just a few examples of the valuable materials you'll need to fuel your machines and craft more advanced equipment. You’ll also encounter powerful Nether mobs like Blazes, Ghasts, and Magma Cubes, whose drops can provide key materials for your progression."
+				""
+				"Exploring The Nether will open up new crafting options and technological advancements while also testing your combat skills and survival tactics. Prepare to venture deeper into this hostile environment, gather the resources you need, and uncover new possibilities for your machines and systems!"
+			]
 			hide_dependent_lines: true
 			id: "75D693CEC7D6685A"
 			tasks: [{
@@ -507,7 +682,13 @@
 		}
 		{
 			dependencies: ["0125871937D41659"]
-			description: ["A Mechanical Roller will allow us to take our plates and convert them into rods. These rods will be used to produce more machines."]
+			description: [
+				"The Mechanical Roller is essential for refining your materials and creating more advanced components. With the power of kinetic energy, this tool allows you to convert plates into rods, which are crucial for building more complex machinery and expanding your automation."
+				""
+				"Simply feed plates into the roller, and it will transform them into rods that can be used to craft additional machines and enhance your systems. These rods are a key part of progressing in your technological journey, as they’ll be required for assembling more intricate components and machinery."
+				""
+				"Set up your Mechanical Roller, and start converting plates into rods, paving the way for even greater advancements in your mechanical adventure!"
+			]
 			id: "289E79DDFD2D2544"
 			tasks: [{
 				id: "0A7F9DD9B3B82BF9"
@@ -520,51 +701,85 @@
 		}
 		{
 			dependencies: ["252BCFE557632122"]
+			description: [
+				"Some of the more advanced crafts in your journey require complex assembly that a simple crafting table just can’t handle. This is where the Mechanical Crafter system becomes invaluable. By automating the crafting process, you can build items that are too complicated to craft by hand, saving you time and effort."
+				""
+				"To use the Mechanical Crafter, place the required materials on the crafter boards. Then, simply apply a redstone signal, and the Mechanical Crafter will begin assembling the components automatically. The crafters work in sync, creating the complex items you need with precision and efficiency."
+				""
+				"This system is perfect for handling intricate recipes and will integrate seamlessly into your automated systems. Set up the Mechanical Crafter, connect it to your power sources, and let it handle the heavy lifting for your more complicated crafting needs. This will keep your operations flowing smoothly as you push forward in your technological adventure!"
+			]
 			id: "27F37B9E48984AD7"
 			tasks: [{
 				id: "25C0C94075F4557E"
 				item: "create:mechanical_crafter"
 				type: "item"
 			}]
+			title: "Crafting Crazy"
 			x: -0.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["27F37B9E48984AD7"]
+			description: [
+				"While the Millstone is useful for grinding materials, the Crushing Wheels provide a much stronger solution for breaking down even the toughest resources. These machines are built to handle heavy-duty processing, but they come with a downside—Crushing Wheels are far from delicate."
+				""
+				"Due to their powerful mechanics, there is a risk that some materials could be lost in the process. While effective, they don’t always yield 100% of the resources you put in. Use the Crushing Wheels wisely to maximize their efficiency, but be prepared for some potential waste when breaking down tougher materials."
+			]
 			id: "5ABFAA79C02431C7"
 			tasks: [{
 				id: "0ABD667CE6E8AA79"
 				item: "create:crushing_wheel"
 				type: "item"
 			}]
+			title: "Breaking Bones"
 			x: 0.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["27F37B9E48984AD7"]
+			description: [
+				"In the Create mod, producing materials relies heavily on the heat we can supply to our machinery. Blaze Burners allow us to capture a Blaze from the Nether and harness their energy to power equipment."
+				""
+				"By placing the Blaze in the Blaze Burner, it generates the necessary heat to fuel various machines and smelting processes. This is an efficient way to power your systems, but be prepared—managing these Blazes needs resources!"
+			]
 			id: "0B9B63389931F8CD"
 			tasks: [{
 				id: "1DF6BC618D3FA8F1"
 				item: "create:empty_blaze_burner"
 				type: "item"
 			}]
+			title: "Blaze Bonanza"
 			x: 0.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["5ABFAA79C02431C7"]
+			description: [
+				"The Crushing Wheels can be used to break down coal through brute force, giving you access to coal dust. This coal dust is a valuable resource, as it can be combined with Creosote to create early Coke Dust, a key material for advancing your resource processing."
+				""
+				"This method is efficient but comes with the usual risks of using the Crushing Wheels—potential material loss. However, it’s a fast way to get your hands on Coke Dust, which is crucial for progressing into more advanced smelting and alloy crafting."
+			]
 			id: "7E35C3054ADB7374"
 			tasks: [{
 				id: "4E50ED896C426427"
 				item: "immersiveengineering:dust_coke"
 				type: "item"
 			}]
+			title: "Coal Collection"
 			x: 1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["75D693CEC7D6685A"]
-			description: ["Within the Nether, we will find Soul Sand and Wither Skeletons. We will need to gather a surplus of these items to summon The Wither and collect many Nether Stars."]
+			description: [
+				"As you venture through the Nether, you’ll come across Soul Sand and Wither Skeletons, both essential for summoning The Wither."
+				""
+				"To prepare, you’ll need to gather a surplus of Soul Sand and Wither Skeleton Skulls. In the Nether, all skeletons you encounter will be Wither Skeletons, and they drop Wither Skeleton Skulls when defeated. Be ready for tough combat, as these skeletons are formidable opponents and can be found throughout the Nether."
+				""
+				"Once you have enough Soul Sand and Wither Skeleton Skulls, you’ll be able to summon The Wither. Defeating it will drop Nether Stars, which are crucial for crafting Beacons and other advanced equipment."
+				""
+				"Gather your resources, prepare for battle, and get ready to face The Wither and unlock powerful rewards for your journey!"
+			]
 			id: "1201B29D3A11C204"
 			tasks: [
 				{
@@ -586,7 +801,13 @@
 		}
 		{
 			dependencies: ["1201B29D3A11C204"]
-			description: ["With Nether Quartz in hand and access to a Nether Star, we can create a key to access the Nether Mining Dimmension. This will allow us to strip mine more effectively for materials we may need."]
+			description: [
+				"With Nether Quartz and a Nether Star in hand, you're ready to craft a key that will unlock access to the Nether Mining Dimension. This dimension will give you a safe and effective space for strip mining and collecting materials without the usual dangers of the Nether."
+				""
+				"The Nether Mining Dimension provides a controlled environment where you can mine resources like Nether Quartz, Soul Sand, and other valuable materials. The absence of hostile mobs and hazardous terrain makes it the perfect location for efficiently gathering resources for your technological needs."
+				""
+				"Craft the key using Nether Quartz and a Nether Star, and step into this new dimension to enhance your mining operations and gather all the materials you need for your progress!"
+			]
 			id: "66440D61AD3ECFBC"
 			tasks: [
 				{
@@ -607,28 +828,49 @@
 		}
 		{
 			dependencies: ["27F37B9E48984AD7"]
+			description: [
+				"With an Alternator now in hand, you have access to your very first method of generating electrical energy from rotational force. The Alternator takes the kinetic energy from your machines and converts it into usable electrical energy, which is essential for powering more advanced systems and machinery."
+				""
+				"At this early stage, you’ll find that you need a lot of power to keep your machines running smoothly. From powered resource miners to more complex automation systems, electrical energy will become the backbone of your technological advancements. The Alternator is the starting point for converting your rotational energy, and as you scale up your operations, you’ll need to increase your energy production to meet the growing demand."
+				""
+				"Set up your Alternator, connect it to your kinetic systems, and start producing electrical energy. This is just the beginning of your journey into power generation, and you’ll soon see that having a reliable energy source will be key to unlocking even more advanced technologies!"
+			]
 			id: "776398BD6BADD04E"
 			tasks: [{
 				id: "0357964FD25C85E8"
 				item: "createaddition:alternator"
 				type: "item"
 			}]
+			title: "Rotational Power"
 			x: -0.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["776398BD6BADD04E"]
+			description: [
+				"With the Tesla Coil in your arsenal, you're now equipped with a powerful tool for manipulating blocks and minerals using electrical energy. The Tesla Coil can charge specific blocks and materials, changing their state into something entirely new when provided with power. This makes it an essential tool for transforming resources and unlocking new possibilities in your technological progression."
+				""
+				"By supplying the Tesla Coil with electrical energy, you can alter the properties of blocks and minerals, allowing for the creation of more advanced materials or new crafting options. This functionality adds an entirely new layer to your resource processing, giving you the ability to upgrade or convert basic materials into something much more useful."
+				""
+				"Connect your Tesla Coil to a power source, and start experimenting with what you can charge and change. This technology opens up new avenues for crafting and resource management, further expanding your capabilities as you continue your adventure!"
+			]
 			id: "64F5495E1A5DFC9A"
 			tasks: [{
 				id: "03DC5C378249169D"
 				item: "createaddition:tesla_coil"
 				type: "item"
 			}]
+			title: "Zappy Zap"
 			x: -0.5d
 			y: -2.0d
 		}
 		{
 			dependencies: ["7238E258FDDBD561"]
+			description: [
+				"Certus Quartz is essential for advancing into the digital storage era. Inside the meteors you find, you'll discover Certus Buds, which can be harvested to provide the materials needed for crafting Certus Quartz."
+				""
+				"This material is key to progressing into more advanced storage systems like Applied Energistics 2, allowing you to store and manage large amounts of items with efficiency."
+			]
 			id: "03835B0AAF486B09"
 			tasks: [{
 				id: "00D67D3800EA7997"
@@ -642,22 +884,34 @@
 				title: "Any #forge:gems/certus_quartz"
 				type: "item"
 			}]
+			title: "Breaking Buds"
 			x: 0.5d
 			y: -4.0d
 		}
 		{
 			dependencies: ["64F5495E1A5DFC9A"]
+			description: [
+				"With a powered Tesla Coil, you can charge a compass to guide you toward falling meteors. These meteors contain valuable materials and tools required to unlock more advanced storage systems, such as Applied Energistics 2."
+				""
+				"The charged compass will lead you directly to the meteors, allowing you to gather the resources needed to further your technological progress and expand your storage capabilities."
+			]
 			id: "7238E258FDDBD561"
 			tasks: [{
 				id: "65A211BB1C58471F"
 				item: "ae2:meteorite_compass"
 				type: "item"
 			}]
+			title: "Meteor Madness"
 			x: 0.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["776398BD6BADD04E"]
+			description: [
+				"Accumulators are our first block for storing electrical energy. By connecting them to your power generators through cabling, they allow you to accumulate energy for later use. This is essential for maintaining a steady power supply, especially during periods when your generators aren’t producing enough energy."
+				""
+				"With Accumulators, you can store up energy and draw from it when needed, ensuring your machines continue to run smoothly even during downtime or power shortages."
+			]
 			id: "5FC594E072F963F2"
 			tasks: [{
 				count: 4L
@@ -665,22 +919,36 @@
 				item: { Count: 4, id: "createaddition:modular_accumulator" }
 				type: "item"
 			}]
+			title: "Storing Electricity"
 			x: 0.5d
 			y: -2.0d
 		}
 		{
 			dependencies: ["776398BD6BADD04E"]
+			description: [
+				"The Electric Motor is a crucial component that converts electrical energy into kinetic motion, providing the necessary rotational force to power your machines. Once connected to a power source, the motor can drive various devices, allowing you to automate processes and run more complex systems."
+				""
+				"This device marks an important milestone in your energy production journey, as it enables you to transition from basic kinetic systems to electrical-powered automation. As you expand your operations, the Electric Motor will be essential in scaling up your production and enhancing efficiency."
+			]
 			id: "378D0AAEBF5DF0A8"
 			tasks: [{
 				id: "2E4AAAE64FD85455"
 				item: "createaddition:electric_motor"
 				type: "item"
 			}]
+			title: "Power Downgrade"
 			x: 0.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["11BCD612FAD8E339"]
+			description: [
+				"Sometimes, you need pressurized air in locations that are far from your machines producing it. The Backtank provides an excellent solution. By giving it rotational force, it can store pressurized air, allowing you to carry it with you and use it where needed, even if it's far from the source."
+				""
+				"The Backtank acts as a portable reservoir, enabling you to move pressurized air across your base or on your adventures, without the need for a direct connection to your machinery. This makes it easier to set up machines in more distant areas or areas that aren't directly next to your power systems."
+				""
+				"With the Backtank, you'll have greater flexibility in your setup, ensuring that pressurized air is always available when you need it, no matter where you are in your world."
+			]
 			id: "3CB496E8E1B8ABF2"
 			tasks: [{
 				id: "726A72ECAC71E646"
@@ -692,11 +960,19 @@
 				match_nbt: false
 				type: "item"
 			}]
+			title: "Mobile Pressure"
 			x: -1.5d
 			y: -2.0d
 		}
 		{
 			dependencies: ["3CB496E8E1B8ABF2"]
+			description: [
+				"After acquiring the Elytra and mastering the use of the Backtank for storing pressurized air, you can craft a Jetpack by combining the two. The Elytra will be the key ingredient that turns your standard Backtank into a functional Jetpack, granting you the ability to fly with the power of pressurized air."
+				""
+				"By combining the Elytra with your Backtank and a few other necessary materials, you can craft the Jetpack, allowing you to take flight whenever you choose. The pressurized air stored in the Backtank will now fuel your flight, giving you complete control over your movement through the skies."
+				""
+				"With your new Jetpack, powered by the Elytra and pressurized air, you'll have the freedom to soar across your world, explore new heights, and travel with unparalleled speed!"
+			]
 			id: "4970997693A84D4E"
 			tasks: [{
 				id: "2023F96CA80F37E5"
@@ -708,23 +984,38 @@
 				match_nbt: false
 				type: "item"
 			}]
+			title: "Fly Away!"
 			x: -1.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["27F37B9E48984AD7"]
+			description: [
+				"With your Mechanical Crafter set up in a 9x9 configuration, you're ready to automate more than just tool crafting. One of the key machines you can now produce is the Workbench, which runs on electrical energy and plays a pivotal role in creating powered resource miners."
+				""
+				"The Workbench takes the electrical energy you provide and crafts powered resource miners, tools that will help you gather resources more efficiently. These miners are much more effective than manual mining, allowing you to gather materials at a faster rate and automate resource collection. With powered resource miners in your system, you can start expanding your base and processing more materials without needing to constantly dig and collect by hand."
+				""
+				"Set up the Workbench, supply it with the necessary energy, and begin producing powered resource miners. This is the first step toward fully automating your resource acquisition, freeing up your time to focus on even bigger technological advancements!"
+			]
 			id: "3BA75F6038555CD8"
 			tasks: [{
 				id: "701C8A2E99C2B110"
 				item: "quarryplus:workbench"
 				type: "item"
 			}]
+			title: "Automated Mining"
 			x: -0.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["66440D61AD3ECFBC"]
-			description: ["With our portal built and key utilized, we now have access to an endless dimension of Nether resources without the fear of lava or mobs."]
+			description: [
+				"With your portal built and the key crafted, you now have access to an endless dimension filled with Nether resources—without the dangers of lava or hostile mobs. The Nether Mining Dimension provides a safe, controlled environment where you can mine to your heart's content."
+				""
+				"This dimension is perfect for gathering Nether Quartz, Soul Sand, and other valuable resources without having to worry about navigating hazardous terrain or fending off dangerous mobs. The lack of environmental hazards allows you to focus entirely on mining and resource collection, making it the ideal place for strip mining and ensuring you never run out of essential materials."
+				""
+				"Step through your portal and begin your mining adventure in this endless, mob-free dimension, where valuable resources await at every turn!"
+			]
 			id: "0877B7E49CB54FD3"
 			tasks: [{
 				dimension: "jamd:nether"
@@ -738,9 +1029,11 @@
 		{
 			dependencies: ["0B5E7A2FDA4CA4FB"]
 			description: [
-				"With access to Steel, we can gain access to The Nether. We can craft a Nether Key and gather some Sculk from underground to build a portal to The Nether."
+				"With the power of Steel now at your disposal, you can take your adventure to the next level and gain access to The Nether. Standard Nether portals may be disabled, but there’s an alternative method for reaching the fiery depths of this dimension."
 				""
-				"&oStandard Nether Portals are DISABLED&r"
+				"By crafting a Nether Key with your newly acquired Steel, and gathering Sculk from the underground, you’ll be able to construct a special portal that will take you directly into The Nether. This will require a bit of preparation and careful crafting, but once completed, you’ll open the gateway to a world full of new resources, dangerous mobs, and valuable materials."
+				""
+				"Prepare for your journey to The Nether, as it will be a crucial part of your technological advancement, where you can gather powerful resources like Glowstone, Nether Quartz, and Blaze Rods, essential for further progress in your adventure."
 			]
 			id: "510ABFA37AE208DF"
 			tasks: [

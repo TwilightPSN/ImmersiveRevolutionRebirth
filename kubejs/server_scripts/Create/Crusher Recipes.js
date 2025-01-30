@@ -20,7 +20,7 @@ ServerEvents.recipes(IRRebirth => {
     IRRebirth.recipes.create.crushing(['mekanism:dirty_dust_copper', Item.of('mekanism:dirty_dust_copper').withChance(0.50)], 'create:crushed_raw_copper')
     IRRebirth.recipes.create.crushing(['mekanism:dirty_dust_iron', Item.of('mekanism:dirty_dust_iron').withChance(0.50)], 'create:crushed_raw_iron')
     IRRebirth.recipes.create.crushing(['jaopca:mekanism_dirty_dusts.zinc', Item.of('jaopca:mekanism_dirty_dusts.zinc').withChance(0.50)], 'create:crushed_raw_zinc')
-    IRRebirth.recipes.create.crushing(['mekanism:dust_coal', Item.of('mekanism:dust_sulfur').withChance(0.25)], '#minecraft:coals')
+    IRRebirth.recipes.create.crushing([Item.of('mekanism:dust_coal').withChance(0.8), Item.of('mekanism:dust_sulfur').withChance(0.25)], '#minecraft:coals')
     IRRebirth.recipes.create.crushing([Item.of('ae2:certus_quartz_dust').withChance(0.25)], '#forge:gems/certus_quartz')
     IRRebirth.recipes.create.crushing([Item.of('ae2:fluix_dust').withChance(0.25)], '#forge:gems/fluix')
     IRRebirth.recipes.create.crushing(['mekanism:dust_obsidian', Item.of('mekanism:dust_obsidian').withChance(0.25)], 'minecraft:obsidian')
