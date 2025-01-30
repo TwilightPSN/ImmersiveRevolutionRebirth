@@ -8,7 +8,7 @@
 -Basic End Ores
 -Alex's Mobs
 -Corail Tombstones
-=Alex's Mobs - Naturalist Compat
+-Alex's Mobs - Naturalist Compat
 
 // Mods Updated //
 -FTB Quests
