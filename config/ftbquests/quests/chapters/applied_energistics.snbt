@@ -30,7 +30,11 @@
 	quests: [
 		{
 			dependencies: ["1AAF8C310BB892B1"]
-			description: ["One of the best ways to keep up with our digital storage is to make a storage bus. This bus can connect to our Storage Controller from our chest system and allow us to upgrade from the basic Simple Storage Network we were using,"]
+			description: [
+				"To smoothly transition into our advanced digital storage network, we need a Storage Bus. This vital component connects our Storage Controller from the Simple Storage Network, allowing seamless access to all our chests and existing storage."
+				""
+				"By integrating the Storage Bus, we eliminate the need for constant manual transfers, making our digital system much more efficient. This upgrade ensures that all items stored in chests are easily accessible within our ME network, helping us manage resources effortlessly as we continue expanding."
+			]
 			id: "5253FE03D294AB57"
 			rewards: [{
 				id: "6A33FE7622938F90"
@@ -51,7 +55,11 @@
 				"7B0F71B2E191845D"
 				"7238E258FDDBD561"
 			]
-			description: ["Inside the meteor we located, there should have be a strange core that you broke and looted. This would have provided you with a slew of presses. You will use these presses in an Inscriber to produce circuits for our digital system."]
+			description: [
+				"Within the meteor we discovered, there was a Mysterious Cube that, when broken, provided us with a collection of Presses. These presses are essential for crafting the circuits needed to advance our digital storage system."
+				""
+				"To utilize them, we must construct an Inscriber. This machine allows us to process raw materials into advanced circuits by combining the presses with key resources. Circuits play a crucial role in expanding and automating our ME network, making this an important step toward a fully digital inventory."
+			]
 			id: "0AA2F1B9EDB6605E"
 			tasks: [{
 				id: "3271B42DC76FFFE0"
@@ -64,7 +72,11 @@
 		}
 		{
 			dependencies: ["0AA2F1B9EDB6605E"]
-			description: ["Chests everywhere, items disorganzied, space being taken...where do we start? Time to get an ME Drive built so we can eliminate these chests and start to store everything in a digital format."]
+			description: [
+				"With all the clutter from chests, items scattered everywhere, and limited storage space, it's time for a serious upgrade! The ME Drive is our solution to the storage mess. This device allows us to store items digitally, removing the need for endless chests and vastly improving organization."
+				""
+				"By installing the ME Drive, we can start converting physical items into digital storage, making them easy to access and retrieve. You’ll be able to store and manage all your items in a much more efficient, compact, and scalable way. This is the first step towards a truly digital and automated storage system!"
+			]
 			id: "6ACABDB12C4824B6"
 			tasks: [{
 				id: "1CE20185D5645109"
@@ -77,7 +89,11 @@
 		}
 		{
 			dependencies: ["0AA2F1B9EDB6605E"]
-			description: ["In order to properly utilized our digital network, we are going to want a crafting terminal. This is crucial to being able to not only access our network , but to craft within it. To get started, you are going to need to have a chonky terminal so you can properly connect a wire network but as we advance this can be replaced with the modern screen."]
+			description: [
+				"To truly harness the power of our digital network, we’ll need a Crafting Terminal. This machine is essential for both accessing our network and crafting items directly from it. At first, you’ll start with a basic terminal, which connects to your network through wiring, giving you the ability to access items and craft them on the spot."
+				""
+				"As we progress, you’ll have the option to upgrade this to a modern screen, which offers more better connectivity. The Crafting Terminal will become one of your core tools for automating and managing your resources efficiently!"
+			]
 			id: "57B3C17EF15A6EB4"
 			tasks: [{
 				id: "520C8B278FF5D28A"
@@ -97,7 +113,11 @@
 		}
 		{
 			dependencies: ["1AAF8C310BB892B1"]
-			description: ["Getting our storage system powered is simple to begin with. We have a simple Energy Acceptor to take in the power and a ME Terminal to display the network. The Crystal Resonance Generator will generator enough power to keep this simple system running. You can even utilize down the road when you begin to run simple AD Hoc networks."]
+			description: [
+				"Getting our digital storage system operational is straightforward in the early stages. The Energy Acceptor converts external power into a form our ME system can use, while the ME Terminal provides access to the stored items within the network."
+				""
+				"To keep this simple setup powered, we can use a Crystal Resonance Generator. This generator produces enough energy to sustain a basic ME system, ensuring smooth operation. Even as our network grows, this generator remains useful for running small, ad hoc storage setups when needed."
+			]
 			id: "7B0F71B2E191845D"
 			tasks: [{
 				id: "55172E1F2B1AF2EA"
@@ -113,7 +133,11 @@
 				"57B3C17EF15A6EB4"
 				"1C77BC5EF2916F72"
 			]
-			description: ["With the system running off our wires, it can get quite chaotic. It's time to upgrade to some Glass ME Cables and get even more organized."]
+			description: [
+				"As your digital network expands, the wires can quickly become cluttered and difficult to manage. Glass ME Cables provide a sleek and more organized solution for connecting all your devices in the system. These cables not only look cleaner but also offer the same functionality as regular ME cables, with the added benefit of allowing you to see the connections and layout of your network more clearly."
+				""
+				"This upgrade will help improve the overall appearance and organization of your ME system, making it easier to manage and troubleshoot as you continue to expand your technological capabilities."
+			]
 			id: "34BD90F4B17072D2"
 			shape: "octagon"
 			tasks: [{
@@ -128,9 +152,9 @@
 		{
 			dependencies: ["0AA2F1B9EDB6605E"]
 			description: [
-				"While the Energy Acceptor can run an ME system, it has its limitations. An ME Controller will use less power to keep your system running. It also allows you greater access to managing the channels of your ME network."
+				"While the Energy Acceptor can provide power to your ME system, it can be inefficient and limited in terms of control. The ME Controller improves on this by using less power and giving you greater control over your system's channels."
 				""
-				"NOTE: ME Channels are set to 4x"
+				"The ME Controller allows you to manage and route energy and items more effectively within your network. With ME Channels set to 4x, you can handle more devices and connections with ease, optimizing your setup for greater scalability and efficiency. This is a key component for expanding your digital storage network as you progress."
 			]
 			id: "22F3F63D08B38C13"
 			tasks: [{
@@ -144,7 +168,11 @@
 		}
 		{
 			dependencies: ["7B0F71B2E191845D"]
-			description: ["When power begins to flow and be used by all of our machines, we can find scenarios where we do not have enough to keep everything running. Placing an Energy Cell within our network will allow us to have a buffer of energy to keep the system running if power runs low."]
+			description: [
+				"As we ramp up our machines and power consumption, we may run into situations where our energy supply isn’t quite enough to keep everything running smoothly. This is where Energy Cells come into play. By placing an Energy Cell within our network, we create a power buffer that can store excess energy and provide it to our machines when the power supply is low."
+				""
+				"This ensures that our system can run continuously without interruptions, giving us the breathing room needed to keep things running even in power-demanding situations. Make sure to keep your Energy Cells charged and ready to step in when needed!"
+			]
 			id: "331CEDFB8C544C09"
 			tasks: [{
 				id: "01EF7274694E8E21"
@@ -161,18 +189,28 @@
 		}
 		{
 			dependencies: ["03835B0AAF486B09"]
+			description: [
+				"Fluix Crystals are essential for advancing our digital storage and automation. These crystals form through a chemical reaction between Charged Certus Quartz, Redstone, and Nether Quartz."
+				""
+				"To create them, simply toss these ingredients into water, and after a short time, they will react and transform into Fluix Crystals. Be mindful of any magnet-based equipment, as it may disrupt the process by pulling the materials away before they can combine. Stocking up on Fluix Crystals early will ensure smooth progress as we build more advanced Applied Energistics systems."
+			]
 			id: "38D85851706BCE61"
 			tasks: [{
 				id: "72166EC28FBA717B"
 				item: "ae2:fluix_crystal"
 				type: "item"
 			}]
+			title: "Chemical Reaction"
 			x: -5.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["0AA2F1B9EDB6605E"]
-			description: ["At a base level, the machines we are using will run slow and at a pace that is enough to get us flowing. We will want to upgrade these to be faster and that is where upgrades come in to play."]
+			description: [
+				"At their base level, most of our machines operate at a steady but slow pace, just enough to get things running. While this is fine for early automation, we’ll quickly find ourselves needing more speed and efficiency to keep up with demand."
+				""
+				"This is where upgrades come into play. By applying various upgrades, we can increase processing speed, reduce power consumption, and enhance overall performance. As we progress, prioritizing these upgrades will help streamline our automation and keep production running smoothly."
+			]
 			id: "75D89E9A2104DBB9"
 			tasks: [{
 				id: "77208DDA5733F37C"
@@ -185,7 +223,11 @@
 		}
 		{
 			dependencies: ["34BD90F4B17072D2"]
-			description: ["Sometimes waiting for crops to grow can be a pain. This is also true when trying to breed your crops to their max stats. The Growth Accelerators come into play here by providing and increase growth speed to the block they are level with."]
+			description: [
+				"Growth Accelerators are essential tools for speeding up crop growth and breeding. When placed near crops, they significantly boost the speed at which the crops grow or breed, reducing the time it takes to get your plants to their max potential. This is incredibly helpful when working with high-tier crops or when you're looking to gather large quantities of produce quickly."
+				""
+				"These accelerators work best when positioned close to the crops or plants, and they can be used to rapidly grow crops for both food production and resources. They can also help you level up your crops to max stats, making them invaluable in farming and resource management."
+			]
 			id: "5AB1344622A91281"
 			tasks: [{
 				id: "17608EE79553A0EE"
@@ -198,7 +240,11 @@
 		}
 		{
 			dependencies: ["22F3F63D08B38C13"]
-			description: ["The ME Interface is a chest of sorts using our ME network. It can be assigned to house up to 9 fluids or blocks that can be pulled out of the interface. You can also insert into the interface to put items into the network with ease."]
+			description: [
+				"The ME Interface serves as a digital chest within your ME network, capable of storing up to 9 different types of blocks or fluids. It provides a versatile method for both inputting and extracting items, streamlining your workflow and inventory management."
+				""
+				"By connecting the ME Interface to machines, automated processes, or even other parts of your storage system, you can easily automate crafting or fluid transfer. This makes it an essential component for expanding your network and increasing its efficiency. The ME Interface’s flexibility and ease of use make it a key tool in further advancing your digital storage system."
+			]
 			id: "1F3E0F5BB6132834"
 			tasks: [{
 				id: "4DE5CD47EC900EA0"
@@ -211,7 +257,11 @@
 		}
 		{
 			dependencies: ["1F3E0F5BB6132834"]
-			description: ["Molecular Assemblers are our digital crafters. These execute the crafts we tell our system to perform. They can be provided with upgrades to improve their speeds and performance."]
+			description: [
+				"The Molecular Assembler is a critical component of your ME system, acting as your digital crafting station. It performs crafting tasks based on the recipes you provide, automatically pulling resources from your storage network and assembling the items for you."
+				""
+				"To enhance efficiency, the Molecular Assembler can be upgraded, boosting its crafting speed and overall performance. This machine eliminates the need for manual crafting, significantly streamlining your processes and allowing for more automation in your setup. The Molecular Assembler is essential for scaling your crafting operations and advancing your technological journey."
+			]
 			id: "5C4B22675FF3B0D7"
 			tasks: [{
 				id: "69708E9309760871"
@@ -224,7 +274,11 @@
 		}
 		{
 			dependencies: ["5C4B22675FF3B0D7"]
-			description: ["As with any computer, you need the equipment to be able to process all of the data. Crafting Storage Units and Crafting Co-Processors build a computer to manage the production of our crafts and direct them."]
+			description: [
+				"To fully automate crafting within your ME system, you'll need Crafting Storage Units and Crafting Co-Processors. The Crafting Storage Units act as storage for recipes and ingredients, while the Crafting Co-Processors handle the execution of those recipes."
+				""
+				"Together, they enable your ME system to craft items automatically, streamlining your production process. By setting up multiple of these units and processors, you can significantly improve the efficiency of your crafting automation."
+			]
 			id: "5461B6E1D046F467"
 			tasks: [
 				{
@@ -251,7 +305,11 @@
 		}
 		{
 			dependencies: ["5C4B22675FF3B0D7"]
-			description: ["In order to use the Molecular Assemblers, we need them to be able to access the recipes. The ME Pattern Provider can be placed in the middle of 6 Molecular Assemblers to produce recipes."]
+			description: [
+				"To make use of the Molecular Assemblers effectively, we need to ensure they have access to the necessary recipes. This is where the ME Pattern Provider comes in. By placing the Pattern Provider in the middle of six Molecular Assemblers, we can supply them with the recipes they need to craft items automatically."
+				""
+				"This setup allows us to streamline our crafting processes, making it far more efficient. With the Pattern Provider, we can ensure that all the Molecular Assemblers are synchronized and able to execute their tasks without delay, leading to faster and more organized automation of our resources."
+			]
 			id: "69388A50906DE924"
 			tasks: [{
 				id: "4220D0DA855530CE"
@@ -264,7 +322,11 @@
 		}
 		{
 			dependencies: ["69388A50906DE924"]
-			description: ["We can't have automated crafting without teaching the computer how to craft. Using Pattern Encoders with Patterns, we can encode a pattern with the recipe we would like. When we have numerous computers, the Pattern Access Terminal allows us to place patterns from our main system hub."]
+			description: [
+				"We can't have automated crafting without teaching the system how to craft. Pattern Encoders let us encode recipes into patterns, which can be stored and used for crafting. Once you have multiple computers, the Pattern Access Terminal allows easy access to your patterns from the central hub."
+				""
+				"This system enables seamless crafting automation, as it organizes and directs all recipe processes. Simply place your encoded patterns into the terminal, and your machines will use them as needed to craft items efficiently."
+			]
 			id: "51B0FCAF218E154C"
 			tasks: [
 				{
@@ -289,8 +351,11 @@
 		}
 		{
 			dependencies: ["1AAF8C310BB892B1"]
-			description: ["Singularities are a crucial piece to expanding our digital operations. The Matter Condenser can produce a Singularity when provided with a storage unit and a bulk quantity of items. Yes, even water works!"]
-			hide_dependency_lines: true
+			description: [
+				"Singularities are essential for expanding the scale of our digital network and refining our technological capabilities. The Matter Condenser is the machine that allows us to create these compact, high-density resources. It requires a storage unit to contain the Singularity and a large volume of items as input—everything from metals to water, depending on the required Singularity."
+				""
+				"Once the Matter Condenser is provided with the necessary materials, it will begin the process of converting them into a Singularity. These resources can then be used for advanced crafting and further system enhancements. By harnessing the power of Singularities, you unlock the potential for more complex and larger-scale operations within your digital infrastructure."
+			]
 			id: "3362930245E966F4"
 			tasks: [
 				{
@@ -310,7 +375,11 @@
 		}
 		{
 			dependencies: ["1AAF8C310BB892B1"]
-			description: ["With the start of our digital storage, we do not have access to high end cables. We need to use cables and stretch our system around while managing connections. It can be tedious but you have to start somewhere."]
+			description: [
+				"As we begin integrating digital storage into our base, we must work with the basic cables available to us. These early cables may not be the most efficient, but they allow us to expand our system and connect essential components."
+				""
+				"Managing connections can be tedious at first, requiring careful planning to avoid clutter and disorganization. However, as we progress, better cable options will become available, making system management much more streamlined. For now, patience and strategic placement are key!"
+			]
 			id: "0D25FBDA80F06D8C"
 			tasks: [
 				{
@@ -335,7 +404,11 @@
 		}
 		{
 			dependencies: ["3362930245E966F4"]
-			description: ["Producing all of these resources we need in the world by hand can be a grueling task when we need so many, This is where the Reaction Chamber comes into play, We provide it with the necessary resources and it can invoke the reactions we need within its walls."]
+			description: [
+				"Producing all the necessary resources by hand can be exhausting, especially when the quantities required are so high. The Reaction Chamber provides a solution to this problem by automating the process. Simply supply it with the required materials, and it will initiate the reactions needed to produce complex resources efficiently."
+				""
+				"This machine streamlines the production of advanced materials, making it much easier to scale up your operations. Whether you're crafting specialized fluids or triggering chemical reactions, the Reaction Chamber saves time and effort, allowing you to focus on more important aspects of your technological journey."
+			]
 			id: "6FBBB4A15ABA5AF8"
 			tasks: [{
 				id: "2FCDC6378897C028"
@@ -348,7 +421,11 @@
 		}
 		{
 			dependencies: ["6FBBB4A15ABA5AF8"]
-			description: ["Wtih the Reaction Chamber, we can turn Steel into a new material inside with the power of the meteors. This Sky Steel will allow us to produce far more complex computers than we are used to."]
+			description: [
+				"The Reaction Chamber takes us a step further by allowing us to turn Steel into a new, more advanced material known as Sky Steel. By harnessing the power of meteors, this material is forged under high pressure and heat, creating a far superior resource compared to traditional Steel. Sky Steel is essential for crafting high-tier components that we need for building more complex and advanced computers within our system."
+				""
+				"With Sky Steel in hand, we can move beyond the limitations of basic circuitry and begin developing cutting-edge technology. This material serves as the backbone for constructing the next level of digital machinery, enabling us to expand our network and automation capabilities into even more intricate systems."
+			]
 			id: "6F009C96CAAFDE07"
 			tasks: [{
 				id: "4A0D88E850DC870C"
@@ -361,7 +438,11 @@
 		}
 		{
 			dependencies: ["6F009C96CAAFDE07"]
-			description: ["Taking our newly developed circuits, we can develop a larger and more powerful computer system for crafting. This system is faster and larger than the one we operate with currently."]
+			description: [
+				"Using our new circuits, we can develop a more powerful and expansive computer system for crafting. This upgraded system is much faster and can handle more tasks at once compared to our current setup."
+				""
+				"This advancement is crucial as we push our technology forward. With improved speed and capacity, we can automate even more processes and keep our systems running smoothly without constantly needing to intervene."
+			]
 			id: "4F84795E0499BCD5"
 			tasks: [
 				{
@@ -388,7 +469,11 @@
 		}
 		{
 			dependencies: ["7A8540C6331D26E4"]
-			description: ["Radioactive Waste Barrels can only hold so much in them before we have a surplus of barrels. We do not want this radioactive waste to spread into our world and need to be able to house is safely. This is where the MEGA Cells Radioactive disk comes in to play. We can digital store this waste so it does not have a chance of leaking into our world."]
+			description: [
+				"Radioactive Waste Barrels have limited capacity and can accumulate quickly, leading to a surplus that must be safely contained. If not properly managed, this waste can leak into the environment, causing disastrous consequences."
+				""
+				"To mitigate this, the MEGA Cells Radioactive disk allows us to digitally store the radioactive waste. By transferring it into this digital storage system, we eliminate the risk of leaks and ensure that the waste is contained and safely managed. This helps maintain a cleaner and safer environment for all."
+			]
 			id: "780D0B7F4D20A17D"
 			shape: "octagon"
 			tasks: [{
@@ -406,7 +491,11 @@
 		}
 		{
 			dependencies: ["0793751A64D16A0F"]
-			description: ["Our robotic systems can be further advanced into highly upgradeable and customizable equipment that connects directly to our computer network. This equipment can be modified to your liking and is extremely powerful."]
+			description: [
+				"The next step in advancing our technology involves creating customizable and upgradeable armor. With this new system, we can access powerful tools and enhancements that can be tailored to fit our needs. These upgrades allow us to modify the armor, making it highly versatile and efficient for whatever tasks or challenges come our way."
+				""
+				"The ability to connect these advanced armor sets directly to our computer network offers significant potential. It provides a seamless integration that enables easy management and optimization of the equipment, ensuring that we can maintain a steady advantage in our technological journey. Whether for exploration, combat, or resource gathering, these armored systems will be indispensable."
+			]
 			id: "7A28C9B360ADE038"
 			tasks: [
 				{
@@ -460,7 +549,11 @@
 		}
 		{
 			dependencies: ["6FBBB4A15ABA5AF8"]
-			description: ["With our Reaction Chamber running and Singularities in production, we can invoke a method to shatter a singularity into a usable particle. This allows us to develop more complex computer systems."]
+			description: [
+				"With the Reaction Chamber in full operation and Singularities being produced, we can now take the next step in refining our resources. By using a method to shatter a Singularity into usable particles, we can unlock more advanced computer systems. These particles are essential for constructing higher-level components that push the boundaries of automation and digital technology."
+				""
+				"This process opens up new possibilities, enabling us to build and refine complex systems that require precision and efficiency. With these shattered Singularities, we can enhance the capabilities of our machines, making them even more powerful and integral to our technological advancements."
+			]
 			id: "196F780928858FBF"
 			tasks: [{
 				id: "13CEAA6FB531F524"
@@ -473,7 +566,11 @@
 		}
 		{
 			dependencies: ["196F780928858FBF"]
-			description: ["Taking the singularities we have generated and processing materials within the Reaction Chamber, we can create a new type of alloy. Quantum Alloy allows us to build one of the most powerful systems we can for crafting. In terms of automation, this system is a must."]
+			description: [
+				"By processing the singularities we've generated and utilizing the Reaction Chamber, we can craft an incredibly advanced material: Quantum Alloy. This new alloy is a significant step up from previous materials, offering unparalleled durability and power. It's a key ingredient in constructing some of the most high-tech systems available, including automation setups that can take our crafting processes to the next level."
+				""
+				"Quantum Alloy is essential for building systems that can handle the most complex of tasks with efficiency and speed. With it, we can unlock the potential for large-scale automation, making crafting and resource management far more streamlined and effective. This alloy is a game-changer in terms of advancing our technological journey, ensuring that our digital operations remain at the cutting edge."
+			]
 			id: "0793751A64D16A0F"
 			tasks: [{
 				id: "70D42DB5E5147EB9"
@@ -486,7 +583,11 @@
 		}
 		{
 			dependencies: ["69388A50906DE924"]
-			description: ["When we need to access specific sides of a block with patterns, we need a more advanced Pattern Provider. The Extended Pattern Provider allows using Advanced Patterns to operate more complex machines like the ones from Mekanism."]
+			description: [
+				"When dealing with machines that require more intricate handling, such as those from Mekanism, the standard Pattern Provider won't suffice. In these cases, the Extended Pattern Provider is the tool we need. This upgraded version allows us to utilize Advanced Patterns, which grant us the ability to control the precise placement of items on specific sides of a block."
+				""
+				"By using the Extended Pattern Provider, we can handle more complex setups and automate interactions with machines that have more sophisticated requirements. This improves our overall system's flexibility, making it easier to manage a wider range of recipes and devices within our digital network."
+			]
 			id: "423A00713DB6FC30"
 			tasks: [{
 				id: "4E8F7CB7ED64E87B"
@@ -502,7 +603,11 @@
 				"51B0FCAF218E154C"
 				"423A00713DB6FC30"
 			]
-			description: ["Sometimes a standard Pattern will not control a machine how we would like. We can generate Advanced Patterns that allow us to configure where all of the items may go when sent to the machine."]
+			description: [
+				"Sometimes a standard Pattern isn't enough to fully control how a machine operates. In these cases, Advanced Patterns come into play. These patterns give us the ability to configure exactly where each item goes when sent to the machine, offering far greater control over the crafting process."
+				""
+				"With Advanced Patterns, we can direct resources precisely where they're needed, improving the efficiency and flexibility of our automated systems. This extra layer of control helps in more complex crafting setups and ensures items are processed exactly as required."
+			]
 			id: "39B26E93870E5280"
 			tasks: [{
 				id: "7DC5AD539E14D908"
@@ -514,7 +619,7 @@
 				type: "item"
 			}]
 			title: "Advancing Patterns"
-			x: 0.5d
+			x: 1.0d
 			y: 4.5d
 		}
 		{
@@ -522,7 +627,11 @@
 				"4F84795E0499BCD5"
 				"0793751A64D16A0F"
 			]
-			description: ["The Quantum Computer is one of the fastest crafting systems we can have. Providing us with near instant crafting when built properly, this computer is the must have in terms of digital storage."]
+			description: [
+				"The Quantum Computer represents the pinnacle of crafting speed and efficiency. Once built, it drastically reduces crafting times, offering near-instantaneous processing. This makes it an invaluable tool for high-demand automation and advanced crafting needs."
+				""
+				"As a top-tier digital storage solution, the Quantum Computer ensures that you can handle large-scale crafting and storage tasks with ease. It’s an essential upgrade for anyone looking to streamline their operations and maximize productivity in a digital system."
+			]
 			id: "0F4FE701F55C5D41"
 			tasks: [
 				{
@@ -562,7 +671,11 @@
 		}
 		{
 			dependencies: ["66F8A2FE57A0FEE2"]
-			description: ["The Void dimension is just that, an endless void. Be careful stepping through your portal as you will not have a platform around you. Bring blocks and build exactly what you need."]
+			description: [
+				"The Void Dimension is exactly as its name suggests—an endless expanse of emptiness. There is no terrain, no structures, just a vast abyss waiting for you to shape it."
+				""
+				"Be extremely careful when stepping through your portal, as there will be no platform beneath your feet. Without preparation, you could find yourself falling into the endless void. Always bring building blocks to create a stable foundation before venturing too far. This dimension offers the perfect space for massive automation, but only if you come prepared!"
+			]
 			id: "4EDEFDEDD7BD7145"
 			tasks: [{
 				dimension: "javd:void"
@@ -575,7 +688,11 @@
 		}
 		{
 			dependencies: ["38D85851706BCE61"]
-			description: ["With Fluix in hand, we have the ability to construct a portal to a dimension of void. This dimension is just a vast emptiness for anything your heart desires. This is the perfect area to place farms as to not clutter up your main base."]
+			description: [
+				"With Fluix at our disposal, we can construct a portal to a dimension of pure emptiness. This vast void provides a limitless space free from terrain obstructions, making it an ideal location for large-scale farms, automation setups, or any creative projects."
+				""
+				"By moving farms and processing systems here, we can keep our main base uncluttered while maximizing efficiency. Whether for mob farms, resource automation, or storage expansions, the Void Dimension serves as the perfect blank slate for anything we need."
+			]
 			id: "66F8A2FE57A0FEE2"
 			tasks: [
 				{
@@ -596,7 +713,11 @@
 		}
 		{
 			dependencies: ["5C4B22675FF3B0D7"]
-			description: ["As we get further into technology and need more items at a faster rate, the standard Molecular Assembler will not do us justice. This is where the Extended Molecular Assembler comes into play. It can perform 8 crafts at once at a base 2x speed."]
+			description: [
+				"As we push further into the realms of advanced technology, our crafting needs will expand exponentially. The standard Molecular Assembler, while useful, will soon become too slow and inefficient to keep up with the demand. This is where the Extended Molecular Assembler steps in. It is designed to handle multiple crafts simultaneously, performing up to 8 crafts at once, making it far more efficient than its predecessor."
+				""
+				"In addition to its ability to craft more items at once, the Extended Molecular Assembler operates at a base 2x speed, significantly reducing the time needed for crafting. This upgrade is crucial for maintaining a smooth and efficient system as your technological needs grow. By integrating this powerful assembler, you’ll be able to streamline production and keep pace with the ever-increasing demands of your digital network."
+			]
 			id: "1B94E08682932915"
 			tasks: [{
 				id: "6DE7BEB492F43B89"
@@ -609,7 +730,11 @@
 		}
 		{
 			dependencies: ["6ACABDB12C4824B6"]
-			description: ["When we want to have more storage and take up less space, we can upgrade our ME Drive to an Extended ME Drive. This provides double the space for storage disks than the previous model."]
+			description: [
+				"The Extended ME Drive is a significant upgrade over the standard ME Drive. By providing double the storage capacity, it allows you to store more data and items while taking up the same amount of space. This upgrade is especially useful as your digital storage needs grow, giving you more flexibility in organizing and managing your resources. "
+				""
+				"With additional slots for storage disks, you'll be able to keep your system efficient and avoid clutter. It’s the perfect solution when your original ME Drive is reaching its limits."
+			]
 			id: "1363430C198CFFBE"
 			tasks: [{
 				id: "1B117B00B49CB508"
@@ -622,7 +747,11 @@
 		}
 		{
 			dependencies: ["0AA2F1B9EDB6605E"]
-			description: ["Let's be honest, we need mass quantites of all of these circuits and the Inscriber just doesn't cut it. This is where the Circuit Slicer comes in to play. This machine will allow you to ditch the presses and process entire blocks into the circuitry we need."]
+			description: [
+				"Let's face it: we need massive quantities of circuits, and the Inscriber just isn't cutting it for bulk production. That’s where the Circuit Slicer comes in. This machine takes things to the next level, allowing you to process entire blocks of material into the circuits we need, cutting out the tedious press work."
+				""
+				"By using the Circuit Slicer, we can automate and streamline circuit production at a much larger scale, freeing up time and resources to focus on more important tasks. Make sure to keep this machine running if you want a constant flow of circuits!"
+			]
 			id: "670AA495488E1238"
 			tasks: [{
 				id: "3D58C444E69AF8D3"
@@ -635,7 +764,11 @@
 		}
 		{
 			dependencies: ["6ACABDB12C4824B6"]
-			description: ["Let's face it, Water and Cobblestone are used in near everything. We have the ability to develope a disk that will tap into the worlds resources and give us a constant supply of each."]
+			description: [
+				"Water and Cobblestone are essential for a lot of crafting and automation processes. To streamline our resource management, we now have the ability to create a resource disk. This disk taps into the world's natural resources, providing us with a constant, reliable supply of Water and Cobblestone without the need to manually gather them."
+				""
+				"The disk acts as a never-ending source, ensuring that these two crucial materials are always available when needed. It’s a huge time-saver and will play a big role in automating many of our systems as we continue to progress."
+			]
 			id: "7F6783C938238C2B"
 			tasks: [
 				{
@@ -673,7 +806,11 @@
 		}
 		{
 			dependencies: ["03835B0AAF486B09"]
-			description: ["While a Tesla Coil can be used to produce charged items, we may want to improve our setup to something more simplified. The Charger simply needs power and items and it will do all the work."]
+			description: [
+				"While a Tesla Coil can charge items, it may not be the most efficient method for regular use. The Charger provides a more streamlined solution, requiring only power and the item to be charged."
+				""
+				"Once powered, the Charger automatically infuses energy into items like Certus Quartz, eliminating the need for complex setups. This makes it an essential tool for maintaining a steady supply of Charged Certus Quartz, a crucial material in digital storage advancements."
+			]
 			id: "21E8F6587D7D6182"
 			tasks: [{
 				id: "0E6C26F2B1DBE888"
@@ -686,7 +823,11 @@
 		}
 		{
 			dependencies: ["21E8F6587D7D6182"]
-			description: ["What's better than a Charger? An Extended Charger than can do 4x the amount in one go. Spend less time waiting for your items to charge with an upgraded charger."]
+			description: [
+				"Why settle for a standard Charger when you can supercharge your efficiency? The Extended Charger takes everything great about the original and amplifies it, allowing you to process four times the amount of items at once."
+				""
+				"No more waiting around for your materials to charge—this upgrade ensures a much faster workflow, letting you focus on progressing through your technological advancements with ease."
+			]
 			id: "1DBA560A5B20F8AB"
 			tasks: [{
 				id: "241719A610FFF586"

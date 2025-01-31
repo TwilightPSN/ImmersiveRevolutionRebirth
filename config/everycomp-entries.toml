@@ -29,6 +29,14 @@
 		[types.stone_type.naturalist]
 			shellstone = true
 
+		[types.stone_type.quark]
+			soul_sandstone = true
+			limestone = true
+			jasper = true
+			shale = true
+			myalite = true
+			permafrost = true
+
 	[types.mud_type]
 
 		[types.mud_type.chipped]
@@ -98,6 +106,11 @@
 			willow = true
 			witch_hazel = true
 			zelkova = true
+
+		[types.wood_type.quark]
+			azalea = true
+			ancient = true
+			blossom = true
 
 	[types.leaves_type]
 
@@ -231,6 +244,14 @@
 			yellow_birch = true
 			yellow_spruce = true
 			firecracker = true
+
+		[types.leaves_type.quark]
+			ancient = true
+			blue_blossom = true
+			lavender_blossom = true
+			orange_blossom = true
+			yellow_blossom = true
+			red_blossom = true
 
 #Disables specific entries
 [entries]
@@ -369,4 +390,21 @@
 
 		[entries.wood_type.friendsandfoes]
 			beehive = true
+
+		[entries.wood_type.quark]
+			vertical_planks = true
+			ladder = true
+			post = true
+			trapped_chest = true
+			vertical_slab = true
+			chest = true
+			hollow_log = true
+			bookshelf = true
+			stripped_post = true
+
+	[entries.leaves_type]
+
+		[entries.leaves_type.quark]
+			hedge = true
+			leaf_carpet = true
 

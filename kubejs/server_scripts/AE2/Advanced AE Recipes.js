@@ -4,7 +4,7 @@ ServerEvents.recipes(IRRebirth => {
       "energy": 1000000,
       "fluid": {
         "fluidStack": {
-          "Amount": 1000,
+          "Amount": 100000,
           "FluidName": "advanced_ae:quantum_infusion_source"
         }
       },
@@ -42,7 +42,7 @@ ServerEvents.recipes(IRRebirth => {
     }).id('advanced_ae:quantum_alloy_plate')
   IRRebirth.custom({
         "type": "advanced_ae:reaction",
-        "energy": 200000,
+        "energy": 1000000,
         "fluid": {
           "fluidStack": {
             "Amount": 500,
@@ -75,4 +75,39 @@ ServerEvents.recipes(IRRebirth => {
           "id": "megacells:sky_steel_ingot"
         }
       })
+    IRRebirth.custom({
+        "type": "advanced_ae:reaction",
+        "energy": 2000000,
+        "fluid": {
+          "fluidStack": {
+            "Amount": 1000,
+            "FluidName": "advanced_ae:quantum_infusion_source"
+          }
+        },
+        "input_items": [
+          {
+            "amount": 4,
+            "ingredient": {
+              "tag": "forge:ingots/refined_obsidian"
+            }
+          },
+          {
+            "amount": 4,
+            "ingredient": {
+              "item": "advanced_ae:shattered_singularity"
+            }
+          },
+          {
+            "amount": 4,
+            "ingredient": {
+              "item": "ae2:singularity"
+            }
+          }
+        ],
+        "output": {
+          "#": 2,
+          "#c": "ae2:i",
+          "id": "advanced_ae:quantum_alloy"
+        }
+      }).id('advanced_ae:quantum_alloy')
 })

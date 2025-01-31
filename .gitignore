@@ -14,6 +14,7 @@ saves/
 screenshots/
 shaderpacks/
 .curseclient
+.qmenu_opened.marker
 emi.json
 hs_err_pid9804.log
 hs_err_pid32200.log

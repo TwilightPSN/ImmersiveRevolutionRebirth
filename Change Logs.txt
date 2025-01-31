@@ -4,6 +4,18 @@
 -Functional Storage
 -Every Compat (Wood Gone)
 -Every Compat (Stone Zone)
+-Waystones
+-Moonlight Lib
+-FTB Chunks - Modded Support
+-Create Deco
+-Create: Bells & Whistles
+-Create: Liquid Fuel
+-Integrated Dungeons and Structures
+-Quark
+-Tntegrated Stronghold
+
+// Mods Removed //
+-Squat Grow
 
 // Mods Updated //
 -Moonlight Lib
@@ -13,6 +25,7 @@
 // Quest Changes //
 -Immersive Enginering written
 -Budding Mobs written
+-AE2 Written
 
 // Script Changes //
 -Generated HOP Graphite Nugget
