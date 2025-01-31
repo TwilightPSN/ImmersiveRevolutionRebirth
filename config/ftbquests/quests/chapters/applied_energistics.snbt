@@ -30,9 +30,9 @@
 	quests: [
 		{
 			dependencies: ["1AAF8C310BB892B1"]
+			description: ["One of the best ways to keep up with our digital storage is to make a storage bus. This bus can connect to our Storage Controller from our chest system and allow us to upgrade from the basic Simple Storage Network we were using,"]
 			id: "5253FE03D294AB57"
 			rewards: [{
-				count: 5
 				id: "6A33FE7622938F90"
 				item: "ae2:fluix_glass_cable"
 				type: "item"
@@ -42,6 +42,7 @@
 				item: "ae2:storage_bus"
 				type: "item"
 			}]
+			title: "Digital Sophistication"
 			x: -4.5d
 			y: -1.5d
 		}
@@ -50,28 +51,33 @@
 				"7B0F71B2E191845D"
 				"7238E258FDDBD561"
 			]
+			description: ["Inside the meteor we located, there should have be a strange core that you broke and looted. This would have provided you with a slew of presses. You will use these presses in an Inscriber to produce circuits for our digital system."]
 			id: "0AA2F1B9EDB6605E"
 			tasks: [{
 				id: "3271B42DC76FFFE0"
 				item: "ae2:inscriber"
 				type: "item"
 			}]
+			title: "Pressing Matters"
 			x: -2.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["0AA2F1B9EDB6605E"]
+			description: ["Chests everywhere, items disorganzied, space being taken...where do we start? Time to get an ME Drive built so we can eliminate these chests and start to store everything in a digital format."]
 			id: "6ACABDB12C4824B6"
 			tasks: [{
 				id: "1CE20185D5645109"
 				item: "ae2:drive"
 				type: "item"
 			}]
+			title: "Let's Get Digital"
 			x: -1.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["0AA2F1B9EDB6605E"]
+			description: ["In order to properly utilized our digital network, we are going to want a crafting terminal. This is crucial to being able to not only access our network , but to craft within it. To get started, you are going to need to have a chonky terminal so you can properly connect a wire network but as we advance this can be replaced with the modern screen."]
 			id: "57B3C17EF15A6EB4"
 			tasks: [{
 				id: "520C8B278FF5D28A"
@@ -82,19 +88,23 @@
 						"ftbfiltersystem:filter": "or(item(ae2:crafting_terminal)item(fulleng:crafting_terminal))"
 					}
 				}
+				title: "Crafting Terminal"
 				type: "item"
 			}]
+			title: "Terminally Crafted"
 			x: -1.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["1AAF8C310BB892B1"]
+			description: ["Getting our storage system powered is simple to begin with. We have a simple Energy Acceptor to take in the power and a ME Terminal to display the network. The Crystal Resonance Generator will generator enough power to keep this simple system running. You can even utilize down the road when you begin to run simple AD Hoc networks."]
 			id: "7B0F71B2E191845D"
 			tasks: [{
 				id: "55172E1F2B1AF2EA"
 				item: "ae2:crystal_resonance_generator"
 				type: "item"
 			}]
+			title: "Resonance is King"
 			x: -2.5d
 			y: -0.5d
 		}
@@ -103,6 +113,7 @@
 				"57B3C17EF15A6EB4"
 				"1C77BC5EF2916F72"
 			]
+			description: ["With the system running off our wires, it can get quite chaotic. It's time to upgrade to some Glass ME Cables and get even more organized."]
 			id: "34BD90F4B17072D2"
 			shape: "octagon"
 			tasks: [{
@@ -110,22 +121,30 @@
 				item: "ae2:fluix_glass_cable"
 				type: "item"
 			}]
+			title: "Advanced Cables"
 			x: -0.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["0AA2F1B9EDB6605E"]
+			description: [
+				"While the Energy Acceptor can run an ME system, it has its limitations. An ME Controller will use less power to keep your system running. It also allows you greater access to managing the channels of your ME network."
+				""
+				"NOTE: ME Channels are set to 4x"
+			]
 			id: "22F3F63D08B38C13"
 			tasks: [{
 				id: "0EB72524A2B2ABFC"
 				item: "ae2:controller"
 				type: "item"
 			}]
+			title: "Full Control"
 			x: -1.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["7B0F71B2E191845D"]
+			description: ["When power begins to flow and be used by all of our machines, we can find scenarios where we do not have enough to keep everything running. Placing an Energy Cell within our network will allow us to have a buffer of energy to keep the system running if power runs low."]
 			id: "331CEDFB8C544C09"
 			tasks: [{
 				id: "01EF7274694E8E21"
@@ -136,6 +155,7 @@
 				}
 				type: "item"
 			}]
+			title: "Networked Energy"
 			x: -3.5d
 			y: -1.5d
 		}
@@ -152,145 +172,145 @@
 		}
 		{
 			dependencies: ["0AA2F1B9EDB6605E"]
+			description: ["At a base level, the machines we are using will run slow and at a pace that is enough to get us flowing. We will want to upgrade these to be faster and that is where upgrades come in to play."]
 			id: "75D89E9A2104DBB9"
 			tasks: [{
 				id: "77208DDA5733F37C"
 				item: "ae2:advanced_card"
 				type: "item"
 			}]
+			title: "Upgrades People!"
 			x: -3.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["34BD90F4B17072D2"]
+			description: ["Sometimes waiting for crops to grow can be a pain. This is also true when trying to breed your crops to their max stats. The Growth Accelerators come into play here by providing and increase growth speed to the block they are level with."]
 			id: "5AB1344622A91281"
 			tasks: [{
 				id: "17608EE79553A0EE"
 				item: "ae2:growth_accelerator"
 				type: "item"
 			}]
+			title: "Speedy Work"
 			x: -0.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["22F3F63D08B38C13"]
+			description: ["The ME Interface is a chest of sorts using our ME network. It can be assigned to house up to 9 fluids or blocks that can be pulled out of the interface. You can also insert into the interface to put items into the network with ease."]
 			id: "1F3E0F5BB6132834"
 			tasks: [{
 				id: "4DE5CD47EC900EA0"
 				item: "ae2:interface"
 				type: "item"
 			}]
+			title: "Digital Chest"
 			x: -0.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["1F3E0F5BB6132834"]
+			description: ["Molecular Assemblers are our digital crafters. These execute the crafts we tell our system to perform. They can be provided with upgrades to improve their speeds and performance."]
 			id: "5C4B22675FF3B0D7"
 			tasks: [{
 				id: "69708E9309760871"
 				item: "ae2:molecular_assembler"
 				type: "item"
 			}]
+			title: "Digital Crafters"
 			x: 0.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["5C4B22675FF3B0D7"]
-			id: "733174F63B58E2C5"
-			tasks: [{
-				id: "6BEBA724F2904DAC"
-				item: "ae2:crafting_accelerator"
-				type: "item"
-			}]
+			description: ["As with any computer, you need the equipment to be able to process all of the data. Crafting Storage Units and Crafting Co-Processors build a computer to manage the production of our crafts and direct them."]
+			id: "5461B6E1D046F467"
+			tasks: [
+				{
+					id: "1030762752933C0F"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(ae2:1k_crafting_storage)item(ae2:4k_crafting_storage)item(ae2:16k_crafting_storage)item(ae2:64k_crafting_storage)item(ae2:256k_crafting_storage))"
+						}
+					}
+					title: "Crafting Storage"
+					type: "item"
+				}
+				{
+					id: "08B723E2A4660B05"
+					item: "ae2:crafting_accelerator"
+					type: "item"
+				}
+			]
+			title: "Crafting Computer"
 			x: -0.5d
 			y: 2.5d
 		}
 		{
-			dependencies: ["733174F63B58E2C5"]
-			id: "5461B6E1D046F467"
-			tasks: [{
-				id: "1030762752933C0F"
-				item: {
-					Count: 1
-					id: "ftbfiltersystem:smart_filter"
-					tag: {
-						"ftbfiltersystem:filter": "or(item(ae2:1k_crafting_storage)item(ae2:4k_crafting_storage)item(ae2:16k_crafting_storage)item(ae2:64k_crafting_storage)item(ae2:256k_crafting_storage))"
-					}
-				}
-				type: "item"
-			}]
-			x: -1.5d
-			y: 2.5d
-		}
-		{
 			dependencies: ["5C4B22675FF3B0D7"]
+			description: ["In order to use the Molecular Assemblers, we need them to be able to access the recipes. The ME Pattern Provider can be placed in the middle of 6 Molecular Assemblers to produce recipes."]
 			id: "69388A50906DE924"
 			tasks: [{
 				id: "4220D0DA855530CE"
 				item: "ae2:pattern_provider"
 				type: "item"
 			}]
+			title: "Pattern Portal"
 			x: 1.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["69388A50906DE924"]
-			id: "7ACD6B9DA4F1D795"
-			tasks: [{
-				id: "446174FFCD87BF1A"
-				item: "ae2:pattern_encoding_terminal"
-				type: "item"
-			}]
-			x: -0.5d
-			y: 3.5d
-		}
-		{
-			dependencies: ["69388A50906DE924"]
+			description: ["We can't have automated crafting without teaching the computer how to craft. Using Pattern Encoders with Patterns, we can encode a pattern with the recipe we would like. When we have numerous computers, the Pattern Access Terminal allows us to place patterns from our main system hub."]
 			id: "51B0FCAF218E154C"
-			tasks: [{
-				id: "71B529E93AC83571"
-				item: "ae2:pattern_access_terminal"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "71B529E93AC83571"
+					item: "ae2:pattern_access_terminal"
+					type: "item"
+				}
+				{
+					id: "5186AD4EC2A6197D"
+					item: "ae2:pattern_encoding_terminal"
+					type: "item"
+				}
+				{
+					id: "4F2E2D408281C2F6"
+					item: "ae2:blank_pattern"
+					type: "item"
+				}
+			]
+			title: "Auto-Crafters"
 			x: 0.5d
 			y: 3.5d
 		}
 		{
-			dependencies: ["7ACD6B9DA4F1D795"]
-			id: "02F6E4DD1C4C5CD5"
-			tasks: [{
-				id: "6D72897882DDF4AE"
-				item: "ae2:blank_pattern"
-				type: "item"
-			}]
-			x: -1.5d
-			y: 3.5d
-		}
-		{
 			dependencies: ["1AAF8C310BB892B1"]
+			description: ["Singularities are a crucial piece to expanding our digital operations. The Matter Condenser can produce a Singularity when provided with a storage unit and a bulk quantity of items. Yes, even water works!"]
 			hide_dependency_lines: true
 			id: "3362930245E966F4"
-			tasks: [{
-				id: "137E1CD63DB3C712"
-				item: "ae2:condenser"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "137E1CD63DB3C712"
+					item: "ae2:condenser"
+					type: "item"
+				}
+				{
+					id: "0AB53B7FFB84D3E6"
+					item: "ae2:singularity"
+					type: "item"
+				}
+			]
+			title: "Condense It"
 			x: 0.5d
 			y: 0.5d
 		}
 		{
-			dependencies: ["3362930245E966F4"]
-			id: "4ED3C3695EF447D3"
-			tasks: [{
-				id: "0D27D85A6AD96D03"
-				item: "ae2:singularity"
-				type: "item"
-			}]
-			x: 0.5d
-			y: -0.5d
-		}
-		{
 			dependencies: ["1AAF8C310BB892B1"]
+			description: ["With the start of our digital storage, we do not have access to high end cables. We need to use cables and stretch our system around while managing connections. It can be tedious but you have to start somewhere."]
 			id: "0D25FBDA80F06D8C"
 			tasks: [
 				{
@@ -309,84 +329,84 @@
 					type: "item"
 				}
 			]
+			title: "Wire Management"
 			x: -4.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["3362930245E966F4"]
+			description: ["Producing all of these resources we need in the world by hand can be a grueling task when we need so many, This is where the Reaction Chamber comes into play, We provide it with the necessary resources and it can invoke the reactions we need within its walls."]
 			id: "6FBBB4A15ABA5AF8"
 			tasks: [{
 				id: "2FCDC6378897C028"
 				item: "advanced_ae:reaction_chamber"
 				type: "item"
 			}]
+			title: "Let's React"
 			x: 1.5d
 			y: 0.5d
 		}
 		{
-			dependencies: ["4ED3C3695EF447D3"]
-			id: "507676396EAE3423"
-			tasks: [{
-				id: "690C86D066563B22"
-				item: "megacells:accumulation_processor_press"
-				type: "item"
-			}]
-			x: 1.5d
-			y: -0.5d
-		}
-		{
 			dependencies: ["6FBBB4A15ABA5AF8"]
+			description: ["Wtih the Reaction Chamber, we can turn Steel into a new material inside with the power of the meteors. This Sky Steel will allow us to produce far more complex computers than we are used to."]
 			id: "6F009C96CAAFDE07"
 			tasks: [{
 				id: "4A0D88E850DC870C"
 				item: "megacells:sky_steel_ingot"
 				type: "item"
 			}]
+			title: "Meteor Steel"
 			x: 2.5d
 			y: 0.5d
 		}
 		{
-			dependencies: [
-				"507676396EAE3423"
-				"6F009C96CAAFDE07"
-			]
-			id: "43027759CC1F00F0"
-			tasks: [{
-				id: "6B0FA3699026CB82"
-				item: "megacells:accumulation_processor"
-				type: "item"
-			}]
-			x: 2.5d
-			y: -0.5d
-		}
-		{
-			dependencies: ["43027759CC1F00F0"]
+			dependencies: ["6F009C96CAAFDE07"]
+			description: ["Taking our newly developed circuits, we can develop a larger and more powerful computer system for crafting. This system is faster and larger than the one we operate with currently."]
 			id: "4F84795E0499BCD5"
-			tasks: [{
-				id: "6A322FD2EB6EE2EE"
-				item: "megacells:mega_crafting_unit"
-				type: "item"
-			}]
-			x: 2.5d
-			y: -1.5d
+			tasks: [
+				{
+					id: "31B114CAD64942C2"
+					item: "megacells:mega_crafting_accelerator"
+					type: "item"
+				}
+				{
+					id: "0F5F10B9C176DFDE"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(megacells:1m_crafting_storage)item(megacells:4m_crafting_storage)item(megacells:16m_crafting_storage)item(megacells:64m_crafting_storage)item(megacells:256m_crafting_storage))"
+						}
+					}
+					title: "MEGA Crafting Storage"
+					type: "item"
+				}
+			]
+			title: "MEGA Memory"
+			x: 3.5d
+			y: 0.5d
 		}
 		{
-			dependencies: [
-				"43027759CC1F00F0"
-				"7A8540C6331D26E4"
-			]
+			dependencies: ["7A8540C6331D26E4"]
+			description: ["Radioactive Waste Barrels can only hold so much in them before we have a surplus of barrels. We do not want this radioactive waste to spread into our world and need to be able to house is safely. This is where the MEGA Cells Radioactive disk comes in to play. We can digital store this waste so it does not have a chance of leaking into our world."]
 			id: "780D0B7F4D20A17D"
 			shape: "octagon"
 			tasks: [{
 				id: "6EEAC49B33FAD30F"
-				item: "megacells:radioactive_cell_component"
+				item: {
+					Count: 1
+					id: "megacells:radioactive_chemical_cell"
+					tag: { }
+				}
 				type: "item"
 			}]
-			x: 1.5d
-			y: -1.5d
+			title: "It's Radioactive"
+			x: 3.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["0793751A64D16A0F"]
+			description: ["Our robotic systems can be further advanced into highly upgradeable and customizable equipment that connects directly to our computer network. This equipment can be modified to your liking and is extremely powerful."]
 			id: "7A28C9B360ADE038"
 			tasks: [
 				{
@@ -434,66 +454,55 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
-			y: 3.5d
+			title: "Quantum Equipment"
+			x: 3.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["6FBBB4A15ABA5AF8"]
+			description: ["With our Reaction Chamber running and Singularities in production, we can invoke a method to shatter a singularity into a usable particle. This allows us to develop more complex computer systems."]
 			id: "196F780928858FBF"
 			tasks: [{
 				id: "13CEAA6FB531F524"
 				item: "advanced_ae:shattered_singularity"
 				type: "item"
 			}]
+			title: "Breaking Matter"
 			x: 1.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["196F780928858FBF"]
+			description: ["Taking the singularities we have generated and processing materials within the Reaction Chamber, we can create a new type of alloy. Quantum Alloy allows us to build one of the most powerful systems we can for crafting. In terms of automation, this system is a must."]
 			id: "0793751A64D16A0F"
 			tasks: [{
 				id: "70D42DB5E5147EB9"
 				item: "advanced_ae:quantum_alloy"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 2.5d
-		}
-		{
-			dependencies: ["196F780928858FBF"]
-			id: "5D8B899C1AE7158B"
-			tasks: [{
-				id: "2D17433780A77AF5"
-				item: "advanced_ae:quantum_processor_press"
-				type: "item"
-			}]
+			title: "Quantum Physics"
 			x: 2.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["69388A50906DE924"]
+			description: ["When we need to access specific sides of a block with patterns, we need a more advanced Pattern Provider. The Extended Pattern Provider allows using Advanced Patterns to operate more complex machines like the ones from Mekanism."]
 			id: "423A00713DB6FC30"
 			tasks: [{
 				id: "4E8F7CB7ED64E87B"
 				item: "advanced_ae:small_adv_pattern_provider"
 				type: "item"
 			}]
+			title: "Getting Technical"
 			x: 1.5d
 			y: 3.5d
 		}
 		{
-			dependencies: ["423A00713DB6FC30"]
-			id: "3064438F0A5E225B"
-			tasks: [{
-				id: "009A67C0D5658701"
-				item: "advanced_ae:adv_pattern_provider_capacity_upgrade"
-				type: "item"
-			}]
-			x: 1.5d
-			y: 4.5d
-		}
-		{
-			dependencies: ["02F6E4DD1C4C5CD5"]
+			dependencies: [
+				"51B0FCAF218E154C"
+				"423A00713DB6FC30"
+			]
+			description: ["Sometimes a standard Pattern will not control a machine how we would like. We can generate Advanced Patterns that allow us to configure where all of the items may go when sent to the machine."]
 			id: "39B26E93870E5280"
 			tasks: [{
 				id: "7DC5AD539E14D908"
@@ -504,102 +513,69 @@
 				}
 				type: "item"
 			}]
-			x: -2.5d
-			y: 3.5d
-		}
-		{
-			dependencies: ["0793751A64D16A0F"]
-			id: "501FD80658346B6D"
-			tasks: [{
-				id: "5FA2B3EB066DA64F"
-				item: "advanced_ae:quantum_unit"
-				type: "item"
-			}]
-			x: 4.0d
-			y: 2.5d
-		}
-		{
-			dependencies: ["501FD80658346B6D"]
-			id: "0F4FE701F55C5D41"
-			tasks: [{
-				id: "10ADBCC752B97868"
-				item: "advanced_ae:quantum_structure"
-				type: "item"
-			}]
-			x: 3.5d
-			y: 0.5d
-		}
-		{
-			dependencies: ["501FD80658346B6D"]
-			id: "45852F835351CF75"
-			tasks: [{
-				id: "02FAEE6277CF0529"
-				item: "advanced_ae:quantum_storage_256"
-				type: "item"
-			}]
-			x: 4.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["501FD80658346B6D"]
-			id: "14CC65CA150D4739"
-			tasks: [{
-				id: "725C4951E4EBF7EF"
-				item: "advanced_ae:quantum_accelerator"
-				type: "item"
-			}]
-			x: 4.5d
-			y: 4.0d
-		}
-		{
-			dependencies: ["501FD80658346B6D"]
-			id: "36A2E2F148EF5CF5"
-			tasks: [{
-				id: "4E3E95845D49569A"
-				item: "advanced_ae:quantum_core"
-				type: "item"
-			}]
-			x: 3.5d
+			title: "Advancing Patterns"
+			x: 0.5d
 			y: 4.5d
 		}
 		{
-			dependencies: ["501FD80658346B6D"]
-			id: "308CCB645CAC6448"
-			tasks: [{
-				id: "30A6F581C8559D1C"
-				item: "advanced_ae:data_entangler"
-				type: "item"
-			}]
-			x: 5.5d
-			y: 3.0d
-		}
-		{
-			dependencies: ["501FD80658346B6D"]
-			id: "16C5300E24FC4BE2"
-			tasks: [{
-				id: "46176AC499CC8666"
-				item: "advanced_ae:quantum_multi_threader"
-				type: "item"
-			}]
-			x: 5.5d
-			y: 2.0d
+			dependencies: [
+				"4F84795E0499BCD5"
+				"0793751A64D16A0F"
+			]
+			description: ["The Quantum Computer is one of the fastest crafting systems we can have. Providing us with near instant crafting when built properly, this computer is the must have in terms of digital storage."]
+			id: "0F4FE701F55C5D41"
+			tasks: [
+				{
+					id: "10ADBCC752B97868"
+					item: "advanced_ae:quantum_structure"
+					type: "item"
+				}
+				{
+					id: "788897FB0B71DAC8"
+					item: "advanced_ae:quantum_core"
+					type: "item"
+				}
+				{
+					id: "0109CCF5B182F25F"
+					item: "advanced_ae:quantum_accelerator"
+					type: "item"
+				}
+				{
+					id: "6F3D74FF80FF764F"
+					item: "advanced_ae:quantum_storage_256"
+					type: "item"
+				}
+				{
+					id: "415811D76735483A"
+					item: "advanced_ae:quantum_multi_threader"
+					type: "item"
+				}
+				{
+					id: "632AA149DDFF6F69"
+					item: "advanced_ae:data_entangler"
+					type: "item"
+				}
+			]
+			title: "Quantum Computing"
+			x: 3.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["66F8A2FE57A0FEE2"]
+			description: ["The Void dimension is just that, an endless void. Be careful stepping through your portal as you will not have a platform around you. Bring blocks and build exactly what you need."]
 			id: "4EDEFDEDD7BD7145"
 			tasks: [{
 				dimension: "javd:void"
 				id: "3DFE818FC13DA48A"
 				type: "dimension"
 			}]
+			title: "Void Dimension"
 			x: -5.5d
 			y: 1.5d
 		}
 		{
-			dependencies: [
-				"38D85851706BCE61"
-				"7238E258FDDBD561"
-			]
+			dependencies: ["38D85851706BCE61"]
+			description: ["With Fluix in hand, we have the ability to construct a portal to a dimension of void. This dimension is just a vast emptiness for anything your heart desires. This is the perfect area to place farms as to not clutter up your main base."]
 			id: "66F8A2FE57A0FEE2"
 			tasks: [
 				{
@@ -614,44 +590,52 @@
 					type: "item"
 				}
 			]
+			title: "Void Dimension Portal"
 			x: -4.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["5C4B22675FF3B0D7"]
+			description: ["As we get further into technology and need more items at a faster rate, the standard Molecular Assembler will not do us justice. This is where the Extended Molecular Assembler comes into play. It can perform 8 crafts at once at a base 2x speed."]
 			id: "1B94E08682932915"
 			tasks: [{
 				id: "6DE7BEB492F43B89"
 				item: "expatternprovider:ex_molecular_assembler"
 				type: "item"
 			}]
+			title: "Crafting Magic"
 			x: 0.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["6ACABDB12C4824B6"]
+			description: ["When we want to have more storage and take up less space, we can upgrade our ME Drive to an Extended ME Drive. This provides double the space for storage disks than the previous model."]
 			id: "1363430C198CFFBE"
 			tasks: [{
 				id: "1B117B00B49CB508"
 				item: "expatternprovider:ex_drive"
 				type: "item"
 			}]
+			title: "Drive Depth"
 			x: -0.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["0AA2F1B9EDB6605E"]
+			description: ["Let's be honest, we need mass quantites of all of these circuits and the Inscriber just doesn't cut it. This is where the Circuit Slicer comes in to play. This machine will allow you to ditch the presses and process entire blocks into the circuitry we need."]
 			id: "670AA495488E1238"
 			tasks: [{
 				id: "3D58C444E69AF8D3"
 				item: "expatternprovider:circuit_cutter"
 				type: "item"
 			}]
+			title: "So Long Press"
 			x: -2.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["6ACABDB12C4824B6"]
+			description: ["Let's face it, Water and Cobblestone are used in near everything. We have the ability to develope a disk that will tap into the worlds resources and give us a constant supply of each."]
 			id: "7F6783C938238C2B"
 			tasks: [
 				{
@@ -683,28 +667,33 @@
 					type: "item"
 				}
 			]
+			title: "To Infinity!"
 			x: -1.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["03835B0AAF486B09"]
+			description: ["While a Tesla Coil can be used to produce charged items, we may want to improve our setup to something more simplified. The Charger simply needs power and items and it will do all the work."]
 			id: "21E8F6587D7D6182"
 			tasks: [{
 				id: "0E6C26F2B1DBE888"
 				item: "ae2:charger"
 				type: "item"
 			}]
+			title: "Charge er' up"
 			x: -5.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["21E8F6587D7D6182"]
+			description: ["What's better than a Charger? An Extended Charger than can do 4x the amount in one go. Spend less time waiting for your items to charge with an upgraded charger."]
 			id: "1DBA560A5B20F8AB"
 			tasks: [{
 				id: "241719A610FFF586"
 				item: "expatternprovider:ex_charger"
 				type: "item"
 			}]
+			title: "Quad Charger"
 			x: -5.5d
 			y: -1.5d
 		}

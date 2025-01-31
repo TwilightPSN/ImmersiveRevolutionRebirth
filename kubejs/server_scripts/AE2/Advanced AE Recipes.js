@@ -40,4 +40,39 @@ ServerEvents.recipes(IRRebirth => {
         "id": "advanced_ae:quantum_alloy_plate"
       }
     }).id('advanced_ae:quantum_alloy_plate')
+  IRRebirth.custom({
+        "type": "advanced_ae:reaction",
+        "energy": 200000,
+        "fluid": {
+          "fluidStack": {
+            "Amount": 500,
+            "FluidName": "minecraft:lava"
+          }
+        },
+        "input_items": [
+          {
+            "amount": 16,
+            "ingredient": {
+              "item": "ae2:charged_certus_quartz_crystal"
+            }
+          },
+          {
+            "amount": 16,
+            "ingredient": {
+              "tag": "forge:ingots/steel"
+            }
+          },
+          {
+            "amount": 16,
+            "ingredient": {
+              "item": "ae2:sky_stone_block"
+            }
+          }
+        ],
+        "output": {
+          "#": 64,
+          "#c": "ae2:i",
+          "id": "megacells:sky_steel_ingot"
+        }
+      })
 })

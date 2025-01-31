@@ -1,8 +1,14 @@
 ||Beta 0.8.0||
 
+// Mods Added //
+-Functional Storage
+-Every Compat (Wood Gone)
+-Every Compat (Stone Zone)
+
 // Mods Updated //
 -Moonlight Lib
 -Supplementaries
+-Sophisticated Backpacks
 
 // Quest Changes //
 -Immersive Enginering written
@@ -18,6 +24,8 @@
 -HOP Graphite Nugget to Ingot/Ingot to Nugget
 -HOP Graphite Dust only makes nuggets if not in ARC Furance
 -Updated recipe for ME Controller
+-Removed Sky Steel Ingot in world Crafting
+-Sky Steel Ingots need Steel
 
 ||Beta 0.7.0||
 

@@ -42,4 +42,8 @@ ServerEvents.recipes(IRRebirth => {
     IRRebirth.remove({id: 'agricraft:amethyst_shard'})
     IRRebirth.remove({id: 'immersiveengineering:smelting/ingot_hop_graphite'})
     IRRebirth.remove({id: 'immersiveengineering:smelting/ingot_hop_graphite_from_blasting'})
+    IRRebirth.remove(['functionalstorage:fluid_1', 'functionalstorage:fluid_2', 'functionalstorage:fluid_4', 'functionalstorage:collector_upgrade', 'functionalstorage:puller_upgrade', 'functionalstorage:pusher_upgrade', 'functionalstorage:armory_cabinet', 'functionalstorage:ender_drawer'])
+    IRRebirth.remove({id: 'agricraft:coal'})
+    IRRebirth.remove({id: 'agricraft:quartz'})
+    IRRebirth.remove({id: 'agricraft:netherite_scrap'})
 })

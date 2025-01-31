@@ -66,4 +66,5 @@ JEIEvents.hideItems(IRRebirth => {
     IRRebirth.hide('draconicevolution:info_tablet');
     IRRebirth.hide('draconicevolution:mob_soul');
     IRRebirth.hide('draconicevolution:structure_block');
+    IRRebirth.hide(['functionalstorage:fluid_1', 'functionalstorage:fluid_2', 'functionalstorage:fluid_4', 'functionalstorage:collector_upgrade', 'functionalstorage:puller_upgrade', 'functionalstorage:pusher_upgrade', 'functionalstorage:armory_cabinet', 'functionalstorage:ender_drawer']);
 })
