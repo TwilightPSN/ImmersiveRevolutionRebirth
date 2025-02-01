@@ -115,7 +115,7 @@
 		}
 		{
 			dependencies: ["7BE55FA9BDE5E7F6"]
-			description: ["Generates Crystals than drop Bones. Can also be grown in a Botany Pot."]
+			description: ["Generates Crystals that drop Bones. Can also be grown in a Botany Pot."]
 			id: "011F08DCA5E46E4D"
 			tasks: [{
 				id: "04005CC17376951F"
@@ -259,7 +259,7 @@
 		}
 		{
 			dependencies: ["6D16B78F407C777E"]
-			description: ["Generates Crystals that drop Tony Chaos Fragments. Can also be grown in a Botany Pot."]
+			description: ["Generates Crystals that drop Tiny Chaos Fragments. Can also be grown in a Botany Pot."]
 			id: "387EE9071B07C941"
 			tasks: [{
 				id: "274D6D638188070D"

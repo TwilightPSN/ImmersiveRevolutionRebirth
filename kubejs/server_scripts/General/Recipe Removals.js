@@ -45,4 +45,5 @@ ServerEvents.recipes(IRRebirth => {
     IRRebirth.remove({id: 'agricraft:coal'})
     IRRebirth.remove({id: 'agricraft:quartz'})
     IRRebirth.remove({id: 'agricraft:netherite_scrap'})
+    IRRebirth.remove({ output: 'buddingcrystals:budding_coalcoke'})
 })

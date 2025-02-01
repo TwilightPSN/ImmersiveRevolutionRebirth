@@ -21,14 +21,20 @@
 -Moonlight Lib
 -Supplementaries
 -Sophisticated Backpacks
+-Sophisticated Core
+-Snow Under Trees
 
 // Quest Changes //
 -Immersive Enginering written
 -Budding Mobs written
 -AE2 Written
+-Mekanism Written
+-Budding Resources Written
 
 // Script Changes //
 -Generated HOP Graphite Nugget
+-Growing Budding Crystals can no longer be broken (Makes for easier automation)
+-Added Coal Coke Budding Crystal
 
 // Recipes Changes //
 -Removed recipe for Electrode Blueprint (Trader's were Enabled again to get these)
@@ -39,6 +45,8 @@
 -Updated recipe for ME Controller
 -Removed Sky Steel Ingot in world Crafting
 -Sky Steel Ingots need Steel
+-Quantum Alloy now uses Refined Obsidian
+-Increased power requirements for some REaction Chamber recipes
 
 ||Beta 0.7.0||
 

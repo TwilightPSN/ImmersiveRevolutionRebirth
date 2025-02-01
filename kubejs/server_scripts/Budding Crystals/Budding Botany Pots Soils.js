@@ -468,4 +468,11 @@ ServerEvents.recipes(IRRebirth => {
         -1, 
         1
     )
+    IRRebirth.recipes.botanypots.soil(
+        'buddingcrystals:budding_coalcoke',
+        { block: 'buddingcrystals:budding_coalcoke' },
+        ['buddingcrystals:budding_coalcoke'], 
+        -1, 
+        1
+    )
 })

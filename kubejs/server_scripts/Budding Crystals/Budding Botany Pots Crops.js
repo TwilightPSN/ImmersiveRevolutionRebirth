@@ -803,4 +803,16 @@ ServerEvents.recipes(IRRebirth => {
         600,
         1
     )
+    IRRebirth.recipes.botanypots.crop(
+        'buddingcrystals:coalcoke_cluster',
+        ['buddingcrystals:budding_coalcoke'], 
+        { block: 'buddingcrystals:coalcoke_cluster' },
+        [
+            Item.of('immersiveengineering:coal_coke')
+                .withChance(1)
+                .withRolls(2, 6) 
+        ],
+        600,
+        1
+    )
 })
