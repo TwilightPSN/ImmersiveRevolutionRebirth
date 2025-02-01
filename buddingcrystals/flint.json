@@ -1,6 +1,6 @@
 {
     "translation": "Flint",
-    "texture": "minecraft:block/gravel",
+    "texture": "supplementaries:block/flint_block",
     "growth_chance": 15,
     "dropped_item": "minecraft:flint",
     "normal_drop_chance": 4,

@@ -45,4 +45,5 @@ StartupEvents.registry('mekanism:gas', IRRebirth => {
     IRRebirth.createCustom('kubejs:quantum_alloy_gas', () => new $Gas($GasBuilder.builder().tint(0x803C9D)))
     IRRebirth.createCustom('kubejs:acidic_redstone_gas', () => new $Gas($GasBuilder.builder().tint(0xAB5050)))
     IRRebirth.createCustom('kubejs:flint_gas', () => new $Gas($GasBuilder.builder().tint(0x7A756B)))
+    IRRebirth.createCustom('kubejs:carbon_coke_gas', () => new $Gas($GasBuilder.builder().tint(0x303030)))
 })

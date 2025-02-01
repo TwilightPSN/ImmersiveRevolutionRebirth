@@ -14,4 +14,6 @@ ServerEvents.recipes(IRRebirth => {
     IRRebirth.remove({ id: 'more_immersive_wires:ae_dense_connector'})
     IRRebirth.remove({ id: 'ae2:network/cables/glass_fluix'})
     IRRebirth.remove({ output: 'expatternprovider:crystal_fixer'})
+    IRRebirth.remove({ id: 'megacells:transform/sky_steel_ingot'})
+    IRRebirth.remove({ output: 'megacells:sky_steel_ingot', type: 'advanced_ae:reaction'})
 })

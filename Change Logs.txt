@@ -1,11 +1,40 @@
 ||Beta 0.8.0||
 
+// Mods Added //
+-Functional Storage
+-Every Compat (Wood Gone)
+-Every Compat (Stone Zone)
+-Waystones
+-Moonlight Lib
+-FTB Chunks - Modded Support
+-Create Deco
+-Create: Bells & Whistles
+-Create: Liquid Fuel
+-Integrated Dungeons and Structures
+-Quark
+-Tntegrated Stronghold
+
+// Mods Removed //
+-Squat Grow
+
+// Mods Updated //
+-Moonlight Lib
+-Supplementaries
+-Sophisticated Backpacks
+-Sophisticated Core
+-Snow Under Trees
+
 // Quest Changes //
 -Immersive Enginering written
 -Budding Mobs written
+-AE2 Written
+-Mekanism Written
+-Budding Resources Written
 
 // Script Changes //
 -Generated HOP Graphite Nugget
+-Growing Budding Crystals can no longer be broken (Makes for easier automation)
+-Added Coal Coke Budding Crystal
 
 // Recipes Changes //
 -Removed recipe for Electrode Blueprint (Trader's were Enabled again to get these)
@@ -13,6 +42,11 @@
 -Industrial Fermenter recipes adjusted to support all crops
 -HOP Graphite Nugget to Ingot/Ingot to Nugget
 -HOP Graphite Dust only makes nuggets if not in ARC Furance
+-Updated recipe for ME Controller
+-Removed Sky Steel Ingot in world Crafting
+-Sky Steel Ingots need Steel
+-Quantum Alloy now uses Refined Obsidian
+-Increased power requirements for some REaction Chamber recipes
 
 ||Beta 0.7.0||
 

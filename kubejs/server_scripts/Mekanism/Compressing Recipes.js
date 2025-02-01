@@ -45,4 +45,5 @@ ServerEvents.recipes(IRRebirth => {
     IRRebirth.custom({"type":"mekanism:compressing","chemicalInput":{"amount":64,"gas":"kubejs:quantum_alloy_gas"},"itemInput":{"ingredient":{"item":"minecraft:budding_amethyst"}},"output":{"item":"buddingcrystals:budding_quantumalloy"}})
     IRRebirth.custom({"type":"mekanism:compressing","chemicalInput":{"amount":64,"gas":"kubejs:acidic_redstone_gas"},"itemInput":{"ingredient":{"item":"minecraft:budding_amethyst"}},"output":{"item":"buddingcrystals:budding_acidicredstone"}})
     IRRebirth.custom({"type":"mekanism:compressing","chemicalInput":{"amount":64,"gas":"kubejs:flint_gas"},"itemInput":{"ingredient":{"item":"minecraft:budding_amethyst"}},"output":{"item":"buddingcrystals:budding_flint"}})
+    IRRebirth.custom({"type":"mekanism:compressing","chemicalInput":{"amount":64,"gas":"kubejs:carbon_coke_gas"},"itemInput":{"ingredient":{"item":"minecraft:budding_amethyst"}},"output":{"item":"buddingcrystals:budding_coalcoke"}})
 })

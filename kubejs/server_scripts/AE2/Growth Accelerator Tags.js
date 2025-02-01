@@ -65,4 +65,5 @@ ServerEvents.tags('block', IRRebirth => {
     IRRebirth.add('forge:budding', 'buddingcrystals:budding_slime')
     IRRebirth.add('forge:budding', 'buddingcrystals:budding_wither')
     IRRebirth.add('forge:budding', 'buddingcrystals:budding_chaosdragon')
+    IRRebirth.add('forge:budding', 'buddingcrystals:budding_coalcoke')
 })
