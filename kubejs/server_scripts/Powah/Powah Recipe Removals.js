@@ -4,4 +4,5 @@ ServerEvents.recipes(IRRebirth => {
     IRRebirth.remove({ id: 'powah:crafting/cable_basic_2'})
     IRRebirth.remove({ output: 'powah:uraninite', type: 'minecraft:smelting'})
     IRRebirth.remove({ output: 'powah:uraninite', type: 'minecraft:blasting'})
+    IRRebirth.remove({ id: 'powah:energizing/blazing_crystal'})
 })

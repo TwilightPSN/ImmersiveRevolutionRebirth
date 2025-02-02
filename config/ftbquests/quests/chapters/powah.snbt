@@ -16,6 +16,7 @@
 	quests: [
 		{
 			dependencies: ["7A88E6320FFD7765"]
+			description: ["Getting into the electrical work of Powah!, we are going to need a tool to work on all of machines. Taking our Refined Obsidian and Dielectric Paste, we can create a wrench for all of our new machines."]
 			id: "330386FE0BB48FB6"
 			tasks: [{
 				id: "6C80F0FC9F82FDA1"
@@ -28,28 +29,33 @@
 				}
 				type: "item"
 			}]
+			title: "Electrical Wrench"
 			x: -8.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["7A88E6320FFD7765"]
+			description: ["In order to build most of our machinery, we need casing that will be the base. Combining our Dielectric Paste into rods, we can develop a casing to begin making machinery."]
 			id: "2DCED553E5EBC65F"
 			tasks: [{
 				id: "4F14E91D32D8DB6D"
 				item: "powah:dielectric_casing"
 				type: "item"
 			}]
+			title: "Electrical Casings"
 			x: -5.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["7A88E6320FFD7765"]
+			description: ["Any machine who is going to give us power needs to be able to handle the FE it is generating. This is where the capacitors come in. They are a crucial part of properly building a machine."]
 			id: "6692E8F2B4CAF9EF"
 			tasks: [{
 				id: "41DF5F26F9E5F20B"
 				item: "powah:capacitor_basic"
 				type: "item"
 			}]
+			title: "Capacity: Electric"
 			x: -5.0d
 			y: 2.0d
 		}
@@ -58,30 +64,29 @@
 				"6692E8F2B4CAF9EF"
 				"2DCED553E5EBC65F"
 			]
-			id: "6AC1CFAD823155B3"
-			tasks: [{
-				id: "7A538ADB5CFFBA9E"
-				item: "powah:energizing_orb"
-				type: "item"
-			}]
-			x: -2.5d
-			y: -0.5d
-		}
-		{
-			dependencies: ["6AC1CFAD823155B3"]
+			description: ["In order to advance our power, we need to use energy we are already generating to produce new and stronger materials. Using Energizing Rods and an Energizing Orb, we can use power to genetically modify our materials. This is also how we process our Raw Uraninite into a usable form."]
 			id: "7A519D7656EE3495"
-			tasks: [{
-				id: "2D32D2A30464664B"
-				item: {
-					Count: 1
-					id: "ftbfiltersystem:smart_filter"
-					tag: {
-						"ftbfiltersystem:filter": "or(item(powah:energizing_rod_starter)item(powah:energizing_rod_basic)item(powah:energizing_rod_hardened)item(powah:energizing_rod_blazing)item(powah:energizing_rod_niotic)item(powah:energizing_rod_spirited)item(powah:energizing_rod_nitro))"
+			tasks: [
+				{
+					id: "2D32D2A30464664B"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(powah:energizing_rod_starter)item(powah:energizing_rod_basic)item(powah:energizing_rod_hardened)item(powah:energizing_rod_blazing)item(powah:energizing_rod_niotic)item(powah:energizing_rod_spirited)item(powah:energizing_rod_nitro))"
+						}
 					}
+					title: "Energizing Rod"
+					type: "item"
 				}
-				type: "item"
-			}]
-			x: -1.0d
+				{
+					id: "3B890FEA040A26C2"
+					item: "powah:energizing_orb"
+					type: "item"
+				}
+			]
+			title: "Laser Rods"
+			x: -2.5d
 			y: -0.5d
 		}
 		{
@@ -89,6 +94,7 @@
 				"6692E8F2B4CAF9EF"
 				"2DCED553E5EBC65F"
 			]
+			description: ["With all of the burnable fluids we have been producing, we can burn them within the Magmator to generate fuel. Lava is an easily accesible fuel that can be burnt."]
 			id: "076A4CE796737E46"
 			tasks: [{
 				id: "424E7BB0A954FAE9"
@@ -99,8 +105,10 @@
 						"ftbfiltersystem:filter": "or(item(powah:magmator_starter)item(powah:magmator_basic)item(powah:magmator_hardened)item(powah:magmator_blazing)item(powah:magmator_niotic)item(powah:magmator_spirited)item(powah:magmator_nitro))"
 					}
 				}
+				title: "Magmator"
 				type: "item"
 			}]
+			title: "Lava Love"
 			x: -5.5d
 			y: -0.5d
 		}
@@ -109,18 +117,29 @@
 				"6692E8F2B4CAF9EF"
 				"2DCED553E5EBC65F"
 			]
+			description: ["Harnessing the power of the sun is one of the most passive ways to generate power. This is where Solar Panels come into play. If we apply a Lens of Ender to the panels, they can even generate power in the dead of the night."]
 			id: "5C8F04432EE23906"
-			tasks: [{
-				id: "2F1190E577FECE36"
-				item: {
-					Count: 1
-					id: "ftbfiltersystem:smart_filter"
-					tag: {
-						"ftbfiltersystem:filter": "or(item(powah:solar_panel_starter)item(powah:solar_panel_basic)item(powah:solar_panel_hardened)item(powah:solar_panel_blazing)item(powah:solar_panel_niotic)item(powah:solar_panel_spirited)item(powah:solar_panel_nitro))"
+			tasks: [
+				{
+					id: "2F1190E577FECE36"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(powah:solar_panel_starter)item(powah:solar_panel_basic)item(powah:solar_panel_hardened)item(powah:solar_panel_blazing)item(powah:solar_panel_niotic)item(powah:solar_panel_spirited)item(powah:solar_panel_nitro))"
+						}
 					}
+					title: "Solar Panel"
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "18E9CB5886A0DD16"
+					item: "powah:lens_of_ender"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Solar Scenario"
 			x: -3.5d
 			y: -0.5d
 		}
@@ -129,6 +148,7 @@
 				"6692E8F2B4CAF9EF"
 				"2DCED553E5EBC65F"
 			]
+			description: ["Powah gives us access to a basic, but powerful, generator that can use burnable fuels. The Furnator can be provided with any burnable fuels and will generator a decent amount of energy."]
 			id: "090F617377FD54BF"
 			tasks: [{
 				id: "256ED987BFB8DE2E"
@@ -139,27 +159,19 @@
 						"ftbfiltersystem:filter": "or(item(powah:furnator_starter)item(powah:furnator_basic)item(powah:furnator_hardened)item(powah:furnator_blazing)item(powah:furnator_niotic)item(powah:furnator_spirited)item(powah:furnator_nitro))"
 					}
 				}
+				title: "Furnator"
 				type: "item"
 			}]
+			title: "Combustion Energy"
 			x: -6.5d
 			y: -0.5d
-		}
-		{
-			dependencies: ["6AC1CFAD823155B3"]
-			id: "05E6A4A083B9F989"
-			tasks: [{
-				id: "630583F9046CC6B9"
-				item: "powah:uraninite"
-				type: "item"
-			}]
-			x: -2.5d
-			y: -2.0d
 		}
 		{
 			dependencies: [
 				"6692E8F2B4CAF9EF"
 				"2DCED553E5EBC65F"
 			]
+			description: ["Sometimes simple is best. Just like the generator from Immersive Engineering, the Thermo Generators produce power based off the heat differential around them, albeit at a much more advanced and efficient rate."]
 			id: "42E7D911B078B71C"
 			tasks: [{
 				id: "700252F900D568E8"
@@ -170,13 +182,16 @@
 						"ftbfiltersystem:filter": "or(item(powah:thermo_generator_starter)item(powah:thermo_generator_basic)item(powah:thermo_generator_hardened)item(powah:thermo_generator_blazing)item(powah:thermo_generator_niotic)item(powah:thermo_generator_spirited)item(powah:thermo_generator_nitro))"
 					}
 				}
+				title: "Thermo Generator"
 				type: "item"
 			}]
+			title: "Thermal Differential"
 			x: -4.5d
 			y: -0.5d
 		}
 		{
-			dependencies: ["05E6A4A083B9F989"]
+			dependencies: ["7A519D7656EE3495"]
+			description: ["One of our strongest forms of power is the Reactor. Unlike the Mekanism reactors, this reactor does not produce any harmful radiation or bi-products. We do, however, need to ensure we keep the reactors stocked with the necessary resources for it to run constantly."]
 			id: "10E970261F697233"
 			tasks: [{
 				id: "596F1A57FD3BA090"
@@ -187,71 +202,19 @@
 						"ftbfiltersystem:filter": "or(item(powah:reactor_starter)item(powah:reactor_basic)item(powah:reactor_hardened)item(powah:reactor_blazing)item(powah:reactor_niotic)item(powah:reactor_spirited)item(powah:reactor_nitro))"
 					}
 				}
+				title: "Reactor"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -3.0d
-		}
-		{
-			dependencies: ["7A519D7656EE3495"]
-			id: "1369764DBEEEF2FA"
-			tasks: [{
-				id: "1E731DF831A4BFFD"
-				item: "powah:steel_energized"
-				type: "item"
-			}]
-			x: -0.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["7A519D7656EE3495"]
-			id: "77A0FA98FD36BDFC"
-			tasks: [{
-				id: "70193EFCE7A4442F"
-				item: { Count: 64, id: "powah:crystal_blazing" }
-				type: "item"
-			}]
-			x: 0.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["7A519D7656EE3495"]
-			id: "7063C78C1123474A"
-			tasks: [{
-				id: "31BA6FEB232BEDEF"
-				item: { Count: 64, id: "powah:crystal_niotic" }
-				type: "item"
-			}]
-			x: 1.0d
+			title: "Uraninite Reaction"
+			x: -1.0d
 			y: -0.5d
-		}
-		{
-			dependencies: ["7A519D7656EE3495"]
-			id: "02F7FF0C88FBE880"
-			tasks: [{
-				id: "26C7C03DE83F3E26"
-				item: { Count: 64, id: "powah:crystal_spirited" }
-				type: "item"
-			}]
-			x: 0.5d
-			y: 0.5d
-		}
-		{
-			dependencies: ["7A519D7656EE3495"]
-			id: "6D533ED8E5AA8B64"
-			tasks: [{
-				id: "1660636BB2464BB9"
-				item: { Count: 64, id: "powah:crystal_nitro" }
-				type: "item"
-			}]
-			x: -0.5d
-			y: 0.5d
 		}
 		{
 			dependencies: [
 				"2DCED553E5EBC65F"
 				"6692E8F2B4CAF9EF"
 			]
+			description: ["With all of the new gear we are making, we are going to want a way to keep it charged. The Player Transmitters can wirelessly charge our equipment, so long as we properly link it to ourselves."]
 			id: "78F4C4C193332C11"
 			tasks: [{
 				id: "572BD8A9E7DC6B14"
@@ -262,13 +225,16 @@
 						"ftbfiltersystem:filter": "or(item(powah:player_transmitter_starter)item(powah:player_transmitter_basic)item(powah:player_transmitter_hardened)item(powah:player_transmitter_blazing)item(powah:player_transmitter_niotic)item(powah:player_transmitter_spirited)item(powah:player_transmitter_nitro))"
 					}
 				}
+				title: "Player Transmitter"
 				type: "item"
 			}]
+			title: "Wireless Charging"
 			x: -10.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["78F4C4C193332C11"]
+			description: ["Crafting a Binding Card and linking it with an Enderman or Endermite will allow us to use it interdimensionally for our Player Transmitter. This will allow us to remain charged wherever we may be."]
 			id: "0D5AF794E99DE5B4"
 			tasks: [{
 				id: "7AA213F33EC42788"
@@ -276,8 +242,9 @@
 				match_nbt: false
 				type: "item"
 			}]
-			x: -10.0d
-			y: -1.5d
+			title: "Linked Up"
+			x: -11.0d
+			y: -0.5d
 		}
 	]
 	title: "Powah"
