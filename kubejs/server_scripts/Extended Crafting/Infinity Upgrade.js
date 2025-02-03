@@ -114,7 +114,7 @@ ServerEvents.recipes(IRRebirth => {
           }
         },
         "result": {
-          "item": "sophisticatedstorage:infinity_upgrade"
+          "item": "sophisticatedstorage:survival_infinity_upgrade"
         }
       })
 })

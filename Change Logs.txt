@@ -1,18 +1,46 @@
+||Beta 0.9.0||
+
+OFFICIAL TESTING BETA! BUG FIXES AND SERVER TESTING BEFORE RELEASE!
+
+// Mods Updated //
+-InsaneLib
+-Snow Under Trees
+-Sophisticated Backpacks
+-Sophisticated Core
+-Sophisticated Storage
+-Apotheosis
+-Waystones
+-Oh The Biomes We've Gone
+-Fzzy Config
+
+// Quest Changes //
+-Infinity Upgrade changed to new Survival one
+-Powah quests written
+-Draconic Evolution quests written
+-Creative quests written
+
+// Recipe Changes //
+-Infinity Upgrade recipe changed to new Survival one
+-Changed Powah crystals to use Mekanism Items
+
+// Script Changes //
+-Added Bio Diesel to Magmator
+-Added Ethylene to Magmator
+-Added Hydrogen to Magmator
+
 ||Beta 0.8.0||
 
 // Mods Added //
 -Functional Storage
 -Every Compat (Wood Gone)
 -Every Compat (Stone Zone)
--Waystones
--Moonlight Lib
 -FTB Chunks - Modded Support
 -Create Deco
 -Create: Bells & Whistles
 -Create: Liquid Fuel
 -Integrated Dungeons and Structures
 -Quark
--Tntegrated Stronghold
+-Integrated Stronghold
 
 // Mods Removed //
 -Squat Grow
@@ -23,6 +51,7 @@
 -Sophisticated Backpacks
 -Sophisticated Core
 -Snow Under Trees
+-Waystones
 
 // Quest Changes //
 -Immersive Enginering written
