@@ -1,5 +1,7 @@
 ||Beta 0.9.0||
 
+OFFICIAL TESTING BETA! BUG FIXES AND SERVER TESTING BEFORE RELEASE!
+
 // Mods Updated //
 -InsaneLib
 -Snow Under Trees
@@ -13,6 +15,9 @@
 
 // Quest Changes //
 -Infinity Upgrade changed to new Survival one
+-Powah quests written
+-Draconic Evolution quests written
+-Creative quests written
 
 // Recipe Changes //
 -Infinity Upgrade recipe changed to new Survival one
