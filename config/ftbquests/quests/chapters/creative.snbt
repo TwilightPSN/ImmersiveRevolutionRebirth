@@ -16,6 +16,11 @@
 	quests: [
 		{
 			dependencies: ["6D16B78F407C777E"]
+			description: [
+				"The Basic Crafting Table is the starting point for all our crafting endeavors, laying the foundation for our technological progression. As we move forward, we can use vast amounts of energy to create crafting tables that are capable of producing the most advanced and potent items."
+				""
+				"These upgraded crafting tables not only enable us to craft high-tier equipment but also allow us to create materials that were once beyond reach. The integration of chaotic injectors and immense power brings about a new era of crafting, where only the most powerful tools and items are within our grasp."
+			]
 			id: "239A275132232EAE"
 			tasks: [{
 				id: "5843C8BBE96FA517"
@@ -27,6 +32,11 @@
 		}
 		{
 			dependencies: ["239A275132232EAE"]
+			description: [
+				"The Advanced Crafting Table is a crucial stepping stone in our journey to create the most powerful items. While it doesn’t serve much of a direct purpose on its own, it’s essential for progressing to the next tier of crafting and unlocking the ultimate resources."
+				""
+				"This table plays a key role in enabling us to craft components needed for even more advanced machinery and tools. As we move forward, it becomes clear that each tier serves to push the boundaries of what’s possible, with the Advanced Crafting Table being a necessary step to reach the pinnacle of our technological power."
+			]
 			id: "4EB113EEB24B25E6"
 			tasks: [{
 				id: "04D293781443240C"
@@ -38,6 +48,11 @@
 		}
 		{
 			dependencies: ["4EB113EEB24B25E6"]
+			description: [
+				"The Elite Crafting Table marks a significant milestone in our journey, allowing us to craft Crystalline Ingots. These ingots are essential for advancing further, as they are used to create automatic crafting tables capable of crafting high-end items."
+				""
+				"With the Elite Crafting Table, we can streamline our crafting process and begin automating the production of powerful tools and equipment. This step is crucial in ensuring that we can continue to expand our capabilities without the need for constant manual crafting, freeing up resources for more complex tasks."
+			]
 			id: "227C83E382B395F0"
 			tasks: [{
 				id: "12D4CF24B96EC327"
@@ -49,6 +64,11 @@
 		}
 		{
 			dependencies: ["227C83E382B395F0"]
+			description: [
+				"The Ultimate Crafting Table represents the pinnacle of crafting technology. It is the key to producing the most powerful items in existence, enabling us to craft equipment and tools beyond our wildest expectations."
+				""
+				"With this table, we gain access to the highest tiers of technology, allowing us to create truly remarkable items that can elevate our capabilities to god-like levels. It is the ultimate tool in our journey, giving us the potential to harness the full extent of our resources and power."
+			]
 			id: "1D902F876F951BDC"
 			tasks: [{
 				id: "4C1C2BAAAD762EC0"
@@ -60,6 +80,7 @@
 		}
 		{
 			dependencies: ["72B64716048DB345"]
+			description: ["The Ultimate Singularity is a combination of all the minerals we've used so far, condensed into one powerful form. To craft the most advanced items, we will need a significant amount of these singularities. Their power is immense, and they serve as a critical component in the creation of the highest-tier technology and equipment."]
 			id: "52674B61FB3B27A2"
 			tasks: [{
 				id: "59DFB97D9EF87FFB"
@@ -71,6 +92,11 @@
 		}
 		{
 			dependencies: ["1D902F876F951BDC"]
+			description: [
+				"To produce these powerful items, specialized condensed resources are essential. By condensing massive amounts of the resources we've collected, we can create a singularity that holds immense power."
+				""
+				"This singularity acts as a concentrated form of all the raw materials we’ve gathered, enabling us to craft the most advanced and potent items. The power within a singularity is vast, making it a key component in unlocking the highest-tier technology and items."
+			]
 			id: "72B64716048DB345"
 			tasks: [{
 				id: "13C55EA05A0F7C85"
@@ -85,6 +111,7 @@
 				"52674B61FB3B27A2"
 				"3398FD3CC2C17F7F"
 			]
+			description: ["The Creative Motor is the pinnacle of kinetic motion. This motor can be set to rotate at any speed in any direction your heart desires."]
 			id: "773CE17D19BCA68C"
 			tasks: [{
 				id: "03568F771707EE15"
@@ -99,6 +126,7 @@
 				"52674B61FB3B27A2"
 				"3398FD3CC2C17F7F"
 			]
+			description: ["The Infinity Upgrade is the must have in terms of power. This upgrade, when applied to a chest, will allow you to set the items within the chest and pull out an infinite amount of them."]
 			id: "6022FC88C06DE19F"
 			tasks: [{
 				id: "6A07ACEECA9FE050"
@@ -113,6 +141,7 @@
 				"52674B61FB3B27A2"
 				"3398FD3CC2C17F7F"
 			]
+			description: ["The Creative Blaze Cake is a meticulously crafted treat that will keep any Blaze Burner running forever. This cake provides enough nutrients to let them endlessly power any machine."]
 			id: "77D99EEC75C4D053"
 			tasks: [{
 				id: "0B381418BA4DEED4"
@@ -127,6 +156,7 @@
 				"52674B61FB3B27A2"
 				"3398FD3CC2C17F7F"
 			]
+			description: ["The Creative Fluid Tank will provide and infinite supply of any fluid placed within. Simply bucket or pipe in even a drop and your will never run out of that fluid again."]
 			id: "0ADC2595EE5A446E"
 			tasks: [{
 				id: "2019AF9250FE0661"
@@ -141,6 +171,7 @@
 				"52674B61FB3B27A2"
 				"3398FD3CC2C17F7F"
 			]
+			description: ["The Creative Gas Tank holds as much gas as you can possibly ever need. Simply pipe in the gas you never want to run out of and the tank is set forever."]
 			id: "36DAD3ADCD082BEF"
 			tasks: [{
 				id: "7F0D117C69EB0488"
@@ -155,6 +186,7 @@
 				"52674B61FB3B27A2"
 				"3398FD3CC2C17F7F"
 			]
+			description: ["Never run our of power again. The Creative Power Source will provide you with as much power as you could ever need. It can even be configured to output as much or as little energy as you want."]
 			id: "5B4CE64D0826E021"
 			tasks: [{
 				id: "2742359EFFA4CA42"
@@ -169,6 +201,7 @@
 				"52674B61FB3B27A2"
 				"3398FD3CC2C17F7F"
 			]
+			description: ["The Creative Capactior is an infinite battery to place in your pocket. With this item on you, you will never have to worry about running our of a charge on your equipment again."]
 			id: "6F39580072FB269E"
 			tasks: [{
 				id: "602D093DDCCDDFE4"
@@ -217,6 +250,7 @@
 		}
 		{
 			dependencies: ["1D902F876F951BDC"]
+			description: ["The Ultimate Ingot is forged from all the materials we've gathered so far, combined with the essences of many of the world’s mobs. This powerful ingot possesses unmatched strength and is central to creating the most advanced technology and equipment available. Its crafting process requires a great deal of effort, but the result is worth it, giving us access to items and machinery that can shape the world around us."]
 			id: "3398FD3CC2C17F7F"
 			tasks: [{
 				id: "1DBB930C271E15BE"
