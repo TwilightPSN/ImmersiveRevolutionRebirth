@@ -10,8 +10,8 @@
 		id: "57D81A1972A74426"
 		linked_quest: "6D16B78F407C777E"
 		shape: "gear"
-		x: 0.5d
-		y: -1.5d
+		x: 1.5d
+		y: -3.5d
 	}]
 	quests: [
 		{
@@ -22,8 +22,8 @@
 				item: "extendedcrafting:basic_table"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -1.5d
+			x: 1.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["239A275132232EAE"]
@@ -33,8 +33,8 @@
 				item: "extendedcrafting:advanced_table"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 0.0d
+			x: 3.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["4EB113EEB24B25E6"]
@@ -45,7 +45,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 0.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["227C83E382B395F0"]
@@ -55,8 +55,8 @@
 				item: "extendedcrafting:ultimate_table"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 1.5d
+			x: 0.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["72B64716048DB345"]
@@ -66,8 +66,8 @@
 				item: "extendedcrafting:ultimate_singularity"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 3.0d
+			x: 5.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["1D902F876F951BDC"]
@@ -77,77 +77,98 @@
 				item: "extendedcrafting:compressor"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 1.5d
+			x: 3.5d
+			y: 0.5d
 		}
 		{
-			dependencies: ["52674B61FB3B27A2"]
+			dependencies: [
+				"52674B61FB3B27A2"
+				"3398FD3CC2C17F7F"
+			]
 			id: "773CE17D19BCA68C"
 			tasks: [{
 				id: "03568F771707EE15"
 				item: "create:creative_motor"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 3.0d
+			x: 1.5d
+			y: 1.5d
 		}
 		{
-			dependencies: ["52674B61FB3B27A2"]
+			dependencies: [
+				"52674B61FB3B27A2"
+				"3398FD3CC2C17F7F"
+			]
 			id: "6022FC88C06DE19F"
 			tasks: [{
 				id: "6A07ACEECA9FE050"
 				item: "sophisticatedstorage:survival_infinity_upgrade"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 1.5d
 			y: 4.5d
 		}
 		{
-			dependencies: ["52674B61FB3B27A2"]
+			dependencies: [
+				"52674B61FB3B27A2"
+				"3398FD3CC2C17F7F"
+			]
 			id: "77D99EEC75C4D053"
 			tasks: [{
 				id: "0B381418BA4DEED4"
 				item: "create:creative_blaze_cake"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 5.0d
+			x: 1.5d
+			y: 3.5d
 		}
 		{
-			dependencies: ["52674B61FB3B27A2"]
+			dependencies: [
+				"52674B61FB3B27A2"
+				"3398FD3CC2C17F7F"
+			]
 			id: "0ADC2595EE5A446E"
 			tasks: [{
 				id: "2019AF9250FE0661"
 				item: "mekanism:creative_fluid_tank"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 4.0d
+			x: 1.5d
+			y: 5.5d
 		}
 		{
-			dependencies: ["52674B61FB3B27A2"]
+			dependencies: [
+				"52674B61FB3B27A2"
+				"3398FD3CC2C17F7F"
+			]
 			id: "36DAD3ADCD082BEF"
 			tasks: [{
 				id: "7F0D117C69EB0488"
 				item: "mekanism:creative_chemical_tank"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 5.0d
+			x: 1.5d
+			y: 6.5d
 		}
 		{
-			dependencies: ["52674B61FB3B27A2"]
+			dependencies: [
+				"52674B61FB3B27A2"
+				"3398FD3CC2C17F7F"
+			]
 			id: "5B4CE64D0826E021"
 			tasks: [{
 				id: "2742359EFFA4CA42"
 				item: "draconicevolution:creative_op_capacitor"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 4.0d
+			x: 1.5d
+			y: 7.5d
 		}
 		{
-			dependencies: ["52674B61FB3B27A2"]
+			dependencies: [
+				"52674B61FB3B27A2"
+				"3398FD3CC2C17F7F"
+			]
 			id: "6F39580072FB269E"
 			tasks: [{
 				id: "602D093DDCCDDFE4"
@@ -191,8 +212,19 @@
 				}
 				type: "item"
 			}]
-			x: 3.5d
-			y: 3.0d
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1D902F876F951BDC"]
+			id: "3398FD3CC2C17F7F"
+			tasks: [{
+				id: "1DBB930C271E15BE"
+				item: "extendedcrafting:the_ultimate_ingot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.5d
 		}
 	]
 	title: "Creative"

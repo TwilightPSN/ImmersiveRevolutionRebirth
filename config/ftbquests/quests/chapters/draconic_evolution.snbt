@@ -16,17 +16,20 @@
 	quests: [
 		{
 			dependencies: ["1D95E21C7984BD6C"]
+			description: ["One of the highest used items in Draconic Evolution is going to be our cores. The Draconic Core is the starting core to make and will get us moving towards all of the technology that is to come."]
 			id: "176DAA22E30BE295"
 			tasks: [{
 				id: "25DD4B714A88E839"
 				item: "draconicevolution:draconium_core"
 				type: "item"
 			}]
+			title: "Dragon Core"
 			x: -1.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["176DAA22E30BE295"]
+			description: ["Fusion crafting is a new form of crafting in this technological era. It allows us to use very high amounts of energy and infuse items together. The electrical currents will form a bond between the item without our crafting core and the items in our injectors."]
 			id: "09B837085449698E"
 			tasks: [
 				{
@@ -41,11 +44,13 @@
 					type: "item"
 				}
 			]
+			title: "Electrical Crafting"
 			x: 0.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["09B837085449698E"]
+			description: ["With access to much more powerful dragonic cores, we can upgrade our fusion crafting setup. By upgrading our Basic Injectors to Wyvern Injectors, we can begin to craft for more powerful equipment."]
 			id: "40FE643670265A56"
 			tasks: [{
 				count: 8L
@@ -53,11 +58,13 @@
 				item: { Count: 8, id: "draconicevolution:wyvern_crafting_injector" }
 				type: "item"
 			}]
+			title: "Wyvern Upgrade"
 			x: 1.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["176DAA22E30BE295"]
+			description: ["One of the most powerful ways to storage energy is through a draconic energy ball. Simply build an Energy Core and surround it with stabilizers to get started. The energy core will guide you through building whichever tier you want."]
 			id: "6FBE8FF8FD16B3F7"
 			tasks: [
 				{
@@ -72,22 +79,26 @@
 					type: "item"
 				}
 			]
+			title: "Draconic Ball"
 			x: -1.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["176DAA22E30BE295"]
+			description: ["The Crystal Binder is key to controlling our energy relay network. You use it to configure our relay crystals and move energy where needed."]
 			id: "096F908BB59F7B92"
 			tasks: [{
 				id: "01234E30BC6DA10D"
 				item: "draconicevolution:crystal_binder"
 				type: "item"
 			}]
+			title: "Crystalic Wrench"
 			x: -1.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["096F908BB59F7B92"]
+			description: ["Energy Crystals are a way to move power around without the need for wires or cables everywhere. They allow us to send energy wherever it may be needed by simply linking the crystals up."]
 			id: "0EB6C7F9B1F1F04E"
 			tasks: [
 				{
@@ -106,44 +117,13 @@
 					type: "item"
 				}
 			]
+			title: "Laser Crystals"
 			x: -1.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["6FBE8FF8FD16B3F7"]
-			id: "3931688C604C3635"
-			tasks: [
-				{
-					count: 786L
-					id: "0B86AFE7E660BCF4"
-					item: { Count: 786, id: "draconicevolution:draconium_block" }
-					type: "item"
-				}
-				{
-					count: 378L
-					id: "175AA5B841C6109B"
-					item: { Count: 378, id: "draconicevolution:awakened_draconium_block" }
-					type: "item"
-				}
-				{
-					count: 36L
-					id: "6EE6BC9EDFA48778"
-					item: { Count: 36, id: "draconicevolution:energy_core_stabilizer" }
-					type: "item"
-				}
-				{
-					id: "128EBB61CB0E4738"
-					optional_task: true
-					title: "Fill a Max Draconic Reactor"
-					type: "checkmark"
-				}
-			]
-			title: "Maximal Storage"
-			x: -2.5d
-			y: 3.5d
-		}
-		{
-			dependencies: ["6FBE8FF8FD16B3F7"]
+			description: ["Im order to transfer energy into the draconic ball, we need an Energy Pylon. Simply place a piece of glass on top and you will have activated the pylon. You can then choose to send energy in or pull energy out."]
 			id: "359221B57F8ABD83"
 			tasks: [
 				{
@@ -157,11 +137,13 @@
 					type: "item"
 				}
 			]
+			title: "Beam Me Up"
 			x: -1.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["40FE643670265A56"]
+			description: ["Draconic Capacitors are a way to keep a battery backup on us in case of an emergency. Should any of our armor fail to have the energy supply we need, we will face a potential death."]
 			id: "3411DC4EB6A436B3"
 			tasks: [{
 				id: "513F533E04D520DD"
@@ -204,11 +186,13 @@
 				}
 				type: "item"
 			}]
+			title: "Mobile Battery"
 			x: 1.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["40FE643670265A56"]
+			description: ["Draconic chest pieces are able to be worn along side our standard armor. They provide us with a protection from far more types of damage and can even receive modifications."]
 			id: "5C4EEDE7CAC4A9D8"
 			tasks: [{
 				id: "44BF9339FC545713"
@@ -235,11 +219,13 @@
 				}
 				type: "item"
 			}]
+			title: "Protective Plate"
 			x: 1.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["40FE643670265A56"]
+			description: ["With access to one of the strongest materials known to man, we can upgrade our fusion crafting setup once again. Using the power we have awakened within our draconic minerals we have, we can creating injectors that enable making even stronger gear."]
 			id: "2027EC662CB9A837"
 			tasks: [{
 				count: 8L
@@ -247,11 +233,13 @@
 				item: "draconicevolution:awakened_crafting_injector"
 				type: "item"
 			}]
+			title: "Draconic Upgrade"
 			x: 2.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["2027EC662CB9A837"]
+			description: ["After bravely facing off against a Chaos Dragon, we are able to reap the rewards that are burried within their islands. Deep within the island there will be a Chaos Crystal. We will need to harvest this crystal and bring it home to begin to truly hit our limits of technology."]
 			id: "6D16B78F407C777E"
 			shape: "gear"
 			tasks: [{
@@ -259,179 +247,13 @@
 				item: "draconicevolution:chaotic_crafting_injector"
 				type: "item"
 			}]
+			title: "Chaotic Upgrade"
 			x: 3.5d
 			y: 1.5d
 		}
 		{
-			dependencies: [
-				"5C4EEDE7CAC4A9D8"
-				"2027EC662CB9A837"
-			]
-			id: "65DBCAE64C7E3815"
-			tasks: [{
-				id: "1A396A033505D70E"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						Parent: {
-							energy: {
-								energy: 0
-							}
-							module_host: {
-								modules: [ ]
-								properties: { }
-								provider_id: [I;
-									-1087386969
-									-1569173566
-									-1252905403
-									602626600
-								]
-							}
-						}
-					}
-					id: "draconicevolution:draconic_chestpiece"
-				}
-				type: "item"
-			}]
-			x: 2.5d
-			y: 0.5d
-		}
-		{
-			dependencies: [
-				"3411DC4EB6A436B3"
-				"2027EC662CB9A837"
-			]
-			id: "45109B7470163535"
-			tasks: [{
-				id: "1FA1538CC77F9201"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						Parent: {
-							energy: {
-								energy: 0
-							}
-							module_host: {
-								modules: [ ]
-								properties: {
-									charge_armor: {
-										hud: 1b
-									}
-									charge_curios: {
-										hud: 1b
-									}
-									charge_held_item: {
-										hud: 1b
-									}
-									charge_hot_bar: {
-										hud: 1b
-									}
-									charge_main: {
-										hud: 1b
-									}
-								}
-								provider_id: [I;
-									-465721456
-									-238990749
-									-1913586325
-									-1174552780
-								]
-							}
-						}
-					}
-					id: "draconicevolution:draconic_capacitor"
-				}
-				type: "item"
-			}]
-			x: 2.5d
-			y: 2.5d
-		}
-		{
-			dependencies: [
-				"45109B7470163535"
-				"6D16B78F407C777E"
-			]
-			id: "51F04A1C67C19899"
-			tasks: [{
-				id: "3F70E1168B416EB2"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						Parent: {
-							energy: {
-								energy: 0
-							}
-							module_host: {
-								modules: [ ]
-								properties: {
-									charge_armor: {
-										hud: 1b
-									}
-									charge_curios: {
-										hud: 1b
-									}
-									charge_held_item: {
-										hud: 1b
-									}
-									charge_hot_bar: {
-										hud: 1b
-									}
-									charge_main: {
-										hud: 1b
-									}
-								}
-								provider_id: [I;
-									734640421
-									1295273751
-									-1664728069
-									713563675
-								]
-							}
-						}
-					}
-					id: "draconicevolution:chaotic_capacitor"
-				}
-				type: "item"
-			}]
-			x: 3.5d
-			y: 2.5d
-		}
-		{
-			dependencies: [
-				"65DBCAE64C7E3815"
-				"6D16B78F407C777E"
-			]
-			id: "60B059E6EC002E13"
-			tasks: [{
-				id: "2BD822FD86DF21FB"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						Parent: {
-							energy: {
-								energy: 0
-							}
-							module_host: {
-								modules: [ ]
-								properties: { }
-								provider_id: [I;
-									2071290865
-									2042118935
-									-1970561346
-									664274391
-								]
-							}
-						}
-					}
-					id: "draconicevolution:chaotic_chestpiece"
-				}
-				type: "item"
-			}]
-			x: 3.5d
-			y: 0.5d
-		}
-		{
 			dependencies: ["1D95E21C7984BD6C"]
+			description: ["The Chaos Dragons are the most formidible foe you will face. They are not for the faint of heart to try and conquer. You want to make sure that you prepare yourself for the fight ahead before even attempting to take one on."]
 			id: "41F9329503425EE2"
 			tasks: [{
 				entity: "draconicevolution:draconic_guardian"
@@ -439,6 +261,7 @@
 				type: "kill"
 				value: 10L
 			}]
+			title: "Descent into Madness"
 			x: -4.0d
 			y: 1.5d
 		}
@@ -469,8 +292,47 @@
 					type: "item"
 				}
 			]
+			title: "Earth Shattering Kaboom"
 			x: 5.5d
 			y: 1.5d
+		}
+		{
+			dependencies: ["2027EC662CB9A837"]
+			description: ["With access to our new awakened injectors, we can create a staff that is the ultimate tool. This staff can be augmented and upgraded with many different powers. This is one of the strongest tools we will have access to."]
+			id: "4088D1A0AF9A7553"
+			tasks: [{
+				id: "571F288AEF432CE4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: {
+									mining_speed: {
+										hud: 1b
+										value: 1.0d
+									}
+								}
+								provider_id: [I;
+									-896560724
+									-857128843
+									-1555599732
+									-1983659998
+								]
+							}
+						}
+					}
+					id: "draconicevolution:draconic_staff"
+				}
+				type: "item"
+			}]
+			title: "Staff of All"
+			x: 2.5d
+			y: 0.5d
 		}
 	]
 	title: "Draconic Evolution"
