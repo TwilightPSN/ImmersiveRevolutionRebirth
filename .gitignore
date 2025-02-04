@@ -24,6 +24,8 @@ minecraftinstance.json
 options.txt
 patchouli_data.json
 rhino.local.properties
+servers.dat
+servers.dat_old
 TrashSlotSaveState.json
 user-prefs.json
 usercache.json
