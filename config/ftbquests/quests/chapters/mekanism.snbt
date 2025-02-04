@@ -575,6 +575,7 @@
 				"In addition to the suit, we need a system for storing the radioactive waste. Radioactive Waste Barrels are the best option for containing this dangerous byproduct. These barrels prevent the waste from contaminating the environment, allowing us to store large amounts safely until we are ready to process or dispose of them properly."
 			]
 			id: "6674853D1EFF6FCC"
+			shape: "octagon"
 			tasks: [
 				{
 					id: "7F3AC913CDB8C787"

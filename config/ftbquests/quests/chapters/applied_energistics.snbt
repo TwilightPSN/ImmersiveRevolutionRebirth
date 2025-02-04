@@ -468,6 +468,7 @@
 			y: 0.5d
 		}
 		{
+			dependencies: ["358A296A6E7ABD8A"]
 			description: [
 				"Radioactive Waste Barrels have limited capacity and can accumulate quickly, leading to a surplus that must be safely contained. If not properly managed, this waste can leak into the environment, causing disastrous consequences."
 				""
