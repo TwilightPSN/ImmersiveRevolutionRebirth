@@ -1,5 +1,6 @@
 .mixin.out/
 .vscode/
+coremods/
 crash-reports/
 downloads/
 ESM/
@@ -12,12 +13,15 @@ profileimage/
 resourcepacks/
 saves/
 screenshots/
+server-resource-packs/
 shaderpacks/
+texturepacks/
 .curseclient
 .qmenu_opened.marker
 emi.json
 hs_err_pid9804.log
 hs_err_pid32200.log
+icon.png
 ImmersiveRevolutionRebirth.zip
 knownkeys.txt
 minecraftinstance.json
