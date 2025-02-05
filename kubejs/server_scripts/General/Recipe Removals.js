@@ -33,7 +33,6 @@ ServerEvents.recipes(IRRebirth => {
     IRRebirth.remove(['buddingcrystals:budding_gold', 'buddingcrystals:budding_netherite', 'buddingcrystals:budding_aluminum', 'buddingcrystals:budding_nioticcrystal', 'buddingcrystals:budding_certus_quartz'])
     IRRebirth.remove('javd:portal_block')
     IRRebirth.remove(['farmingforblockheads:green_fertilizer', 'farmingforblockheads:red_fertilizer', 'farmingforblockheads:yellow_fertilizer'])
-    IRRebirth.remove(['silentgear:very_crude_repair_kit', 'silentgear:crude_repair_kit', 'silentgear:sturdy_repair_kit', 'silentgear:crimson_repair_kit', 'silentgear:azure_repair_kit'])
     IRRebirth.remove(['buddingcrystals:budding_acidicredstone', 'buddingcrystals:budding_quantumalloy', 'buddingcrystals:budding_skysteel'])
     IRRebirth.remove(['buddingcrystals:budding_cow', 'buddingcrystals:budding_sculk', 'buddingcrystals:budding_enderman', 'buddingcrystals:budding_ghast', 'buddingcrystals:budding_witherskeleton', 'buddingcrystals:budding_blaze', 'buddingcrystals:budding_zombie', 'buddingcrystals:budding_creeper', 'buddingcrystals:budding_skeleton', 'buddingcrystals:budding_chicken', 'buddingcrystals:budding_phantom', 'buddingcrystals:budding_magmacube', 'buddingcrystals:budding_wither', 'buddingcrystals:budding_slime', 'buddingcrystals:budding_flint', 'buddingcrystals:budding_glowsquid', 'buddingcrystals:budding_squid', 'buddingcrystals:budding_snowgolem', 'buddingcrystals:budding_bee', 'buddingcrystals:budding_spider', 'buddingcrystals:budding_sheep'])
     IRRebirth.remove({ id: 'silentgear:bronze_ingot'})
