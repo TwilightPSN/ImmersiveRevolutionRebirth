@@ -39,4 +39,6 @@ ServerEvents.tags('item', IRRebirth => {
     IRRebirth.add('forge:workbenches', 'minecraft:crafting_table')
     IRRebirth.add('forge:workbenches', 'biomeswevegone:cypress_crafting_table')
     IRRebirth.add('forge:workbenches', 'biomeswevegone:cika_crafting_table')
+    IRRebirth.add('forge:plates', 'createdeco:andesite_sheet')
+    IRRebirth.add('forge:plates/andesite_alloy', 'createdeco:andesite_sheet')
 })
