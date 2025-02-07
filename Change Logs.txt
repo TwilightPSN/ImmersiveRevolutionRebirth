@@ -1,3 +1,14 @@
+||Update||
+
+// Quest Changes //
+-Added Quest Rewards
+
+// Script Changes //
+-OTBWG Stripped Logs and Wood added to proper Tags for Create Crafts
+
+// Recipe Changes //
+- Fixed Quantum Alloy Plate Recipe
+
 ||Beta 0.10.0||
 
 // Mods Added //

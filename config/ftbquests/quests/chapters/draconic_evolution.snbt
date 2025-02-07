@@ -22,6 +22,12 @@
 				"Once crafted, the Draconic Core unlocks the ability to create powerful tools, machines, and armor, setting the stage for future advancements in energy production and item processing."
 			]
 			id: "176DAA22E30BE295"
+			rewards: [{
+				count: 3
+				id: "07AA1D21CED0D8AF"
+				item: "draconicevolution:draconium_core"
+				type: "item"
+			}]
 			tasks: [{
 				id: "25DD4B714A88E839"
 				item: "draconicevolution:draconium_core"
@@ -39,6 +45,11 @@
 				"This advanced crafting method requires careful management of energy and precise configuration of the injectors and crafting core. It's a high-risk, high-reward process that allows you to craft powerful tools, armor, and machinery that wouldn't be possible through traditional methods."
 			]
 			id: "09B837085449698E"
+			rewards: [{
+				id: "65797695F6DDC9FE"
+				item: "mekanism:pellet_antimatter"
+				type: "item"
+			}]
 			tasks: [
 				{
 					count: 8L
@@ -64,6 +75,11 @@
 				"With Wyvern Injectors, you can unlock the potential to craft some of the most powerful tools, armor, and machinery in the game. The increase in energy throughput and material capacity allows for the creation of items that can withstand even the toughest challenges."
 			]
 			id: "40FE643670265A56"
+			rewards: [{
+				id: "1C8C3222EBE9A4BD"
+				item: "draconicevolution:wyvern_core"
+				type: "item"
+			}]
 			tasks: [{
 				count: 8L
 				id: "412E866480A51135"
@@ -82,6 +98,12 @@
 				"These energy balls store massive amounts of power and are essential for handling the large energy demands of advanced Draconic machinery, ensuring you have the energy reserves necessary for all your high-tech operations."
 			]
 			id: "6FBE8FF8FD16B3F7"
+			rewards: [{
+				count: 2
+				id: "45EF7CDDCCB9F1B7"
+				item: "draconicevolution:energy_core_stabilizer"
+				type: "item"
+			}]
 			tasks: [
 				{
 					count: 4L
@@ -107,6 +129,11 @@
 				"This tool provides flexibility in optimizing energy usage and ensures that all machines and devices are powered effectively, eliminating inefficiencies in energy transmission."
 			]
 			id: "096F908BB59F7B92"
+			rewards: [{
+				id: "17008E98C994F439"
+				item: "draconicevolution:draconium_block"
+				type: "item"
+			}]
 			tasks: [{
 				id: "01234E30BC6DA10D"
 				item: "draconicevolution:crystal_binder"
@@ -124,6 +151,12 @@
 				"This system offers a clean and efficient way to manage energy flow, making it ideal for large-scale operations or when you want to maintain a neat and organized setup."
 			]
 			id: "0EB6C7F9B1F1F04E"
+			rewards: [{
+				count: 4
+				id: "3FAAA66950A527FF"
+				item: "draconicevolution:basic_relay_crystal"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "5CC7090CDCEE1ACA"
@@ -153,6 +186,11 @@
 				"This system offers flexibility in managing energy flow, making it easier to keep your Draconic systems running smoothly by controlling where the energy is directed."
 			]
 			id: "359221B57F8ABD83"
+			rewards: [{
+				id: "05330EC29A76B929"
+				item: "draconicevolution:wyvern_core"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "20A309A2ACF894E5"
@@ -177,6 +215,11 @@
 				"These capacitors can store vast amounts of energy, providing an emergency power reserve that can keep your armor functioning until you can recharge. It’s a smart addition to any high-risk mission or fight, ensuring you're always prepared for unexpected challenges."
 			]
 			id: "3411DC4EB6A436B3"
+			rewards: [{
+				id: "772F1FFA8C890789"
+				item: "draconicevolution:draconium_block"
+				type: "item"
+			}]
 			tasks: [{
 				id: "513F533E04D520DD"
 				item: {
@@ -230,6 +273,11 @@
 				"These chest pieces are also highly customizable. You can apply various modifications and upgrades to them, improving energy, resistance, and even adding special abilities. With the right enhancements, they become an essential part of our arsenal for dealing with tougher foes and dangerous environments."
 			]
 			id: "5C4EEDE7CAC4A9D8"
+			rewards: [{
+				id: "3EECD8158B11699A"
+				item: "draconicevolution:draconium_block"
+				type: "item"
+			}]
 			tasks: [{
 				id: "44BF9339FC545713"
 				item: {
@@ -267,6 +315,11 @@
 				"This upgrade unlocks the potential for crafting one of the highest tier of draconic gear, pushing the limits of power and protection. With the ability to harness such raw energy, we can create tools and armor that will allow us to tackle even the most formidable foes with confidence."
 			]
 			id: "2027EC662CB9A837"
+			rewards: [{
+				id: "0C25E6F40D31E2C6"
+				item: "draconicevolution:awakened_core"
+				type: "item"
+			}]
 			tasks: [{
 				count: 8L
 				id: "30393FFA65050288"
@@ -285,6 +338,11 @@
 				"Harvesting this crystal is no simple task, but once we bring it back to our base, it will unlock new technological heights. This crystal is key to unlocking the final stages of our technological journey, allowing us to push the limits of what we can achieve."
 			]
 			id: "6D16B78F407C777E"
+			rewards: [{
+				id: "471B3171D2A4642E"
+				item: "draconicevolution:chaotic_core"
+				type: "item"
+			}]
 			shape: "gear"
 			tasks: [{
 				id: "2E94D43A118B33AD"
@@ -303,6 +361,12 @@
 				"Before attempting to fight a Chaos Dragon, consider upgrading your armor, weapons, and other combat tools to their highest tiers. You'll also need plenty of resources, potions, and tactics to handle the chaos they bring. Prepare for a tough challenge, as the Chaos Dragons are not easily defeated."
 			]
 			id: "41F9329503425EE2"
+			rewards: [{
+				count: 2
+				id: "0961353E26348355"
+				item: "draconicevolution:chaos_shard"
+				type: "item"
+			}]
 			tasks: [{
 				entity: "draconicevolution:draconic_guardian"
 				id: "6DC3935E66A5B1D4"
@@ -321,6 +385,11 @@
 				"Harnessing the potential of the Draconic Reactor requires careful planning and constant vigilance. Without proper safeguards in place, the risk of a massive explosion is ever-present. Despite the danger, when used correctly, it provides a nearly limitless source of energy to fuel the most advanced technology."
 			]
 			id: "0887E7A792E2F3A5"
+			rewards: [{
+				id: "45B4595F6BBA5D9B"
+				item: "draconicevolution:awakened_draconium_block"
+				type: "item"
+			}]
 			tasks: [
 				{
 					count: 4L
@@ -357,6 +426,11 @@
 				"As one of the strongest tools available, this staff offers immense potential. Whether we need to harness elemental forces, control energy, or manipulate the environment, this staff is capable of handling it all, making it an invaluable asset in our journey."
 			]
 			id: "4088D1A0AF9A7553"
+			rewards: [{
+				id: "0B729E7018D3F72C"
+				item: "draconicevolution:awakened_draconium_block"
+				type: "item"
+			}]
 			tasks: [{
 				id: "571F288AEF432CE4"
 				item: {

@@ -4,7 +4,7 @@ ServerEvents.recipes(IRRebirth => {
       "energy": 1000000,
       "fluid": {
         "fluidStack": {
-          "Amount": 100000,
+          "Amount": 10000,
           "FluidName": "advanced_ae:quantum_infusion_source"
         }
       },

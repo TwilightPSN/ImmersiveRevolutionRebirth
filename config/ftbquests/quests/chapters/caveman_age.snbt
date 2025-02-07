@@ -25,6 +25,12 @@
 				"Feel free to enable these yourself but they are disabled to immerse you in play even more."
 			]
 			id: "599030C9DB9B1E08"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "77337738A585F875"
+				table_id: 236110544362459607L
+				type: "choice"
+			}]
 			size: 1.0d
 			tasks: [{
 				dimension: "minecraft:overworld"
@@ -47,6 +53,12 @@
 			icon: "minecraft:oak_log"
 			id: "150B3A6B61937F78"
 			require_sequential_tasks: false
+			rewards: [{
+				count: 32
+				id: "2DC1487679990C55"
+				item: "minecraft:stone"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "720966397EDE1F2E"
@@ -115,10 +127,15 @@
 			]
 			id: "5EB800B895DDCBFB"
 			require_sequential_tasks: false
+			rewards: [{
+				count: 6
+				id: "2922C145A18D7EE3"
+				item: "minecraft:chest"
+				type: "item"
+			}]
 			tasks: [{
 				id: "64C97F11D069C31B"
 				item: "minecraft:chest"
-				title: "Any Chest"
 				type: "item"
 			}]
 			title: "Getting Organized"
@@ -144,6 +161,11 @@
 			}
 			id: "24DB690822140D7E"
 			require_sequential_tasks: false
+			rewards: [{
+				id: "6F9B047872D6BC7C"
+				item: "minecraft:redstone_block"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5437F299403D7750"
 				item: {
@@ -171,11 +193,15 @@
 			]
 			id: "626D8B47A8BE8566"
 			require_sequential_tasks: false
+			rewards: [{
+				id: "03AC939A3DBD6342"
+				item: "sophisticatedbackpacks:feeding_upgrade"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1103AB8900F8B01D"
 				item: "sophisticatedbackpacks:backpack"
 				match_nbt: false
-				title: "Any Color Backpack"
 				type: "item"
 			}]
 			title: "Backpacking"
@@ -193,6 +219,11 @@
 			]
 			id: "631AFA5E8CC2810D"
 			require_sequential_tasks: false
+			rewards: [{
+				id: "2F68836C74ED62E8"
+				item: "sophisticatedstorage:basic_to_netherite_tier_upgrade"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5B36FBB98E86D79A"
 				item: "sophisticatedstorage:controller"
@@ -213,6 +244,11 @@
 			]
 			id: "367827D38EAE8781"
 			require_sequential_tasks: false
+			rewards: [{
+				id: "5C33B62B90385952"
+				item: "minecraft:iron_block"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0F3C56ADDC7DAA40"
 				item: "sophisticatedstorage:storage_tool"
@@ -228,6 +264,12 @@
 			icon: "sophisticatedstorage:basic_to_diamond_tier_upgrade"
 			id: "4717B8DD6ABFFB74"
 			require_sequential_tasks: false
+			rewards: [{
+				count: 2
+				id: "5A6BB8B67D378CBC"
+				item: "sophisticatedstorage:basic_to_diamond_tier_upgrade"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5C0E005A860517E4"
 				item: {
@@ -257,6 +299,12 @@
 			]
 			id: "71BB6AA60647CE9E"
 			require_sequential_tasks: false
+			rewards: [{
+				count: 2
+				id: "5E88A842AE3C93A1"
+				item: "minecraft:coal_block"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5A287F98EC39954C"
 				item: "dankstorage:dank_1"
@@ -277,6 +325,18 @@
 			]
 			id: "43EA598EC21DA525"
 			require_sequential_tasks: false
+			rewards: [
+				{
+					id: "6E6D34F1DE052C81"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					id: "233D40AB1E163217"
+					item: "minecraft:copper_block"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "17791337BEC9D00E"
@@ -304,6 +364,11 @@
 			]
 			id: "7EC8D3471FB3EEDE"
 			require_sequential_tasks: false
+			rewards: [{
+				id: "7145BCFAD3E66DDB"
+				item: "toolbelt:pouch"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4C5DC721C768C3C1"
 				item: "toolbelt:belt"
@@ -324,6 +389,12 @@
 			]
 			id: "1A7820CA8E752427"
 			require_sequential_tasks: false
+			rewards: [{
+				count: 64
+				id: "46C2BF4313BC8EBB"
+				item: "minecraft:andesite"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.0d
 			tasks: [{
@@ -345,6 +416,12 @@
 				"No more opening chest after chest—just search, retrieve, and deposit with ease. Whether you're just getting started or looking for a lightweight storage system before diving into high-tech automation, Simple Storage Network is a game-changer for any adventurer."
 			]
 			id: "232B6B3758CD612E"
+			rewards: [{
+				count: 5
+				id: "540EA3919182CBAD"
+				item: "storagenetwork:kabel"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "0D39DFB966AB29BE"
@@ -376,6 +453,12 @@
 				"With a well-designed system, your storage will work for you—less time sorting, more time adventuring!"
 			]
 			id: "44FB0F9E709186CA"
+			rewards: [{
+				count: 5
+				id: "140D0C82D8CC9201"
+				item: "storagenetwork:kabel"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "2EE378018CB32CBE"
@@ -402,6 +485,12 @@
 				"Stay efficient, keep your loot secure, and make collection effortless with the power of a magnet!"
 			]
 			id: "063F26267EC1C500"
+			rewards: [{
+				count: 2
+				id: "7A28C340E467E62F"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6448EF40172C593D"
 				item: {
@@ -425,6 +514,12 @@
 				"Master the winds, embrace the freedom of flight, and let the hang glider turn every high peak into a launching point for adventure!"
 			]
 			id: "7A49B7F5D8A4E9E6"
+			rewards: [{
+				count: 5
+				id: "244416F166C06027"
+				item: "minecraft:leather"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6AE7FAFB31083063"
 				item: {
@@ -450,6 +545,11 @@
 				"From simple snacks to hearty feasts, the right food can make all the difference in your journey. Gather, cook, and enjoy—because every great adventurer needs a good meal to keep moving forward!"
 			]
 			id: "62BE232080B9F262"
+			rewards: [{
+				id: "3D4D164950920592"
+				item: "cookingforblockheads:counter"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3FC5E0F2E8B08133"
 				item: "cookingforblockheads:cooking_table"
@@ -470,6 +570,12 @@
 				"The Digital Kitchen Station streamlines the cooking process by pulling ingredients directly from your network, enabling you to craft meals without having to manually gather or store the ingredients. This is a great way to automate your food production while maintaining the efficiency of your storage system."
 			]
 			id: "256CAD10733A0F26"
+			rewards: [{
+				count: 5
+				id: "463A7516A8A9BCA0"
+				item: "ae2:fluix_glass_cable"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2AA90669F4539DE1"
 				item: "appliedcooking:kitchen_station"
@@ -491,6 +597,11 @@
 				"Keep the gears turning, even when you're miles away!"
 			]
 			id: "0900A4B5AB566AC8"
+			rewards: [{
+				id: "649CA9B5FA2F1E83"
+				item: "chunkloaders:basic_chunk_loader"
+				type: "item"
+			}]
 			tasks: [{
 				id: "32502E95BDDD9035"
 				item: "chunkloaders:basic_chunk_loader"
@@ -510,31 +621,29 @@
 				"Mark your path, set your waypoints, and let the world become yours to conquer!"
 			]
 			id: "501F2B7F2A872111"
-			tasks: [
-				{
-					id: "3D6785C2DC88FFC2"
-					item: {
-						Count: 1
-						id: "ftbfiltersystem:smart_filter"
-						tag: {
-							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(waystones:waystones)"
-						}
+			rewards: [{
+				id: "7D346AA78EDEF67F"
+				item: {
+					Count: 1
+					id: "waystones:warp_stone"
+					tag: {
+						Damage: 0
 					}
-					title: "Any #waystones:waystones"
-					type: "item"
 				}
-				{
-					id: "0AF3B1C046B54BA0"
-					item: {
-						Count: 1
-						id: "waystones:warp_stone"
-						tag: {
-							Damage: 0
-						}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3D6785C2DC88FFC2"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(waystones:waystones)"
 					}
-					type: "item"
 				}
-			]
+				title: "Any #waystones:waystones"
+				type: "item"
+			}]
 			title: "Fast Travel"
 			x: -7.0d
 			y: -2.5d
