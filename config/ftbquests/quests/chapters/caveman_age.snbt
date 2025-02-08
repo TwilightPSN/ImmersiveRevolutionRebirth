@@ -100,6 +100,18 @@
 			]
 			id: "35008BA8C5E8AD5B"
 			require_sequential_tasks: false
+			rewards: [
+				{
+					id: "6EED630172323366"
+					item: "minecraft:blast_furnace"
+					type: "item"
+				}
+				{
+					id: "2C8A771B916FFCC1"
+					item: "minecraft:smoker"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "7A8B1D1F07C4A34B"
