@@ -34,6 +34,12 @@
 				"By setting up a steady supply of infused materials, we can begin crafting more sophisticated machinery and automation systems. The Metallurgic Infuser is the foundation of many future upgrades, so ensuring a constant supply of the necessary infusion materials will be key to efficient production."
 			]
 			id: "10010D0E4452ACC7"
+			rewards: [{
+				count: 2
+				id: "7EC3A51154DCD575"
+				item: "mekanism:upgrade_energy"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2565C9482FDD591D"
 				item: "mekanism:metallurgic_infuser"
@@ -51,6 +57,12 @@
 				"In addition to increasing the quantity of processed resources, the Enrichment Chamber also plays a vital role in purifying dirty dusts. These unrefined dusts can be cleaned and enriched within the chamber, making them ready for further processing in a smelter or other advanced machinery."
 			]
 			id: "237CEA82FEF95C4F"
+			rewards: [{
+				count: 2
+				id: "7BE4541C91CBF1CF"
+				item: "mekanism:enriched_redstone"
+				type: "item"
+			}]
 			tasks: [{
 				id: "53174D7BD63F4A68"
 				item: "mekanism:enrichment_chamber"
@@ -68,6 +80,12 @@
 				"One of the standout features of the Crusher is its ability to break down crops into Bio Fuel, a key ingredient for creating plastic. This makes it an essential machine for producing essential materials used in advanced crafting and technology. By integrating the Crusher into your automated systems, you can streamline resource processing and ensure a continuous supply of Bio-Fuel for crafting plastics and other necessary components."
 			]
 			id: "3ABAA63194B62E70"
+			rewards: [{
+				count: 4
+				id: "4DD7B58AF9A3EE2B"
+				item: "minecraft:melon"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6FD91FA3C4D74817"
 				item: "mekanism:crusher"
@@ -85,6 +103,12 @@
 				"Not only does this new smelter provide enhanced performance, but it also integrates seamlessly with the rest of your machinery. This means that once it’s set up, it can be fully automated to work with other systems like the Enrichment Chamber or the Digital Miner. Whether you're processing metals, alloys, or other resources, the upgraded smelter ensures you can keep your production line running smoothly and efficiently."
 			]
 			id: "325CFDEF7D3CB73D"
+			rewards: [{
+				count: 2
+				id: "6A43292456CE5F32"
+				item: "mekanism:upgrade_speed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "28ADC2F87D0052D9"
 				item: "mekanism:energized_smelter"
@@ -102,6 +126,12 @@
 				"Moving away from kinetic crafting, the Precision Sawmill introduces a more automated and streamlined approach. With this, we can now produce machine parts and other critical resources without relying on manual crafting methods."
 			]
 			id: "576F711A38F08993"
+			rewards: [{
+				count: 2
+				id: "3640066448BF60C9"
+				item: "mekanism:basic_control_circuit"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0A2AF7B197DF3107"
 				item: "mekanism:precision_sawmill"
@@ -119,6 +149,12 @@
 				"Once purified, these resources can be processed further in various machines, leading to more advanced technological developments. The purified materials are more efficient and yield better results."
 			]
 			id: "26EC3327B0845800"
+			rewards: [{
+				count: 4
+				id: "742841E34C254D5C"
+				item: "supplementaries:flint_block"
+				type: "item"
+			}]
 			tasks: [{
 				id: "006ACAB593CD06DE"
 				item: "mekanism:purification_chamber"
@@ -136,6 +172,11 @@
 				"For example, the Electrolytic Separator can be used to extract hydrogen and oxygen from water, two essential elements for creating fuels and other chemicals. The versatility of this machine makes it an invaluable part of any industrial setup, allowing you to harness the power of chemical separation."
 			]
 			id: "427D1479DD8718A0"
+			rewards: [{
+				id: "5DF1A0F246B3B8AF"
+				item: "mekanism:steel_casing"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6F8176BAD38099BB"
 				item: "mekanism:electrolytic_separator"
@@ -153,6 +194,11 @@
 				"These newly created chemicals are crucial for advancing our technology and automating processes. They can be used to fuel machines, power systems, or even generate new resources needed for crafting more complex components."
 			]
 			id: "6E9FEFE34F9A1E79"
+			rewards: [{
+				id: "5A9309BE921C2796"
+				item: "mekanism:advanced_chemical_tank"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1526E2B8B2045811"
 				item: "mekanism:chemical_infuser"
@@ -170,6 +216,12 @@
 				"Once the Brine is extracted, it can be used in various chemical processes, helping us to unlock further resources and technologies."
 			]
 			id: "317DDBD71B8C1CA2"
+			rewards: [{
+				count: 4
+				id: "28443A6C1F9844DF"
+				item: "mekanism:thermal_evaporation_block"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7DAE3AFD28BABD9F"
 				item: "mekanism:thermal_evaporation_controller"
@@ -187,6 +239,11 @@
 				"By crafting a Configurator early, we ensure smoother automation and greater control over our setup. Whether redirecting power, adjusting fluid movement, or fine-tuning logistical systems, this tool will be invaluable."
 			]
 			id: "1DB1FCBFB7431E7A"
+			rewards: [{
+				id: "6B2BD96E0D525BEF"
+				item: "mekanism:gauge_dropper"
+				type: "item"
+			}]
 			tasks: [{
 				id: "07695DAAC196F9A4"
 				item: "mekanism:configurator"
@@ -205,6 +262,11 @@
 				"This technique is especially useful for scaling up production and ensuring we’re not running out of resources as we move forward with our technological advancements. The increased output will help support the growing demands of our machines."
 			]
 			id: "0B5CECC9F68A74B0"
+			rewards: [{
+				id: "3FE899E2A46EED73"
+				item: "minecraft:diamond_block"
+				type: "item"
+			}]
 			tasks: [{
 				id: "32C1F4A2D608C2BE"
 				item: "mekanism:chemical_injection_chamber"
@@ -222,6 +284,11 @@
 				"This solidified form of minerals can then be used in crafting, automation, and powering further technological advancements. It’s a critical step in ensuring we can process resources more efficiently."
 			]
 			id: "27E46FBECCC8939B"
+			rewards: [{
+				id: "4EA17991A921D83E"
+				item: "mekanism:block_fluorite"
+				type: "item"
+			}]
 			tasks: [{
 				id: "584DAD83D079713E"
 				item: "mekanism:chemical_crystallizer"
@@ -243,6 +310,11 @@
 				"With this advancement, we can strategically place infused Budding blocks in controlled environments to harvest resources efficiently."
 			]
 			id: "1C77BC5EF2916F72"
+			rewards: [{
+				id: "43E24AA6521C73DF"
+				item: "mekanism:steel_casing"
+				type: "item"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "6BAE1AB8DFB19C0D"
@@ -261,6 +333,11 @@
 				"This purification process is vital for obtaining cleaner and more efficient chemicals that can be used in further crafting or resource generation. It’s an essential step to take continuing with advanced processing."
 			]
 			id: "715A817659EB76A5"
+			rewards: [{
+				id: "13E0813D1F43B09E"
+				item: "mekanism:block_refined_obsidian"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3AE9D5227960F311"
 				item: "mekanism:chemical_washer"
@@ -278,6 +355,12 @@
 				"Using Sulfuric Acid allows for a higher output and ensures that we can continue to expand our resource pool with maximum efficiency."
 			]
 			id: "4EFFA60CDB84839A"
+			rewards: [{
+				count: 10
+				id: "58ACD7FB410E9245"
+				item: "mekanism:dust_sulfur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "403E366A5FAB8B52"
 				item: "mekanism:chemical_dissolution_chamber"
@@ -295,6 +378,11 @@
 				"Processing these resources involves extreme measures to ensure their stability and usability in advanced machinery. Once refined, they will open the door to innovations that surpass anything we've encountered so far."
 			]
 			id: "1D95E21C7984BD6C"
+			rewards: [{
+				id: "6AD39B79DDF569EB"
+				item: "draconicevolution:draconium_block"
+				type: "item"
+			}]
 			shape: "gear"
 			tasks: [{
 				id: "044681639AD2EE8D"
@@ -313,6 +401,11 @@
 				"By leveraging these machines, we can automate complex material production, ensuring we always have the components we need for high-end technology. Robotic machinery opens up a world of possibilities for our industrial advancements."
 			]
 			id: "421B6C0FA9E9D45D"
+			rewards: [{
+				id: "3D02CF92CE027546"
+				item: "minecraft:diamond_block"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7D995BF5D3470215"
 				item: {
@@ -381,6 +474,12 @@
 				"Fiery Clay’s uses extend into advanced technological applications, where stable, controlled heat is needed. As we continue refining our resources, this material will play a key role in developing new machines and components, pushing us further into the world of high-tech automation."
 			]
 			id: "299F28BD3E7F3946"
+			rewards: [{
+				count: 4
+				id: "41DAD2E3B600D91E"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5C76F0A07FD9D9B7"
 				item: "kubejs:blaze_clay"
@@ -398,6 +497,12 @@
 				"The Dielectric Paste serves as a crucial material in crafting high-performance capacitors, wiring, and other electrical devices. It ensures that circuits run smoothly without interference, making it essential as we progress in our technological journey."
 			]
 			id: "7A88E6320FFD7765"
+			rewards: [{
+				count: 3
+				id: "0417AE9A98887A46"
+				item: "powah:dielectric_paste"
+				type: "item"
+			}]
 			shape: "gear"
 			tasks: [{
 				id: "4B9202F03EBE9358"
@@ -416,6 +521,12 @@
 				"With these materials, we can craft stronger components for our robotic systems and other high-tech equipment."
 			]
 			id: "5C3507BA0D05D0B0"
+			rewards: [{
+				count: 10
+				id: "4D0F2D611C9DAA83"
+				item: "mekanism:bio_fuel"
+				type: "item"
+			}]
 			tasks: [{
 				id: "68523164B88BB9B2"
 				item: "mekanism:pressurized_reaction_chamber"
@@ -433,6 +544,12 @@
 				"Once energy is harnessed, the Antimatter is created and can be converted into small pellets. These Antimatter Pellets are vital for advancing Draconic machinery and unlocking powerful upgrades. Be mindful that maintaining a constant, high energy supply is essential to keep the production going."
 			]
 			id: "046A228271FDC590"
+			rewards: [{
+				count: 2
+				id: "7FC10127CE7EF53F"
+				item: "mekanism:sps_casing"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "4CC0DFB2A1162584"
@@ -462,6 +579,12 @@
 				"In addition to generating Fissile Fuel, the Isotopic Centrifuge can process Nuclear Waste into Plutonium Pellets. These pellets are essential for continued nuclear operations, allowing us to recycle waste and maintain an efficient and sustainable power production cycle."
 			]
 			id: "0A10EED5B07A50AA"
+			rewards: [{
+				count: 4
+				id: "203037B017AFF2C6"
+				item: "mekanism:dust_refined_obsidian"
+				type: "item"
+			}]
 			tasks: [{
 				id: "229A338733B3980B"
 				item: "mekanism:isotopic_centrifuge"
@@ -479,6 +602,11 @@
 				"Polonium Pellets, while dangerous, are a crucial component in high-tier energy production and crafting in the Draconic evolution. With the Solar Neutron Activator, we can keep our systems running smoothly by converting unwanted waste into valuable resources, ensuring that nothing goes to waste in our journey."
 			]
 			id: "0FEAC602149968EC"
+			rewards: [{
+				id: "350AA32411769938"
+				item: "mekanism:steel_casing"
+				type: "item"
+			}]
 			tasks: [{
 				id: "58BC854B1F8B6F34"
 				item: "mekanism:solar_neutron_activator"
@@ -496,6 +624,12 @@
 				"To make the most of your MekaSuit, focus on upgrading its capabilities to match the demands of your environment. With the right upgrades, the suit can become an unstoppable force, granting you ultimate protection while you explore, fight, or automate your way to success."
 			]
 			id: "6E91F909451E62B4"
+			rewards: [{
+				count: 4
+				id: "37CF1B892C2AD18D"
+				item: "mekanism:hdpe_sheet"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "18A671A9198C0B57"
@@ -530,6 +664,12 @@
 				"However, the process also generates Nuclear Waste, which must be carefully managed. This waste can be stored for future use or properly disposed of to avoid contamination. It’s important to have a proper containment or recycling system in place to ensure safety and efficiency as we continue to harness nuclear energy."
 			]
 			id: "57B92A99D1F22EF4"
+			rewards: [{
+				count: 4
+				id: "787F4541C37C3C04"
+				item: "mekanismgenerators:fission_reactor_casing"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "1D66BAC807DFC586"
@@ -575,6 +715,11 @@
 				"In addition to the suit, we need a system for storing the radioactive waste. Radioactive Waste Barrels are the best option for containing this dangerous byproduct. These barrels prevent the waste from contaminating the environment, allowing us to store large amounts safely until we are ready to process or dispose of them properly."
 			]
 			id: "6674853D1EFF6FCC"
+			rewards: [{
+				id: "0020C2D8DFFA7229"
+				item: "mekanism:radioactive_waste_barrel"
+				type: "item"
+			}]
 			shape: "octagon"
 			tasks: [
 				{
@@ -615,6 +760,12 @@
 				"This increased power output will allow us to run multiple machines simultaneously, enabling further automation and advancements."
 			]
 			id: "29F574AEBD0ED865"
+			rewards: [{
+				count: 4
+				id: "181153F7AE5EBB61"
+				item: "mekanismgenerators:turbine_casing"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "3D921E3052B8D966"
@@ -680,6 +831,12 @@
 				"To maximize efficiency, ensure the boiler is adequately supplied with water and heat. The faster the water is heated, the quicker the steam is generated, which in turn provides a more consistent and higher energy output for your systems."
 			]
 			id: "2F105B2DF532ABE5"
+			rewards: [{
+				count: 4
+				id: "31F9F3DDE8E7BD55"
+				item: "mekanism:boiler_casing"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "5E37A1F6DE60B61C"
@@ -720,6 +877,12 @@
 				"This ensures we have a reliable and efficient power reserve for all our machines and systems, preventing any downtime when power demand spikes or when we need to draw energy from storage."
 			]
 			id: "616DCDDA0A1D5232"
+			rewards: [{
+				count: 4
+				id: "328A97262EDD5C49"
+				item: "mekanism:induction_casing"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "468DA66EDFC97AB3"
@@ -768,6 +931,12 @@
 				"Once online, the Fusion Reactor will provide a steady and massive power output, fueling your entire base. However, the high demand for resources means you'll need to maintain a constant supply of Deuterium and Tritium, making the setup and maintenance of this system a critical aspect of your energy infrastructure."
 			]
 			id: "13160B706803907B"
+			rewards: [{
+				count: 4
+				id: "48397EA767A4BD14"
+				item: "mekanismgenerators:fusion_reactor_frame"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "0826132E1C246BE4"
@@ -803,6 +972,11 @@
 				"Once the lasers are successfully injected into the reactor, the fusion process begins, and the reactor starts to generate significant amounts of energy."
 			]
 			id: "10376E2B2F657966"
+			rewards: [{
+				id: "76E5D1F7A231E28E"
+				item: "mekanism:laser"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "6E5BC67BD9C8357B"
@@ -827,7 +1001,27 @@
 				"Once the Hohlraum is charged with the D-T Fuel, the Fusion Reactor will start generating massive amounts of energy."
 			]
 			id: "18A432450A2F7CF3"
+			rewards: [{
+				id: "68F63E98792B1569"
+				item: {
+					Count: 1
+					id: "mekanismgenerators:hohlraum"
+					tag: {
+						mekData: {
+							GasTanks: [{
+								Tank: 0b
+								stored: {
+									amount: 10L
+									gasName: "mekanismgenerators:fusion_fuel"
+								}
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
+				consume_items: true
 				id: "600EFD42374A25F2"
 				item: {
 					Count: 1
@@ -859,6 +1053,11 @@
 				"Unlike a Quarry, the Digital Miner works quickly and intelligently, scanning an area and mining only what meets its criteria. As long as we keep track of the chunks we’ve already mined, this machine ensures a steady stream of resources without excessive world destruction."
 			]
 			id: "4EC55231A0860146"
+			rewards: [{
+				id: "7697B2A6EC7459EB"
+				item: "mekanism:upgrade_anchor"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1738AE8CC293AB22"
 				item: "mekanism:digital_miner"
@@ -876,6 +1075,12 @@
 				"This conversion is necessary for further processing in reactors, where Uranium can be used as a fuel to generate high levels of energy. Ensure the Oxidizer is running efficiently to keep the flow of resources steady."
 			]
 			id: "357DEEC0C1C72BAA"
+			rewards: [{
+				count: 2
+				id: "5146932037424B28"
+				item: "mekanism:yellow_cake_uranium"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4F2793646A1D3DAB"
 				item: "mekanism:chemical_oxidizer"

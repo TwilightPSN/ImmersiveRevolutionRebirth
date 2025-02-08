@@ -1,3 +1,30 @@
+||Update||
+
+// Mods Updated //
+-Balm
+-Create Stuff & Additions
+-ExtendedAE
+-FTB Quests
+-Packet Fixer
+-Sophisticated Storage
+
+// Quest Changes //
+-Added Quest Rewards
+
+// Config Changes //
+-Reduced Realistic Bees extra spawns
+-Reduced bees per hive
+-Removed Waystone Exp cost
+-Waystones breakable again
+-Leashed entities now longer move with waystones
+
+// Script Changes //
+-OTBWG Stripped Logs and Wood added to proper Tags for Create Crafts
+-Scripts cleaned up a bit (Pull Request #35 - DevDyna)
+
+// Recipe Changes //
+- Fixed Quantum Alloy Plate Recipe
+
 ||Beta 0.10.0||
 
 // Mods Added //

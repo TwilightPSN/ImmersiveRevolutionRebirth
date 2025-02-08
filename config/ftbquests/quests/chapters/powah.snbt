@@ -22,6 +22,12 @@
 				"Having the right tool ensures that our power network remains efficient and adaptable. Whether repositioning energy cables or reconfiguring generators, this wrench is an essential companion for optimizing our electrical infrastructure."
 			]
 			id: "330386FE0BB48FB6"
+			rewards: [{
+				count: 4
+				id: "52610418EE1E3D72"
+				item: "powah:uraninite_raw"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6C80F0FC9F82FDA1"
 				item: {
@@ -45,6 +51,12 @@
 				"With this casing in place, we can start assembling more advanced technology. Nearly every machine we build will require these components, making them a key part of our production process."
 			]
 			id: "2DCED553E5EBC65F"
+			rewards: [{
+				count: 10
+				id: "7C1C76DD22BF8985"
+				item: "powah:dielectric_paste"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4F14E91D32D8DB6D"
 				item: "powah:dielectric_casing"
@@ -62,6 +74,12 @@
 				"Without capacitors, machines would struggle to distribute their generated power effectively. By integrating them into our builds, we can maximize energy efficiency and keep everything running smoothly."
 			]
 			id: "6692E8F2B4CAF9EF"
+			rewards: [{
+				count: 4
+				id: "758CC6B00E876054"
+				item: "powah:capacitor_basic"
+				type: "item"
+			}]
 			tasks: [{
 				id: "41DF5F26F9E5F20B"
 				item: "powah:capacitor_basic"
@@ -82,6 +100,11 @@
 				"One key application of this system is the processing of Raw Uraninite into a usable form. By infusing it with energy, we can refine it into a more efficient fuel source, enabling higher-tier power generation. This method ensures we maximize our resources and push our energy production to new levels."
 			]
 			id: "7A519D7656EE3495"
+			rewards: [{
+				id: "630C32DB728E5B42"
+				item: "powah:energizing_rod_hardened"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "2D32D2A30464664B"
@@ -116,6 +139,12 @@
 				"Upgrading the Magmator will improve its efficiency, allowing us to generate even more power from the same amount of fuel. This makes it a great step forward in optimizing our energy production."
 			]
 			id: "076A4CE796737E46"
+			rewards: [{
+				count: 2
+				id: "21821DCB49DC6A50"
+				item: "powah:dielectric_casing"
+				type: "item"
+			}]
 			tasks: [{
 				id: "424E7BB0A954FAE9"
 				item: {
@@ -143,6 +172,12 @@
 				"By applying a Lens of Ender, Solar Panels can absorb ambient energy even at night, allowing them to continue generating power. This upgrade makes them a more reliable power source, ensuring consistent energy production regardless of the time of day."
 			]
 			id: "5C8F04432EE23906"
+			rewards: [{
+				count: 3
+				id: "0359BA90FDF77AAD"
+				item: "mekanismgenerators:solar_panel"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "2F1190E577FECE36"
@@ -178,6 +213,12 @@
 				"As we progress, we can upgrade the Furnator to improve its efficiency and output. This ensures we have a scalable power source that can keep up with our growing energy demands."
 			]
 			id: "090F617377FD54BF"
+			rewards: [{
+				count: 2
+				id: "6A7CF324BA02A14F"
+				item: "powah:dielectric_casing"
+				type: "item"
+			}]
 			tasks: [{
 				id: "256ED987BFB8DE2E"
 				item: {
@@ -205,6 +246,11 @@
 				"Placing them in the right area is key to maximizing their output. The greater the heat differential around them, the more energy they can produce. This makes them an excellent option for sustainable and scalable power generation."
 			]
 			id: "42E7D911B078B71C"
+			rewards: [{
+				id: "3A0872E00261DD07"
+				item: "powah:dry_ice"
+				type: "item"
+			}]
 			tasks: [{
 				id: "700252F900D568E8"
 				item: {
@@ -229,6 +275,11 @@
 				"However, to maintain continuous operation, we must ensure the Reactor is consistently supplied with the necessary fuel and resources. Keeping it well-stocked guarantees a stable power flow, preventing any sudden shortages or downtime in our energy network."
 			]
 			id: "10E970261F697233"
+			rewards: [{
+				id: "760D922C6B498EB2"
+				item: "powah:uraninite_block"
+				type: "item"
+			}]
 			tasks: [{
 				id: "596F1A57FD3BA090"
 				item: {
@@ -256,6 +307,11 @@
 				"To use them effectively, we need to properly link the transmitter to ourselves. Once connected, it will continuously supply energy to our gear, keeping everything running smoothly without interruptions."
 			]
 			id: "78F4C4C193332C11"
+			rewards: [{
+				id: "2BF6B345C518B95E"
+				item: "powah:aerial_pearl"
+				type: "item"
+			}]
 			tasks: [{
 				id: "572BD8A9E7DC6B14"
 				item: {
@@ -280,6 +336,11 @@
 				"The Binding Card connects the transmitter to the power of the entity, allowing it to draw power from across different worlds, keeping our gear continuously powered during our adventures."
 			]
 			id: "0D5AF794E99DE5B4"
+			rewards: [{
+				id: "24881094A2FCBEBF"
+				item: "jaopca:storage_blocks.ender_pearl"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7AA213F33EC42788"
 				item: "powah:binding_card_dim"
