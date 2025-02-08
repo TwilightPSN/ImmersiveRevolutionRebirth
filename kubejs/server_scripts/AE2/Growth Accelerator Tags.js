@@ -1,69 +1,76 @@
-ServerEvents.tags('block', IRRebirth => {
-    IRRebirth.add('forge:budding', 'buddingcrystals:budding_fluix')
-    IRRebirth.add('forge:budding', 'buddingcrystals:budding_certus_quartz')
-    IRRebirth.add('forge:budding', 'buddingcrystals:budding_nether_quartz')
-    IRRebirth.add('forge:budding', 'buddingcrystals:budding_glowstone')
-    IRRebirth.add('forge:budding', 'buddingcrystals:budding_prismarine')
-    IRRebirth.add('forge:budding', 'buddingcrystals:budding_steel')
-    IRRebirth.add('forge:budding', 'buddingcrystals:budding_refinedobsidian')
-    IRRebirth.add('forge:budding', 'buddingcrystals:budding_spiritedcrystal')
-    IRRebirth.add('forge:budding', 'buddingcrystals:budding_aluminum')
-    IRRebirth.add('forge:budding', 'buddingcrystals:budding_nioticcrystal')
-    IRRebirth.add('forge:budding', 'buddingcrystals:budding_netherite')
-    IRRebirth.add('forge:budding', 'buddingcrystals:budding_gold')
-    IRRebirth.add('forge:budding', 'buddingcrystals:budding_nitrocrystal')
-    IRRebirth.add('forge:budding', 'buddingcrystals:budding_lapis_lazuli')
-    IRRebirth.add('forge:budding', 'buddingcrystals:budding_tin')
-    IRRebirth.add('forge:budding', 'buddingcrystals:budding_fluorite')
-    IRRebirth.add('forge:budding', 'buddingcrystals:budding_copper')
-    IRRebirth.add('forge:budding', 'buddingcrystals:budding_refinedglowstone')
-    IRRebirth.add('forge:budding', 'buddingcrystals:budding_awakeneddraconium')
-    IRRebirth.add('forge:budding', 'buddingcrystals:budding_blazingcrystal')
-    IRRebirth.add('forge:budding', 'buddingcrystals:budding_zinc')
-    IRRebirth.add('forge:budding', 'buddingcrystals:budding_electrum')
-    IRRebirth.add('forge:budding', 'buddingcrystals:budding_nickel')
-    IRRebirth.add('forge:budding', 'buddingcrystals:budding_salt')
-    IRRebirth.add('forge:budding', 'buddingcrystals:budding_hopgraphite')
-    IRRebirth.add('forge:budding', 'buddingcrystals:budding_energizedsteel')
-    IRRebirth.add('forge:budding', 'buddingcrystals:budding_osmium')
-    IRRebirth.add('forge:budding', 'buddingcrystals:budding_brass')
-    IRRebirth.add('forge:budding', 'buddingcrystals:budding_constantan')
-    IRRebirth.add('forge:budding', 'buddingcrystals:budding_lead')
-    IRRebirth.add('forge:budding', 'buddingcrystals:budding_bronze')
-    IRRebirth.add('forge:budding', 'buddingcrystals:budding_draconium')
-    IRRebirth.add('forge:budding', 'buddingcrystals:budding_diamond')
-    IRRebirth.add('forge:budding', 'buddingcrystals:budding_uraninite')
-    IRRebirth.add('forge:budding', 'buddingcrystals:budding_coal')
-    IRRebirth.add('forge:budding', 'buddingcrystals:budding_iron')
-    IRRebirth.add('forge:budding', 'buddingcrystals:budding_silver')
-    IRRebirth.add('forge:budding', 'buddingcrystals:budding_uranium')
-    IRRebirth.add('forge:budding', 'buddingcrystals:budding_redstone')
-    IRRebirth.add('forge:budding', 'buddingcrystals:budding_emerald')
-    IRRebirth.add('minecraft:crops', 'agricraft:crop')
-    IRRebirth.add('forge:budding', 'buddingcrystals:budding_quantumalloy')
-    IRRebirth.add('forge:budding', 'buddingcrystals:budding_skeleton')
-    IRRebirth.add('forge:budding', 'buddingcrystals:budding_creeper')
-    IRRebirth.add('forge:budding', 'buddingcrystals:budding_zombie')
-    IRRebirth.add('forge:budding', 'buddingcrystals:budding_sheep')
-    IRRebirth.add('forge:budding', 'buddingcrystals:budding_spider')
-    IRRebirth.add('forge:budding', 'buddingcrystals:budding_bee')
-    IRRebirth.add('forge:budding', 'buddingcrystals:budding_snowgolem')
-    IRRebirth.add('forge:budding', 'buddingcrystals:budding_skysteel')
-    IRRebirth.add('forge:budding', 'buddingcrystals:budding_squid')
-    IRRebirth.add('forge:budding', 'buddingcrystals:budding_glowsquid')
-    IRRebirth.add('forge:budding', 'buddingcrystals:budding_blaze')
-    IRRebirth.add('forge:budding', 'buddingcrystals:budding_witherskeleton')
-    IRRebirth.add('forge:budding', 'buddingcrystals:budding_ghast')
-    IRRebirth.add('forge:budding', 'buddingcrystals:budding_enderman')
-    IRRebirth.add('forge:budding', 'buddingcrystals:budding_sculk')
-    IRRebirth.add('forge:budding', 'buddingcrystals:budding_cow')
-    IRRebirth.add('forge:budding', 'buddingcrystals:budding_acidicredstone')
-    IRRebirth.add('forge:budding', 'buddingcrystals:budding_magmacube')
-    IRRebirth.add('forge:budding', 'buddingcrystals:budding_chicken')
-    IRRebirth.add('forge:budding', 'buddingcrystals:budding_phantom')
-    IRRebirth.add('forge:budding', 'buddingcrystals:budding_flint')
-    IRRebirth.add('forge:budding', 'buddingcrystals:budding_slime')
-    IRRebirth.add('forge:budding', 'buddingcrystals:budding_wither')
-    IRRebirth.add('forge:budding', 'buddingcrystals:budding_chaosdragon')
-    IRRebirth.add('forge:budding', 'buddingcrystals:budding_coalcoke')
-})
+ServerEvents.tags("block", (IRRebirth) => {
+  IRRebirth.add("minecraft:crops", "agricraft:crop");
+
+  let buddingCrystals = [
+    "buddingcrystals:budding_fluix",
+    "buddingcrystals:budding_certus_quartz",
+    "buddingcrystals:budding_nether_quartz",
+    "buddingcrystals:budding_glowstone",
+    "buddingcrystals:budding_prismarine",
+    "buddingcrystals:budding_steel",
+    "buddingcrystals:budding_refinedobsidian",
+    "buddingcrystals:budding_spiritedcrystal",
+    "buddingcrystals:budding_aluminum",
+    "buddingcrystals:budding_nioticcrystal",
+    "buddingcrystals:budding_netherite",
+    "buddingcrystals:budding_gold",
+    "buddingcrystals:budding_nitrocrystal",
+    "buddingcrystals:budding_lapis_lazuli",
+    "buddingcrystals:budding_tin",
+    "buddingcrystals:budding_fluorite",
+    "buddingcrystals:budding_copper",
+    "buddingcrystals:budding_refinedglowstone",
+    "buddingcrystals:budding_awakeneddraconium",
+    "buddingcrystals:budding_blazingcrystal",
+    "buddingcrystals:budding_zinc",
+    "buddingcrystals:budding_electrum",
+    "buddingcrystals:budding_nickel",
+    "buddingcrystals:budding_salt",
+    "buddingcrystals:budding_hopgraphite",
+    "buddingcrystals:budding_energizedsteel",
+    "buddingcrystals:budding_osmium",
+    "buddingcrystals:budding_brass",
+    "buddingcrystals:budding_constantan",
+    "buddingcrystals:budding_lead",
+    "buddingcrystals:budding_bronze",
+    "buddingcrystals:budding_draconium",
+    "buddingcrystals:budding_diamond",
+    "buddingcrystals:budding_uraninite",
+    "buddingcrystals:budding_coal",
+    "buddingcrystals:budding_iron",
+    "buddingcrystals:budding_silver",
+    "buddingcrystals:budding_uranium",
+    "buddingcrystals:budding_redstone",
+    "buddingcrystals:budding_emerald",
+    "buddingcrystals:budding_quantumalloy",
+    "buddingcrystals:budding_skeleton",
+    "buddingcrystals:budding_creeper",
+    "buddingcrystals:budding_zombie",
+    "buddingcrystals:budding_sheep",
+    "buddingcrystals:budding_spider",
+    "buddingcrystals:budding_bee",
+    "buddingcrystals:budding_snowgolem",
+    "buddingcrystals:budding_skysteel",
+    "buddingcrystals:budding_squid",
+    "buddingcrystals:budding_glowsquid",
+    "buddingcrystals:budding_blaze",
+    "buddingcrystals:budding_witherskeleton",
+    "buddingcrystals:budding_ghast",
+    "buddingcrystals:budding_enderman",
+    "buddingcrystals:budding_sculk",
+    "buddingcrystals:budding_cow",
+    "buddingcrystals:budding_acidicredstone",
+    "buddingcrystals:budding_magmacube",
+    "buddingcrystals:budding_chicken",
+    "buddingcrystals:budding_phantom",
+    "buddingcrystals:budding_flint",
+    "buddingcrystals:budding_slime",
+    "buddingcrystals:budding_wither",
+    "buddingcrystals:budding_chaosdragon",
+    "buddingcrystals:budding_coalcoke",
+  ];
+
+  buddingCrystals.forEach((crystal) => {
+    IRRebirth.add("forge:budding", crystal);
+  });
+});
