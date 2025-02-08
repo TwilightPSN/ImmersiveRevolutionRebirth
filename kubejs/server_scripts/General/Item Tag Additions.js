@@ -1,92 +1,50 @@
-ServerEvents.tags('item', IRRebirth => {
-    IRRebirth.add('sophisticatedstorage:chestupgrades', 'sophisticatedstorage:iron_to_gold_tier_upgrade')
-    IRRebirth.add('sophisticatedstorage:chestupgrades', 'sophisticatedstorage:iron_to_diamond_tier_upgrade')
-    IRRebirth.add('sophisticatedstorage:chestupgrades', 'sophisticatedstorage:iron_to_netherite_tier_upgrade')
-    IRRebirth.add('sophisticatedstorage:chestupgrades', 'sophisticatedstorage:gold_to_diamond_tier_upgrade')
-    IRRebirth.add('sophisticatedstorage:chestupgrades', 'sophisticatedstorage:gold_to_netherite_tier_upgrade')
-    IRRebirth.add('sophisticatedstorage:chestupgrades', 'sophisticatedstorage:diamond_to_netherite_tier_upgrade')
-    IRRebirth.add('sophisticatedstorage:chestupgrades', 'sophisticatedstorage:copper_to_netherite_tier_upgrade')
-    IRRebirth.add('sophisticatedstorage:chestupgrades', 'sophisticatedstorage:copper_to_diamond_tier_upgrade')
-    IRRebirth.add('sophisticatedstorage:chestupgrades', 'sophisticatedstorage:copper_to_gold_tier_upgrade')
-    IRRebirth.add('sophisticatedstorage:chestupgrades', 'sophisticatedstorage:copper_to_iron_tier_upgrade')
-    IRRebirth.add('sophisticatedstorage:chestupgrades', 'sophisticatedstorage:basic_to_netherite_tier_upgrade')
-    IRRebirth.add('sophisticatedstorage:chestupgrades', 'sophisticatedstorage:basic_to_diamond_tier_upgrade')
-    IRRebirth.add('sophisticatedstorage:chestupgrades', 'sophisticatedstorage:basic_to_gold_tier_upgrade')
-    IRRebirth.add('sophisticatedstorage:chestupgrades', 'sophisticatedstorage:basic_to_iron_tier_upgrade')
-    IRRebirth.add('sophisticatedstorage:chestupgrades', 'sophisticatedstorage:basic_to_copper_tier_upgrade') 
-    IRRebirth.add('forge:workbenches', 'biomeswevegone:green_enchanted_crafting_table')
-    IRRebirth.add('forge:workbenches', 'biomeswevegone:holly_crafting_table')
-    IRRebirth.add('forge:workbenches', 'biomeswevegone:ironwood_crafting_table')
-    IRRebirth.add('forge:workbenches', 'biomeswevegone:jacaranda_crafting_table')
-    IRRebirth.add('forge:workbenches', 'biomeswevegone:mahogany_crafting_table')
-    IRRebirth.add('forge:workbenches', 'biomeswevegone:maple_crafting_table')
-    IRRebirth.add('forge:workbenches', 'biomeswevegone:palm_crafting_table')
-    IRRebirth.add('forge:workbenches', 'biomeswevegone:pine_crafting_table')
-    IRRebirth.add('forge:workbenches', 'biomeswevegone:rainbow_eucalyptus_crafting_table')
-    IRRebirth.add('forge:workbenches', 'biomeswevegone:redwood_crafting_table')
-    IRRebirth.add('forge:workbenches', 'biomeswevegone:sakura_crafting_table')
-    IRRebirth.add('forge:workbenches', 'biomeswevegone:skyris_crafting_table')
-    IRRebirth.add('forge:workbenches', 'biomeswevegone:white_mangrove_crafting_table')
-    IRRebirth.add('forge:workbenches', 'biomeswevegone:willow_crafting_table')
-    IRRebirth.add('forge:workbenches', 'biomeswevegone:witch_hazel_crafting_table')
-    IRRebirth.add('forge:workbenches', 'biomeswevegone:zelkova_crafting_table')
-    IRRebirth.add('forge:workbenches', 'biomeswevegone:florus_crafting_table')
-    IRRebirth.add('forge:workbenches', 'biomeswevegone:fir_crafting_table')
-    IRRebirth.add('forge:workbenches', 'biomeswevegone:ebony_crafting_table')
-    IRRebirth.add('forge:workbenches', 'biomeswevegone:blue_enchanted_crafting_table')
-    IRRebirth.add('forge:workbenches', 'biomeswevegone:baobab_crafting_table')
-    IRRebirth.add('forge:workbenches', 'biomeswevegone:aspen_crafting_table')
-    IRRebirth.add('forge:workbenches', 'minecraft:crafting_table')
-    IRRebirth.add('forge:workbenches', 'biomeswevegone:cypress_crafting_table')
-    IRRebirth.add('forge:workbenches', 'biomeswevegone:cika_crafting_table')
-    IRRebirth.add('forge:plates', 'createdeco:andesite_sheet')
-    IRRebirth.add('forge:plates/andesite_alloy', 'createdeco:andesite_sheet')
-    IRRebirth.add('forge:stripped_logs', 'biomeswevegone:stripped_aspen_log')
-    IRRebirth.add('forge:stripped_wood', 'biomeswevegone:stripped_aspen_wood')
-    IRRebirth.add('forge:stripped_logs', 'biomeswevegone:stripped_baobab_log')
-    IRRebirth.add('forge:stripped_wood', 'biomeswevegone:stripped_baobab_wood')
-    IRRebirth.add('forge:stripped_logs', 'biomeswevegone:stripped_blue_enchanted_log')
-    IRRebirth.add('forge:stripped_wood', 'biomeswevegone:stripped_blue_enchanted_wood')
-    IRRebirth.add('forge:stripped_logs', 'biomeswevegone:stripped_cika_log')
-    IRRebirth.add('forge:stripped_wood', 'biomeswevegone:stripped_cika_wood')
-    IRRebirth.add('forge:stripped_logs', 'biomeswevegone:stripped_cypress_log')
-    IRRebirth.add('forge:stripped_wood', 'biomeswevegone:stripped_cypress_wood')
-    IRRebirth.add('forge:stripped_logs', 'biomeswevegone:stripped_ebony_log')
-    IRRebirth.add('forge:stripped_wood', 'biomeswevegone:stripped_ebony_wood')
-    IRRebirth.add('forge:stripped_logs', 'biomeswevegone:stripped_fir_log')
-    IRRebirth.add('forge:stripped_wood', 'biomeswevegone:stripped_fir_wood')
-    IRRebirth.add('forge:stripped_stem', 'biomeswevegone:stripped_florus_stem')
-    IRRebirth.add('forge:stripped_wood', 'biomeswevegone:stripped_florus_wood')
-    IRRebirth.add('forge:stripped_logs', 'biomeswevegone:stripped_green_enchanted_log')
-    IRRebirth.add('forge:stripped_wood', 'biomeswevegone:stripped_green_enchanted_wood')
-    IRRebirth.add('forge:stripped_logs', 'biomeswevegone:stripped_holly_log')
-    IRRebirth.add('forge:stripped_wood', 'biomeswevegone:stripped_holly_wood')
-    IRRebirth.add('forge:stripped_logs', 'biomeswevegone:stripped_ironwood_log')
-    IRRebirth.add('forge:stripped_wood', 'biomeswevegone:stripped_ironwood_wood')
-    IRRebirth.add('forge:stripped_logs', 'biomeswevegone:stripped_jacaranda_log')
-    IRRebirth.add('forge:stripped_wood', 'biomeswevegone:stripped_jacaranda_wood')
-    IRRebirth.add('forge:stripped_logs', 'biomeswevegone:stripped_mahogany_log')
-    IRRebirth.add('forge:stripped_wood', 'biomeswevegone:stripped_mahogany_wood')
-    IRRebirth.add('forge:stripped_logs', 'biomeswevegone:stripped_maple_log')
-    IRRebirth.add('forge:stripped_wood', 'biomeswevegone:stripped_maple_wood')
-    IRRebirth.add('forge:stripped_logs', 'biomeswevegone:stripped_palm_log')
-    IRRebirth.add('forge:stripped_wood', 'biomeswevegone:stripped_palm_wood')
-    IRRebirth.add('forge:stripped_logs', 'biomeswevegone:stripped_pine_log')
-    IRRebirth.add('forge:stripped_wood', 'biomeswevegone:stripped_pine_wood')
-    IRRebirth.add('forge:stripped_logs', 'biomeswevegone:stripped_rainbow_eucalyptus_log')
-    IRRebirth.add('forge:stripped_wood', 'biomeswevegone:stripped_rainbow_eucalyptus_wood')
-    IRRebirth.add('forge:stripped_logs', 'biomeswevegone:stripped_redwood_log')
-    IRRebirth.add('forge:stripped_wood', 'biomeswevegone:stripped_redwood_wood')
-    IRRebirth.add('forge:stripped_logs', 'biomeswevegone:stripped_skyris_log')
-    IRRebirth.add('forge:stripped_wood', 'biomeswevegone:stripped_skyris_wood')
-    IRRebirth.add('forge:stripped_logs', 'biomeswevegone:stripped_white_mangrove_log')
-    IRRebirth.add('forge:stripped_wood', 'biomeswevegone:stripped_white_mangrove_wood')
-    IRRebirth.add('forge:stripped_logs', 'biomeswevegone:stripped_willow_log')
-    IRRebirth.add('forge:stripped_wood', 'biomeswevegone:stripped_willow_wood')
-    IRRebirth.add('forge:stripped_logs', 'biomeswevegone:stripped_witch_hazel_log')
-    IRRebirth.add('forge:stripped_wood', 'biomeswevegone:stripped_witch_hazel_wood')
-    IRRebirth.add('forge:stripped_logs', 'biomeswevegone:stripped_zelkova_log')
-    IRRebirth.add('forge:stripped_wood', 'biomeswevegone:stripped_zelkova_wood')
-    IRRebirth.add('forge:stripped_logs', 'biomeswevegone:stripped_palo_verde_log')
-    IRRebirth.add('forge:stripped_wood', 'biomeswevegone:stripped_palo_verde_wood')
-})
+ServerEvents.tags("item", (IRRebirth) => {
+    IRRebirth.add("sophisticatedstorage:chestupgrades", [
+      "sophisticatedstorage:iron_to_gold_tier_upgrade",
+      "sophisticatedstorage:iron_to_diamond_tier_upgrade",
+      "sophisticatedstorage:iron_to_netherite_tier_upgrade",
+      "sophisticatedstorage:gold_to_diamond_tier_upgrade",
+      "sophisticatedstorage:gold_to_netherite_tier_upgrade",
+      "sophisticatedstorage:diamond_to_netherite_tier_upgrade",
+      "sophisticatedstorage:copper_to_netherite_tier_upgrade",
+      "sophisticatedstorage:copper_to_diamond_tier_upgrade",
+      "sophisticatedstorage:copper_to_gold_tier_upgrade",
+      "sophisticatedstorage:copper_to_iron_tier_upgrade",
+      "sophisticatedstorage:basic_to_netherite_tier_upgrade",
+      "sophisticatedstorage:basic_to_diamond_tier_upgrade",
+      "sophisticatedstorage:basic_to_gold_tier_upgrade",
+      "sophisticatedstorage:basic_to_iron_tier_upgrade",
+      "sophisticatedstorage:basic_to_copper_tier_upgrade",
+    ]);  
+    craftingTables.forEach((table) =>
+      IRRebirth.add("forge:workbenches", [
+        "biomeswevegone:green_enchanted_crafting_table",
+        "biomeswevegone:holly_crafting_table",
+        "biomeswevegone:ironwood_crafting_table",
+        "biomeswevegone:jacaranda_crafting_table",
+        "biomeswevegone:mahogany_crafting_table",
+        "biomeswevegone:maple_crafting_table",
+        "biomeswevegone:palm_crafting_table",
+        "biomeswevegone:pine_crafting_table",
+        "biomeswevegone:rainbow_eucalyptus_crafting_table",
+        "biomeswevegone:redwood_crafting_table",
+        "biomeswevegone:sakura_crafting_table",
+        "biomeswevegone:skyris_crafting_table",
+        "biomeswevegone:white_mangrove_crafting_table",
+        "biomeswevegone:willow_crafting_table",
+        "biomeswevegone:witch_hazel_crafting_table",
+        "biomeswevegone:zelkova_crafting_table",
+        "biomeswevegone:florus_crafting_table",
+        "biomeswevegone:fir_crafting_table",
+        "biomeswevegone:ebony_crafting_table",
+        "biomeswevegone:blue_enchanted_crafting_table",
+        "biomeswevegone:baobab_crafting_table",
+        "biomeswevegone:aspen_crafting_table",
+        "biomeswevegone:cypress_crafting_table",
+        "biomeswevegone:cika_crafting_table",
+        "biomeswevegone:minecraft:crafting_table",
+      ])
+    );
+    IRRebirth.add("forge:plates", "createdeco:andesite_sheet");
+    IRRebirth.add("forge:plates/andesite_alloy", "createdeco:andesite_sheet");  
+});

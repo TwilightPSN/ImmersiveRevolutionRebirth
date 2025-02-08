@@ -1,20 +1,28 @@
-ItemEvents.modification(IRRebirth => {
-  IRRebirth.modify('minecraft:ender_pearl', item => {item.maxStackSize = 64})
-  IRRebirth.modify('minecraft:snowball', item => {item.maxStackSize = 64})
-  IRRebirth.modify('powah:charged_snowball', item => {item.maxStackSize = 64})
-  IRRebirth.modify('minecraft:mushroom_stew', item => {item.maxStackSize = 64})
-  IRRebirth.modify('minecraft:rabbit_stew', item => {item.maxStackSize = 64})
-  IRRebirth.modify('minecraft:suspicious_stew', item => {item.maxStackSize = 64})
-  IRRebirth.modify('minecraft:beetroot_soup', item => {item.maxStackSize = 64})
-  IRRebirth.modify('biomeswevegone:white_puffball_stew', item => {item.maxStackSize = 64})
-  IRRebirth.modify('biomeswevegone:allium_addion_soup', item => {item.maxStackSize = 64})
-  IRRebirth.modify('endermanoverhaul:corrupted_pearl', item => {item.maxStackSize = 64})
-  IRRebirth.modify('endermanoverhaul:soul_pearl', item => {item.maxStackSize = 64})
-  IRRebirth.modify('endermanoverhaul:ancient_pearl', item => {item.maxStackSize = 64})
-  IRRebirth.modify('endermanoverhaul:bubble_pearl', item => {item.maxStackSize = 64})
-  IRRebirth.modify('endermanoverhaul:summoner_pearl', item => {item.maxStackSize = 64})
-  IRRebirth.modify('endermanoverhaul:icy_pearl', item => {item.maxStackSize = 64})
-  IRRebirth.modify('endermanoverhaul:crimson_pearl', item => {item.maxStackSize = 64})
-  IRRebirth.modify('endermanoverhaul:warped_pearl', item => {item.maxStackSize = 64})
-  IRRebirth.modify('aquaculture:turtle_soup', item => {item.maxStackSize = 64})
-})
+ItemEvents.modification((IRRebirth) => {
+  let itemlist = [
+    "minecraft:ender_pearl",
+    "minecraft:snowball",
+    "powah:charged_snowball",
+    "minecraft:mushroom_stew",
+    "minecraft:rabbit_stew",
+    "minecraft:suspicious_stew",
+    "minecraft:beetroot_soup",
+    "biomeswevegone:white_puffball_stew",
+    "biomeswevegone:allium_addion_soup",
+    "endermanoverhaul:corrupted_pearl",
+    "endermanoverhaul:soul_pearl",
+    "endermanoverhaul:ancient_pearl",
+    "endermanoverhaul:bubble_pearl",
+    "endermanoverhaul:summoner_pearl",
+    "endermanoverhaul:icy_pearl",
+    "endermanoverhaul:crimson_pearl",
+    "endermanoverhaul:warped_pearl",
+    "aquaculture:turtle_soup",
+  ];
+
+  itemlist.forEach((itemToModify) => {
+    IRRebirth.modify(itemToModify, (item) => {
+      item.maxStackSize = 64;
+    });
+  });
+});

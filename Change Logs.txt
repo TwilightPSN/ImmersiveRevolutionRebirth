@@ -20,6 +20,7 @@
 
 // Script Changes //
 -OTBWG Stripped Logs and Wood added to proper Tags for Create Crafts
+-Scripts cleaned up a bit (Pull Request #35 - DevDyna)
 
 // Recipe Changes //
 - Fixed Quantum Alloy Plate Recipe
