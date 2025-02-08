@@ -1,68 +1,36 @@
-ServerEvents.recipes(IRRebirth => {
-      IRRebirth.shaped(
-        Item.of('kubejs:end_mining_key'), 
-        [
-          'AAA',
-          'ABA',
-          'AAA'
-        ],
-        {
-          A: 'minecraft:purpur_block',
-          B: 'minecraft:shulker_shell'
-        })
-    IRRebirth.shaped(
-        Item.of('kubejs:nether_key'), 
-        [
-          'AAA',
-          'ABA',
-          'AAA'
-        ],
-        {
-          A: '#forge:ingots/steel',
-          B: 'minecraft:flint_and_steel'
-        })
-    IRRebirth.shaped(
-        Item.of('kubejs:mining_key'), 
-        [
-          'AAA',
-          'ABA',
-          'AAA'
-        ],
-        {
-          A: '#forge:plates/lead',
-          B: 'immersiveengineering:hammer'
-        })
-    IRRebirth.shaped(
-        Item.of('kubejs:nether_mining_key'), 
-        [
-          'AAA',
-          'ABA',
-          'AAA'
-        ],
-        {
-          A: '#forge:ingots/netherite',
-          B: 'minecraft:nether_star'
-        })
-    IRRebirth.shaped(
-        Item.of('kubejs:void_key'), 
-        [
-          'AAA',
-          'ABA',
-          'AAA'
-        ],
-        {
-          A: '#forge:gems/fluix',
-          B: 'ae2:fluix_pearl'
-        })
-    IRRebirth.shaped(
-        Item.of('kubejs:end_key'), 
-        [
-          'AAA',
-          'ABA',
-          'AAA'
-        ],
-        {
-          A: 'minecraft:end_stone',
-          B: 'minecraft:dragon_breath'
-        })
-})
+ServerEvents.recipes((IRRebirth) => {
+  
+  let craftedItems = [
+    "kubejs:end_mining_key",
+    "kubejs:nether_key",
+    "kubejs:mining_key",
+    "kubejs:nether_mining_key",
+    "kubejs:void_key",
+    "kubejs:end_key",
+  ];
+
+  let matA = [
+    "minecraft:purpur_block",
+    "#forge:ingots/steel",
+    "#forge:plates/lead",
+    "#forge:ingots/netherite",
+    "#forge:gems/fluix",
+    "minecraft:end_stone",
+  ];
+
+  let matB = [
+    "minecraft:shulker_shell",
+    "minecraft:flint_and_steel",
+    "immersiveengineering:hammer",
+    "minecraft:nether_star",
+    "ae2:fluix_pearl",
+    "minecraft:dragon_breath",
+  ];
+
+  craftedItems.forEach((crafted, index) => {
+    IRRebirth.shaped(Item.of(crafted), ["AAA", "ABA", "AAA"], {
+      A: matA[index],
+      B: matB[index],
+    });
+  });
+});
