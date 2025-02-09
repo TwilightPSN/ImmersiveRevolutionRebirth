@@ -9,6 +9,7 @@
 -Just Enough Effect Descriptions
 -AE2: Crafting Tree
 -Dark Mode Everywhere
+-Oculus
 
 // Mods Updated //
 -Balm
@@ -22,6 +23,7 @@
 // Mods Removed //
 -EMI Mods (Causes Slowness)
 -Mindful Darkness
+-Continents
 
 // Quest Changes //
 -Added Quest Rewards
@@ -37,6 +39,7 @@
 // Script Changes //
 -OTBWG Stripped Logs and Wood added to proper Tags for Create Crafts
 -Scripts cleaned up a bit (Pull Request #35 - DevDyna)
+-Default Options added that removes some keybind conflicts
 
 // Recipe Changes //
 - Fixed Quantum Alloy Plate Recipe
