@@ -67,4 +67,10 @@ JEIEvents.hideItems(IRRebirth => {
     IRRebirth.hide('draconicevolution:structure_block');
     IRRebirth.hide(['functionalstorage:fluid_1', 'functionalstorage:fluid_2', 'functionalstorage:fluid_4', 'functionalstorage:collector_upgrade', 'functionalstorage:puller_upgrade', 'functionalstorage:pusher_upgrade', 'functionalstorage:armory_cabinet', 'functionalstorage:ender_drawer']);
     IRRebirth.hide(['buddingcrystals:small_coalcoke_bud', 'buddingcrystals:medium_coalcoke_bud', 'buddingcrystals:large_coalcoke_bud']);
+    IRRebirth.hide("@bno");
+    IRRebirth.hide("@beo");
 })
+
+JEIEvents.removeCategories(IRRebirth => {
+    IRRebirth.remove('create:draining')
+  })
