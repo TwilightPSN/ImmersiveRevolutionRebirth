@@ -1,11 +1,6 @@
 ServerEvents.recipes((IRRebirth) => {
-
-    //function to simplify soil creation
   let BotanySoil = (soil) =>
     IRRebirth.recipes.botanypots.soil(soil, { block: soil }, [soil], -1, 1);
-
-  //all buddingcrystals buddings
-  // also found fluorite as duplicated
   let listSoil = [
     "budding_prismarine",
     "budding_emerald",
@@ -47,7 +42,6 @@ ServerEvents.recipes((IRRebirth) => {
     "budding_spiritedcrystal",
     "budding_nitrocrystal",
     "budding_coal",
-    "minecraft:budding_amethyst",
     "budding_skeleton",
     "budding_creeper",
     "budding_zombie",

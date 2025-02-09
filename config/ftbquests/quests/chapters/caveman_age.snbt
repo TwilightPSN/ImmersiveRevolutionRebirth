@@ -15,14 +15,6 @@
 				"With only our knowledge as a guide, we must harness the power of technology, transforming raw materials into intricate machines and simple tools into complex systems. Every discovery propels us forward, every innovation reshapes the world."
 				""
 				"The revolution has begun. Will you rise to the challenge and forge a new era of progress?"
-				"{@pagebreak}"
-				"Many elements have changed from what you may know. Various commands that exist have been disabled."
-				"/home has been disabled and instead you should utilize Waystones."
-				"Chunk loading from FTB is disabled and replaced with a utility mod to do so."
-				"/back is disabled and instead the key from Corail should be used to get back to your grave."
-				"/spawn is disabled to restrict free teleports."
-				""
-				"Feel free to enable these yourself but they are disabled to immerse you in play even more."
 			]
 			id: "599030C9DB9B1E08"
 			rewards: [{

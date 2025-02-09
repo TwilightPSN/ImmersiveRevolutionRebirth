@@ -1,4 +1,14 @@
-||Update||
+||Beta 0.11.0||
+
+// Mods Added //
+-JEI Integration
+-Just Enough Resources
+-Just Enough Professions
+-Just Enough Breeding
+-Just Enough Mekanism Multiblocks
+-Just Enough Effect Descriptions
+-AE2: Crafting Tree
+-Dark Mode Everywhere
 
 // Mods Updated //
 -Balm
@@ -7,6 +17,11 @@
 -FTB Quests
 -Packet Fixer
 -Sophisticated Storage
+-Loot Integrations: Integrated Dungeons, Villages & Strongholds
+
+// Mods Removed //
+-EMI Mods (Causes Slowness)
+-Mindful Darkness
 
 // Quest Changes //
 -Added Quest Rewards
@@ -16,7 +31,8 @@
 -Reduced bees per hive
 -Removed Waystone Exp cost
 -Waystones breakable again
--Leashed entities now longer move with waystones
+-Leashed entities no longer move with waystones
+-Re-Enabled FTB Essentials Commands with cooldowns and Warmup times
 
 // Script Changes //
 -OTBWG Stripped Logs and Wood added to proper Tags for Create Crafts

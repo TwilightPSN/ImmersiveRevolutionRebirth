@@ -1,5 +1,6 @@
 .mixin.out/
 .vscode/
+config/jei/world
 coremods/
 crash-reports/
 downloads/
