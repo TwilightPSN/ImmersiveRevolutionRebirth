@@ -6,7 +6,7 @@
 	# Configure tooltip for burn time.
 	burnTimeTooltipMode = "enabled"
 	# Configure tooltip for durability.
-	durabilityTooltipMode = "enabled"
+	durabilityTooltipMode = "disabled"
 	# Configure tooltip for enchantability
 	enchantabilityTooltipMode = "disabled"
 	# Configure tooltip for hunger and saturation.
@@ -16,9 +16,9 @@
 	# Configure tooltip for NBT data.
 	nbtTooltipMode = "disabled"
 	# Configure tooltip for registry name. E.g. minecraft:stone
-	registryNameTooltipMode = "disabled"
+	registryNameTooltipMode = "onShift"
 	# Configure tooltip for tags. E.g. forge:ingot, minecraft:planks
-	tagsTooltipMode = "disabled"
+	tagsTooltipMode = "onShift"
 	# Configure tooltip for translation key. E.g. block.minecraft.stone
 	translationKeyTooltipMode = "disabled"
 

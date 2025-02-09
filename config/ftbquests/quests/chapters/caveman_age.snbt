@@ -107,12 +107,26 @@
 			tasks: [
 				{
 					id: "7A8B1D1F07C4A34B"
-					item: "minecraft:furnace"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(minecraft:furnace)item(quark:blackstone_furnace)item(quark:deepslate_furnace))"
+						}
+					}
+					title: "Furnace"
 					type: "item"
 				}
 				{
 					id: "5F1C06E3F0348FE0"
-					item: "craftingstation:crafting_station"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item_tag(forge:workbenches)item(craftingstation:crafting_station))"
+						}
+					}
+					title: "Crafting Table"
 					type: "item"
 				}
 			]
@@ -139,7 +153,14 @@
 			}]
 			tasks: [{
 				id: "64C97F11D069C31B"
-				item: "minecraft:chest"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:chests/wooden)"
+					}
+				}
+				title: "Any #forge:chests/wooden"
 				type: "item"
 			}]
 			title: "Getting Organized"

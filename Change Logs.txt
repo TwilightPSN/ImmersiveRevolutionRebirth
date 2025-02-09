@@ -1,3 +1,21 @@
+||Beta 0.11.5||
+
+// Mods Added //
+-Durability Tooltip
+-Mod Name Tooltip
+-Almost Unify Everything
+
+// Config Changes //
+-Create button hidden from main menu
+-Removed Every Compat Tooltips
+-JEI Integration durability disabled
+-JEI Integration Tag and ID set to onShift
+-Disabled Obscure Tooltips from FTB Quests menu
+
+// Quest Changes //
+-Getting Organized quest now accepts any chest
+-Crafting Starts quest now accepts any Furnace or Crafting Table
+
 ||Beta 0.11.0||
 
 // Mods Added //
