@@ -1,3 +1,48 @@
+||Beta 0.12.0||
+
+// Mods Added //
+-Create: Copycats +
+-Create Enchantment Industry
+-Immersive Aircraft
+
+// Mods Updated //
+-Not Enough Animations
+-Collective
+-Every Compat
+-JAOPCA
+-Loot Integrations: Towns and Towers
+-Loot Integrations: Structory
+-Loot Integrations
+-MEGA Cells
+-Moonlight Library
+-QuarryPlus
+-Snow Under Trees
+-Sophisticated Backpacks
+-Sophisticated Core
+-Sophisticated Storage
+-Stone Zone
+
+// Config Changes //
+-Custom Portals updated to new blocks
+-Adjusted sort order of JEI Categories to match technology age order
+-Reduce volume of Apotheosis boss sound
+-All Silent's ores should be removed from JAMD now
+
+// Quest Changes //
+-Updated dimension quests with new blocks
+
+// Script Changes //
+-Custom Portal Blocks
+-Unified Create Additions & Deco items
+-Added plate tags to Create Deco sheets
+
+// Recipe Changes //
+-Netherite to Sheet recipe for Metal Press
+-Replace some Netherite Ingots in recipes for Plates
+-Omega Stack upgrades modified
+-Mekanism Compressing recipes for Plates
+-Missing Create Pressing recipes for Plates
+
 ||Beta 0.11.5||
 
 // Mods Added //

@@ -115,10 +115,12 @@ ItemEvents.tooltip((IRRebirth) => {
       "buddingcrystals:chicken_cluster",
       "buddingcrystals:chaosdragon_cluster",
       "buddingcrystals:coalcoke_cluster",
+      "minecraft:budding_amethyst",
+      "minecraft:amethyst_cluster",
     ];
   
     idlist.forEach((item) => {
-      IRRebirth.add(item, "§lNOTE§f: Silk Touch for Cluster");
+      IRRebirth.add(item, "Can Acquire with Silk Touch");
     });
     
   });

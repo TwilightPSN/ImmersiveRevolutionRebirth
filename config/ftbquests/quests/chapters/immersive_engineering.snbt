@@ -461,7 +461,7 @@
 				{
 					count: 8L
 					id: "42D1F0FF2117A6CE"
-					item: { Count: 8, id: "minecraft:end_stone" }
+					item: "kubejs:end_frame_bricks"
 					type: "item"
 				}
 			]
@@ -491,7 +491,7 @@
 				{
 					count: 10L
 					id: "66DC6EBE3C89833F"
-					item: { Count: 10, id: "minecraft:end_stone_bricks" }
+					item: "kubejs:end_mining_frame_bricks"
 					type: "item"
 				}
 			]
@@ -623,7 +623,7 @@
 				{
 					count: 10L
 					id: "3B4DE69CDC963B15"
-					item: { Count: 10, id: "immersiveengineering:insulating_glass" }
+					item: "kubejs:mining_frame_bricks"
 					type: "item"
 				}
 				{

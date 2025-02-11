@@ -972,7 +972,7 @@
 				{
 					count: 10L
 					id: "7344315C2BAEBF07"
-					item: { Count: 10, id: "minecraft:quartz_bricks" }
+					item: "kubejs:nether_mining_frame_bricks"
 					type: "item"
 				}
 				{
@@ -1265,15 +1265,15 @@
 			]
 			id: "510ABFA37AE208DF"
 			rewards: [{
-				id: "4D1C5023DEA0271C"
-				item: "minecraft:echo_shard"
+				id: "36D97F9EDD679351"
+				item: "silentgear:crimson_steel_block"
 				type: "item"
 			}]
 			tasks: [
 				{
 					count: 10L
 					id: "7D1B4AD869CF0A36"
-					item: "minecraft:sculk"
+					item: "kubejs:nether_frame_bricks"
 					type: "item"
 				}
 				{

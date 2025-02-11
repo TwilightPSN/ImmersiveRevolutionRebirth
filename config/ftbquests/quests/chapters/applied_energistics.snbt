@@ -865,7 +865,7 @@
 				{
 					count: 10L
 					id: "606362FEF71AF16B"
-					item: { Count: 10, id: "ae2:fluix_block" }
+					item: "kubejs:void_frame_bricks"
 					type: "item"
 				}
 				{

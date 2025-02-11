@@ -6,13 +6,13 @@ ServerEvents.recipes(IRRebirth => {
         },
         "ingredients": [
           {
-            "tag": "forge:ingots/netherite"
+            "tag": "forge:plates/netherite"
           },
           {
             "item": "draconicevolution:wyvern_core"
           },
           {
-            "tag": "forge:ingots/netherite"
+            "tag": "forge:plates/netherite"
           },
           {
             "tag": "forge:ingots/draconium_awakened"
@@ -21,13 +21,13 @@ ServerEvents.recipes(IRRebirth => {
             "tag": "forge:ingots/draconium_awakened"
           },
           {
-            "tag": "forge:ingots/netherite"
+            "tag": "forge:plates/netherite"
           },
           {
             "item": "draconicevolution:draconic_energy_core"
           },
           {
-            "tag": "forge:ingots/netherite"
+            "tag": "forge:plates/netherite"
           }
         ],
         "result": {
@@ -43,13 +43,13 @@ ServerEvents.recipes(IRRebirth => {
         },
         "ingredients": [
           {
-            "tag": "forge:ingots/netherite"
+            "tag": "forge:plates/netherite"
           },
           {
             "item": "draconicevolution:wyvern_core"
           },
           {
-            "tag": "forge:ingots/netherite"
+            "tag": "forge:plates/netherite"
           },
           {
             "tag": "forge:ingots/draconium_awakened"
@@ -58,13 +58,13 @@ ServerEvents.recipes(IRRebirth => {
             "tag": "forge:ingots/draconium_awakened"
           },
           {
-            "tag": "forge:ingots/netherite"
+            "tag": "forge:plates/netherite"
           },
           {
             "item": "draconicevolution:draconic_energy_core"
           },
           {
-            "tag": "forge:ingots/netherite"
+            "tag": "forge:plates/netherite"
           }
         ],
         "result": {
@@ -80,13 +80,13 @@ ServerEvents.recipes(IRRebirth => {
         },
         "ingredients": [
           {
-            "tag": "forge:ingots/netherite"
+            "tag": "forge:plates/netherite"
           },
           {
             "item": "draconicevolution:wyvern_core"
           },
           {
-            "tag": "forge:ingots/netherite"
+            "tag": "forge:plates/netherite"
           },
           {
             "tag": "forge:ingots/draconium_awakened"
@@ -95,13 +95,13 @@ ServerEvents.recipes(IRRebirth => {
             "tag": "forge:ingots/draconium_awakened"
           },
           {
-            "tag": "forge:ingots/netherite"
+            "tag": "forge:plates/netherite"
           },
           {
             "item": "draconicevolution:draconic_energy_core"
           },
           {
-            "tag": "forge:ingots/netherite"
+            "tag": "forge:plates/netherite"
           }
         ],
         "result": {
@@ -117,13 +117,13 @@ ServerEvents.recipes(IRRebirth => {
         },
         "ingredients": [
           {
-            "tag": "forge:ingots/netherite"
+            "tag": "forge:plates/netherite"
           },
           {
             "item": "draconicevolution:wyvern_core"
           },
           {
-            "tag": "forge:ingots/netherite"
+            "tag": "forge:plates/netherite"
           },
           {
             "tag": "forge:ingots/draconium_awakened"
@@ -132,13 +132,13 @@ ServerEvents.recipes(IRRebirth => {
             "tag": "forge:ingots/draconium_awakened"
           },
           {
-            "tag": "forge:ingots/netherite"
+            "tag": "forge:plates/netherite"
           },
           {
             "item": "draconicevolution:draconic_energy_core"
           },
           {
-            "tag": "forge:ingots/netherite"
+            "tag": "forge:plates/netherite"
           }
         ],
         "result": {
@@ -154,13 +154,13 @@ ServerEvents.recipes(IRRebirth => {
         },
         "ingredients": [
           {
-            "tag": "forge:ingots/netherite"
+            "tag": "forge:plates/netherite"
           },
           {
             "item": "draconicevolution:wyvern_core"
           },
           {
-            "tag": "forge:ingots/netherite"
+            "tag": "forge:plates/netherite"
           },
           {
             "tag": "forge:ingots/draconium_awakened"
@@ -169,13 +169,13 @@ ServerEvents.recipes(IRRebirth => {
             "tag": "forge:ingots/draconium_awakened"
           },
           {
-            "tag": "forge:ingots/netherite"
+            "tag": "forge:plates/netherite"
           },
           {
             "item": "draconicevolution:draconic_energy_core"
           },
           {
-            "tag": "forge:ingots/netherite"
+            "tag": "forge:plates/netherite"
           }
         ],
         "result": {
@@ -191,13 +191,13 @@ ServerEvents.recipes(IRRebirth => {
         },
         "ingredients": [
           {
-            "tag": "forge:ingots/netherite"
+            "tag": "forge:plates/netherite"
           },
           {
             "item": "draconicevolution:wyvern_core"
           },
           {
-            "tag": "forge:ingots/netherite"
+            "tag": "forge:plates/netherite"
           },
           {
             "tag": "forge:ingots/draconium_awakened"
@@ -206,13 +206,13 @@ ServerEvents.recipes(IRRebirth => {
             "tag": "forge:ingots/draconium_awakened"
           },
           {
-            "tag": "forge:ingots/netherite"
+            "tag": "forge:plates/netherite"
           },
           {
             "item": "draconicevolution:draconic_energy_core"
           },
           {
-            "tag": "forge:ingots/netherite"
+            "tag": "forge:plates/netherite"
           }
         ],
         "result": {
@@ -228,13 +228,13 @@ ServerEvents.recipes(IRRebirth => {
         },
         "ingredients": [
           {
-            "tag": "forge:ingots/netherite"
+            "tag": "forge:plates/netherite"
           },
           {
             "item": "draconicevolution:wyvern_core"
           },
           {
-            "tag": "forge:ingots/netherite"
+            "tag": "forge:plates/netherite"
           },
           {
             "tag": "forge:ingots/draconium_awakened"
@@ -243,13 +243,13 @@ ServerEvents.recipes(IRRebirth => {
             "tag": "forge:ingots/draconium_awakened"
           },
           {
-            "tag": "forge:ingots/netherite"
+            "tag": "forge:plates/netherite"
           },
           {
             "item": "draconicevolution:draconic_energy_core"
           },
           {
-            "tag": "forge:ingots/netherite"
+            "tag": "forge:plates/netherite"
           }
         ],
         "result": {

@@ -79,4 +79,29 @@ ServerEvents.recipes(IRRebirth => {
       IRRebirth.smelting('kubejs:hop_graphite_nugget', '#forge:dusts/hop_graphite')
       IRRebirth.blasting('kubejs:hop_graphite_nugget', '#forge:dusts/hop_graphite')
       IRRebirth.remove({type: 'mekanism:energized_smelter', id: 'minecraft:kjs/hop_graphite_nugget_2'})
+      IRRebirth.shaped(
+        Item.of('sophisticatedstorage:stack_upgrade_omega_tier'), 
+        [
+          'AAA',
+          'ABA',
+          'CAC'
+        ],
+        {
+          A: '#forge:ingots/the_ultimate',
+          B: 'sophisticatedstorage:stack_upgrade_tier_5',
+          C: '#forge:storage_blocks/the_ultimate'
+        }
+      )
+      IRRebirth.shaped(
+        Item.of('sophisticatedbackpacks:stack_upgrade_omega_tier'), 
+        [
+          'AAA',
+          'ABA',
+          'AAA'
+        ],
+        {
+          A: '#forge:storage_blocks/the_ultimate',
+          B: 'sophisticatedbackpacks:stack_upgrade_tier_4',
+        }
+      )
 })

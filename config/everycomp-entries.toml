@@ -36,45 +36,8 @@
 			shale = true
 			myalite = true
 			permafrost = true
-
-	[types.mud_type]
-
-		[types.mud_type.chipped]
-			angry_mud = true
-			arrow_mud = true
-			button_mud = true
-			carved_mud = true
-			centered_mud = true
-			chiseled_mud = true
-			crying_mud = true
-			duh_mud = true
-			engraved_mud = true
-			eye_mud = true
-			fancy_mud = true
-			glad_mud = true
-			heart_mud = true
-			horned_mud = true
-			inlayed_mud = true
-			keyhole_mud = true
-			leaning_mud = true
-			pancake_mud = true
-			panelled_mud = true
-			placed_mud = true
-			polished_mud = true
-			quad_mud = true
-			rough_mud = true
-			rune_mud = true
-			sad_mud = true
-			sigil_mud = true
-			smooth_mud = true
-			spiral_mud = true
-			star_mud = true
-			symbol_mud = true
-			unamused_mud = true
-			bordered_mud = true
-			hard_mud = true
-			scaly_mud = true
-			loreful_mud = true
+			midori = true
+			duskbound = true
 
 	[types.wood_type]
 
