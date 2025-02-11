@@ -8,4 +8,5 @@ ServerEvents.recipes(IRRebirth => {
     IRRebirth.remove({ output: 'create:brass_ingot', type: 'create:mixing'})
     IRRebirth.remove({ output: 'immersiveengineering:ingot_electrum', type: 'create:mixing'})
     IRRebirth.remove({ output: 'immersiveengineering:ingot_constantan', type: 'create:mixing'})
+    IRRebirth.remove({id: 'create_deep_dark:mixing_molten_echo_compat'})
 })

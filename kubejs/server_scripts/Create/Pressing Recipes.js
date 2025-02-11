@@ -1,3 +1,12 @@
 ServerEvents.recipes(IRRebirth => {
     IRRebirth.recipes.create.pressing('kubejs:andesite_plate', 'create:andesite_alloy')
+    IRRebirth.recipes.create.pressing('kubejs:tin_plate', '#forge:ingots/tin')
+    IRRebirth.recipes.create.pressing('kubejs:diamond_plate', '#forge:gems/diamond')
+    IRRebirth.recipes.create.pressing('kubejs:graphite_plate', '#forge:ingots/hop_graphite')
+    IRRebirth.recipes.create.pressing('kubejs:certus_plate', '#forge:gems/certus_quartz')
+    IRRebirth.recipes.create.pressing('kubejs:fluix_plate', '#forge:gems/fluix')
+    IRRebirth.recipes.create.pressing('kubejs:osmium_plate', '#forge:ingots/osmium')
+    IRRebirth.recipes.create.pressing('kubejs:bronze_plate', '#forge:ingots/bronze')
+    IRRebirth.recipes.create.pressing('kubejs:refined_glowstone_plate', '#forge:ingots/refined_glowstone')
+    IRRebirth.recipes.create.pressing('kubejs:refined_obsidian_plate', '#forge:ingots/refined_obsidian')
 })

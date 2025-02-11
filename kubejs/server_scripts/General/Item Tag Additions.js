@@ -42,4 +42,8 @@ ServerEvents.tags('item', IRRebirth => {
     'biomeswevegone:cika_crafting_table'])
   IRRebirth.add('forge:plates', 'createdeco:andesite_sheet')
   IRRebirth.add('forge:plates/andesite_alloy', 'createdeco:andesite_sheet')
+  IRRebirth.add('forge:plates', 'createdeco:netherite_sheet')
+  IRRebirth.add('forge:plates/netherite', 'createdeco:netherite_sheet')
+  IRRebirth.add('forge:plates', 'createdeco:zinc_sheet')
+  IRRebirth.add('forge:plates/zinc', 'createdeco:zinc_sheet')
 })

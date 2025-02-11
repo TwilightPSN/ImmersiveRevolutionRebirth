@@ -24,7 +24,7 @@ ServerEvents.recipes(IRRebirth => {
         {
           "amount": 2,
           "ingredient": {
-            "item": "minecraft:netherite_ingot"
+            "tag": "forge:plates/netherite"
           }
         },
         {

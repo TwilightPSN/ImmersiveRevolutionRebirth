@@ -11,4 +11,5 @@ ServerEvents.recipes(IRRebirth => {
     IRRebirth.recipes.immersiveengineeringMetalPress(Item.of('kubejs:refined_glowstone_rod', 2), '#forge:ingots/refined_glowstone', 'immersiveengineering:mold_rod')
     IRRebirth.recipes.immersiveengineeringMetalPress(Item.of('kubejs:diamond_rod', 2), '#forge:gems/diamond', 'immersiveengineering:mold_rod')
     IRRebirth.recipes.immersiveengineeringMetalPress('kubejs:diamond_plate', '#forge:gems/diamond', 'immersiveengineering:mold_plate')
+    IRRebirth.recipes.immersiveengineeringMetalPress('createdeco:netherite_sheet', '#forge:ingots/netherite', 'immersiveengineering:mold_plate')
 })

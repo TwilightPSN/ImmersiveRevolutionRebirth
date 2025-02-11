@@ -13,7 +13,7 @@ ServerEvents.recipes((IRRebirth) => {
     "minecraft:purpur_block",
     "#forge:ingots/steel",
     "#forge:plates/lead",
-    "#forge:ingots/netherite",
+    "#forge:plates/netherite",
     "#forge:gems/fluix",
     "minecraft:end_stone",
   ];

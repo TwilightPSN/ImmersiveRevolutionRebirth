@@ -17,4 +17,6 @@ ServerEvents.recipes(IRRebirth => {
   IRRebirth.replaceInput({ output: 'functionalstorage:diamond_upgrade' },'minecraft:diamond','#forge:plates/diamond')
   IRRebirth.replaceInput({ output: 'functionalstorage:diamond_upgrade' },'#forge:chests/wooden','sophisticatedstorage:diamond_chest')
   IRRebirth.replaceInput({ output: 'functionalstorage:netherite_upgrade' },'minecraft:netherite_ingot','#forge:storage_blocks/netherite')
+  IRRebirth.replaceInput({ input: 'createdeco:zinc_sheet' },'createdeco:zinc_sheet','#forge:plates/zinc')
+  IRRebirth.replaceInput({ input: 'createaddition:zinc_sheet' },'createaddition:zinc_sheet','#forge:plates/zinc')
 })

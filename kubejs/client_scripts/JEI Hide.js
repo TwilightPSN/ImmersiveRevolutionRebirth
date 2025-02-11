@@ -69,6 +69,7 @@ JEIEvents.hideItems(IRRebirth => {
     IRRebirth.hide(['buddingcrystals:small_coalcoke_bud', 'buddingcrystals:medium_coalcoke_bud', 'buddingcrystals:large_coalcoke_bud']);
     IRRebirth.hide("@bno");
     IRRebirth.hide("@beo");
+    IRRebirth.hide('createdeco:zinc_sheet');
 })
 
 JEIEvents.removeCategories(IRRebirth => {

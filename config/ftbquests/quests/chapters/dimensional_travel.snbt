@@ -94,7 +94,7 @@
 		}
 		{
 			height: 1.25d
-			image: "minecraft:block/sculk"
+			image: "kubejs:block/nether_frame_bricks"
 			order: 100
 			rotation: 0.0d
 			width: 1.25d
@@ -103,7 +103,7 @@
 		}
 		{
 			height: 1.25d
-			image: "minecraft:block/sculk"
+			image: "kubejs:block/nether_frame_bricks"
 			order: 100
 			rotation: 0.0d
 			width: 1.25d
@@ -112,7 +112,7 @@
 		}
 		{
 			height: 1.25d
-			image: "minecraft:block/sculk"
+			image: "kubejs:block/nether_frame_bricks"
 			order: 100
 			rotation: 0.0d
 			width: 1.25d
@@ -121,7 +121,7 @@
 		}
 		{
 			height: 1.25d
-			image: "minecraft:block/sculk"
+			image: "kubejs:block/nether_frame_bricks"
 			order: 102
 			rotation: 0.0d
 			width: 1.25d
@@ -130,7 +130,7 @@
 		}
 		{
 			height: 1.25d
-			image: "minecraft:block/sculk"
+			image: "kubejs:block/nether_frame_bricks"
 			order: 101
 			rotation: 0.0d
 			width: 1.25d
@@ -139,7 +139,7 @@
 		}
 		{
 			height: 1.25d
-			image: "minecraft:block/sculk"
+			image: "kubejs:block/nether_frame_bricks"
 			order: 100
 			rotation: 0.0d
 			width: 1.25d
@@ -148,7 +148,7 @@
 		}
 		{
 			height: 1.25d
-			image: "minecraft:block/sculk"
+			image: "kubejs:block/nether_frame_bricks"
 			order: 100
 			rotation: 0.0d
 			width: 1.25d
@@ -157,7 +157,7 @@
 		}
 		{
 			height: 1.25d
-			image: "minecraft:block/sculk"
+			image: "kubejs:block/nether_frame_bricks"
 			order: 100
 			rotation: 0.0d
 			width: 1.25d
@@ -166,7 +166,7 @@
 		}
 		{
 			height: 1.25d
-			image: "minecraft:block/sculk"
+			image: "kubejs:block/nether_frame_bricks"
 			order: 100
 			rotation: 0.0d
 			width: 1.25d
@@ -175,7 +175,7 @@
 		}
 		{
 			height: 1.25d
-			image: "minecraft:block/sculk"
+			image: "kubejs:block/nether_frame_bricks"
 			order: 100
 			rotation: 0.0d
 			width: 1.25d
@@ -184,7 +184,7 @@
 		}
 		{
 			height: 1.25d
-			image: "minecraft:block/sculk"
+			image: "kubejs:block/nether_frame_bricks"
 			order: 100
 			rotation: 0.0d
 			width: 1.25d
@@ -193,7 +193,7 @@
 		}
 		{
 			height: 1.25d
-			image: "minecraft:block/sculk"
+			image: "kubejs:block/nether_frame_bricks"
 			order: 100
 			rotation: 0.0d
 			width: 1.25d
@@ -572,7 +572,7 @@
 		}
 		{
 			height: 1.25d
-			image: "minecraft:block/end_stone"
+			image: "kubejs:block/end_frame_bricks"
 			rotation: 0.0d
 			width: 1.25d
 			x: 13.0d
@@ -580,7 +580,7 @@
 		}
 		{
 			height: 1.25d
-			image: "minecraft:block/end_stone"
+			image: "kubejs:block/end_frame_bricks"
 			rotation: 0.0d
 			width: 1.25d
 			x: 13.0d
@@ -588,7 +588,7 @@
 		}
 		{
 			height: 1.25d
-			image: "minecraft:block/end_stone"
+			image: "kubejs:block/end_frame_bricks"
 			rotation: 0.0d
 			width: 1.25d
 			x: 13.0d
@@ -596,7 +596,7 @@
 		}
 		{
 			height: 1.25d
-			image: "minecraft:block/end_stone"
+			image: "kubejs:block/end_frame_bricks"
 			rotation: 0.0d
 			width: 1.25d
 			x: 14.0d
@@ -604,7 +604,7 @@
 		}
 		{
 			height: 1.25d
-			image: "minecraft:block/end_stone"
+			image: "kubejs:block/end_frame_bricks"
 			rotation: 0.0d
 			width: 1.25d
 			x: 15.0d
@@ -612,7 +612,7 @@
 		}
 		{
 			height: 1.25d
-			image: "minecraft:block/end_stone"
+			image: "kubejs:block/end_frame_bricks"
 			rotation: 0.0d
 			width: 1.25d
 			x: 16.0d
@@ -620,7 +620,7 @@
 		}
 		{
 			height: 1.25d
-			image: "minecraft:block/end_stone"
+			image: "kubejs:block/end_frame_bricks"
 			rotation: 0.0d
 			width: 1.25d
 			x: 17.0d
@@ -628,7 +628,7 @@
 		}
 		{
 			height: 1.25d
-			image: "minecraft:block/end_stone"
+			image: "kubejs:block/end_frame_bricks"
 			rotation: 0.0d
 			width: 1.25d
 			x: 17.0d
@@ -636,7 +636,7 @@
 		}
 		{
 			height: 1.25d
-			image: "minecraft:block/end_stone"
+			image: "kubejs:block/end_frame_bricks"
 			rotation: 0.0d
 			width: 1.25d
 			x: 17.0d
@@ -644,7 +644,7 @@
 		}
 		{
 			height: 1.25d
-			image: "minecraft:block/end_stone"
+			image: "kubejs:block/end_frame_bricks"
 			rotation: 0.0d
 			width: 1.25d
 			x: 16.0d
@@ -652,7 +652,7 @@
 		}
 		{
 			height: 1.25d
-			image: "minecraft:block/end_stone"
+			image: "kubejs:block/end_frame_bricks"
 			rotation: 0.0d
 			width: 1.25d
 			x: 15.0d
@@ -660,7 +660,7 @@
 		}
 		{
 			height: 1.25d
-			image: "minecraft:block/end_stone"
+			image: "kubejs:block/end_frame_bricks"
 			rotation: 0.0d
 			width: 1.25d
 			x: 14.0d
@@ -791,7 +791,7 @@
 		}
 		{
 			height: 1.25d
-			image: "immersiveengineering:block/stone_decoration/insulating_glass"
+			image: "kubejs:block/mining_frame_bricks"
 			order: 100
 			rotation: 0.0d
 			width: 1.25d
@@ -800,7 +800,7 @@
 		}
 		{
 			height: 1.25d
-			image: "immersiveengineering:block/stone_decoration/insulating_glass"
+			image: "kubejs:block/mining_frame_bricks"
 			order: 100
 			rotation: 0.0d
 			width: 1.25d
@@ -809,7 +809,7 @@
 		}
 		{
 			height: 1.25d
-			image: "immersiveengineering:block/stone_decoration/insulating_glass"
+			image: "kubejs:block/mining_frame_bricks"
 			order: 100
 			rotation: 0.0d
 			width: 1.25d
@@ -818,7 +818,7 @@
 		}
 		{
 			height: 1.25d
-			image: "immersiveengineering:block/stone_decoration/insulating_glass"
+			image: "kubejs:block/mining_frame_bricks"
 			order: 100
 			rotation: 0.0d
 			width: 1.25d
@@ -827,7 +827,7 @@
 		}
 		{
 			height: 1.25d
-			image: "immersiveengineering:block/stone_decoration/insulating_glass"
+			image: "kubejs:block/mining_frame_bricks"
 			order: 100
 			rotation: 0.0d
 			width: 1.25d
@@ -836,7 +836,7 @@
 		}
 		{
 			height: 1.25d
-			image: "immersiveengineering:block/stone_decoration/insulating_glass"
+			image: "kubejs:block/mining_frame_bricks"
 			order: 100
 			rotation: 0.0d
 			width: 1.25d
@@ -845,7 +845,7 @@
 		}
 		{
 			height: 1.25d
-			image: "immersiveengineering:block/stone_decoration/insulating_glass"
+			image: "kubejs:block/mining_frame_bricks"
 			order: 100
 			rotation: 0.0d
 			width: 1.25d
@@ -854,7 +854,7 @@
 		}
 		{
 			height: 1.25d
-			image: "immersiveengineering:block/stone_decoration/insulating_glass"
+			image: "kubejs:block/mining_frame_bricks"
 			order: 100
 			rotation: 0.0d
 			width: 1.25d
@@ -863,7 +863,7 @@
 		}
 		{
 			height: 1.25d
-			image: "immersiveengineering:block/stone_decoration/insulating_glass"
+			image: "kubejs:block/mining_frame_bricks"
 			order: 100
 			rotation: 0.0d
 			width: 1.25d
@@ -872,7 +872,7 @@
 		}
 		{
 			height: 1.25d
-			image: "immersiveengineering:block/stone_decoration/insulating_glass"
+			image: "kubejs:block/mining_frame_bricks"
 			order: 100
 			rotation: 0.0d
 			width: 1.25d
@@ -881,7 +881,7 @@
 		}
 		{
 			height: 1.25d
-			image: "immersiveengineering:block/stone_decoration/insulating_glass"
+			image: "kubejs:block/mining_frame_bricks"
 			order: 100
 			rotation: 0.0d
 			width: 1.25d
@@ -890,7 +890,7 @@
 		}
 		{
 			height: 1.25d
-			image: "immersiveengineering:block/stone_decoration/insulating_glass"
+			image: "kubejs:block/mining_frame_bricks"
 			order: 100
 			rotation: 0.0d
 			width: 1.25d
@@ -960,7 +960,7 @@
 		}
 		{
 			height: 1.25d
-			image: "minecraft:block/quartz_bricks"
+			image: "kubejs:block/nether_mining_frame_bricks"
 			order: 100
 			rotation: 0.0d
 			width: 1.25d
@@ -969,7 +969,7 @@
 		}
 		{
 			height: 1.25d
-			image: "minecraft:block/quartz_bricks"
+			image: "kubejs:block/nether_mining_frame_bricks"
 			order: 100
 			rotation: 0.0d
 			width: 1.25d
@@ -978,7 +978,7 @@
 		}
 		{
 			height: 1.25d
-			image: "minecraft:block/quartz_bricks"
+			image: "kubejs:block/nether_mining_frame_bricks"
 			order: 100
 			rotation: 0.0d
 			width: 1.25d
@@ -987,7 +987,7 @@
 		}
 		{
 			height: 1.25d
-			image: "minecraft:block/quartz_bricks"
+			image: "kubejs:block/nether_mining_frame_bricks"
 			order: 100
 			rotation: 0.0d
 			width: 1.25d
@@ -996,7 +996,7 @@
 		}
 		{
 			height: 1.25d
-			image: "minecraft:block/quartz_bricks"
+			image: "kubejs:block/nether_mining_frame_bricks"
 			order: 100
 			rotation: 0.0d
 			width: 1.25d
@@ -1005,7 +1005,7 @@
 		}
 		{
 			height: 1.25d
-			image: "minecraft:block/quartz_bricks"
+			image: "kubejs:block/nether_mining_frame_bricks"
 			order: 100
 			rotation: 0.0d
 			width: 1.25d
@@ -1014,7 +1014,7 @@
 		}
 		{
 			height: 1.25d
-			image: "minecraft:block/quartz_bricks"
+			image: "kubejs:block/nether_mining_frame_bricks"
 			order: 100
 			rotation: 0.0d
 			width: 1.25d
@@ -1023,7 +1023,7 @@
 		}
 		{
 			height: 1.25d
-			image: "minecraft:block/quartz_bricks"
+			image: "kubejs:block/nether_mining_frame_bricks"
 			order: 100
 			rotation: 0.0d
 			width: 1.25d
@@ -1032,7 +1032,7 @@
 		}
 		{
 			height: 1.25d
-			image: "minecraft:block/quartz_bricks"
+			image: "kubejs:block/nether_mining_frame_bricks"
 			order: 100
 			rotation: 0.0d
 			width: 1.25d
@@ -1041,7 +1041,7 @@
 		}
 		{
 			height: 1.25d
-			image: "minecraft:block/quartz_bricks"
+			image: "kubejs:block/nether_mining_frame_bricks"
 			order: 100
 			rotation: 0.0d
 			width: 1.25d
@@ -1050,7 +1050,7 @@
 		}
 		{
 			height: 1.25d
-			image: "minecraft:block/quartz_bricks"
+			image: "kubejs:block/nether_mining_frame_bricks"
 			order: 100
 			rotation: 0.0d
 			width: 1.25d
@@ -1107,7 +1107,7 @@
 		}
 		{
 			height: 1.25d
-			image: "minecraft:block/quartz_bricks"
+			image: "kubejs:block/nether_mining_frame_bricks"
 			order: 100
 			rotation: 0.0d
 			width: 1.25d
@@ -1143,7 +1143,7 @@
 		}
 		{
 			height: 1.25d
-			image: "minecraft:block/end_stone_bricks"
+			image: "kubejs:block/end_mining_frame_bricks"
 			order: 100
 			rotation: 0.0d
 			width: 1.25d
@@ -1152,7 +1152,7 @@
 		}
 		{
 			height: 1.25d
-			image: "minecraft:block/end_stone_bricks"
+			image: "kubejs:block/end_mining_frame_bricks"
 			order: 100
 			rotation: 0.0d
 			width: 1.25d
@@ -1161,7 +1161,7 @@
 		}
 		{
 			height: 1.25d
-			image: "minecraft:block/end_stone_bricks"
+			image: "kubejs:block/end_mining_frame_bricks"
 			order: 100
 			rotation: 0.0d
 			width: 1.25d
@@ -1170,7 +1170,7 @@
 		}
 		{
 			height: 1.25d
-			image: "minecraft:block/end_stone_bricks"
+			image: "kubejs:block/end_mining_frame_bricks"
 			order: 100
 			rotation: 0.0d
 			width: 1.25d
@@ -1179,7 +1179,7 @@
 		}
 		{
 			height: 1.25d
-			image: "minecraft:block/end_stone_bricks"
+			image: "kubejs:block/end_mining_frame_bricks"
 			order: 100
 			rotation: 0.0d
 			width: 1.25d
@@ -1188,7 +1188,7 @@
 		}
 		{
 			height: 1.25d
-			image: "minecraft:block/end_stone_bricks"
+			image: "kubejs:block/end_mining_frame_bricks"
 			order: 100
 			rotation: 0.0d
 			width: 1.25d
@@ -1197,7 +1197,7 @@
 		}
 		{
 			height: 1.25d
-			image: "minecraft:block/end_stone_bricks"
+			image: "kubejs:block/end_mining_frame_bricks"
 			order: 100
 			rotation: 0.0d
 			width: 1.25d
@@ -1206,7 +1206,7 @@
 		}
 		{
 			height: 1.25d
-			image: "minecraft:block/end_stone_bricks"
+			image: "kubejs:block/end_mining_frame_bricks"
 			order: 100
 			rotation: 0.0d
 			width: 1.25d
@@ -1215,7 +1215,7 @@
 		}
 		{
 			height: 1.25d
-			image: "minecraft:block/end_stone_bricks"
+			image: "kubejs:block/end_mining_frame_bricks"
 			order: 100
 			rotation: 0.0d
 			width: 1.25d
@@ -1224,7 +1224,7 @@
 		}
 		{
 			height: 1.25d
-			image: "minecraft:block/end_stone_bricks"
+			image: "kubejs:block/end_mining_frame_bricks"
 			order: 100
 			rotation: 0.0d
 			width: 1.25d
@@ -1233,7 +1233,7 @@
 		}
 		{
 			height: 1.25d
-			image: "minecraft:block/end_stone_bricks"
+			image: "kubejs:block/end_mining_frame_bricks"
 			order: 100
 			rotation: 0.0d
 			width: 1.25d
@@ -1242,7 +1242,7 @@
 		}
 		{
 			height: 1.25d
-			image: "minecraft:block/end_stone_bricks"
+			image: "kubejs:block/end_mining_frame_bricks"
 			order: 100
 			rotation: 0.0d
 			width: 1.25d
@@ -1402,7 +1402,7 @@
 		}
 		{
 			height: 1.25d
-			image: "ae2:block/fluix_block"
+			image: "kubejs:block/void_frame_bricks"
 			order: 100
 			rotation: 0.0d
 			width: 1.25d
@@ -1411,7 +1411,7 @@
 		}
 		{
 			height: 1.25d
-			image: "ae2:block/fluix_block"
+			image: "kubejs:block/void_frame_bricks"
 			order: 100
 			rotation: 0.0d
 			width: 1.25d
@@ -1420,7 +1420,7 @@
 		}
 		{
 			height: 1.25d
-			image: "ae2:block/fluix_block"
+			image: "kubejs:block/void_frame_bricks"
 			order: 100
 			rotation: 0.0d
 			width: 1.25d
@@ -1429,7 +1429,7 @@
 		}
 		{
 			height: 1.25d
-			image: "ae2:block/fluix_block"
+			image: "kubejs:block/void_frame_bricks"
 			order: 100
 			rotation: 0.0d
 			width: 1.25d
@@ -1438,7 +1438,7 @@
 		}
 		{
 			height: 1.25d
-			image: "ae2:block/fluix_block"
+			image: "kubejs:block/void_frame_bricks"
 			order: 100
 			rotation: 0.0d
 			width: 1.25d
@@ -1447,7 +1447,7 @@
 		}
 		{
 			height: 1.25d
-			image: "ae2:block/fluix_block"
+			image: "kubejs:block/void_frame_bricks"
 			order: 100
 			rotation: 0.0d
 			width: 1.25d
@@ -1456,7 +1456,7 @@
 		}
 		{
 			height: 1.25d
-			image: "ae2:block/fluix_block"
+			image: "kubejs:block/void_frame_bricks"
 			order: 100
 			rotation: 0.0d
 			width: 1.25d
@@ -1465,7 +1465,7 @@
 		}
 		{
 			height: 1.25d
-			image: "ae2:block/fluix_block"
+			image: "kubejs:block/void_frame_bricks"
 			order: 100
 			rotation: 0.0d
 			width: 1.25d
@@ -1474,7 +1474,7 @@
 		}
 		{
 			height: 1.25d
-			image: "ae2:block/fluix_block"
+			image: "kubejs:block/void_frame_bricks"
 			order: 100
 			rotation: 0.0d
 			width: 1.25d
@@ -1483,7 +1483,7 @@
 		}
 		{
 			height: 1.25d
-			image: "ae2:block/fluix_block"
+			image: "kubejs:block/void_frame_bricks"
 			order: 100
 			rotation: 0.0d
 			width: 1.25d
@@ -1492,7 +1492,7 @@
 		}
 		{
 			height: 1.25d
-			image: "ae2:block/fluix_block"
+			image: "kubejs:block/void_frame_bricks"
 			order: 100
 			rotation: 0.0d
 			width: 1.25d
@@ -1501,7 +1501,7 @@
 		}
 		{
 			height: 1.25d
-			image: "ae2:block/fluix_block"
+			image: "kubejs:block/void_frame_bricks"
 			order: 100
 			rotation: 0.0d
 			width: 1.25d
