@@ -1,9 +1,13 @@
 ||Beta 0.12.0||
 
+NEW LOGO!
+
 // Mods Added //
 -Create: Copycats +
 -Create Enchantment Industry
 -Immersive Aircraft
+-Create Questing
+-Create: Deep Dark
 
 // Mods Updated //
 -Not Enough Animations
@@ -15,7 +19,7 @@
 -Loot Integrations
 -MEGA Cells
 -Moonlight Library
--QuarryPlus
+-Additional Enchanted Miner
 -Snow Under Trees
 -Sophisticated Backpacks
 -Sophisticated Core
