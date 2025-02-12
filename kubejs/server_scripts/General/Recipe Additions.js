@@ -104,4 +104,10 @@ ServerEvents.recipes(IRRebirth => {
           B: 'sophisticatedbackpacks:stack_upgrade_tier_4',
         }
       )
+      IRRebirth.shapeless(
+        Item.of('minecraft:amethyst_shard', 4),
+        [
+          'minecraft:amethyst_block'
+        ]
+      )
 })

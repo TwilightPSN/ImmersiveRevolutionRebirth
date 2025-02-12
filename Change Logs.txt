@@ -1,3 +1,24 @@
+||Beta 0.12.2||
+
+// Mods Added //
+-More OVerlays Updated
+-Chalk
+
+// Mods Removed //
+-Light Overlay
+
+// Mods Updated //
+-Collective
+-Fusion
+-Moonlight Library
+-Random Bone Meal Flowers
+-Realistic Bees
+-Stack Refill
+-Tree Harvester
+
+// Recipe Changes //
+-Amethyst Block to Shard recipe
+
 ||Beta 0.12.1||
 
 ENSURE YOU RECOVER ANY GRAVES BEFORE THIS UPDATE!
