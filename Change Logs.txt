@@ -5,15 +5,20 @@
 -Agricraft Mutations are now properly disabled
 -Apoth Towers have been disabled
 -onShift JEI Tooltips disabled
+-Re-Organized JEI Categories some more
 
 // Script Changes //
 -Overworld Netherite ores now drop items for Silent Gear tools
+-Overworld Quartz ores now drop items for Silent gear tools
 -Added proper ore tags to Overworld Netherire and Quartz Ores
 -Ore Mining levels restructured
 -Unbreakable Items Again
 -Silent Gear Armors uncraftable and removed from loot
 -Gold and Netherite now prevent Piglin becomign aggresive
 -Bauxite renamed to Aluminum
+-Deepslate, Nether and End ores all now drop more loot
+-Additional Tags added to End Ores
+-JEI Information added to signify more ores to other variants
 
 // Recipe Changes //
 -Armor Progression

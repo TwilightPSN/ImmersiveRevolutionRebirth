@@ -4,11 +4,10 @@ LootJS.modifiers((IRRebirth) => {
         .matchMainHand(Item.of("silentgear:pickaxe").ignoreNBT())
         .randomChanceWithEnchantment("minecraft:fortune", [1, 1, 1, 0]) 
         .addLoot("overworld_netherite_ore:ancientdebrispiece")
-        .randomChance(0.1);
     IRRebirth
         .addBlockLootModifier("overworld_netherite_ore:ancient_debris_ore")
         .matchMainHand(Item.of("silentgear:pickaxe").ignoreNBT())
-        .randomChanceWithEnchantment("minecraft:fortune", [0, 0, 0, 1])
+        .randomChanceWithEnchantment("minecraft:fortune", [0.1, 0.25, 0.5, 1])
         .addLoot("overworld_netherite_ore:large_ancient_shard");
     IRRebirth
         .addBlockLootModifier("overworld_netherite_ore:ancient_debris_ore")
@@ -20,14 +19,13 @@ LootJS.modifiers((IRRebirth) => {
         .matchMainHand(Item.of("silentgear:pickaxe").ignoreNBT())
         .randomChanceWithEnchantment("minecraft:fortune", [1, 1, 1, 0]) 
         .addLoot("overworld_netherite_ore:ancientdebrispiece")
-        .randomChance(0.1);
     IRRebirth
         .addBlockLootModifier("overworld_netherite_ore:deepslate_ancient_debris_ore")
         .matchMainHand(Item.of("silentgear:pickaxe").ignoreNBT())
-        .randomChanceWithEnchantment("minecraft:fortune", [0, 0, 0, 1])
+        .randomChanceWithEnchantment("minecraft:fortune", [0.1, 0.25, 0.5, 1])
         .addLoot("overworld_netherite_ore:large_ancient_shard");
     IRRebirth
-        .addBlockLootModifier("overworld_netherite_ore:deepslate_deepslate_ancient_debris_ore")
+        .addBlockLootModifier("overworld_netherite_ore:deepslate_ancient_debris_ore")
         .matchMainHand(Item.of("silentgear:pickaxe").ignoreNBT())
         .randomChanceWithEnchantment("minecraft:fortune", [0, 0.5, 1, 0]) 
         .addLoot("overworld_netherite_ore:ancientdebrispiece");
@@ -36,11 +34,10 @@ LootJS.modifiers((IRRebirth) => {
         .matchMainHand(Item.of("silentgear:paxel").ignoreNBT())
         .randomChanceWithEnchantment("minecraft:fortune", [1, 1, 1, 0]) 
         .addLoot("overworld_netherite_ore:ancientdebrispiece")
-        .randomChance(0.1);
     IRRebirth
         .addBlockLootModifier("overworld_netherite_ore:ancient_debris_ore")
         .matchMainHand(Item.of("silentgear:paxel").ignoreNBT())
-        .randomChanceWithEnchantment("minecraft:fortune", [0, 0, 0, 1])
+        .randomChanceWithEnchantment("minecraft:fortune", [0.1, 0.25, 0.5, 1])
         .addLoot("overworld_netherite_ore:large_ancient_shard");
     IRRebirth
         .addBlockLootModifier("overworld_netherite_ore:ancient_debris_ore")
@@ -52,14 +49,13 @@ LootJS.modifiers((IRRebirth) => {
         .matchMainHand(Item.of("silentgear:paxel").ignoreNBT())
         .randomChanceWithEnchantment("minecraft:fortune", [1, 1, 1, 0]) 
         .addLoot("overworld_netherite_ore:ancientdebrispiece")
-        .randomChance(0.1);
     IRRebirth
         .addBlockLootModifier("overworld_netherite_ore:deepslate_ancient_debris_ore")
         .matchMainHand(Item.of("silentgear:paxel").ignoreNBT())
-        .randomChanceWithEnchantment("minecraft:fortune", [0, 0, 0, 1])
+        .randomChanceWithEnchantment("minecraft:fortune", [0.1, 0.25, 0.5, 1])
         .addLoot("overworld_netherite_ore:large_ancient_shard");
     IRRebirth
-        .addBlockLootModifier("overworld_netherite_ore:deepslate_deepslate_ancient_debris_ore")
+        .addBlockLootModifier("overworld_netherite_ore:deepslate_ancient_debris_ore")
         .matchMainHand(Item.of("silentgear:paxel").ignoreNBT())
         .randomChanceWithEnchantment("minecraft:fortune", [0, 0.5, 1, 0]) 
         .addLoot("overworld_netherite_ore:ancientdebrispiece");
@@ -68,11 +64,10 @@ LootJS.modifiers((IRRebirth) => {
         .matchMainHand(Item.of("silentgear:hammer").ignoreNBT())
         .randomChanceWithEnchantment("minecraft:fortune", [1, 1, 1, 0]) 
         .addLoot("overworld_netherite_ore:ancientdebrispiece")
-        .randomChance(0.1);
     IRRebirth
         .addBlockLootModifier("overworld_netherite_ore:ancient_debris_ore")
         .matchMainHand(Item.of("silentgear:hammer").ignoreNBT())
-        .randomChanceWithEnchantment("minecraft:fortune", [0, 0, 0, 1])
+        .randomChanceWithEnchantment("minecraft:fortune", [0.1, 0.25, 0.5, 1])
         .addLoot("overworld_netherite_ore:large_ancient_shard");
     IRRebirth
         .addBlockLootModifier("overworld_netherite_ore:ancient_debris_ore")
@@ -84,14 +79,13 @@ LootJS.modifiers((IRRebirth) => {
         .matchMainHand(Item.of("silentgear:hammer").ignoreNBT())
         .randomChanceWithEnchantment("minecraft:fortune", [1, 1, 1, 0]) 
         .addLoot("overworld_netherite_ore:ancientdebrispiece")
-        .randomChance(0.1);
     IRRebirth
         .addBlockLootModifier("overworld_netherite_ore:deepslate_ancient_debris_ore")
         .matchMainHand(Item.of("silentgear:hammer").ignoreNBT())
-        .randomChanceWithEnchantment("minecraft:fortune", [0, 0, 0, 1])
+        .randomChanceWithEnchantment("minecraft:fortune", [0.1, 0.25, 0.5, 1])
         .addLoot("overworld_netherite_ore:large_ancient_shard");
     IRRebirth
-        .addBlockLootModifier("overworld_netherite_ore:deepslate_deepslate_ancient_debris_ore")
+        .addBlockLootModifier("overworld_netherite_ore:deepslate_ancient_debris_ore")
         .matchMainHand(Item.of("silentgear:hammer").ignoreNBT())
         .randomChanceWithEnchantment("minecraft:fortune", [0, 0.5, 1, 0]) 
         .addLoot("overworld_netherite_ore:ancientdebrispiece");

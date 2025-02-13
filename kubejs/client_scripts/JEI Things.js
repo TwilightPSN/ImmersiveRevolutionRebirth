@@ -102,5 +102,15 @@ JEIEvents.hideItems(IRRebirth => {
 })
 
 JEIEvents.removeCategories(IRRebirth => {
-    IRRebirth.remove('create:draining')
-  })
+    IRRebirth.remove([
+        'create:draining',
+        'functionalstorage:dissolution',
+        'jeresources:worldgen'
+    ])
+})
+
+JEIEvents.information(IRRebirth => {
+    IRRebirth.addItem('#forge:ores_in_ground/deepslate', ['Drops additional Resources compared to Stone Variants'])
+    IRRebirth.addItem('#forge:ores_in_ground/netherrack', ['Drops additional Resources compared to Deepslate Variants'])
+    IRRebirth.addItem('#forge:ores_in_ground/end_stone', ['Drops additional Resources compared to Netherrack Variants'])
+})
