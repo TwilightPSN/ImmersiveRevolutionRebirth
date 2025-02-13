@@ -85,6 +85,7 @@
   },
   "apotheosis": {
     "adventure": true,
+    "ench": true,
     "spawner": true
   },
   "lootr": {
