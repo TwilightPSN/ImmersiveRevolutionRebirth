@@ -305,8 +305,17 @@ ServerEvents.tags("item", (IRRebirth) => {
       "silentgear:arrow",
       "silentgear:ring",
       "silentgear:ring",
-      "silentgear:bracelet"
+      "silentgear:bracelet",
+      'create_dd:gilded_rose_sword',
+      'create_dd:gilded_rose_pickaxe',
+      'create_dd:gilded_rose_axe',
+      'create_dd:gilded_rose_shovel',
+      'create_dd:gilded_rose_hoe',
+      'create_dd:deforester_saw',
+      'create_dd:excavation_drill'
     ]);
-    IRRebirth.add('datamancy:distracts_piglins', ['minecraft:gold_ingot', 'minecraft:netherite_ingot'
+    IRRebirth.add('datamancy:distracts_piglins', [
+      'minecraft:gold_ingot',
+      'minecraft:netherite_ingot'
     ])
 });

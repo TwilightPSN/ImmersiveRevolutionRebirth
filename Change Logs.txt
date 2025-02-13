@@ -1,4 +1,21 @@
-||Update||
+|| Beta 0.13.0||
+
+// Mods Added //
+-Create Confectionery
+-Create: Factory
+-Create: Dreams & Desires
+-When Dungeons Arise
+-When Dungeons Arise - Seven Seas
+-Loot Integrations: When Dungeons Arise
+
+// Mods Updated //
+-Balm
+-CookingforBlockheads
+-Double Doors
+-Healing Campfire
+-Moonlight Library
+-Rhino
+-Sophisticated Core
 
 // Config Changes //
 -Disabled IE ores that were present in Mekanism (Only effective on new worlds)
@@ -19,6 +36,7 @@
 -Deepslate, Nether and End ores all now drop more loot
 -Additional Tags added to End Ores
 -JEI Information added to signify more ores to other variants
+-Barrel Loot added to loot removals
 
 // Recipe Changes //
 -Armor Progression

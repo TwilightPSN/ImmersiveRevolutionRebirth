@@ -39,6 +39,11 @@
 			midori = true
 			duskbound = true
 
+		[types.stone_type.create_dd]
+			gabbro = true
+			weathered_limestone = true
+			cut_stone = true
+
 	[types.wood_type]
 
 		[types.wood_type.silentgear]
