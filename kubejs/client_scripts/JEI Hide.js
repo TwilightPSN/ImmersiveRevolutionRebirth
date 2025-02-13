@@ -70,6 +70,35 @@ JEIEvents.hideItems(IRRebirth => {
     IRRebirth.hide("@bno");
     IRRebirth.hide("@beo");
     IRRebirth.hide('createdeco:zinc_sheet');
+    IRRebirth.hide(['silentgear:crude_repair_kit',
+        'silentgear:crimson_repair_kit',
+        'silentgear:chestplate_template',
+        'silentgear:boots_template',
+        'silentgear:boots_blueprint',
+        'silentgear:azure_repair_kit',
+        'silentgear:leggings_template',
+        'silentgear:sturdy_repair_kit',
+        'silentgear:very_crude_repair_kit',
+        'silentgear:chestplate_blueprint',
+        'silentgear:helmet_blueprint',
+        'silentgear:leggings_blueprint',
+        'silentgear:helmet_template',
+        'silentgear:elytra_template',
+        'silentgear:elytra_blueprint',
+        'silentgear:helmet_plates',
+        'silentgear:helmet_plates',
+        'silentgear:chestplate_plates',
+        'silentgear:legging_plates',
+        'silentgear:boot_plates',
+        'silentgear:elytra_wings',
+        'silentgear:lining',
+        'silentgear:lining_template',
+        'silentgear:lining_blueprint',
+        'silentgear:helmet',
+        'silentgear:chestplate',
+        'silentgear:leggings',
+        'silentgear:boots'
+    ])
 })
 
 JEIEvents.removeCategories(IRRebirth => {

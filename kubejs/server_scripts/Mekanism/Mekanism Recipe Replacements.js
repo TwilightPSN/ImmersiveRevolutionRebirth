@@ -231,4 +231,8 @@ ServerEvents.recipes(IRRebirth => {
       D: 'create_sa:hydraulic_engine'
     }
   ).id('mekanism:module_base')
+  IRRebirth.replaceInput({ output: 'mekanism:mekasuit_helmet' },'minecraft:netherite_helmet', 'create_deep_dark:echo_armor_helmet')
+  IRRebirth.replaceInput({ output: 'mekanism:mekasuit_bodyarmor' },'minecraft:netherite_chestplate', 'create_deep_dark:echo_armor_chestplate')
+  IRRebirth.replaceInput({ output: 'mekanism:mekasuit_pants' },'minecraft:netherite_leggings', 'create_deep_dark:echo_armor_leggings')
+  IRRebirth.replaceInput({ output: 'mekanism:mekasuit_boots' },'minecraft:netherite_boots', 'create_deep_dark:echo_armor_boots')
 })

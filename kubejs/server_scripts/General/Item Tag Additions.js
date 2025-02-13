@@ -15,7 +15,8 @@ ServerEvents.tags('item', IRRebirth => {
     'sophisticatedstorage:basic_to_gold_tier_upgrade',
     'sophisticatedstorage:basic_to_iron_tier_upgrade',
     'sophisticatedstorage:basic_to_copper_tier_upgrade']) 
-  IRRebirth.add('forge:workbenches', ['biomeswevegone:green_enchanted_crafting_table',
+  IRRebirth.add('forge:workbenches', [
+    'biomeswevegone:green_enchanted_crafting_table',
     'biomeswevegone:holly_crafting_table',
     'biomeswevegone:ironwood_crafting_table',
     'biomeswevegone:jacaranda_crafting_table',
@@ -46,4 +47,14 @@ ServerEvents.tags('item', IRRebirth => {
   IRRebirth.add('forge:plates/netherite', 'createdeco:netherite_sheet')
   IRRebirth.add('forge:plates', 'createdeco:zinc_sheet')
   IRRebirth.add('forge:plates/zinc', 'createdeco:zinc_sheet')
+  IRRebirth.add('forge:ores', [
+    'overworld_netherite_ore:deepslate_ancient_debris_ore',
+    'overworld_netherite_ore:ancient_debris_ore',
+    'overworldquartzore:quartz_ore',
+    'overworldquartzore:deepslate_quartz_ore'])
+  IRRebirth.add('balm:ores', [
+      'overworld_netherite_ore:deepslate_ancient_debris_ore',
+      'overworld_netherite_ore:ancient_debris_ore',
+      'overworldquartzore:quartz_ore',
+      'overworldquartzore:deepslate_quartz_ore'])
 })
