@@ -70,8 +70,47 @@ JEIEvents.hideItems(IRRebirth => {
     IRRebirth.hide("@bno");
     IRRebirth.hide("@beo");
     IRRebirth.hide('createdeco:zinc_sheet');
+    IRRebirth.hide(['silentgear:crude_repair_kit',
+        'silentgear:crimson_repair_kit',
+        'silentgear:chestplate_template',
+        'silentgear:boots_template',
+        'silentgear:boots_blueprint',
+        'silentgear:azure_repair_kit',
+        'silentgear:leggings_template',
+        'silentgear:sturdy_repair_kit',
+        'silentgear:very_crude_repair_kit',
+        'silentgear:chestplate_blueprint',
+        'silentgear:helmet_blueprint',
+        'silentgear:leggings_blueprint',
+        'silentgear:helmet_template',
+        'silentgear:elytra_template',
+        'silentgear:elytra_blueprint',
+        'silentgear:helmet_plates',
+        'silentgear:helmet_plates',
+        'silentgear:chestplate_plates',
+        'silentgear:legging_plates',
+        'silentgear:boot_plates',
+        'silentgear:elytra_wings',
+        'silentgear:lining',
+        'silentgear:lining_template',
+        'silentgear:lining_blueprint',
+        'silentgear:helmet',
+        'silentgear:chestplate',
+        'silentgear:leggings',
+        'silentgear:boots'
+    ])
 })
 
 JEIEvents.removeCategories(IRRebirth => {
-    IRRebirth.remove('create:draining')
-  })
+    IRRebirth.remove([
+        'create:draining',
+        'functionalstorage:dissolution',
+        'jeresources:worldgen'
+    ])
+})
+
+JEIEvents.information(IRRebirth => {
+    IRRebirth.addItem('#forge:ores_in_ground/deepslate', ['Drops additional Resources compared to Stone Variants'])
+    IRRebirth.addItem('#forge:ores_in_ground/netherrack', ['Drops additional Resources compared to Deepslate Variants'])
+    IRRebirth.addItem('#forge:ores_in_ground/end_stone', ['Drops additional Resources compared to Netherrack Variants'])
+})
