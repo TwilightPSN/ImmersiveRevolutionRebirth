@@ -110,4 +110,10 @@ ServerEvents.recipes(IRRebirth => {
           'minecraft:amethyst_block'
         ]
       )
+      IRRebirth.shapeless(
+        Item.of('minecraft:redstone', 9),
+        [
+          'minecraft:redstone_block'
+        ]
+      )
 })

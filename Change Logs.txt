@@ -1,4 +1,13 @@
-|| Beta 0.13.0||
+|| Beta 0.13.2 ||
+
+// Script Changes //
+-ACTUALLY removed Silent Armor loot
+
+// Recipe Changes //
+-Slabs to Blocks
+-Fixed missing Redstone Block to Redstone recipe
+
+|| Beta 0.13.1||
 
 // Mods Added //
 -Create Confectionery
@@ -23,6 +32,7 @@
 -Apoth Towers have been disabled
 -onShift JEI Tooltips disabled
 -Re-Organized JEI Categories some more
+-Apoth Enchanting enabled again
 
 // Script Changes //
 -Overworld Netherite ores now drop items for Silent Gear tools
