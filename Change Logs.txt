@@ -1,3 +1,12 @@
+|| Beta 0.13.3 ||
+
+// Mods Added //
+-Create Connected
+
+// Script Changes //
+-Disabled Utilitarian Recipes
+-ACTUALLY REMOVED SILENT GEAR LOOT??
+
 || Beta 0.13.2 ||
 
 // Script Changes //

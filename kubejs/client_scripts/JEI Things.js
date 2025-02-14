@@ -99,6 +99,7 @@ JEIEvents.hideItems(IRRebirth => {
         'silentgear:leggings',
         'silentgear:boots'
     ])
+    IRRebirth.hide('/create_connected:copycat_.*/')
 })
 
 JEIEvents.removeCategories(IRRebirth => {

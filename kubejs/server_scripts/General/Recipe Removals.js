@@ -82,4 +82,10 @@ ServerEvents.recipes(IRRebirth => {
         'silentgear:lining_template',
         'silentgear:lining_blueprint'
     ])
+    IRRebirth.remove({id: '/utilitarian:utility/.*_logs_to_slabs/'})
+    IRRebirth.remove({id: '/utilitarian:utility/.*_logs_to_stairs/'})
+    IRRebirth.remove({id: '/utilitarian:utility/.*_logs_to_doors/'})
+    IRRebirth.remove({id: '/utilitarian:utility/.*_logs_to_pressure_plates/'})
+    IRRebirth.remove({id: '/utilitarian:utility/.*_logs_to_trapdoors/'})
+    IRRebirth.remove({id: '/utilitarian:utility/.*_slab_to_block/'})
 })
