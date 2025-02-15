@@ -1,11 +1,30 @@
-|| Beta 0.13.3 ||
+|| Beta 0.14.0||
 
 // Mods Added //
 -Create Connected
 
+// Config Changes //
+-Added to LogBegone to ignore Damage log spam with unbreakable items
+-World Gen file generated for JER
+-Fixed Durability not being used on Hang Glider (Reinforced is Unbreakable)
+
 // Script Changes //
--Disabled Utilitarian Recipes
--ACTUALLY REMOVED SILENT GEAR LOOT??
+-Disabled Utilitarian Recipes from Logs
+-Silent Gear Armor should finally be removed from Loot Chests
+-Silent Gear Armor Removed from Drops
+-JEI World Gen Re-enabled
+-IE Aluminum items Renamed
+-Andesite has a 10% base chance to drop an Andesite Alloy
+-Added a Cobbled Andesite item to replace direct Andesite drops
+-Tags added to Netherite Nugget from Create Deco
+
+// Recipe Changes //
+-Removed Andesite Alloy with Iron recipes
+-Netherite Ingot Crafting Recipe removed
+-Alloy Recipes for Mekanism Injector
+-Alloy Kiln Netherite Ingot
+-Arc Furnace Netherite Ingot
+-Modified Netherite Dust recipe for Mekanism Infuser
 
 || Beta 0.13.2 ||
 
