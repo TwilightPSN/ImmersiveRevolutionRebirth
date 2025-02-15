@@ -116,4 +116,5 @@ ServerEvents.recipes(IRRebirth => {
           'minecraft:redstone_block'
         ]
       )
+      IRRebirth.smelting('minecraft:andesite', 'kubejs:cobbled_andesite')
 })

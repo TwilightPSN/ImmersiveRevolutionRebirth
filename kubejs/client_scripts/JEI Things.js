@@ -106,7 +106,8 @@ JEIEvents.removeCategories(IRRebirth => {
     IRRebirth.remove([
         'create:draining',
         'functionalstorage:dissolution',
-        'jeresources:worldgen'
+        'minecraft:compostable',
+        'minecraft:anvil'
     ])
 })
 
@@ -114,4 +115,39 @@ JEIEvents.information(IRRebirth => {
     IRRebirth.addItem('#forge:ores_in_ground/deepslate', ['Drops additional Resources compared to Stone Variants'])
     IRRebirth.addItem('#forge:ores_in_ground/netherrack', ['Drops additional Resources compared to Deepslate Variants'])
     IRRebirth.addItem('#forge:ores_in_ground/end_stone', ['Drops additional Resources compared to Netherrack Variants'])
+})
+
+JEIEvents.addItems(IRRebirth => {
+    IRRebirth.add(['bno:nether_copper_ore',
+        'bno:nether_aluminum_ore',
+        'bno:nether_tin_ore',
+        'bno:nether_osmium_ore',
+        'beo:end_emerald_ore',
+        'beo:end_diamond_ore',
+        'beo:end_gold_ore',
+        'beo:end_redstone_ore',
+        'beo:end_lapis_ore',
+        'beo:end_coal_ore',
+        'beo:end_silver_ore', 
+        'beo:end_iron_ore',
+        'beo:end_lead_ore', 
+        'beo:end_nickel_ore',
+        'beo:end_copper_ore', 
+        'beo:end_aluminum_ore',
+        'beo:end_tin_ore',
+        'beo:end_osmium_ore',
+        'beo:end_uranium_ore',
+        'beo:end_zinc_ore',
+        'bno:nether_emerald_ore',
+        'bno:nether_diamond_ore',
+        'bno:nether_redstone_ore',
+        'bno:nether_lapis_ore',
+        'bno:nether_coal_ore',
+        'bno:nether_silver_ore',
+        'bno:nether_iron_ore',
+        'bno:nether_lead_ore',
+        'bno:nether_nickel_ore',
+        'bno:nether_zinc_ore',
+        'bno:nether_uranium_ore'
+    ])
 })

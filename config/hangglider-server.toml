@@ -65,7 +65,7 @@
 	#Range: 0.0 ~ 100.0
 	normal_fall_movement = 0.55
 	#Enables durability usage of the hang glider when gliding.
-	consume_durability = false
+	consume_durability = true
 	#The timeframe for durability usage, in ticks. Recall that there are 20 ticks in a second, so a value of 20 would damage the item about once a second.
 	#Default is 1 damage about every 10 seconds of flight, so with a durability of 618 means about 15 minutes of flight time with an undamaged glider.
 	#Range: 1 ~ 10000

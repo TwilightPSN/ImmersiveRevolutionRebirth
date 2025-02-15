@@ -5,6 +5,17 @@ LootJS.modifiers((IRRebirth) => {
       "silentgear:helmet",
       "silentgear:chestplate",
       "silentgear:leggings",
-      "silentgear:boots"
+      "silentgear:boots",
+      "silentgear:elytra"
     ]);
+  IRRebirth
+    .addLootTypeModifier(
+      LootType.ENTITY,
+      LootType.UNKNOWN)
+    .removeLoot(["silentgear:helmet",
+    "silentgear:chestplate",
+    "silentgear:leggings",
+    "silentgear:boots",
+    "silentgear:elytra"
+  ]);
 });
