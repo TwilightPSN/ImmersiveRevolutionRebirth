@@ -122,5 +122,7 @@ ItemEvents.tooltip((IRRebirth) => {
     idlist.forEach((item) => {
       IRRebirth.add(item, "Can Acquire with Silk Touch");
     });
-    
+    IRRebirth.addAdvanced(['#forge:ores_in_ground/end_stone', '#forge:ores_in_ground/netherrack'], (item, advanced, text) => {
+      text.remove(1)
+    })
   });

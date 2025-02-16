@@ -109,4 +109,7 @@ StartupEvents.registry('item', IRRebirth => {
         .tag('forge:nuggets/hop_graphite')
         .tag('silentgear:gold_digger')
         .tag('balm:nuggets')
+    IRRebirth.create('raw_draconium')
+        .tag('forge:raw_materials')
+        .tag('forge:raw_materials/draconium')
 })

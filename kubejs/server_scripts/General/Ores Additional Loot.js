@@ -1,14 +1,4 @@
 LootJS.modifiers((IRRebirth) => {
-    //Osmium
-    IRRebirth
-        .addBlockLootModifier("mekanism:deepslate_osmium_ore")
-        .addLoot("mekanism:raw_osmium")
-    IRRebirth
-        .addBlockLootModifier("bno:nether_osmium_ore")
-        .addLoot(LootEntry.of("mekanism:raw_osmium", 2));
-    IRRebirth
-        .addBlockLootModifier("beo:end_osmium_ore")
-        .addLoot(LootEntry.of("mekanism:raw_osmium", 3));
     //Uranium
     IRRebirth
         .addBlockLootModifier("mekanism:deepslate_uranium_ore")
@@ -162,4 +152,17 @@ LootJS.modifiers((IRRebirth) => {
     IRRebirth
         .addBlockLootModifier("beo:end_redstone_ore")
         .addLoot(LootEntry.of("minecraft:redstone", 15));
+    //Draconium
+    IRRebirth
+        .addBlockLootModifier("#forge:ores/draconium")
+        .replaceLoot("draconicevolution:draconium_dust", "kubejs:raw_draconium");
+    IRRebirth
+        .addBlockLootModifier('draconicevolution:deepslate_draconium_ore')
+        .addLoot("kubejs:raw_draconium")
+    IRRebirth
+        .addBlockLootModifier('draconicevolution:nether_draconium_ore')
+        .addLoot(LootEntry.of("kubejs:raw_draconium", 2))
+    IRRebirth
+        .addBlockLootModifier('draconicevolution:end_draconium_ore')
+        .addLoot(LootEntry.of("kubejs:raw_draconium", 3))
 });

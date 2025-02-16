@@ -1,3 +1,15 @@
+|| Update ||
+
+// Script Changes //
+-AE2 Meteors now Spawn in the Mining Dimension
+-Added Custom Raw Draconium as a drop from Draconium Ore
+-Added Custom Block of Raw Draconium
+-Removed Y Level line from BEO and BNO tooltips
+
+// Recipe Changes //
+-Raw Draconium Block Recipes back and forth
+-Chemical Dissolution recipes for Raw Draconium
+
 || Beta 0.14.0||
 
 // Mods Added //
