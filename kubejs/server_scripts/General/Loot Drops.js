@@ -70,7 +70,7 @@ LootJS.modifiers((IRRebirth) => {
     IRRebirth.addBlockLootModifier("buddingcrystals:prismarine_cluster").addLoot(LootEntry.of("minecraft:prismarine_crystals", 4));
     IRRebirth
     .addBlockLootModifier("minecraft:andesite")
-    .randomChanceWithEnchantment("minecraft:fortune", [0.1, 0.1, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1, 1, 1, 1]) 
+    .randomChanceWithEnchantment("minecraft:fortune", [0.01, 0.1, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1, 1, 1, 1]) 
     .addLoot("create:andesite_alloy")
     IRRebirth
     .addBlockLootModifier("minecraft:andesite")

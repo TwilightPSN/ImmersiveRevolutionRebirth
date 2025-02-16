@@ -742,11 +742,6 @@
 					item: "mekanism:hazmat_boots"
 					type: "item"
 				}
-				{
-					id: "358A296A6E7ABD8A"
-					item: "mekanism:radioactive_waste_barrel"
-					type: "item"
-				}
 			]
 			title: "Stay Safe"
 			x: 0.0d

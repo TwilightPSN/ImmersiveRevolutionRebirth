@@ -100,6 +100,7 @@ JEIEvents.hideItems(IRRebirth => {
         'silentgear:boots'
     ])
     IRRebirth.hide('/create_connected:copycat_.*/')
+    IRRebirth.hide(['/botanypots:.*/', '/botanypotstiers:.*/'])
 })
 
 JEIEvents.removeCategories(IRRebirth => {
@@ -149,5 +150,14 @@ JEIEvents.addItems(IRRebirth => {
         'bno:nether_nickel_ore',
         'bno:nether_zinc_ore',
         'bno:nether_uranium_ore'
+    ])
+    IRRebirth.add(['botanypotstiers:ultra_terracotta_hopper_botany_pot',
+        'botanypotstiers:elite_terracotta_botany_pot',
+        'botanypotstiers:elite_terracotta_hopper_botany_pot',
+        'botanypotstiers:ultra_terracotta_botany_pot',
+        'botanypotstiers:creative_terracotta_hopper_botany_pot',
+        'botanypotstiers:creative_terracotta_botany_pot',
+        'botanypots:terracotta_hopper_botany_pot',
+        'botanypots:terracotta_botany_pot'
     ])
 })
