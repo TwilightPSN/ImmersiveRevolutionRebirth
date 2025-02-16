@@ -1,3 +1,11 @@
+|| Beta 0.15.1 ||
+
+// Config Changes //
+-Adjusted JEI Ingredient Order
+
+// Recipe Changes //
+-Fixed Sheetmetal quests to take IE Plates
+
 || Beta 0.15.0 ||
 
 // Mods Added //
@@ -8,7 +16,8 @@
 -InsaneLib
 -Moonlight Library
 -Oh The Biomes We've Gone
--Packet Fixer-Sophisticated Backpacks
+-Packet Fixer
+-Sophisticated Backpacks
 -Sophisticated Core
 -Sophisticated Storage
 
