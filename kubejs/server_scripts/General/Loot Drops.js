@@ -1,9 +1,4 @@
 LootJS.modifiers((IRRebirth) => {
-    IRRebirth.addBlockLootModifier("#forge:ores/draconium").removeLoot("draconicevolution:draconium_dust");
-    IRRebirth.addBlockLootModifier("draconicevolution:nether_draconium_ore").addLoot("draconicevolution:nether_draconium_ore");
-    IRRebirth.addBlockLootModifier("draconicevolution:end_draconium_ore").addLoot("draconicevolution:end_draconium_ore");
-    IRRebirth.addBlockLootModifier("draconicevolution:overworld_draconium_ore").addLoot("draconicevolution:overworld_draconium_ore");
-    IRRebirth.addBlockLootModifier("draconicevolution:deepslate_draconium_ore").addLoot("draconicevolution:deepslate_draconium_ore");
     IRRebirth.addBlockLootModifier("minecraft:budding_amethyst").randomChanceWithEnchantment("minecraft:silk_touch", [0, 1]).addLoot("minecraft:budding_amethyst");
     IRRebirth.addBlockLootModifier("buddingcrystals:budding_cow").randomChanceWithEnchantment("minecraft:silk_touch", [0, 1]).addLoot("buddingcrystals:budding_cow");
     IRRebirth.addBlockLootModifier("buddingcrystals:budding_sculk").randomChanceWithEnchantment("minecraft:silk_touch", [0, 1]).addLoot("buddingcrystals:budding_sculk");
@@ -75,11 +70,11 @@ LootJS.modifiers((IRRebirth) => {
     IRRebirth.addBlockLootModifier("buddingcrystals:prismarine_cluster").addLoot(LootEntry.of("minecraft:prismarine_crystals", 4));
     IRRebirth
     .addBlockLootModifier("minecraft:andesite")
-    .randomChanceWithEnchantment("minecraft:fortune", [0.1, 0.1, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1, 1, 1]) 
+    .randomChanceWithEnchantment("minecraft:fortune", [0.01, 0.1, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1, 1, 1, 1]) 
     .addLoot("create:andesite_alloy")
     IRRebirth
     .addBlockLootModifier("minecraft:andesite")
-    .randomChanceWithEnchantment("minecraft:fortune", [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.25, 0.5]) 
+    .randomChanceWithEnchantment("minecraft:fortune", [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.25, 0.5]) 
     .addLoot("create:andesite_alloy")
     IRRebirth
     .addBlockLootModifier("minecraft:andesite")

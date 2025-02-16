@@ -89,4 +89,6 @@ ServerEvents.recipes(IRRebirth => {
     IRRebirth.remove({id: '/utilitarian:utility/.*_logs_to_trapdoors/'})
     IRRebirth.remove({id: '/utilitarian:utility/.*_slab_to_block/'})
     IRRebirth.remove({id: 'minecraft:netherite_ingot'})
+    IRRebirth.remove({output: '/botanypots:.*/'})
+    IRRebirth.remove({output: '/botanypotstiers:.*/'})
 })

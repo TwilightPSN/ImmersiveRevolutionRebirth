@@ -697,12 +697,18 @@
 				"Start producing treated wood as soon as possible to ensure you have a sturdy base for all your future constructions, and keep your systems running smoothly as you progress into larger-scale machinery!"
 			]
 			id: "11BCD612FAD8E339"
-			subtitle: "Squirting Out"
+			rewards: [{
+				count: 2
+				id: "3E1708A1CE244566"
+				item: "create:copper_casing"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2BD6ABD53968F98F"
 				item: "create:spout"
 				type: "item"
 			}]
+			title: "Squirting Out"
 			x: -2.5d
 			y: -2.0d
 		}
@@ -716,6 +722,11 @@
 				"Focus on scaling up your Brass production to ensure you have enough for the various advanced machines, tools, and systems you'll be building as you continue to expand your technological empire. Brass will be a cornerstone of your crafting needs, so start generating it in bulk now to stay ahead in your journey!"
 			]
 			id: "252BCFE557632122"
+			rewards: [{
+				id: "3FBB32D0218D5A67"
+				item: "create:brass_block"
+				type: "item"
+			}]
 			tasks: [{
 				id: "01CB77B4A9AC9F2D"
 				item: "create:brass_ingot"
@@ -880,9 +891,8 @@
 			]
 			id: "0B9B63389931F8CD"
 			rewards: [{
-				count: 2
-				id: "39C53C496819559B"
-				item: "create:empty_blaze_burner"
+				id: "64DEBF8DF538230E"
+				item: "minecraft:blaze_spawn_egg"
 				type: "item"
 			}]
 			tasks: [{

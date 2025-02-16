@@ -971,18 +971,25 @@
 				item: "immersiveengineering:steel_scaffolding_standard"
 				type: "item"
 			}]
-			tasks: [{
-				id: "786E007B9E07F36E"
-				item: {
-					Count: 1
-					id: "immersiveengineering:survey_tools"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "786E007B9E07F36E"
+					item: {
+						Count: 1
+						id: "immersiveengineering:survey_tools"
+						tag: {
+							Damage: 0
+						}
 					}
+					match_nbt: false
+					type: "item"
 				}
-				match_nbt: false
-				type: "item"
-			}]
+				{
+					id: "35CECEF102114445"
+					item: "immersiveengineering:sample_drill"
+					type: "item"
+				}
+			]
 			title: "Finding Minerals"
 			x: -2.0d
 			y: 3.0d

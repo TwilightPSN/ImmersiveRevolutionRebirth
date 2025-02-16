@@ -117,4 +117,21 @@ ServerEvents.recipes(IRRebirth => {
         ]
       )
       IRRebirth.smelting('minecraft:andesite', 'kubejs:cobbled_andesite')
+      IRRebirth.shapeless(
+        Item.of('kubejs:raw_draconium', 9),
+        [
+          'kubejs:raw_draconium_block'
+        ]
+      )
+      IRRebirth.shaped(
+        Item.of('kubejs:raw_draconium_block'), 
+        [
+          'AAA',
+          'AAA',
+          'AAA'
+        ],
+        {
+          A: '#forge:raw_materials/draconium'
+        }
+      )
 })
