@@ -8,7 +8,6 @@ JEIEvents.hideItems(IRRebirth => {
     IRRebirth.hide('storagenetwork:expanded_remote');
     IRRebirth.hide('storagenetwork:filter_kabel');
     IRRebirth.hide('storagenetwork:request_expanded');
-    IRRebirth.hide('storagenetwork:import_filter_kabel');
     IRRebirth.hide('storagenetwork:exchange');
     IRRebirth.hide('storagenetwork:collector');
     IRRebirth.hide('storagenetwork:stack_upgrade');
@@ -101,6 +100,7 @@ JEIEvents.hideItems(IRRebirth => {
     ])
     IRRebirth.hide('/create_connected:copycat_.*/')
     IRRebirth.hide(['/botanypots:.*/', '/botanypotstiers:.*/'])
+    IRRebirth.hide(['utilitarian:snad', 'utilitarian:red_snad', 'utilitarian:soul_snad'])
 })
 
 JEIEvents.removeCategories(IRRebirth => {

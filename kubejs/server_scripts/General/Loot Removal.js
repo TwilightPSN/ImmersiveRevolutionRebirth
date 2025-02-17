@@ -9,9 +9,7 @@ LootJS.modifiers((IRRebirth) => {
       "silentgear:elytra"
     ]);
   IRRebirth
-    .addLootTypeModifier(
-      LootType.ENTITY,
-      LootType.UNKNOWN)
+    .addLootTypeModifier(LootType.ENTITY)
     .removeLoot(["silentgear:helmet",
     "silentgear:chestplate",
     "silentgear:leggings",

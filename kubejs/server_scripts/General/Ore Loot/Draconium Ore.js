@@ -13,47 +13,47 @@ LootJS.modifiers((IRRebirth) => {
         .addLoot(LootEntry.of("kubejs:raw_draconium", 3))
     IRRebirth
         .addBlockLootModifier("#forge:ores/draconium")
-        .randomChanceWithEnchantment("minecraft:fortune", [0, 0.333, 0.25, 0.20, 0.167, 0.143, 0.125, 0.111, 0.10, 0.091, 0.083, 0.077, 0.071])
+        .randomChanceWithEnchantment("minecraft:fortune", [0, 0.333, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1])
         .addLoot("kubejs:raw_draconium") 
     IRRebirth
         .addBlockLootModifier("#forge:ores/draconium")
-        .randomChanceWithEnchantment("minecraft:fortune", [0, 0, 0.25, 0.20, 0.167, 0.143, 0.125, 0.111, 0.10, 0.091, 0.083, 0.077, 0.071])
+        .randomChanceWithEnchantment("minecraft:fortune", [0, 0, 0.25, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1])
         .addLoot("kubejs:raw_draconium") 
     IRRebirth
         .addBlockLootModifier("#forge:ores/draconium")
-        .randomChanceWithEnchantment("minecraft:fortune", [0, 0, 0, 0.20, 0.167, 0.143, 0.125, 0.111, 0.10, 0.091, 0.083, 0.077, 0.071])
+        .randomChanceWithEnchantment("minecraft:fortune", [0, 0, 0, 0.2, 1, 1, 1, 1, 1, 1, 1, 1, 1])
         .addLoot("kubejs:raw_draconium") 
     IRRebirth
         .addBlockLootModifier("#forge:ores/draconium")
-        .randomChanceWithEnchantment("minecraft:fortune", [0, 0, 0, 0, 0.167, 0.143, 0.125, 0.111, 0.10, 0.091, 0.083, 0.077, 0.071])
+        .randomChanceWithEnchantment("minecraft:fortune", [0, 0, 0, 0, 0.167, 1, 1, 1, 1, 1, 1, 1, 1])
         .addLoot("kubejs:raw_draconium") 
     IRRebirth
         .addBlockLootModifier("#forge:ores/draconium")
-        .randomChanceWithEnchantment("minecraft:fortune", [0, 0, 0, 0, 0, 0.143, 0.125, 0.111, 0.10, 0.091, 0.083, 0.077, 0.071])
+        .randomChanceWithEnchantment("minecraft:fortune", [0, 0, 0, 0, 0, 0.143, 1, 1, 1, 1, 1, 1, 1])
         .addLoot("kubejs:raw_draconium") 
     IRRebirth
         .addBlockLootModifier("#forge:ores/draconium")
-        .randomChanceWithEnchantment("minecraft:fortune", [0, 0, 0, 0, 0, 0, 0.125, 0.111, 0.10, 0.091, 0.083, 0.077, 0.071])
+        .randomChanceWithEnchantment("minecraft:fortune", [0, 0, 0, 0, 0, 0, 0.125, 1, 1, 1, 1, 1, 1])
         .addLoot("kubejs:raw_draconium") 
     IRRebirth
         .addBlockLootModifier("#forge:ores/draconium")
-        .randomChanceWithEnchantment("minecraft:fortune", [0, 0, 0, 0, 0, 0, 0, 0.111, 0.10, 0.091, 0.083, 0.077, 0.071])
+        .randomChanceWithEnchantment("minecraft:fortune", [0, 0, 0, 0, 0, 0, 0, 0.111, 1, 1, 1, 1, 1])
         .addLoot("kubejs:raw_draconium") 
     IRRebirth
         .addBlockLootModifier("#forge:ores/draconium")
-        .randomChanceWithEnchantment("minecraft:fortune", [0, 0, 0, 0, 0, 0, 0, 0, 0.10, 0.091, 0.083, 0.077, 0.071])
+        .randomChanceWithEnchantment("minecraft:fortune", [0, 0, 0, 0, 0, 0, 0, 0, 0.1, 1, 1, 1, 1])
         .addLoot("kubejs:raw_draconium") 
     IRRebirth
         .addBlockLootModifier("#forge:ores/draconium")
-        .randomChanceWithEnchantment("minecraft:fortune", [0, 0, 0, 0, 0, 0, 0, 0, 0, 0.091, 0.083, 0.077, 0.071])
+        .randomChanceWithEnchantment("minecraft:fortune", [0, 0, 0, 0, 0, 0, 0, 0, 0, 0.091, 1, 1, 1])
         .addLoot("kubejs:raw_draconium") 
     IRRebirth
         .addBlockLootModifier("#forge:ores/draconium")
-        .randomChanceWithEnchantment("minecraft:fortune", [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.083, 0.077, 0.071])
+        .randomChanceWithEnchantment("minecraft:fortune", [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.083, 1, 1])
         .addLoot("kubejs:raw_draconium") 
     IRRebirth
         .addBlockLootModifier("#forge:ores/draconium")
-        .randomChanceWithEnchantment("minecraft:fortune", [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.077, 0.071])
+        .randomChanceWithEnchantment("minecraft:fortune", [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.077, 1])
         .addLoot("kubejs:raw_draconium") 
     IRRebirth
         .addBlockLootModifier("#forge:ores/draconium")

@@ -1,3 +1,53 @@
+|| Beta 0.16.0 ||
+
+IF YOU HAVE ANY SILENT GEMS TOOLS I RECOMMEND SWAPPING THE PARTS BEFORE THIS UPDATE!!!
+
+// Mods Added //
+-Pickle Tweaks
+
+// Mods Updated //
+-Balm
+-CookingforBlockheads
+-Datamancy
+-Sophisticated Core
+
+// Mods Removed //
+-Silent Gems
+-Harvest with Ease (Not Needed with Pickle Tweak Addition)
+-Creeper Confetti
+-Illager Warship
+-Protect Mobs from Daylight
+
+// Quest Changes //
+-Remvoved Nether requirement from Rose Quartz quest
+
+// Config Changes //
+-Moved Agricraft to the bottom of the ingredient listing for JEI
+-Sophisticated Backpacks no spawn as loot
+-Mod Name Tooltip reverted to original (this was unintended change)
+-JER World Gen file modified to remove Silent Gems drops
+
+// Script Changes //
+-Properly configured Fortune drops for ores
+-Silent Gear Drops attempt to stop again
+-Fixed Biomes We've Gone stripped logs and wood missing tags again
+-Sculk no longer needs Silk Touch
+
+// Recipe Changes //
+-Remove Bulk Sanding recipe for Polished Rose Quartz
+-Added recipes for OTBWG Sands to Sand Paper
+-Removed Utilitarian SNAD
+-Changed recipe on Singularity Thanks
+-Enabled Simple Storage Filtered Import
+
+|| Beta 0.15.1 ||
+
+// Config Changes //
+-Adjusted JEI Ingredient Order
+
+// Recipe Changes //
+-Fixed Sheetmetal quests to take IE Plates
+
 || Beta 0.15.0 ||
 
 // Mods Added //
@@ -8,7 +58,8 @@
 -InsaneLib
 -Moonlight Library
 -Oh The Biomes We've Gone
--Packet Fixer-Sophisticated Backpacks
+-Packet Fixer
+-Sophisticated Backpacks
 -Sophisticated Core
 -Sophisticated Storage
 

@@ -134,4 +134,18 @@ ServerEvents.recipes(IRRebirth => {
           A: '#forge:raw_materials/draconium'
         }
       )
+      IRRebirth.shaped(
+        Item.of('mob_grinding_utils:tank'), 
+        [
+          'ACA',
+          'BDB',
+          'ACA'
+        ],
+        {
+          A: '#forge:plates/steel',
+          B: '#forge:rods/steel',
+          C: 'immersiveengineering:chute_steel',
+          D: '#c:glass_blocks'
+        }
+      ).id('mob_grinding_utils:recipe_tank')
 })

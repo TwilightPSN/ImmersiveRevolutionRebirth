@@ -326,10 +326,7 @@
 			y: -2.0d
 		}
 		{
-			dependencies: [
-				"75D693CEC7D6685A"
-				"289E79DDFD2D2544"
-			]
+			dependencies: ["289E79DDFD2D2544"]
 			description: [
 				"The Mechanical Roller not only helps with converting plates into rods, but it also plays a key role in refining sand into fine paper. This paper is essential for polishing items and creating a smoother finish on components, which is crucial for crafting more advanced equipment."
 				""
