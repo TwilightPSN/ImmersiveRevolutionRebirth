@@ -62,4 +62,6 @@ ServerEvents.tags('item', IRRebirth => {
   IRRebirth.add('forge:nuggets', 'createdeco:netherite_nugget')
   IRRebirth.add('balm:nuggets', 'createdeco:netherite_nugget')
   IRRebirth.add('silentgear:gold_digger', 'createdeco:netherite_nugget')
+  IRRebirth.add('forge:stripped_logs', '/biomeswevegone:stripped_.*_log/')
+  IRRebirth.add('forge:stripped_wood', '/biomeswevegone:stripped_.*_wood/')
 })

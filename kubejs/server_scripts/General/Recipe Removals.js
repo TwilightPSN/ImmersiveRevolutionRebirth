@@ -8,7 +8,6 @@ ServerEvents.recipes(IRRebirth => {
     IRRebirth.remove({ output: 'storagenetwork:expanded_remote'})
     IRRebirth.remove({ output: 'storagenetwork:filter_kabel'})
     IRRebirth.remove({ output: 'storagenetwork:request_expanded'})
-    IRRebirth.remove({ output: 'storagenetwork:import_filter_kabel'})
     IRRebirth.remove({ output: 'storagenetwork:exchange'})
     IRRebirth.remove({ output: 'storagenetwork:collector'})
     IRRebirth.remove({ output: 'storagenetwork:stack_upgrade'})
@@ -91,4 +90,5 @@ ServerEvents.recipes(IRRebirth => {
     IRRebirth.remove({id: 'minecraft:netherite_ingot'})
     IRRebirth.remove({output: '/botanypots:.*/'})
     IRRebirth.remove({output: '/botanypotstiers:.*/'})
+    IRRebirth.remove(['utilitarian:snad', 'utilitarian:red_snad', 'utilitarian:soul_snad'])
 })

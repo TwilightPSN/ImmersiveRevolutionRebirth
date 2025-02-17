@@ -79,4 +79,5 @@ LootJS.modifiers((IRRebirth) => {
     IRRebirth
     .addBlockLootModifier("minecraft:andesite")
     .replaceLoot("minecraft:andesite", "kubejs:cobbled_andesite");
+    IRRebirth.addBlockLootModifier("minecraft:sculk").addLoot("minecraft:sculk");
 });

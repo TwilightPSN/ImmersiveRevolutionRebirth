@@ -11,4 +11,5 @@ ServerEvents.recipes(IRRebirth => {
     IRRebirth.remove({id: 'create_deep_dark:mixing_molten_echo_compat'})
     IRRebirth.remove({id: 'create:crafting/materials/andesite_alloy'})
     IRRebirth.remove({id: 'create:mixing/andesite_alloy'})
+    IRRebirth.remove({id: 'create_dd:sanding/rose_quartz'})
 })
