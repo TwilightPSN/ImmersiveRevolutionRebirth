@@ -4,12 +4,15 @@ LootJS.modifiers((IRRebirth) => {
         .replaceLoot("immersiveengineering:raw_silver", "immersiveengineering:raw_silver");
     IRRebirth
         .addBlockLootModifier("immersiveengineering:deepslate_silver_ore")
+        .randomChanceWithEnchantment("minecraft:silk_touch", [1, 0])
         .addLoot("immersiveengineering:raw_silver")
     IRRebirth
         .addBlockLootModifier("bno:nether_silver_ore")
+        .randomChanceWithEnchantment("minecraft:silk_touch", [1, 0])
         .addLoot(LootEntry.of("immersiveengineering:raw_silver", 2));
     IRRebirth
         .addBlockLootModifier("beo:end_silver_ore")
+        .randomChanceWithEnchantment("minecraft:silk_touch", [1, 0])
         .addLoot(LootEntry.of("immersiveengineering:raw_silver", 3))
     IRRebirth
         .addBlockLootModifier("#forge:ores/silver")

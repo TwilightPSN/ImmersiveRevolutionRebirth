@@ -4,12 +4,15 @@ LootJS.modifiers((IRRebirth) => {
         .replaceLoot("minecraft:emerald", "minecraft:emerald");
     IRRebirth
         .addBlockLootModifier("minecraft:deepslate_emerald_ore")
+        .randomChanceWithEnchantment("minecraft:silk_touch", [1, 0])
         .addLoot("minecraft:emerald")
     IRRebirth
         .addBlockLootModifier("bno:nether_emerald_ore")
+        .randomChanceWithEnchantment("minecraft:silk_touch", [1, 0])
         .addLoot(LootEntry.of("minecraft:emerald", 2));
     IRRebirth
         .addBlockLootModifier("beo:end_emerald_ore")
+        .randomChanceWithEnchantment("minecraft:silk_touch", [1, 0])
         .addLoot(LootEntry.of("minecraft:emerald", 3))
     IRRebirth
         .addBlockLootModifier("#forge:ores/emerald")

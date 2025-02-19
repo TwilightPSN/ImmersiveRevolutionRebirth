@@ -4,12 +4,15 @@ LootJS.modifiers((IRRebirth) => {
         .replaceLoot("minecraft:raw_iron", "minecraft:raw_iron");
     IRRebirth
         .addBlockLootModifier("minecraft:deepslate_iron_ore")
+        .randomChanceWithEnchantment("minecraft:silk_touch", [1, 0])
         .addLoot("minecraft:raw_iron")
     IRRebirth
         .addBlockLootModifier("bno:nether_iron_ore")
+        .randomChanceWithEnchantment("minecraft:silk_touch", [1, 0])
         .addLoot(LootEntry.of("minecraft:raw_iron", 2));
     IRRebirth
         .addBlockLootModifier("beo:end_iron_ore")
+        .randomChanceWithEnchantment("minecraft:silk_touch", [1, 0])
         .addLoot(LootEntry.of("minecraft:raw_iron", 3))
     IRRebirth
         .addBlockLootModifier("#forge:ores/iron")

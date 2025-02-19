@@ -4,12 +4,15 @@ LootJS.modifiers((IRRebirth) => {
         .replaceLoot("minecraft:redstone", LootEntry.of("minecraft:redstone", 5));
     IRRebirth
         .addBlockLootModifier("minecraft:deepslate_redstone_ore")
+        .randomChanceWithEnchantment("minecraft:silk_touch", [1, 0])
         .addLoot(LootEntry.of("minecraft:redstone", 5))
     IRRebirth
         .addBlockLootModifier("bno:nether_redstone_ore")
+        .randomChanceWithEnchantment("minecraft:silk_touch", [1, 0])
         .addLoot(LootEntry.of("minecraft:redstone", 10));
     IRRebirth
         .addBlockLootModifier("beo:end_redstone_ore")
+        .randomChanceWithEnchantment("minecraft:silk_touch", [1, 0])
         .addLoot(LootEntry.of("minecraft:redstone", 15))
     IRRebirth
         .addBlockLootModifier("#forge:ores/redstone")

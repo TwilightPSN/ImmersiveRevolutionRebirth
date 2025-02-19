@@ -5,6 +5,7 @@ PlayerEvents.loggedIn(IRRebirth => {
         IRRebirth.player.give(Item.of('mekanismtools:stone_paxel'))
         IRRebirth.player.give(Item.of('10x pamhc2foodextended:hamandpineapplepizzaitem'))
         IRRebirth.player.give(Item.of('create_questing:blueprint'))
+        IRRebirth.player.give(Item.of('solcarrot:food_book'))
         IRRebirth.entity.setItemSlot(5, 'minecraft:leather_helmet')
         IRRebirth.entity.setItemSlot(4, 'minecraft:leather_chestplate')
         IRRebirth.entity.setItemSlot(3, 'minecraft:leather_leggings')

@@ -5,4 +5,7 @@ ServerEvents.recipes(IRRebirth => {
     IRRebirth.custom({"type":"mekanism:purifying","chemicalInput":{"amount":1,"gas":"kubejs:refined_glowstone_gas"},"itemInput":{"ingredient":{"item":"mekanism:pellet_antimatter"}},"output":{"count":1,"item":"extendedcrafting:luminessence"}})
     IRRebirth.custom({"type":"mekanism:purifying","chemicalInput":{"amount":1,"gas":"kubejs:refined_obsidian_gas"},"itemInput":{"ingredient":{"tag":"forge:ingots/steel"}},"output":{"count":1,"item":"extendedcrafting:black_iron_ingot"}})
     IRRebirth.custom({"type":"mekanism:purifying","chemicalInput":{"amount":1,"gas":"kubejs:redstone_gas"},"itemInput":{"ingredient":{"tag":"forge:ingots/steel"}},"output":{"count":1,"item":"extendedcrafting:redstone_ingot"}})
+    IRRebirth.custom({"type":"mekanism:purifying","chemicalInput":{"amount":1,"gas":"mekanism:oxygen"},"itemInput":{"ingredient":{"tag":"mekanism:shards/netherite"}},"output":{"count":1,"item":"kubejs:netherite_clump"}})
+    IRRebirth.custom({"type":"mekanism:purifying","chemicalInput":{"amount":2,"gas":"mekanism:oxygen"},"itemInput":{"ingredient":{"tag":"forge:storage_blocks/raw_netherite"}},"output":{"count":18,"item":"kubejs:netherite_clump"}})
+    IRRebirth.custom({"type":"mekanism:purifying","chemicalInput":{"amount":1,"gas":"mekanism:oxygen"},"itemInput":{"ingredient":{"tag":"forge:raw_materials/netherite"}},"output":{"count":2,"item":"kubejs:netherite_clump"}})
 })

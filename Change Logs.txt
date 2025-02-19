@@ -1,6 +1,37 @@
-|| Beta 0.16.0 ||
+|| Beta 0.17.0 ||
+
+// Mods Updated //
+-Advanced AE
+-Balm
+-Double Doors
+-Every Compat
+-Immersive Engineering
+-Moonlight Library
+-Stone Zone
+
+// Config Changes //
+-Spice of Life increases up to 296 hearts after eating all 1481 foods
+-Warp Stone cooldown reduced to 10s
+-Warp Stone use time reduced to 20 ticks
+-JET World Gen update for Raw Netherite
+
+// Script Changes //
+-Fixed ore drops dupe when using Silk Touch
+-Fixed Andesite Alloy drops when using Silk Touch
+-Moved 1% chance for Andesite Alloy to work with Create drills
+-Silent Gear removal attempt
+-Hid various Creative Chem and Fluid tank in JEI
+-Custom Raw Netherite Items
+-Mekanism/Create/IE Processing for Netherite
+
+|| Beta 0.16.1 ||
 
 IF YOU HAVE ANY SILENT GEMS TOOLS I RECOMMEND SWAPPING THE PARTS BEFORE THIS UPDATE!!!
+
+// Mod Downgrades //
+-Datamancy (Unbreakable not Working on update)
+
+|| Beta 0.16.0 ||
 
 // Mods Added //
 -Pickle Tweaks

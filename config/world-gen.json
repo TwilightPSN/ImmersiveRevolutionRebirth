@@ -744,9 +744,9 @@
     "dim": "minecraft:the_nether",
     "dropsList": [
       {
-        "itemStack": "minecraft:ancient_debris",
+        "itemStack": "kubejs:raw_netherite",
         "fortunes": {
-          "0": 1
+          "0": 4
         }
       }
     ]
@@ -2224,9 +2224,9 @@
     "dim": "jamd:nether",
     "dropsList": [
       {
-        "itemStack": "minecraft:ancient_debris",
+        "itemStack": "kubejs:raw_netherite",
         "fortunes": {
-          "0": 1
+          "0": 4
         }
       }
     ]

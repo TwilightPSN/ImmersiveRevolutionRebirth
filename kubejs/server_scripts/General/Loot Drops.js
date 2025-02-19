@@ -69,15 +69,29 @@ LootJS.modifiers((IRRebirth) => {
     IRRebirth.addBlockLootModifier("buddingcrystals:prismarine_cluster").removeLoot("minecraft:prismarine");
     IRRebirth.addBlockLootModifier("buddingcrystals:prismarine_cluster").addLoot(LootEntry.of("minecraft:prismarine_crystals", 4));
     IRRebirth
-    .addBlockLootModifier("minecraft:andesite")
-    .randomChanceWithEnchantment("minecraft:fortune", [0.01, 0.1, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1, 1, 1, 1]) 
-    .addLoot("create:andesite_alloy")
+        .addBlockLootModifier("minecraft:andesite")
+        .randomChance(0.01) 
+        .addLoot("create:andesite_alloy")
     IRRebirth
-    .addBlockLootModifier("minecraft:andesite")
-    .randomChanceWithEnchantment("minecraft:fortune", [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.25, 0.5]) 
-    .addLoot("create:andesite_alloy")
+        .addBlockLootModifier("minecraft:andesite")
+        .randomChanceWithEnchantment("minecraft:fortune", [0, 0.1, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1, 1, 1, 1]) 
+        .randomChanceWithEnchantment("minecraft:silk_touch", [1, 0])
+        .addLoot("create:andesite_alloy")
     IRRebirth
-    .addBlockLootModifier("minecraft:andesite")
-    .replaceLoot("minecraft:andesite", "kubejs:cobbled_andesite");
+        .addBlockLootModifier("minecraft:andesite")
+        .randomChanceWithEnchantment("minecraft:fortune", [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.25, 0.5]) 
+        .randomChanceWithEnchantment("minecraft:silk_touch", [1, 0])
+        .addLoot("create:andesite_alloy")
+    IRRebirth
+        .addBlockLootModifier("minecraft:andesite")
+        .replaceLoot("minecraft:andesite", "kubejs:cobbled_andesite");
+    IRRebirth
+        .addBlockLootModifier("minecraft:andesite")
+        .randomChanceWithEnchantment("minecraft:silk_touch", [0, 1])
+        .removeLoot("kubejs:cobbled_andesite");
+    IRRebirth
+        .addBlockLootModifier("minecraft:andesite")
+        .randomChanceWithEnchantment("minecraft:silk_touch", [0, 1])
+        .addLoot("minecraft:andesite")
     IRRebirth.addBlockLootModifier("minecraft:sculk").addLoot("minecraft:sculk");
 });

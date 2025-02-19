@@ -4,12 +4,15 @@ LootJS.modifiers((IRRebirth) => {
         .replaceLoot("mekanism:raw_uranium", "mekanism:raw_uranium");
     IRRebirth
         .addBlockLootModifier("mekanism:deepslate_uranium_ore")
+        .randomChanceWithEnchantment("minecraft:silk_touch", [1, 0])
         .addLoot("mekanism:raw_uranium")
     IRRebirth
         .addBlockLootModifier("bno:nether_uranium_ore")
+        .randomChanceWithEnchantment("minecraft:silk_touch", [1, 0])
         .addLoot(LootEntry.of("mekanism:raw_uranium", 2));
     IRRebirth
         .addBlockLootModifier("beo:end_uranium_ore")
+        .randomChanceWithEnchantment("minecraft:silk_touch", [1, 0])
         .addLoot(LootEntry.of("mekanism:raw_uranium", 3))
     IRRebirth
         .addBlockLootModifier("#forge:ores/uranium")

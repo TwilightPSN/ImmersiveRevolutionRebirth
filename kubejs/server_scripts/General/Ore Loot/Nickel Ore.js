@@ -4,12 +4,15 @@ LootJS.modifiers((IRRebirth) => {
         .replaceLoot("immersiveengineering:raw_nickel", "immersiveengineering:raw_nickel");
     IRRebirth
         .addBlockLootModifier("immersiveengineering:deepslate_nickel_ore")
+        .randomChanceWithEnchantment("minecraft:silk_touch", [1, 0])
         .addLoot("immersiveengineering:raw_nickel")
     IRRebirth
         .addBlockLootModifier("bno:nether_nickel_ore")
+        .randomChanceWithEnchantment("minecraft:silk_touch", [1, 0])
         .addLoot(LootEntry.of("immersiveengineering:raw_nickel", 2));
     IRRebirth
         .addBlockLootModifier("beo:end_nickel_ore")
+        .randomChanceWithEnchantment("minecraft:silk_touch", [1, 0])
         .addLoot(LootEntry.of("immersiveengineering:raw_nickel", 3))
     IRRebirth
         .addBlockLootModifier("#forge:ores/nickel")

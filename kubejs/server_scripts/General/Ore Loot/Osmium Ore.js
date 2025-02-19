@@ -4,12 +4,15 @@ LootJS.modifiers((IRRebirth) => {
         .replaceLoot("mekanism:raw_osmium", "mekanism:raw_osmium");
     IRRebirth
         .addBlockLootModifier("mekanism:deepslate_osmium_ore")
+        .randomChanceWithEnchantment("minecraft:silk_touch", [1, 0])
         .addLoot("mekanism:raw_osmium")
     IRRebirth
         .addBlockLootModifier("bno:nether_osmium_ore")
+        .randomChanceWithEnchantment("minecraft:silk_touch", [1, 0])
         .addLoot(LootEntry.of("mekanism:raw_osmium", 2));
     IRRebirth
         .addBlockLootModifier("beo:end_osmium_ore")
+        .randomChanceWithEnchantment("minecraft:silk_touch", [1, 0])
         .addLoot(LootEntry.of("mekanism:raw_osmium", 3))
     IRRebirth
         .addBlockLootModifier("#forge:ores/osmium")

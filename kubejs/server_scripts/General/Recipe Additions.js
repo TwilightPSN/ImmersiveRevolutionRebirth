@@ -148,4 +148,23 @@ ServerEvents.recipes(IRRebirth => {
           D: '#c:glass_blocks'
         }
       ).id('mob_grinding_utils:recipe_tank')
+      IRRebirth.shapeless(
+        Item.of('kubejs:raw_netherite', 9),
+        [
+          'kubejs:raw_netherite_block'
+        ]
+      )
+      IRRebirth.shaped(
+        Item.of('kubejs:raw_netherite_block'), 
+        [
+          'AAA',
+          'AAA',
+          'AAA'
+        ],
+        {
+          A: '#forge:raw_materials/netherite'
+        }
+      )
+      IRRebirth.smelting('minecraft:netherite_scrap', 'kubejs:raw_netherite')
+      IRRebirth.blasting('minecraft:netherite_scrap', 'kubejs:raw_netherite')
 })

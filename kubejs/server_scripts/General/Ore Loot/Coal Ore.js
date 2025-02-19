@@ -4,12 +4,15 @@ LootJS.modifiers((IRRebirth) => {
         .replaceLoot("minecraft:coal", "minecraft:coal");
     IRRebirth
         .addBlockLootModifier("minecraft:deepslate_coal_ore")
+        .randomChanceWithEnchantment("minecraft:silk_touch", [1, 0])
         .addLoot("minecraft:coal")
     IRRebirth
         .addBlockLootModifier("bno:nether_coal_ore")
+        .randomChanceWithEnchantment("minecraft:silk_touch", [1, 0])
         .addLoot(LootEntry.of("minecraft:coal", 2));
     IRRebirth
         .addBlockLootModifier("beo:end_coal_ore")
+        .randomChanceWithEnchantment("minecraft:silk_touch", [1, 0])
         .addLoot(LootEntry.of("minecraft:coal", 3))
     IRRebirth
         .addBlockLootModifier("#forge:ores/coal")
