@@ -4,12 +4,15 @@ LootJS.modifiers((IRRebirth) => {
         .replaceLoot("mekanism:raw_tin", "mekanism:raw_tin");
     IRRebirth
         .addBlockLootModifier("mekanism:deepslate_tin_ore")
+        .randomChanceWithEnchantment("minecraft:silk_touch", [1, 0])
         .addLoot("mekanism:raw_tin")
     IRRebirth
         .addBlockLootModifier("bno:nether_tin_ore")
+        .randomChanceWithEnchantment("minecraft:silk_touch", [1, 0])
         .addLoot(LootEntry.of("mekanism:raw_tin", 2));
     IRRebirth
         .addBlockLootModifier("beo:end_tin_ore")
+        .randomChanceWithEnchantment("minecraft:silk_touch", [1, 0])
         .addLoot(LootEntry.of("mekanism:raw_tin", 3))
     IRRebirth
         .addBlockLootModifier("#forge:ores/tin")

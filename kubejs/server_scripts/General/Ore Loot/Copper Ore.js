@@ -4,12 +4,15 @@ LootJS.modifiers((IRRebirth) => {
         .replaceLoot("minecraft:raw_copper", "minecraft:raw_copper");
     IRRebirth
         .addBlockLootModifier("minecraft:deepslate_copper_ore")
+        .randomChanceWithEnchantment("minecraft:silk_touch", [1, 0])
         .addLoot("minecraft:raw_copper")
     IRRebirth
         .addBlockLootModifier("bno:nether_copper_ore")
+        .randomChanceWithEnchantment("minecraft:silk_touch", [1, 0])
         .addLoot(LootEntry.of("minecraft:raw_copper", 2));
     IRRebirth
         .addBlockLootModifier("beo:end_copper_ore")
+        .randomChanceWithEnchantment("minecraft:silk_touch", [1, 0])
         .addLoot(LootEntry.of("minecraft:raw_copper", 3))
     IRRebirth
         .addBlockLootModifier("#forge:ores/copper")

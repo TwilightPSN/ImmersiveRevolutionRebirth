@@ -4,12 +4,15 @@ LootJS.modifiers((IRRebirth) => {
         .replaceLoot("minecraft:diamond", "minecraft:diamond");
     IRRebirth
         .addBlockLootModifier("minecraft:deepslate_diamond_ore")
+        .randomChanceWithEnchantment("minecraft:silk_touch", [1, 0])
         .addLoot("minecraft:diamond")
     IRRebirth
         .addBlockLootModifier("bno:nether_diamond_ore")
+        .randomChanceWithEnchantment("minecraft:silk_touch", [1, 0])
         .addLoot(LootEntry.of("minecraft:diamond", 2));
     IRRebirth
         .addBlockLootModifier("beo:end_diamond_ore")
+        .randomChanceWithEnchantment("minecraft:silk_touch", [1, 0])
         .addLoot(LootEntry.of("minecraft:diamond", 3))
     IRRebirth
         .addBlockLootModifier("#forge:ores/diamond")

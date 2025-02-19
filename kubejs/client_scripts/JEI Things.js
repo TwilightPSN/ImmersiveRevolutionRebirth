@@ -101,6 +101,8 @@ JEIEvents.hideItems(IRRebirth => {
     IRRebirth.hide('/create_connected:copycat_.*/')
     IRRebirth.hide(['/botanypots:.*/', '/botanypotstiers:.*/'])
     IRRebirth.hide(['utilitarian:snad', 'utilitarian:red_snad', 'utilitarian:soul_snad'])
+    IRRebirth.hide('mekanism:creative_chemical_tank')
+    IRRebirth.hide('mekanism:creative_fluid_tank')
 })
 
 JEIEvents.removeCategories(IRRebirth => {
@@ -160,4 +162,6 @@ JEIEvents.addItems(IRRebirth => {
         'botanypots:terracotta_hopper_botany_pot',
         'botanypots:terracotta_botany_pot'
     ])
+    IRRebirth.add('mekanism:creative_chemical_tank')
+    IRRebirth.add('mekanism:creative_fluid_tank')
 })

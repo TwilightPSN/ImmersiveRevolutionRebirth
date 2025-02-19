@@ -4,12 +4,15 @@ LootJS.modifiers((IRRebirth) => {
         .replaceLoot("mekanism:raw_lead", "mekanism:raw_lead");
     IRRebirth
         .addBlockLootModifier("mekanism:deepslate_lead_ore")
+        .randomChanceWithEnchantment("minecraft:silk_touch", [1, 0])
         .addLoot("mekanism:raw_lead")
     IRRebirth
         .addBlockLootModifier("bno:nether_lead_ore")
+        .randomChanceWithEnchantment("minecraft:silk_touch", [1, 0])
         .addLoot(LootEntry.of("mekanism:raw_lead", 2));
     IRRebirth
         .addBlockLootModifier("beo:end_lead_ore")
+        .randomChanceWithEnchantment("minecraft:silk_touch", [1, 0])
         .addLoot(LootEntry.of("mekanism:raw_lead", 3))
     IRRebirth
         .addBlockLootModifier("#forge:ores/lead")

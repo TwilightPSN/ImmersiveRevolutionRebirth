@@ -4,12 +4,15 @@ LootJS.modifiers((IRRebirth) => {
         .replaceLoot("draconicevolution:draconium_dust", "kubejs:raw_draconium");
     IRRebirth
         .addBlockLootModifier("draconicevolution:deepslate_draconium_ore")
+        .randomChanceWithEnchantment("minecraft:silk_touch", [1, 0])
         .addLoot("kubejs:raw_draconium")
     IRRebirth
         .addBlockLootModifier("draconicevolution:nether_draconium_ore")
+        .randomChanceWithEnchantment("minecraft:silk_touch", [1, 0])
         .addLoot(LootEntry.of("kubejs:raw_draconium", 2));
     IRRebirth
         .addBlockLootModifier("draconicevolution:end_draconium_ore")
+        .randomChanceWithEnchantment("minecraft:silk_touch", [1, 0])
         .addLoot(LootEntry.of("kubejs:raw_draconium", 3))
     IRRebirth
         .addBlockLootModifier("#forge:ores/draconium")

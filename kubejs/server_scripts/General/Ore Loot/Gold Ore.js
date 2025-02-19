@@ -4,12 +4,15 @@ LootJS.modifiers((IRRebirth) => {
         .replaceLoot("minecraft:raw_gold", "minecraft:raw_gold");
     IRRebirth
         .addBlockLootModifier("minecraft:nether_gold_ore")
+        .randomChanceWithEnchantment("minecraft:silk_touch", [1, 0])
         .replaceLoot("minecraft:gold_nugget", "minecraft:raw_gold");
     IRRebirth
         .addBlockLootModifier("minecraft:deepslate_gold_ore")
+        .randomChanceWithEnchantment("minecraft:silk_touch", [1, 0])
         .addLoot("minecraft:raw_gold")
     IRRebirth
         .addBlockLootModifier("minecraft:nether_gold_ore")
+        .randomChanceWithEnchantment("minecraft:silk_touch", [1, 0])
         .addLoot(LootEntry.of("minecraft:raw_gold", 2));
     IRRebirth
         .addBlockLootModifier("beo:end_gold_ore")

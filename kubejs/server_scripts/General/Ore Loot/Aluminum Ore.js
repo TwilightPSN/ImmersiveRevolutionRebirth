@@ -4,12 +4,15 @@ LootJS.modifiers((IRRebirth) => {
         .replaceLoot("immersiveengineering:raw_aluminum", "immersiveengineering:raw_aluminum");
     IRRebirth
         .addBlockLootModifier("immersiveengineering:deepslate_aluminum_ore")
+        .randomChanceWithEnchantment("minecraft:silk_touch", [1, 0])
         .addLoot("immersiveengineering:raw_aluminum")
     IRRebirth
         .addBlockLootModifier("bno:nether_aluminum_ore")
+        .randomChanceWithEnchantment("minecraft:silk_touch", [1, 0])
         .addLoot(LootEntry.of("immersiveengineering:raw_aluminum", 2));
     IRRebirth
         .addBlockLootModifier("beo:end_aluminum_ore")
+        .randomChanceWithEnchantment("minecraft:silk_touch", [1, 0])
         .addLoot(LootEntry.of("immersiveengineering:raw_aluminum", 3))
     IRRebirth
         .addBlockLootModifier("#forge:ores/aluminum")

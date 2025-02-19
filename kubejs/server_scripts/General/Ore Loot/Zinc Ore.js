@@ -4,12 +4,15 @@ LootJS.modifiers((IRRebirth) => {
         .replaceLoot("create:raw_zinc", "create:raw_zinc");
     IRRebirth
         .addBlockLootModifier("create:deepslate_zinc_ore")
+        .randomChanceWithEnchantment("minecraft:silk_touch", [1, 0])
         .addLoot("create:raw_zinc")
     IRRebirth
         .addBlockLootModifier("bno:nether_zinc_ore")
+        .randomChanceWithEnchantment("minecraft:silk_touch", [1, 0])
         .addLoot(LootEntry.of("create:raw_zinc", 2));
     IRRebirth
         .addBlockLootModifier("beo:end_zinc_ore")
+        .randomChanceWithEnchantment("minecraft:silk_touch", [1, 0])
         .addLoot(LootEntry.of("create:raw_zinc", 3))
     IRRebirth
         .addBlockLootModifier("#forge:ores/zinc")
