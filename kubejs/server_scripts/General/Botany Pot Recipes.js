@@ -83,7 +83,7 @@ ServerEvents.recipes(IRRebirth => {
         {
           A: 'mekanism:hdpe_sheet',
           B: 'botanypotstiers:ultra_terracotta_botany_pot',
-          C: Item.of('mekanism:quantum_entangloporter').ignoreNBT()
+          C: Item.of('mekanism:quantum_entangloporter')
         }
       )
       IRRebirth.shaped(
