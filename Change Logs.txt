@@ -1,3 +1,21 @@
+|| Beta 0.18.0 ||
+
+New Pack Icon!
+
+// Mods Removed //
+-Fancy Block Particles
+
+// Mods Added //
+-Create: Steam 'n' Rails
+-Create: Trading Floor
+-Create: Steam Powered
+-Create: Enchantable Machinery
+-Regions Unexplored
+-Biomes O' Plenty
+
+// Script Changes //
+-Removed ignorenbt() from scripts as it is no longer needed
+
 || Beta 0.17.0 ||
 
 // Mods Updated //

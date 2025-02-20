@@ -44,6 +44,12 @@
 			weathered_limestone = true
 			cut_stone = true
 
+		[types.stone_type.biomesoplenty]
+			brimstone = true
+
+		[types.stone_type.regions_unexplored]
+			chalk = true
+
 	[types.wood_type]
 
 		[types.wood_type.silentgear]
@@ -79,6 +85,46 @@
 			azalea = true
 			ancient = true
 			blossom = true
+
+		[types.wood_type.biomesoplenty]
+			fir = true
+			pine = true
+			maple = true
+			redwood = true
+			mahogany = true
+			jacaranda = true
+			palm = true
+			willow = true
+			dead = true
+			magic = true
+			umbran = true
+			hellbark = true
+			empyreal = true
+
+		[types.wood_type.regions_unexplored]
+			alpha = true
+			baobab = true
+			blackwood = true
+			blue_bioshroom = true
+			brimwood = true
+			cobalt = true
+			cypress = true
+			dead = true
+			eucalyptus = true
+			green_bioshroom = true
+			joshua = true
+			kapok = true
+			larch = true
+			magnolia = true
+			maple = true
+			mauve = true
+			palm = true
+			pine = true
+			pink_bioshroom = true
+			redwood = true
+			socotra = true
+			willow = true
+			yellow_bioshroom = true
 
 	[types.leaves_type]
 
@@ -220,6 +266,62 @@
 			orange_blossom = true
 			yellow_blossom = true
 			red_blossom = true
+
+		[types.leaves_type.biomesoplenty]
+			origin = true
+			flowering_oak = true
+			red_maple = true
+			orange_maple = true
+			yellow_maple = true
+			rainbow_birch = true
+			snowblossom = true
+			null = true
+			cypress = true
+			fir = true
+			pine = true
+			redwood = true
+			mahogany = true
+			jacaranda = true
+			palm = true
+			willow = true
+			dead = true
+			magic = true
+			umbran = true
+			hellbark = true
+			empyreal = true
+
+		[types.leaves_type.regions_unexplored]
+			bamboo = true
+			golden_larch = true
+			alpha = true
+			apple_oak = true
+			baobab = true
+			blackwood = true
+			magnolia = true
+			cypress = true
+			dead = true
+			dead_pine = true
+			eucalyptus = true
+			flowering = true
+			kapok = true
+			larch = true
+			maple = true
+			mauve = true
+			orange_maple = true
+			palm = true
+			pine = true
+			blue_magnolia = true
+			pink_magnolia = true
+			redwood = true
+			red_maple = true
+			brimwood = true
+			enchanted_birch = true
+			small_oak = true
+			silver_birch = true
+			socotra = true
+			white_magnolia = true
+			willow = true
+			ashen = true
 
 #Disables specific entries
 [entries]
@@ -370,9 +472,15 @@
 			bookshelf = true
 			stripped_post = true
 
+		[entries.wood_type.regions_unexplored]
+			branch = true
+
 	[entries.leaves_type]
 
 		[entries.leaves_type.quark]
 			hedge = true
 			leaf_carpet = true
+
+		[entries.leaves_type.regions_unexplored]
+			shrub = true
 

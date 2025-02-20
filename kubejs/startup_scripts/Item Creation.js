@@ -124,4 +124,7 @@ StartupEvents.registry('item', IRRebirth => {
     IRRebirth.create('dirty_netherite_dust')
         .tag('mekanism:dirty_dusts')
         .tag('mekanism:dirty_dusts/netherite')
+    IRRebirth.create('netherite_crystal')
+        .tag('mekanism:crystals')
+        .tag('mekanism:crystals/netherite')
 })
