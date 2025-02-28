@@ -1,3 +1,37 @@
+|| Release 1.0.0 ||
+
+Forge Updated to 47.3.33
+
+// Mods Updated //
+-Entity Culling
+-Alex's Mobs - Naturalist compat
+-AEInfinityBooster
+-Aquaculture 2
+-Balm
+-Collective
+-Curios API
+-Every Compat
+-ImmediatelyFast
+-Immersive Aircraft
+-InsaneLib
+-Integrated API
+-Integrated Villages
+-KleeSlabs
+-Moonlight Library
+-Oh The Biomes We've Gone
+-Progressive Bosses
+-Resourcefulconfig
+-Sophisticated Backpacks
+-Sophisticated Core
+-Sophisticated Storage
+-Stone Zone
+-Supplementaries
+-Waystones
+
+
+// Script Updates //
+-Script added to remove Silent Armor drops
+
 || Beta 0.18.0 ||
 
 New Pack Icon!
