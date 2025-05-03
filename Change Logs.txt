@@ -5,10 +5,6 @@ Forge Updated to 47.4.0
 // Mods Removed //
 -Progressive Bosses (Should make the boss fights easier)
 
-// Mods Added //
--Sophisticated Backpacks Create Integration
--Sophisticated Storage Create Integration
-
 // Mods Updated //
 -Sophisticated Core
 -Sophisticated Backpacks
@@ -16,6 +12,14 @@ Forge Updated to 47.4.0
 
 // Config Updates //
 -Disable Agricraft farming overrides to help with Create farms
+-Enabled Aquaculture Neptunium
+
+// Quest Updates //
+-Nether Portal Quest now notes thats sculk DOES NOT need silk touch
+
+// Script Changes //
+-Modified AE2 Recipes to be Full Blocks when crafted
+-Removed Brewing recipes for Potion of Flying
 
 || Release 1.0.0 ||
 
