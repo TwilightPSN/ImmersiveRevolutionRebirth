@@ -9,6 +9,11 @@ Forge Updated to 47.4.0
 -Sophisticated Backpacks Create Integration
 -Sophisticated Storage Create Integration
 
+// Mods Updated //
+-Sophisticated Core
+-Sophisticated Backpacks
+-Sophisticated Storage
+
 // Config Updates //
 -Disable Agricraft farming overrides to help with Create farms
 
