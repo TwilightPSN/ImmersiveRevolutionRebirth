@@ -7,7 +7,7 @@ ServerEvents.recipes(IRRebirth => {
     IRRebirth.recipes.create.compacting('immersiveengineering:sheetmetal_lead', Item.of('immersiveengineering:plate_lead', 2)).heated()
     IRRebirth.recipes.create.compacting('immersiveengineering:sheetmetal_silver', Item.of('immersiveengineering:plate_silver', 2)).heated()
     IRRebirth.recipes.create.compacting('immersiveengineering:sheetmetal_nickel', Item.of('immersiveengineering:plate_nickel', 2)).heated()
-    IRRebirth.recipes.create.compacting('immersiveengineering:sheetmetal_uranium', Item.of('immersiveengineering:plate_uranioum', 2)).heated()
+    IRRebirth.recipes.create.compacting('immersiveengineering:sheetmetal_uranium', Item.of('immersiveengineering:plate_uranium', 2)).heated()
     IRRebirth.recipes.create.compacting('immersiveengineering:sheetmetal_steel', Item.of('immersiveengineering:plate_steel', 2)).heated()
     IRRebirth.recipes.create.compacting('immersiveengineering:sheetmetal_gold', Item.of('immersiveengineering:plate_gold', 2)).heated()
 })

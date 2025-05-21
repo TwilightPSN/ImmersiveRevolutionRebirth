@@ -91,4 +91,6 @@ ServerEvents.recipes(IRRebirth => {
     IRRebirth.remove({output: '/botanypots:.*/'})
     IRRebirth.remove({output: '/botanypotstiers:.*/'})
     IRRebirth.remove(['utilitarian:snad', 'utilitarian:red_snad', 'utilitarian:soul_snad'])
+    IRRebirth.remove({id: 'agricraft:diamond'})
+    IRRebirth.remove({id: 'silentgear:diamond_shard'})
 })

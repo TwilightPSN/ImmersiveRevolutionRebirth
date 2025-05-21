@@ -2390,5 +2390,20 @@
         }
       }
     ]
+  },
+  {
+    "block": "minecraft:andesite",
+    "distrib": "0,0",
+    "silktouch": false,
+    "dim": "minecraft:overworld",
+    "dropsList": [
+      {
+        "itemStack": "create:andesite_alloy",
+        "fortunes": {
+          "0": 0.01
+        }
+      }
+    ]
   }
+
 ]
