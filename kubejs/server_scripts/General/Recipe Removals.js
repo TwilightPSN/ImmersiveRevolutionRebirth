@@ -93,4 +93,6 @@ ServerEvents.recipes(IRRebirth => {
     IRRebirth.remove(['utilitarian:snad', 'utilitarian:red_snad', 'utilitarian:soul_snad'])
     IRRebirth.remove({id: 'agricraft:diamond'})
     IRRebirth.remove({id: 'silentgear:diamond_shard'})
+    IRRebirth.remove({id: 'create_dd:compacting/crustallized_sap'})
+    IRRebirth.remove({id: 'create_dd:mixing/rubber_sappling'})
 })

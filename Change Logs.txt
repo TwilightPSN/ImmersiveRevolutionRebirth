@@ -7,20 +7,38 @@ If you have anything in your world from this mod, it will be removed upon loadin
 These mods will be re-added at a later time once they have been updated (if they get updated)!
 
 // Mods Removed //
--Create: Dreams & Desires
 -Create: Steam 'n' Rails
 -Create: Steam Powered
+
+// Mods Downgrade //
+-Create: Dreams & Desires
 
 Forge Updateed to 47.4.1
 
 // Quest Updates //
 -Fix missing dependency for Radioactive Drive for AE2
 -Created link for Radioactive Drive on Mekanism Page
+-Updated quest description for Mining Dimension to remove the Gems mention as Silent's Gems was removed prior
+
+// Recipe Changes //
+-Added recipe for Sap from Create: Dreams & Desires
+-Removed recips for Create: Dreams & Desires Crystallized Sap and Rubber Saplings
+
+// Config Changes //
+-Fixed Functional Drawers upgrades to have proper range additions
+-Apotheosis mobs now show supporters and creators as names
+
+// Script Changes //
+-Slurries enabled for Netherite in Mekanism (Not Currently Used)
 
 // Mods Added //
 -GuideME
 -Sophisticated Backpacks Create Integration
 -Sophisticated Storage Create Integration
+-Vanilla Backport
+-Platform
+-Create Escalated
+-Create: Dreams n' Desires Updated to Create 6
 
 // Mods Updated //
 -ae2CraftingTree
@@ -36,9 +54,11 @@ Forge Updateed to 47.4.1
 -Balm
 -Biomes O' Plenty
 -BotanyPots
+-Chloride
 -Collective
 -Connected Glass
 -CookingforBlockheads
+-CorgiLib
 -Create
 -Create Crafts & Additions
 -Create Deco
@@ -65,6 +85,7 @@ Forge Updateed to 47.4.1
 -Falling Leaves
 -Fast Suite
 -flib
+-ForgeEndertech
 -Friends & Foes
 -FTB Chunks
 -FTB Chunks: Modded Support
@@ -87,7 +108,6 @@ Forge Updateed to 47.4.1
 -Just Enough Items
 -Just Zoom
 -KubeJS Create
--KubeJS Immersive Engineering
 -Let Me Despawn
 -Logprot
 -Loot Integrations: Towns and Towers

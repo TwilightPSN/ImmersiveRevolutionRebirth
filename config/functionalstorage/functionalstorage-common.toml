@@ -31,5 +31,5 @@
 	FLUID_DIVISOR = 2
 	#How much should the range be divided by for any given Storage Upgrade
 	#Range: > 1
-	RANGE_DIVISOR = 4
+	RANGE_DIVISOR = 1
 

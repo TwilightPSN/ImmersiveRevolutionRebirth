@@ -639,7 +639,7 @@
 		{
 			dependencies: ["68FF89B494B577B4"]
 			description: [
-				"The Mining Dimension is a pristine land filled with all the resources that the Overworld provides, but with a crucial difference: it's free from the chaos and clutter. Gems and other non-essential resources for technology do not spawn here, making it the perfect place to focus on gathering the materials needed for your advancements."
+				"The Mining Dimension is a pristine land filled with all the resources that the Overworld provides, but with a crucial difference: it's free from the chaos and clutter. Non-essential resources for technology do not spawn here, making it the perfect place to focus on gathering the materials needed for your advancements."
 				""
 				"This dimension is ideal for setting up your Quarry and beginning efficient strip mining. Without the distractions of other elements, you can easily gather ores and materials at a faster rate, ensuring a steady supply for your technological projects. It’s an excellent location to streamline your resource gathering and automate your mining processes."
 			]

@@ -46,6 +46,12 @@
 			chalk = true
 			argillite = true
 
+		[types.stone_type.create_dd]
+			gabbro = true
+			aethersite = true
+			potassic = true
+			weathered_limestone = true
+
 	[types.wood_type]
 
 		[types.wood_type.silentgear]
@@ -121,6 +127,15 @@
 			socotra = true
 			willow = true
 			yellow_bioshroom = true
+
+		[types.wood_type.create_dd]
+			rose = true
+			smoked = true
+			spirit = true
+			rubber = true
+
+		[types.wood_type.vanillabackport]
+			pale_oak = true
 
 	[types.leaves_type]
 
@@ -318,6 +333,12 @@
 			white_magnolia = true
 			willow = true
 			ashen = true
+
+		[types.leaves_type.create_dd]
+			rubber = true
+
+		[types.leaves_type.vanillabackport]
+			pale_oak = true
 
 #Disables specific entries
 [entries]
