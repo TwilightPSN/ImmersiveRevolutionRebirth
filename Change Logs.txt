@@ -1,3 +1,161 @@
+|| Release 1.2.0 ||
+
+The Create 6.0 Update!
+
+NOTE: With this update, a few mods have been removed.
+If you have anything in your world from this mod, it will be removed upon loading in!
+These mods will be re-added at a later time once they have been updated (if they get updated)!
+
+// Mods Removed //
+-Create: Steam 'n' Rails
+-Create: Steam Powered
+
+// Mods Downgrade //
+-Create: Dreams & Desires
+
+Forge Updateed to 47.4.1
+
+// Quest Updates //
+-Fix missing dependency for Radioactive Drive for AE2
+-Created link for Radioactive Drive on Mekanism Page
+-Updated quest description for Mining Dimension to remove the Gems mention as Silent's Gems was removed prior
+
+// Recipe Changes //
+-Added recipe for Sap from Create: Dreams & Desires
+-Removed recips for Create: Dreams & Desires Crystallized Sap and Rubber Saplings
+
+// Config Changes //
+-Fixed Functional Drawers upgrades to have proper range additions
+-Apotheosis mobs now show supporters and creators as names
+
+// Script Changes //
+-Slurries enabled for Netherite in Mekanism (Not Currently Used)
+
+// Mods Added //
+-GuideME
+-Sophisticated Backpacks Create Integration
+-Sophisticated Storage Create Integration
+-Vanilla Backport
+-Platform
+-Create Escalated
+-Create: Dreams n' Desires Updated to Create 6
+
+// Mods Updated //
+-ae2CraftingTree
+-AEInfinityBooster
+-Alex's Mobs - Naturalist Compat
+-AllTheLeaks
+-AlmostUnified
+-Apotheosis
+-Apotheotic Additions
+-Applied Energistics 2
+-Aquaculture 2
+-BadOptimizations
+-Balm
+-Biomes O' Plenty
+-BotanyPots
+-Chloride
+-Collective
+-Connected Glass
+-CookingforBlockheads
+-CorgiLib
+-Create
+-Create Crafts & Additions
+-Create Deco
+-Create Enchantment Industry
+-Create Jetpack
+-Create Stuff & Additions
+-Create: Bells & Whistles
+-Create: Connected
+-Create: Copycats+
+-Create: Enchantable Machinery
+-Create: Steam Powered
+-Create: Trading Floor
+-Curios API
+-Cyclops Core
+-DarkModeEverywhere
+-Datamancy
+-Double Doors
+-Elevator Mod
+-Embeddium++
+-Entity Culling
+-Every Compat
+-ExtendedAE
+-Extreme Sound Muffler
+-Falling Leaves
+-Fast Suite
+-flib
+-ForgeEndertech
+-Friends & Foes
+-FTB Chunks
+-FTB Chunks: Modded Support
+-FTB Essentials
+-FTB Filter System
+-FTB Quests
+-FTB XMod Compat
+-Fusion
+-Fzzy Config
+-GeckoLib 4
+-Graviational Modulating Additional Unit
+-ImmediatelyFast
+-Immersive Aircraft
+-InsaneLib
+-Integrated API
+-Integrated Dungeons & Structures
+-Jade
+-Jade Addons
+-JAOPCA
+-Just Enough Items
+-Just Zoom
+-KubeJS Create
+-Let Me Despawn
+-Logprot
+-Loot Integrations: Towns and Towers
+-Loot Integrations
+-Loot Integrations: Bygone Nether & Eternal Nether & It Takes a Pillage
+-Loot Integrations: Structory
+-Loot Integrations: Randomized Loot Compatibility
+-LootJS
+-Lootr
+-Mekanism
+-Mekanism: Generators
+-Mekanism: Tools
+-ModernFix
+-Moonlight Library
+-MoreJS
+-Naturalist
+-Not Enough Animations
+-Obscure Tooltips Fix
+-OctoLib
+-Oh The Biomes We've Gone
+-Oh The Trees You'll Grow
+-Placebo
+-Polymorph
+-Powah
+-Puzzles Lib
+-Quark
+-Realistic Bees
+-Rechiseled: Chipped
+-Rechiseled: Create
+-Repurposed Structures
+-Sky's Overworld Netherite
+-Sky's Overworld Quartz
+-Smarter Farmers
+-Snow Under Trees
+-Sophisticated Backpacks
+-Sophisticated Core
+-Sophisticated Storage
+-Stack Refill
+-Stellar View
+-Stone Zone
+-Supplementaries
+-TerraBlender
+-TrashSlot
+-UniLib
+-Waystones
+-YetAnotherConfigLib
+-Zeta
+
 || Release 1.1.1 ||
 
 // Config Updates //
