@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "budding_resources"
-	group: "24DDA86A89505444"
+	group: "1D1B2B82CAD36A6D"
 	icon: "minecraft:diamond"
 	id: "7BC44003BE5DAC4C"
 	order_index: 2
@@ -36,7 +36,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -4.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["1C77BC5EF2916F72"]
@@ -47,7 +47,7 @@
 				item: "buddingcrystals:budding_steel"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 10.0d
 			y: -4.5d
 		}
 		{
@@ -144,7 +144,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -5.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["1C77BC5EF2916F72"]
@@ -215,8 +215,8 @@
 				item: "buddingcrystals:budding_redstone"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -7.0d
+			x: 1.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["1C77BC5EF2916F72"]
@@ -312,7 +312,7 @@
 				type: "item"
 			}]
 			x: 11.0d
-			y: -5.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["1C77BC5EF2916F72"]
@@ -336,7 +336,7 @@
 				type: "item"
 			}]
 			x: 11.0d
-			y: -6.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["1C77BC5EF2916F72"]
@@ -443,8 +443,8 @@
 				item: "buddingcrystals:budding_fluorite"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -8.5d
+			x: 2.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["1C77BC5EF2916F72"]
@@ -484,18 +484,6 @@
 		}
 		{
 			dependencies: ["1C77BC5EF2916F72"]
-			description: ["Generates Crystals that drop Acidic Redstone. Can also be grown in a Botany Pot."]
-			id: "5E1B0FA478EA6212"
-			tasks: [{
-				id: "055F817B61A48E21"
-				item: "buddingcrystals:budding_acidicredstone"
-				type: "item"
-			}]
-			x: 2.0d
-			y: -8.0d
-		}
-		{
-			dependencies: ["1C77BC5EF2916F72"]
 			description: ["Generates Crystals that drop Quantum Alloy. Can also be grown in a Botany Pot."]
 			id: "3A50D262F2AC949E"
 			tasks: [{
@@ -520,18 +508,6 @@
 		}
 		{
 			dependencies: ["1C77BC5EF2916F72"]
-			description: ["Generates Crystals that drop Flint. Can also be grown in a Botany Pot."]
-			id: "61E44084E7DBCD8B"
-			tasks: [{
-				id: "6B550A9F74E312C8"
-				item: "buddingcrystals:budding_flint"
-				type: "item"
-			}]
-			x: 1.0d
-			y: -6.5d
-		}
-		{
-			dependencies: ["1C77BC5EF2916F72"]
 			description: ["Generates Crystals that drop Coal. Can also be grown in a Botany Pot."]
 			id: "3875B7FD44F4A6AF"
 			tasks: [{
@@ -540,19 +516,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -6.0d
-		}
-		{
-			dependencies: ["1C77BC5EF2916F72"]
-			description: ["Generates Crystals that drop Coal Coal. Can also be grown in a Botany Pot."]
-			id: "33EC19AD5DB57C64"
-			tasks: [{
-				id: "1D4724BE4705BCBB"
-				item: "buddingcrystals:budding_coalcoke"
-				type: "item"
-			}]
-			x: 10.0d
-			y: -4.5d
+			y: -6.5d
 		}
 	]
 	title: "Budding Resources"

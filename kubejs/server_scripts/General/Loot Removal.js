@@ -1,12 +1,13 @@
 LootJS.modifiers((IRRebirth) => {
   IRRebirth
     .addLootTypeModifier(LootType.CHEST)
-    .removeLoot(["minecraft:flint_and_steel",
-      "silentgear:helmet",
+    .removeLoot(["silentgear:helmet",
       "silentgear:chestplate",
       "silentgear:leggings",
       "silentgear:boots",
-      "silentgear:elytra"
+      "silentgear:elytra",
+      "draconicevolution:draconium_ingot",
+      "draconicevolution:draconium_dust"
     ]);
   IRRebirth
     .addLootTypeModifier(LootType.ENTITY)
@@ -14,7 +15,9 @@ LootJS.modifiers((IRRebirth) => {
     "silentgear:chestplate",
     "silentgear:leggings",
     "silentgear:boots",
-    "silentgear:elytra"
+    "silentgear:elytra",
+    "draconicevolution:draconium_ingot",
+    "draconicevolution:draconium_dust"
   ]);
   IRRebirth
     .addLootTypeModifier(LootType.UNKNOWN)
@@ -22,6 +25,8 @@ LootJS.modifiers((IRRebirth) => {
     "silentgear:chestplate",
     "silentgear:leggings",
     "silentgear:boots",
-    "silentgear:elytra"
+    "silentgear:elytra",
+    "draconicevolution:draconium_ingot",
+    "draconicevolution:draconium_dust"
   ]);
 });

@@ -8,4 +8,6 @@ ServerEvents.recipes(IRRebirth => {
     IRRebirth.custom({"type":"mekanism:purifying","chemicalInput":{"amount":1,"gas":"mekanism:oxygen"},"itemInput":{"ingredient":{"tag":"mekanism:shards/netherite"}},"output":{"count":1,"item":"kubejs:netherite_clump"}})
     IRRebirth.custom({"type":"mekanism:purifying","chemicalInput":{"amount":2,"gas":"mekanism:oxygen"},"itemInput":{"ingredient":{"tag":"forge:storage_blocks/raw_netherite"}},"output":{"count":18,"item":"kubejs:netherite_clump"}})
     IRRebirth.custom({"type":"mekanism:purifying","chemicalInput":{"amount":1,"gas":"mekanism:oxygen"},"itemInput":{"ingredient":{"tag":"forge:raw_materials/netherite"}},"output":{"count":2,"item":"kubejs:netherite_clump"}})
+    IRRebirth.custom({"type":"mekanism:purifying","chemicalInput":{"amount":1,"gas":"mekanism:oxygen"},"itemInput":{"ingredient":{"item":"minecraft:coal"}},"output":{"count":2,"item":"immersiveengineering:coal_coke"}})
+    IRRebirth.custom({"type":"mekanism:purifying","chemicalInput":{"amount":3,"gas":"mekanism:oxygen"},"itemInput":{"ingredient":{"item":"minecraft:charcoal"}},"output":{"count":1,"item":"immersiveengineering:coal_coke"}})
 })

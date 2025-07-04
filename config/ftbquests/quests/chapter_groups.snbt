@@ -1,9 +1,9 @@
 {
 	chapter_groups: [
-		{ id: "773EE9D912C508CA", title: "Tier 1: Kinetics" }
-		{ id: "556104C289391CD6", title: "Tier 2: Multiblocks" }
-		{ id: "24DDA86A89505444", title: "Tier 3: Robotics" }
-		{ id: "6BFADEFDE68D0649", title: "Tier 4: Draconic" }
-		{ id: "63000A16FEB9A8D0", title: "Tier NULL: Creative" }
+		{ id: "3DAD5A0C8A78CF7E", title: "Tier 1: Kinetics" }
+		{ id: "1FB1BB6CE50A3059", title: "Tier 2: Multiblocks" }
+		{ id: "1D1B2B82CAD36A6D", title: "Tier 3: Robotics" }
+		{ id: "76EA5A23371FC1DD", title: "Tier 4: Draconic" }
+		{ id: "1C5B25BDFD2A847B", title: "Tier NULL: Creative" }
 	]
 }

@@ -1,3 +1,92 @@
+|| Release 1.3.0 ||
+
+Forge Updated to 47.4.3
+
+// Config Updates //
+-JAMD Mining Config Updated for Missing Ores
+-Budding Wither Clusters now drop Silent Gear fragments
+-Removed Acidic Redstone budding
+-Removed Coal Coke budding
+-Remove Flint budding
+
+// Script Changes //
+-Remove possible Draconium items from chests
+-Added Flint and Steel back to loot tables
+-Fixed Budding Crystals dropping 2 on mining
+-Budding Resources no longer need Silk Touch to fix the above
+-Built Datapack to remove enchants Mending and Unbreaking
+-Budding Wither updated with Silent Gear fragments
+-Removed Acidic Redstone relevant recipes and additions for Budding
+-Removed Coal Coke relevant recipes and additions for Budding
+-Remove Flint relevant recipes and additions for Budding
+-Added relevant Echo infuse items for Mekanism
+
+// Recipe Changes //
+-Changed Quark Raw Brick recipes to revert to raw blocks
+-Additional recipes for sheetmetals
+-Mob Experience now require 5000mb of Experience each
+-Budding Mobs now require 5000mb
+-Additional recipes for Coal Coke in Mekanism added
+-Added recipe for Flint Block to Oxygen
+-Refined Obsidian now uses Echo
+-Added Mekanism recipe for Echo Ingots
+-Terminals can now be selected in Polymorph for AE2
+-Adjusted values on Budding Materials
+
+// Quest Updates //
+-Added text to void dimensions quest about no natural spawns
+-Removed quests for removed budding crystals
+
+// Resource Packs Added //
+-Terralith Biomes Names
+-Remove Terralith Intro Message
+
+// Mods Added //
+-Enchantment Disable Tag
+-Mekanism Upgrades: Reborn
+
+// Mods Updated //
+-AE2 Crafting Tree
+-BadOptimizations
+-Chalk
+-Citadel
+-Create
+-Create Enchantment Industry
+-Create: Connected
+-Create: Copycats+
+-Create: Enchantable Machinery
+-Create: Escalated
+-Create: Trading Floor
+-Cucumber Library
+-Double Doors
+-Entity Culling
+-Every Compat
+-Extended Crafting
+-ExtendedAE
+-FTB Ultimine
+-Functional Storage
+-GeckoLib
+-GuideME
+-InsaneLib
+-Integrated Dungeons & Structures
+-Integrated Villages
+-JAOPCA
+-Loot Integrations
+-Loot Integrations: Integrated Dungeons & Structures
+-ModernFix
+-Moonlight Library
+-Obscure Tooltips Fix
+-Oh The Biomes We've Gone
+-Packet Fixer
+-Platform
+-Sophisticated Backpacks
+-Sophisticated Core
+-Sophisticated Storage
+-Stack Refill
+-Stone Zone
+-Supplementaries
+-VanillaBackport
+
 || Release 1.2.0 ||
 
 The Create 6.0 Update!
@@ -23,6 +112,7 @@ Forge Updateed to 47.4.1
 // Recipe Changes //
 -Added recipe for Sap from Create: Dreams & Desires
 -Removed recips for Create: Dreams & Desires Crystallized Sap and Rubber Saplings
+-Sheetmetal recipes are now 4 plates
 
 // Config Changes //
 -Fixed Functional Drawers upgrades to have proper range additions

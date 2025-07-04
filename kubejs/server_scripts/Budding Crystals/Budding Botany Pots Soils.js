@@ -57,17 +57,14 @@ ServerEvents.recipes((IRRebirth) => {
     "budding_snowgolem",
     "budding_skysteel",
     "budding_quantumalloy",
-    "budding_acidicredstone",
     "budding_squid",
     "budding_glowsquid",
-    "budding_flint",
     "budding_slime",
     "budding_wither",
     "budding_magmacube",
     "budding_phantom",
     "budding_chicken",
     "budding_chaosdragon",
-    "budding_coalcoke",
   ];
 
   

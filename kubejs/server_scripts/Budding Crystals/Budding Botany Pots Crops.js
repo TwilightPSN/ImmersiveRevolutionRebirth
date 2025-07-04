@@ -678,18 +678,6 @@ ServerEvents.recipes(IRRebirth => {
         1
     )
     IRRebirth.recipes.botanypots.crop(
-        'buddingcrystals:flint_cluster',
-        ['buddingcrystals:budding_flint'], 
-        { block: 'buddingcrystals:flint_cluster' },
-        [
-            Item.of('minecraft:flint')
-                .withChance(1)
-                .withRolls(4, 6) 
-        ],
-        600,
-        1
-    )
-    IRRebirth.recipes.botanypots.crop(
         'buddingcrystals:slime_cluster',
         ['buddingcrystals:budding_slime'], 
         { block: 'buddingcrystals:slime_cluster' },
@@ -706,7 +694,7 @@ ServerEvents.recipes(IRRebirth => {
         ['buddingcrystals:budding_wither'], 
         { block: 'buddingcrystals:wither_cluster' },
         [
-            Item.of('progressivebosses:nether_star_shard')
+            Item.of('silentgear:nether_star_fragment')
                 .withChance(1)
                 .withRolls(2, 3) 
         ],
@@ -768,18 +756,6 @@ ServerEvents.recipes(IRRebirth => {
         1
     )
     IRRebirth.recipes.botanypots.crop(
-        'buddingcrystals:acidicredstone_cluster',
-        ['buddingcrystals:budding_acidicredstone'], 
-        { block: 'buddingcrystals:acidicredstone_cluster' },
-        [
-            Item.of('kubejs:acidic_redstone')
-                .withChance(1)
-                .withRolls(2, 3) 
-        ],
-        600,
-        1
-    )
-    IRRebirth.recipes.botanypots.crop(
         'buddingcrystals:quantumalloy_cluster',
         ['buddingcrystals:budding_quantumalloy'], 
         { block: 'buddingcrystals:quantumalloy_cluster' },
@@ -799,18 +775,6 @@ ServerEvents.recipes(IRRebirth => {
             Item.of('draconicevolution:small_chaos_frag')
                 .withChance(1)
                 .withRolls(5, 10) 
-        ],
-        600,
-        1
-    )
-    IRRebirth.recipes.botanypots.crop(
-        'buddingcrystals:coalcoke_cluster',
-        ['buddingcrystals:budding_coalcoke'], 
-        { block: 'buddingcrystals:coalcoke_cluster' },
-        [
-            Item.of('immersiveengineering:coal_coke')
-                .withChance(1)
-                .withRolls(2, 6) 
         ],
         600,
         1
