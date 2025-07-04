@@ -95,4 +95,5 @@ ServerEvents.recipes(IRRebirth => {
     IRRebirth.remove({id: 'silentgear:diamond_shard'})
     IRRebirth.remove({id: 'create_dd:compacting/crustallized_sap'})
     IRRebirth.remove({id: 'create_dd:mixing/rubber_sappling'})
+    IRRebirth.remove({id: 'create_dd:industrial_iron/empty_blaze_burner'})
 })

@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "applied_energistics"
-	group: "556104C289391CD6"
+	group: "1FB1BB6CE50A3059"
 	icon: "ae2:singularity"
 	id: "21F9A07D7D687E49"
 	order_index: 1
@@ -831,6 +831,8 @@
 				"The Void Dimension is exactly as its name suggests—an endless expanse of emptiness. There is no terrain, no structures, just a vast abyss waiting for you to shape it."
 				""
 				"Be extremely careful when stepping through your portal, as there will be no platform beneath your feet. Without preparation, you could find yourself falling into the endless void. Always bring building blocks to create a stable foundation before venturing too far. This dimension offers the perfect space for massive automation, but only if you come prepared!"
+				""
+				"NOTE: Mobs WILL NOT spawn naturally in this dimension! You will need spawners."
 			]
 			id: "4EDEFDEDD7BD7145"
 			rewards: [{

@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "budding_mobs"
-	group: "556104C289391CD6"
+	group: "1FB1BB6CE50A3059"
 	icon: "minecraft:nether_star"
 	id: "030DAFFB77424B69"
 	order_index: 2

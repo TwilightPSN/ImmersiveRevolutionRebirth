@@ -110,7 +110,7 @@ ServerEvents.recipes(IRRebirth => {
               'ae2:logic_processor',
               'ae2:annihilation_core'
             ]
-          ).id('ae2:network/parts/terminals')
+          ).id('fulleng:network/parts/terminals')
         IRRebirth.shapeless(
             Item.of('fulleng:pattern_access_terminal', 1), 
             [
@@ -118,7 +118,7 @@ ServerEvents.recipes(IRRebirth => {
               'ae2:engineering_processor',
               '#ae2:pattern_provider'
             ]
-          ).id('ae2:network/parts/terminals_pattern_access')
+          ).id('fulleng:network/parts/terminals_pattern_access')
         IRRebirth.shapeless(
             Item.of('fulleng:requester_terminal', 1), 
             [
@@ -126,7 +126,7 @@ ServerEvents.recipes(IRRebirth => {
               'ae2:logic_processor',
               'merequester:requester'
             ]
-          ).id('merequester:requester_terminal')
+          ).id('fulleng:requester_terminal')
         IRRebirth.shapeless(
             Item.of('fulleng:crafting_terminal', 1), 
             [
@@ -134,19 +134,19 @@ ServerEvents.recipes(IRRebirth => {
               '#forge:workbenches',
               'ae2:calculation_processor'
             ]
-          ).id('ae2:network/parts/terminals_crafting')
+          ).id('fulleng:network/parts/terminals_crafting')
         IRRebirth.shapeless(
             Item.of('fulleng:pattern_encoding_terminal', 1), 
             [
               'ae2:engineering_processor',
               'ae2:crafting_terminal'
             ]
-          ).id('ae2:network/parts/terminals_pattern_encoding')
+          ).id('fulleng:network/parts/terminals_pattern_encoding')
         IRRebirth.shapeless(
             Item.of('fulleng:pattern_encoding_terminal', 1), 
             [
               'ae2:engineering_processor',
               'fulleng:crafting_terminal'
             ]
-          ).id('ae2:network/parts/terminals_pattern_encoding_full')
+          ).id('fulleng:network/parts/terminals_pattern_encoding_full')
 })

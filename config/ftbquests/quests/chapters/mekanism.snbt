@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "mekanism"
-	group: "24DDA86A89505444"
+	group: "1D1B2B82CAD36A6D"
 	icon: "mekanism:pellet_antimatter"
 	id: "6D1D42C1FD190CA2"
 	order_index: 0
@@ -1090,6 +1090,30 @@
 			title: "Un-Edible Cakes"
 			x: -0.5d
 			y: -3.0d
+		}
+		{
+			dependencies: ["6C694DEF01960C4A"]
+			description: [
+				"Mekanism machines are very slow and steady when you first get them rolling. In order to increaser their speeds, we need to install upgrades! We are able to put in up to 16 upgrades of each type depending on what the machine exactly accepts."
+				""
+				"NOTE: Speed upgrades show up in the tooltips incorrectly and do actually increase speeds!"
+			]
+			id: "2D5B2A82AC1C5524"
+			tasks: [
+				{
+					id: "48F6A5F6CC71095E"
+					item: "mekanism:upgrade_speed"
+					type: "item"
+				}
+				{
+					id: "371923588D5972B9"
+					item: "mekanism:upgrade_energy"
+					type: "item"
+				}
+			]
+			title: "Upgrades People!"
+			x: -3.5d
+			y: 0.5d
 		}
 	]
 	title: "Mekanism"

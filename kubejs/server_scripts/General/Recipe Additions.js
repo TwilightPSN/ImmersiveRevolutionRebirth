@@ -167,4 +167,22 @@ ServerEvents.recipes(IRRebirth => {
       )
       IRRebirth.smelting('minecraft:netherite_scrap', 'kubejs:raw_netherite')
       IRRebirth.blasting('minecraft:netherite_scrap', 'kubejs:raw_netherite')
+      IRRebirth.shapeless(
+        Item.of('minecraft:raw_iron_block', 4),
+        [
+          'quark:raw_iron_bricks'
+        ]
+      ).id('quark:building/crafting/raw_iron_bricks_revert')
+      IRRebirth.shapeless(
+        Item.of('minecraft:raw_gold_block', 4),
+        [
+          'quark:raw_gold_bricks'
+        ]
+      ).id('quark:building/crafting/raw_gold_bricks_revert')
+      IRRebirth.shapeless(
+        Item.of('minecraft:raw_copper_block', 4),
+        [
+          'quark:raw_copper_bricks'
+        ]
+      ).id('quark:building/crafting/raw_copper_bricks_revert')
 })
