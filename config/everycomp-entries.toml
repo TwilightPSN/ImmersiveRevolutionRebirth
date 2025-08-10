@@ -650,6 +650,9 @@
 			polished_vertical_slab = true
 			pillar = true
 
+		[entries.stone_type.waystones]
+			waystone = true
+
 	[entries.mud_type]
 
 		[entries.mud_type.quark]

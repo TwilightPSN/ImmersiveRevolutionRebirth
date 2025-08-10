@@ -18,6 +18,7 @@ ItemEvents.modification((IRRebirth) => {
     "endermanoverhaul:crimson_pearl",
     "endermanoverhaul:warped_pearl",
     "aquaculture:turtle_soup",
+    "minecraft:egg"
   ];
 
   itemlist.forEach((itemToModify) => {

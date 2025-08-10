@@ -1,3 +1,72 @@
+|| Release 1.4.0 ||
+
+Forge Updated to 47.4.6
+
+// Mods Added //
+-Create: Steam 'n' Rails
+-Create: Hypertubes
+-Lithostitched
+
+// Mods Updated //
+-Advanced AE
+-Applied Energistics 2
+-BadOptimizations
+-Balm
+-Building Gadgets 2
+-Chunk Loaders
+-Connected Glass
+-CraftingTweaks
+-Draconic Evolution
+-Durability Tooltip
+-Entity Culling
+-Every Compat
+-ForgeEndertech
+-FTB Library
+-FTB Quests
+-Fusion
+-Fzzy Config
+-GeckoLib 4
+-ImmediatelyFast
+-Immersive Aircraft
+-InsaneLib
+-Integrated Dungeons and Structures
+-Klee Slabs
+-ModernFix
+-Moonlight Library
+-Not Enough Animations
+-Obscure Tooltips Fix
+-Oh The Biomes We've Gone
+-PacketFixer
+-Powah
+-QuarryPlus
+-Rechiseled: Create
+-Repurposed Structures
+-Revamped Wolf
+-Snow Under Trees
+-Sophisticated Backpacks
+-Sophisticated Core
+-Sophisticated Storage
+-Stone Zone
+-Supplementaries
+-Tectonic
+-Waystones
+
+// Config Changes //
+-Cooking for Blockheads sink is infinite water again
+
+// Recipe Changes //
+-Fixed Fluix Block giving incorrect amount of gas (was giving 10x the amount)
+-Wither and Sculk Experience now only requires 10 items per 1B made
+-Sculk can now be used to get Infusion Echo
+-Cut Copper can be crafted back to copper blocks
+-Zinc building blocks can be crafted back to zinc blocks
+
+// Script Changes //
+-Fixed double budding hopefully this time
+-Budding requires silk touch to retrieve
+-Eggs now stack to 64
+-Removed the partial Budding from being unbreakable
+
 || Release 1.3.0 ||
 
 Forge Updated to 47.4.3

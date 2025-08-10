@@ -53,7 +53,7 @@ ServerEvents.recipes(IRRebirth => {
     IRRebirth.custom({"type":"mekanism:gas_conversion","input":{"ingredient":{"tag":"forge:storage_blocks/quartz"}},"output":{"amount":800,"gas":"kubejs:nether_quartz_gas"}})
     IRRebirth.custom({"type":"mekanism:gas_conversion","input":{"ingredient":{"tag":"forge:gems/fluix"}},"output":{"amount":20,"gas":"kubejs:fluix_gas"}})
     IRRebirth.custom({"type":"mekanism:gas_conversion","input":{"ingredient":{"tag":"forge:storage_blocks/fluix"}},"output":{"amount":180,"gas":"kubejs:fluix_gas"}})
-    IRRebirth.custom({"type":"mekanism:gas_conversion","input":{"ingredient":{"item":"ae2:fluix_block"}},"output":{"amount":800,"gas":"kubejs:fluix_gas"}})
+    IRRebirth.custom({"type":"mekanism:gas_conversion","input":{"ingredient":{"item":"ae2:fluix_block"}},"output":{"amount":80,"gas":"kubejs:fluix_gas"}})
     IRRebirth.custom({"type":"mekanism:gas_conversion","input":{"ingredient":{"tag":"forge:dusts/glowstone"}},"output":{"amount":20,"gas":"kubejs:glowstone_gas"}})
     IRRebirth.custom({"type":"mekanism:gas_conversion","input":{"ingredient":{"tag":"forge:storage_blocks/glowstone"}},"output":{"amount":800,"gas":"kubejs:glowstone_gas"}})
     IRRebirth.custom({"type":"mekanism:gas_conversion","input":{"ingredient":{"tag":"forge:dusts/redstone"}},"output":{"amount":20,"gas":"kubejs:redstone_gas"}})
