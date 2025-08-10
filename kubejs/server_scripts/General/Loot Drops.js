@@ -152,4 +152,18 @@ LootJS.modifiers((IRRebirth) => {
         
         .addLoot("minecraft:andesite")
     IRRebirth.addBlockLootModifier("minecraft:sculk").addLoot("minecraft:sculk");
-});
+    IRRebirth.addEntityLootModifier("minecraft:warden").addLoot(LootEntry.of("minecraft:echo_shard", 4));
+    IRRebirth.addEntityLootModifier('minecraft:ender_dragon').addLoot('minecraft:elytra')
+    IRRebirth.addEntityLootModifier("deeperdarker:stalker").addLoot(LootEntry.of("minecraft:echo_shard", 3));
+    IRRebirth.addEntityLootModifier("deeperdarker:shriek_worm").addLoot(LootEntry.of("minecraft:echo_shard", 2));
+    IRRebirth.addEntityLootModifier("deeperdarker:shattered").addLoot(LootEntry.of("minecraft:echo_shard", 1));
+    IRRebirth
+        .addEntityLootModifier("deeperdarker:sculk_snapper")
+        .randomChance(0.05)
+        .addLoot(LootEntry.of("minecraft:echo_shard", 1));
+
+    IRRebirth
+        .addEntityLootModifier("deeperdarker:sculk_centipede")
+        .randomChance(0.05)
+        .addLoot(LootEntry.of("minecraft:echo_shard", 1));
+    });

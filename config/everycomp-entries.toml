@@ -52,6 +52,10 @@
 			potassic = true
 			weathered_limestone = true
 
+		[types.stone_type.deeperdarker]
+			sculk_stone = true
+			gloomslate = true
+
 	[types.wood_type]
 
 		[types.wood_type.silentgear]
@@ -136,6 +140,10 @@
 
 		[types.wood_type.vanillabackport]
 			pale_oak = true
+
+		[types.wood_type.deeperdarker]
+			bloom = true
+			echo = true
 
 	[types.leaves_type]
 
@@ -339,6 +347,14 @@
 
 		[types.leaves_type.vanillabackport]
 			pale_oak = true
+
+		[types.leaves_type.deeperdarker]
+			echo = true
+
+	[types.mud_type]
+
+		[types.mud_type.deeperdarker]
+			sculk_grime = true
 
 #Disables specific entries
 [entries]

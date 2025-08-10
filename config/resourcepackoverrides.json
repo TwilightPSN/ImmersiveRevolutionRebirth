@@ -2,7 +2,9 @@
   "schema_version": 2,
   "failed_reloads_per_session": 5,
   "default_packs": [
-    "file/Created Simple Storage 1.3.zip"
+    "file/Created Simple Storage 1.3.zip",
+    "file/Create Immersive Aircrafts Resource Pack 1.20.1 - 2.0.zip",
+    "file/TerralithBiomesNames.zip"
   ],
   "default_overrides": {
     "force_compatible": true
@@ -18,10 +20,12 @@
       "fixed_position": false
     },
     "1": [
-      "file/Created Simple Storage 1.3.zip"
+      "file/Created Simple Storage 1.3.zip",
+      "file/Create Immersive Aircrafts Resource Pack 1.20.1 - 2.0.zip",
+      "file/TerralithBiomesNames.zip"
     ],
     "$$1": {
-      "hidden": true,
+      "hidden": false,
       "required": true
     }
   }

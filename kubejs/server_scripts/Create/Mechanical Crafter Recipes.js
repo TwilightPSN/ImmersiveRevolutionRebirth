@@ -254,4 +254,31 @@ ServerEvents.recipes(IRRebirth => {
       C: 'draconicevolution:wyvern_core',
       D: 'mekanism:ultimate_energy_cube'
     }).id('draconicevolution:flux_gate')
+    IRRebirth.recipes.create.mechanical_crafting(Item.of('create_jetpack:jetpack'), [
+      ' ABA ',
+      'ACDCA',
+      'AEFEA',
+      ' E E '
+    ], {
+      A: '#forge:plates/brass',
+      B: 'create:shaft',
+      C: 'create:precision_mechanism',
+      D: 'create:copper_backtank',
+      E: 'create:chute',
+      F: 'mekanism:jetpack_armored'
+    }).id('create_jetpack:jetpack')
+    IRRebirth.recipes.create.mechanical_crafting(Item.of('create_jetpack:netherite_jetpack'), [
+      ' ABA ',
+      'ACDCA',
+      'AEFEA',
+      ' E E '
+    ], {
+      A: '#forge:plates/brass',
+      B: 'create:shaft',
+      C: 'create:precision_mechanism',
+      D: 'create:netherite_backtank',
+      E: 'create:chute',
+      F: 'mekanism:jetpack_armored'
+    }).id('create_jetpack:netherite_jetpack')
+
   })

@@ -213,4 +213,25 @@ ServerEvents.recipes(IRRebirth => {
           'create_dd:zinc_polished_block'
         ]
       )
-})
+      IRRebirth.shaped(
+        Item.of('create_dd:bronze_polished_block', 4), 
+        [
+          'AA',
+          'AA'
+        ],
+        {
+          A: '#forge:storage_blocks/bronze'
+        }
+      ).id('create_dd:crafting/bronze_polished_block')
+      IRRebirth.shapeless(
+        Item.of('create_dd:bronze_polished_block'),
+        [
+          'create_dd:bronze_tiled_block'
+        ]
+      )
+      IRRebirth.shapeless(
+        Item.of('mekanism:block_bronze'),
+        [
+          'create_dd:bronze_polished_block'
+        ]
+      )})

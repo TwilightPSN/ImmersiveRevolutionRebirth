@@ -672,6 +672,7 @@
 				"To ensure we have a steady power supply, it's important to build multiple Diesel Generators. This will help keep our power grid stable and prevent any downtime in our operations. Keep an eye on your fuel production to ensure the generators remain fully stocked and operational."
 			]
 			id: "29E99CB108C9DD1E"
+			optional: true
 			rewards: [{
 				id: "762CB7BEE9D7B361"
 				item: "immersiveengineering:biodiesel_bucket"
@@ -930,6 +931,7 @@
 				"Each chunk has a limited supply of resources, and not all chunks will yield valuable materials. You'll need to carefully choose where to deploy the Excavator to maximize your returns. This method can be a quicker and safer way to gather resources, especially when you're looking for specific minerals that can be found near the surface. However, be mindful of resource depletion as each chunk has its own supply limits."
 			]
 			id: "7D4499A428665144"
+			optional: true
 			rewards: [{
 				id: "6C2A3B3C46CE05C5"
 				item: "mekanism:block_steel"
@@ -965,6 +967,7 @@
 				"By using the Survey Kit, you can make more informed decisions about where to dig, saving time and resources. Whether you're looking for specific ores or want to avoid barren chunks, the Survey Kit is a key step in optimizing your resource gathering process."
 			]
 			id: "1B82B4B2D6BFADF9"
+			optional: true
 			rewards: [{
 				count: 2
 				id: "0AACCB5C4C4A2AEC"

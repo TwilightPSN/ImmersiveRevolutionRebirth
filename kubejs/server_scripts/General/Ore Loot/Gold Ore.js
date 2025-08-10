@@ -16,7 +16,12 @@ LootJS.modifiers((IRRebirth) => {
         .addLoot(LootEntry.of("minecraft:raw_gold", 2));
     IRRebirth
         .addBlockLootModifier("beo:end_gold_ore")
+        .randomChanceWithEnchantment("minecraft:silk_touch", [1, 0])
         .addLoot(LootEntry.of("minecraft:raw_gold", 3))
+    IRRebirth
+        .addBlockLootModifier("deeperdarker:sculk_stone_gold_ore")
+        .randomChanceWithEnchantment("minecraft:silk_touch", [1, 0])
+        .addLoot(LootEntry.of("minecraft:raw_gold", 4))
     IRRebirth
         .addBlockLootModifier("#forge:ores/gold")
         .randomChanceWithEnchantment("minecraft:fortune", [0, 0.333, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1])

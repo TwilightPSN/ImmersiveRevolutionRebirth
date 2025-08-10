@@ -235,4 +235,31 @@ ServerEvents.recipes(IRRebirth => {
   IRRebirth.replaceInput({ output: 'mekanism:mekasuit_bodyarmor' },'minecraft:netherite_chestplate', 'create_deep_dark:echo_armor_chestplate')
   IRRebirth.replaceInput({ output: 'mekanism:mekasuit_pants' },'minecraft:netherite_leggings', 'create_deep_dark:echo_armor_leggings')
   IRRebirth.replaceInput({ output: 'mekanism:mekasuit_boots' },'minecraft:netherite_boots', 'create_deep_dark:echo_armor_boots')
+  IRRebirth.shaped(
+    Item.of('mekanism:jetpack'), 
+    [
+      'ABA',
+      'CDC',
+      ' C '
+    ],
+    {
+      A: '#forge:plates/steel',
+      B: 'mekanism:basic_control_circuit',
+      C: '#forge:plates/tin',
+      D: 'minecraft:elytra'
+    }
+  ).id('mekanism:jetpack')
+  IRRebirth.shaped(
+    Item.of('mekanismcovers:empty_cover', 16), 
+    [
+      'ABA',
+      'BCB',
+      'ABA'
+    ],
+    {
+      A: '#forge:nuggets/osmium',
+      B: '#forge:dusts/wood',
+      C: 'immersiveengineering:insulating_glass'
+    }
+  ).id('mekanismcovers:cover')
 })

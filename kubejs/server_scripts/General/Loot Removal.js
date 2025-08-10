@@ -29,4 +29,35 @@ LootJS.modifiers((IRRebirth) => {
     "draconicevolution:draconium_ingot",
     "draconicevolution:draconium_dust"
   ]);
+  IRRebirth
+    .addLootTypeModifier(LootType.BLOCK)
+    .removeLoot(["silentgear:helmet",
+    "silentgear:chestplate",
+    "silentgear:leggings",
+    "silentgear:boots",
+    "silentgear:elytra",
+    "draconicevolution:draconium_ingot",
+    "draconicevolution:draconium_dust"
+  ]);
+  IRRebirth
+    .addLootTypeModifier(LootType.FISHING)
+    .removeLoot(["silentgear:helmet",
+    "silentgear:chestplate",
+    "silentgear:leggings",
+    "silentgear:boots",
+    "silentgear:elytra",
+    "draconicevolution:draconium_ingot",
+    "draconicevolution:draconium_dust"
+  ]);
+  IRRebirth
+    .addLootTypeModifier(LootType.GIFT)
+    .removeLoot(["silentgear:helmet",
+    "silentgear:chestplate",
+    "silentgear:leggings",
+    "silentgear:boots",
+    "silentgear:elytra",
+    "draconicevolution:draconium_ingot",
+    "draconicevolution:draconium_dust"
+  ]);
+
 });

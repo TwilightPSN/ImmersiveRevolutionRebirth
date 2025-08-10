@@ -15,6 +15,10 @@ LootJS.modifiers((IRRebirth) => {
         .randomChanceWithEnchantment("minecraft:silk_touch", [1, 0])
         .addLoot(LootEntry.of("minecraft:raw_iron", 3))
     IRRebirth
+        .addBlockLootModifier("deeperdarker:sculk_stone_iron_ore")
+        .randomChanceWithEnchantment("minecraft:silk_touch", [1, 0])
+        .addLoot(LootEntry.of("minecraft:raw_iron", 4))
+    IRRebirth
         .addBlockLootModifier("#forge:ores/iron")
         .randomChanceWithEnchantment("minecraft:fortune", [0, 0.333, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1])
         .addLoot("minecraft:raw_iron") 

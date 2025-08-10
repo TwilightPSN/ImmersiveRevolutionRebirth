@@ -81,6 +81,9 @@
   "fulleng": {
     "storage_monitor": true
   },
+  "createsifter": {
+    "sifter_data": true
+  },
   "jade": {
     "coordinates.rel": false,
     "distance": false,

@@ -373,7 +373,7 @@
 				type: "item"
 			}]
 			title: "Sulfuric Dissolution"
-			x: 1.0d
+			x: 1.5d
 			y: 0.5d
 		}
 		{
@@ -396,7 +396,7 @@
 				type: "item"
 			}]
 			title: "Draconic Resource"
-			x: 1.0d
+			x: 1.5d
 			y: 1.5d
 		}
 		{
@@ -1114,6 +1114,58 @@
 			title: "Upgrades People!"
 			x: -3.5d
 			y: 0.5d
+		}
+		{
+			dependencies: ["6C694DEF01960C4A"]
+			description: ["Mekanism pipes can cause any build to not look the way you intend. With a mod like Applied Energistics 2, you have facades that are used to cover your cabling to make your builds look much more presentable. With the addition of covers, you can do the same for your Mekanism cables. Simply combine the cover with the block of choice in a crafting grid and get to hiding those ugly cables."]
+			id: "0C546D3C32BC94E3"
+			optional: true
+			tasks: [{
+				id: "74669751155F0713"
+				item: "mekanismcovers:empty_cover"
+				type: "item"
+			}]
+			title: "Cover your Pipes"
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1C77BC5EF2916F72"]
+			description: ["Deep in the underground, we find an ancient city filled with Sculk and mystery. These creatures that inhabit this area have begun to spread and enter our dimension. We must go and acquire the heart from a Warden to enter their world. Within, we find various new creatures that can provide us with a source of Echo Shards that are going to be needed to produce a more Refined Obsidian to advance the technology we have."]
+			id: "0C1BEC40082A4BB0"
+			rewards: [{
+				count: 4
+				id: "07E2B8998CBDA7FE"
+				item: "minecraft:echo_shard"
+				type: "item"
+			}]
+			tasks: [{
+				id: "730C6BEC3BB1F459"
+				item: "deeperdarker:heart_of_the_deep"
+				type: "item"
+			}]
+			title: "Take It's Heart"
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0C1BEC40082A4BB0"]
+			description: ["With the Warden's heart in hande, we can activate the portal within the ancient city. By simply using the heart on the portal, we open dimensional travel to the home of the Sculk. Here, we will find creatures like we've never seen before. Their essence screams evil and we must gatherthe evil to make better technology. Killing these creatures can provide us with the echo shards we need to make our Refined Obsidian we need."]
+			id: "575E743BF443063F"
+			rewards: [{
+				count: 4
+				id: "580877B75F77E80F"
+				item: "minecraft:echo_shard"
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "deeperdarker:otherside"
+				id: "7E8F899CF24E5479"
+				type: "dimension"
+			}]
+			title: "The Other Side"
+			x: 0.5d
+			y: 1.5d
 		}
 	]
 	title: "Mekanism"

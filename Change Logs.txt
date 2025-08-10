@@ -2,10 +2,23 @@
 
 Forge Updated to 47.4.6
 
+// Mods Removed //
+-Alex's Mobs - Natrualist Compat
+
 // Mods Added //
 -Create: Steam 'n' Rails
 -Create: Hypertubes
 -Lithostitched
+-Create Sifting
+-Create Mechanical Extruder
+-Construction Wand
+-Useful Slime
+-YUNG's API
+-YUNG's Better End Island
+-Deeper and Darker
+
+// Data Packs Added //
+-Create Immersive Aircrafts
 
 // Mods Updated //
 -Advanced AE
@@ -20,6 +33,7 @@ Forge Updated to 47.4.6
 -Durability Tooltip
 -Entity Culling
 -Every Compat
+-ExtendedAE
 -ForgeEndertech
 -FTB Library
 -FTB Quests
@@ -30,9 +44,12 @@ Forge Updated to 47.4.6
 -Immersive Aircraft
 -InsaneLib
 -Integrated Dungeons and Structures
+-Jade
 -Klee Slabs
+-Mekanism Upgrades: Reborn
 -ModernFix
 -Moonlight Library
+-Naturalist
 -Not Enough Animations
 -Obscure Tooltips Fix
 -Oh The Biomes We've Gone
@@ -49,23 +66,43 @@ Forge Updated to 47.4.6
 -Stone Zone
 -Supplementaries
 -Tectonic
+-UniLib
 -Waystones
+
+// Quest Changes //
+-Modified various quests to be optional
+-Added quest for Building Gadget in Getting Started chapter
+-Added quest for Mekanism Covers in Mekanism chapter
+-Updated quest reward for Glider
+-New quests for Deeper Darker dimension
 
 // Config Changes //
 -Cooking for Blockheads sink is infinite water again
+-Disabled Rhino, Catfish, Elephant, Rattlesnake & Brown Bear from Naturalist
+-Removed Draconium Dust from Ender Dragon Drops
 
 // Recipe Changes //
 -Fixed Fluix Block giving incorrect amount of gas (was giving 10x the amount)
 -Wither and Sculk Experience now only requires 10 items per 1B made
--Sculk can now be used to get Infusion Echo
 -Cut Copper can be crafted back to copper blocks
--Zinc building blocks can be crafted back to zinc blocks
+-Zinc/Bronze building blocks can be crafted back to Zinc/Bronze blocks
+-Mekanism Jetpack recipes adjusted
+-Netherite Jetpack recipes adjusted
+-Adjusted Mechanical Drill recipes
+-Adjusted some Casing Recipes
+-Changed out Create D&D bronze to normal bronze
 
 // Script Changes //
 -Fixed double budding hopefully this time
 -Budding requires silk touch to retrieve
 -Eggs now stack to 64
 -Removed the partial Budding from being unbreakable
+-Wardens now drop 4 Echo Shards on being killed
+-Ender Dragon will drop an Elytra every kill
+-Elytra is no longer unbreakable
+-Added loot entries to try and further prevent obtaining removed drops
+-Hid some items in JEI
+-Modified some ore loot drops
 
 || Release 1.3.0 ||
 

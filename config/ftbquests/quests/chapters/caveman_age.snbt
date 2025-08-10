@@ -217,6 +217,7 @@
 				"With the right upgrades, some backpacks can even offer crafting grids or feed you, making them even more invaluable. Strap one on, pack it full, and set off knowing you have everything you need for the journey ahead!"
 			]
 			id: "626D8B47A8BE8566"
+			optional: true
 			require_sequential_tasks: false
 			rewards: [{
 				id: "03AC939A3DBD6342"
@@ -323,6 +324,7 @@
 				"Travel light, stay organized, and never worry about excess clutter again!"
 			]
 			id: "71BB6AA60647CE9E"
+			optional: true
 			require_sequential_tasks: false
 			rewards: [{
 				count: 2
@@ -388,6 +390,7 @@
 				"Equip yourself for efficiency—strap on a Toolbelt and keep your adventure rolling!"
 			]
 			id: "7EC8D3471FB3EEDE"
+			optional: true
 			require_sequential_tasks: false
 			rewards: [{
 				id: "7145BCFAD3E66DDB"
@@ -510,6 +513,7 @@
 				"Stay efficient, keep your loot secure, and make collection effortless with the power of a magnet!"
 			]
 			id: "063F26267EC1C500"
+			optional: true
 			rewards: [{
 				count: 2
 				id: "7A28C340E467E62F"
@@ -539,10 +543,16 @@
 				"Master the winds, embrace the freedom of flight, and let the hang glider turn every high peak into a launching point for adventure!"
 			]
 			id: "7A49B7F5D8A4E9E6"
+			optional: true
 			rewards: [{
-				count: 5
-				id: "244416F166C06027"
-				item: "minecraft:leather"
+				id: "034FEAC3F7EDF1AA"
+				item: {
+					Count: 1
+					id: "usefulslime:slime_sling"
+					tag: {
+						Damage: 0
+					}
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -622,6 +632,7 @@
 				"Keep the gears turning, even when you're miles away!"
 			]
 			id: "0900A4B5AB566AC8"
+			optional: true
 			rewards: [{
 				id: "649CA9B5FA2F1E83"
 				item: "chunkloaders:basic_chunk_loader"
@@ -646,6 +657,7 @@
 				"Mark your path, set your waypoints, and let the world become yours to conquer!"
 			]
 			id: "501F2B7F2A872111"
+			optional: true
 			rewards: [{
 				id: "7D346AA78EDEF67F"
 				item: {
@@ -672,6 +684,23 @@
 			title: "Fast Travel"
 			x: -7.0d
 			y: -2.5d
+		}
+		{
+			dependencies: [
+				"599030C9DB9B1E08"
+				"6C694DEF01960C4A"
+			]
+			description: ["Building can be a tedious step when done by hand. This becomes easier with the use of a gadget intended for such a thing. The building gadget can be handy for building as well as bridging while mining. You can configure the tool to do exactly as you want by simple copying blocks or using schematics. Ease your building ventures with this handy tool!"]
+			id: "65C7C35316BBF17B"
+			optional: true
+			tasks: [{
+				id: "785EA77BBE4DF988"
+				item: "buildinggadgets2:gadget_building"
+				type: "item"
+			}]
+			title: "Gadget Builder"
+			x: -6.0d
+			y: -4.5d
 		}
 	]
 	title: "Getting Started"
