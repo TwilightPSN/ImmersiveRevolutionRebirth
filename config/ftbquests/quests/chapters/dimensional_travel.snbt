@@ -1557,6 +1557,200 @@
 			x: 6.5d
 			y: -8.5d
 		}
+		{
+			height: 1.25d
+			image: "minecraft:block/reinforced_deepslate_bottom"
+			rotation: 0.0d
+			width: 1.25d
+			x: 19.5d
+			y: -7.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/reinforced_deepslate_bottom"
+			rotation: 0.0d
+			width: 1.25d
+			x: 19.5d
+			y: -6.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/reinforced_deepslate_bottom"
+			rotation: 0.0d
+			width: 1.25d
+			x: 19.5d
+			y: -5.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/reinforced_deepslate_bottom"
+			rotation: 0.0d
+			width: 1.25d
+			x: 20.5d
+			y: -4.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/reinforced_deepslate_bottom"
+			rotation: 0.0d
+			width: 1.25d
+			x: 21.5d
+			y: -4.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/reinforced_deepslate_bottom"
+			rotation: 0.0d
+			width: 1.25d
+			x: 20.5d
+			y: -8.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/reinforced_deepslate_bottom"
+			rotation: 0.0d
+			width: 1.25d
+			x: 21.5d
+			y: -8.5d
+		}
+		{
+			height: 1.25d
+			image: "deeperdarker:block/sculk_stone"
+			order: -25
+			rotation: 0.0d
+			width: 1.25d
+			x: 20.5d
+			y: -5.5d
+		}
+		{
+			height: 1.25d
+			image: "deeperdarker:block/sculk_stone"
+			order: -25
+			rotation: 0.0d
+			width: 1.25d
+			x: 21.5d
+			y: -5.5d
+		}
+		{
+			height: 1.25d
+			image: "deeperdarker:block/sculk_stone"
+			order: -25
+			rotation: 0.0d
+			width: 1.25d
+			x: 20.5d
+			y: -6.5d
+		}
+		{
+			height: 1.25d
+			image: "deeperdarker:block/sculk_stone"
+			order: -25
+			rotation: 0.0d
+			width: 1.25d
+			x: 21.5d
+			y: -6.5d
+		}
+		{
+			height: 1.25d
+			image: "deeperdarker:block/sculk_stone"
+			order: -25
+			rotation: 0.0d
+			width: 1.25d
+			x: 20.5d
+			y: -7.5d
+		}
+		{
+			height: 1.25d
+			image: "deeperdarker:block/sculk_stone"
+			order: -25
+			rotation: 0.0d
+			width: 1.25d
+			x: 21.5d
+			y: -7.5d
+		}
+		{
+			height: 1.25d
+			image: "deeperdarker:block/sculk_stone"
+			order: -25
+			rotation: 0.0d
+			width: 1.25d
+			x: 22.5d
+			y: -5.5d
+		}
+		{
+			height: 1.25d
+			image: "deeperdarker:block/sculk_stone"
+			order: -25
+			rotation: 0.0d
+			width: 1.25d
+			x: 22.5d
+			y: -6.5d
+		}
+		{
+			height: 1.25d
+			image: "deeperdarker:block/sculk_stone"
+			order: -25
+			rotation: 0.0d
+			width: 1.25d
+			x: 22.5d
+			y: -7.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/reinforced_deepslate_bottom"
+			rotation: 0.0d
+			width: 1.25d
+			x: 22.5d
+			y: -4.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/reinforced_deepslate_bottom"
+			rotation: 0.0d
+			width: 1.25d
+			x: 23.5d
+			y: -5.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/reinforced_deepslate_bottom"
+			rotation: 0.0d
+			width: 1.25d
+			x: 23.5d
+			y: -6.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/reinforced_deepslate_bottom"
+			rotation: 0.0d
+			width: 1.25d
+			x: 23.5d
+			y: -7.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/reinforced_deepslate_bottom"
+			rotation: 0.0d
+			width: 1.25d
+			x: 22.5d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "fzzy_config:textures/gui/sprites/widget/validation/ingredient/frame.png"
+			order: -500
+			rotation: 0.0d
+			width: 1.0d
+			x: 19.5d
+			y: -8.5d
+		}
+		{
+			height: 0.75d
+			image: "deeperdarker:item/heart_of_the_deep"
+			rotation: 45.0d
+			width: 0.75d
+			x: 19.5d
+			y: -8.5d
+		}
 	]
 	order_index: 1
 	quest_links: [
@@ -1637,6 +1831,18 @@
 			linked_quest: "510ABFA37AE208DF"
 			x: 2.0d
 			y: 1.0d
+		}
+		{
+			id: "5E56223A281F2099"
+			linked_quest: "575E743BF443063F"
+			x: 21.5d
+			y: -6.5d
+		}
+		{
+			id: "047EDD5A3BCDDA04"
+			linked_quest: "0C1BEC40082A4BB0"
+			x: 21.5d
+			y: -5.5d
 		}
 	]
 	quests: [ ]

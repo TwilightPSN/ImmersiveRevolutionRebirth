@@ -15,6 +15,10 @@ LootJS.modifiers((IRRebirth) => {
         .randomChanceWithEnchantment("minecraft:silk_touch", [1, 0])
         .addLoot(LootEntry.of("minecraft:redstone", 15))
     IRRebirth
+        .addBlockLootModifier("deeperdarker:sculk_stone_redstone_ore")
+        .randomChanceWithEnchantment("minecraft:silk_touch", [1, 0])
+        .addLoot(LootEntry.of("minecraft:redstone", 20))
+    IRRebirth
         .addBlockLootModifier("#forge:ores/redstone")
         .randomChanceWithEnchantment("minecraft:fortune", [0, 0.333, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1])
         .addLoot(LootEntry.of("minecraft:redstone", 3)) 

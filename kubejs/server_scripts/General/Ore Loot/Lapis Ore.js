@@ -15,6 +15,10 @@ LootJS.modifiers((IRRebirth) => {
         .randomChanceWithEnchantment("minecraft:silk_touch", [1, 0])
         .addLoot(LootEntry.of("minecraft:lapis_lazuli", 20))
     IRRebirth
+        .addBlockLootModifier("deeperdarker:sculk_stone_lapis_ore")
+        .randomChanceWithEnchantment("minecraft:silk_touch", [1, 0])
+        .addLoot(LootEntry.of("minecraft:lapis_lazuli", 25))
+    IRRebirth
         .addBlockLootModifier("#forge:ores/lapis")
         .randomChanceWithEnchantment("minecraft:fortune", [0, 0.333, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1])
         .addLoot(LootEntry.of("minecraft:lapis_lazuli", 3)) 

@@ -19,7 +19,7 @@
 	coralSnakeSpawnWeight = 4
 	#Rattlesnake Spawn Weight
 	#Range: 0 ~ 1000
-	rattlesnakeSpawnWeight = 4
+	rattlesnakeSpawnWeight = 0
 	#Firefly Spawn Weight
 	#Range: 0 ~ 1000
 	fireflySpawnWeight = 8
@@ -49,19 +49,19 @@
 	duckSpawnWeight = 15
 	#Bear Spawn Weight
 	#Range: 0 ~ 1000
-	bearSpawnWeight = 8
+	bearSpawnWeight = 0
 	#Deer Spawn Weight
 	#Range: 0 ~ 1000
 	deerSpawnWeight = 8
 	#Rhino Spawn Weight
 	#Range: 0 ~ 1000
-	rhinoSpawnWeight = 15
+	rhinoSpawnWeight = 0
 	#Lion Spawn Weight
 	#Range: 0 ~ 1000
 	lionSpawnWeight = 8
 	#Elephant Spawn Weight
 	#Range: 0 ~ 1000
-	elephantSpawnWeight = 10
+	elephantSpawnWeight = 0
 	#Zebra Spawn Weight
 	#Range: 0 ~ 1000
 	zebraSpawnWeight = 10
@@ -82,7 +82,7 @@
 	dragonflySpawnWeight = 1
 	#Catfish Spawn Weight
 	#Range: 0 ~ 1000
-	catfishSpawnWeight = 8
+	catfishSpawnWeight = 0
 	#Alligator Spawn Weight
 	#Range: 0 ~ 1000
 	alligatorSpawnWeight = 15

@@ -103,6 +103,14 @@ JEIEvents.hideItems(IRRebirth => {
     IRRebirth.hide(['utilitarian:snad', 'utilitarian:red_snad', 'utilitarian:soul_snad'])
     IRRebirth.hide('mekanism:creative_chemical_tank')
     IRRebirth.hide('mekanism:creative_fluid_tank')
+    IRRebirth.hide(['usefulslime:slippery_slime_block',
+        'usefulslime:slime_helmet',
+        'usefulslime:slime_chestplate',
+        'usefulslime:slime_leggings',
+        'usefulslime:slime_boots'])
+    IRRebirth.hide(['create_dd:bronze_block', 'create_dd:bronze_ingot', 'create_dd:bronze_nugget', 'create_dd:bronze_sheet'])
+    IRRebirth.hide('create_sa:netherite_jetpack_chestplate')
+
 })
 
 JEIEvents.removeCategories(IRRebirth => {
