@@ -84,4 +84,6 @@ ServerEvents.recipes(IRRebirth => {
     IRRebirth.custom({"type":"mekanism:gas_conversion","input":{"ingredient":{"item":"advanced_ae:quantum_alloy"}},"output":{"amount":20,"gas":"kubejs:quantum_alloy_gas"}})
     IRRebirth.custom({"type":"mekanism:gas_conversion","input":{"ingredient":{"item":"advanced_ae:quantum_alloy_block"}},"output":{"amount":180,"gas":"kubejs:quantum_alloy_gas"}})
     IRRebirth.custom({"type":"mekanism:gas_conversion","input":{"ingredient":{"item":"supplementaries:flint_block"}},"output":{"amount":90,"gas":"mekanism:oxygen"}})
+    IRRebirth.custom({"type":"mekanism:gas_conversion","input":{"ingredient":{"tag":"forge:ingots/osmium"}},"output":{"amount":20,"gas":"mekanism:osmium"}}).id('mekanism:gas_conversion/osmium_from_ingot')
+    IRRebirth.custom({"type":"mekanism:gas_conversion","input":{"ingredient":{"tag":"forge:storage_blocks/osmium"}},"output":{"amount":180,"gas":"mekanism:osmium"}}).id('mekanism:gas_conversion/osmium_from_block')
 })

@@ -1150,7 +1150,7 @@
 		}
 		{
 			dependencies: ["0C1BEC40082A4BB0"]
-			description: ["With the Warden's heart in hande, we can activate the portal within the ancient city. By simply using the heart on the portal, we open dimensional travel to the home of the Sculk. Here, we will find creatures like we've never seen before. Their essence screams evil and we must gatherthe evil to make better technology. Killing these creatures can provide us with the echo shards we need to make our Refined Obsidian we need."]
+			description: ["With the Warden's heart in hand, we can activate the portal within the ancient city. By simply using the heart on the portal, we open dimensional travel to the home of the Sculk. Here, we will find creatures like we've never seen before. Their essence screams evil and we must gatherthe evil to make better technology. Killing these creatures can provide us with the echo shards we need to make our Refined Obsidian we need."]
 			id: "575E743BF443063F"
 			rewards: [{
 				count: 4

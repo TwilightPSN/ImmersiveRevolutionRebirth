@@ -1,3 +1,43 @@
+|| Release 1.5.0 ||
+
+// Mods Updated //
+-All The Leaks
+-AlmostUnified
+-Create Crafts & Additions
+-Create Hypertube
+-Cucumber Library
+-Entity Model Features
+-Entity Texture Features
+-Every Compat
+-Extended Crafting
+-FTB Ultimine
+-Fusion
+-GeckoLib 4
+-Graviational Modulating Additional Unit
+-InsaneLib
+-JAOPCA
+-Lootr
+-Mekanism Upgrades: Reborn
+-Moonlight Library
+-Oh The Biomes We've Gone
+-PacketFixer
+-Pickle Tweaks
+-Puzzles Lib
+-Sophisticated Backpacks
+-Sophisticated Core
+-Sophisticated Storage
+-Stone Zone
+-Supplementaries
+-Tectonic
+
+// Recipe Changes //
+-Osmium now provides gas equal to other gasses
+-Refined Obsidian and Glowstone now require x10 Osmium Ingots worth of gas
+-Changed HDPE Rod recipe to require Steam in a Compressor
+
+// Quest Changes //
+-Updated quest book to have modpack title
+
 || Release 1.4.0 ||
 
 Forge Updated to 47.4.6
@@ -11,7 +51,6 @@ Forge Updated to 47.4.6
 -Lithostitched
 -Create Sifting
 -Create Mechanical Extruder
--Construction Wand
 -Useful Slime
 -YUNG's API
 -YUNG's Better End Island
@@ -77,7 +116,6 @@ Forge Updated to 47.4.6
 -New quests for Deeper Darker dimension
 
 // Config Changes //
--Cooking for Blockheads sink is infinite water again
 -Disabled Rhino, Catfish, Elephant, Rattlesnake & Brown Bear from Naturalist
 -Removed Draconium Dust from Ender Dragon Drops
 

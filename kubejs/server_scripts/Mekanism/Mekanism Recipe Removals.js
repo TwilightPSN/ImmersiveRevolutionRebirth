@@ -13,4 +13,5 @@ ServerEvents.recipes(IRRebirth => {
     IRRebirth.remove({ id: 'mekanism:infusion_conversion/carbon/from_coal'})
     IRRebirth.remove({ id: 'mekanism:infusion_conversion/carbon/from_charcoal_block'})
     IRRebirth.remove({ output: 'mekanism:digital_miner'})
+    IRRebirth.remove({ output: 'mekanism:hdpe_rod'})
 })
