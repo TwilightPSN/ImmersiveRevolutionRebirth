@@ -5,5 +5,9 @@
     # Max amount of blocks that can be ultimined at once
 	# Default: 64
 	# Range: 0 ~ 32768
-	max_blocks: 64
+	max_blocks: 128
+
+	# Require a damageable tool, or an item in the ftbultimine:tools tag, to ultimine.
+	# Default: false
+	require_tool: true
 }

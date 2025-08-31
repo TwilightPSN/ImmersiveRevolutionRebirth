@@ -16,7 +16,7 @@
 				""
 				"Ores are also much more plentiful and given to you. Each different type of stone grants more and more resources than the last."
 				""
-				"FTB Ultimine allows you the gather multiple blocks in one go. Tree Harvester allows you to knock down a whole tree by just harvesting the bottom block."
+				"FTB Ultimine allows you the gather multiple blocks in one go. A tool is required to gather blocks, not just your bare hand."
 			]
 			id: "599030C9DB9B1E08"
 			rewards: [{
@@ -38,7 +38,6 @@
 		{
 			dependencies: ["599030C9DB9B1E08"]
 			description: ["We start with the tedious tasks of any Minecraft journey, gathering wood and stone. The material will be the stepping stones to moving forward with our operations and developing the tools we need to grow."]
-			icon: "minecraft:oak_log"
 			id: "150B3A6B61937F78"
 			require_sequential_tasks: false
 			rewards: [{
@@ -144,7 +143,7 @@
 						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:chests/wooden)"
 					}
 				}
-				title: "Any #forge:chests/wooden"
+				title: "Chest"
 				type: "item"
 			}]
 			title: "Getting Organized"
@@ -154,14 +153,6 @@
 		{
 			dependencies: ["5EB800B895DDCBFB"]
 			description: ["Once we have gained access to Redstone, we can upgrade our chests to Sophisticated Chests. These chests can be upgraded to larger capacities as well as hold a multitude of upgrades to increase stack sizes and more."]
-			icon: {
-				Count: 1
-				id: "sophisticatedstorage:chest"
-				tag: {
-					accentColor: 8991416
-					mainColor: 8991416
-				}
-			}
 			id: "24DB690822140D7E"
 			require_sequential_tasks: false
 			rewards: [{
@@ -175,10 +166,10 @@
 					Count: 1
 					id: "ftbfiltersystem:smart_filter"
 					tag: {
-						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(sophisticatedstorage:base_tier_wooden_storage)"
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(sophisticatedstorage:all_storage)"
 					}
 				}
-				title: "Any Basic Sophisiticated Storage"
+				title: "Sophisiticated Storage"
 				type: "item"
 			}]
 			title: "Getting Sophisticated"
@@ -197,9 +188,8 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "1103AB8900F8B01D"
+				id: "22C19A734FAFD0D6"
 				item: "sophisticatedbackpacks:backpack"
-				match_nbt: false
 				type: "item"
 			}]
 			title: "Backpacking"
@@ -247,7 +237,6 @@
 		{
 			dependencies: ["24DB690822140D7E"]
 			description: ["Sophisticated Storage chests can be upgraded with the materials we gather. This increases the internal size of the chests allowing a single chest to eventually hold more than double its size."]
-			icon: "sophisticatedstorage:basic_to_diamond_tier_upgrade"
 			id: "4717B8DD6ABFFB74"
 			require_sequential_tasks: false
 			rewards: [{
@@ -286,7 +275,14 @@
 			}]
 			tasks: [{
 				id: "5A287F98EC39954C"
-				item: "dankstorage:dank_1"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(dankstorage:dank_storages)"
+					}
+				}
+				title: "Dank"
 				type: "item"
 			}]
 			title: "The Magic Cube"
@@ -541,7 +537,14 @@
 			}]
 			tasks: [{
 				id: "32502E95BDDD9035"
-				item: "chunkloaders:basic_chunk_loader"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(chunkloaders:single_chunk_loader)item(chunkloaders:basic_chunk_loader)item(chunkloaders:advanced_chunk_loader)item(chunkloaders:ultimate_chunk_loader))"
+					}
+				}
+				title: "Chunk Loader"
 				type: "item"
 			}]
 			title: "Keep it Running"
@@ -577,7 +580,7 @@
 						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(waystones:waystones)"
 					}
 				}
-				title: "Any #waystones:waystones"
+				title: "Waystone"
 				type: "item"
 			}]
 			title: "Fast Travel"

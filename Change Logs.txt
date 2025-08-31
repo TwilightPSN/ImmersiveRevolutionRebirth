@@ -5,6 +5,9 @@ The Quest Revision Update
 // Mods Added //
 -YUNG's Better Caves
 
+// Mods Removed //
+-Tree Harvester
+
 // Mods Updated //
 -All The Leaks
 -AlmostUnified
@@ -33,6 +36,7 @@ The Quest Revision Update
 -PacketFixer
 -Pickle Tweaks
 -Puzzles Lib
+-Quarry Plus
 -Silent Gear
 -Sophisticated Backpacks
 -Sophisticated Core
@@ -49,6 +53,9 @@ The Quest Revision Update
 
 // Config Changes //
 -Adjusted machine values for Immersive machines
+-FTB Ultimine now mines 128 blocks BUT requires a tool (Will need to delete the FTB Ultimine config from worlds that already exist to update)
+-Doubled Create pump range
+-Doubled Create vault storage capacity
 
 // Recipe Changes //
 -Osmium now provides gas equal to other gasses
@@ -57,13 +64,13 @@ The Quest Revision Update
 -Modified some Draconic Recipes to use less Antimatter
 -Adjusted needed Antimatter for Singularity
 -Changed bin items required for Infinity Upgrade
+-Fixed Railway Casing recipe issue from spelling mistake
 
 // Quest Changes //
 -Updated quest book to have modpack title
 -Entirely rewrote every quest in the pack (There MAY be spelling mistakes!)
 -Added quest for Immersive Aircraft
--Updated quest for Gadget Builder
--Updated quest for Hang Glider
+-Modified some quests to take varying items
 
 || Release 1.4.0 ||
 
