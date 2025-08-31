@@ -126,6 +126,18 @@ JEIEvents.information(IRRebirth => {
     IRRebirth.addItem('#forge:ores_in_ground/deepslate', ['Drops additional Resources compared to Stone Variants'])
     IRRebirth.addItem('#forge:ores_in_ground/netherrack', ['Drops additional Resources compared to Deepslate Variants'])
     IRRebirth.addItem('#forge:ores_in_ground/end_stone', ['Drops additional Resources compared to Netherrack Variants'])
+    IRRebirth.addItem(['mekanism:steel_casing',
+        'mekanism:ultimate_tier_installer',
+        'mekanism:hdpe_rod',
+        'immersiveengineering:coil_mv',
+        'immersiveengineering:ersatz_leather',
+        'immersiveengineering:component_electronic_adv',
+        'minecraft:cobblestone',
+        'minecraft:end_stone',
+        'minecraft:netherrack',
+        'create:blaze_cake',
+        'create:brass_casing',
+        'create_sa:steam_engine'], ['Required to fill an Ultimate Bin of these items for Survival Infinity Upgrade'])
 })
 
 JEIEvents.addItems(IRRebirth => {

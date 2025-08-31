@@ -469,11 +469,12 @@
 				id: "6AE7FAFB31083063"
 				item: {
 					Count: 1
-					id: "hangglider:hang_glider"
+					id: "ftbfiltersystem:smart_filter"
 					tag: {
-						Damage: 0
+						"ftbfiltersystem:filter": "or(item(hangglider:hang_glider)item(hangglider:reinforced_hang_glider))"
 					}
 				}
+				title: "Glider"
 				type: "item"
 			}]
 			title: "Gliding Around"
@@ -584,21 +585,50 @@
 			y: -2.5d
 		}
 		{
-			dependencies: [
-				"599030C9DB9B1E08"
-				"6C694DEF01960C4A"
-			]
+			dependencies: ["599030C9DB9B1E08"]
 			description: ["Building can be a tedious step when done by hand. This becomes easier with the use of a gadget intended for such a thing. The building gadget can be handy for building as well as bridging while mining. You can configure the tool to do exactly as you want by simple copying blocks or using schematics. Ease your building ventures with this handy tool!"]
 			id: "65C7C35316BBF17B"
 			optional: true
 			tasks: [{
 				id: "785EA77BBE4DF988"
-				item: "buildinggadgets2:gadget_building"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(buildinggadgets2:gadget_building)item(constructionwand:stone_wand)item(constructionwand:iron_wand)item(constructionwand:diamond_wand)item(constructionwand:infinity_wand))"
+					}
+				}
+				title: "Building Gadgets"
 				type: "item"
 			}]
 			title: "Gadget Builder"
 			x: -6.0d
 			y: -4.5d
+		}
+		{
+			dependencies: ["7A49B7F5D8A4E9E6"]
+			description: ["The next step in flight is getting yourself a nice vehicle. The Glider works to just drift where you want but an aircraft will allow you to move more freely through the skies."]
+			id: "373220A94F47DB1D"
+			rewards: [{
+				id: "314DD106FFE3487E"
+				item: "immersive_aircraft:sail"
+				type: "item"
+			}]
+			tasks: [{
+				id: "397F5A22CAD1587C"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(immersive_aircraft:airship)item(immersive_aircraft:cargo_airship)item(immersive_aircraft:warship)item(immersive_aircraft:biplane)item(immersive_aircraft:gyrodyne)item(immersive_aircraft:quadrocopter)item(immersive_aircraft:bamboo_hopper))"
+					}
+				}
+				title: "Aircraft"
+				type: "item"
+			}]
+			title: "Fly Like an Eagle!"
+			x: -7.0d
+			y: -5.5d
 		}
 	]
 	title: "Getting Started"

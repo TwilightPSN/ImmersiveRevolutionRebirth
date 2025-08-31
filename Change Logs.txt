@@ -45,6 +45,7 @@ The Quest Revision Update
 -Created Data Pack to remove Create D&D Tin ore spawns
 -Created Data Pack to add Oh The Biomes We've Gone and Regions Unexplored items to market (Currently an issue causing some items to not loaded and was reported to mod dev)
 -Modified block tags for Create D&D Tin to match Mekanism tin for older worlds
+-Added Notes to JEI for items need to fill bin for Survival Infinity Upgrade
 
 // Config Changes //
 -Adjusted machine values for Immersive machines
@@ -53,10 +54,16 @@ The Quest Revision Update
 -Osmium now provides gas equal to other gasses
 -Refined Obsidian and Glowstone now require x10 Osmium Ingots worth of gas
 -Changed HDPE Rod recipe to require Steam in a Compressor
+-Modified some Draconic Recipes to use less Antimatter
+-Adjusted needed Antimatter for Singularity
+-Changed bin items required for Infinity Upgrade
 
 // Quest Changes //
 -Updated quest book to have modpack title
 -Entirely rewrote every quest in the pack (There MAY be spelling mistakes!)
+-Added quest for Immersive Aircraft
+-Updated quest for Gadget Builder
+-Updated quest for Hang Glider
 
 || Release 1.4.0 ||
 

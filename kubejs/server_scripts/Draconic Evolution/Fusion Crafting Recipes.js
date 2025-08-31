@@ -148,9 +148,6 @@ ServerEvents.recipes(IRRebirth => {
             "item": "mekanism:pellet_antimatter"
           },
           {
-            "item": "mekanism:pellet_antimatter"
-          },
-          {
             "item": "minecraft:nether_star"
           }
         ],
@@ -174,15 +171,6 @@ ServerEvents.recipes(IRRebirth => {
           },
           {
             "item": "minecraft:dragon_egg"
-          },
-          {
-            "item": "mekanism:pellet_antimatter"
-          },
-          {
-            "item": "mekanism:pellet_antimatter"
-          },
-          {
-            "item": "mekanism:pellet_antimatter"
           },
           {
             "item": "mekanism:pellet_antimatter"
@@ -365,9 +353,6 @@ ServerEvents.recipes(IRRebirth => {
           },
           {
             "item": "draconicevolution:reactor_prt_in_rotor"
-          },
-          {
-            "item": "mekanism:pellet_antimatter"
           },
           {
             "tag": "forge:ingots/draconium"
