@@ -24,13 +24,7 @@
 	quests: [
 		{
 			dependencies: ["1A7820CA8E752427"]
-			description: [
-				"Once you’ve gathered enough Andesite, it’s time to combine it with other minerals to create a powerful Alloy. This alloy is the key to unlocking the first stages of kinetic machinery, allowing you to build essential components for automation and energy transfer."
-				""
-				"With the alloy in hand, you'll be able to start crafting Casings, which are crucial for enclosing and protecting your early machines. These casings will house your kinetic devices, ensuring they’re properly encased for safety and efficiency as you begin to power up your mechanical systems."
-				""
-				"Craft, combine, and start building—the world of kinetic energy is ready to take shape!"
-			]
+			description: ["Taking our Andesite and molding it with some Zinc nuggets creates a sturdy alloy to start with basic kinetic motion. This allow will be a staple in advancing further."]
 			id: "6F753FCA6748FBF0"
 			require_sequential_tasks: false
 			rewards: [{
@@ -49,13 +43,7 @@
 		}
 		{
 			dependencies: ["6F753FCA6748FBF0"]
-			description: [
-				"With Andesite Alloy in hand, we’re now ready to craft the components that will fuel our kinetic adventure. The first essential piece is the Andesite Casing, which will form the protective shell for our machines and ensure everything is properly enclosed and functional."
-				""
-				"To make the most of this power, we’ll also need Shafts—the connectors that transfer kinetic energy between different machines. These shafts link your powered devices to one another, allowing motion to flow from one machine to the next, setting the stage for the automation of your operations."
-				""
-				"Now that we’ve got the basics in place, the world of kinetic energy and Create-powered machinery is within reach. Let’s start building!"
-			]
+			description: ["With our newfound alloy, we can make Andesite Casings and Shafts to start to assemble our kinetic machines. These blocks begin to build our network of kinetic energy transfer."]
 			id: "3BEACA2DE7728F3B"
 			require_sequential_tasks: false
 			rewards: [
@@ -90,13 +78,7 @@
 		}
 		{
 			dependencies: ["3BEACA2DE7728F3B"]
-			description: [
-				"A Millstone is one of the first machines that can significantly boost your resource efficiency. By using this simple yet effective tool, you can grind materials like ores, grains, and other resources into finer substances, often giving you extra yields from what you’ve gathered."
-				""
-				"For example, grinding ores might result in additional dust, which can then be smelted to yield more ingots. This means you get more value from the same amount of material—perfect for maximizing your resources early on."
-				""
-				"Set up your Millstone, feed it the raw materials, and watch as it turns your gathered resources into even greater rewards!"
-			]
+			description: ["The Millstone is our early method of processing materials and resources. It can grind down items provided to it into new or more refined versions."]
 			id: "492689370B0F4731"
 			rewards: [{
 				count: 4
@@ -115,13 +97,7 @@
 		}
 		{
 			dependencies: ["3BEACA2DE7728F3B"]
-			description: [
-				"Before we dive into fully automated systems, we need a way to kickstart our machines. That’s where the Hand Crank comes in."
-				""
-				"This simple yet essential tool allows us to manually generate kinetic energy to power our early machines. By cranking it by hand, we can set the wheels in motion, jump-starting our mechanical systems and getting our operations rolling. The Hand Crank isn’t just for the early stages—it will also serve as a useful tool to kickstart later machines if they need a quick boost of energy."
-				""
-				"Turn the crank, feel the power, and watch your creations come to life!"
-			]
+			description: ["To get started with many of our machines, we will need a Hand Crank and some gears. These will allow us to transfer energy and scale the speed and SU usage around."]
 			id: "36851BE0E8C197B9"
 			require_sequential_tasks: false
 			rewards: [{
@@ -148,13 +124,7 @@
 		}
 		{
 			dependencies: ["492689370B0F4731"]
-			description: [
-				"Grinding your minerals multiple times yields dirt dust, a byproduct that can be cooked into valuable ingots. But before you can get to that step, you need to cleanse the dust and separate the useful particles from the unwanted debris. This is where the Fan with water comes in."
-				""
-				"By placing the Fan in a setup with flowing water, you can wash away the bad particles, leaving you with the refined materials you need for smelting. But the Fan’s usefulness doesn’t end there—it also has the power to bulk smelt items when directed over lava, providing a faster, more efficient method for processing large quantities of materials."
-				""
-				"Use the Fan to both refine your resources and speed up your smelting process, making the entire operation more efficient and productive!"
-			]
+			description: ["With an Encased Fan, we can perform bulk operations of varying types. When placed with water, this will allow us to wash materials. This can be used to help clean dirty usts for more resource gains. When used with lava, we can bulk smelt items into their hardened material forms. Fire also allows us to cook foods in bulk. This process requires nothing but the heat of the needed item as well as kinetic motion."]
 			id: "499522428D11BBAA"
 			require_sequential_tasks: false
 			rewards: [{
@@ -173,13 +143,7 @@
 		}
 		{
 			dependencies: ["3BEACA2DE7728F3B"]
-			description: [
-				"Water wheels are one of the earliest and simplest ways to harness passive kinetic energy. By using the natural flow of water, you can generate consistent energy to power your machines with minimal input."
-				""
-				"A Wooden Water Wheel is placed in moving water, and as the water flows, it turns the wheel, generating kinetic energy. This is one of the easiest methods to get started with automation, and it can power a variety of early machines with little effort."
-				""
-				"With just some water and a wooden wheel, you can unlock the power of passive kinetic energy and start moving your mechanical systems forward. It’s a reliable, renewable source of energy that’ll serve you well as you build and expand your world!"
-			]
+			description: ["Water Wheels can be used to generate rotational force with the use of flowing water. Simply ensure a current has them rotating and they will produce SU for you."]
 			id: "2380E54A5C3D8DE1"
 			require_sequential_tasks: false
 			rewards: [{
@@ -198,13 +162,7 @@
 		}
 		{
 			dependencies: ["3BEACA2DE7728F3B"]
-			description: [
-				"When dealing with kinetic energy, moving it vertically or horizontally can be tricky, especially if you don’t have the right setup. That’s where Chain Drives and Gearboxes come into play."
-				""
-				"The Chain Drive links motion over a distance, while the Gearbox allows you to change the direction of the kinetic energy, whether it’s moving vertically or horizontally across your machine setups. Gearboxes make it possible to redirect motion and adapt to different orientations in your machinery, while the Chain Drive helps extend that motion across blocks."
-				""
-				"With these two components, you can easily transfer and adjust your kinetic energy, ensuring a smooth flow of motion wherever it’s needed, whether on the same level or multiple heights."
-			]
+			description: ["In order to move motion in different rotations and directions, we have the Chain Drives and Gearboxes. This allows us to move around our rotational force in different manners to be used where needed."]
 			id: "636F68E40072AD9B"
 			require_sequential_tasks: false
 			rewards: [{
@@ -224,11 +182,6 @@
 					item: "create:gearbox"
 					type: "item"
 				}
-				{
-					id: "1A8429177786A9B6"
-					item: "create:vertical_gearbox"
-					type: "item"
-				}
 			]
 			title: "Moving Motion"
 			x: -6.5d
@@ -236,13 +189,7 @@
 		}
 		{
 			dependencies: ["3BEACA2DE7728F3B"]
-			description: [
-				"As your systems evolve and you gather more materials, you’ll need a way to compress and refine your resources. Enter the Mechanical Press—a crucial tool for stamping ingots into plates that are vital for further advancements in automation and machine crafting."
-				""
-				"By using the Mechanical Press, you can take your basic ingots and shape them into flat, usable plates, which are necessary for crafting more advanced machinery, tools, and components. This step significantly improves the efficiency of your production process, allowing you to create the parts needed for even more sophisticated builds."
-				""
-				"Set up your Mechanical Press, feed it your ingots, and watch as your resources are transformed into the foundation of your next big leap in technology!"
-			]
+			description: ["To create more advanced machinery, we are going to need access to plates of metals. Using a Metal Press with a Depot, or a belt, we can create plates with the use of rotational force."]
 			id: "0125871937D41659"
 			require_sequential_tasks: false
 			rewards: [{
@@ -302,13 +249,7 @@
 		}
 		{
 			dependencies: ["3BEACA2DE7728F3B"]
-			description: [
-				"When working with wood, cutting logs by hand limits the number of planks you can get from each log. But with a Mechanical Saw, you can dramatically optimize the amount of wood you harvest, turning every log into a higher yield of planks."
-				""
-				"The Mechanical Saw is a key tool for automating your lumber processing, allowing you to cut through logs quickly and efficiently without breaking a sweat. With its ability to increase the output of each log, you’ll have a steady supply of planks for crafting, building, and powering your machines."
-				""
-				"Set up your Mechanical Saw, feed it logs, and watch as your wood supply multiplies effortlessly!"
-			]
+			description: ["Breaking down logs with our hands proves to be a resource losing process. We can use the saw to cut up logs into more pieces without losing anything in the process. This helps us to use less logs to get more wood."]
 			id: "0F2E8D7DA23070FC"
 			require_sequential_tasks: false
 			rewards: [{
@@ -418,13 +359,7 @@
 		}
 		{
 			dependencies: ["2380E54A5C3D8DE1"]
-			description: [
-				"As your needs grow, so can your energy generation! Larger Water Wheels are the next step in maximizing your passive kinetic energy. While these wheels move slower than their smaller counterparts, they can handle significantly more stress and generate greater kinetic energy."
-				""
-				"These bigger wheels are perfect for powering more demanding machines or more complex setups. Though they take longer to spin up, their increased capacity ensures they can handle the heavy workloads of automation as you expand your operation."
-				""
-				"Upgrade to a larger water wheel, and enjoy a reliable source of energy that can support your growing mechanical empire, providing both strength and endurance as your needs evolve."
-			]
+			description: ["When you need a higher stress limit and still want to use water, larger water wheels come into play. They rotate slower than a smaller wheel, but provide much more SU capability."]
 			id: "30D33E535025EAD8"
 			rewards: [{
 				id: "6A22BEAEDBFF8552"
@@ -476,13 +411,7 @@
 		}
 		{
 			dependencies: ["3BEACA2DE7728F3B"]
-			description: [
-				"Wind can be a powerful source of kinetic energy, offering a passive generation method for powering your machines. By setting up a wind-powered system, you can use sails to catch the wind and turn that motion into usable energy for your setups."
-				""
-				"To build a windmill, you’ll need strong glue to keep everything together and sails to capture the wind’s force. This setup may require a bit of complexity to assemble initially, but it will provide you with continuous motion as long as the wind blows."
-				""
-				"As you progress, you can modify and improve your windmill system, scaling it up for more power or optimizing it for different machine needs. With the wind at your back, your machines will keep running effortlessly, providing a renewable, passive source of kinetic energy."
-			]
+			description: ["One of the passive systems we can use to generate kinetic energy is with a windmill. We can simply make some Sails and attach them to a Windmill Bearing with some glue and the contraption will work. This is a passive, albeit very low, form of generating rotational force."]
 			id: "27E0AF46F908E6D9"
 			rewards: [{
 				count: 4
@@ -519,13 +448,7 @@
 		}
 		{
 			dependencies: ["0125871937D41659"]
-			description: [
-				"As you advance in automation and energy production, you’ll find that fluids—whether water, lava, or steam—become essential to your systems. To manage and store these fluids, Fluid Tanks are a must-have."
-				""
-				"These tanks allow you to store large amounts of fluid safely and efficiently, ensuring that you have a steady supply for your machines and processes. In addition to storage, Fluid Tanks play a key role in Steam Engines, where they hold steam to generate additional rotational force, powering your machines with even greater efficiency."
-				""
-				"With the right setup, you’ll have fluid storage that supports your growing needs and a reliable energy source to keep your machines running smoothly. Store fluids, fuel steam engines, and keep your systems working at full capacity with Fluid Tanks!"
-			]
+			description: ["Storing fluids is a crucial part of any fine tuned operation. Excess levels of water and lava are needed to push further into technological advancements. Using fluid tanks, we can store these fluids for later use."]
 			id: "4492B51A9C727D78"
 			rewards: [{
 				count: 2
@@ -544,13 +467,7 @@
 		}
 		{
 			dependencies: ["4492B51A9C727D78"]
-			description: [
-				"By connecting Steam Engines to Fluid Tanks, you can tap into the power of steam for your systems. The Fluid Tank stores the heated water or steam, which is then drawn by the Steam Engine to produce rotational force. This rotational energy can power various machines, giving you a sustainable and efficient energy source."
-				""
-				"However, to get the steam flowing, you’ll need to heat the water in the tank. This can be achieved through fuel-burning sources like a furnace or lava, or you can explore other heating methods. Once the water turns into steam, the engine will convert that energy into rotational motion, driving your systems."
-				""
-				"With the right setup, you’ll have a reliable and scalable power system that harnesses the potential of steam energy to fuel your growing mechanical empire."
-			]
+			description: ["By using steam engines, we can begin to generate rotational force through steam prodution. This requires placing a Steam Engine on top of a Fluid Tank with a shaft. You then heat the tank to create steam and start your kinetic production."]
 			id: "49A2F592D12DC5A5"
 			rewards: [{
 				count: 2
@@ -603,13 +520,7 @@
 		}
 		{
 			dependencies: ["36851BE0E8C197B9"]
-			description: [
-				"As you progress in your kinetic journey, you'll quickly realize that the tiny Cogwheel just won’t be able to handle the increasing demands of faster motion. To accommodate more powerful, high-speed machines, you'll need to craft a Larger Cogwheel."
-				""
-				"The larger cogwheel allows for the transfer of faster kinetic energy while maintaining stability, enabling you to power more complex systems without overloading your machines. By upgrading to these bigger gears, you unlock the potential to run more intricate and efficient setups, moving your automation to the next level."
-				""
-				"Craft your larger cogwheels and embrace the power of speed as you take your mechanical systems to new heights!"
-			]
+			description: ["Larger gears allow us to ratio our kinetic energy. Then can be used to change the rate at which our equipment is operating to either speed it up or slow them down depending on the other gears in connection."]
 			id: "2CAAA679089FD1CF"
 			rewards: [{
 				count: 2

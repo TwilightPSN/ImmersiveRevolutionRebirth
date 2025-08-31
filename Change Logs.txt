@@ -1,10 +1,16 @@
 || Release 1.5.0 ||
 
+The Quest Revision Update
+
+// Mods Added //
+-YUNG's Better Caves
+
 // Mods Updated //
 -All The Leaks
 -AlmostUnified
 -Create Crafts & Additions
 -Create Hypertube
+-Create Mechanical Extruder
 -Cucumber Library
 -Entity Model Features
 -Entity Texture Features
@@ -14,21 +20,34 @@
 -Fusion
 -GeckoLib 4
 -Graviational Modulating Additional Unit
+-GuideME
 -InsaneLib
 -JAOPCA
+-Just Enough Mekanism Multiblocks
 -Lootr
 -Mekanism Upgrades: Reborn
 -Moonlight Library
+-More OVerlays
+-Not Enough Animations
 -Oh The Biomes We've Gone
 -PacketFixer
 -Pickle Tweaks
 -Puzzles Lib
+-Silent Gear
 -Sophisticated Backpacks
 -Sophisticated Core
 -Sophisticated Storage
 -Stone Zone
 -Supplementaries
 -Tectonic
+
+// Script Changes //
+-Created Data Pack to remove Create D&D Tin ore spawns
+-Created Data Pack to add Oh The Biomes We've Gone and Regions Unexplored items to market (Currently an issue causing some items to not loaded and was reported to mod dev)
+-Modified block tags for Create D&D Tin to match Mekanism tin for older worlds
+
+// Config Changes //
+-Adjusted machine values for Immersive machines
 
 // Recipe Changes //
 -Osmium now provides gas equal to other gasses
@@ -37,6 +56,7 @@
 
 // Quest Changes //
 -Updated quest book to have modpack title
+-Entirely rewrote every quest in the pack (There MAY be spelling mistakes!)
 
 || Release 1.4.0 ||
 
