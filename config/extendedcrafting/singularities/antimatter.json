@@ -6,5 +6,6 @@
   ],
   "ingredient": {
     "item": "mekanism:pellet_antimatter"
-  }
+  },
+  "materialCount": 100
 }

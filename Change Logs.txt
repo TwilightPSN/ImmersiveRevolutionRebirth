@@ -1,3 +1,99 @@
+|| Release 1.5.0 ||
+
+The Quest Revision Update
+
+// Mods Added //
+-Angry Mobs
+-Guard Villagers
+-YUNG's Better Caves
+
+// Mods Removed //
+-Tree Harvester
+-Obscure Tooltips
+-Obscure Tooltips Fix
+-Oculus
+
+// Mods Updated //
+-All The Leaks
+-AlmostUnified
+-Create Crafts & Additions
+-Create Hypertube
+-Create Mechanical Extruder
+-Cucumber Library
+-Entity Model Features
+-Entity Texture Features
+-Every Compat
+-Extended Crafting
+-FTB Ultimine
+-Fusion
+-GeckoLib 4
+-Graviational Modulating Additional Unit
+-GuideME
+-InsaneLib
+-JAOPCA
+-Just Enough Mekanism Multiblocks
+-Lootr
+-Mekanism Upgrades: Reborn
+-Moonlight Library
+-More OVerlays
+-Not Enough Animations
+-Oh The Biomes We've Gone
+-PacketFixer
+-Pickle Tweaks
+-Puzzles Lib
+-Quarry Plus
+-Silent Gear
+-Sophisticated Backpacks
+-Sophisticated Core
+-Sophisticated Storage
+-Stone Zone
+-Supplementaries
+-Tectonic
+
+// Script Changes //
+-Created Data Pack to remove Create D&D Tin ore spawns
+-Created Data Pack to add Oh The Biomes We've Gone and Regions Unexplored items to market (Currently an issue causing some items to not loaded and was reported to mod dev)
+-Modified block tags for Create D&D Tin to match Mekanism tin for older worlds
+-Added Notes to JEI for items need to fill bin for Survival Infinity Upgrade
+-Re-Enabled Silent Gear Repair Kits and Armor
+-Fixed some of the gas values for materials
+
+// Config Changes //
+-Adjusted machine values for Immersive machines
+-FTB Ultimine now mines 128 blocks BUT requires a tool (Will need to delete the FTB Ultimine config from worlds that already exist to update)
+-Doubled Create pump range
+-Doubled Create vault storage capacity
+-Detected setBlock should now stop spamming logs
+-End Portal Frames are now for a flat frame
+-Enigmatic Graves no longer gives the unneeded Grave Finder
+
+// Recipe Changes //
+-Osmium now provides gas equal to other gasses
+-Refined Obsidian and Glowstone now require x10 Osmium Ingots worth of gas
+-Changed HDPE Rod recipe to require Steam in a Compressor
+-Modified some Draconic Recipes to use less Antimatter
+-Adjusted needed Antimatter for Singularity
+-Changed bin items required for Infinity Upgrade
+-Fixed Railway Casing recipe issue from spelling mistake
+-Modified recipe of Create Sifter
+-Removed Quartz Fiber recipe from Arc Furnace
+-Fixed missing recipe for Charged Certus
+-Added extruding recipe for Sky stone
+-Fixed Cut Copper to Copper Block recipe
+
+// Quest Changes //
+-Updated quest book to have modpack title
+-Entirely rewrote every quest in the pack (There MAY be spelling mistakes!)
+-Added quest for Immersive Aircraft
+-Modified some quests to take varying items
+-Added quest to reference Apotheosis for enchanting
+-Added quest for Silent Gear
+-Added quest for Enchantment Industry
+-Added quest for Hydraulic Press
+-Added quest for Sifter
+-Added quest for Extruder
+-Chaos Guardian quest now only requires killing x1
+
 || Release 1.4.0 ||
 
 Forge Updated to 47.4.6
@@ -11,7 +107,6 @@ Forge Updated to 47.4.6
 -Lithostitched
 -Create Sifting
 -Create Mechanical Extruder
--Construction Wand
 -Useful Slime
 -YUNG's API
 -YUNG's Better End Island
@@ -77,7 +172,6 @@ Forge Updated to 47.4.6
 -New quests for Deeper Darker dimension
 
 // Config Changes //
--Cooking for Blockheads sink is infinite water again
 -Disabled Rhino, Catfish, Elephant, Rattlesnake & Brown Bear from Naturalist
 -Removed Draconium Dust from Ender Dragon Drops
 

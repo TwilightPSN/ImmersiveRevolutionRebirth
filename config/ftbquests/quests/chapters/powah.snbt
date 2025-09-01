@@ -16,11 +16,7 @@
 	quests: [
 		{
 			dependencies: ["7A88E6320FFD7765"]
-			description: [
-				"To properly configure and maintain our new machines, we need a specialized tool. By combining Refined Obsidian with Dielectric Paste, we can craft a wrench specifically designed for working with Powah! technology. This tool will allow us to rotate, adjust, and fine-tune our machines with ease."
-				""
-				"Having the right tool ensures that our power network remains efficient and adaptable. Whether repositioning energy cables or reconfiguring generators, this wrench is an essential companion for optimizing our electrical infrastructure."
-			]
+			description: ["To properly configure Powah machines, we need a specialized wrench. By combining Refined Obsidian with Dielectric Paste, we can craft a wrench specifically designed for working with Powah!"]
 			id: "330386FE0BB48FB6"
 			rewards: [{
 				count: 4
@@ -45,11 +41,7 @@
 		}
 		{
 			dependencies: ["7A88E6320FFD7765"]
-			description: [
-				"To construct our machinery, we need a solid foundation. By combining Dielectric Paste into rods, we can form a durable casing that serves as the base for many of our machines. This casing is essential for creating a stable and efficient framework."
-				""
-				"With this casing in place, we can start assembling more advanced technology. Nearly every machine we build will require these components, making them a key part of our production process."
-			]
+			description: ["To construct our machinery we need to combine Dielectric Paste with rods to form a durable casing. This casing is essential for creating many of the Powah machines."]
 			id: "2DCED553E5EBC65F"
 			rewards: [{
 				count: 10
@@ -68,11 +60,7 @@
 		}
 		{
 			dependencies: ["7A88E6320FFD7765"]
-			description: [
-				"Any machine generating power needs to handle the FE output efficiently. Capacitors play a vital role in storing and regulating this energy, ensuring that our machines operate without overloading or wasting power. These components act as buffers, allowing for a steady and reliable energy flow."
-				""
-				"Without capacitors, machines would struggle to distribute their generated power effectively. By integrating them into our builds, we can maximize energy efficiency and keep everything running smoothly."
-			]
+			description: ["Capacitors play a role in storing energy and ensuring that our machines operate without overloading or wasting power."]
 			id: "6692E8F2B4CAF9EF"
 			rewards: [{
 				count: 4
@@ -94,11 +82,7 @@
 				"6692E8F2B4CAF9EF"
 				"2DCED553E5EBC65F"
 			]
-			description: [
-				"To strengthen our power infrastructure, we need to refine and enhance the materials we already have. Energizing Rods, when paired with an Energizing Orb, allow us to channel energy directly into raw materials, altering their properties and making them more potent. This process is essential for advancing our technology and unlocking stronger components."
-				""
-				"One key application of this system is the processing of Raw Uraninite into a usable form. By infusing it with energy, we can refine it into a more efficient fuel source, enabling higher-tier power generation. This method ensures we maximize our resources and push our energy production to new levels."
-			]
+			description: ["Energizing Rods, when paired with an Energizing Orb, allow us to channel energy directly into materials, creating new items. This process is essential for advancing our technology and unlocking stronger materials."]
 			id: "7A519D7656EE3495"
 			rewards: [{
 				id: "630C32DB728E5B42"
@@ -133,11 +117,7 @@
 				"6692E8F2B4CAF9EF"
 				"2DCED553E5EBC65F"
 			]
-			description: [
-				"The Magmator allows us to take advantage of all the burnable fluids we've been producing, converting them into a reliable source of FE. Lava, being one of the most accessible fuels, makes the Magmator an efficient power generator for long-term energy needs. Its ability to burn liquid fuels gives us a flexible alternative to solid fuel-based generators."
-				""
-				"Upgrading the Magmator will improve its efficiency, allowing us to generate even more power from the same amount of fuel. This makes it a great step forward in optimizing our energy production."
-			]
+			description: ["The Magmator allows us to use burnable fluids and convert them into a reliable source of power. Lava, being one of the most accessible fuels, makes the Magmator an efficient power generator."]
 			id: "076A4CE796737E46"
 			rewards: [{
 				count: 2
@@ -166,11 +146,7 @@
 				"6692E8F2B4CAF9EF"
 				"2DCED553E5EBC65F"
 			]
-			description: [
-				"Solar Panels provide a passive and renewable source of energy, harnessing sunlight to generate power throughout the day. They require no fuel and operate without intervention, making them one of the easiest ways to maintain a steady energy supply. However, their effectiveness is limited to daylight hours unless enhanced."
-				""
-				"By applying a Lens of Ender, Solar Panels can absorb ambient energy even at night, allowing them to continue generating power. This upgrade makes them a more reliable power source, ensuring consistent energy production regardless of the time of day."
-			]
+			description: ["Solar Panels provide a passive source of power by harnessing sunlight. By applying a Lens of Ender, Solar Panels can absorb energy even at night, allowing them to continue generating power."]
 			id: "5C8F04432EE23906"
 			rewards: [{
 				count: 3
@@ -207,11 +183,7 @@
 				"6692E8F2B4CAF9EF"
 				"2DCED553E5EBC65F"
 			]
-			description: [
-				"Powah provides us with a simple yet efficient power source in the form of the Furnator. This generator operates by consuming burnable fuels such as coal or wood, converting them into a steady stream of FE. While it may not be the most advanced energy source, its reliability makes it a great starting point for our power needs."
-				""
-				"As we progress, we can upgrade the Furnator to improve its efficiency and output. This ensures we have a scalable power source that can keep up with our growing energy demands."
-			]
+			description: ["Powah provides us with a simple power source of the Furnator. This generator operates by consuming burnable fuels such as coal or wood, converting them into power."]
 			id: "090F617377FD54BF"
 			rewards: [{
 				count: 2
@@ -240,11 +212,7 @@
 				"6692E8F2B4CAF9EF"
 				"2DCED553E5EBC65F"
 			]
-			description: [
-				"The Thermo Generators take advantage of temperature differences to generate power, making them a passive and efficient energy source. Unlike traditional fuel-based generators, they don't require constant refueling, allowing for a more hands-off approach to power generation. Their efficiency surpasses older methods, providing a steady and reliable supply of FE."
-				""
-				"Placing them in the right area is key to maximizing their output. The greater the heat differential around them, the more energy they can produce. This makes them an excellent option for sustainable and scalable power generation."
-			]
+			description: ["The Thermo Generators take advantage of temperature differences to generate power, making them a passive power source. The greater the heat difference around them, the more energy they can produce."]
 			id: "42E7D911B078B71C"
 			rewards: [{
 				id: "3A0872E00261DD07"
@@ -269,11 +237,7 @@
 		}
 		{
 			dependencies: ["7A519D7656EE3495"]
-			description: [
-				"The Reactor is one of the most efficient and powerful energy sources we can utilize. Unlike Mekanism’s reactors, it operates cleanly without generating harmful radiation or dangerous by-products. This makes it a safer, more sustainable option for high-output power generation."
-				""
-				"However, to maintain continuous operation, we must ensure the Reactor is consistently supplied with the necessary fuel and resources. Keeping it well-stocked guarantees a stable power flow, preventing any sudden shortages or downtime in our energy network."
-			]
+			description: ["The Reactor is one of the most efficient and powerful energy sources we can have. Unlike Mekanism’s reactors, it operates cleanly without generating harmful radiation. This makes it a safer, more sustainable option for high power generation."]
 			id: "10E970261F697233"
 			rewards: [{
 				id: "760D922C6B498EB2"
@@ -301,11 +265,7 @@
 				"2DCED553E5EBC65F"
 				"6692E8F2B4CAF9EF"
 			]
-			description: [
-				"Keeping our gear charged is essential as we continue to upgrade our equipment. Player Transmitters provide a wireless charging solution, ensuring our tools and armor remain powered without the need for manual recharging."
-				""
-				"To use them effectively, we need to properly link the transmitter to ourselves. Once connected, it will continuously supply energy to our gear, keeping everything running smoothly without interruptions."
-			]
+			description: ["Keeping our gear charged is essential as we continue to upgrade our equipment. Player Transmitters provide a wireless charging solution, ensuring our tools and armor remain powered without the need for manual recharging."]
 			id: "78F4C4C193332C11"
 			rewards: [{
 				id: "2BF6B345C518B95E"
@@ -330,11 +290,7 @@
 		}
 		{
 			dependencies: ["78F4C4C193332C11"]
-			description: [
-				"By crafting a Binding Card and using it on an Enderman or Endermite, we can enable our Player Transmitter to work across dimensions. This interdimensional link ensures that we stay charged, no matter where we travel."
-				""
-				"The Binding Card connects the transmitter to the power of the entity, allowing it to draw power from across different worlds, keeping our gear continuously powered during our adventures."
-			]
+			description: ["By crafting a Binding Card and using it on an Enderman or Endermite, we can enable our Player Transmitter to work across dimensions. This link ensures that we stay charged, no matter where we travel."]
 			id: "0D5AF794E99DE5B4"
 			rewards: [{
 				id: "24881094A2FCBEBF"

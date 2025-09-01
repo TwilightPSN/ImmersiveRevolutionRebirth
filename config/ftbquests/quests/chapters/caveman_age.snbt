@@ -10,11 +10,13 @@
 	quests: [
 		{
 			description: [
-				"Our adventure begins in a world both familiar and mysterious. The land stretches endlessly, filled with resources waiting to be shaped by our hands. Though the terrain feels known, a deeper challenge lies ahead—one that demands ingenuity, adaptation, and mastery of automation."
+				"Welcome to The Immersive Revoltion: Rebirth modpack. This pack is different than others you may have played before. Automation is your game and if you need to make something, you may want to looking into automation as soon as you can! Good luck out there and have fun."
+				"{@pagebreak}"
+				"Tools and armor are unbreakable so you can focus more on your technology and less on equipment."
 				""
-				"With only our knowledge as a guide, we must harness the power of technology, transforming raw materials into intricate machines and simple tools into complex systems. Every discovery propels us forward, every innovation reshapes the world."
+				"Ores are also much more plentiful and given to you. Each different type of stone grants more and more resources than the last."
 				""
-				"The revolution has begun. Will you rise to the challenge and forge a new era of progress?"
+				"FTB Ultimine allows you the gather multiple blocks in one go. A tool is required to gather blocks, not just your bare hand."
 			]
 			id: "599030C9DB9B1E08"
 			rewards: [{
@@ -35,14 +37,7 @@
 		}
 		{
 			dependencies: ["599030C9DB9B1E08"]
-			description: [
-				"As with any great adventure, our journey begins with the essentials. The first step is simple yet vital—gathering wood from the towering trees around us. These humble logs will become the foundation of our progress, shaping the tools and structures we need to survive."
-				""
-				"But wood is only the beginning. To truly advance, we must dig deeper—into the very core of the world itself. Beneath our feet lies a wealth of untapped resources, waiting to be uncovered. Stone, coal, and precious ores will fuel our ascent from simple craftsmanship to powerful automation."
-				""
-				"With each swing of the axe and every strike of the pickaxe, we lay the groundwork for something greater. The path ahead is long, but every journey begins with a single block. Let’s get to work!"
-			]
-			icon: "minecraft:oak_log"
+			description: ["We start with the tedious tasks of any Minecraft journey, gathering wood and stone. The material will be the stepping stones to moving forward with our operations and developing the tools we need to grow."]
 			id: "150B3A6B61937F78"
 			require_sequential_tasks: false
 			rewards: [{
@@ -83,13 +78,7 @@
 		}
 		{
 			dependencies: ["150B3A6B61937F78"]
-			description: [
-				"Every great adventure starts with the right tools, and to create them, we need the basics: a Crafting Station and a Furnace. These fundamental workstations are the heart of early survival, allowing us to shape raw materials into useful equipment and process resources for greater efficiency."
-				""
-				"The Crafting Station gives us the ability to combine materials, forging weapons, tools, and essential structures to aid in our journey. Meanwhile, the Furnace lets us smelt ores, cook food, and refine gathered resources into more advanced components."
-				""
-				"With these two essential tools in place, we take our first real step toward progress. From simple tools to complex machines, everything begins here—so let’s get to work!"
-			]
+			description: ["Crafting Tables and a Furnace are the next objects to get rolling. Again, we are not venturing far from our Vanilla adventures. We get these going to make our parts and start crafting. If you make a Crafting Station, it can read any chest that it is connected to."]
 			id: "35008BA8C5E8AD5B"
 			require_sequential_tasks: false
 			rewards: [
@@ -136,13 +125,7 @@
 		}
 		{
 			dependencies: ["35008BA8C5E8AD5B"]
-			description: [
-				"After a long day of adventuring, gathering, and exploring, you need a place to store everything you've collected. That’s where chests come in—they are the heart of our operations, offering the space to house all of your plunders."
-				""
-				"From ores and wood to rare artifacts and crafted goods, chests keep your items organized and accessible. They become your personal treasure troves, filled with the fruits of your hard work and daring expeditions. Whether you're storing resources for future projects or holding onto valuables for trade, having a well-organized chest system is key to maintaining efficiency and keeping track of what you’ve gathered."
-				""
-				"Set up your storage, keep things tidy, and prepare for the next adventure with everything neatly stored and ready for use!"
-			]
+			description: ["With all the materials and crafting we are doing, we need to store all our items. Chests are the next item to make and are a start to storing items. We are going to want quite a few of these to move forward."]
 			id: "5EB800B895DDCBFB"
 			require_sequential_tasks: false
 			rewards: [{
@@ -160,7 +143,7 @@
 						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:chests/wooden)"
 					}
 				}
-				title: "Any #forge:chests/wooden"
+				title: "Chest"
 				type: "item"
 			}]
 			title: "Getting Organized"
@@ -169,21 +152,7 @@
 		}
 		{
 			dependencies: ["5EB800B895DDCBFB"]
-			description: [
-				"With access to Redstone, our storage solutions evolve beyond simple chests. No longer confined to basic wooden crates, we can now expand and optimize our inventory management, ensuring that every resource has its place without taking up unnecessary space."
-				""
-				"By integrating Redstone into our storage systems, we can upgrade our standard chests into larger, more efficient containers, reducing clutter and making organization seamless. Whether it's through storage expansions, sorting systems, or even automated item retrieval, Redstone opens the door to a more sophisticated way to manage our ever-growing collection of resources."
-				""
-				"With the right setup, we’ll spend less time searching and more time adventuring. It’s time to upgrade, automate, and take control of our storage like never before!"
-			]
-			icon: {
-				Count: 1
-				id: "sophisticatedstorage:chest"
-				tag: {
-					accentColor: 8991416
-					mainColor: 8991416
-				}
-			}
+			description: ["Once we have gained access to Redstone, we can upgrade our chests to Sophisticated Chests. These chests can be upgraded to larger capacities as well as hold a multitude of upgrades to increase stack sizes and more."]
 			id: "24DB690822140D7E"
 			require_sequential_tasks: false
 			rewards: [{
@@ -197,10 +166,10 @@
 					Count: 1
 					id: "ftbfiltersystem:smart_filter"
 					tag: {
-						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(sophisticatedstorage:base_tier_wooden_storage)"
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(sophisticatedstorage:all_storage)"
 					}
 				}
-				title: "Any Basic Sophisiticated Storage"
+				title: "Sophisiticated Storage"
 				type: "item"
 			}]
 			title: "Getting Sophisticated"
@@ -209,13 +178,7 @@
 		}
 		{
 			dependencies: ["5EB800B895DDCBFB"]
-			description: [
-				"When exploring the vast world, inventory space quickly becomes a limiting factor. Our pockets can only hold so much before we’re forced to leave valuable resources behind. That’s why having a backpack is almost a necessity for any adventurer."
-				""
-				"A backpack grants extra storage, allowing you to carry more materials, tools, and treasures without constantly returning home. Whether you’re mining deep underground, traversing distant lands, or gathering rare resources, this portable storage solution ensures you’re always prepared."
-				""
-				"With the right upgrades, some backpacks can even offer crafting grids or feed you, making them even more invaluable. Strap one on, pack it full, and set off knowing you have everything you need for the journey ahead!"
-			]
+			description: ["One great item on any adventure is a backpack. With addition storage while out in those caves or while exploring villages, we can ensure we bring home as many materials and findings as possible."]
 			id: "626D8B47A8BE8566"
 			optional: true
 			require_sequential_tasks: false
@@ -225,9 +188,8 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "1103AB8900F8B01D"
+				id: "22C19A734FAFD0D6"
 				item: "sophisticatedbackpacks:backpack"
-				match_nbt: false
 				type: "item"
 			}]
 			title: "Backpacking"
@@ -236,13 +198,7 @@
 		}
 		{
 			dependencies: ["24DB690822140D7E"]
-			description: [
-				"As our collection of resources grows, managing individual chests can become a tedious task. Sorting through stacks of materials, tools, and treasures takes time—time better spent adventuring. That’s where the Storage Controller comes in."
-				""
-				"This powerful tool allows us to link all of our storage chests into one centralized system, making it easy to deposit and retrieve items with just a single block. No more searching through endless containers—everything is seamlessly connected and accessible in an instant."
-				""
-				"The Storage Controller is especially useful in a starter storage system, where efficiency is key, but automation isn’t fully in place yet. Whether you’re unloading loot from an expedition or organizing resources for crafting, this tool ensures that your storage remains as streamlined and effective as possible."
-			]
+			description: ["With Sophisticated Storage, we can also pipe in and out of the network using a Storage Controller. This simple block can link to chests in range to allow access to them using one central access point. This is a great starting point for advancing our storage."]
 			id: "631AFA5E8CC2810D"
 			require_sequential_tasks: false
 			rewards: [{
@@ -261,13 +217,7 @@
 		}
 		{
 			dependencies: ["631AFA5E8CC2810D"]
-			description: [
-				"To fully harness the power of the Storage Controller, we need a way to connect all of our chests into one seamless system. That’s where the Storage Tool comes in."
-				""
-				"This essential device allows us to link chests and barrels to the controller, creating an organized and efficient network. With a few simple clicks, every connected container becomes part of a larger system, making it effortless to deposit, retrieve, and manage items from a single point."
-				""
-				"Whether setting up a starter storage solution or preparing for more advanced automation, the Storage Tool is a must-have for any adventurer looking to keep their inventory in order. Link it, sync it, and store smarter!"
-			]
+			description: ["In order to link storages to the Storage Controller, we need the Storage Tool. This will allow you to tell the controller which chests to connect to."]
 			id: "367827D38EAE8781"
 			require_sequential_tasks: false
 			rewards: [{
@@ -287,7 +237,6 @@
 		{
 			dependencies: ["24DB690822140D7E"]
 			description: ["Sophisticated Storage chests can be upgraded with the materials we gather. This increases the internal size of the chests allowing a single chest to eventually hold more than double its size."]
-			icon: "sophisticatedstorage:basic_to_diamond_tier_upgrade"
 			id: "4717B8DD6ABFFB74"
 			require_sequential_tasks: false
 			rewards: [{
@@ -314,15 +263,7 @@
 		}
 		{
 			dependencies: ["5EB800B895DDCBFB"]
-			description: [
-				"During your travels, you’ll inevitably collect countless items that don’t need to pile up in stacks. Whether it’s dirt, stone, or common materials, gathering them in large quantities can quickly become a burden. This is where Dank Storage comes in to save the day."
-				""
-				"This handy cube, when properly configured, can automatically collect and void the excess to free up precious space. No more lugging around stacks of unwanted materials—Dank Storage keeps things organized and efficient."
-				""
-				"Not only can it manage resources, but it can also place blocks you've selected into the world, making it an invaluable tool for streamlining your building process. As you gather, let Dank Storage do the heavy lifting, allowing you to focus on the important tasks at hand."
-				""
-				"Travel light, stay organized, and never worry about excess clutter again!"
-			]
+			description: ["We know how cluttered it can get when we are out mining and gathering materials. The Dank Null allows you to place items within it and then use it to collect and void and excess. Higher tiers hold more items and higher quantities. You can also configure the Dank to be able to place blocks without having to put them in your inventory."]
 			id: "71BB6AA60647CE9E"
 			optional: true
 			require_sequential_tasks: false
@@ -334,22 +275,23 @@
 			}]
 			tasks: [{
 				id: "5A287F98EC39954C"
-				item: "dankstorage:dank_1"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(dankstorage:dank_storages)"
+					}
+				}
+				title: "Dank"
 				type: "item"
 			}]
 			title: "The Magic Cube"
-			x: -5.0d
+			x: -3.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["5EB800B895DDCBFB"]
-			description: [
-				"Before we can power up our first machines, we need the essential building blocks of technology—Iron and Copper. These core materials are the foundation of crafting better tools, machines, and storage systems."
-				""
-				"A simple mining trip should provide everything needed to kickstart progress. Iron is crucial for sturdy machinery and advanced crafting, while Copper helps in creating key components for automation. With just a few good veins, we can begin assembling the tools necessary to expand our adventure."
-				""
-				"Grab your pickaxe, venture into the depths, and unearth the future of innovation!"
-			]
+			description: ["The first and most basic materials we need are Copper and Iron. By gathering these, we can begin to process metals and start our journey into the world of machinery and automation."]
 			id: "43EA598EC21DA525"
 			require_sequential_tasks: false
 			rewards: [
@@ -378,17 +320,11 @@
 			]
 			title: "Getting Minerals"
 			x: -3.0d
-			y: -3.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["43EA598EC21DA525"]
-			description: [
-				"With all the tools needed for adventure and automation, inventory space can quickly become cluttered. Constantly switching between pickaxes, axes, and wrenches can slow you down. That’s where the Toolbelt comes in!"
-				""
-				"This handy accessory lets you store essential tools while keeping them quickly accessible, freeing up inventory space and keeping everything organized. Whether you're deep in a mine, building intricate machinery, or exploring distant lands, the Toolbelt ensures your most-used tools are always within reach."
-				""
-				"Equip yourself for efficiency—strap on a Toolbelt and keep your adventure rolling!"
-			]
+			description: ["With the many tools and wrenches we will need, the Toolbelt allows us to stow them all away for use without using extra inventory slots. Simply put the belt on by hitting the designated hot key and then use the hot keys to add and remove items as needed. You can even swap the items with ones already in the belt."]
 			id: "7EC8D3471FB3EEDE"
 			optional: true
 			require_sequential_tasks: false
@@ -404,17 +340,11 @@
 			}]
 			title: "All the Tools"
 			x: -2.0d
-			y: -3.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["43EA598EC21DA525"]
-			description: [
-				"Our first foray into technology begins with kinetic energy, a powerful force that drives the early machines of our adventure. Thanks to the Create mod, we can harness this energy and bring our creations to life."
-				""
-				"To get started with anything kinetic, Andesite is a key resource. You can find it while mining deep underground, or you can craft it by combining other materials. Andesite serves as the foundation for many early Create components, from gears to mechanical components, unlocking the potential for automation and advanced machinery."
-				""
-				"Start your journey by gathering Andesite, and let kinetic energy power your adventure to new heights!"
-			]
+			description: ["Andesite is a crucial ingredient to get moving with kinetic energy. We want to gather up some of this to be able to start our adventures into the world of Create and the starts of automation."]
 			id: "1A7820CA8E752427"
 			require_sequential_tasks: false
 			rewards: [{
@@ -431,18 +361,12 @@
 				type: "item"
 			}]
 			title: "Get Create-ive"
-			x: -2.0d
-			y: -2.5d
+			x: -1.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["631AFA5E8CC2810D"]
-			description: [
-				"Digging through endless chests, searching for that one item you need, can quickly become frustrating. Fortunately, we have a Simple Storage Solution—the Simple Storage Network!"
-				""
-				"This system is the perfect starter storage solution before transitioning to the more advanced Applied Energistics 2 system. By utilizing the Storage Controller, the Simple Storage Network allows you to access all your linked chests from a single interface, making item management effortless."
-				""
-				"No more opening chest after chest—just search, retrieve, and deposit with ease. Whether you're just getting started or looking for a lightweight storage system before diving into high-tech automation, Simple Storage Network is a game-changer for any adventurer."
-			]
+			description: ["Having to sift through the many chests we have can be tedious. This is where simple storage comes in. We can link the system to our Storage Controller or any other item and see all the inventories in one place."]
 			id: "232B6B3758CD612E"
 			rewards: [{
 				count: 5
@@ -473,13 +397,7 @@
 		}
 		{
 			dependencies: ["232B6B3758CD612E"]
-			description: [
-				"After a long adventure, manually emptying your backpack and sorting your loot can feel like a chore. The same goes for restocking supplies before setting out on another journey. Fortunately, Import and Export Cables offer a simple solution to streamline the process!"
-				""
-				"By integrating these cables into your Simple Storage Network, you can create a central hub to automatically deposit collected items and restock essential supplies before heading out again. Whether it’s unloading ores into smelters, refilling food and torches for a mining trip, or automating early machines, these cables provide a powerful way to keep things running efficiently."
-				""
-				"With a well-designed system, your storage will work for you—less time sorting, more time adventuring!"
-			]
+			description: ["With a Simple Storage Network up and running, we can also import and export items directly into the network. This will place the items in the first available slot it finds."]
 			id: "44FB0F9E709186CA"
 			rewards: [{
 				count: 5
@@ -505,13 +423,7 @@
 		}
 		{
 			dependencies: ["43EA598EC21DA525"]
-			description: [
-				"Running around to pick up every scattered item can be a tedious task. Whether it’s loose blocks from mining, drops from mobs, or materials from automation, gathering them by hand takes time. That’s where a magnet comes in!"
-				""
-				"With a magnet equipped, items automatically pull toward you, eliminating the need to chase after stray blocks or risk losing valuable ores to deep caverns. No more watching that freshly mined resource tumble into the abyss—just mine, move, and let the magnet do the work."
-				""
-				"Stay efficient, keep your loot secure, and make collection effortless with the power of a magnet!"
-			]
+			description: ["Collecting items can sometimes be dangerous and not worth the risk. We also want to ensure we are able to collect all of the precious items we are after. A magnet can pull these items into our inventory without the fear of losing them in the world."]
 			id: "063F26267EC1C500"
 			optional: true
 			rewards: [{
@@ -530,18 +442,12 @@
 				type: "item"
 			}]
 			title: "Magnetize"
-			x: -4.0d
+			x: -2.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["599030C9DB9B1E08"]
-			description: [
-				"Early exploration can be a daunting trek without the right tools. Traversing mountains, crossing vast valleys, and navigating rugged terrain takes time and effort. But with a hang glider, the world opens up in new and exciting ways."
-				""
-				"By climbing to high locations, you can take to the skies, gliding gracefully down to safety or soaring toward new horizons. No longer bound by the slow trudge of uneven ground, you can cover great distances with ease, scouting ahead and reaching far-off destinations faster than ever."
-				""
-				"Master the winds, embrace the freedom of flight, and let the hang glider turn every high peak into a launching point for adventure!"
-			]
+			description: ["Getting around early on can be a drag without the proper equipment. A hang glider can come in handy for this and allows you to get up high and just jump and glide. Combine this with a slime sling and you wil be cruising around."]
 			id: "7A49B7F5D8A4E9E6"
 			optional: true
 			rewards: [{
@@ -559,11 +465,12 @@
 				id: "6AE7FAFB31083063"
 				item: {
 					Count: 1
-					id: "hangglider:hang_glider"
+					id: "ftbfiltersystem:smart_filter"
 					tag: {
-						Damage: 0
+						"ftbfiltersystem:filter": "or(item(hangglider:hang_glider)item(hangglider:reinforced_hang_glider))"
 					}
 				}
+				title: "Glider"
 				type: "item"
 			}]
 			title: "Gliding Around"
@@ -573,11 +480,9 @@
 		{
 			dependencies: ["599030C9DB9B1E08"]
 			description: [
-				"Surviving in the wild isn’t just about gathering resources and building machines—it’s about keeping yourself well-fed and ready for adventure. A full stomach means better stamina, faster healing, and the strength to take on whatever challenges the world throws your way."
-				""
-				"While any food can keep you going, a diverse diet brings even greater benefits. Different meals provide unique boosts, making it worthwhile to mix things up and experiment with new recipes. That’s where the cooking table comes in. This essential tool lets you track recipes and prepare delicious meals with the ingredients you have on hand."
-				""
-				"From simple snacks to hearty feasts, the right food can make all the difference in your journey. Gather, cook, and enjoy—because every great adventurer needs a good meal to keep moving forward!"
+				"Food is a very vital piece of any diet. In this pack, the more foods you eat, the more hearts you can gain. This will come in handy later on down the road as we have to face many difficult enemies. You are given a food book to track just how many foods you have eaten and hearts you have gained."
+				"{@pagebreak}"
+				"The Sink from Cooking for Blockheads does provide infinite water. To immerse yourself in the true experience of the pack, I recommend using alternative ways to get water and not piping it out from the sink."
 			]
 			id: "62BE232080B9F262"
 			rewards: [{
@@ -599,11 +504,7 @@
 				"62BE232080B9F262"
 				"1AAF8C310BB892B1"
 			]
-			description: [
-				"With an Applied Energistics 2 system in place, we can craft a Digital Kitchen Station. This advanced cooking station allows you to access and use the resources stored in your network to cook up a variety of meals."
-				""
-				"The Digital Kitchen Station streamlines the cooking process by pulling ingredients directly from your network, enabling you to craft meals without having to manually gather or store the ingredients. This is a great way to automate your food production while maintaining the efficiency of your storage system."
-			]
+			description: ["Once you have your AE2 system up and running, you want to be able to continue to eat with your diverse diet while also not having to run back and forth between the system. The Kitchen Station allows you to connect directly to your system and use the ingredients within to cook your meals."]
 			id: "256CAD10733A0F26"
 			rewards: [{
 				count: 5
@@ -623,13 +524,9 @@
 		{
 			dependencies: ["599030C9DB9B1E08"]
 			description: [
-				"Once your machines are up and running, the world calls you to adventure beyond your home base. But progress doesn’t pause just because you’re away—you need a way to keep everything operating while you explore."
+				"Keeping your operations running when not at your base or while offline on a server can be crucial to development. Chunk loaders are your friend for these scenarios. These chunk loaders are server friendly and efficient."
 				""
-				"By harnessing the resources around you, you can construct a chunk loader, a machine that keeps your automation running even when you're far from home. Whether it’s ore processing, farming, or power generation, this tool ensures that your creations continue working in your absence."
-				""
-				"However, be cautious—there are limits to how much can run at once. Plan wisely, manage your machines carefully, and strike a balance between adventure and automation."
-				""
-				"Keep the gears turning, even when you're miles away!"
+				"NOTE: FTB Chunk Loading is disabled in this pack. You will need to gather the materials to make a chunk loader."
 			]
 			id: "0900A4B5AB566AC8"
 			optional: true
@@ -640,7 +537,14 @@
 			}]
 			tasks: [{
 				id: "32502E95BDDD9035"
-				item: "chunkloaders:basic_chunk_loader"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(chunkloaders:single_chunk_loader)item(chunkloaders:basic_chunk_loader)item(chunkloaders:advanced_chunk_loader)item(chunkloaders:ultimate_chunk_loader))"
+					}
+				}
+				title: "Chunk Loader"
 				type: "item"
 			}]
 			title: "Keep it Running"
@@ -650,11 +554,9 @@
 		{
 			dependencies: ["599030C9DB9B1E08"]
 			description: [
-				"Navigating the world is as crucial as shaping it. Knowing where you are—and where you've been—can mean the difference between adventure and aimless wandering. To chart your journey, leave markers along the way, guiding your path back to familiar ground. A well-placed torch, a towering pillar, or even a carved-out trail can serve as a beacon in the vast unknown."
-				""
-				"But when distances grow too great and landmarks fade into the horizon, a waystone becomes an invaluable tool. With its power, you can teleport between discovered locations, bridging the gap between distant outposts and your home base. Whether venturing deep into the wilderness or exploring underground caverns, waystones ensure that no matter how far you travel, you’re never truly lost."
-				""
-				"Mark your path, set your waypoints, and let the world become yours to conquer!"
+				"Waystones are a way of travel around our world. We use them in combination with a Warp Stone to move around the world. Place these down in important locations and you can move yourself around when needed."
+				"{@pagebreak}"
+				"You do have access to the standard FTB commands however, if you want to truly get immersed in the pack, I recommend sticking with these stones."
 			]
 			id: "501F2B7F2A872111"
 			optional: true
@@ -678,7 +580,7 @@
 						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(waystones:waystones)"
 					}
 				}
-				title: "Any #waystones:waystones"
+				title: "Waystone"
 				type: "item"
 			}]
 			title: "Fast Travel"
@@ -686,21 +588,115 @@
 			y: -2.5d
 		}
 		{
-			dependencies: [
-				"599030C9DB9B1E08"
-				"6C694DEF01960C4A"
-			]
+			dependencies: ["599030C9DB9B1E08"]
 			description: ["Building can be a tedious step when done by hand. This becomes easier with the use of a gadget intended for such a thing. The building gadget can be handy for building as well as bridging while mining. You can configure the tool to do exactly as you want by simple copying blocks or using schematics. Ease your building ventures with this handy tool!"]
 			id: "65C7C35316BBF17B"
 			optional: true
 			tasks: [{
 				id: "785EA77BBE4DF988"
-				item: "buildinggadgets2:gadget_building"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(buildinggadgets2:gadget_building)item(constructionwand:stone_wand)item(constructionwand:iron_wand)item(constructionwand:diamond_wand)item(constructionwand:infinity_wand))"
+					}
+				}
+				title: "Building Gadgets"
 				type: "item"
 			}]
 			title: "Gadget Builder"
 			x: -6.0d
 			y: -4.5d
+		}
+		{
+			dependencies: ["7A49B7F5D8A4E9E6"]
+			description: ["The next step in flight is getting yourself a nice vehicle. The Glider works to just drift where you want but an aircraft will allow you to move more freely through the skies."]
+			id: "373220A94F47DB1D"
+			rewards: [{
+				id: "314DD106FFE3487E"
+				item: "immersive_aircraft:sail"
+				type: "item"
+			}]
+			tasks: [{
+				id: "397F5A22CAD1587C"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(immersive_aircraft:airship)item(immersive_aircraft:cargo_airship)item(immersive_aircraft:warship)item(immersive_aircraft:biplane)item(immersive_aircraft:gyrodyne)item(immersive_aircraft:quadrocopter)item(immersive_aircraft:bamboo_hopper))"
+					}
+				}
+				title: "Aircraft"
+				type: "item"
+			}]
+			title: "Fly Like an Eagle!"
+			x: -7.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["35008BA8C5E8AD5B"]
+			description: ["Enchanting is crucial to ensuring you can stay alive in times of heavy battle. We have to ensure we balance our Arcana, Eterna and Quanta for the enchants we need. See the Apotheosis guide book for more information."]
+			id: "2C90E3F7B70D991A"
+			rewards: [
+				{
+					id: "7EDDDD1A12381334"
+					item: "create:experience_block"
+					type: "item"
+				}
+				{
+					id: "09B0A20534D4D540"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "apotheosis:apoth_chronicle"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7E3775270C4057D6"
+				item: "minecraft:enchanting_table"
+				type: "item"
+			}]
+			title: "Super Powers"
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["150B3A6B61937F78"]
+			description: [
+				"Silent gear is one of our options for tools and armor within the pack. You can create and mold your equipment to your liking with this mod. A good note to have is that sometimes the Apotheosis affix tools you find need to have their toolhead replaced to be usable."
+				""
+				"I.E. An Iron Pickaxe may need a new iron head to actually mine what it should."
+			]
+			icon: {
+				Count: 1
+				id: "silentgear:blueprint_book"
+				tag: {
+					Inventory: { }
+				}
+			}
+			id: "46D43A2171492BAA"
+			rewards: [{
+				id: "089D37DC4E719D12"
+				item: {
+					Count: 1
+					id: "silentgear:blueprint_package"
+					tag: {
+						silentlib.LootContainer: { }
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "58323B4C349CCF50"
+				type: "checkmark"
+			}]
+			title: "Silent's Tools"
+			x: -6.0d
+			y: -2.5d
 		}
 	]
 	title: "Getting Started"

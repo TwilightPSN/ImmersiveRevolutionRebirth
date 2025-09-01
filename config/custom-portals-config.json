@@ -2,7 +2,7 @@
 {
   "ConfiguredPortals": [
     {
-      "isFlat": false,
+      "isFlat": true,
       "frameBlock": "kubejs:end_frame_bricks",
       "isFluidIgniter": false,
       "itemIgniter": "kubejs:end_key",

@@ -13,4 +13,7 @@ ServerEvents.recipes(IRRebirth => {
   IRRebirth.replaceInput({input: 'create_dd:bronze_sheet'},'create_dd:bronze_sheet', '#forge:plates/bronze')
   IRRebirth.replaceInput({input: 'create_dd:bronze_block'}, 'create_dd:bronze_block', '#forge:storage_blocks/bronze')
   IRRebirth.replaceInput({input: 'create_dd:bronze_nugget'}, 'create_dd:bronze_nugget', '#forge:nuggets/bronze')
+  IRRebirth.replaceInput({output: 'createsifter:sifter'}, '#minecraft:planks', '#forge:treated_wood')
+  IRRebirth.replaceInput({output: 'createsifter:sifter'}, '#forge:rods/wooden','immersiveengineering:stick_treated')
+  IRRebirth.replaceInput({output: 'create_mechanical_extruder:mechanical_extruder' },'#c:glass_blocks','immersiveengineering:insulating_glass')
 })

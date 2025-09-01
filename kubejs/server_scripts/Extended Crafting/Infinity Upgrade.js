@@ -26,13 +26,13 @@ ServerEvents.recipes(IRRebirth => {
             "type": "forge:nbt",
             "item": "mekanism:ultimate_bin",
             "count": 1,
-            "nbt": "{mekData:{Items:[{Item:{Count:0b,id:\"mekanism:pellet_plutonium\"},SizeOverride:262144,Slot:0b}]}}"
+            "nbt": "{mekData:{Items:[{Item:{Count:0b,id:\"mekanism:ultimate_tier_installer\"},SizeOverride:262144,Slot:0b}]}}"
           },
           "E": {
             "type": "forge:nbt",
             "item": "mekanism:ultimate_bin",
             "count": 1,
-            "nbt": "{mekData:{Items:[{Item:{Count:0b,id:\"mekanism:pellet_antimatter\"},SizeOverride:262144,Slot:0b}]}}"
+            "nbt": "{mekData:{Items:[{Item:{Count:0b,id:\"mekanism:steel_casing\"},SizeOverride:262144,Slot:0b}]}}"
           },
           "F": {
             "type": "forge:nbt",
@@ -44,7 +44,7 @@ ServerEvents.recipes(IRRebirth => {
             "type": "forge:nbt",
             "item": "mekanism:ultimate_bin",
             "count": 1,
-            "nbt": "{mekData:{Items:[{Item:{Count:0b,id:\"immersiveengineering:component_electronic\"},SizeOverride:262144,Slot:0b}]}}"
+            "nbt": "{mekData:{Items:[{Item:{Count:0b,id:\"immersiveengineering:component_electronic_adv\"},SizeOverride:262144,Slot:0b}]}}"
           },
           "H": {
             "type": "forge:nbt",
@@ -56,7 +56,7 @@ ServerEvents.recipes(IRRebirth => {
             "type": "forge:nbt",
             "item": "mekanism:ultimate_bin",
             "count": 1,
-            "nbt": "{mekData:{Items:[{Item:{Count:0b,id:\"mekanism:pellet_polonium\"},SizeOverride:262144,Slot:0b}]}}"
+            "nbt": "{mekData:{Items:[{Item:{Count:0b,id:\"mekanism:hdpe_rod\"},SizeOverride:262144,Slot:0b}]}}"
           },
           "J": {
             "type": "forge:nbt",
@@ -68,7 +68,7 @@ ServerEvents.recipes(IRRebirth => {
             "type": "forge:nbt",
             "item": "mekanism:ultimate_bin",
             "count": 1,
-            "nbt": "{mekData:{Items:[{Item:{Count:0b,id:\"immersiveengineering:wire_electrum\"},SizeOverride:262144,Slot:0b}]}}"
+            "nbt": "{mekData:{Items:[{Item:{Count:0b,id:\"immersiveengineering:coil_mv\"},SizeOverride:262144,Slot:0b}]}}"
           },
           "L": {
             "item": "advanced_ae:quantum_core"

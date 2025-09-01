@@ -1,62 +1,32 @@
 LootJS.modifiers((IRRebirth) => {
   IRRebirth
     .addLootTypeModifier(LootType.CHEST)
-    .removeLoot(["silentgear:helmet",
-      "silentgear:chestplate",
-      "silentgear:leggings",
-      "silentgear:boots",
-      "silentgear:elytra",
-      "draconicevolution:draconium_ingot",
+    .removeLoot(["draconicevolution:draconium_ingot",
       "draconicevolution:draconium_dust"
     ]);
   IRRebirth
     .addLootTypeModifier(LootType.ENTITY)
-    .removeLoot(["silentgear:helmet",
-    "silentgear:chestplate",
-    "silentgear:leggings",
-    "silentgear:boots",
-    "silentgear:elytra",
-    "draconicevolution:draconium_ingot",
+    .removeLoot(["draconicevolution:draconium_ingot",
     "draconicevolution:draconium_dust"
   ]);
   IRRebirth
     .addLootTypeModifier(LootType.UNKNOWN)
-    .removeLoot(["silentgear:helmet",
-    "silentgear:chestplate",
-    "silentgear:leggings",
-    "silentgear:boots",
-    "silentgear:elytra",
-    "draconicevolution:draconium_ingot",
+    .removeLoot(["draconicevolution:draconium_ingot",
     "draconicevolution:draconium_dust"
   ]);
   IRRebirth
     .addLootTypeModifier(LootType.BLOCK)
-    .removeLoot(["silentgear:helmet",
-    "silentgear:chestplate",
-    "silentgear:leggings",
-    "silentgear:boots",
-    "silentgear:elytra",
-    "draconicevolution:draconium_ingot",
+    .removeLoot(["draconicevolution:draconium_ingot",
     "draconicevolution:draconium_dust"
   ]);
   IRRebirth
     .addLootTypeModifier(LootType.FISHING)
-    .removeLoot(["silentgear:helmet",
-    "silentgear:chestplate",
-    "silentgear:leggings",
-    "silentgear:boots",
-    "silentgear:elytra",
-    "draconicevolution:draconium_ingot",
+    .removeLoot(["draconicevolution:draconium_ingot",
     "draconicevolution:draconium_dust"
   ]);
   IRRebirth
     .addLootTypeModifier(LootType.GIFT)
-    .removeLoot(["silentgear:helmet",
-    "silentgear:chestplate",
-    "silentgear:leggings",
-    "silentgear:boots",
-    "silentgear:elytra",
-    "draconicevolution:draconium_ingot",
+    .removeLoot(["draconicevolution:draconium_ingot",
     "draconicevolution:draconium_dust"
   ]);
 

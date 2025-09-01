@@ -1,5 +1,5 @@
 
 [logbegone]
-	regex = ["Disconnecting VANILLA connection attempt", "Channels ", "Couldn't set damage of loot item"]
-	phrases = ["Disconnecting VANILLA connection attempt", "Channels ", "Couldn't set damage of loot item"]
+	regex = ["Disconnecting VANILLA connection attempt", "Channels ", "Couldn't set damage of loot item", "Detected setBlock in a far chunk"]
+	phrases = ["Disconnecting VANILLA connection attempt", "Channels ", "Couldn't set damage of loot item", "Detected setBlock in a far chunk"]
 

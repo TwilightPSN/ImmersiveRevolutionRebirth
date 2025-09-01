@@ -32,7 +32,9 @@ ServerEvents.tags('block', IRRebirth => {
     'immersiveengineering:deepslate_ore_aluminum',
     'immersiveengineering:ore_aluminum',
     'bno:nether_osmium_ore',
-    'beo:end_osmium_ore'
+    'beo:end_osmium_ore',
+    'create_dd:tin_ore',
+    'create_dd:deepslate_tin_ore'
   ])
   IRRebirth.remove('minecraft:needs_iron_tool', [
     'beo:end_silver_ore',
@@ -76,7 +78,9 @@ ServerEvents.tags('block', IRRebirth => {
     'bno:nether_silver_ore', 
     'overworldquartzore:deepslate_quartz_ore',
     'beo:end_aluminum_ore',
-    'immersiveengineering:deepslate_ore_aluminum'
+    'immersiveengineering:deepslate_ore_aluminum',
+    'create_dd:tin_ore',
+    'create_dd:deepslate_tin_ore'
   ])
   IRRebirth.add('forge:needs_netherite_tool', [
     'powah:uraninite_ore_dense',

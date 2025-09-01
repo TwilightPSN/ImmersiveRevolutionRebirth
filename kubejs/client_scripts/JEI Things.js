@@ -69,35 +69,6 @@ JEIEvents.hideItems(IRRebirth => {
     IRRebirth.hide("@bno");
     IRRebirth.hide("@beo");
     IRRebirth.hide('createdeco:zinc_sheet');
-    IRRebirth.hide(['silentgear:crude_repair_kit',
-        'silentgear:crimson_repair_kit',
-        'silentgear:chestplate_template',
-        'silentgear:boots_template',
-        'silentgear:boots_blueprint',
-        'silentgear:azure_repair_kit',
-        'silentgear:leggings_template',
-        'silentgear:sturdy_repair_kit',
-        'silentgear:very_crude_repair_kit',
-        'silentgear:chestplate_blueprint',
-        'silentgear:helmet_blueprint',
-        'silentgear:leggings_blueprint',
-        'silentgear:helmet_template',
-        'silentgear:elytra_template',
-        'silentgear:elytra_blueprint',
-        'silentgear:helmet_plates',
-        'silentgear:helmet_plates',
-        'silentgear:chestplate_plates',
-        'silentgear:legging_plates',
-        'silentgear:boot_plates',
-        'silentgear:elytra_wings',
-        'silentgear:lining',
-        'silentgear:lining_template',
-        'silentgear:lining_blueprint',
-        'silentgear:helmet',
-        'silentgear:chestplate',
-        'silentgear:leggings',
-        'silentgear:boots'
-    ])
     IRRebirth.hide('/create_connected:copycat_.*/')
     IRRebirth.hide(['/botanypots:.*/', '/botanypotstiers:.*/'])
     IRRebirth.hide(['utilitarian:snad', 'utilitarian:red_snad', 'utilitarian:soul_snad'])
@@ -126,6 +97,18 @@ JEIEvents.information(IRRebirth => {
     IRRebirth.addItem('#forge:ores_in_ground/deepslate', ['Drops additional Resources compared to Stone Variants'])
     IRRebirth.addItem('#forge:ores_in_ground/netherrack', ['Drops additional Resources compared to Deepslate Variants'])
     IRRebirth.addItem('#forge:ores_in_ground/end_stone', ['Drops additional Resources compared to Netherrack Variants'])
+    IRRebirth.addItem(['mekanism:steel_casing',
+        'mekanism:ultimate_tier_installer',
+        'mekanism:hdpe_rod',
+        'immersiveengineering:coil_mv',
+        'immersiveengineering:ersatz_leather',
+        'immersiveengineering:component_electronic_adv',
+        'minecraft:cobblestone',
+        'minecraft:end_stone',
+        'minecraft:netherrack',
+        'create:blaze_cake',
+        'create:brass_casing',
+        'create_sa:steam_engine'], ['Required to fill an Ultimate Bin of these items for Survival Infinity Upgrade'])
 })
 
 JEIEvents.addItems(IRRebirth => {

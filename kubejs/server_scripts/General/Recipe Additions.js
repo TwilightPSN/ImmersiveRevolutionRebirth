@@ -186,7 +186,7 @@ ServerEvents.recipes(IRRebirth => {
         ]
       ).id('quark:building/crafting/raw_copper_bricks_revert')
       IRRebirth.shapeless(
-        Item.of('minecraft:copper_block', 4),
+        Item.of('minecraft:copper_block'),
         [
           'minecraft:cut_copper'
         ]
