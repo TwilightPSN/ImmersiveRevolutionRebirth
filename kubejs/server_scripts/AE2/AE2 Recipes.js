@@ -149,4 +149,15 @@ ServerEvents.recipes(IRRebirth => {
               'fulleng:crafting_terminal'
             ]
           ).id('fulleng:network/parts/terminals_pattern_encoding_full')
+        IRRebirth.custom(
+          {
+            "type": "ae2:charger",
+            "ingredient": {
+              "item": "ae2:certus_quartz_crystal"
+            },
+            "result": {
+              "item": "ae2:charged_certus_quartz_crystal"
+            }
+          }
+        )
 })

@@ -20,6 +20,12 @@
 			x: 1.5d
 			y: 1.0d
 		}
+		{
+			id: "24F57DC3FC7B0F7A"
+			linked_quest: "63255A7E3A19332A"
+			x: 3.0d
+			y: -1.0d
+		}
 	]
 	quests: [
 		{
@@ -157,7 +163,7 @@
 				type: "item"
 			}]
 			title: "Water Kinetics"
-			x: -7.5d
+			x: -8.0d
 			y: 1.0d
 		}
 		{
@@ -346,7 +352,7 @@
 				type: "item"
 			}]
 			title: "Water Stress"
-			x: -7.5d
+			x: -8.5d
 			y: 2.0d
 		}
 		{
@@ -411,7 +417,7 @@
 				}
 			]
 			title: "Wind Power"
-			x: -8.5d
+			x: -9.0d
 			y: 1.0d
 		}
 		{
@@ -430,8 +436,8 @@
 				type: "item"
 			}]
 			title: "Fluid Storage"
-			x: -6.5d
-			y: 1.0d
+			x: -6.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4492B51A9C727D78"]
@@ -449,7 +455,7 @@
 				type: "item"
 			}]
 			title: "Steam Ahoy!"
-			x: -6.5d
+			x: -5.0d
 			y: 2.0d
 		}
 		{
@@ -476,7 +482,7 @@
 			]
 			title: "Fluid Motion"
 			x: -5.5d
-			y: 2.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["36851BE0E8C197B9"]
@@ -823,11 +829,18 @@
 			dependencies: ["7238E258FDDBD561"]
 			description: ["Certus is the key resource to getting a storage system running. This special materials is one that you want to get going now and keep going. Be sure to collect the flawless ones with a Cardboard Box so they don't wear away."]
 			id: "03835B0AAF486B09"
-			rewards: [{
-				id: "69CD9244E6676490"
-				item: "ae2:quartz_block"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "69CD9244E6676490"
+					item: "ae2:quartz_block"
+					type: "item"
+				}
+				{
+					id: "73BB20F555960B82"
+					item: "ae2:guide"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "00D67D3800EA7997"
@@ -1037,6 +1050,72 @@
 			title: "Nether Portal"
 			x: -2.5d
 			y: -1.0d
+		}
+		{
+			dependencies: ["660794159EA5572C"]
+			description: ["Enchantment Industry allows us to use Create to create and remove enchantments. This is a very powerful system that does require quite a bit of setup. It does pay off in the end however."]
+			id: "4DAFC45E42F9954E"
+			rewards: [{
+				id: "3AF56A2A5E4B832A"
+				item: "create_enchantment_industry:hyper_experience_bottle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6BEAF258E26EAEBE"
+				item: "create_enchantment_industry:experience_rotor"
+				type: "item"
+			}]
+			title: "Enchanting Machine"
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1F652642467E9A58"]
+			description: ["With a Trading Depot, we can use Create to automate the trading with our villagers. We can assign the trades and keep the items flowing to be able to get the trades we want."]
+			id: "5D337ADC6B90872A"
+			tasks: [{
+				id: "492503BA5FBEBD59"
+				item: "trading_floor:trading_depot"
+				type: "item"
+			}]
+			title: "Prisoner Trading"
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0125871937D41659"]
+			description: ["The Hydraulic Press is a much more powerful press. This press can do an entire stack at once when provided with materials. It does use much more stress to perform actions."]
+			id: "570973C8F1E1E679"
+			rewards: [{
+				id: "50BC6EC21E37121E"
+				item: "mekanism:block_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3F539380819A4A56"
+				item: "create_dd:hydraulic_press"
+				type: "item"
+			}]
+			title: "Hydraulic Pressing"
+			x: -7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["165BA06960C5C2AB"]
+			description: ["The Sifter can be used to filter out materials from the resources around us. This allows us to get the easy to obtain resources with a simple setup."]
+			id: "1DC92E38196D4E10"
+			rewards: [{
+				id: "29463F74F7D6CD4F"
+				item: "create:large_cogwheel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "003033661B8FDD56"
+				item: "createsifter:sifter"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
 		}
 	]
 	title: "Create"

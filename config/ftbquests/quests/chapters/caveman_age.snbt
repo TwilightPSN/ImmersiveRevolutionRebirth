@@ -286,7 +286,7 @@
 				type: "item"
 			}]
 			title: "The Magic Cube"
-			x: -5.0d
+			x: -3.5d
 			y: -2.5d
 		}
 		{
@@ -320,7 +320,7 @@
 			]
 			title: "Getting Minerals"
 			x: -3.0d
-			y: -3.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["43EA598EC21DA525"]
@@ -340,7 +340,7 @@
 			}]
 			title: "All the Tools"
 			x: -2.0d
-			y: -3.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["43EA598EC21DA525"]
@@ -361,8 +361,8 @@
 				type: "item"
 			}]
 			title: "Get Create-ive"
-			x: -2.0d
-			y: -2.5d
+			x: -1.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["631AFA5E8CC2810D"]
@@ -442,7 +442,7 @@
 				type: "item"
 			}]
 			title: "Magnetize"
-			x: -4.0d
+			x: -2.5d
 			y: -2.5d
 		}
 		{
@@ -632,6 +632,71 @@
 			title: "Fly Like an Eagle!"
 			x: -7.0d
 			y: -5.5d
+		}
+		{
+			dependencies: ["35008BA8C5E8AD5B"]
+			description: ["Enchanting is crucial to ensuring you can stay alive in times of heavy battle. We have to ensure we balance our Arcana, Eterna and Quanta for the enchants we need. See the Apotheosis guide book for more information."]
+			id: "2C90E3F7B70D991A"
+			rewards: [
+				{
+					id: "7EDDDD1A12381334"
+					item: "create:experience_block"
+					type: "item"
+				}
+				{
+					id: "09B0A20534D4D540"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "apotheosis:apoth_chronicle"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7E3775270C4057D6"
+				item: "minecraft:enchanting_table"
+				type: "item"
+			}]
+			title: "Super Powers"
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["150B3A6B61937F78"]
+			description: [
+				"Silent gear is one of our options for tools and armor within the pack. You can create and mold your equipment to your liking with this mod. A good note to have is that sometimes the Apotheosis affix tools you find need to have their toolhead replaced to be usable."
+				""
+				"I.E. An Iron Pickaxe may need a new iron head to actually mine what it should."
+			]
+			icon: {
+				Count: 1
+				id: "silentgear:blueprint_book"
+				tag: {
+					Inventory: { }
+				}
+			}
+			id: "46D43A2171492BAA"
+			rewards: [{
+				id: "089D37DC4E719D12"
+				item: {
+					Count: 1
+					id: "silentgear:blueprint_package"
+					tag: {
+						silentlib.LootContainer: { }
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "58323B4C349CCF50"
+				type: "checkmark"
+			}]
+			title: "Silent's Tools"
+			x: -6.0d
+			y: -2.5d
 		}
 	]
 	title: "Getting Started"

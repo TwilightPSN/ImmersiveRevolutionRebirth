@@ -243,7 +243,7 @@
 				type: "item"
 			}]
 			title: "Water Wheeling"
-			x: -3.0d
+			x: -3.5d
 			y: -1.0d
 		}
 		{
@@ -262,7 +262,7 @@
 				type: "item"
 			}]
 			title: "Windy Ways"
-			x: -2.0d
+			x: -2.5d
 			y: -1.0d
 		}
 		{
@@ -282,7 +282,7 @@
 				type: "item"
 			}]
 			title: "Sailing Away"
-			x: -3.0d
+			x: -3.5d
 			y: -2.0d
 		}
 		{
@@ -323,8 +323,8 @@
 				type: "item"
 			}]
 			title: "Compact Storage"
-			x: -1.0d
-			y: -1.0d
+			x: -1.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["3DF334D3DF981D3D"]
@@ -346,7 +346,7 @@
 				type: "item"
 			}]
 			title: "Explorer's World"
-			x: -4.0d
+			x: -5.0d
 			y: -1.0d
 		}
 		{
@@ -365,7 +365,7 @@
 				type: "dimension"
 			}]
 			title: "The End..."
-			x: -5.0d
+			x: -6.0d
 			y: -1.0d
 		}
 		{
@@ -391,7 +391,7 @@
 				}
 			]
 			title: "The End at Home"
-			x: -4.0d
+			x: -5.0d
 			y: -2.0d
 		}
 		{
@@ -417,7 +417,7 @@
 				}
 			]
 			title: "End Mining Portal"
-			x: -5.0d
+			x: -6.0d
 			y: -2.0d
 		}
 		{
@@ -436,7 +436,7 @@
 				type: "dimension"
 			}]
 			title: "End Mining Dimension"
-			x: -5.0d
+			x: -5.5d
 			y: -3.0d
 		}
 		{
@@ -509,7 +509,7 @@
 			}]
 			title: "Power Arc"
 			x: 0.0d
-			y: -1.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["546D8110EC3DA895"]
@@ -581,7 +581,7 @@
 			}]
 			title: "Environmental Catastrophe"
 			x: 0.0d
-			y: 2.5d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -606,7 +606,7 @@
 			}]
 			title: "Refined"
 			x: 0.0d
-			y: 1.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["47EA72930E8B263C"]
@@ -649,7 +649,7 @@
 			}]
 			title: "Squeezed Dry"
 			x: 0.0d
-			y: 0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: [
@@ -669,7 +669,7 @@
 				type: "item"
 			}]
 			title: "Can't Touch This"
-			x: 1.0d
+			x: 2.0d
 			y: 0.0d
 		}
 		{
@@ -687,8 +687,8 @@
 				type: "item"
 			}]
 			title: "Graphiti"
-			x: 0.0d
-			y: -0.5d
+			x: 1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -733,7 +733,7 @@
 				type: "observation"
 			}]
 			title: "Ka Chow!"
-			x: -2.0d
+			x: -2.5d
 			y: -2.0d
 		}
 		{
@@ -818,7 +818,7 @@
 				type: "item"
 			}]
 			title: "Early Electrodes"
-			x: -1.0d
+			x: 0.0d
 			y: 0.0d
 		}
 		{
@@ -882,8 +882,26 @@
 				type: "observation"
 			}]
 			title: "AutoBelts Assemble"
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["546D8110EC3DA895"]
+			description: ["A Mechanical Extruder can be used to create blocks based on the liquids around it and the block it is on. This will be critical in trying to get harder to gather resources."]
+			id: "63255A7E3A19332A"
+			rewards: [{
+				id: "096254775A00CC52"
+				item: "create:large_cogwheel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7EB96BFE461369FF"
+				item: "create_mechanical_extruder:mechanical_extruder"
+				type: "item"
+			}]
+			title: "Blocks from Nothing"
 			x: -1.0d
-			y: -2.0d
+			y: -0.5d
 		}
 	]
 	title: "Immersive Engineering"

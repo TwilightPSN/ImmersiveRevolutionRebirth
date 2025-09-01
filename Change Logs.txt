@@ -9,6 +9,9 @@ The Quest Revision Update
 
 // Mods Removed //
 -Tree Harvester
+-Obscure Tooltips
+-Obscure Tooltips Fix
+-Oculus
 
 // Mods Updated //
 -All The Leaks
@@ -52,6 +55,8 @@ The Quest Revision Update
 -Created Data Pack to add Oh The Biomes We've Gone and Regions Unexplored items to market (Currently an issue causing some items to not loaded and was reported to mod dev)
 -Modified block tags for Create D&D Tin to match Mekanism tin for older worlds
 -Added Notes to JEI for items need to fill bin for Survival Infinity Upgrade
+-Re-Enabled Silent Gear Repair Kits and Armor
+-Fixed some of the gas values for materials
 
 // Config Changes //
 -Adjusted machine values for Immersive machines
@@ -60,6 +65,7 @@ The Quest Revision Update
 -Doubled Create vault storage capacity
 -Detected setBlock should now stop spamming logs
 -End Portal Frames are now for a flat frame
+-Enigmatic Graves no longer gives the unneeded Grave Finder
 
 // Recipe Changes //
 -Osmium now provides gas equal to other gasses
@@ -70,12 +76,22 @@ The Quest Revision Update
 -Changed bin items required for Infinity Upgrade
 -Fixed Railway Casing recipe issue from spelling mistake
 -Modified recipe of Create Sifter
+-Removed Quartz Fiber recipe from Arc Furnace
+-Fixed missing recipe for Charged Certus
+-Added extruding recipe for Sky stone
+-Fixed Cut Copper to Copper Block recipe
 
 // Quest Changes //
 -Updated quest book to have modpack title
 -Entirely rewrote every quest in the pack (There MAY be spelling mistakes!)
 -Added quest for Immersive Aircraft
 -Modified some quests to take varying items
+-Added quest to reference Apotheosis for enchanting
+-Added quest for Silent Gear
+-Added quest for Enchantment Industry
+-Added quest for Hydraulic Press
+-Added quest for Sifter
+-Added quest for Extruder
 
 || Release 1.4.0 ||
 
