@@ -92,6 +92,7 @@ The Quest Revision Update
 -Added quest for Hydraulic Press
 -Added quest for Sifter
 -Added quest for Extruder
+-Chaos Guardian quest now only requires killing x1
 
 || Release 1.4.0 ||
 

@@ -16,11 +16,7 @@
 	quests: [
 		{
 			dependencies: ["1D95E21C7984BD6C"]
-			description: [
-				"The Draconic Core is essential for starting off in Draconic Evolution. It acts as the foundation for many advanced technologies, allowing us to progress towards the more powerful and complex systems in the mod."
-				""
-				"Once crafted, the Draconic Core unlocks the ability to create powerful tools, machines, and armor, setting the stage for future advancements in energy production and item processing."
-			]
+			description: ["The Draconic Core is essential for starting off in Draconic Evolution. It allows us to progress towards the more powerful and complex machinery."]
 			id: "176DAA22E30BE295"
 			rewards: [{
 				count: 3
@@ -39,11 +35,7 @@
 		}
 		{
 			dependencies: ["176DAA22E30BE295"]
-			description: [
-				"Fusion crafting is a game-changing technique that harnesses vast amounts of energy to combine powerful items into something even greater. By utilizing electrical currents, the fusion process bonds the base item to the additional materials provided in the injectors, creating a new, superior item."
-				""
-				"This advanced crafting method requires careful management of energy and precise configuration of the injectors and crafting core. It's a high-risk, high-reward process that allows you to craft powerful tools, armor, and machinery that wouldn't be possible through traditional methods."
-			]
+			description: ["Fusion crafting harnesses vast amounts of energy to combine powerful items into something even greater. The fusion process bonds the base item to the additional materials provided in the injectors, creating a new item."]
 			id: "09B837085449698E"
 			rewards: [{
 				id: "65797695F6DDC9FE"
@@ -69,11 +61,7 @@
 		}
 		{
 			dependencies: ["09B837085449698E"]
-			description: [
-				"Upgrading to Wyvern Injectors significantly enhances the fusion crafting process, allowing you to craft more powerful and advanced equipment. These injectors are designed to handle the larger energy demands and more complex materials required for crafting higher-tier items."
-				""
-				"With Wyvern Injectors, you can unlock the potential to craft some of the most powerful tools, armor, and machinery in the game. The increase in energy throughput and material capacity allows for the creation of items that can withstand even the toughest challenges."
-			]
+			description: ["Wyvern Injectors enhance the fusion crafting process, allowing you to craft more powerful equipment. These injectors are designed to handle the larger energy demands and more complex materials required for crafting."]
 			id: "40FE643670265A56"
 			rewards: [{
 				id: "1C8C3222EBE9A4BD"
@@ -92,11 +80,7 @@
 		}
 		{
 			dependencies: ["176DAA22E30BE295"]
-			description: [
-				"Draconic Energy Balls are among the most powerful energy storage options available. By constructing an Energy Core and surrounding it with stabilizers, you can begin creating the core, which will guide you through the process of upgrading to the desired tier."
-				""
-				"These energy balls store massive amounts of power and are essential for handling the large energy demands of advanced Draconic machinery, ensuring you have the energy reserves necessary for all your high-tech operations."
-			]
+			description: ["Draconic Energy Balls are among the most powerful energy storage options available. By constructing an Energy Core and surrounding it with stabilizers, you can begin creating the core, which will guide you through the process of upgrading to the desired tier."]
 			id: "6FBE8FF8FD16B3F7"
 			rewards: [{
 				count: 2
@@ -123,11 +107,7 @@
 		}
 		{
 			dependencies: ["176DAA22E30BE295"]
-			description: [
-				"The Crystal Binder is crucial for managing our energy relay network. By using it, you can configure relay crystals to direct energy flows exactly where they're needed, allowing for efficient power distribution across our systems."
-				""
-				"This tool provides flexibility in optimizing energy usage and ensures that all machines and devices are powered effectively, eliminating inefficiencies in energy transmission."
-			]
+			description: ["The Crystal Binder is used for managing our energy relay network. You can configure relay crystals to direct energy exactly where you need it."]
 			id: "096F908BB59F7B92"
 			rewards: [{
 				id: "17008E98C994F439"
@@ -145,11 +125,7 @@
 		}
 		{
 			dependencies: ["096F908BB59F7B92"]
-			description: [
-				"Energy Crystals provide a wireless method of transferring power, reducing the need for cables and wires cluttering the area. By linking these crystals together, we can move energy across vast distances, providing power exactly where it's needed."
-				""
-				"This system offers a clean and efficient way to manage energy flow, making it ideal for large-scale operations or when you want to maintain a neat and organized setup."
-			]
+			description: ["Energy Crystals provide a wireless method of transferring power. By linking these crystals together, we can move energy across distances."]
 			id: "0EB6C7F9B1F1F04E"
 			rewards: [{
 				count: 4
@@ -180,11 +156,7 @@
 		}
 		{
 			dependencies: ["6FBE8FF8FD16B3F7"]
-			description: [
-				"To transfer energy into the Draconic Energy Ball, the Energy Pylon is required. By placing a piece of glass on top of the pylon, it will become activated, allowing you to either send energy into the storage ball or pull energy out when needed."
-				""
-				"This system offers flexibility in managing energy flow, making it easier to keep your Draconic systems running smoothly by controlling where the energy is directed."
-			]
+			description: ["To transfer energy into the Draconic Energy Ball, the Energy Pylon is required. By placing a piece of glass on top of the pylon, it will become activated, allowing you to either send energy into the storage ball or pull energy out when needed."]
 			id: "359221B57F8ABD83"
 			rewards: [{
 				id: "05330EC29A76B929"
@@ -209,11 +181,7 @@
 		}
 		{
 			dependencies: ["40FE643670265A56"]
-			description: [
-				"Draconic Capacitors act as a crucial backup energy source for our armor, ensuring we always have the power we need when things go wrong. If your armor runs out of energy in the middle of a battle or exploration, having a capacitor on hand can prevent a dangerous situation from turning deadly."
-				""
-				"These capacitors can store vast amounts of energy, providing an emergency power reserve that can keep your armor functioning until you can recharge. It’s a smart addition to any high-risk mission or fight, ensuring you're always prepared for unexpected challenges."
-			]
+			description: ["Draconic Capacitors act as a backup energy source for our armor, ensuring we always have the power we need when things go wrong. The capacitors will keep your armor charged up without having to run back to your base and replenish."]
 			id: "3411DC4EB6A436B3"
 			rewards: [{
 				id: "772F1FFA8C890789"
@@ -267,11 +235,7 @@
 		}
 		{
 			dependencies: ["40FE643670265A56"]
-			description: [
-				"Draconic chest pieces are a major upgrade to our standard armor, providing enhanced protection against a wide range of damage types, including elemental and physical harm. They can be worn alongside other armor pieces, adding layers of defense without compromising mobility."
-				""
-				"These chest pieces are also highly customizable. You can apply various modifications and upgrades to them, improving energy, resistance, and even adding special abilities. With the right enhancements, they become an essential part of our arsenal for dealing with tougher foes and dangerous environments."
-			]
+			description: ["Draconic chest pieces are a major upgrade to our standard armor, providing enhanced protection against a wide range of damage types. They can be worn alongside other armor pieces through curios."]
 			id: "5C4EEDE7CAC4A9D8"
 			rewards: [{
 				id: "3EECD8158B11699A"
@@ -309,11 +273,7 @@
 		}
 		{
 			dependencies: ["40FE643670265A56"]
-			description: [
-				"By upgrading our fusion crafting setup with these newly enhanced injectors, we can craft even more powerful and resilient gear. These advanced injectors utilize the draconic minerals' immense energy, allowing us to create equipment far beyond the standard capabilities."
-				""
-				"This upgrade unlocks the potential for crafting one of the highest tier of draconic gear, pushing the limits of power and protection. With the ability to harness such raw energy, we can create tools and armor that will allow us to tackle even the most formidable foes with confidence."
-			]
+			description: ["By upgrading our fusion crafting setup with Draonic injectors, we can craft even more powerful gear. These injectors utilize the draconic minerals' allowing us to create far better equipment."]
 			id: "2027EC662CB9A837"
 			rewards: [{
 				id: "0C25E6F40D31E2C6"
@@ -332,11 +292,7 @@
 		}
 		{
 			dependencies: ["2027EC662CB9A837"]
-			description: [
-				"After defeating a Chaos Dragon, we gain access to the treasures hidden within its island. At the heart of the island, we will find a Chaos Crystal, a rare and powerful resource that is crucial for advancing our technology."
-				""
-				"Harvesting this crystal is no simple task, but once we bring it back to our base, it will unlock new technological heights. This crystal is key to unlocking the final stages of our technological journey, allowing us to push the limits of what we can achieve."
-			]
+			description: ["After defeating a Chaos Guardian, we gain access to th Chaos Crystal. This crystal allows us to upgrade to the Chaotic tier of injectors and equipment."]
 			id: "6D16B78F407C777E"
 			rewards: [{
 				id: "471B3171D2A4642E"
@@ -355,11 +311,7 @@
 		}
 		{
 			dependencies: ["1D95E21C7984BD6C"]
-			description: [
-				"The Chaos Dragons are an incredibly powerful and dangerous enemy, unlike any you've faced before. Their strength and abilities make them a true test of your preparedness, so it's essential to gather your best gear and ensure you're well-equipped for the battle."
-				""
-				"Before attempting to fight a Chaos Dragon, consider upgrading your armor, weapons, and other combat tools to their highest tiers. You'll also need plenty of resources, potions, and tactics to handle the chaos they bring. Prepare for a tough challenge, as the Chaos Dragons are not easily defeated."
-			]
+			description: ["The Chaos Dragons are an incredibly powerful and dangerous enemy. Before attempting to fight a Chaos Dragon, consider upgrading your armor, weapons, and other combat tools to their highest tiers. You'll also need plenty of resources and potions, to handle the chaos they bring. Prepare for a tough challenge, as the Chaos Dragons are not easily defeated."]
 			id: "41F9329503425EE2"
 			rewards: [{
 				count: 2
@@ -371,7 +323,7 @@
 				entity: "draconicevolution:draconic_guardian"
 				id: "6DC3935E66A5B1D4"
 				type: "kill"
-				value: 10L
+				value: 1L
 			}]
 			title: "Descent into Madness"
 			x: -4.0d
@@ -379,11 +331,7 @@
 		}
 		{
 			dependencies: ["6D16B78F407C777E"]
-			description: [
-				"The Draconic Reactor is one of the most potent power sources available, but it comes with immense danger. When managed properly, it can produce staggering amounts of energy to power even the most advanced systems. However, its power is volatile, and if its stability is not maintained, it can catastrophically explode, destroying everything around it."
-				""
-				"Harnessing the potential of the Draconic Reactor requires careful planning and constant vigilance. Without proper safeguards in place, the risk of a massive explosion is ever-present. Despite the danger, when used correctly, it provides a nearly limitless source of energy to fuel the most advanced technology."
-			]
+			description: ["The Draconic Reactor is one of the most potent power sources available. When managed properly, it can produce massive amounts of energy to power even the most advanced machines. However, if its stability is not maintained, it can explode, destroying everything around it."]
 			id: "0887E7A792E2F3A5"
 			rewards: [{
 				id: "45B4595F6BBA5D9B"
@@ -420,11 +368,7 @@
 		}
 		{
 			dependencies: ["2027EC662CB9A837"]
-			description: [
-				"With our new awakened injectors, we can now craft the ultimate staff, a powerful tool unlike any other. This staff can be augmented and upgraded with a variety of powers, allowing us to customize it for different tasks and challenges."
-				""
-				"As one of the strongest tools available, this staff offers immense potential. Whether we need to harness elemental forces, control energy, or manipulate the environment, this staff is capable of handling it all, making it an invaluable asset in our journey."
-			]
+			description: ["With our new injectors, we can now craft the Staff of Power. This staff can be upgraded with a variety of powers, allowing us to customize it for different tasks and challenges."]
 			id: "4088D1A0AF9A7553"
 			rewards: [{
 				id: "0B729E7018D3F72C"
