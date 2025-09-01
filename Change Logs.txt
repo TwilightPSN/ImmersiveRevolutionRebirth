@@ -3,6 +3,8 @@
 The Quest Revision Update
 
 // Mods Added //
+-Angry Mobs
+-Guard Villagers
 -YUNG's Better Caves
 
 // Mods Removed //
@@ -56,6 +58,8 @@ The Quest Revision Update
 -FTB Ultimine now mines 128 blocks BUT requires a tool (Will need to delete the FTB Ultimine config from worlds that already exist to update)
 -Doubled Create pump range
 -Doubled Create vault storage capacity
+-Detected setBlock should now stop spamming logs
+-End Portal Frames are now for a flat frame
 
 // Recipe Changes //
 -Osmium now provides gas equal to other gasses
@@ -65,6 +69,7 @@ The Quest Revision Update
 -Adjusted needed Antimatter for Singularity
 -Changed bin items required for Infinity Upgrade
 -Fixed Railway Casing recipe issue from spelling mistake
+-Modified recipe of Create Sifter
 
 // Quest Changes //
 -Updated quest book to have modpack title
