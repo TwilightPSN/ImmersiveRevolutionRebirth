@@ -202,8 +202,7 @@
 		cooldown = 60
 		music_disc_heave_ho = true
 		#Makes TNT-like block shot from a cannon explode on impact
-		#Allowed Values: IGNITE, IGNITE_ON_IMPACT, NONE
-		explode_tnt = "IGNITE"
+		explode_tnt = true
 
 		[functional.cannon.cannonball]
 			enabled = true

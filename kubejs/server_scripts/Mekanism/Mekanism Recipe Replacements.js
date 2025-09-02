@@ -262,4 +262,10 @@ ServerEvents.recipes(IRRebirth => {
       C: 'immersiveengineering:insulating_glass'
     }
   ).id('mekanismcovers:cover')
+  IRRebirth.custom({
+    "type":"mekanism:crystallizing",
+    "chemicalType":"gas",
+    "input":{"amount":200,"gas":"mekanism:antimatter"},
+    "output":{"item":"mekanism:pellet_antimatter"}
+  }).id('mekanism:processing/lategame/antimatter_pellet/from_gas')
 })

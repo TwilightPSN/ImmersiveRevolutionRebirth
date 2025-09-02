@@ -216,7 +216,7 @@
 		"Harvestable Blocks" = ["minecraft:wheat[age=7]", "minecraft:carrots[age=7]", "minecraft:potatoes[age=7]", "minecraft:beetroots[age=3]", "minecraft:nether_wart[age=3]", "minecraft:cocoa[age=2,facing=north],minecraft:cocoa[age=0,facing=north]", "minecraft:cocoa[age=2,facing=south],minecraft:cocoa[age=0,facing=south]", "minecraft:cocoa[age=2,facing=east],minecraft:cocoa[age=0,facing=east]", "minecraft:cocoa[age=2,facing=west],minecraft:cocoa[age=0,facing=west]"]
 		#Which blocks should right click harvesting simulate a click on instead of breaking?
 		#This is for blocks like sweet berry bushes, which have right click harvesting built in.
-		"Right Clickable Blocks" = ["minecraft:sweet_berry_bush", "minecraft:cave_vines"]
+		"Right Clickable Blocks" = ["minecraft:sweet_berry_bush", "minecraft:cave_vines", "agricraft:crop"]
 
 	[tweaks.utility_recipes]
 		#Can any wool color be dyed?
