@@ -23,6 +23,7 @@
 				exclude_from_claim_all: true
 				id: "77337738A585F875"
 				table_id: 236110544362459607L
+				team_reward: false
 				type: "choice"
 			}]
 			size: 1.0d
@@ -185,6 +186,7 @@
 			rewards: [{
 				id: "03AC939A3DBD6342"
 				item: "sophisticatedbackpacks:feeding_upgrade"
+				team_reward: false
 				type: "item"
 			}]
 			tasks: [{
@@ -331,6 +333,7 @@
 			rewards: [{
 				id: "7145BCFAD3E66DDB"
 				item: "toolbelt:pouch"
+				team_reward: false
 				type: "item"
 			}]
 			tasks: [{
@@ -569,6 +572,7 @@
 						Damage: 0
 					}
 				}
+				team_reward: false
 				type: "item"
 			}]
 			tasks: [{
@@ -688,6 +692,7 @@
 						silentlib.LootContainer: { }
 					}
 				}
+				team_reward: false
 				type: "item"
 			}]
 			tasks: [{

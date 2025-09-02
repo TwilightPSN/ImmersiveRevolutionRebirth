@@ -6,49 +6,15 @@ The Quest Revision Update
 -Angry Mobs
 -Guard Villagers
 -YUNG's Better Caves
+-EMI
+-EMI Ores
 
 // Mods Removed //
 -Tree Harvester
 -Obscure Tooltips
 -Obscure Tooltips Fix
 -Oculus
-
-// Mods Updated //
--All The Leaks
--AlmostUnified
--Create Crafts & Additions
--Create Hypertube
--Create Mechanical Extruder
--Cucumber Library
--Entity Model Features
--Entity Texture Features
--Every Compat
--Extended Crafting
--FTB Ultimine
--Fusion
--GeckoLib 4
--Graviational Modulating Additional Unit
--GuideME
--InsaneLib
--JAOPCA
--Just Enough Mekanism Multiblocks
--Lootr
--Mekanism Upgrades: Reborn
--Moonlight Library
--More OVerlays
--Not Enough Animations
--Oh The Biomes We've Gone
--PacketFixer
--Pickle Tweaks
--Puzzles Lib
--Quarry Plus
--Silent Gear
--Sophisticated Backpacks
--Sophisticated Core
--Sophisticated Storage
--Stone Zone
--Supplementaries
--Tectonic
+-Just Enough Resources
 
 // Script Changes //
 -Created Data Pack to remove Create D&D Tin ore spawns
@@ -80,6 +46,10 @@ The Quest Revision Update
 -Fixed missing recipe for Charged Certus
 -Added extruding recipe for Sky stone
 -Fixed Cut Copper to Copper Block recipe
+-Fixed Injection Alloy Recipes
+-Added Combiner recipes for Alloys
+-Modified Mekanism recipes related to Antimatter, Polonium and Plutonium
+-Netherite now has a Quintuple Processing Recipe
 
 // Quest Changes //
 -Updated quest book to have modpack title
@@ -93,6 +63,8 @@ The Quest Revision Update
 -Added quest for Sifter
 -Added quest for Extruder
 -Chaos Guardian quest now only requires killing x1
+-Set most rewards to be Team Rewards
+-Quests are now Flexible and mark requirments if met before unlocking
 
 || Release 1.4.0 ||
 
