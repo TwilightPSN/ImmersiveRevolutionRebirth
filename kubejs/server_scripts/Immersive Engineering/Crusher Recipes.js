@@ -16,4 +16,9 @@ ServerEvents.recipes(IRRebirth => {
         "input":{"tag":"forge:raw_materials/netherite"},
         "result":{"item":"jaopca:create_crushed.netherite_scrap"},
         "secondaries":[{"chance":0.33333334,"output":{"item":"jaopca:create_crushed.netherite_scrap"}}]})
+    IRRebirth.custom({
+        "type":"immersiveengineering:crusher",
+        "energy":54000,
+        "input":{"tag":"forge:ender_pearls"},
+        "result":{"base_ingredient":{"item":"ae2:ender_dust"},"count":1},"secondaries":[]})
 })

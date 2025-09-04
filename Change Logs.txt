@@ -1,9 +1,30 @@
-MODS TO REMOVE FROM SERVER Packs
+MODS TO REMOVE FROM SERVER PACKS
 -Entity Model Features
 -Entity Texture Features
 -Clear Water
 -BadOptimizations
 
+|| Release 1.5.2 ||
+
+// Mods Removed //
+-EMI (Issues with Recipes Missing)
+-EMI Ores
+
+// Mods Added //
+-Just Enough Resources
+-Added Mixin Mod for Agricraft and Create Compat
+
+// Config Updates //
+-Piglin and Endermen now defend Draconium
+-Agricraft overides seeds again
+
+// Script Updates //
+-Apotheosis mobs should now drop armor
+-Armor Recipes no longer tiered
+
+// Recipe Changes //
+-Fixed various tags in recipes
+-Added recipes for ender dust
 
 || Release 1.5.1 ||
 

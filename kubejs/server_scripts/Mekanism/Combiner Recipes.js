@@ -1,7 +1,7 @@
 ServerEvents.recipes(IRRebirth => {
     IRRebirth.recipes.mekanism.combining('kubejs:blaze_clay', 'minecraft:clay_ball', 'minecraft:blaze_powder')
-    IRRebirth.recipes.mekanism.combining(Item.of('ae2:quartz_glass', 4), Item.of('#c:glass_blocks', 4), Item.of('ae2:certus_quartz_dust', 5))
-    IRRebirth.recipes.mekanism.combining(Item.of('ae2:quartz_fiber', 6), Item.of('ae2:quartz_glass', 3), Item.of('#forge:wires/certus', 3))
+    IRRebirth.recipes.mekanism.combining(Item.of('ae2:quartz_glass', 4), '4x #c:glass_blocks', Item.of('ae2:certus_quartz_dust', 5))
+    IRRebirth.recipes.mekanism.combining(Item.of('ae2:quartz_fiber', 6), Item.of('ae2:quartz_glass', 3), '3x #forge:wires/certus')
     IRRebirth.recipes.mekanism.combining(Item.of('create:brass_ingot', 2), '#forge:ingots/zinc', '#forge:ingots/copper')
     IRRebirth.recipes.mekanism.combining(Item.of('create:brass_ingot', 2), '#forge:ingots/copper', '#forge:ingots/zinc')
     IRRebirth.recipes.mekanism.combining(Item.of('immersiveengineering:ingot_constantan', 2), '#forge:ingots/copper', '#forge:ingots/nickel')
