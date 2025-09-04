@@ -13,8 +13,6 @@
 			windswept_sandstone = true
 			red_rock = true
 			dacite = true
-			mossy_stone = true
-			rocky_stone = true
 
 		[types.stone_type.create]
 			limestone = true

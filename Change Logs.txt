@@ -1,3 +1,64 @@
+MODS TO REMOVE FROM SERVER Packs
+-Entity Model Features
+-Entity Texture Features
+-Clear Water
+-BadOptimizations
+
+
+|| Release 1.5.1 ||
+
+Forge Updated to 47.4.8
+
+// Mods Updated //
+-Advanced AE
+-All The Leaks
+-AlmostUnified
+-Create Crafts & Additions
+-Create Hypertube
+-Create Mechanical Extruder
+-Cucumber Library
+-Entity Model Features
+-Entity Texture Features
+-Every Compat
+-Extended Crafting
+-FTB Ultimine
+-Fusion
+-GeckoLib
+-Graviational Modulating Additional Unit
+-GuideME
+-InsaneLib
+-JAOPCA
+-Just Enough Mekanism Multiblocks
+-Lootr
+-Mekanism Upgrade: Reborn
+-Moonlight Library
+-Oh The Biomes We've Gone
+-PacketFixer
+-PickleTweaks
+-Puzzles Lib
+-Quarry Plus
+-Silent Gear
+-Sophisticated Backpacks
+-Sophisticated Core
+-Sophisticated Storage
+-Stone Zone
+-Supplementaries
+-Tectonic
+
+// Mods Removed //
+-Mod Name Tooltip
+
+// Quest Updates //
+-Added Quest for Dimensional Storage
+
+// Config Updates //
+-Re-Enabled Create Crafting Recipe Settings
+
+// Script Changes //
+-Unified Industrial Iron items from Dreams & Desires and Deco
+-Fixed Create Deco not accepting any plates
+-Updated some recipes to be properly tagged items
+
 || Release 1.5.0 ||
 
 The Quest Revision Update

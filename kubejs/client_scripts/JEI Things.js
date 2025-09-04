@@ -81,7 +81,7 @@ JEIEvents.hideItems(IRRebirth => {
         'usefulslime:slime_boots'])
     IRRebirth.hide(['create_dd:bronze_block', 'create_dd:bronze_ingot', 'create_dd:bronze_nugget', 'create_dd:bronze_sheet'])
     IRRebirth.hide('create_sa:netherite_jetpack_chestplate')
-
+    IRRebirth.hide(['create_dd:industrial_iron_block', 'createdeco:industrial_iron_sheet', 'createdeco:industrial_iron_nugget', 'createdeco:industrial_iron_ingot'])
 })
 
 JEIEvents.removeCategories(IRRebirth => {

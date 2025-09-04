@@ -65,4 +65,5 @@ ServerEvents.tags('item', IRRebirth => {
   IRRebirth.add('forge:stripped_logs', '/biomeswevegone:stripped_.*_log/')
   IRRebirth.add('forge:stripped_wood', '/biomeswevegone:stripped_.*_wood/')
   IRRebirth.add('forge:seeds', 'agricraft:seed')
+  IRRebirth.add('forge:storage_blocks/industrial_iron', 'create:industrial_iron_block')
 })
