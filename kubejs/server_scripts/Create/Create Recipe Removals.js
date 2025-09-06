@@ -17,4 +17,5 @@ ServerEvents.recipes(IRRebirth => {
     IRRebirth.remove({ output: 'create_dd:bronze_sheet'})
     IRRebirth.remove({ output: 'create_dd:bronze_nugget'})
     IRRebirth.remove({ output: 'create_dd:bronze_ingot'})
+    IRRebirth.remove({id: 'createdeco:industrial_iron_ingot_from_industrial_iron_block'})
 })

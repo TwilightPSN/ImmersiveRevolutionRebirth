@@ -14,7 +14,10 @@
 	}]
 	quests: [
 		{
-			dependencies: ["7BE55FA9BDE5E7F6"]
+			dependencies: [
+				"7BE55FA9BDE5E7F6"
+				"3C7B05B372C82B36"
+			]
 			description: ["Generates Crystals that drop Leather. Can also be grown in a Botany Pot with a chance for Raw Beef."]
 			id: "5B61A99CAA1B20F9"
 			tasks: [{
@@ -26,7 +29,10 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["7BE55FA9BDE5E7F6"]
+			dependencies: [
+				"7BE55FA9BDE5E7F6"
+				"3C7B05B372C82B36"
+			]
 			description: ["Generates Crystals that drop Echo Shards. Can also be grown in a Botany Pot."]
 			id: "718115B9AFA0AC72"
 			tasks: [{
@@ -38,7 +44,10 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["7BE55FA9BDE5E7F6"]
+			dependencies: [
+				"7BE55FA9BDE5E7F6"
+				"3C7B05B372C82B36"
+			]
 			description: ["Generates Crystals that drop Ender Pearls. Can also be grown in a Botany Pot."]
 			id: "1C7CDA0C75C6B05F"
 			tasks: [{
@@ -50,7 +59,10 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["7BE55FA9BDE5E7F6"]
+			dependencies: [
+				"7BE55FA9BDE5E7F6"
+				"3C7B05B372C82B36"
+			]
 			description: ["Generates Crystals that drop Ghast Tears. Can also be grown in a Botany Pot."]
 			id: "2A4C75A1DE6610AC"
 			tasks: [{
@@ -62,7 +74,10 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["7BE55FA9BDE5E7F6"]
+			dependencies: [
+				"7BE55FA9BDE5E7F6"
+				"3C7B05B372C82B36"
+			]
 			description: ["Generates Crystals that drop Wither Skull Fragments. Can also be grown in a Botany Pot."]
 			id: "18979F7AAD0CC070"
 			tasks: [{
@@ -74,7 +89,10 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["7BE55FA9BDE5E7F6"]
+			dependencies: [
+				"7BE55FA9BDE5E7F6"
+				"3C7B05B372C82B36"
+			]
 			description: [
 				"Generates Crystals that drop Blaze Rods. Can also be grown in a Botany Pot."
 				""
@@ -90,7 +108,10 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["7BE55FA9BDE5E7F6"]
+			dependencies: [
+				"7BE55FA9BDE5E7F6"
+				"3C7B05B372C82B36"
+			]
 			description: ["Generates Crystals that drop Rotten Flesh. Can also be grown in a Botany Pot."]
 			id: "7D1590158BEFAE3E"
 			tasks: [{
@@ -102,7 +123,10 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["7BE55FA9BDE5E7F6"]
+			dependencies: [
+				"7BE55FA9BDE5E7F6"
+				"3C7B05B372C82B36"
+			]
 			description: ["Generates Crystals that drop Gunpowder. Can also be grown in a Botany Pot."]
 			id: "1A10CF9D263DBE65"
 			tasks: [{
@@ -114,7 +138,10 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["7BE55FA9BDE5E7F6"]
+			dependencies: [
+				"7BE55FA9BDE5E7F6"
+				"3C7B05B372C82B36"
+			]
 			description: ["Generates Crystals that drop Bones. Can also be grown in a Botany Pot."]
 			id: "011F08DCA5E46E4D"
 			tasks: [{
@@ -126,7 +153,10 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["7BE55FA9BDE5E7F6"]
+			dependencies: [
+				"7BE55FA9BDE5E7F6"
+				"3C7B05B372C82B36"
+			]
 			description: ["Generates Crystals that drop Feathers. Can also be grown in a Botany Pot with a chance for Eggs and Raw Chicken."]
 			id: "3838179E5BE519A5"
 			tasks: [{
@@ -138,7 +168,10 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["7BE55FA9BDE5E7F6"]
+			dependencies: [
+				"7BE55FA9BDE5E7F6"
+				"3C7B05B372C82B36"
+			]
 			description: ["Generates Crystals that drop Phantom Membrane. Can also be grown in a Botany Pot."]
 			id: "462FF30375917142"
 			tasks: [{
@@ -150,7 +183,10 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["7BE55FA9BDE5E7F6"]
+			dependencies: [
+				"7BE55FA9BDE5E7F6"
+				"3C7B05B372C82B36"
+			]
 			description: ["Generates Crystals that drop Magma Cream. Can also be grown in a Botany Pot."]
 			id: "0FD8D53882694F75"
 			tasks: [{
@@ -162,7 +198,10 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["7BE55FA9BDE5E7F6"]
+			dependencies: [
+				"7BE55FA9BDE5E7F6"
+				"3C7B05B372C82B36"
+			]
 			description: ["Generates Crystals that drop Nether Star Shards. Can also be grown in a Botany Pot."]
 			id: "183D1984FF9EEDE2"
 			tasks: [{
@@ -174,7 +213,10 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["7BE55FA9BDE5E7F6"]
+			dependencies: [
+				"7BE55FA9BDE5E7F6"
+				"3C7B05B372C82B36"
+			]
 			description: ["Generates Crystals that drop Slimeballs. Can also be grown in a Botany Pot."]
 			id: "08EF358564AEF8E7"
 			tasks: [{
@@ -186,7 +228,10 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["7BE55FA9BDE5E7F6"]
+			dependencies: [
+				"7BE55FA9BDE5E7F6"
+				"3C7B05B372C82B36"
+			]
 			description: ["Generates Crystals that drop Glow Ink Sacs. Can also be grown in a Botany Pot."]
 			id: "182163969C406F10"
 			tasks: [{
@@ -198,7 +243,10 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["7BE55FA9BDE5E7F6"]
+			dependencies: [
+				"7BE55FA9BDE5E7F6"
+				"3C7B05B372C82B36"
+			]
 			description: ["Generates Crystals that drop Ink Sacs. Can also be grown in a Botany Pot."]
 			id: "2527EB2AD58CCBCD"
 			tasks: [{
@@ -210,7 +258,10 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["7BE55FA9BDE5E7F6"]
+			dependencies: [
+				"7BE55FA9BDE5E7F6"
+				"3C7B05B372C82B36"
+			]
 			description: ["Generates Crystals that drop Snowballs. Can also be grown in a Botany Pot."]
 			id: "6CD133C0481935A5"
 			tasks: [{
@@ -222,7 +273,10 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["7BE55FA9BDE5E7F6"]
+			dependencies: [
+				"7BE55FA9BDE5E7F6"
+				"3C7B05B372C82B36"
+			]
 			description: ["Generates Crystals that drop Honeycomb. Can also be grown in a Botany Pot."]
 			id: "50416DF729F77112"
 			tasks: [{
@@ -234,7 +288,10 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["7BE55FA9BDE5E7F6"]
+			dependencies: [
+				"7BE55FA9BDE5E7F6"
+				"3C7B05B372C82B36"
+			]
 			description: ["Generates Crystals that drop Spider Eyes. Can also be grown in a Botany Pot."]
 			id: "255C1DDD31081E00"
 			tasks: [{
@@ -246,7 +303,10 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["7BE55FA9BDE5E7F6"]
+			dependencies: [
+				"7BE55FA9BDE5E7F6"
+				"3C7B05B372C82B36"
+			]
 			description: ["Generates Crystals that drop String. Can also be grown in a Botany Pot with a chance for Raw Mutton."]
 			id: "17BEC566717EFA67"
 			tasks: [{
@@ -258,7 +318,10 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["6D16B78F407C777E"]
+			dependencies: [
+				"6D16B78F407C777E"
+				"3C7B05B372C82B36"
+			]
 			description: ["Generates Crystals that drop Tiny Chaos Fragments. Can also be grown in a Botany Pot."]
 			id: "387EE9071B07C941"
 			tasks: [{

@@ -71,9 +71,14 @@ ServerEvents.recipes(IRRebirth => {
     IRRebirth.remove({id: 'create_dd:compacting/crustallized_sap'})
     IRRebirth.remove({id: 'create_dd:mixing/rubber_sappling'})
     IRRebirth.remove({id: 'create_dd:industrial_iron/empty_blaze_burner'})
-    IRRebirth.remove(['usefulslime:slippery_slime_block',
-        'usefulslime:slime_helmet',
-        'usefulslime:slime_chestplate',
-        'usefulslime:slime_leggings',
-        'usefulslime:slime_boots'])
+    IRRebirth.remove({mod: 'silentgear'})
+    IRRebirth.remove({mod: 'silentcompat'})
+    IRRebirth.remove({id: 'tconstruct:smeltery/alloys/molten_brass'})
+    IRRebirth.remove({id: 'tconstruct:smeltery/alloys/molten_bronze'})
+    IRRebirth.remove({id: 'tconstruct:smeltery/alloys/molten_constantan'})
+    IRRebirth.remove({id: 'tconstruct:smeltery/alloys/molten_electrum'})
+    IRRebirth.remove({id: 'tconstruct:smeltery/alloys/molten_invar'})
+    IRRebirth.remove({id: 'tconstruct:smeltery/alloys/molten_netherite'})
+    IRRebirth.remove({id: 'tconstruct:smeltery/alloys/molten_refined_obsidian'})
+    IRRebirth.remove({id: 'tconstruct:smeltery/alloys/molten_obsidian'})
 })

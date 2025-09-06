@@ -70,7 +70,7 @@
 [sinew]
 	#Drop rate of sinew (chance out of 1)
 	#Range: 0.0 ~ 1.0
-	dropRate = 0.2
+	dropRate = 0.0
 	#These entities can drop sinew when killed.
 	dropsFrom = ["minecraft:cow", "minecraft:pig", "minecraft:sheep"]
 

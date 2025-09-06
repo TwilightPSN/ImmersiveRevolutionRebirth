@@ -15,7 +15,10 @@
 	}]
 	quests: [
 		{
-			dependencies: ["6D16B78F407C777E"]
+			dependencies: [
+				"6D16B78F407C777E"
+				"3C7B05B372C82B36"
+			]
 			description: [""]
 			id: "239A275132232EAE"
 			tasks: [{
@@ -27,7 +30,10 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["239A275132232EAE"]
+			dependencies: [
+				"239A275132232EAE"
+				"3C7B05B372C82B36"
+			]
 			description: [""]
 			id: "4EB113EEB24B25E6"
 			tasks: [{
@@ -39,7 +45,10 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["4EB113EEB24B25E6"]
+			dependencies: [
+				"4EB113EEB24B25E6"
+				"3C7B05B372C82B36"
+			]
 			description: [""]
 			id: "227C83E382B395F0"
 			tasks: [{
@@ -51,7 +60,10 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["227C83E382B395F0"]
+			dependencies: [
+				"227C83E382B395F0"
+				"3C7B05B372C82B36"
+			]
 			description: [""]
 			id: "1D902F876F951BDC"
 			tasks: [{
@@ -63,7 +75,10 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["72B64716048DB345"]
+			dependencies: [
+				"72B64716048DB345"
+				"3C7B05B372C82B36"
+			]
 			description: [""]
 			id: "52674B61FB3B27A2"
 			tasks: [{
@@ -75,7 +90,10 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["1D902F876F951BDC"]
+			dependencies: [
+				"1D902F876F951BDC"
+				"3C7B05B372C82B36"
+			]
 			description: [""]
 			id: "72B64716048DB345"
 			tasks: [{
@@ -90,6 +108,7 @@
 			dependencies: [
 				"52674B61FB3B27A2"
 				"3398FD3CC2C17F7F"
+				"3C7B05B372C82B36"
 			]
 			description: [""]
 			id: "773CE17D19BCA68C"
@@ -105,6 +124,7 @@
 			dependencies: [
 				"52674B61FB3B27A2"
 				"3398FD3CC2C17F7F"
+				"3C7B05B372C82B36"
 			]
 			description: [""]
 			id: "6022FC88C06DE19F"
@@ -120,6 +140,7 @@
 			dependencies: [
 				"52674B61FB3B27A2"
 				"3398FD3CC2C17F7F"
+				"3C7B05B372C82B36"
 			]
 			description: [""]
 			id: "77D99EEC75C4D053"
@@ -135,6 +156,7 @@
 			dependencies: [
 				"52674B61FB3B27A2"
 				"3398FD3CC2C17F7F"
+				"3C7B05B372C82B36"
 			]
 			description: [""]
 			id: "0ADC2595EE5A446E"
@@ -150,6 +172,7 @@
 			dependencies: [
 				"52674B61FB3B27A2"
 				"3398FD3CC2C17F7F"
+				"3C7B05B372C82B36"
 			]
 			description: [""]
 			id: "36DAD3ADCD082BEF"
@@ -165,6 +188,7 @@
 			dependencies: [
 				"52674B61FB3B27A2"
 				"3398FD3CC2C17F7F"
+				"3C7B05B372C82B36"
 			]
 			description: [""]
 			id: "5B4CE64D0826E021"
@@ -180,6 +204,7 @@
 			dependencies: [
 				"52674B61FB3B27A2"
 				"3398FD3CC2C17F7F"
+				"3C7B05B372C82B36"
 			]
 			description: [""]
 			id: "6F39580072FB269E"
@@ -229,7 +254,10 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["1D902F876F951BDC"]
+			dependencies: [
+				"1D902F876F951BDC"
+				"3C7B05B372C82B36"
+			]
 			description: [""]
 			id: "3398FD3CC2C17F7F"
 			tasks: [{

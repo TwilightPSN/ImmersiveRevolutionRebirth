@@ -5,10 +5,11 @@
 	group: ""
 	icon: "sophisticatedbackpacks:backpack"
 	id: "3CB134302D896226"
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["3C7B05B372C82B36"]
 			description: [
 				"Welcome to The Immersive Revoltion: Rebirth modpack. This pack is different than others you may have played before. Automation is your game and if you need to make something, you may want to looking into automation as soon as you can! Good luck out there and have fun."
 				"{@pagebreak}"
@@ -37,7 +38,10 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["599030C9DB9B1E08"]
+			dependencies: [
+				"599030C9DB9B1E08"
+				"3C7B05B372C82B36"
+			]
 			description: ["We start with the tedious tasks of any Minecraft journey, gathering wood and stone. The material will be the stepping stones to moving forward with our operations and developing the tools we need to grow."]
 			id: "150B3A6B61937F78"
 			require_sequential_tasks: false
@@ -78,7 +82,10 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["150B3A6B61937F78"]
+			dependencies: [
+				"150B3A6B61937F78"
+				"3C7B05B372C82B36"
+			]
 			description: ["Crafting Tables and a Furnace are the next objects to get rolling. Again, we are not venturing far from our Vanilla adventures. We get these going to make our parts and start crafting. If you make a Crafting Station, it can read any chest that it is connected to."]
 			id: "35008BA8C5E8AD5B"
 			require_sequential_tasks: false
@@ -113,7 +120,7 @@
 						Count: 1
 						id: "ftbfiltersystem:smart_filter"
 						tag: {
-							"ftbfiltersystem:filter": "or(item_tag(forge:workbenches)item(craftingstation:crafting_station))"
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:workbenches)"
 						}
 					}
 					title: "Crafting Table"
@@ -125,7 +132,10 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["35008BA8C5E8AD5B"]
+			dependencies: [
+				"35008BA8C5E8AD5B"
+				"3C7B05B372C82B36"
+			]
 			description: ["With all the materials and crafting we are doing, we need to store all our items. Chests are the next item to make and are a start to storing items. We are going to want quite a few of these to move forward."]
 			id: "5EB800B895DDCBFB"
 			require_sequential_tasks: false
@@ -152,7 +162,10 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["5EB800B895DDCBFB"]
+			dependencies: [
+				"5EB800B895DDCBFB"
+				"3C7B05B372C82B36"
+			]
 			description: ["Once we have gained access to Redstone, we can upgrade our chests to Sophisticated Chests. These chests can be upgraded to larger capacities as well as hold a multitude of upgrades to increase stack sizes and more."]
 			id: "24DB690822140D7E"
 			require_sequential_tasks: false
@@ -178,7 +191,10 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["5EB800B895DDCBFB"]
+			dependencies: [
+				"5EB800B895DDCBFB"
+				"3C7B05B372C82B36"
+			]
 			description: ["One great item on any adventure is a backpack. With addition storage while out in those caves or while exploring villages, we can ensure we bring home as many materials and findings as possible."]
 			id: "626D8B47A8BE8566"
 			optional: true
@@ -199,7 +215,10 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["24DB690822140D7E"]
+			dependencies: [
+				"24DB690822140D7E"
+				"3C7B05B372C82B36"
+			]
 			description: ["With Sophisticated Storage, we can also pipe in and out of the network using a Storage Controller. This simple block can link to chests in range to allow access to them using one central access point. This is a great starting point for advancing our storage."]
 			id: "631AFA5E8CC2810D"
 			require_sequential_tasks: false
@@ -218,7 +237,10 @@
 			y: -5.5d
 		}
 		{
-			dependencies: ["631AFA5E8CC2810D"]
+			dependencies: [
+				"631AFA5E8CC2810D"
+				"3C7B05B372C82B36"
+			]
 			description: ["In order to link storages to the Storage Controller, we need the Storage Tool. This will allow you to tell the controller which chests to connect to."]
 			id: "367827D38EAE8781"
 			require_sequential_tasks: false
@@ -237,7 +259,10 @@
 			y: -5.5d
 		}
 		{
-			dependencies: ["24DB690822140D7E"]
+			dependencies: [
+				"24DB690822140D7E"
+				"3C7B05B372C82B36"
+			]
 			description: ["Sophisticated Storage chests can be upgraded with the materials we gather. This increases the internal size of the chests allowing a single chest to eventually hold more than double its size."]
 			id: "4717B8DD6ABFFB74"
 			require_sequential_tasks: false
@@ -264,7 +289,10 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["5EB800B895DDCBFB"]
+			dependencies: [
+				"5EB800B895DDCBFB"
+				"3C7B05B372C82B36"
+			]
 			description: ["We know how cluttered it can get when we are out mining and gathering materials. The Dank Null allows you to place items within it and then use it to collect and void and excess. Higher tiers hold more items and higher quantities. You can also configure the Dank to be able to place blocks without having to put them in your inventory."]
 			id: "71BB6AA60647CE9E"
 			optional: true
@@ -292,7 +320,10 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["5EB800B895DDCBFB"]
+			dependencies: [
+				"5EB800B895DDCBFB"
+				"3C7B05B372C82B36"
+			]
 			description: ["The first and most basic materials we need are Copper and Iron. By gathering these, we can begin to process metals and start our journey into the world of machinery and automation."]
 			id: "43EA598EC21DA525"
 			require_sequential_tasks: false
@@ -325,7 +356,10 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["43EA598EC21DA525"]
+			dependencies: [
+				"43EA598EC21DA525"
+				"3C7B05B372C82B36"
+			]
 			description: ["With the many tools and wrenches we will need, the Toolbelt allows us to stow them all away for use without using extra inventory slots. Simply put the belt on by hitting the designated hot key and then use the hot keys to add and remove items as needed. You can even swap the items with ones already in the belt."]
 			id: "7EC8D3471FB3EEDE"
 			optional: true
@@ -346,7 +380,10 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["43EA598EC21DA525"]
+			dependencies: [
+				"43EA598EC21DA525"
+				"3C7B05B372C82B36"
+			]
 			description: ["Andesite is a crucial ingredient to get moving with kinetic energy. We want to gather up some of this to be able to start our adventures into the world of Create and the starts of automation."]
 			id: "1A7820CA8E752427"
 			require_sequential_tasks: false
@@ -368,7 +405,10 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["631AFA5E8CC2810D"]
+			dependencies: [
+				"631AFA5E8CC2810D"
+				"3C7B05B372C82B36"
+			]
 			description: ["Having to sift through the many chests we have can be tedious. This is where simple storage comes in. We can link the system to our Storage Controller or any other item and see all the inventories in one place."]
 			id: "232B6B3758CD612E"
 			rewards: [{
@@ -399,7 +439,10 @@
 			y: -5.5d
 		}
 		{
-			dependencies: ["232B6B3758CD612E"]
+			dependencies: [
+				"232B6B3758CD612E"
+				"3C7B05B372C82B36"
+			]
 			description: ["With a Simple Storage Network up and running, we can also import and export items directly into the network. This will place the items in the first available slot it finds."]
 			id: "44FB0F9E709186CA"
 			rewards: [{
@@ -425,7 +468,10 @@
 			y: -5.5d
 		}
 		{
-			dependencies: ["43EA598EC21DA525"]
+			dependencies: [
+				"43EA598EC21DA525"
+				"3C7B05B372C82B36"
+			]
 			description: ["Collecting items can sometimes be dangerous and not worth the risk. We also want to ensure we are able to collect all of the precious items we are after. A magnet can pull these items into our inventory without the fear of losing them in the world."]
 			id: "063F26267EC1C500"
 			optional: true
@@ -449,7 +495,10 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["599030C9DB9B1E08"]
+			dependencies: [
+				"599030C9DB9B1E08"
+				"3C7B05B372C82B36"
+			]
 			description: ["Getting around early on can be a drag without the proper equipment. A hang glider can come in handy for this and allows you to get up high and just jump and glide. Combine this with a slime sling and you wil be cruising around."]
 			id: "7A49B7F5D8A4E9E6"
 			optional: true
@@ -481,7 +530,10 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["599030C9DB9B1E08"]
+			dependencies: [
+				"599030C9DB9B1E08"
+				"3C7B05B372C82B36"
+			]
 			description: [
 				"Food is a very vital piece of any diet. In this pack, the more foods you eat, the more hearts you can gain. This will come in handy later on down the road as we have to face many difficult enemies. You are given a food book to track just how many foods you have eaten and hearts you have gained."
 				"{@pagebreak}"
@@ -506,6 +558,7 @@
 			dependencies: [
 				"62BE232080B9F262"
 				"1AAF8C310BB892B1"
+				"3C7B05B372C82B36"
 			]
 			description: ["Once you have your AE2 system up and running, you want to be able to continue to eat with your diverse diet while also not having to run back and forth between the system. The Kitchen Station allows you to connect directly to your system and use the ingredients within to cook your meals."]
 			id: "256CAD10733A0F26"
@@ -525,7 +578,10 @@
 			y: -5.5d
 		}
 		{
-			dependencies: ["599030C9DB9B1E08"]
+			dependencies: [
+				"599030C9DB9B1E08"
+				"3C7B05B372C82B36"
+			]
 			description: [
 				"Keeping your operations running when not at your base or while offline on a server can be crucial to development. Chunk loaders are your friend for these scenarios. These chunk loaders are server friendly and efficient."
 				""
@@ -555,7 +611,10 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["599030C9DB9B1E08"]
+			dependencies: [
+				"599030C9DB9B1E08"
+				"3C7B05B372C82B36"
+			]
 			description: [
 				"Waystones are a way of travel around our world. We use them in combination with a Warp Stone to move around the world. Place these down in important locations and you can move yourself around when needed."
 				"{@pagebreak}"
@@ -592,7 +651,10 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["599030C9DB9B1E08"]
+			dependencies: [
+				"599030C9DB9B1E08"
+				"3C7B05B372C82B36"
+			]
 			description: ["Building can be a tedious step when done by hand. This becomes easier with the use of a gadget intended for such a thing. The building gadget can be handy for building as well as bridging while mining. You can configure the tool to do exactly as you want by simple copying blocks or using schematics. Ease your building ventures with this handy tool!"]
 			id: "65C7C35316BBF17B"
 			optional: true
@@ -613,9 +675,13 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["7A49B7F5D8A4E9E6"]
+			dependencies: [
+				"7A49B7F5D8A4E9E6"
+				"3C7B05B372C82B36"
+			]
 			description: ["The next step in flight is getting yourself a nice vehicle. The Glider works to just drift where you want but an aircraft will allow you to move more freely through the skies."]
 			id: "373220A94F47DB1D"
+			optional: true
 			rewards: [{
 				id: "314DD106FFE3487E"
 				item: "immersive_aircraft:sail"
@@ -638,7 +704,10 @@
 			y: -5.5d
 		}
 		{
-			dependencies: ["35008BA8C5E8AD5B"]
+			dependencies: [
+				"35008BA8C5E8AD5B"
+				"3C7B05B372C82B36"
+			]
 			description: ["Enchanting is crucial to ensuring you can stay alive in times of heavy battle. We have to ensure we balance our Arcana, Eterna and Quanta for the enchants we need. See the Apotheosis guide book for more information."]
 			id: "2C90E3F7B70D991A"
 			rewards: [
@@ -665,48 +734,82 @@
 				type: "item"
 			}]
 			title: "Super Powers"
-			x: -4.5d
+			x: -5.0d
 			y: -2.5d
 		}
 		{
-			dependencies: ["150B3A6B61937F78"]
-			description: [
-				"Silent gear is one of our options for tools and armor within the pack. You can create and mold your equipment to your liking with this mod. A good note to have is that sometimes the Apotheosis affix tools you find need to have their toolhead replaced to be usable."
-				""
-				"I.E. An Iron Pickaxe may need a new iron head to actually mine what it should."
+			dependencies: [
+				"150B3A6B61937F78"
+				"3C7B05B372C82B36"
 			]
-			icon: {
-				Count: 1
-				id: "silentgear:blueprint_book"
-				tag: {
-					Inventory: { }
-				}
-			}
+			description: [
+				"Tinker's is a very powerful system for making tools and armor. Using the smeltery,  you can melt down metals and create some very strong gear and apply affixes and upgrades to them."
+				""
+				"Tinker's Smeltery DOES NOT allow you to alloy the metals used in the packs progression. If you wish to make a tool using these, you will have to gain access to the materials and melt them."
+			]
 			id: "46D43A2171492BAA"
-			rewards: [{
-				id: "089D37DC4E719D12"
-				item: {
-					Count: 1
-					id: "silentgear:blueprint_package"
-					tag: {
-						silentlib.LootContainer: { }
+			optional: true
+			rewards: [
+				{
+					id: "383EA4E4556F8A7C"
+					item: {
+						Count: 1
+						id: "tconstruct:encyclopedia"
+						tag: {
+							mantle: {
+								book: {
+									current_page: "tools.tools"
+								}
+							}
+						}
 					}
+					type: "item"
 				}
-				team_reward: false
-				type: "item"
-			}]
-			tasks: [{
-				id: "58323B4C349CCF50"
-				type: "checkmark"
-			}]
-			title: "Silent's Tools"
+				{
+					id: "2D2F4321FB2DE7F2"
+					item: {
+						Count: 1
+						id: "tinkersjewelry:book"
+						tag: {
+							mantle: {
+								book: {
+									current_page: "intro.introduction"
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5A4DD15ABA84F19E"
+					item: "tconstruct:crafting_station"
+					type: "item"
+				}
+				{
+					id: "2AAD5F8B47B01E1A"
+					item: "tconstruct:tinker_station"
+					type: "item"
+				}
+				{
+					id: "084652B7DC4B7B5B"
+					item: "tconstruct:part_builder"
+					type: "item"
+				}
+			]
+			title: "Tinkering Time"
 			x: -6.0d
 			y: -2.5d
 		}
 		{
-			dependencies: ["599030C9DB9B1E08"]
+			dependencies: [
+				"599030C9DB9B1E08"
+				"3C7B05B372C82B36"
+			]
 			description: ["When you want to move fluid and items across dimensions without setting up complex setups, Dimensionsal Storage comes into play. These items allow us to link to one another and move items around as we need without extensive setups. Ensure you have them chunk loaded though!"]
 			id: "6C90B86A323F5CAE"
+			optional: true
 			tasks: [
 				{
 					id: "4BE99F3816BAB0EB"

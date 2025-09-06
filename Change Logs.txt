@@ -4,6 +4,58 @@ MODS TO REMOVE FROM SERVER PACKS
 -Clear Water
 -BadOptimizations
 
+|| Release 1.6.0 ||
+
+// Mods Removed //
+-Alex's Mobs
+-Nyf's Spiders
+-Useful Slime
+-Terralith (Prevented Superflat Worlds)
+-Crafting Station
+-Underground Bunkers
+-When Dungeons Arise
+-When Dungeons Arise: Seven Seas
+-Structory
+-Structory: Towers
+-Repurposed Structures
+-Towns and Towers
+-Loot Integrations: Structory
+-Loot Integrations: When Dungeons Arise & Co
+-Loot Integrations: Towns and Towers
+-Chalk
+
+// Mods Added //
+-Mantle
+-Tinker's Construct
+-Tinker's Integration and Tweaks
+-Tinkers' Jewelry
+-Tinkers' Leveling Addon
+-Create: Addon Compatibility
+-Mod Name Tooltip
+-Agricraft Create Compatibility
+
+// Mods Updated //
+-All The Leaks
+-Create: Steam 'n' Rails
+-ForgeEndertech
+-Lootr
+-Sophisticated Backpacks
+-Sophisticated Core
+-More Overlays Updated
+-Not Enough Animations
+
+// Recipe Changes //
+-Removed all Silent Gear recipes (Changing to Tinker's)
+-Polonium and Plutonium Singularities are now 100 each
+
+// Script Changes //
+-Added tags to BOP Stripped wood and logs
+-Removed ALL Silent Gear items from loot chests
+-Nerfed Botany Pot Budding materials
+
+// Config Changes //
+-Nerfed Botany Tiered pots
+
 || Release 1.5.2 ||
 
 // Mods Removed //

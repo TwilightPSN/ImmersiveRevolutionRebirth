@@ -54,6 +54,10 @@
 			sculk_stone = true
 			gloomslate = true
 
+		[types.stone_type.tconstruct]
+			seared_stone = true
+			scorched_stone = true
+
 	[types.wood_type]
 
 		[types.wood_type.silentgear]
@@ -142,6 +146,12 @@
 		[types.wood_type.deeperdarker]
 			bloom = true
 			echo = true
+
+		[types.wood_type.tconstruct]
+			greenheart = true
+			skyroot = true
+			bloodshroom = true
+			enderbark = true
 
 	[types.leaves_type]
 
@@ -348,6 +358,11 @@
 
 		[types.leaves_type.deeperdarker]
 			echo = true
+
+		[types.leaves_type.tconstruct]
+			earth_slime = true
+			sky_slime = true
+			ender_slime = true
 
 	[types.mud_type]
 

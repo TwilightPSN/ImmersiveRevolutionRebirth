@@ -31,7 +31,10 @@
 	]
 	quests: [
 		{
-			dependencies: ["266CDDD166A086DA"]
+			dependencies: [
+				"266CDDD166A086DA"
+				"3C7B05B372C82B36"
+			]
 			description: ["The main tool we use for Immersive Engineering is the Engineer's Hammer. This allows us to rotate machinery as well as assemble the multiblock structures we will be building."]
 			id: "5C1E3ACFD2F9C650"
 			rewards: [{
@@ -56,7 +59,10 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["165BA06960C5C2AB"]
+			dependencies: [
+				"165BA06960C5C2AB"
+				"3C7B05B372C82B36"
+			]
 			description: ["Applying Creosote Oil to regular planks gives us access to Treated Planks. Treated Planks are used to make higher end equipment and machinery. We want to keep a steady supply of these."]
 			id: "266CDDD166A086DA"
 			rewards: [{
@@ -78,6 +84,7 @@
 			dependencies: [
 				"5C1E3ACFD2F9C650"
 				"7E35C3054ADB7374"
+				"3C7B05B372C82B36"
 			]
 			description: ["With Coke Dust in hand, we can begin production of a Coke Oven. This machine take some time to make but will provide us with access to Coal Coke and Creosote production."]
 			icon: "immersiveengineering:coke_oven"
@@ -101,7 +108,10 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["2D69C4A5F91F3CF7"]
+			dependencies: [
+				"2D69C4A5F91F3CF7"
+				"3C7B05B372C82B36"
+			]
 			description: ["Making Steel thus far has been a tedious and resource hungry task. Getting ourselves a Blast Furnace will allow us to utilize the Coal Coke we have been generating and super heat Iron into Steel. This also produces a biproduct of Slag."]
 			icon: "immersiveengineering:blast_furnace"
 			id: "38DE58C8666609EC"
@@ -124,7 +134,10 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["38DE58C8666609EC"]
+			dependencies: [
+				"38DE58C8666609EC"
+				"3C7B05B372C82B36"
+			]
 			description: ["With access to Steel now in full motion, we can upgade our Blast Furnace to a stronger and automatable machine. This will increase the workflow of making Steel as well as add the ability to continuously produce steel through automation."]
 			icon: "immersiveengineering:advanced_blast_furnace"
 			id: "023D129314703FD1"
@@ -147,7 +160,10 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["023D129314703FD1"]
+			dependencies: [
+				"023D129314703FD1"
+				"3C7B05B372C82B36"
+			]
 			description: ["With access to electricity, we can build Blast Furnace Preheaters to allow us to speed up our Improved Blast Furnace even more. These machines provide extra heat to the block to speed up production."]
 			id: "1A7921559FFAACAA"
 			rewards: [{
@@ -167,7 +183,10 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["38DE58C8666609EC"]
+			dependencies: [
+				"38DE58C8666609EC"
+				"3C7B05B372C82B36"
+			]
 			description: ["Another form of free energy is through the use of kinetic motion. The Kinetic Dynamo allows you to use the flow of water or speeds of wind to generate power."]
 			id: "1274E79019C28F4A"
 			rewards: [{
@@ -185,7 +204,10 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["38DE58C8666609EC"]
+			dependencies: [
+				"38DE58C8666609EC"
+				"3C7B05B372C82B36"
+			]
 			description: ["Passive energy is always a plus to have. The Thermoelectric Generator produces power off the usage of heat differentials. Simply place different heat blocks around it and watch the energy flow in. Consult your Engineer's Manual for details of how much each block differs."]
 			id: "77D17C04DD364CAE"
 			rewards: [{
@@ -203,7 +225,10 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["266CDDD166A086DA"]
+			dependencies: [
+				"266CDDD166A086DA"
+				"3C7B05B372C82B36"
+			]
 			description: ["Sometimes building and desgining can be tedious. We can leave this to the experts and use the Schematicannon to build for us. The pack comes included with schematics for all of the Immersive Engineering multiblocks for you to build."]
 			id: "780D07242DE7E506"
 			rewards: [{
@@ -228,7 +253,10 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["1274E79019C28F4A"]
+			dependencies: [
+				"1274E79019C28F4A"
+				"3C7B05B372C82B36"
+			]
 			description: ["Connecting Water Wheels to the Kinetic Dynamo will begin to passively generate power with the flow of water. You must make sure that the water is not also flowing to parts of the wheel is shouldn't be that would reduce its speed."]
 			id: "2926E1B744FACF79"
 			rewards: [{
@@ -247,7 +275,10 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["1274E79019C28F4A"]
+			dependencies: [
+				"1274E79019C28F4A"
+				"3C7B05B372C82B36"
+			]
 			description: ["The power of the wind can be harnessed through Windmills on the Kinetic Dynamo. Just place one on the dynamo and the wind will passively generate power."]
 			id: "68BD97666C35C625"
 			rewards: [{
@@ -266,7 +297,10 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["68BD97666C35C625"]
+			dependencies: [
+				"68BD97666C35C625"
+				"3C7B05B372C82B36"
+			]
 			description: ["Windmill Sails increase the efficiency of our windmills. Applying them to the windmill will allow us to gain more energy from the windmills."]
 			id: "6A0DFE1D63712423"
 			rewards: [{
@@ -289,6 +323,7 @@
 			dependencies: [
 				"546D8110EC3DA895"
 				"03835B0AAF486B09"
+				"3C7B05B372C82B36"
 			]
 			description: ["An Energy Acceptor is our start to build an AE2 storage system. This block can be given power and can be used to operate a simple system for starts of digital item storage."]
 			id: "1AAF8C310BB892B1"
@@ -309,7 +344,10 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["1274E79019C28F4A"]
+			dependencies: [
+				"1274E79019C28F4A"
+				"3C7B05B372C82B36"
+			]
 			description: ["LV, MV and HV Accumulators are a compact way to store power. They can be configured with the Engineer's Hammer to change input and output sides of the block."]
 			id: "07283140B11FB4CC"
 			rewards: [{
@@ -327,7 +365,10 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["3DF334D3DF981D3D"]
+			dependencies: [
+				"3DF334D3DF981D3D"
+				"3C7B05B372C82B36"
+			]
 			description: ["By combining the powers of an Eye of Ender with a Compass, we can create an Explorer's Compass to help us locate any structure we may be looking for."]
 			id: "4E1CAFE752AE48F3"
 			rewards: [{
@@ -350,7 +391,10 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["4E1CAFE752AE48F3"]
+			dependencies: [
+				"4E1CAFE752AE48F3"
+				"3C7B05B372C82B36"
+			]
 			description: ["With the Explorer's Compass, we can located the end stronghold and try to find the portal within. This structure is a MASSIVE structure filled with many hidden rooms and lots of loot. You want to ensure you are searching for the Integrated Structures stronghold to find what you are looking for."]
 			id: "60C64ED98B3DA5FE"
 			rewards: [{
@@ -369,7 +413,10 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["60C64ED98B3DA5FE"]
+			dependencies: [
+				"60C64ED98B3DA5FE"
+				"3C7B05B372C82B36"
+			]
 			description: ["By harnessing the power of the Ender Dragon's breath, we can build our own little End Portal at our base. This will save time from having to constantly travel to the Stronghold."]
 			id: "73F11332415E1484"
 			rewards: [{
@@ -395,7 +442,10 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["60C64ED98B3DA5FE"]
+			dependencies: [
+				"60C64ED98B3DA5FE"
+				"3C7B05B372C82B36"
+			]
 			description: ["Just like the Nether, The End has a vast amount of resources. These are the most plentiful resources you can find. By harnessing the power of the Shulker's, you can build an End Mining portal to gain access to these resources."]
 			id: "6601CE0A294C091A"
 			rewards: [{
@@ -421,7 +471,10 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["6601CE0A294C091A"]
+			dependencies: [
+				"6601CE0A294C091A"
+				"3C7B05B372C82B36"
+			]
 			description: ["The End Mining Dimension holds all of the resources you will ever need. We also are free of the attacks from the Endermen that roam The End normally. We can get a lot of resources here to get moving."]
 			id: "00859E1E3971657F"
 			rewards: [{
@@ -440,7 +493,10 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["38DE58C8666609EC"]
+			dependencies: [
+				"38DE58C8666609EC"
+				"3C7B05B372C82B36"
+			]
 			description: ["With access to a Metal Press, we can use electricty to great various plates, rods and wires. This can be much faster and more automateable than the Create Press."]
 			icon: "immersiveengineering:metal_press"
 			id: "47EA72930E8B263C"
@@ -462,7 +518,10 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["47EA72930E8B263C"]
+			dependencies: [
+				"47EA72930E8B263C"
+				"3C7B05B372C82B36"
+			]
 			description: ["The multiblock Crusher from Immersive Engineering gives us access to crushing materials in a larger scale. This machine crushes items down, sometimes into other materials we were not able to get before."]
 			hide_dependency_lines: true
 			icon: "immersiveengineering:crusher"
@@ -489,6 +548,7 @@
 			dependencies: [
 				"1787025054B9F175"
 				"087EFD6289DFBB70"
+				"3C7B05B372C82B36"
 			]
 			description: ["The Arc Furnace provides us with a simpiler way to be able to produce HOP Graphite without having to loose so many resources. It also opens up the ability to begin processing all of the Osmium we had been gathering."]
 			icon: "immersiveengineering:arc_furnace"
@@ -512,7 +572,10 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["546D8110EC3DA895"]
+			dependencies: [
+				"546D8110EC3DA895"
+				"3C7B05B372C82B36"
+			]
 			description: ["With access to an Arc Furnace, we can now access the Mining Dimension. This is a dimension full of resources with the items we don't need removed. This means every mineral here is something you will need for advancement."]
 			id: "68FF89B494B577B4"
 			rewards: [{
@@ -538,20 +601,12 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["68FF89B494B577B4"]
+			dependencies: [
+				"68FF89B494B577B4"
+				"3C7B05B372C82B36"
+			]
 			description: ["The Mining Dimension is going to be a go to place to set up a quarry or mining machine. You can strip the world for everything you may need within. There also seems to be these mysterious meteorites throughout the dimension as well."]
 			id: "3A8F47D818681F44"
-			rewards: [{
-				id: "24E20078F4002B14"
-				item: {
-					Count: 1
-					id: "justhammers:netherite_destructor_hammer"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
 			tasks: [{
 				dimension: "jamd:mining"
 				id: "2E4ED95A8147FFBF"
@@ -562,7 +617,10 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["5ECDD562A5C902F6"]
+			dependencies: [
+				"5ECDD562A5C902F6"
+				"3C7B05B372C82B36"
+			]
 			description: ["With Biodiesel in production, we can make a Diesel generator to start generating much more power than before. This is one of our first major steps into large scale power protection."]
 			id: "29E99CB108C9DD1E"
 			optional: true
@@ -587,6 +645,7 @@
 			dependencies: [
 				"1CA2206C39C24626"
 				"18EEE381A90610B5"
+				"3C7B05B372C82B36"
 			]
 			description: ["With the Refinery, we can produce even newer resources by refining the ones we have. We can combine our Ethanol and Plant Oil to make Biodiesel for our power productions. We can also make Phenolic Resin to produce other materials we are going to need."]
 			id: "5ECDD562A5C902F6"
@@ -609,7 +668,10 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["47EA72930E8B263C"]
+			dependencies: [
+				"47EA72930E8B263C"
+				"3C7B05B372C82B36"
+			]
 			description: ["The Fermenter multiblock can be used to generate Ethanol. This resource can be produce through various different crops and utilized into further resources."]
 			id: "1CA2206C39C24626"
 			rewards: [{
@@ -630,7 +692,10 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["47EA72930E8B263C"]
+			dependencies: [
+				"47EA72930E8B263C"
+				"3C7B05B372C82B36"
+			]
 			description: ["The Industrial Squeezer is used to extra oil from seeds. It can also be used to squeeze Coke Dust into Graphite Dust."]
 			id: "18EEE381A90610B5"
 			rewards: [{
@@ -655,6 +720,7 @@
 			dependencies: [
 				"0649FCAA578DC2E6"
 				"6CBE6DD3F776E019"
+				"3C7B05B372C82B36"
 			]
 			description: ["With the materials we have coming from all our machines, we are able to make a Quarry now to begin strip mining. This will allow us to gain materials while focusing on other tasks at hand."]
 			id: "45F9ED8270B59E26"
@@ -673,7 +739,10 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["18EEE381A90610B5"]
+			dependencies: [
+				"18EEE381A90610B5"
+				"3C7B05B372C82B36"
+			]
 			description: ["Creating early HOP Graphite is a resource intesive operation, as with Brass and Steel. We can produce nuggets from the Graphite Dust for the time being until we gain access to an Arc Furnace to make full ingots."]
 			id: "0649FCAA578DC2E6"
 			rewards: [{
@@ -694,6 +763,7 @@
 			dependencies: [
 				"5ECDD562A5C902F6"
 				"6CBE6DD3F776E019"
+				"3C7B05B372C82B36"
 			]
 			description: ["A Bottling Machine is key to producing further resources. Phenolic Resing can be used and molded into Duroplast and Grinding Disks. We can also use the Bottling Machine to create dusts of Redston acid."]
 			id: "7BE55FA9BDE5E7F6"
@@ -715,7 +785,10 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["07283140B11FB4CC"]
+			dependencies: [
+				"07283140B11FB4CC"
+				"3C7B05B372C82B36"
+			]
 			description: ["Thunderstorms are generally something you want to sleep through and get rid of. This the Lightning Rod, we can harness this power and generate energy from it. The lightning will strike the rod and generate power. Steel fences can be used to increase the height of the rod."]
 			id: "1BFE52C0479C592E"
 			rewards: [{
@@ -737,7 +810,10 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["29E99CB108C9DD1E"]
+			dependencies: [
+				"29E99CB108C9DD1E"
+				"3C7B05B372C82B36"
+			]
 			description: ["Excavators are used to gather resources from the world. Then can dig and gather the materials we find based on a chunk by chunk basis. These machines will just gather and collect the resources until they are exhausted."]
 			id: "7D4499A428665144"
 			optional: true
@@ -769,7 +845,10 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["546D8110EC3DA895"]
+			dependencies: [
+				"546D8110EC3DA895"
+				"3C7B05B372C82B36"
+			]
 			description: ["With the ability to finally process Osmium, we begin to start our journey into Mekanism. This starts our path to smaller machines to perform larger tasks."]
 			id: "6C694DEF01960C4A"
 			rewards: [{
@@ -791,6 +870,7 @@
 			dependencies: [
 				"0649FCAA578DC2E6"
 				"47EA72930E8B263C"
+				"3C7B05B372C82B36"
 			]
 			description: ["We must take our HOP Graphite and make it into Electrode Rods. These are a crucial component in being able to run our Arc Furnace. We can make rough rods using the Metal Press or we can find ourselves a trader and get the recipe to make them in an Engineer's Table."]
 			id: "087EFD6289DFBB70"
@@ -822,7 +902,10 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["47EA72930E8B263C"]
+			dependencies: [
+				"47EA72930E8B263C"
+				"3C7B05B372C82B36"
+			]
 			description: ["The Mixer is a machine we can use to mix up and make Redstone Acid. This acid is crucial to progressing further into Mekanism. We can also use the Mixer to combine experience with mob drops to create mob essence for special budding resources."]
 			hide_dependency_lines: true
 			id: "6CBE6DD3F776E019"
@@ -844,7 +927,10 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["7BE55FA9BDE5E7F6"]
+			dependencies: [
+				"7BE55FA9BDE5E7F6"
+				"3C7B05B372C82B36"
+			]
 			description: ["Hardened Redstone Acid is going to be utilized to progress further into Mekanism and make the resources needed there. We will want to ensure that we are producing this resource in mass as it will be used alot."]
 			id: "430751120FB42896"
 			rewards: [{
@@ -863,7 +949,10 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["546D8110EC3DA895"]
+			dependencies: [
+				"546D8110EC3DA895"
+				"3C7B05B372C82B36"
+			]
 			description: ["An Auto Workbench is going to be a crucial part of automating our workbench recipes. We can set it up and provide it with materials and it will begin to make the recipes we set it to do."]
 			icon: "immersiveengineering:auto_workbench"
 			id: "02AED649A06B3A01"
@@ -886,7 +975,10 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["546D8110EC3DA895"]
+			dependencies: [
+				"546D8110EC3DA895"
+				"3C7B05B372C82B36"
+			]
 			description: ["A Mechanical Extruder can be used to create blocks based on the liquids around it and the block it is on. This will be critical in trying to get harder to gather resources."]
 			id: "63255A7E3A19332A"
 			rewards: [{

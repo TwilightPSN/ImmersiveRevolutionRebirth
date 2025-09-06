@@ -1,0 +1,26 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "important_information"
+	group: ""
+	id: "788B95E3A47C5379"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		description: ["In an upcoming update, Silent Gear will be getting removed from the pack! Ensure you have swapped over tools and armor, as well as removed any Apotheosis gems before updating to any version after this."]
+		icon: "createdeco:decal_warning"
+		icon_scale: 2.0d
+		id: "3C7B05B372C82B36"
+		shape: "square"
+		size: 5.0d
+		tasks: [{
+			id: "58F023E25683A1AF"
+			title: "Coming Soon"
+			type: "checkmark"
+		}]
+		title: "Read Me!"
+		x: 1.0d
+		y: -0.5d
+	}]
+	title: "Update News!"
+}

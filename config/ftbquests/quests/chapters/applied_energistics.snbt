@@ -29,7 +29,10 @@
 	]
 	quests: [
 		{
-			dependencies: ["1AAF8C310BB892B1"]
+			dependencies: [
+				"1AAF8C310BB892B1"
+				"3C7B05B372C82B36"
+			]
 			description: ["A Storage Bus is a nice way to connect our AE2 system to the drawers and chests we already have. It can be connected to a Storage Controller and allows access to our whole system of supplies."]
 			id: "5253FE03D294AB57"
 			rewards: [{
@@ -50,6 +53,7 @@
 			dependencies: [
 				"7B0F71B2E191845D"
 				"7238E258FDDBD561"
+				"3C7B05B372C82B36"
 			]
 			description: ["The Inscriber is used use with our presses we found to make circuits to expand our system. We are going to want a few of these to keep them running at all times."]
 			id: "0AA2F1B9EDB6605E"
@@ -69,7 +73,10 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["0AA2F1B9EDB6605E"]
+			dependencies: [
+				"0AA2F1B9EDB6605E"
+				"3C7B05B372C82B36"
+			]
 			description: ["ME Drives are used to house our disk drives to digitally store items. This is the start of being able to move from chests to entirely digital storage."]
 			id: "6ACABDB12C4824B6"
 			rewards: [{
@@ -91,7 +98,10 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["0AA2F1B9EDB6605E"]
+			dependencies: [
+				"0AA2F1B9EDB6605E"
+				"3C7B05B372C82B36"
+			]
 			description: ["A Crafting Terminal is the crucial panel to be able to take our store materials and craft what we need. There isn't much more to it than that."]
 			id: "57B3C17EF15A6EB4"
 			rewards: [{
@@ -116,7 +126,10 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["1AAF8C310BB892B1"]
+			dependencies: [
+				"1AAF8C310BB892B1"
+				"3C7B05B372C82B36"
+			]
 			description: ["The Crystal Resonance Generator is a great wayto provide passive power to our early AE2 system. This machine can simply generator power and keep a simple network up and running with ease."]
 			id: "7B0F71B2E191845D"
 			rewards: [{
@@ -137,6 +150,7 @@
 			dependencies: [
 				"57B3C17EF15A6EB4"
 				"1C77BC5EF2916F72"
+				"3C7B05B372C82B36"
 			]
 			description: ["Glass cables open up a whole new world for our AE2 system. We can begin to organize and setup the system in a much cleaner manner to help with our organization."]
 			id: "34BD90F4B17072D2"
@@ -157,7 +171,10 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["0AA2F1B9EDB6605E"]
+			dependencies: [
+				"0AA2F1B9EDB6605E"
+				"3C7B05B372C82B36"
+			]
 			description: ["The ME Controller is the heart of our AE2 system. These blocks are the computer behind building an efficient and large scale network of automation."]
 			id: "22F3F63D08B38C13"
 			rewards: [{
@@ -176,7 +193,10 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["7B0F71B2E191845D"]
+			dependencies: [
+				"7B0F71B2E191845D"
+				"3C7B05B372C82B36"
+			]
 			description: ["Connecting an Energy Cell to our AE2 network acts as a battery backup. This will be handy in the case we run low on power to keep the system running."]
 			id: "331CEDFB8C544C09"
 			rewards: [{
@@ -199,7 +219,10 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["03835B0AAF486B09"]
+			dependencies: [
+				"03835B0AAF486B09"
+				"3C7B05B372C82B36"
+			]
 			description: ["Taking a Charged Certus Quartz and combining it in water with Redstone and Nether Quartz, we are able to create Fluix Crystals. These are a staple in getting moving into our digital storage world."]
 			id: "38D85851706BCE61"
 			rewards: [{
@@ -217,7 +240,10 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["0AA2F1B9EDB6605E"]
+			dependencies: [
+				"0AA2F1B9EDB6605E"
+				"3C7B05B372C82B36"
+			]
 			description: ["Upgrades are the key to speeding up our AE2 machines. We want to ensure we upgrade the speed of our machine to go faster when needed. We also have other varying upgrades that each perform a different function."]
 			id: "75D89E9A2104DBB9"
 			rewards: [{
@@ -236,7 +262,10 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["34BD90F4B17072D2"]
+			dependencies: [
+				"34BD90F4B17072D2"
+				"3C7B05B372C82B36"
+			]
 			description: ["Growth Accelerators can increase the speed at which we grow our plants and budds. This is critical to help keep the flow steady and at a decent pace."]
 			id: "5AB1344622A91281"
 			rewards: [{
@@ -254,7 +283,10 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["22F3F63D08B38C13"]
+			dependencies: [
+				"22F3F63D08B38C13"
+				"3C7B05B372C82B36"
+			]
 			description: ["The ME Interface is a critical part of connecting our network to the rest of our machines. It acts as a digital chest to pull and push items around."]
 			id: "1F3E0F5BB6132834"
 			rewards: [{
@@ -272,7 +304,10 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["1F3E0F5BB6132834"]
+			dependencies: [
+				"1F3E0F5BB6132834"
+				"3C7B05B372C82B36"
+			]
 			description: ["Molecular Assemblers are our starting point of autocrafting. These machines craft the recipes we are going to program to make."]
 			id: "5C4B22675FF3B0D7"
 			rewards: [{
@@ -290,7 +325,10 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["5C4B22675FF3B0D7"]
+			dependencies: [
+				"5C4B22675FF3B0D7"
+				"3C7B05B372C82B36"
+			]
 			description: ["In order to start autocrafting, we need a computer to handle all of the processing. The larger the computer, the bigger recipes it can handle."]
 			id: "5461B6E1D046F467"
 			rewards: [{
@@ -323,7 +361,10 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["5C4B22675FF3B0D7"]
+			dependencies: [
+				"5C4B22675FF3B0D7"
+				"3C7B05B372C82B36"
+			]
 			description: ["Pattern Providers are the heart of our crafts. We provide them with the recipes to make and they send them to an assembler or machine to craft."]
 			id: "69388A50906DE924"
 			rewards: [{
@@ -341,7 +382,10 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["69388A50906DE924"]
+			dependencies: [
+				"69388A50906DE924"
+				"3C7B05B372C82B36"
+			]
 			description: ["In order to get our crafting going, we need to be able to tell the network what to do. Patterns need to be configured and placed in the proper location to be able to perform the required tasks."]
 			id: "51B0FCAF218E154C"
 			rewards: [{
@@ -372,7 +416,10 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["1AAF8C310BB892B1"]
+			dependencies: [
+				"1AAF8C310BB892B1"
+				"3C7B05B372C82B36"
+			]
 			description: ["The Matter Condenser allows us to take mass amounts of items or fluids and create a Singularity. These Singularities are used to create more advanced pieces of our computer network."]
 			hide_dependency_lines: true
 			id: "3362930245E966F4"
@@ -398,7 +445,10 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["1AAF8C310BB892B1"]
+			dependencies: [
+				"1AAF8C310BB892B1"
+				"3C7B05B372C82B36"
+			]
 			description: ["With getting a storage system going early, we do not have access to the glass wiring we are used to. We need to use wire cables to connect all our machines. Be careful not to create a massive daisy chain!"]
 			id: "0D25FBDA80F06D8C"
 			rewards: [{
@@ -429,7 +479,10 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["3362930245E966F4"]
+			dependencies: [
+				"3362930245E966F4"
+				"3C7B05B372C82B36"
+			]
 			description: ["With the Reaction Chamber, we can begin to create circuits in a whole new manner. We can also start to craft more advanced metals for higher end equipment."]
 			id: "6FBBB4A15ABA5AF8"
 			rewards: [{
@@ -448,7 +501,10 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["6FBBB4A15ABA5AF8"]
+			dependencies: [
+				"6FBBB4A15ABA5AF8"
+				"3C7B05B372C82B36"
+			]
 			description: ["By infusing the hardened metal of Steel with the Sky Stone we have gathered, we can create a new Sky Steel that can be used to deeper digital storage."]
 			id: "6F009C96CAAFDE07"
 			rewards: [{
@@ -466,7 +522,10 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["6F009C96CAAFDE07"]
+			dependencies: [
+				"6F009C96CAAFDE07"
+				"3C7B05B372C82B36"
+			]
 			description: ["MEGA crafting units expand the functionality of our network and can push autocrafting even further. Using our more refined materials, we can get closer to a super computer."]
 			id: "4F84795E0499BCD5"
 			rewards: [{
@@ -498,7 +557,10 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["6674853D1EFF6FCC"]
+			dependencies: [
+				"6674853D1EFF6FCC"
+				"3C7B05B372C82B36"
+			]
 			description: ["With the amount of waste that our reactors are going to be producing, we want to avoid barrels all over. These Radioactive Waste drives can store the waste to prevent a chance of it leaking and contaminating the environment."]
 			id: "780D0B7F4D20A17D"
 			rewards: [{
@@ -525,7 +587,10 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["0793751A64D16A0F"]
+			dependencies: [
+				"0793751A64D16A0F"
+				"3C7B05B372C82B36"
+			]
 			description: ["Quantum Equipment is one of the strongest pieces of equipment we can get. This equipment links directly to our super computer network with multiple heavy customizations."]
 			id: "7A28C9B360ADE038"
 			rewards: [{
@@ -585,7 +650,10 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["6FBBB4A15ABA5AF8"]
+			dependencies: [
+				"6FBBB4A15ABA5AF8"
+				"3C7B05B372C82B36"
+			]
 			description: ["The Reaction Chamber can be used to trigger a powerful reaction between resources. The Singularities we have been making can undergo a reaction and be shattered to be used in a more advanced way."]
 			id: "196F780928858FBF"
 			rewards: [{
@@ -604,7 +672,10 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["196F780928858FBF"]
+			dependencies: [
+				"196F780928858FBF"
+				"3C7B05B372C82B36"
+			]
 			description: ["Combining our creations of Singularities with Refined Obsidian and the power of Echo and Quantum fluid, we can create Quantum Alloy. This super metal can be used to create a near invincible armor as well the super computer."]
 			id: "0793751A64D16A0F"
 			rewards: [{
@@ -622,7 +693,10 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["69388A50906DE924"]
+			dependencies: [
+				"69388A50906DE924"
+				"3C7B05B372C82B36"
+			]
 			description: ["Advanced Pattern Providers can be more precisely configured for advanced machines. These become useful with Mekanism machines where items all have specific side inputs."]
 			id: "423A00713DB6FC30"
 			rewards: [{
@@ -643,6 +717,7 @@
 			dependencies: [
 				"51B0FCAF218E154C"
 				"423A00713DB6FC30"
+				"3C7B05B372C82B36"
 			]
 			description: ["Advanced Patterns are used with the Advanced Provider to help designate the location of our items. We configured selections, such as sides, by using these patterns."]
 			id: "39B26E93870E5280"
@@ -669,6 +744,7 @@
 			dependencies: [
 				"4F84795E0499BCD5"
 				"0793751A64D16A0F"
+				"3C7B05B372C82B36"
 			]
 			description: ["A Quantum Computer is the best crafter we can get our hands on. This system can create any craft provided to it near instantly."]
 			id: "0F4FE701F55C5D41"
@@ -715,7 +791,10 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["66F8A2FE57A0FEE2"]
+			dependencies: [
+				"66F8A2FE57A0FEE2"
+				"3C7B05B372C82B36"
+			]
 			description: ["Within the Void Dimension, we can place some of our more taxing or dangerous operations here. This dimension does not have natural mob spawning and will need a mob spawner if you wish to create a mob farm here."]
 			id: "4EDEFDEDD7BD7145"
 			rewards: [{
@@ -734,7 +813,10 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["38D85851706BCE61"]
+			dependencies: [
+				"38D85851706BCE61"
+				"3C7B05B372C82B36"
+			]
 			description: ["Using Fluix and Certus, we can construct a portal to the Void Dimension. This Dimension is a vast land of nothing as if building from a skyblock."]
 			id: "66F8A2FE57A0FEE2"
 			rewards: [{
@@ -760,7 +842,10 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["5C4B22675FF3B0D7"]
+			dependencies: [
+				"5C4B22675FF3B0D7"
+				"3C7B05B372C82B36"
+			]
 			description: ["The Extendede Molecular Assembler is the golden age of autocrafting. This single block can handle multiple crafts at once compared to the standard model."]
 			id: "1B94E08682932915"
 			rewards: [{
@@ -778,7 +863,10 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["6ACABDB12C4824B6"]
+			dependencies: [
+				"6ACABDB12C4824B6"
+				"3C7B05B372C82B36"
+			]
 			description: ["The ME Extended Drive works just like the regular drive. The major difference is being able to hold double the amount of disks in a single block of space."]
 			id: "1363430C198CFFBE"
 			rewards: [{
@@ -800,7 +888,10 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["0AA2F1B9EDB6605E"]
+			dependencies: [
+				"0AA2F1B9EDB6605E"
+				"3C7B05B372C82B36"
+			]
 			description: ["The Circuit Slicer is able to mass produce the parts we need for our Circuits. We can create these in a high paced and efficient timing within this device."]
 			id: "670AA495488E1238"
 			rewards: [{
@@ -818,7 +909,10 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["6ACABDB12C4824B6"]
+			dependencies: [
+				"6ACABDB12C4824B6"
+				"3C7B05B372C82B36"
+			]
 			description: ["With the special infinity cells, we can ensure that we always have Cobblestone and Water on hand in our systems. These infinity cells well provide an infinite amount of these resources for us to use."]
 			id: "7F6783C938238C2B"
 			rewards: [{
@@ -865,7 +959,10 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["03835B0AAF486B09"]
+			dependencies: [
+				"03835B0AAF486B09"
+				"3C7B05B372C82B36"
+			]
 			description: ["The Charger block allows us to take our Certus Quartz and create Charged Certus Quartz. It can also be used to charge up any devices that we need."]
 			id: "21E8F6587D7D6182"
 			rewards: [{
@@ -884,7 +981,10 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["21E8F6587D7D6182"]
+			dependencies: [
+				"21E8F6587D7D6182"
+				"3C7B05B372C82B36"
+			]
 			description: ["The Quad Charger takes the normal Charger and amplifies it. It allows us to do 4x the charging at once."]
 			id: "1DBA560A5B20F8AB"
 			rewards: [{
