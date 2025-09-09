@@ -7,7 +7,7 @@
 	order_index: 0
 	quest_links: [ ]
 	quests: [{
-		description: ["In an upcoming update, Silent Gear will be getting removed from the pack! Ensure you have swapped over tools and armor, as well as removed any Apotheosis gems before updating to any version after this."]
+		description: ["&l&cAfter this update, Silent Gear will be getting removed from the pack! Ensure you have swapped over tools and armor to Tinker's, as well as removed any Apotheosis gems before updating to any version after this (1.6.0).&r&r"]
 		icon: "createdeco:decal_warning"
 		icon_scale: 2.0d
 		id: "3C7B05B372C82B36"

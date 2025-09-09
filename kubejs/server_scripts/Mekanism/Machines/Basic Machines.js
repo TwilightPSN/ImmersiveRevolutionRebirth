@@ -1,19 +1,21 @@
 ServerEvents.recipes(IRRebirth => {
   IRRebirth.replaceInput({ id: 'mekanism:tier_installer/basic' },'minecraft:redstone','kubejs:acidic_redstone')
   IRRebirth.replaceInput({ id: 'mekanism:tier_installer/basic' },'minecraft:iron_ingot','#forge:plates/steel')
+  IRRebirth.replaceInput({ id: 'mekanism:tier_installer/basic' },'#minecraft:planks','immersiveengineering:logic_unit')
   IRRebirth.replaceInput({ output: 'mekanism:basic_bin' },'minecraft:cobblestone','create:andesite_casing')
   IRRebirth.replaceInput({ output: 'mekanism:basic_bin' },'minecraft:redstone','kubejs:acidic_redstone')
   IRRebirth.shaped(
     Item.of('mekanism:basic_fluid_tank'), 
     [
       'ABA',
-      'C C',
+      'CDC',
       'ABA'
     ],
     {
       A: 'kubejs:acidic_redstone',
       B: '#forge:plates/steel',
-      C: '#forge:rods/steel'
+      C: '#forge:rods/steel',
+      D: 'immersiveengineering:fluid_pipe'
     }
   ).id('mekanism:fluid_tank/basic')
   IRRebirth.shaped(
@@ -167,19 +169,20 @@ ServerEvents.recipes(IRRebirth => {
     ],
     {
       A: '#forge:rods/osmium',
-      B: 'kubejs:acidic_redstone'
+      B: 'immersiveengineering:toolupgrade_powerpack_tesla'
     }
   ).id('mekanism:transmitter/universal_cable/basic')
   IRRebirth.shaped(
     Item.of('mekanism:basic_mechanical_pipe', 8), 
     [
-      'AAA',
       'ABA',
-      'AAA'
+      'BCB',
+      'ABA'
     ],
     {
       A: '#forge:rods/osmium',
-      B: 'immersiveengineering:redstone_acid_bucket'
+      B: 'kubejs:acidic_redstone',
+      C: 'immersiveengineering:component_steel'
     }
   ).id('mekanism:transmitter/mechanical_pipe/basic')
   IRRebirth.shaped(

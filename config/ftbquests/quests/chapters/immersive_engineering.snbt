@@ -541,7 +541,7 @@
 				type: "observation"
 			}]
 			title: "Can it Crush"
-			x: 1.0d
+			x: 1.5d
 			y: -1.0d
 		}
 		{
@@ -568,7 +568,7 @@
 				type: "observation"
 			}]
 			title: "Power Arc"
-			x: 0.0d
+			x: 1.0d
 			y: -2.0d
 		}
 		{
@@ -598,7 +598,7 @@
 			]
 			title: "Mining Dimension Portal"
 			x: 0.5d
-			y: -3.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -613,8 +613,8 @@
 				type: "dimension"
 			}]
 			title: "Mining Dimension"
-			x: 1.5d
-			y: -3.0d
+			x: -0.5d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -863,8 +863,8 @@
 				type: "item"
 			}]
 			title: "New Age Metal"
-			x: 1.0d
-			y: -2.0d
+			x: 1.5d
+			y: -3.5d
 		}
 		{
 			dependencies: [
@@ -992,6 +992,27 @@
 				type: "item"
 			}]
 			title: "Blocks from Nothing"
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["38DE58C8666609EC"]
+			description: ["While wood is abundant, we want to be able to cut it down and get more use from it. The Sawmill allows us to cut our logs into planks more efficiently than our Create saw. We also have the ability to get Sawdust, which is useful for making cardboard boxes."]
+			id: "27162290957E5804"
+			rewards: [{
+				id: "2A5523BC54001B79"
+				item: "immersiveengineering:heavy_engineering"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "immersiveengineering:sawmill"
+				id: "013A31FD6DB835AD"
+				observe_type: 0
+				timer: 0L
+				title: "Woodworks"
+				to_observe: "immersiveengineering:sawmill"
+				type: "observation"
+			}]
 			x: -1.0d
 			y: -0.5d
 		}

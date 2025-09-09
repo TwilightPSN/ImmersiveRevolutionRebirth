@@ -823,8 +823,30 @@
 				}
 			]
 			title: "Doug DimaStorage"
-			x: -8.5d
-			y: -3.5d
+			x: -9.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["599030C9DB9B1E08"]
+			description: ["Finding specific biomes to live in can be quite challenging. The Nature's Compass can be used to help you locate your dream base location. It can also be used to help locate the Deep Dark to acquire Sculk and Echo."]
+			id: "0DEC4292FB0EFD86"
+			rewards: [{
+				id: "59F9AA1C9940E149"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "777A2D044311F1B8"
+				item: {
+					Count: 1
+					id: "naturescompass:naturescompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Nature's Call"
+			x: -9.0d
+			y: -3.0d
 		}
 	]
 	title: "Getting Started"

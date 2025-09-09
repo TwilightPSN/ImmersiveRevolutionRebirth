@@ -123,7 +123,7 @@
 				"10010D0E4452ACC7"
 				"3C7B05B372C82B36"
 			]
-			description: ["Using the large scale Mechanical Crafters has become a tedious task. With the precise blades of a Sawmill, we can cut blocks into the precise pieces of machinery we need."]
+			description: ["Using the large scale Mechanical Crafters has become a tedious task. With the precise blades of a Sawmill, we can cut blocks into the precise pieces of machinery we need. We do, however, need a tougher material to make these blades in the form of Refined Obsidian."]
 			id: "576F711A38F08993"
 			rewards: [{
 				count: 2
