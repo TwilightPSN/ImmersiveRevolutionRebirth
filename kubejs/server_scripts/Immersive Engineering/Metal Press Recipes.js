@@ -5,8 +5,6 @@ ServerEvents.recipes(IRRebirth => {
     IRRebirth.recipes.immersiveengineeringMetalPress('kubejs:certus_plate', '#forge:gems/certus_quartz', 'immersiveengineering:mold_plate')
     IRRebirth.recipes.immersiveengineeringMetalPress('createdeco:andesite_sheet', 'create:andesite_alloy', 'immersiveengineering:mold_plate')
     IRRebirth.recipes.immersiveengineeringMetalPress('kubejs:graphite_plate', '#forge:ingots/hop_graphite', 'immersiveengineering:mold_plate')
-    IRRebirth.recipes.immersiveengineeringMetalPress('kubejs:refined_obsidian_plate', '#forge:ingots/refined_obsidian', 'immersiveengineering:mold_plate')
-    IRRebirth.recipes.immersiveengineeringMetalPress('kubejs:refined_glowstone_plate', '#forge:ingots/refined_glowstone', 'immersiveengineering:mold_plate')
     IRRebirth.recipes.immersiveengineeringMetalPress(Item.of('kubejs:refined_obsidian_rod', 2), '#forge:ingots/refined_obsidian', 'immersiveengineering:mold_rod')
     IRRebirth.recipes.immersiveengineeringMetalPress(Item.of('kubejs:refined_glowstone_rod', 2), '#forge:ingots/refined_glowstone', 'immersiveengineering:mold_rod')
     IRRebirth.recipes.immersiveengineeringMetalPress(Item.of('kubejs:diamond_rod', 2), '#forge:gems/diamond', 'immersiveengineering:mold_rod')

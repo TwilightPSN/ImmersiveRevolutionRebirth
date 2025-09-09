@@ -7,6 +7,4 @@ ServerEvents.recipes(IRRebirth => {
     IRRebirth.recipes.create.pressing('kubejs:fluix_plate', '#forge:gems/fluix')
     IRRebirth.recipes.create.pressing('kubejs:osmium_plate', '#forge:ingots/osmium')
     IRRebirth.recipes.create.pressing('kubejs:bronze_plate', '#forge:ingots/bronze')
-    IRRebirth.recipes.create.pressing('kubejs:refined_glowstone_plate', '#forge:ingots/refined_glowstone')
-    IRRebirth.recipes.create.pressing('kubejs:refined_obsidian_plate', '#forge:ingots/refined_obsidian')
 })

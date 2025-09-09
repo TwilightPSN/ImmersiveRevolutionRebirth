@@ -15,7 +15,10 @@
 	}]
 	quests: [
 		{
-			dependencies: ["7A88E6320FFD7765"]
+			dependencies: [
+				"7A88E6320FFD7765"
+				"3C7B05B372C82B36"
+			]
 			description: ["To properly configure Powah machines, we need a specialized wrench. By combining Refined Obsidian with Dielectric Paste, we can craft a wrench specifically designed for working with Powah!"]
 			id: "330386FE0BB48FB6"
 			rewards: [{
@@ -40,7 +43,10 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["7A88E6320FFD7765"]
+			dependencies: [
+				"7A88E6320FFD7765"
+				"3C7B05B372C82B36"
+			]
 			description: ["To construct our machinery we need to combine Dielectric Paste with rods to form a durable casing. This casing is essential for creating many of the Powah machines."]
 			id: "2DCED553E5EBC65F"
 			rewards: [{
@@ -59,7 +65,10 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["7A88E6320FFD7765"]
+			dependencies: [
+				"7A88E6320FFD7765"
+				"3C7B05B372C82B36"
+			]
 			description: ["Capacitors play a role in storing energy and ensuring that our machines operate without overloading or wasting power."]
 			id: "6692E8F2B4CAF9EF"
 			rewards: [{
@@ -81,6 +90,7 @@
 			dependencies: [
 				"6692E8F2B4CAF9EF"
 				"2DCED553E5EBC65F"
+				"3C7B05B372C82B36"
 			]
 			description: ["Energizing Rods, when paired with an Energizing Orb, allow us to channel energy directly into materials, creating new items. This process is essential for advancing our technology and unlocking stronger materials."]
 			id: "7A519D7656EE3495"
@@ -116,6 +126,7 @@
 			dependencies: [
 				"6692E8F2B4CAF9EF"
 				"2DCED553E5EBC65F"
+				"3C7B05B372C82B36"
 			]
 			description: ["The Magmator allows us to use burnable fluids and convert them into a reliable source of power. Lava, being one of the most accessible fuels, makes the Magmator an efficient power generator."]
 			id: "076A4CE796737E46"
@@ -145,6 +156,7 @@
 			dependencies: [
 				"6692E8F2B4CAF9EF"
 				"2DCED553E5EBC65F"
+				"3C7B05B372C82B36"
 			]
 			description: ["Solar Panels provide a passive source of power by harnessing sunlight. By applying a Lens of Ender, Solar Panels can absorb energy even at night, allowing them to continue generating power."]
 			id: "5C8F04432EE23906"
@@ -182,6 +194,7 @@
 			dependencies: [
 				"6692E8F2B4CAF9EF"
 				"2DCED553E5EBC65F"
+				"3C7B05B372C82B36"
 			]
 			description: ["Powah provides us with a simple power source of the Furnator. This generator operates by consuming burnable fuels such as coal or wood, converting them into power."]
 			id: "090F617377FD54BF"
@@ -211,6 +224,7 @@
 			dependencies: [
 				"6692E8F2B4CAF9EF"
 				"2DCED553E5EBC65F"
+				"3C7B05B372C82B36"
 			]
 			description: ["The Thermo Generators take advantage of temperature differences to generate power, making them a passive power source. The greater the heat difference around them, the more energy they can produce."]
 			id: "42E7D911B078B71C"
@@ -236,7 +250,10 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["7A519D7656EE3495"]
+			dependencies: [
+				"7A519D7656EE3495"
+				"3C7B05B372C82B36"
+			]
 			description: ["The Reactor is one of the most efficient and powerful energy sources we can have. Unlike Mekanism’s reactors, it operates cleanly without generating harmful radiation. This makes it a safer, more sustainable option for high power generation."]
 			id: "10E970261F697233"
 			rewards: [{
@@ -264,6 +281,7 @@
 			dependencies: [
 				"2DCED553E5EBC65F"
 				"6692E8F2B4CAF9EF"
+				"3C7B05B372C82B36"
 			]
 			description: ["Keeping our gear charged is essential as we continue to upgrade our equipment. Player Transmitters provide a wireless charging solution, ensuring our tools and armor remain powered without the need for manual recharging."]
 			id: "78F4C4C193332C11"
@@ -289,7 +307,10 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["78F4C4C193332C11"]
+			dependencies: [
+				"78F4C4C193332C11"
+				"3C7B05B372C82B36"
+			]
 			description: ["By crafting a Binding Card and using it on an Enderman or Endermite, we can enable our Player Transmitter to work across dimensions. This link ensures that we stay charged, no matter where we travel."]
 			id: "0D5AF794E99DE5B4"
 			rewards: [{

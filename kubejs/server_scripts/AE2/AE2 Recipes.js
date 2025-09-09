@@ -160,4 +160,16 @@ ServerEvents.recipes(IRRebirth => {
             }
           }
         )
+  IRRebirth.custom({
+  "type": "ae2:inscriber",
+  "ingredients": {
+    "middle": {
+      "tag": "forge:ender_pearls"
+    }
+  },
+  "mode": "inscribe",
+  "result": {
+    "item": "ae2:ender_dust"
+  }
+}).id('ae2:inscriber/ender_dust')
 })

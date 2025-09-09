@@ -6,7 +6,7 @@ ServerEvents.recipes(IRRebirth => {
         [
             Item.of('minecraft:prismarine_crystals')
                 .withChance(1)
-                .withRolls(1, 3) 
+                .withRolls(0, 1) 
         ],
         600,
         1
@@ -18,7 +18,7 @@ ServerEvents.recipes(IRRebirth => {
         [
             Item.of('mekanism:ingot_steel')
                 .withChance(1)
-                .withRolls(1, 3) 
+                .withRolls(0, 1) 
         ],
         600,
         1
@@ -30,7 +30,7 @@ ServerEvents.recipes(IRRebirth => {
         [
             Item.of('ae2:certus_quartz_crystal')
                 .withChance(1)
-                .withRolls(1, 3) 
+                .withRolls(0, 1) 
         ],
         600,
         1
@@ -42,7 +42,7 @@ ServerEvents.recipes(IRRebirth => {
         [
             Item.of('mekanism:ingot_refined_obsidian')
                 .withChance(1)
-                .withRolls(1, 3) 
+                .withRolls(0, 1) 
         ],
         600,
         1
@@ -54,7 +54,7 @@ ServerEvents.recipes(IRRebirth => {
         [
             Item.of('immersiveengineering:ingot_aluminum')
                 .withChance(1)
-                .withRolls(1, 3) 
+                .withRolls(0, 1) 
         ],
         600,
         1
@@ -66,7 +66,7 @@ ServerEvents.recipes(IRRebirth => {
         [
             Item.of('minecraft:glowstone_dust')
                 .withChance(1)
-                .withRolls(1, 3) 
+                .withRolls(0, 1) 
         ],
         600,
         1
@@ -78,7 +78,7 @@ ServerEvents.recipes(IRRebirth => {
         [
             Item.of('ae2:fluix_crystal')
                 .withChance(1)
-                .withRolls(1, 3) 
+                .withRolls(0, 1) 
         ],
         600,
         1
@@ -90,7 +90,7 @@ ServerEvents.recipes(IRRebirth => {
         [
             Item.of('minecraft:netherite_ingot')
                 .withChance(1)
-                .withRolls(1, 3) 
+                .withRolls(0, 1) 
         ],
         600,
         1
@@ -102,7 +102,7 @@ ServerEvents.recipes(IRRebirth => {
         [
             Item.of('minecraft:gold_ingot')
                 .withChance(1)
-                .withRolls(1, 3) 
+                .withRolls(0, 1) 
         ],
         600,
         1
@@ -114,7 +114,7 @@ ServerEvents.recipes(IRRebirth => {
         [
             Item.of('minecraft:lapis_lazuli')
                 .withChance(1)
-                .withRolls(1, 3) 
+                .withRolls(0, 1) 
         ],
         600,
         1
@@ -126,7 +126,7 @@ ServerEvents.recipes(IRRebirth => {
         [
             Item.of('mekanism:ingot_tin')
                 .withChance(1)
-                .withRolls(1, 3) 
+                .withRolls(0, 1) 
         ],
         600,
         1
@@ -138,7 +138,7 @@ ServerEvents.recipes(IRRebirth => {
         [
             Item.of('mekanism:fluorite_gem')
                 .withChance(1)
-                .withRolls(1, 3) 
+                .withRolls(0, 1) 
         ],
         600,
         1
@@ -150,7 +150,7 @@ ServerEvents.recipes(IRRebirth => {
         [
             Item.of('minecraft:copper_ingot')
                 .withChance(1)
-                .withRolls(1, 3) 
+                .withRolls(0, 1) 
         ],
         600,
         1
@@ -162,7 +162,7 @@ ServerEvents.recipes(IRRebirth => {
         [
             Item.of('mekanism:ingot_refined_glowstone')
                 .withChance(1)
-                .withRolls(1, 3) 
+                .withRolls(0, 1) 
         ],
         600,
         1
@@ -174,7 +174,7 @@ ServerEvents.recipes(IRRebirth => {
         [
             Item.of('draconicevolution:awakened_draconium_nugget')
                 .withChance(1)
-                .withRolls(1, 3) 
+                .withRolls(0, 1) 
         ],
         600,
         1
@@ -186,7 +186,7 @@ ServerEvents.recipes(IRRebirth => {
         [
             Item.of('create:zinc_ingot')
                 .withChance(1)
-                .withRolls(1, 3) 
+                .withRolls(0, 1) 
         ],
         600,
         1
@@ -198,7 +198,7 @@ ServerEvents.recipes(IRRebirth => {
         [
             Item.of('immersiveengineering:ingot_electrum')
                 .withChance(1)
-                .withRolls(1, 3) 
+                .withRolls(0, 1) 
         ],
         600,
         1
@@ -210,7 +210,7 @@ ServerEvents.recipes(IRRebirth => {
         [
             Item.of('immersiveengineering:ingot_nickel')
                 .withChance(1)
-                .withRolls(1, 3) 
+                .withRolls(0, 1) 
         ],
         600,
         1
@@ -222,7 +222,7 @@ ServerEvents.recipes(IRRebirth => {
         [
             Item.of('minecraft:quartz')
                 .withChance(1)
-                .withRolls(1, 3) 
+                .withRolls(0, 1) 
         ],
         600,
         1
@@ -234,7 +234,7 @@ ServerEvents.recipes(IRRebirth => {
         [
             Item.of('mekanism:salt')
                 .withChance(1)
-                .withRolls(1, 3) 
+                .withRolls(0, 1) 
         ],
         600,
         1
@@ -246,7 +246,7 @@ ServerEvents.recipes(IRRebirth => {
         [
             Item.of('immersiveengineering:ingot_hop_graphite')
                 .withChance(1)
-                .withRolls(1, 3) 
+                .withRolls(0, 1) 
         ],
         600,
         1
@@ -258,7 +258,7 @@ ServerEvents.recipes(IRRebirth => {
         [
             Item.of('mekanism:ingot_osmium')
                 .withChance(1)
-                .withRolls(1, 3) 
+                .withRolls(0, 1) 
         ],
         600,
         1
@@ -270,7 +270,7 @@ ServerEvents.recipes(IRRebirth => {
         [
             Item.of('create:brass_ingot')
                 .withChance(1)
-                .withRolls(1, 3) 
+                .withRolls(0, 1) 
         ],
         600,
         1
@@ -282,7 +282,7 @@ ServerEvents.recipes(IRRebirth => {
         [
             Item.of('immersiveengineering:ingot_constantan')
                 .withChance(1)
-                .withRolls(1, 3) 
+                .withRolls(0, 1) 
         ],
         600,
         1
@@ -294,7 +294,7 @@ ServerEvents.recipes(IRRebirth => {
         [
             Item.of('mekanism:ingot_lead')
                 .withChance(1)
-                .withRolls(1, 3) 
+                .withRolls(0, 1) 
         ],
         600,
         1
@@ -306,7 +306,7 @@ ServerEvents.recipes(IRRebirth => {
         [
             Item.of('mekanism:ingot_bronze')
                 .withChance(1)
-                .withRolls(1, 3) 
+                .withRolls(0, 1) 
         ],
         600,
         1
@@ -318,7 +318,7 @@ ServerEvents.recipes(IRRebirth => {
         [
             Item.of('draconicevolution:draconium_ingot')
                 .withChance(1)
-                .withRolls(1, 3) 
+                .withRolls(0, 1) 
         ],
         600,
         1
@@ -330,7 +330,7 @@ ServerEvents.recipes(IRRebirth => {
         [
             Item.of('minecraft:diamond')
                 .withChance(1)
-                .withRolls(1, 3) 
+                .withRolls(0, 1) 
         ],
         600,
         1
@@ -342,7 +342,7 @@ ServerEvents.recipes(IRRebirth => {
         [
             Item.of('powah:uraninite')
                 .withChance(1)
-                .withRolls(1, 3) 
+                .withRolls(0, 1) 
         ],
         600,
         1
@@ -354,7 +354,7 @@ ServerEvents.recipes(IRRebirth => {
         [
             Item.of('minecraft:iron_ingot')
                 .withChance(1)
-                .withRolls(1, 3) 
+                .withRolls(0, 1) 
         ],
         600,
         1
@@ -366,7 +366,7 @@ ServerEvents.recipes(IRRebirth => {
         [
             Item.of('immersiveengineering:ingot_silver')
                 .withChance(1)
-                .withRolls(1, 3) 
+                .withRolls(0, 1) 
         ],
         600,
         1
@@ -378,7 +378,7 @@ ServerEvents.recipes(IRRebirth => {
         [
             Item.of('mekanism:ingot_uranium')
                 .withChance(1)
-                .withRolls(1, 3) 
+                .withRolls(0, 1) 
         ],
         600,
         1
@@ -390,7 +390,7 @@ ServerEvents.recipes(IRRebirth => {
         [
             Item.of('minecraft:redstone')
                 .withChance(1)
-                .withRolls(1, 3) 
+                .withRolls(0, 1) 
         ],
         600,
         1
@@ -402,7 +402,7 @@ ServerEvents.recipes(IRRebirth => {
         [
             Item.of('minecraft:emerald')
                 .withChance(1)
-                .withRolls(1, 3) 
+                .withRolls(0, 1) 
         ],
         600,
         1
@@ -414,7 +414,7 @@ ServerEvents.recipes(IRRebirth => {
         [
             Item.of('powah:steel_energized')
                 .withChance(1)
-                .withRolls(1, 3) 
+                .withRolls(0, 1) 
         ],
         600,
         1
@@ -426,7 +426,7 @@ ServerEvents.recipes(IRRebirth => {
         [
             Item.of('powah:crystal_blazing')
                 .withChance(1)
-                .withRolls(1, 2) 
+                .withRolls(0, 1) 
         ],
         600,
         1
@@ -438,7 +438,7 @@ ServerEvents.recipes(IRRebirth => {
         [
             Item.of('powah:crystal_niotic')
                 .withChance(1)
-                .withRolls(1, 2) 
+                .withRolls(0, 1) 
         ],
         600,
         1
@@ -450,7 +450,7 @@ ServerEvents.recipes(IRRebirth => {
         [
             Item.of('powah:crystal_spirited')
                 .withChance(1)
-                .withRolls(1, 2) 
+                .withRolls(0, 1) 
         ],
         600,
         1
@@ -462,7 +462,7 @@ ServerEvents.recipes(IRRebirth => {
         [
             Item.of('powah:crystal_nitro')
                 .withChance(1)
-                .withRolls(1, 2) 
+                .withRolls(0, 1) 
         ],
         600,
         1
@@ -474,7 +474,7 @@ ServerEvents.recipes(IRRebirth => {
         [
             Item.of('minecraft:coal')
                 .withChance(1)
-                .withRolls(1, 3) 
+                .withRolls(0, 1) 
         ],
         600,
         1
@@ -486,7 +486,7 @@ ServerEvents.recipes(IRRebirth => {
         [
             Item.of('minecraft:amethyst_shard')
                 .withChance(1)
-                .withRolls(1, 3) 
+                .withRolls(0, 1) 
         ],
         600,
         1
@@ -498,7 +498,7 @@ ServerEvents.recipes(IRRebirth => {
         [
             Item.of('minecraft:bone')
                 .withChance(1)
-                .withRolls(4, 6) 
+                .withRolls(0, 2) 
         ],
         600,
         1
@@ -510,7 +510,7 @@ ServerEvents.recipes(IRRebirth => {
         [
             Item.of('minecraft:gunpowder')
                 .withChance(1)
-                .withRolls(4, 6) 
+                .withRolls(0, 2) 
         ],
         600,
         1
@@ -522,7 +522,7 @@ ServerEvents.recipes(IRRebirth => {
         [
             Item.of('minecraft:rotten_flesh')
                 .withChance(1)
-                .withRolls(4, 6) 
+                .withRolls(0, 2) 
         ],
         600,
         1
@@ -534,7 +534,7 @@ ServerEvents.recipes(IRRebirth => {
         [
             Item.of('minecraft:blaze_rod')
                 .withChance(1)
-                .withRolls(4, 6) 
+                .withRolls(0, 2) 
         ],
         600,
         1
@@ -546,7 +546,7 @@ ServerEvents.recipes(IRRebirth => {
         [
             Item.of('wstweaks:fragment')
                 .withChance(1)
-                .withRolls(4, 6) 
+                .withRolls(0, 2) 
         ],
         600,
         1
@@ -558,7 +558,7 @@ ServerEvents.recipes(IRRebirth => {
         [
             Item.of('minecraft:ghast_tear')
                 .withChance(1)
-                .withRolls(4, 6) 
+                .withRolls(0, 2) 
         ],
         600,
         1
@@ -570,7 +570,7 @@ ServerEvents.recipes(IRRebirth => {
         [
             Item.of('minecraft:ender_pearl')
                 .withChance(1)
-                .withRolls(4, 6) 
+                .withRolls(0, 2) 
         ],
         600,
         1
@@ -582,7 +582,7 @@ ServerEvents.recipes(IRRebirth => {
         [
             Item.of('minecraft:echo_shard')
                 .withChance(1)
-                .withRolls(4, 6) 
+                .withRolls(0, 2) 
         ],
         600,
         1
@@ -594,10 +594,10 @@ ServerEvents.recipes(IRRebirth => {
         [
             Item.of('minecraft:leather')
                 .withChance(1)
-                .withRolls(4, 6),
+                .withRolls(0, 2),
             Item.of('minecraft:beef')
                 .withChance(0.75)
-                .withRolls(1, 2) 
+                .withRolls(0, 1) 
         ],
         600,
         1
@@ -609,10 +609,10 @@ ServerEvents.recipes(IRRebirth => {
         [
             Item.of('minecraft:string')
                 .withChance(1)
-                .withRolls(4, 6),
+                .withRolls(0, 2),
             Item.of('minecraft:mutton')
                 .withChance(0.75)
-                .withRolls(1, 2) 
+                .withRolls(0, 1) 
         ],
         600,
         1
@@ -624,7 +624,7 @@ ServerEvents.recipes(IRRebirth => {
         [
             Item.of('minecraft:spider_eye')
                 .withChance(1)
-                .withRolls(4, 6) 
+                .withRolls(0, 2) 
         ],
         600,
         1
@@ -636,7 +636,7 @@ ServerEvents.recipes(IRRebirth => {
         [
             Item.of('minecraft:honeycomb')
                 .withChance(1)
-                .withRolls(4, 6) 
+                .withRolls(0, 2) 
         ],
         600,
         1
@@ -648,7 +648,7 @@ ServerEvents.recipes(IRRebirth => {
         [
             Item.of('minecraft:snowball')
                 .withChance(1)
-                .withRolls(4, 6) 
+                .withRolls(0, 2) 
         ],
         600,
         1
@@ -660,7 +660,7 @@ ServerEvents.recipes(IRRebirth => {
         [
             Item.of('minecraft:ink_sac')
                 .withChance(1)
-                .withRolls(4, 6) 
+                .withRolls(0, 2) 
         ],
         600,
         1
@@ -672,7 +672,7 @@ ServerEvents.recipes(IRRebirth => {
         [
             Item.of('minecraft:glow_ink_sac')
                 .withChance(1)
-                .withRolls(4, 6) 
+                .withRolls(0, 2) 
         ],
         600,
         1
@@ -684,7 +684,7 @@ ServerEvents.recipes(IRRebirth => {
         [
             Item.of('minecraft:slime_ball')
                 .withChance(1)
-                .withRolls(4, 6) 
+                .withRolls(0, 2) 
         ],
         600,
         1
@@ -696,7 +696,7 @@ ServerEvents.recipes(IRRebirth => {
         [
             Item.of('silentgear:nether_star_fragment')
                 .withChance(1)
-                .withRolls(2, 3) 
+                .withRolls(0, 1) 
         ],
         600,
         1
@@ -708,7 +708,7 @@ ServerEvents.recipes(IRRebirth => {
         [
             Item.of('minecraft:magma_cream')
                 .withChance(1)
-                .withRolls(4, 6) 
+                .withRolls(0, 2) 
         ],
         600,
         1
@@ -720,7 +720,7 @@ ServerEvents.recipes(IRRebirth => {
         [
             Item.of('minecraft:phantom_membrane')
                 .withChance(1)
-                .withRolls(4, 6) 
+                .withRolls(0, 2) 
         ],
         600,
         1
@@ -732,13 +732,13 @@ ServerEvents.recipes(IRRebirth => {
         [
             Item.of('minecraft:feather')
                 .withChance(1)
-                .withRolls(4, 6),
+                .withRolls(0, 2),
             Item.of('minecraft:egg')
                 .withChance(0.75)
-                .withRolls(2, 3),
+                .withRolls(0, 1),
             Item.of('minecraft:chicken')
                 .withChance(0.75)
-                .withRolls(1, 2) 
+                .withRolls(0, 1) 
         ],
         600,
         1
@@ -750,7 +750,7 @@ ServerEvents.recipes(IRRebirth => {
         [
             Item.of('megacells:sky_steel_ingot')
                 .withChance(1)
-                .withRolls(2, 3) 
+                .withRolls(0, 1) 
         ],
         600,
         1
@@ -762,7 +762,7 @@ ServerEvents.recipes(IRRebirth => {
         [
             Item.of('advanced_ae:quantum_alloy')
                 .withChance(1)
-                .withRolls(2, 3) 
+                .withRolls(0, 1) 
         ],
         600,
         1

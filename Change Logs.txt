@@ -1,3 +1,172 @@
+MODS TO REMOVE FROM SERVER PACKS
+-Entity Model Features
+-Entity Texture Features
+-Clear Water
+-BadOptimizations
+
+|| Release 1.6.0 ||
+
+The Tinker's Update & Optimizations
+
+// Mods Removed //
+-Alex's Mobs
+-Nyf's Spiders
+-Terralith (Prevented Superflat Worlds)
+-Crafting Station
+-Underground Bunkers
+-When Dungeons Arise
+-When Dungeons Arise: Seven Seas
+-Structory
+-Structory: Towers
+-Repurposed Structures
+-Towns and Towers
+-Loot Integrations: Structory
+-Loot Integrations: When Dungeons Arise & Co
+-Loot Integrations: Towns and Towers
+-Chalk
+-Jammies
+-Citadel
+
+// Mods Added //
+-Mantle
+-Tinker's Construct
+-Tinker's Integration and Tweaks
+-Tinkers' Jewelry
+-Tinkers' Leveling Addon
+-Create: Addon Compatibility
+-Mod Name Tooltip
+-Agricraft Create Compatibility
+-FancyMenu
+-Global Packs
+-Create Steam Powered (Modrinth)
+
+// Mods Updated //
+-All The Leaks
+-Cooking for Blockheads
+-Create: Steam 'n' Rails
+-Create: Trading Floor
+-ExtendedAE
+-Farming for Blockheads
+-ForgeEndertech
+-Immersive Aircraft
+-JAOPCA
+-Just Enough Mekanism Multiblocks
+-Lootr
+-Sophisticated Backpacks
+-Sophisticated Core
+-Supplementaries
+-More Overlays Updated
+-Not Enough Animations
+
+// Resource Packs Added //
+-Terratonic Datapack
+
+// Quest Updates //
+-Updated Silent Gear quest to Tinker's
+-Added Update News quest that needs to be accepted to access other quests
+-Added quest for Sawmill from IE
+
+// Recipe Changes //
+-Removed all Silent Gear recipes (Changing to Tinker's)
+-Polonium and Plutonium Singularities are now 100 each
+-Fixed Raw Copper, Iron and Gold dupe
+-Changed Redstone Acid reciep from Create
+-Updated Basic Circuit and Infused Alloy recipes
+-Sawmill now requires Refined Obsidian plates
+-Removed Osmium Dust recipes from IE crusher
+-Removed Refined Obsidian and Glowstone Plate recipes from IE and Create
+-Removed crafted recipes for Steel and Iron Components for IE
+
+// Script Changes //
+-Added tags to BOP Stripped wood and logs
+-Removed ALL Silent Gear items from loot chests
+-Nerfed Botany Pot Budding materials
+-Updated missing unbreakable tags
+
+// Config Changes //
+-Nerfed Botany Tiered pots
+-Waystones generated in the world are now unbreakable
+-Nerfed Chaos Guardian Fight
+-Chaos Islands are now every 5k (from 10k)
+-Custom Main Menu setup for now
+-Added Schematic for Sawmill
+
+|| Release 1.5.2 ||
+
+// Mods Removed //
+-EMI (Issues with Recipes Missing)
+-EMI Ores
+
+// Mods Added //
+-Just Enough Resources
+-Added Mixin Mod for Agricraft and Create Compat
+
+// Config Updates //
+-Piglin and Endermen now defend Draconium
+-Agricraft overides seeds again
+
+// Script Updates //
+-Apotheosis mobs should now drop armor
+-Armor Recipes no longer tiered
+
+// Recipe Changes //
+-Fixed various tags in recipes
+-Added recipes for ender dust
+
+|| Release 1.5.1 ||
+
+Forge Updated to 47.4.8
+
+// Mods Updated //
+-Advanced AE
+-All The Leaks
+-AlmostUnified
+-Create Crafts & Additions
+-Create Hypertube
+-Create Mechanical Extruder
+-Cucumber Library
+-Entity Model Features
+-Entity Texture Features
+-Every Compat
+-Extended Crafting
+-FTB Ultimine
+-Fusion
+-GeckoLib
+-Graviational Modulating Additional Unit
+-GuideME
+-InsaneLib
+-JAOPCA
+-Just Enough Mekanism Multiblocks
+-Lootr
+-Mekanism Upgrade: Reborn
+-Moonlight Library
+-Oh The Biomes We've Gone
+-PacketFixer
+-PickleTweaks
+-Puzzles Lib
+-Quarry Plus
+-Silent Gear
+-Sophisticated Backpacks
+-Sophisticated Core
+-Sophisticated Storage
+-Stone Zone
+-Supplementaries
+-Tectonic
+
+// Mods Removed //
+-Mod Name Tooltip
+
+// Quest Updates //
+-Added Quest for Dimensional Storage
+
+// Config Updates //
+-Re-Enabled Create Crafting Recipe Settings
+
+// Script Changes //
+-Unified Industrial Iron items from Dreams & Desires and Deco
+-Fixed Create Deco not accepting any plates
+-Updated some recipes to be properly tagged items
+
 || Release 1.5.0 ||
 
 The Quest Revision Update

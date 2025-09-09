@@ -5,7 +5,7 @@ ServerEvents.recipes(IRRebirth => {
   IRRebirth.replaceInput({ output: 'mekanism:metallurgic_infuser' },'minecraft:redstone','kubejs:acidic_redstone')
   IRRebirth.replaceInput({ output: 'mekanism:energized_smelter' },'minecraft:redstone','kubejs:acidic_redstone')
   IRRebirth.replaceInput({ output: 'mekanism:energized_smelter' },'#forge:glass/silica','immersiveengineering:slag_glass')
-  IRRebirth.replaceInput({ output: 'mekanism:precision_sawmill' },'minecraft:iron_ingot','#forge:plates/steel')
+  IRRebirth.replaceInput({ output: 'mekanism:precision_sawmill' },'minecraft:iron_ingot','#forge:plates/refined_obsidian')
   IRRebirth.replaceInput({ output: 'mekanism:electrolytic_separator' },'minecraft:iron_ingot','#forge:plates/steel')
   IRRebirth.replaceInput({ output: 'mekanism:electrolytic_separator' },'minecraft:redstone','kubejs:acidic_redstone')
   IRRebirth.replaceInput({ output: 'mekanism:enrichment_chamber' },'minecraft:iron_ingot','#forge:plates/steel')

@@ -1,6 +1,4 @@
 ServerEvents.recipes(IRRebirth => {
-  IRRebirth.replaceInput({ output: 'immersiveengineering:component_iron' },'minecraft:copper_ingot','#forge:plates/brass')
-  IRRebirth.replaceInput({ output: 'immersiveengineering:component_steel' },'minecraft:copper_ingot','#forge:plates/brass')
   IRRebirth.replaceInput({ output: 'immersiveengineering:wirecoil_copper' },'#forge:rods/wooden','immersiveengineering:stick_treated')
   IRRebirth.replaceInput({ output: 'immersiveengineering:wirecoil_electrum' },'#forge:rods/wooden','immersiveengineering:stick_treated')
   IRRebirth.replaceInput({ output: 'immersiveengineering:wirecoil_steel' },'#forge:rods/wooden','immersiveengineering:stick_treated')
