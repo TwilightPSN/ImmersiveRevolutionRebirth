@@ -4,7 +4,7 @@ MODS TO REMOVE FROM SERVER PACKS
 -Clear Water
 -BadOptimizations
 
-|| BETA 1.6.0 ||
+|| Release 1.6.0 ||
 
 The Tinker's Update & Optimizations
 
@@ -37,6 +37,8 @@ The Tinker's Update & Optimizations
 -Mod Name Tooltip
 -Agricraft Create Compatibility
 -FancyMenu
+-Global Packs
+-Create Steam Powered (Modrinth)
 
 // Mods Updated //
 -All The Leaks

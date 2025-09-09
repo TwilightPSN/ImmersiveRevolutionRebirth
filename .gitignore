@@ -35,3 +35,6 @@ TrashSlotSaveState.json
 user-prefs.json
 usercache.json
 usernamecache.json
+datapacks/
+global_packs/
+fancymenu_data/

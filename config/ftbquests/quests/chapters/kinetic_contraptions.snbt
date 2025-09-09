@@ -1260,6 +1260,70 @@
 			x: -3.0d
 			y: -3.0d
 		}
+		{
+			dependencies: ["49A2F592D12DC5A5"]
+			description: ["Sometimes our steam engine isn't enough for the true kinetic energy we need. This is where Steam Boilers, Engines and Flywheels come into play. Simply filling a boiler with water above a heat chamber will generate steam for an engine and flywheel to convert into masses of kinetic energy."]
+			id: "14E31D7B2714779B"
+			rewards: [{
+				count: 10
+				id: "51407D9EEA703E15"
+				item: "minecraft:coal_block"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "43A4CF25D77FD16B"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(steampowered:bronze_boiler)item(steampowered:cast_iron_boiler)item(steampowered:steel_boiler))"
+						}
+					}
+					title: "Boiler"
+					type: "item"
+				}
+				{
+					id: "26F868372BC23DCD"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(steampowered:bronze_burner)item(steampowered:cast_iron_burner)item(steampowered:steel_burner))"
+						}
+					}
+					title: "Burning Chamber"
+					type: "item"
+				}
+				{
+					id: "105C4163606E6D4A"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(steampowered:bronze_steam_engine)item(steampowered:cast_iron_steam_engine)item(steampowered:steel_steam_engine))"
+						}
+					}
+					title: "Steam Engine"
+					type: "item"
+				}
+				{
+					id: "400F4A7CDB44A2D5"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(steampowered:bronze_flywheel)item(steampowered:cast_iron_flywheel)item(steampowered:steel_flywheel))"
+						}
+					}
+					title: "Flywheel"
+					type: "item"
+				}
+			]
+			title: "Extra Steamy"
+			x: -4.5d
+			y: 3.0d
+		}
 	]
 	title: "Create"
 }
