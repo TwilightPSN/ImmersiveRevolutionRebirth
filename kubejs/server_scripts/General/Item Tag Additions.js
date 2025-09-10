@@ -68,6 +68,4 @@ ServerEvents.tags('item', IRRebirth => {
   IRRebirth.add('forge:stripped_wood', '/biomesoplenty:stripped_.*_wood/')
   IRRebirth.add('forge:seeds', 'agricraft:seed')
   IRRebirth.add('forge:storage_blocks/industrial_iron', 'create:industrial_iron_block')
-  IRRebirth.remove('tconstruct:modifiable/durability', '/tconstruct:.*/')
-  IRRebirth.remove('tconstruct:modifiable/durability', '/tinkersjewelry:.*/')
 })

@@ -11,9 +11,9 @@
 		{
 			dependencies: ["3C7B05B372C82B36"]
 			description: [
-				"Welcome to The Immersive Revoltion: Rebirth modpack. This pack is different than others you may have played before. Automation is your game and if you need to make something, you may want to looking into automation as soon as you can! Good luck out there and have fun."
+				"Welcome to The Immersive Revolution: Rebirth modpack. This pack is different than others you may have played before. Automation is your game and if you need to make something, you may want to looking into automation as soon as you can! Good luck out there and have fun."
 				"{@pagebreak}"
-				"Tools and armor are unbreakable so you can focus more on your technology and less on equipment."
+				"Tools and armor are unbreakable so you can focus more on your technology and less on equipment. See Tinker's quests for how to make Unbreakable Tinker's tools."
 				""
 				"Ores are also much more plentiful and given to you. Each different type of stone grants more and more resources than the last."
 				""
@@ -847,6 +847,36 @@
 			title: "Nature's Call"
 			x: -9.0d
 			y: -3.0d
+		}
+		{
+			dependencies: ["46D43A2171492BAA"]
+			description: [
+				"The Tinker's Anvil is used to apply modifiers to your equipment. Provide the items needed and it will modify them."
+				""
+				"Tinker's Tools, by default, are not unbreakable. All you have to do it make a Tinker's Anvil and apply 5 dirt to the item and it will become Unbreakable! Some affixes prefer higher or lower durability so you may not want to apply this."
+			]
+			id: "1D805EF94412B779"
+			rewards: [{
+				count: 5
+				id: "444DEFD665CA5972"
+				item: "minecraft:dirt"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1E27A385541C3804"
+				item: {
+					Count: 1
+					id: "tconstruct:tinkers_anvil"
+					tag: {
+						texture: "tconstruct:slimesteel_block"
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			title: "Modifying Madness"
+			x: -6.5d
+			y: -1.5d
 		}
 	]
 	title: "Getting Started"

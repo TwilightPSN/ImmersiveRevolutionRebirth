@@ -1161,8 +1161,14 @@
 			]
 			id: "510ABFA37AE208DF"
 			rewards: [{
-				id: "36D97F9EDD679351"
-				item: "silentgear:crimson_steel_block"
+				id: "13727F15112A7609"
+				item: {
+					Count: 1
+					id: "minecraft:golden_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
 				type: "item"
 			}]
 			tasks: [

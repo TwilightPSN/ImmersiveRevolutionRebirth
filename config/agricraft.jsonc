@@ -1,7 +1,7 @@
 {
     "core": {
         // Set to false to prevent AgriCraft from enabling its mod compatibility datapacks / resourcepacks by default
-        "register_packs_by_default": false,
+        "register_packs_by_default": true,
         // Set to false to disable planting of (agricraft) seeds outside crop sticks
         "plant_off_crop_sticks": true,
         // Set to false to disable collision boxes on crop sticks

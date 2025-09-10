@@ -60,9 +60,6 @@
 
 	[types.wood_type]
 
-		[types.wood_type.silentgear]
-			netherwood = true
-
 		[types.wood_type.biomeswevegone]
 			aspen = true
 			baobab = true
@@ -222,9 +219,6 @@
 			golden_apple_jungle = true
 			golden_apple_oak = true
 			golden_apple_spruce = true
-
-		[types.leaves_type.silentgear]
-			netherwood = true
 
 		[types.leaves_type.biomeswevegone]
 			aspen = true

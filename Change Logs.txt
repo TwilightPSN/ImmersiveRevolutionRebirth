@@ -4,14 +4,40 @@ MODS TO REMOVE FROM SERVER PACKS
 -Clear Water
 -BadOptimizations
 
-|| Release 1.6.0 ||
+|| Release 1.6.3 ||
+
+// Mods Removed //
+-Silent Compat
+-Silent Gear
+-Silent Lib
+
+// Mods Added //
+-Fast Leaf Decay
+
+|| Release 1.6.2 ||
+
+LAST UPDATE WITH SILENT GEAR!!
+
+// Config Updates //
+-Reset JEI configs to fixing missing tabs
+
+// Quest Updates //
+-Intro Quest updated to detail unbreakable info
+-Tinker's Quest added to detail more items
+-Updated Nether Quest to not be Silent rewards
+
+// Script Updates //
+-Removed Tinker's script changes
+-Generated Data Pack to change Unbreakable Recipe for Tinker's
+-Added Tinker's Pickaxe to scripts it was missing in
+
+|| Release 1.6.1 ||
 
 The Tinker's Update & Optimizations
 
 // Mods Removed //
 -Alex's Mobs
 -Nyf's Spiders
--Terralith (Prevented Superflat Worlds)
 -Crafting Station
 -Underground Bunkers
 -When Dungeons Arise
@@ -37,7 +63,6 @@ The Tinker's Update & Optimizations
 -Mod Name Tooltip
 -Agricraft Create Compatibility
 -FancyMenu
--Global Packs
 -Create Steam Powered (Modrinth)
 
 // Mods Updated //
@@ -58,13 +83,11 @@ The Tinker's Update & Optimizations
 -More Overlays Updated
 -Not Enough Animations
 
-// Resource Packs Added //
--Terratonic Datapack
-
 // Quest Updates //
 -Updated Silent Gear quest to Tinker's
 -Added Update News quest that needs to be accepted to access other quests
 -Added quest for Sawmill from IE
+-Added Steam Powered quest
 
 // Recipe Changes //
 -Removed all Silent Gear recipes (Changing to Tinker's)
@@ -90,6 +113,7 @@ The Tinker's Update & Optimizations
 -Chaos Islands are now every 5k (from 10k)
 -Custom Main Menu setup for now
 -Added Schematic for Sawmill
+-Fixed Agricraft Resource Packs not loading
 
 || Release 1.5.2 ||
 

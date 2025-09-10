@@ -86,15 +86,6 @@ JEIEvents.hideItems(IRRebirth => {
     IRRebirth.hide(['create_dd:industrial_iron_block', 'createdeco:industrial_iron_sheet', 'createdeco:industrial_iron_nugget', 'createdeco:industrial_iron_ingot'])
 })
 
-JEIEvents.removeCategories(IRRebirth => {
-    IRRebirth.remove([
-        'create:draining',
-        'functionalstorage:dissolution',
-        'minecraft:compostable',
-        'minecraft:anvil'
-    ])
-})
-
 JEIEvents.information(IRRebirth => {
     IRRebirth.addItem('#forge:ores_in_ground/deepslate', ['Drops additional Resources compared to Stone Variants'])
     IRRebirth.addItem('#forge:ores_in_ground/netherrack', ['Drops additional Resources compared to Deepslate Variants'])
