@@ -48,7 +48,7 @@ So Long Silent's Update
 -Removed Life-Mending Enchant
 -Adjusted Tinker's Unbreakable to be 1 dirt and not take a modifier slot
 -All construction wands now unbreakable
--Fixed Cobbled Andesite
+-Fixed Andesite Cobblestone
 -Removed Unbreakable from Aquaculture knives to fix Fillet recipes
 
 // Recipe Changes //
