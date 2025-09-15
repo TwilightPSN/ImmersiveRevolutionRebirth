@@ -101,4 +101,8 @@ ServerEvents.tags('block', IRRebirth => {
     'bno:nether_uranium_ore',
     'mekanism:osmium_ore',
     'powah:uraninite_ore'])
+  IRRebirth.add('ae2:blacklisted/annihilation_plane', [
+    "/buddingcrystals:small_.*/",
+    "/buddingcrystals:medium_.*/",
+    "/buddingcrystals:large_.*/"])
 })

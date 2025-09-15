@@ -4,15 +4,66 @@ MODS TO REMOVE FROM SERVER PACKS
 -Clear Water
 -BadOptimizations
 
-|| Release 1.6.3 ||
+|| Release 1.7.0 ||
+
+So Long Silent's Update
 
 // Mods Removed //
 -Silent Compat
 -Silent Gear
 -Silent Lib
+-Create: Liquid Fuel
 
 // Mods Added //
 -Fast Leaf Decay
+
+// Mods Updated //
+-Balm
+-ImmediatelyFast
+-Just Enough Breeding
+-Moonlight Library
+-Sophisticated Backpacks
+-Sophisticated Core
+-Sophisticated Storage
+-Stone Zone
+-YUNG's Better Caves
+
+// Quest Changes //
+-Modified Tinker's Quests
+-Added quest for Straw for Blaze Burners
+-Updated Alternator quest to Steam Powered
+-Backpack quest updated to accept any
+-Changed link for Create Saw quest
+
+// Config Changes //
+-Increased Item Vault stack limit to 54 (Need to reset Server/World configs for this)
+-Adjusted values on Steam Powered machines
+-Enabled the Create crafting recipes (Need to reset Server/World configs)
+-Disabled Enderman Overhaul picking up blocks
+-Added Mega Torch blacklists for Enderman Overhaul
+-Disabled Hoe planting for Utilitarian (Need to reset Server/World configs)
+
+// Script Changes //
+-Annihilation planes no longer break growing buds
+-Removed Life-Mending Enchant
+-Adjusted Tinker's Unbreakable to be 1 dirt and not take a modifier slot
+-All construction wands now unbreakable
+-Fixed Cobbled Andesite
+-Removed Unbreakable from Aquaculture knives to fix Fillet recipes
+
+// Recipe Changes //
+-Added melting for Create Crushed Raw Ores in Smeltery
+-Unified Andestie Alloy plate recipes
+-Removed extra Industrial Iron recipes
+-Removed Create D&D Flywheel and Engine
+-Added recipe for Bronze in Alloy Kiln at a net loss
+-Removed Create Additions Alternator
+-Tin able to be blasted and smelted
+-Removed Emptying Sap recipes
+-Adjusted Crystallized Sap recipes
+-Removed Create Deco Nugget recipe
+-Cast Iron Steam Powered now uses Industrial Iron
+-Alternating Dynamo recipe tweaked
 
 || Release 1.6.2 ||
 

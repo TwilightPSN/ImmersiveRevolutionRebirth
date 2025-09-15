@@ -1,5 +1,4 @@
 ServerEvents.recipes(IRRebirth => {
-
     IRRebirth.shaped(
         Item.of('minecraft:chest', 2), 
         [

@@ -38,13 +38,13 @@
 
 	[flywheel.bronze_flywheel]
 		#Range: 0 ~ 8192
-		bronzeFlywheelCapacity = 512
+		bronzeFlywheelCapacity = 1536
 		#Range: 0 ~ 8192
 		bronzeFlywheelSpeed = 32
 		#Range: 0 ~ 8192
-		bronzeFlywheelSteamConsumptionPerTick = 12
+		bronzeFlywheelSteamConsumptionPerTick = 36
 		#Range: 0 ~ 1048576
-		bronzeFlywheelSteamStorage = 32000
+		bronzeFlywheelSteamStorage = 80000
 		#Range: 0.0 ~ 1.0
 		bronzeFlywheelSuckEfficiency = 0.7
 
@@ -74,14 +74,14 @@
 
 	[flywheel.brass_flywheel]
 		#Range: 0 ~ 8192
-		brassFlywheelCapacity = 1024
+		brassFlywheelCapacity = 512
 		#Range: 0 ~ 8192
 		brassFlywheelSpeed = 16
 
 [dynamo]
 	#If dynamo is disabled in the server config, the following will be ignored!
 	#Range: 0 ~ 8192
-	dynamoFeMaxOut = 256
+	dynamoFeMaxOut = 1024
 	#Range: 0 ~ 8192
 	dynamoFeCapacity = 2048
 	#Range: 0 ~ 8192

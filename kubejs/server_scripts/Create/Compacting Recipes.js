@@ -11,4 +11,6 @@ ServerEvents.recipes(IRRebirth => {
     IRRebirth.recipes.create.compacting('immersiveengineering:sheetmetal_steel', '4x #forge:plates/steel').heated()
     IRRebirth.recipes.create.compacting('immersiveengineering:sheetmetal_gold', '4x #forge:plates/gold').heated()
     IRRebirth.recipes.create.compacting(Fluid.of('create_dd:sap', 1000), '#minecraft:logs').heated()
+    IRRebirth.recipes.create.compacting(Fluid.of('create_dd:sap', 500), 'create_dd:crystallized_sap').heated()
+    IRRebirth.recipes.create.compacting('create_dd:crystallized_sap', Fluid.of('create_dd:sap', 500)).heated().id('create_dd:compacting/crystallized_sap')
 })

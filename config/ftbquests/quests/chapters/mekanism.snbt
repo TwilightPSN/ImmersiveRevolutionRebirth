@@ -33,7 +33,6 @@
 			dependencies: [
 				"6C694DEF01960C4A"
 				"430751120FB42896"
-				"3C7B05B372C82B36"
 			]
 			description: ["The Metallurgic Infuser opens open the robotic technology we have been pushing for. We use this machine to generate new circuits and create a new level of technology."]
 			id: "10010D0E4452ACC7"
@@ -53,10 +52,7 @@
 			y: -0.5d
 		}
 		{
-			dependencies: [
-				"10010D0E4452ACC7"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["10010D0E4452ACC7"]
 			description: ["Getting the most out of our resources is critical to progressing further. The Enrichment Chamber is a large part of being able to create more refined and useful resources."]
 			id: "237CEA82FEF95C4F"
 			rewards: [{
@@ -75,10 +71,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: [
-				"237CEA82FEF95C4F"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["237CEA82FEF95C4F"]
 			description: ["Using the robotic technology, we can make a more compact crusher for our operations. This is a compact unit that you can set and leave without having to worry about accidentally chopping yourself up."]
 			id: "3ABAA63194B62E70"
 			rewards: [{
@@ -97,10 +90,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: [
-				"10010D0E4452ACC7"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["10010D0E4452ACC7"]
 			description: ["Moving away from the massive smelters and operations we have, we can make a robotic powered smelter. This little smelter can perform many of the actions we need at a very fast pace."]
 			id: "325CFDEF7D3CB73D"
 			rewards: [{
@@ -119,10 +109,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: [
-				"10010D0E4452ACC7"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["10010D0E4452ACC7"]
 			description: ["Using the large scale Mechanical Crafters has become a tedious task. With the precise blades of a Sawmill, we can cut blocks into the precise pieces of machinery we need. We do, however, need a tougher material to make these blades in the form of Refined Obsidian."]
 			id: "576F711A38F08993"
 			rewards: [{
@@ -141,10 +128,7 @@
 			y: 0.5d
 		}
 		{
-			dependencies: [
-				"427D1479DD8718A0"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["427D1479DD8718A0"]
 			description: ["The Purification Chamber plays a vital role in processing materials by taking raw materials and transforming them into more valuable forms. By feeding the chamber with Oxygen, we can effectively split the materials to be used in more complex crafting recipes."]
 			id: "26EC3327B0845800"
 			rewards: [{
@@ -163,10 +147,7 @@
 			y: -0.5d
 		}
 		{
-			dependencies: [
-				"3ABAA63194B62E70"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["3ABAA63194B62E70"]
 			description: ["The Electrolytic Separator is used to break down liquids into their individual components. By supplying the machine with a liquid, it will separate it into valuable gases that can then be used in a variety prodctions."]
 			id: "427D1479DD8718A0"
 			rewards: [{
@@ -184,10 +165,7 @@
 			y: -0.5d
 		}
 		{
-			dependencies: [
-				"26EC3327B0845800"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["26EC3327B0845800"]
 			description: [
 				"The Chemical Infuser allows us to combine different chemicals to create more advanced substances. By providing the right chemicals, it triggers reactions that generate powerful gases, fuels, and other essential materials for our machinery."
 				""
@@ -209,10 +187,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: [
-				"6E9FEFE34F9A1E79"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["6E9FEFE34F9A1E79"]
 			description: [
 				"The Evaporation Chamber will allow us to extract Brine by evaporating water at high temperatures. This process is essential to generate the supply of Brine we need for various advanced applications."
 				""
@@ -235,10 +210,7 @@
 			y: -2.5d
 		}
 		{
-			dependencies: [
-				"10010D0E4452ACC7"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["10010D0E4452ACC7"]
 			description: ["The Configurator is the tool used to modify and configure all of our Mekanism machines. We want to make sure we have one of these on us to be able to adjust everything we need."]
 			id: "1DB1FCBFB7431E7A"
 			rewards: [{
@@ -257,10 +229,7 @@
 			y: 0.5d
 		}
 		{
-			dependencies: [
-				"6E9FEFE34F9A1E79"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["6E9FEFE34F9A1E79"]
 			description: ["Injecting materials with Hydrogen Chloride can break them down into more valuable components. This process allows us to extract more from eachmaterial."]
 			id: "0B5CECC9F68A74B0"
 			rewards: [{
@@ -278,10 +247,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: [
-				"0B5CECC9F68A74B0"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["0B5CECC9F68A74B0"]
 			description: ["The Chemical Crystallizer is solidifies minerals into a usable form. It can transform raw materials into a more stable state, ready to be processed by other machines."]
 			id: "27E46FBECCC8939B"
 			rewards: [{
@@ -299,10 +265,7 @@
 			y: -0.5d
 		}
 		{
-			dependencies: [
-				"10010D0E4452ACC7"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["10010D0E4452ACC7"]
 			description: ["The Compressing Factory is a key advancement in generating even stronger materials. We can use it to advance our robotic technology even further."]
 			id: "1C77BC5EF2916F72"
 			rewards: [{
@@ -321,10 +284,7 @@
 			y: -0.5d
 		}
 		{
-			dependencies: [
-				"27E46FBECCC8939B"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["27E46FBECCC8939B"]
 			description: ["The Chemical Washer can run chemicals through water and purify them. This allows us to process them into the next material stage."]
 			id: "715A817659EB76A5"
 			rewards: [{
@@ -342,10 +302,7 @@
 			y: 0.5d
 		}
 		{
-			dependencies: [
-				"715A817659EB76A5"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["715A817659EB76A5"]
 			description: ["Sulfuric Acid can break materials down into elements that are easier to process and yield more valuable resources. This allows for a higher output and allows us to expand our resources with maximum efficiency."]
 			id: "4EFFA60CDB84839A"
 			rewards: [{
@@ -364,10 +321,7 @@
 			y: 0.5d
 		}
 		{
-			dependencies: [
-				"4EFFA60CDB84839A"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["4EFFA60CDB84839A"]
 			description: ["Draconium resources from The End require very precise processing to use. But setting up an ore processing system, we can begin to produce Draconium Ingots."]
 			id: "1D95E21C7984BD6C"
 			rewards: [{
@@ -386,10 +340,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: [
-				"10010D0E4452ACC7"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["10010D0E4452ACC7"]
 			description: ["Taking multiple resources and combining them together is key to creating new inventions. The combiner can take different items and merge them together into new substances."]
 			id: "421B6C0FA9E9D45D"
 			rewards: [{
@@ -458,10 +409,7 @@
 			y: 0.5d
 		}
 		{
-			dependencies: [
-				"421B6C0FA9E9D45D"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["421B6C0FA9E9D45D"]
 			description: ["By infusing the power of a Blaze with some Clay Balls, we are able to get this superheated clay with firey features. This Blazing Clay can be utilized to push into a large scale Powah operation."]
 			id: "299F28BD3E7F3946"
 			rewards: [{
@@ -480,10 +428,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: [
-				"299F28BD3E7F3946"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["299F28BD3E7F3946"]
 			description: ["By infusing Carbon with our Blazing Clay, we are able to form a Dielectric Paste. This paste can be used to create some of the most powerful machinery we have access to for power."]
 			id: "7A88E6320FFD7765"
 			rewards: [{
@@ -503,10 +448,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: [
-				"3ABAA63194B62E70"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["3ABAA63194B62E70"]
 			description: ["The Pressurized Reaction Chamber will process the Bio Fuel into HDPE Pellets. These HDPE Pellets are essential for building machinery that can withstand harsh environments and offer enhanced protection."]
 			id: "5C3507BA0D05D0B0"
 			rewards: [{
@@ -525,10 +467,7 @@
 			y: -2.5d
 		}
 		{
-			dependencies: [
-				"13160B706803907B"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["13160B706803907B"]
 			description: ["To produce Antimatter, we need to channel large amounts of energy into an SPS system. This process requires powerful reactors or massive energy sources to trigger the production of Antimatter."]
 			id: "046A228271FDC590"
 			rewards: [{
@@ -559,10 +498,7 @@
 			y: -4.5d
 		}
 		{
-			dependencies: [
-				"357DEEC0C1C72BAA"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["357DEEC0C1C72BAA"]
 			description: ["The Uranium Hexafluoride produced through the Isotopic Centrifuge is a critical component for creating Fissile Fuel. This powerful substance is used to fuel our reactors, providing a high energy source for our expanding machinery."]
 			id: "0A10EED5B07A50AA"
 			rewards: [{
@@ -581,10 +517,7 @@
 			y: -4.0d
 		}
 		{
-			dependencies: [
-				"57B92A99D1F22EF4"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["57B92A99D1F22EF4"]
 			description: ["The Solar Neutron Activator is a key tool for repurposing Nuclear Waste. By feeding it into the machine, we can transform the waste into Polonium Pellets, which are an important resource for crafting advanced Draconic machinery."]
 			id: "0FEAC602149968EC"
 			rewards: [{
@@ -602,10 +535,7 @@
 			y: -3.5d
 		}
 		{
-			dependencies: [
-				"0FEAC602149968EC"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["0FEAC602149968EC"]
 			description: ["The MekaSuit offers protection by combining advanced robotics and energy shielding. It is highly customizable, allowing you to apply various upgrades to suit your needs. The suit's power is directly tied to its charge, so keeping it fully charged ensures that you're always ready to face any challenge."]
 			id: "6E91F909451E62B4"
 			rewards: [{
@@ -641,10 +571,7 @@
 			y: -3.5d
 		}
 		{
-			dependencies: [
-				"0A10EED5B07A50AA"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["0A10EED5B07A50AA"]
 			description: ["The Fission Reactor provides immense power generation using Fissile Fuel. It operates at high efficiency, producing large amounts of FE to power even the most demanding machines in our system."]
 			id: "57B92A99D1F22EF4"
 			rewards: [{
@@ -691,10 +618,7 @@
 			y: -4.0d
 		}
 		{
-			dependencies: [
-				"57B92A99D1F22EF4"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["57B92A99D1F22EF4"]
 			description: ["A Hazmat suit is essential for safety when working with hazardous materials, particularly when dealing with radiation from Nuclear Waste. This suit provides full protection from harmful radiation, ensuring that we can work around these dangerous chemicals without putting ourselves at risk."]
 			id: "6674853D1EFF6FCC"
 			rewards: [{
@@ -730,10 +654,7 @@
 			y: -5.0d
 		}
 		{
-			dependencies: [
-				"237CEA82FEF95C4F"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["237CEA82FEF95C4F"]
 			description: ["The Steam Turbine is a key solution for generating large amounts of power, especially as our robotics and machines demand more energy. By providing it with heated steam, the turbine can efficiently produce significant power while being more environmentally friendly compared to other energy sources."]
 			id: "29F574AEBD0ED865"
 			rewards: [{
@@ -800,10 +721,7 @@
 			y: -2.5d
 		}
 		{
-			dependencies: [
-				"29F574AEBD0ED865"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["29F574AEBD0ED865"]
 			description: ["The Boiler is an essential component for generating steam to power our turbines. By heating water to high temperatures, it produces steam that fuels the turbine's energy output."]
 			id: "2F105B2DF532ABE5"
 			rewards: [{
@@ -845,10 +763,7 @@
 			y: -3.5d
 		}
 		{
-			dependencies: [
-				"29F574AEBD0ED865"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["29F574AEBD0ED865"]
 			description: ["The Induction Matrix is a crucial part of our power storage system. It allows us to store large amounts of power, with its capacity scaling based on the size of the unit we construct."]
 			id: "616DCDDA0A1D5232"
 			rewards: [{
@@ -898,10 +813,7 @@
 			y: -2.5d
 		}
 		{
-			dependencies: [
-				"0FEAC602149968EC"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["0FEAC602149968EC"]
 			description: ["The Fusion Reactor is one of the most powerful machines in Mekanism, capable of producing enormous amounts of power, but it requires careful management. To get it running, you'll need to supply it with Deuterium and Tritium."]
 			id: "13160B706803907B"
 			rewards: [{
@@ -938,10 +850,7 @@
 			y: -4.5d
 		}
 		{
-			dependencies: [
-				"13160B706803907B"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["13160B706803907B"]
 			description: ["To initiate the Fusion Reactor, powerful lasers are required to inject vast amounts of energy into the reactor. These lasers must be directed into the Fusion Reactor. The laser beams provide the necessary energy to kickstart the fusion reaction."]
 			id: "10376E2B2F657966"
 			rewards: [{
@@ -966,10 +875,7 @@
 			y: -5.5d
 		}
 		{
-			dependencies: [
-				"13160B706803907B"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["13160B706803907B"]
 			description: ["To properly run the Fusion Reactor, you must provide it with fuel via a Hohlraum, a critical component in the fusion process. The Hohlraum is used to contain and manage the D-T Fuel."]
 			id: "18A432450A2F7CF3"
 			rewards: [{
@@ -1017,10 +923,7 @@
 			y: -5.5d
 		}
 		{
-			dependencies: [
-				"6C694DEF01960C4A"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["6C694DEF01960C4A"]
 			description: ["Our Quarry can do wonders, but it takes forever to strip just a chunk. Upgrading to a Digital Miner opens up a world of just pulling the ores we need. This miner will skip anything we do not want and just gather what we need."]
 			id: "4EC55231A0860146"
 			rewards: [{
@@ -1038,10 +941,7 @@
 			y: -0.5d
 		}
 		{
-			dependencies: [
-				"237CEA82FEF95C4F"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["237CEA82FEF95C4F"]
 			description: ["The Chemical Oxidizer plays a crucial role in processing Uranium into a usable form for energy production. By converting Uranium into Yellow Cake Uranium, we can then turn it into Uranium Oxide, a more refined and stable material."]
 			id: "357DEEC0C1C72BAA"
 			rewards: [{
@@ -1060,10 +960,7 @@
 			y: -3.0d
 		}
 		{
-			dependencies: [
-				"6C694DEF01960C4A"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["6C694DEF01960C4A"]
 			description: [
 				"Mekanism machines are very slow and steady when you first get them rolling. In order to increaser their speeds, we need to install upgrades! We are able to put in up to 16 upgrades of each type depending on what the machine exactly accepts."
 				""
@@ -1087,10 +984,7 @@
 			y: 0.5d
 		}
 		{
-			dependencies: [
-				"6C694DEF01960C4A"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["6C694DEF01960C4A"]
 			description: ["Mekanism pipes can cause any build to not look the way you intend. With a mod like Applied Energistics 2, you have facades that are used to cover your cabling to make your builds look much more presentable. With the addition of covers, you can do the same for your Mekanism cables. Simply combine the cover with the block of choice in a crafting grid and get to hiding those ugly cables."]
 			id: "0C546D3C32BC94E3"
 			optional: true
@@ -1104,10 +998,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: [
-				"1C77BC5EF2916F72"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["1C77BC5EF2916F72"]
 			description: ["Deep in the underground, we find an ancient city filled with Sculk and mystery. These creatures that inhabit this area have begun to spread and enter our dimension. We must go and acquire the heart from a Warden to enter their world. Within, we find various new creatures that can provide us with a source of Echo Shards that are going to be needed to produce a more Refined Obsidian to advance the technology we have."]
 			id: "0C1BEC40082A4BB0"
 			rewards: [{
@@ -1126,10 +1017,7 @@
 			y: 0.5d
 		}
 		{
-			dependencies: [
-				"0C1BEC40082A4BB0"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["0C1BEC40082A4BB0"]
 			description: ["With the Warden's heart in hand, we can activate the portal within the ancient city. By simply using the heart on the portal, we open dimensional travel to the home of the Sculk. Here, we will find creatures like we've never seen before. Their essence screams evil and we must gatherthe evil to make better technology. Killing these creatures can provide us with the echo shards we need to make our Refined Obsidian we need."]
 			id: "575E743BF443063F"
 			rewards: [{

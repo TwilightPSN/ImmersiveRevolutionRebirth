@@ -1,5 +1,5 @@
 {
-    "allowPickingUpBlocks": true,
+    "allowPickingUpBlocks": false,
     "friendlyEndermanTeleport": true,
     "friendlyEndermanDespawn": true,
     "allowSpawning": true,

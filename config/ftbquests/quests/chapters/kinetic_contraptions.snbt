@@ -29,10 +29,7 @@
 	]
 	quests: [
 		{
-			dependencies: [
-				"1A7820CA8E752427"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["1A7820CA8E752427"]
 			description: ["Taking our Andesite and molding it with some Zinc nuggets creates a sturdy alloy to start with basic kinetic motion. This allow will be a staple in advancing further."]
 			id: "6F753FCA6748FBF0"
 			require_sequential_tasks: false
@@ -51,10 +48,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"6F753FCA6748FBF0"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["6F753FCA6748FBF0"]
 			description: ["With our newfound alloy, we can make Andesite Casings and Shafts to start to assemble our kinetic machines. These blocks begin to build our network of kinetic energy transfer."]
 			id: "3BEACA2DE7728F3B"
 			require_sequential_tasks: false
@@ -89,10 +83,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"3BEACA2DE7728F3B"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["3BEACA2DE7728F3B"]
 			description: ["The Millstone is our early method of processing materials and resources. It can grind down items provided to it into new or more refined versions."]
 			id: "492689370B0F4731"
 			rewards: [{
@@ -111,10 +102,7 @@
 			y: -1.0d
 		}
 		{
-			dependencies: [
-				"3BEACA2DE7728F3B"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["3BEACA2DE7728F3B"]
 			description: ["To get started with many of our machines, we will need a Hand Crank and some gears. These will allow us to transfer energy and scale the speed and SU usage around."]
 			id: "36851BE0E8C197B9"
 			require_sequential_tasks: false
@@ -141,10 +129,7 @@
 			y: -1.0d
 		}
 		{
-			dependencies: [
-				"492689370B0F4731"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["492689370B0F4731"]
 			description: ["With an Encased Fan, we can perform bulk operations of varying types. When placed with water, this will allow us to wash materials. This can be used to help clean dirty usts for more resource gains. When used with lava, we can bulk smelt items into their hardened material forms. Fire also allows us to cook foods in bulk. This process requires nothing but the heat of the needed item as well as kinetic motion."]
 			id: "499522428D11BBAA"
 			require_sequential_tasks: false
@@ -163,10 +148,7 @@
 			y: -2.0d
 		}
 		{
-			dependencies: [
-				"3BEACA2DE7728F3B"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["3BEACA2DE7728F3B"]
 			description: ["Water Wheels can be used to generate rotational force with the use of flowing water. Simply ensure a current has them rotating and they will produce SU for you."]
 			id: "2380E54A5C3D8DE1"
 			require_sequential_tasks: false
@@ -185,10 +167,7 @@
 			y: 1.0d
 		}
 		{
-			dependencies: [
-				"3BEACA2DE7728F3B"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["3BEACA2DE7728F3B"]
 			description: ["In order to move motion in different rotations and directions, we have the Chain Drives and Gearboxes. This allows us to move around our rotational force in different manners to be used where needed."]
 			id: "636F68E40072AD9B"
 			require_sequential_tasks: false
@@ -215,10 +194,7 @@
 			y: -1.0d
 		}
 		{
-			dependencies: [
-				"3BEACA2DE7728F3B"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["3BEACA2DE7728F3B"]
 			description: ["To create more advanced machinery, we are going to need access to plates of metals. Using a Metal Press with a Depot, or a belt, we can create plates with the use of rotational force."]
 			id: "0125871937D41659"
 			require_sequential_tasks: false
@@ -244,10 +220,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"0125871937D41659"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["0125871937D41659"]
 			description: ["Working with Create requires some tools to make your life easier. Goggles allow you to see the issues and SU from your kinetic networks. The Wrench allows you to move and rotate items around your base."]
 			id: "67ECCDF67AB9BAB1"
 			require_sequential_tasks: false
@@ -273,10 +246,7 @@
 			y: -1.0d
 		}
 		{
-			dependencies: [
-				"3BEACA2DE7728F3B"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["3BEACA2DE7728F3B"]
 			description: ["Breaking down logs with our hands proves to be a resource losing process. We can use the saw to cut up logs into more pieces without losing anything in the process. This helps us to use less logs to get more wood."]
 			id: "0F2E8D7DA23070FC"
 			require_sequential_tasks: false
@@ -295,10 +265,7 @@
 			y: -2.0d
 		}
 		{
-			dependencies: [
-				"289E79DDFD2D2544"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["289E79DDFD2D2544"]
 			description: ["Some materials need to be sanded down to be usable. One of these is Rose Quartz which can be polished. This will allow us to use these new materials to great more advanced machinery."]
 			id: "1F652642467E9A58"
 			require_sequential_tasks: false
@@ -334,7 +301,6 @@
 			dependencies: [
 				"1F652642467E9A58"
 				"7775FADFB311BFD9"
-				"3C7B05B372C82B36"
 			]
 			description: ["Deployers allow us to be more precise when producing casings for our equipment. The presicion they provide allows us to make much more useful machinery. They also open up the ability to automate many other tasks."]
 			id: "582C193207B94611"
@@ -353,10 +319,7 @@
 			y: 1.0d
 		}
 		{
-			dependencies: [
-				"0125871937D41659"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["0125871937D41659"]
 			description: ["When you want to setup assembly lines with Create, Belts help to move and automate operations. They are used to transport and move items around your base."]
 			id: "34E47BB009AC7D5C"
 			require_sequential_tasks: false
@@ -375,10 +338,7 @@
 			y: 1.0d
 		}
 		{
-			dependencies: [
-				"2380E54A5C3D8DE1"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["2380E54A5C3D8DE1"]
 			description: ["When you need a higher stress limit and still want to use water, larger water wheels come into play. They rotate slower than a smaller wheel, but provide much more SU capability."]
 			id: "30D33E535025EAD8"
 			rewards: [{
@@ -399,7 +359,6 @@
 			dependencies: [
 				"582C193207B94611"
 				"5C1E3ACFD2F9C650"
-				"3C7B05B372C82B36"
 			]
 			description: ["With a Deployer in our grasp, we can create Kiln Bricks to make ourselves and Alloy Kiln. This will open up many new oportunities to produce alloyed metals for ourselves."]
 			icon: "immersiveengineering:alloy_smelter"
@@ -425,10 +384,7 @@
 			y: 1.0d
 		}
 		{
-			dependencies: [
-				"3BEACA2DE7728F3B"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["3BEACA2DE7728F3B"]
 			description: ["One of the passive systems we can use to generate kinetic energy is with a windmill. We can simply make some Sails and attach them to a Windmill Bearing with some glue and the contraption will work. This is a passive, albeit very low, form of generating rotational force."]
 			id: "27E0AF46F908E6D9"
 			rewards: [{
@@ -465,10 +421,7 @@
 			y: 1.0d
 		}
 		{
-			dependencies: [
-				"0125871937D41659"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["0125871937D41659"]
 			description: ["Storing fluids is a crucial part of any fine tuned operation. Excess levels of water and lava are needed to push further into technological advancements. Using fluid tanks, we can store these fluids for later use."]
 			id: "4492B51A9C727D78"
 			rewards: [{
@@ -487,10 +440,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: [
-				"4492B51A9C727D78"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["4492B51A9C727D78"]
 			description: ["By using steam engines, we can begin to generate rotational force through steam prodution. This requires placing a Steam Engine on top of a Fluid Tank with a shaft. You then heat the tank to create steam and start your kinetic production."]
 			id: "49A2F592D12DC5A5"
 			rewards: [{
@@ -509,10 +459,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: [
-				"49A2F592D12DC5A5"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["49A2F592D12DC5A5"]
 			description: ["Moving fluid early on is a crucial part of any operation. Fluid pipes, in combination with pumps, can help get any liquids you need flowing through your base."]
 			id: "4D0E448D7C9C75F4"
 			rewards: [{
@@ -538,10 +485,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: [
-				"36851BE0E8C197B9"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["36851BE0E8C197B9"]
 			description: ["Larger gears allow us to ratio our kinetic energy. Then can be used to change the rate at which our equipment is operating to either speed it up or slow them down depending on the other gears in connection."]
 			id: "2CAAA679089FD1CF"
 			rewards: [{
@@ -560,10 +504,7 @@
 			y: -2.0d
 		}
 		{
-			dependencies: [
-				"0125871937D41659"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["0125871937D41659"]
 			description: ["Combining a Mixer with a Basin, we can combine materials into new ones by mixing them together. This will be key in enter later stages of technology."]
 			id: "660794159EA5572C"
 			rewards: [{
@@ -589,10 +530,7 @@
 			y: -1.0d
 		}
 		{
-			dependencies: [
-				"660794159EA5572C"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["660794159EA5572C"]
 			description: ["Creosote is a bi-product of generating Coal Coke. We can also create it by extracting the minerals from logs within the mixer. This oil is essential to our future operations."]
 			id: "165BA06960C5C2AB"
 			rewards: [{
@@ -612,10 +550,7 @@
 			y: -2.0d
 		}
 		{
-			dependencies: [
-				"165BA06960C5C2AB"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["165BA06960C5C2AB"]
 			description: ["With Creosote being produced, we need to infuse planks with it to create Treated Wood. This wood is sturdier and can be used to produce even stronger machines. We want to get this material rolling ASAP."]
 			id: "11BCD612FAD8E339"
 			rewards: [{
@@ -634,10 +569,7 @@
 			y: -2.0d
 		}
 		{
-			dependencies: [
-				"3DF334D3DF981D3D"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["3DF334D3DF981D3D"]
 			description: ["With an Alloy Kiln in our hands, we can begin to produce Brass without losing many materials. You can now begin to produce ingots within this block."]
 			id: "252BCFE557632122"
 			rewards: [{
@@ -655,10 +587,7 @@
 			y: 1.0d
 		}
 		{
-			dependencies: [
-				"660794159EA5572C"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["660794159EA5572C"]
 			description: ["The Mixer provides us with our first form of obtaining Brass. Through mixing, we can use a highly destructive method to begin to make Brass Nuggets. This is our way of producing these until we can make ingots."]
 			id: "7775FADFB311BFD9"
 			rewards: [{
@@ -676,10 +605,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"660794159EA5572C"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["660794159EA5572C"]
 			description: ["Getting Steel early on requires a highly descrtuctive use within the mixer. This will create nuggets of steel to help us get moving forward."]
 			id: "0B5E7A2FDA4CA4FB"
 			rewards: [{
@@ -697,10 +623,7 @@
 			y: -1.0d
 		}
 		{
-			dependencies: [
-				"510ABFA37AE208DF"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["510ABFA37AE208DF"]
 			description: ["The Nether is a dangerous place to adventure in but provides resources in a much more plentiful manner than the Overworld. Be weary though, the Piglins of The Nether do not like anyone messing with their resources."]
 			hide_dependent_lines: true
 			id: "75D693CEC7D6685A"
@@ -720,10 +643,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"0125871937D41659"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["0125871937D41659"]
 			description: ["The Rolling Mill can be utilized to mold and morph metals into new items. These items are crucial to further developing our operations and expanding our resource availability."]
 			id: "289E79DDFD2D2544"
 			rewards: [{
@@ -741,10 +661,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"252BCFE557632122"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["252BCFE557632122"]
 			description: ["When crafting high-end and larger pieces of equipment, we need to be much more precise with the placement and assembly of the items. The Mechanical Crafters come in handy here to do the work for us and build our items. I would get a 9x9 of this built as we are going to need it later."]
 			id: "27F37B9E48984AD7"
 			rewards: [{
@@ -763,10 +680,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"27F37B9E48984AD7"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["27F37B9E48984AD7"]
 			description: ["Our Millstone has been doing work to grind the materials we have but can only do so much. Crushing Wheels can be used for a more larger scale operation and even break down some of the sturdier materials."]
 			id: "5ABFAA79C02431C7"
 			rewards: [{
@@ -785,10 +699,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"27F37B9E48984AD7"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["27F37B9E48984AD7"]
 			description: ["Blaze are some of the hottest creatures that we will encounter. We can harness them by trapping in a Blaze Burner to heat our Create machines."]
 			id: "0B9B63389931F8CD"
 			rewards: [{
@@ -806,10 +717,7 @@
 			y: 1.0d
 		}
 		{
-			dependencies: [
-				"5ABFAA79C02431C7"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["5ABFAA79C02431C7"]
 			description: ["Coke Dust can be used to create a powerful multiblock to convert our resources into a stronger burnable resource. Acquiring the first few is a tedious task with Creosote Oil and a mixer, but will become easier over time."]
 			id: "7E35C3054ADB7374"
 			rewards: [{
@@ -828,10 +736,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"75D693CEC7D6685A"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["75D693CEC7D6685A"]
 			description: ["By using Soul Sand and placing Wither Skeleton Skulls on it, we can summon The Wither. The Wither provides access to Nether Stars which are going to be crucial to our higher end productions."]
 			id: "1201B29D3A11C204"
 			rewards: [{
@@ -859,10 +764,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"1201B29D3A11C204"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["1201B29D3A11C204"]
 			description: ["Once we have gained access to Quartz, Netherite and Nether Stars, we can craft a portal and key to gain access to a dimension full of Netherrack minerals."]
 			id: "66440D61AD3ECFBC"
 			rewards: [{
@@ -888,11 +790,8 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"27F37B9E48984AD7"
-				"3C7B05B372C82B36"
-			]
-			description: ["An Alternator is a way to turn the kinetic energy you have been generating into power. This is a cheap way to start getting our base running on energy."]
+			dependencies: ["27F37B9E48984AD7"]
+			description: ["An Alternating Dynamo is a way to turn the kinetic energy you have been generating into power. This is a cheap way to start getting our base running on energy."]
 			id: "776398BD6BADD04E"
 			rewards: [{
 				id: "4506ED7360749874"
@@ -900,8 +799,8 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "0357964FD25C85E8"
-				item: "createaddition:alternator"
+				id: "68D5913924599A56"
+				item: "steampowered:alternator"
 				type: "item"
 			}]
 			title: "Rotational Power"
@@ -909,10 +808,7 @@
 			y: -1.0d
 		}
 		{
-			dependencies: [
-				"776398BD6BADD04E"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["776398BD6BADD04E"]
 			description: ["The Tesla Coil can be use to charge and manipulate items with electricity. By giving it some power and placing your items on it, you can change what they are entirely."]
 			id: "64F5495E1A5DFC9A"
 			rewards: [{
@@ -930,10 +826,7 @@
 			y: -2.0d
 		}
 		{
-			dependencies: [
-				"7238E258FDDBD561"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["7238E258FDDBD561"]
 			description: ["Certus is the key resource to getting a storage system running. This special materials is one that you want to get going now and keep going. Be sure to collect the flawless ones with a Cardboard Box so they don't wear away."]
 			id: "03835B0AAF486B09"
 			rewards: [
@@ -973,10 +866,7 @@
 			y: -4.0d
 		}
 		{
-			dependencies: [
-				"64F5495E1A5DFC9A"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["64F5495E1A5DFC9A"]
 			description: ["By charging up a Compass in the Tesla Coil, we create a compass attracted to this new material. Sky Stone meterorites are all over the world and a Meteorite Compass will allow us to find them and uncover the treasures within."]
 			id: "7238E258FDDBD561"
 			rewards: [{
@@ -995,10 +885,7 @@
 			y: -3.0d
 		}
 		{
-			dependencies: [
-				"776398BD6BADD04E"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["776398BD6BADD04E"]
 			description: ["Accumulators are a multiblock item that can be used to store energy. Getting these up and running nice and early can help us build a backup of power for when we may need it later."]
 			id: "5FC594E072F963F2"
 			rewards: [{
@@ -1018,10 +905,7 @@
 			y: -2.0d
 		}
 		{
-			dependencies: [
-				"776398BD6BADD04E"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["776398BD6BADD04E"]
 			description: ["An Electric Motor takes the power we generate and converts it back to kinetic energy. This will be great when we are producing more power later on and need to setup some operations with Create."]
 			id: "378D0AAEBF5DF0A8"
 			rewards: [{
@@ -1040,10 +924,7 @@
 			y: -1.0d
 		}
 		{
-			dependencies: [
-				"11BCD612FAD8E339"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["11BCD612FAD8E339"]
 			description: ["Moving around pressure to varying machines is key when you are trying to perform a mobile operations. The Backtank can be pressurized and then brought with you to use the pressure elsewhere."]
 			id: "3CB496E8E1B8ABF2"
 			rewards: [{
@@ -1075,10 +956,7 @@
 			y: -2.0d
 		}
 		{
-			dependencies: [
-				"3CB496E8E1B8ABF2"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["3CB496E8E1B8ABF2"]
 			description: ["The Create jetpacks are one of the strongest you can get. Being powered off purse kinetic energy, they provide a form of flight for us."]
 			id: "4970997693A84D4E"
 			rewards: [{
@@ -1107,10 +985,7 @@
 			y: -3.0d
 		}
 		{
-			dependencies: [
-				"27F37B9E48984AD7"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["27F37B9E48984AD7"]
 			description: ["Manually mining can be a tedious task. With a large scale Mechanical Crafter at our disposal, we can create a Workbench to make a more powerful mining machine."]
 			id: "3BA75F6038555CD8"
 			rewards: [{
@@ -1128,10 +1003,7 @@
 			y: 1.0d
 		}
 		{
-			dependencies: [
-				"66440D61AD3ECFBC"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["66440D61AD3ECFBC"]
 			description: ["The Nether Mining Dimensions is a dimension free of the threats of The Nether but with the plentiful resource gains. We can strip mine here without fear of death, except by maybe starvation."]
 			id: "0877B7E49CB54FD3"
 			rewards: [{
@@ -1150,10 +1022,7 @@
 			y: -1.0d
 		}
 		{
-			dependencies: [
-				"0B5E7A2FDA4CA4FB"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["0B5E7A2FDA4CA4FB"]
 			description: [
 				"The Nether holds various resources for us to gather for our advancements. In order to access The Nether, we need to venture and find the mysterious Sculk. This material can be crafted into a portal frame and activated using a key."
 				""
@@ -1189,10 +1058,7 @@
 			y: -1.0d
 		}
 		{
-			dependencies: [
-				"660794159EA5572C"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["660794159EA5572C"]
 			description: ["Enchantment Industry allows us to use Create to create and remove enchantments. This is a very powerful system that does require quite a bit of setup. It does pay off in the end however."]
 			id: "4DAFC45E42F9954E"
 			rewards: [{
@@ -1210,10 +1076,7 @@
 			y: -2.0d
 		}
 		{
-			dependencies: [
-				"1F652642467E9A58"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["1F652642467E9A58"]
 			description: ["With a Trading Depot, we can use Create to automate the trading with our villagers. We can assign the trades and keep the items flowing to be able to get the trades we want."]
 			id: "5D337ADC6B90872A"
 			tasks: [{
@@ -1226,10 +1089,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: [
-				"0125871937D41659"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["0125871937D41659"]
 			description: ["The Hydraulic Press is a much more powerful press. This press can do an entire stack at once when provided with materials. It does use much more stress to perform actions."]
 			id: "570973C8F1E1E679"
 			rewards: [{
@@ -1247,10 +1107,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: [
-				"165BA06960C5C2AB"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["165BA06960C5C2AB"]
 			description: ["The Sifter can be used to filter out materials from the resources around us. This allows us to get the easy to obtain resources with a simple setup."]
 			id: "1DC92E38196D4E10"
 			rewards: [{
@@ -1329,6 +1186,24 @@
 			title: "Extra Steamy"
 			x: -4.5d
 			y: 3.0d
+		}
+		{
+			dependencies: ["0B9B63389931F8CD"]
+			description: ["By default, the Blaze Burners cannot directly accept liquids. By giving them a straw, this allows you to directly pipe fluid fuels into the burner."]
+			id: "0E31EF7E3A1E726F"
+			rewards: [{
+				id: "76DC92A8081D51AF"
+				item: "createaddition:straw"
+				type: "item"
+			}]
+			tasks: [{
+				id: "78AF0C56A13E17EE"
+				item: "createaddition:straw"
+				type: "item"
+			}]
+			title: "Slurping Liquids"
+			x: 0.0d
+			y: 2.0d
 		}
 	]
 	title: "Create"

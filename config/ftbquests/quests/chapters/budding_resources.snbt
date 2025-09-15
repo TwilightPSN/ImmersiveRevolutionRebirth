@@ -15,10 +15,7 @@
 	}]
 	quests: [
 		{
-			dependencies: [
-				"1C77BC5EF2916F72"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["1C77BC5EF2916F72"]
 			description: ["Generates Crystals that drop Copper. Can also be grown in a Botany Pot."]
 			id: "241DB91F20473000"
 			tasks: [{
@@ -30,10 +27,7 @@
 			y: -5.5d
 		}
 		{
-			dependencies: [
-				"1C77BC5EF2916F72"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["1C77BC5EF2916F72"]
 			description: ["Generates Crystals that drop Prismarine Clusters. Can also be grown in a Botany Pot."]
 			id: "3535835547DDE1D2"
 			tasks: [{
@@ -45,10 +39,7 @@
 			y: -4.5d
 		}
 		{
-			dependencies: [
-				"1C77BC5EF2916F72"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["1C77BC5EF2916F72"]
 			description: ["Generates Crystals that drop Steel. Can also be grown in a Botany Pot."]
 			id: "7441C33F697B241B"
 			tasks: [{
@@ -60,10 +51,7 @@
 			y: -4.5d
 		}
 		{
-			dependencies: [
-				"1C77BC5EF2916F72"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["1C77BC5EF2916F72"]
 			description: ["Generates Crystals that drop Certus Quartz. Can also be grown in a Botany Pot."]
 			id: "34C7F560C1BDEBDE"
 			tasks: [{
@@ -75,10 +63,7 @@
 			y: -4.0d
 		}
 		{
-			dependencies: [
-				"1C77BC5EF2916F72"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["1C77BC5EF2916F72"]
 			description: ["Generates Crystals that drop Refined Obsidian. Can also be grown in a Botany Pot."]
 			id: "1A381498EAEE2B7B"
 			tasks: [{
@@ -90,10 +75,7 @@
 			y: -8.0d
 		}
 		{
-			dependencies: [
-				"1C77BC5EF2916F72"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["1C77BC5EF2916F72"]
 			description: ["Generates Crystals that drop Aluminum. Can also be grown in a Botany Pot."]
 			id: "094DB827FAF2FACF"
 			tasks: [{
@@ -105,10 +87,7 @@
 			y: -5.5d
 		}
 		{
-			dependencies: [
-				"1C77BC5EF2916F72"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["1C77BC5EF2916F72"]
 			description: ["Generates Crystals that drop Energized Steel. Can also be grown in a Botany Pot."]
 			id: "76C02E2AB8B47308"
 			tasks: [{
@@ -120,10 +99,7 @@
 			y: -3.5d
 		}
 		{
-			dependencies: [
-				"1C77BC5EF2916F72"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["1C77BC5EF2916F72"]
 			description: ["Generates Crystals that drop Nitro Crystals. Can also be grown in a Botany Pot."]
 			id: "0245BD9514849185"
 			tasks: [{
@@ -135,10 +111,7 @@
 			y: -3.0d
 		}
 		{
-			dependencies: [
-				"1C77BC5EF2916F72"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["1C77BC5EF2916F72"]
 			description: ["Generates Crystals that drop Niotic Crystals. Can also be grown in a Botany Pot."]
 			id: "082EA8A19F3D3BDB"
 			tasks: [{
@@ -150,10 +123,7 @@
 			y: -2.0d
 		}
 		{
-			dependencies: [
-				"1C77BC5EF2916F72"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["1C77BC5EF2916F72"]
 			description: ["Generates Crystals that drop Blazing Crystals. Can also be grown in a Botany Pot."]
 			id: "4D46B43371C1D0AA"
 			tasks: [{
@@ -165,10 +135,7 @@
 			y: -3.0d
 		}
 		{
-			dependencies: [
-				"1C77BC5EF2916F72"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["1C77BC5EF2916F72"]
 			description: ["Generates Crystals that drop Glowstone. Can also be grown in a Botany Pot."]
 			id: "443D53A4D3B31E74"
 			tasks: [{
@@ -180,10 +147,7 @@
 			y: -5.5d
 		}
 		{
-			dependencies: [
-				"1C77BC5EF2916F72"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["1C77BC5EF2916F72"]
 			description: ["Generates Crystals that drop Fluix. Can also be grown in a Botany Pot."]
 			id: "231C3B4AEA749F9A"
 			tasks: [{
@@ -195,10 +159,7 @@
 			y: -3.0d
 		}
 		{
-			dependencies: [
-				"1C77BC5EF2916F72"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["1C77BC5EF2916F72"]
 			description: ["Generates Crystals that drop Netherite. Can also be grown in a Botany Pot."]
 			id: "6CE7E7813B72D35A"
 			tasks: [{
@@ -210,10 +171,7 @@
 			y: -4.5d
 		}
 		{
-			dependencies: [
-				"1C77BC5EF2916F72"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["1C77BC5EF2916F72"]
 			description: ["Generates Crystals that drop Gold. Can also be grown in a Botany Pot."]
 			id: "6A3687C08E9CE87A"
 			tasks: [{
@@ -225,10 +183,7 @@
 			y: -5.5d
 		}
 		{
-			dependencies: [
-				"1C77BC5EF2916F72"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["1C77BC5EF2916F72"]
 			description: ["Generates Crystals that drop Lapis Lazuli. Can also be grown in a Botany Pot."]
 			id: "295769AB0DBE110B"
 			tasks: [{
@@ -240,10 +195,7 @@
 			y: -6.5d
 		}
 		{
-			dependencies: [
-				"1C77BC5EF2916F72"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["1C77BC5EF2916F72"]
 			description: ["Generates Crystals that drop Emeralds. Can also be grown in a Botany Pot."]
 			id: "698FAF968D024E11"
 			tasks: [{
@@ -255,10 +207,7 @@
 			y: -5.5d
 		}
 		{
-			dependencies: [
-				"1C77BC5EF2916F72"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["1C77BC5EF2916F72"]
 			description: ["Generates Crystals that drop Redstone. Can also be grown in a Botany Pot."]
 			id: "4A089CC352F5970C"
 			tasks: [{
@@ -270,10 +219,7 @@
 			y: -6.5d
 		}
 		{
-			dependencies: [
-				"1C77BC5EF2916F72"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["1C77BC5EF2916F72"]
 			description: ["Generates Crystals that drop Uranium. Can also be grown in a Botany Pot."]
 			id: "041418A664F9C96F"
 			tasks: [{
@@ -285,10 +231,7 @@
 			y: -6.0d
 		}
 		{
-			dependencies: [
-				"1C77BC5EF2916F72"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["1C77BC5EF2916F72"]
 			description: ["Generates Crystals that drop Silver. Can also be grown in a Botany Pot."]
 			id: "7C3CC5CF060F39D6"
 			tasks: [{
@@ -300,10 +243,7 @@
 			y: -6.5d
 		}
 		{
-			dependencies: [
-				"1C77BC5EF2916F72"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["1C77BC5EF2916F72"]
 			description: ["Generates Crystals that drop Iron. Can also be grown in a Botany Pot."]
 			id: "01B621912F1F1091"
 			tasks: [{
@@ -315,10 +255,7 @@
 			y: -5.0d
 		}
 		{
-			dependencies: [
-				"1C77BC5EF2916F72"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["1C77BC5EF2916F72"]
 			description: ["Generates Crystals that drop Uraninite. Can also be grown in a Botany Pot."]
 			id: "57DAC261BEF8D79C"
 			tasks: [{
@@ -330,10 +267,7 @@
 			y: -4.0d
 		}
 		{
-			dependencies: [
-				"1C77BC5EF2916F72"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["1C77BC5EF2916F72"]
 			description: ["Generates Crystals that drop Spirited Crystals. Can also be grown in a Botany Pot."]
 			id: "5D5FBBC6DB696E87"
 			tasks: [{
@@ -345,10 +279,7 @@
 			y: -2.5d
 		}
 		{
-			dependencies: [
-				"1C77BC5EF2916F72"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["1C77BC5EF2916F72"]
 			description: ["Generates Crystals that drop Diamonds. Can also be grown in a Botany Pot."]
 			id: "5A83D5B86BB3C732"
 			tasks: [{
@@ -360,10 +291,7 @@
 			y: -6.0d
 		}
 		{
-			dependencies: [
-				"1C77BC5EF2916F72"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["1C77BC5EF2916F72"]
 			description: ["Generates Crystals that drop Draconium. Can also be grown in a Botany Pot."]
 			id: "2960BE453A13094F"
 			tasks: [{
@@ -375,10 +303,7 @@
 			y: -7.5d
 		}
 		{
-			dependencies: [
-				"1C77BC5EF2916F72"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["1C77BC5EF2916F72"]
 			description: ["Generates Crystals that drop Bronze. Can also be grown in a Botany Pot."]
 			id: "474E67D583B55DDC"
 			tasks: [{
@@ -390,10 +315,7 @@
 			y: -5.0d
 		}
 		{
-			dependencies: [
-				"1C77BC5EF2916F72"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["1C77BC5EF2916F72"]
 			description: ["Generates Crystals that drop Electrum. Can also be grown in a Botany Pot."]
 			id: "74AAB20FC60A532F"
 			tasks: [{
@@ -405,10 +327,7 @@
 			y: -5.5d
 		}
 		{
-			dependencies: [
-				"1C77BC5EF2916F72"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["1C77BC5EF2916F72"]
 			description: ["Generates Crystals that drop Nickel. Can also be grown in a Botany Pot."]
 			id: "1517F178A3C69BE5"
 			tasks: [{
@@ -420,10 +339,7 @@
 			y: -6.0d
 		}
 		{
-			dependencies: [
-				"1C77BC5EF2916F72"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["1C77BC5EF2916F72"]
 			description: ["Generates Crystals that drop Nether Quartz. Can also be grown in a Botany Pot."]
 			id: "52572AEB88E497FC"
 			tasks: [{
@@ -435,10 +351,7 @@
 			y: -4.5d
 		}
 		{
-			dependencies: [
-				"1C77BC5EF2916F72"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["1C77BC5EF2916F72"]
 			description: ["Generates Crystals that drop Salt. Can also be grown in a Botany Pot."]
 			id: "01ABFBD789088491"
 			tasks: [{
@@ -450,10 +363,7 @@
 			y: -7.5d
 		}
 		{
-			dependencies: [
-				"1C77BC5EF2916F72"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["1C77BC5EF2916F72"]
 			description: ["Generates Crystals that drop HOP Graphite. Can also be grown in a Botany Pot."]
 			id: "5881347FEDD8F961"
 			tasks: [{
@@ -465,10 +375,7 @@
 			y: -6.5d
 		}
 		{
-			dependencies: [
-				"1C77BC5EF2916F72"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["1C77BC5EF2916F72"]
 			description: ["Generates Crystals that drop Osmium. Can also be grown in a Botany Pot."]
 			id: "4ADF13CA2A1A5678"
 			tasks: [{
@@ -480,10 +387,7 @@
 			y: -7.0d
 		}
 		{
-			dependencies: [
-				"1C77BC5EF2916F72"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["1C77BC5EF2916F72"]
 			description: ["Generates Crystals that drop Brass. Can also be grown in a Botany Pot."]
 			id: "43925BBA49CF84BC"
 			tasks: [{
@@ -495,10 +399,7 @@
 			y: -7.0d
 		}
 		{
-			dependencies: [
-				"1C77BC5EF2916F72"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["1C77BC5EF2916F72"]
 			description: ["Generates Crystals that drop Constantan. Can also be grown in a Botany Pot."]
 			id: "20F6F29E95E01E41"
 			tasks: [{
@@ -510,10 +411,7 @@
 			y: -5.0d
 		}
 		{
-			dependencies: [
-				"1C77BC5EF2916F72"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["1C77BC5EF2916F72"]
 			description: ["Generates Crystals that drop Lead. Can also be grown in a Botany Pot."]
 			id: "2124ED9F144E5A2C"
 			tasks: [{
@@ -525,10 +423,7 @@
 			y: -5.5d
 		}
 		{
-			dependencies: [
-				"1C77BC5EF2916F72"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["1C77BC5EF2916F72"]
 			description: ["Generates Crystals that drop Tin. Can also be grown in a Botany Pot."]
 			id: "2B0DB0D8E74A7E77"
 			tasks: [{
@@ -540,10 +435,7 @@
 			y: -4.5d
 		}
 		{
-			dependencies: [
-				"1C77BC5EF2916F72"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["1C77BC5EF2916F72"]
 			description: ["Generates Crystals that drop Fluorite. Can also be grown in a Botany Pot."]
 			id: "7471D9839E080A03"
 			tasks: [{
@@ -555,10 +447,7 @@
 			y: -8.0d
 		}
 		{
-			dependencies: [
-				"1C77BC5EF2916F72"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["1C77BC5EF2916F72"]
 			description: ["Generates Crystals that drop Zinc. Can also be grown in a Botany Pot."]
 			id: "6F2F24573D016955"
 			tasks: [{
@@ -570,10 +459,7 @@
 			y: -8.0d
 		}
 		{
-			dependencies: [
-				"1C77BC5EF2916F72"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["1C77BC5EF2916F72"]
 			description: ["Generates Crystals that drop Awakened Draconium Nuggets. Can also be grown in a Botany Pot."]
 			id: "2D018DC9E315E196"
 			tasks: [{
@@ -585,10 +471,7 @@
 			y: -8.5d
 		}
 		{
-			dependencies: [
-				"1C77BC5EF2916F72"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["1C77BC5EF2916F72"]
 			description: ["Generates Crystals that drop Refined Glowstone. Can also be grown in a Botany Pot."]
 			id: "7189B2071FEAF5CE"
 			tasks: [{
@@ -600,10 +483,7 @@
 			y: -9.0d
 		}
 		{
-			dependencies: [
-				"1C77BC5EF2916F72"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["1C77BC5EF2916F72"]
 			description: ["Generates Crystals that drop Quantum Alloy. Can also be grown in a Botany Pot."]
 			id: "3A50D262F2AC949E"
 			tasks: [{
@@ -615,10 +495,7 @@
 			y: -3.5d
 		}
 		{
-			dependencies: [
-				"1C77BC5EF2916F72"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["1C77BC5EF2916F72"]
 			description: ["Generates Crystals that drop Sky Steel. Can also be grown in a Botany Pot."]
 			id: "3B2A919A44F93CB1"
 			tasks: [{
@@ -630,10 +507,7 @@
 			y: -2.5d
 		}
 		{
-			dependencies: [
-				"1C77BC5EF2916F72"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["1C77BC5EF2916F72"]
 			description: ["Generates Crystals that drop Coal. Can also be grown in a Botany Pot."]
 			id: "3875B7FD44F4A6AF"
 			tasks: [{
