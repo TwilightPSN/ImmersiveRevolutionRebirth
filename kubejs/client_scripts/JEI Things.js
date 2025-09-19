@@ -113,14 +113,6 @@ IRRebirth.hide([
   'quarryplus:dummy',
   'quarryplus:dummy_replacer',
   'quarryplus:adv_pump',
-  'createaddition:large_connector',
-  'createaddition:connector',
-  'createaddition:festive_spool',
-  'createaddition:spool',
-  'createaddition:copper_spool',
-  'createaddition:gold_spool',
-  'createaddition:electrum_spool',
-  'createaddition:gold_wire',
   'create_sa:andesite_jetpack_chestplate',
   'create_sa:copper_jetpack_chestplate',
   'create_sa:brass_jetpack_chestplate',
@@ -233,7 +225,9 @@ IRRebirth.hide([
   'buddingcrystals:small_coalcoke_bud',
   'buddingcrystals:medium_coalcoke_bud',
   'buddingcrystals:large_coalcoke_bud',
-  'createadditions:alternator'
+  'createadditions:alternator',
+  'create_mechanical_chicken:seed_oil_bucket',
+  'create_mechanical_chicken:seed_oil'
 ]);
 })
 
@@ -253,6 +247,8 @@ JEIEvents.information(IRRebirth => {
         'create:blaze_cake',
         'create:brass_casing',
         'create_sa:steam_engine'], ['Required to fill an Ultimate Bin of these items for Survival Infinity Upgrade'])
+    IRRebirth.addItem('minecraft:andesite', ['Has a low chance to drop Andesite Alloy. Increases with Fortune.'])
+    IRRebirth.addItem('create:andesite_alloy', ['Has a low chance to drop from Andesite. Increases with Fortune.'])
 })
 
 JEIEvents.addItems(IRRebirth => {
@@ -297,4 +293,10 @@ JEIEvents.addItems(IRRebirth => {
         'botanypots:terracotta_botany_pot',
         'mekanism:creative_chemical_tank',
         'mekanism:creative_fluid_tank']);
+})
+
+JEIEvents.hideFluids(IRRebirth => {
+IRRebirth.hide([
+  'create_mechanical_chicken:seed_oil'
+]);
 })

@@ -370,7 +370,11 @@
 		}
 		{
 			dependencies: ["60C64ED98B3DA5FE"]
-			description: ["By harnessing the power of the Ender Dragon's breath, we can build our own little End Portal at our base. This will save time from having to constantly travel to the Stronghold."]
+			description: [
+				"By harnessing the power of the Ender Dragon's breath, we can build our own little End Portal at our base. This will save time from having to constantly travel to the Stronghold."
+				""
+				"&lNOTE: This frame is built FLAT&r"
+			]
 			id: "73F11332415E1484"
 			rewards: [{
 				id: "442FD4795645B563"

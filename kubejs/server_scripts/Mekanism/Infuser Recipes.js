@@ -7,8 +7,8 @@ ServerEvents.recipes(IRRebirth => {
     })
     IRRebirth.custom({
         "type":"mekanism:metallurgic_infusing",
-        "chemicalInput":{"amount":20,"tag":"mekanism:gold"},
-        "itemInput":{"amount": 2, "ingredient":{"tag":"forge:ingots/netherite_scrap"}},
+        "chemicalInput":{"amount":10,"tag":"mekanism:gold"},
+        "itemInput":{"amount": 1, "ingredient":{"tag":"forge:ingots/netherite_scrap"}},
         "output":{"amount": 1, "item":"mekanism:dust_netherite"}
     }).id('mekanism:processing/netherite/scrap_to_dust')
     IRRebirth.recipes.mekanism.metallurgic_infusing('mekanism:dust_refined_obsidian', '#forge:dusts/obsidian', '100x kubejs:echo').id('mekanism:processing/refined_obsidian/dust/from_obsidian_dust')

@@ -1072,8 +1072,8 @@
 				type: "item"
 			}]
 			title: "Enchanting Machine"
-			x: -5.0d
-			y: -2.0d
+			x: -5.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["1F652642467E9A58"]
@@ -1125,7 +1125,11 @@
 		}
 		{
 			dependencies: ["49A2F592D12DC5A5"]
-			description: ["Sometimes our steam engine isn't enough for the true kinetic energy we need. This is where Steam Boilers, Engines and Flywheels come into play. Simply filling a boiler with water above a heat chamber will generate steam for an engine and flywheel to convert into masses of kinetic energy."]
+			description: [
+				"Sometimes our steam engine isn't enough for the true kinetic energy we need. This is where Steam Boilers, Engines and Flywheels come into play. Simply filling a boiler with water above a heat chamber will generate steam for an engine and flywheel to convert into masses of kinetic energy."
+				""
+				"Blaze Burners can also be utilized to power the Boiler while Burning Chambers can power the Create Steam Engine."
+			]
 			id: "14E31D7B2714779B"
 			rewards: [{
 				count: 10
@@ -1204,6 +1208,39 @@
 			title: "Slurping Liquids"
 			x: 0.0d
 			y: 2.0d
+		}
+		{
+			dependencies: ["660794159EA5572C"]
+			description: ["Keeping up with eggs for your Blaze Cakes can be a tedious process of managing chicken. With a the Mechanical Chicken, you can generate eggs with the utilization of Seed Oil. This will reduce the massive number of chickens you need to keep."]
+			id: "2A850D5403F0F8A2"
+			rewards: [{
+				id: "47EC128F130FFC8E"
+				item: "createaddition:seed_oil_bucket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "166C1810BD3B2036"
+				item: "create_mechanical_chicken:mechanical_chicken"
+				type: "item"
+			}]
+			title: "Just Buckause"
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1A7820CA8E752427"]
+			description: ["While trains do work with Custom Portals in the pack, they WILL NOT line up. This is a limit of the mod allowing them to work. DO NOT attempt to make the portals bigger as the other end will always be a standard 2x3. Stick to making it look nice on your base end with a 3x3."]
+			icon: "create:train_door"
+			id: "1215C314BD1747DC"
+			shape: "pentagon"
+			size: 2.0d
+			tasks: [{
+				id: "615C4F92A0899A14"
+				title: "Train Warning!"
+				type: "checkmark"
+			}]
+			x: -11.5d
+			y: 0.0d
 		}
 	]
 	title: "Create"

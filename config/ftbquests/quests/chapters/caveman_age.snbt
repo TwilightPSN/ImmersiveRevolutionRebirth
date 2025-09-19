@@ -14,9 +14,11 @@
 				"{@pagebreak}"
 				"Tools and armor are unbreakable so you can focus more on your technology and less on equipment. See Tinker's quests for how to make Unbreakable Tinker's tools."
 				""
-				"Ores are also much more plentiful and given to you. Each different type of stone grants more and more resources than the last."
+				"Ores are also much more plentiful and given to you. Each different type of stone grants more and more raw resources than the last."
 				""
 				"FTB Ultimine allows you the gather multiple blocks in one go. A tool is required to gather blocks, not just your bare hand."
+				"{@pagebreak}"
+				"Draconium and Ancient Debris have also been changed to drop a raw resource. These resources are directly affected by fortune meaning you can get more use from Ancient Debris."
 			]
 			id: "599030C9DB9B1E08"
 			rewards: [{
@@ -807,6 +809,78 @@
 			title: "Modifying Madness"
 			x: -6.5d
 			y: -1.5d
+		}
+		{
+			dependencies: ["62BE232080B9F262"]
+			description: ["With having Pam's Harvestcraft, we can create MANY items to eat to increase our hearts. We can place these within our Cooking for Blockheads kitchen and it will use them to create what is needed."]
+			id: "627A509D940B77C1"
+			rewards: [
+				{
+					id: "05ACF004B66ECB19"
+					item: "cookingforblockheads:tool_rack"
+					type: "item"
+				}
+				{
+					id: "7C1491E89F03B176"
+					item: "cookingforblockheads:cow_jar"
+					type: "item"
+				}
+				{
+					id: "6090DB1D5C54BE13"
+					item: "cookingforblockheads:toaster"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3522523802A3C8F7"
+					item: "pamhc2foodcore:bakewareitem"
+					type: "item"
+				}
+				{
+					id: "2E50E8B705BF161F"
+					item: "pamhc2foodcore:cuttingboarditem"
+					type: "item"
+				}
+				{
+					id: "008B6F888F2AE24E"
+					item: "pamhc2foodcore:juiceritem"
+					type: "item"
+				}
+				{
+					id: "358FDF07DC866B1D"
+					item: "pamhc2foodcore:grinderitem"
+					type: "item"
+				}
+				{
+					id: "5175CE45753A1201"
+					item: "pamhc2foodcore:mixingbowlitem"
+					type: "item"
+				}
+				{
+					id: "331502D38D95FB0C"
+					item: "pamhc2foodcore:potitem"
+					type: "item"
+				}
+				{
+					id: "4C67AF4D3A18A20E"
+					item: "pamhc2foodcore:rolleritem"
+					type: "item"
+				}
+				{
+					id: "18612B4D443311D3"
+					item: "pamhc2foodcore:saucepanitem"
+					type: "item"
+				}
+				{
+					id: "072FAED32FA16F7B"
+					item: "pamhc2foodcore:skilletitem"
+					type: "item"
+				}
+			]
+			title: "Cooking Equipment"
+			x: -9.0d
+			y: -5.0d
 		}
 	]
 	title: "Getting Started"

@@ -234,4 +234,11 @@ ServerEvents.recipes(IRRebirth => {
           'create_dd:bronze_polished_block'
         ]
       )
+      IRRebirth.shapeless(
+        Item.of('snad:soul_snad'),
+        [
+          'minecraft:soul_sand',
+          'minecraft:soul_sand'
+        ]
+      )
 })

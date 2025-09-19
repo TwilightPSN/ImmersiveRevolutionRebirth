@@ -4,6 +4,51 @@ MODS TO REMOVE FROM SERVER PACKS
 -Clear Water
 -BadOptimizations
 
+|| Release 1.7.1 ||
+
+// Mods Added //
+-Create and Custom Portals API Reforged Compat
+-Create: Dynamic Village
+-Create Mechanical Chicken
+
+// Mods Removed //
+-Create: Enchantable Machinery
+
+// Mods Updated //
+-Every Compat
+-ExtendedAE
+-Just Enough Breeding
+-Moonlight Library
+-Sophisticated Backpacks
+-Sophisticated Core
+-Sophisticated Storage
+-Stellar View
+-Supplementaries
+
+// Quest Changes //
+-Added quest for Pam's Equipment
+-Updated text on starting quest
+-Added quest for Mechanical Chicken
+-Added text to Steam Powered quest
+-Train Warning quest added
+
+// Config Changes //
+-More Steam Powered Bronze adjustments
+-Disabled Agricraft override
+
+// Recipe Changes //
+-Fixed Snad recipes
+-Added recipe for BOP Rose Quartz to Create Rose Quartz
+-Create Additions Wires craftable again
+-Removed Tinker's Construct recipes from Mixer
+-Removed Smeltery Andesite Alloy recipe
+-Removed Smeltery Treated Wood recipe
+-Removed Plate and Wire casts from Tinker's
+-Updated Mekanism Insulating Glass recipe
+
+// Script Changes //
+-Added Information to Andesite in JEI to indicate it drops Andesite Alloy
+
 || Release 1.7.0 ||
 
 So Long Silent's Update
@@ -50,10 +95,11 @@ So Long Silent's Update
 -All construction wands now unbreakable
 -Fixed Andesite Cobblestone
 -Removed Unbreakable from Aquaculture knives to fix Fillet recipes
+-Tinkers Unbreakable is now Tag dirt
 
 // Recipe Changes //
 -Added melting for Create Crushed Raw Ores in Smeltery
--Unified Andestie Alloy plate recipes
+-Unified Andesite Alloy plate recipes
 -Removed extra Industrial Iron recipes
 -Removed Create D&D Flywheel and Engine
 -Added recipe for Bronze in Alloy Kiln at a net loss
@@ -64,6 +110,7 @@ So Long Silent's Update
 -Removed Create Deco Nugget recipe
 -Cast Iron Steam Powered now uses Industrial Iron
 -Alternating Dynamo recipe tweaked
+-Adjusted Netherite recipes
 
 || Release 1.6.2 ||
 
