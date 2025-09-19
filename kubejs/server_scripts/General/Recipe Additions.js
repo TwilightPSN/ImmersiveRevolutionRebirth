@@ -1,5 +1,4 @@
 ServerEvents.recipes(IRRebirth => {
-
     IRRebirth.shaped(
         Item.of('minecraft:chest', 2), 
         [
@@ -233,6 +232,13 @@ ServerEvents.recipes(IRRebirth => {
         Item.of('mekanism:block_bronze'),
         [
           'create_dd:bronze_polished_block'
+        ]
+      )
+      IRRebirth.shapeless(
+        Item.of('snad:soul_snad'),
+        [
+          'minecraft:soul_sand',
+          'minecraft:soul_sand'
         ]
       )
 })

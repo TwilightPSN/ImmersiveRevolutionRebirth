@@ -13,4 +13,5 @@ ServerEvents.recipes(IRRebirth => {
     IRRebirth.recipes.create.deploying('kubejs:nether_mining_frame_bricks', ['minecraft:quartz_bricks', '#forge:plates/netherite'])
     IRRebirth.recipes.create.deploying('kubejs:void_frame_bricks', ['ae2:fluix_block', '#forge:plates/certus'])
     IRRebirth.recipes.create.deploying('create:railway_casing', ['create:brass_casing', 'create:sturdy_sheet'])
+    IRRebirth.recipes.create.deploying('create:rose_quartz', ['biomesoplenty:rose_quartz_block', '#create:sandpaper'])
 })

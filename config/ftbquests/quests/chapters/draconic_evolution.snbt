@@ -15,10 +15,7 @@
 	}]
 	quests: [
 		{
-			dependencies: [
-				"1D95E21C7984BD6C"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["1D95E21C7984BD6C"]
 			description: ["The Draconic Core is essential for starting off in Draconic Evolution. It allows us to progress towards the more powerful and complex machinery."]
 			id: "176DAA22E30BE295"
 			rewards: [{
@@ -37,10 +34,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: [
-				"176DAA22E30BE295"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["176DAA22E30BE295"]
 			description: ["Fusion crafting harnesses vast amounts of energy to combine powerful items into something even greater. The fusion process bonds the base item to the additional materials provided in the injectors, creating a new item."]
 			id: "09B837085449698E"
 			rewards: [{
@@ -66,10 +60,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: [
-				"09B837085449698E"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["09B837085449698E"]
 			description: ["Wyvern Injectors enhance the fusion crafting process, allowing you to craft more powerful equipment. These injectors are designed to handle the larger energy demands and more complex materials required for crafting."]
 			id: "40FE643670265A56"
 			rewards: [{
@@ -88,10 +79,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: [
-				"176DAA22E30BE295"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["176DAA22E30BE295"]
 			description: ["Draconic Energy Balls are among the most powerful energy storage options available. By constructing an Energy Core and surrounding it with stabilizers, you can begin creating the core, which will guide you through the process of upgrading to the desired tier."]
 			id: "6FBE8FF8FD16B3F7"
 			rewards: [{
@@ -118,10 +106,7 @@
 			y: 2.5d
 		}
 		{
-			dependencies: [
-				"176DAA22E30BE295"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["176DAA22E30BE295"]
 			description: ["The Crystal Binder is used for managing our energy relay network. You can configure relay crystals to direct energy exactly where you need it."]
 			id: "096F908BB59F7B92"
 			rewards: [{
@@ -139,10 +124,7 @@
 			y: 0.5d
 		}
 		{
-			dependencies: [
-				"096F908BB59F7B92"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["096F908BB59F7B92"]
 			description: ["Energy Crystals provide a wireless method of transferring power. By linking these crystals together, we can move energy across distances."]
 			id: "0EB6C7F9B1F1F04E"
 			rewards: [{
@@ -173,10 +155,7 @@
 			y: -0.5d
 		}
 		{
-			dependencies: [
-				"6FBE8FF8FD16B3F7"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["6FBE8FF8FD16B3F7"]
 			description: ["To transfer energy into the Draconic Energy Ball, the Energy Pylon is required. By placing a piece of glass on top of the pylon, it will become activated, allowing you to either send energy into the storage ball or pull energy out when needed."]
 			id: "359221B57F8ABD83"
 			rewards: [{
@@ -201,10 +180,7 @@
 			y: 3.5d
 		}
 		{
-			dependencies: [
-				"40FE643670265A56"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["40FE643670265A56"]
 			description: ["Draconic Capacitors act as a backup energy source for our armor, ensuring we always have the power we need when things go wrong. The capacitors will keep your armor charged up without having to run back to your base and replenish."]
 			id: "3411DC4EB6A436B3"
 			rewards: [{
@@ -258,10 +234,7 @@
 			y: 2.5d
 		}
 		{
-			dependencies: [
-				"40FE643670265A56"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["40FE643670265A56"]
 			description: ["Draconic chest pieces are a major upgrade to our standard armor, providing enhanced protection against a wide range of damage types. They can be worn alongside other armor pieces through curios."]
 			id: "5C4EEDE7CAC4A9D8"
 			rewards: [{
@@ -299,10 +272,7 @@
 			y: 0.5d
 		}
 		{
-			dependencies: [
-				"40FE643670265A56"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["40FE643670265A56"]
 			description: ["By upgrading our fusion crafting setup with Draonic injectors, we can craft even more powerful gear. These injectors utilize the draconic minerals' allowing us to create far better equipment."]
 			id: "2027EC662CB9A837"
 			rewards: [{
@@ -321,10 +291,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: [
-				"2027EC662CB9A837"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["2027EC662CB9A837"]
 			description: ["After defeating a Chaos Guardian, we gain access to th Chaos Crystal. This crystal allows us to upgrade to the Chaotic tier of injectors and equipment."]
 			id: "6D16B78F407C777E"
 			rewards: [{
@@ -343,10 +310,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: [
-				"1D95E21C7984BD6C"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["1D95E21C7984BD6C"]
 			description: ["The Chaos Dragons are an incredibly powerful and dangerous enemy. Before attempting to fight a Chaos Dragon, consider upgrading your armor, weapons, and other combat tools to their highest tiers. You'll also need plenty of resources and potions, to handle the chaos they bring. Prepare for a tough challenge, as the Chaos Dragons are not easily defeated."]
 			id: "41F9329503425EE2"
 			rewards: [{
@@ -366,10 +330,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: [
-				"6D16B78F407C777E"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["6D16B78F407C777E"]
 			description: ["The Draconic Reactor is one of the most potent power sources available. When managed properly, it can produce massive amounts of energy to power even the most advanced machines. However, if its stability is not maintained, it can explode, destroying everything around it."]
 			id: "0887E7A792E2F3A5"
 			rewards: [{
@@ -406,10 +367,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: [
-				"2027EC662CB9A837"
-				"3C7B05B372C82B36"
-			]
+			dependencies: ["2027EC662CB9A837"]
 			description: ["With our new injectors, we can now craft the Staff of Power. This staff can be upgraded with a variety of powers, allowing us to customize it for different tasks and challenges."]
 			id: "4088D1A0AF9A7553"
 			rewards: [{

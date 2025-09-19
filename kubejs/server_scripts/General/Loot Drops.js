@@ -145,11 +145,11 @@ LootJS.modifiers((IRRebirth) => {
         .replaceLoot("minecraft:andesite", "kubejs:cobbled_andesite");
     IRRebirth
         .addBlockLootModifier("minecraft:andesite")
-        
+        .randomChanceWithEnchantment("minecraft:silk_touch", [0, 1])        
         .removeLoot("kubejs:cobbled_andesite");
     IRRebirth
         .addBlockLootModifier("minecraft:andesite")
-        
+        .randomChanceWithEnchantment("minecraft:silk_touch", [0, 1])        
         .addLoot("minecraft:andesite")
     IRRebirth.addBlockLootModifier("minecraft:sculk").addLoot("minecraft:sculk");
     IRRebirth.addEntityLootModifier("minecraft:warden").addLoot(LootEntry.of("minecraft:echo_shard", 4));

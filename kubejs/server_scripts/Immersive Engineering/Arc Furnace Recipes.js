@@ -1,6 +1,6 @@
 ServerEvents.recipes(IRRebirth => {
     IRRebirth.recipes.immersiveengineeringArcFurnace([Item.of('ae2:quartz_glass', 2)], '4x #c:glass_blocks', [Item.of('ae2:certus_quartz_dust', 5)])
-    IRRebirth.recipes.immersiveengineeringArcFurnace([Item.of('minecraft:netherite_ingot', 1)], '4x #forge:ingots/netherite_scrap', ['4x #forge:ingots/gold'])
+    IRRebirth.recipes.immersiveengineeringArcFurnace([Item.of('minecraft:netherite_ingot', 2)], '3x #forge:ingots/netherite_scrap', ['3x #forge:ingots/gold'])
     IRRebirth.custom({
         "type":"immersiveengineering:arc_furnace",
         "additives":[],

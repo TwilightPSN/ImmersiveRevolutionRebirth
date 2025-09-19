@@ -3,7 +3,7 @@ LootJS.modifiers((IRRebirth) => {
     .addLootTypeModifier(LootType.CHEST)
     .removeLoot(["draconicevolution:draconium_ingot",
       "draconicevolution:draconium_dust",
-    "/silentgear:.*/",
+    'tconstruct:pickaxe',
       'tconstruct:pickadze',
       'tconstruct:mattock',
       'tconstruct:hand_axe',
@@ -31,13 +31,14 @@ LootJS.modifiers((IRRebirth) => {
       'tconstruct:plate_chestplate',
       'tconstruct:plate_leggings',
       'tconstruct:plate_boots',
-      'tconstruct:plate_shield'
+      'tconstruct:plate_shield',
+      "/silentgear:.*/"
     ]);
   IRRebirth
     .addLootTypeModifier(LootType.ENTITY)
     .removeLoot(["draconicevolution:draconium_ingot",
     "draconicevolution:draconium_dust",
-    "/silentgear:.*/",
+    'tconstruct:pickaxe',
       'tconstruct:pickadze',
       'tconstruct:mattock',
       'tconstruct:hand_axe',
@@ -65,13 +66,14 @@ LootJS.modifiers((IRRebirth) => {
       'tconstruct:plate_chestplate',
       'tconstruct:plate_leggings',
       'tconstruct:plate_boots',
-      'tconstruct:plate_shield'
+      'tconstruct:plate_shield',
+      "/silentgear:.*/"
   ]);
   IRRebirth
     .addLootTypeModifier(LootType.UNKNOWN)
     .removeLoot(["draconicevolution:draconium_ingot",
     "draconicevolution:draconium_dust",
-    "/silentgear:.*/",
+    'tconstruct:pickaxe',
       'tconstruct:pickadze',
       'tconstruct:mattock',
       'tconstruct:hand_axe',
@@ -99,13 +101,14 @@ LootJS.modifiers((IRRebirth) => {
       'tconstruct:plate_chestplate',
       'tconstruct:plate_leggings',
       'tconstruct:plate_boots',
-      'tconstruct:plate_shield'
+      'tconstruct:plate_shield',
+      "/silentgear:.*/"
   ]);
   IRRebirth
     .addLootTypeModifier(LootType.BLOCK)
     .removeLoot(["draconicevolution:draconium_ingot",
     "draconicevolution:draconium_dust",
-    "/silentgear:.*/",
+    'tconstruct:pickaxe',
       'tconstruct:pickadze',
       'tconstruct:mattock',
       'tconstruct:hand_axe',
@@ -133,13 +136,14 @@ LootJS.modifiers((IRRebirth) => {
       'tconstruct:plate_chestplate',
       'tconstruct:plate_leggings',
       'tconstruct:plate_boots',
-      'tconstruct:plate_shield'
+      'tconstruct:plate_shield',
+      "/silentgear:.*/"
   ]);
   IRRebirth
     .addLootTypeModifier(LootType.FISHING)
     .removeLoot(["draconicevolution:draconium_ingot",
     "draconicevolution:draconium_dust",
-    "/silentgear:.*/",
+    'tconstruct:pickaxe',
       'tconstruct:pickadze',
       'tconstruct:mattock',
       'tconstruct:hand_axe',
@@ -167,13 +171,14 @@ LootJS.modifiers((IRRebirth) => {
       'tconstruct:plate_chestplate',
       'tconstruct:plate_leggings',
       'tconstruct:plate_boots',
-      'tconstruct:plate_shield'
+      'tconstruct:plate_shield',
+      "/silentgear:.*/"
   ]);
   IRRebirth
     .addLootTypeModifier(LootType.GIFT)
     .removeLoot(["draconicevolution:draconium_ingot",
     "draconicevolution:draconium_dust",
-    "/silentgear:.*/",
+    'tconstruct:pickaxe',
       'tconstruct:pickadze',
       'tconstruct:mattock',
       'tconstruct:hand_axe',
@@ -201,7 +206,8 @@ LootJS.modifiers((IRRebirth) => {
       'tconstruct:plate_chestplate',
       'tconstruct:plate_leggings',
       'tconstruct:plate_boots',
-      'tconstruct:plate_shield'
+      'tconstruct:plate_shield',
+      "/silentgear:.*/"
   ]);
 
 });

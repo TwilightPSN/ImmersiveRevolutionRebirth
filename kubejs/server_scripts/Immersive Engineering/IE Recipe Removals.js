@@ -41,4 +41,5 @@ ServerEvents.recipes(IRRebirth => {
     IRRebirth.remove({ id: 'immersiveengineering:crafting/component_iron'})
     IRRebirth.remove({ id: 'immersiveengineering:crafting/component_steel'})
     IRRebirth.remove({ id: 'immersiveengineering:crafting/paper_from_sawdust'})
+    IRRebirth.remove({id: 'tconstruct:compat/treated_wood'})
 })

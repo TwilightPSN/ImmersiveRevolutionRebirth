@@ -4,14 +4,138 @@ MODS TO REMOVE FROM SERVER PACKS
 -Clear Water
 -BadOptimizations
 
-|| Release 1.6.0 ||
+|| Release 1.7.1 ||
+
+// Mods Added //
+-Create and Custom Portals API Reforged Compat
+-Create: Dynamic Village
+-Create Mechanical Chicken
+
+// Mods Removed //
+-Create: Enchantable Machinery
+
+// Mods Updated //
+-Every Compat
+-ExtendedAE
+-Just Enough Breeding
+-Moonlight Library
+-Sophisticated Backpacks
+-Sophisticated Core
+-Sophisticated Storage
+-Stellar View
+-Supplementaries
+
+// Quest Changes //
+-Added quest for Pam's Equipment
+-Updated text on starting quest
+-Added quest for Mechanical Chicken
+-Added text to Steam Powered quest
+-Train Warning quest added
+
+// Config Changes //
+-More Steam Powered Bronze adjustments
+-Disabled Agricraft override
+
+// Recipe Changes //
+-Fixed Snad recipes
+-Added recipe for BOP Rose Quartz to Create Rose Quartz
+-Create Additions Wires craftable again
+-Removed Tinker's Construct recipes from Mixer
+-Removed Smeltery Andesite Alloy recipe
+-Removed Smeltery Treated Wood recipe
+-Removed Plate and Wire casts from Tinker's
+-Updated Mekanism Insulating Glass recipe
+
+// Script Changes //
+-Added Information to Andesite in JEI to indicate it drops Andesite Alloy
+
+|| Release 1.7.0 ||
+
+So Long Silent's Update
+
+// Mods Removed //
+-Silent Compat
+-Silent Gear
+-Silent Lib
+-Create: Liquid Fuel
+
+// Mods Added //
+-Fast Leaf Decay
+
+// Mods Updated //
+-Balm
+-ImmediatelyFast
+-Just Enough Breeding
+-Moonlight Library
+-Sophisticated Backpacks
+-Sophisticated Core
+-Sophisticated Storage
+-Stone Zone
+-YUNG's Better Caves
+
+// Quest Changes //
+-Modified Tinker's Quests
+-Added quest for Straw for Blaze Burners
+-Updated Alternator quest to Steam Powered
+-Backpack quest updated to accept any
+-Changed link for Create Saw quest
+
+// Config Changes //
+-Increased Item Vault stack limit to 54 (Need to reset Server/World configs for this)
+-Adjusted values on Steam Powered machines
+-Enabled the Create crafting recipes (Need to reset Server/World configs)
+-Disabled Enderman Overhaul picking up blocks
+-Added Mega Torch blacklists for Enderman Overhaul
+-Disabled Hoe planting for Utilitarian (Need to reset Server/World configs)
+
+// Script Changes //
+-Annihilation planes no longer break growing buds
+-Removed Life-Mending Enchant
+-Adjusted Tinker's Unbreakable to be 1 dirt and not take a modifier slot
+-All construction wands now unbreakable
+-Fixed Andesite Cobblestone
+-Removed Unbreakable from Aquaculture knives to fix Fillet recipes
+-Tinkers Unbreakable is now Tag dirt
+
+// Recipe Changes //
+-Added melting for Create Crushed Raw Ores in Smeltery
+-Unified Andesite Alloy plate recipes
+-Removed extra Industrial Iron recipes
+-Removed Create D&D Flywheel and Engine
+-Added recipe for Bronze in Alloy Kiln at a net loss
+-Removed Create Additions Alternator
+-Tin able to be blasted and smelted
+-Removed Emptying Sap recipes
+-Adjusted Crystallized Sap recipes
+-Removed Create Deco Nugget recipe
+-Cast Iron Steam Powered now uses Industrial Iron
+-Alternating Dynamo recipe tweaked
+-Adjusted Netherite recipes
+
+|| Release 1.6.2 ||
+
+LAST UPDATE WITH SILENT GEAR!!
+
+// Config Updates //
+-Reset JEI configs to fixing missing tabs
+
+// Quest Updates //
+-Intro Quest updated to detail unbreakable info
+-Tinker's Quest added to detail more items
+-Updated Nether Quest to not be Silent rewards
+
+// Script Updates //
+-Removed Tinker's script changes
+-Generated Data Pack to change Unbreakable Recipe for Tinker's
+-Added Tinker's Pickaxe to scripts it was missing in
+
+|| Release 1.6.1 ||
 
 The Tinker's Update & Optimizations
 
 // Mods Removed //
 -Alex's Mobs
 -Nyf's Spiders
--Terralith (Prevented Superflat Worlds)
 -Crafting Station
 -Underground Bunkers
 -When Dungeons Arise
@@ -37,7 +161,6 @@ The Tinker's Update & Optimizations
 -Mod Name Tooltip
 -Agricraft Create Compatibility
 -FancyMenu
--Global Packs
 -Create Steam Powered (Modrinth)
 
 // Mods Updated //
@@ -58,13 +181,11 @@ The Tinker's Update & Optimizations
 -More Overlays Updated
 -Not Enough Animations
 
-// Resource Packs Added //
--Terratonic Datapack
-
 // Quest Updates //
 -Updated Silent Gear quest to Tinker's
 -Added Update News quest that needs to be accepted to access other quests
 -Added quest for Sawmill from IE
+-Added Steam Powered quest
 
 // Recipe Changes //
 -Removed all Silent Gear recipes (Changing to Tinker's)
@@ -90,6 +211,7 @@ The Tinker's Update & Optimizations
 -Chaos Islands are now every 5k (from 10k)
 -Custom Main Menu setup for now
 -Added Schematic for Sawmill
+-Fixed Agricraft Resource Packs not loading
 
 || Release 1.5.2 ||
 

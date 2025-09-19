@@ -24,13 +24,13 @@
 	allowBrewingInMixer = false
 	#.
 	#Allow any shapeless crafting recipes to be processed by a Mechanical Mixer + Basin.
-	allowShapelessInMixer = false
+	allowShapelessInMixer = true
 	#.
 	#Allow any single-ingredient 2x2 or 3x3 crafting recipes to be processed by a Mechanical Press + Basin.
-	allowShapedSquareInPress = false
+	allowShapedSquareInPress = true
 	#.
 	#Allow any standard crafting recipes to be processed by Mechanical Crafters.
-	allowRegularCraftingInCrafter = false
+	allowRegularCraftingInCrafter = true
 	#.
 	#The Maximum amount of ingredients that can be used to craft Firework Rockets using Mechanical Crafters.
 	#Range: > 1
@@ -377,7 +377,7 @@
 	#.
 	#The total amount of stacks a vault can hold per block in size.
 	#Range: > 1
-	vaultCapacity = 20
+	vaultCapacity = 54
 	#.
 	#The amount of ticks a brass tunnel waits between distributions.
 	#Range: 1 ~ 10

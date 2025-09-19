@@ -25,4 +25,5 @@ ServerEvents.recipes(IRRebirth => {
   IRRebirth.replaceInput({ input: 'createdeco:zinc_sheet' },'createdeco:zinc_sheet','#forge:plates/zinc')
   IRRebirth.replaceInput({ input: 'createaddition:zinc_sheet' },'createaddition:zinc_sheet','#forge:plates/zinc')
   IRRebirth.replaceInput({ output: 'storagenetwork:import_filter_kabel'}, 'minecraft:barrel', 'create:smart_chute')
+  IRRebirth.replaceOutput({output: 'agricraft:coal_pebble'}, 'agricraft:coal_pebble', 'pickletweaks:coal_piece')
 })

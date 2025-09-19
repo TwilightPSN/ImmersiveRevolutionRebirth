@@ -59,6 +59,9 @@
     "dim_block_base": true,
     "dim_tank": true
   },
+  "create_mechanical_chicken": {
+    "data": true
+  },
   "jadeaddons.create": {
     "filter": true,
     "backtank_capacity": true,

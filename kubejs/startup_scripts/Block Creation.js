@@ -61,6 +61,7 @@ StartupEvents.registry('block', IRRebirth => {
     .hardness('10.0')
     .requiresTool(true)
   IRRebirth.create('cobbled_andesite')
+    .displayName('Andesite Cobblestone')
     .soundType('stone')
     .tagBlock('minecraft:mineable/pickaxe')
     .tagBlock('forge:mineable/paxel')
