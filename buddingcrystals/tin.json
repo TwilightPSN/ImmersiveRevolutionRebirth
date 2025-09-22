@@ -1,8 +1,8 @@
 {
     "translation": "Tin",
-    "texture":  "mekanism:block/block_tin",
+    "texture":  "mekanism:item/ingot_tin",
     "growth_chance": 5,
-    "dropped_item": "mekanism:ingot_tin",
+    "dropped_item": "kubejs:tin_budding_shard",
     "normal_drop_chance": 2,
     "max_drop_chance": 6
 }

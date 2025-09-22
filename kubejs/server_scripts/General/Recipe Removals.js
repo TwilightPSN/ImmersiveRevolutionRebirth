@@ -105,4 +105,10 @@ ServerEvents.recipes(IRRebirth => {
     IRRebirth.remove({id: 'tconstruct:smeltery/casts/sand/builder_block/wires'})
     IRRebirth.remove({id: 'tconstruct:smeltery/casts/sand/builder_cast/wires'})
     IRRebirth.remove({id: 'tconstruct:smeltery/casts/gold/wires'})
+    IRRebirth.remove({output: ['alexsmobs:blood_sprayer',
+        'alexsmobs:centipede_leggings',
+        'alexsmobs:hemolymph_blaster',
+        'alexsmobs:tarantula_hawk_elytra',
+        'alexsmobs:shattered_dimensional_carver',
+        'alexsmobs:tendon_whip']})
 })

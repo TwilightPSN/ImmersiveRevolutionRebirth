@@ -1,8 +1,8 @@
 {
     "translation": "Electrum",
-    "texture": "minecraft:block/yellow_glazed_terracotta",
+    "texture": "minecraft:block/yellow_terracotta",
     "growth_chance": 5,
-    "dropped_item": "immersiveengineering:ingot_electrum",
+    "dropped_item": "kubejs:electrum_budding_shard",
     "normal_drop_chance": 2,
     "max_drop_chance": 6
 }

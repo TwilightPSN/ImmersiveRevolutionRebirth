@@ -1,8 +1,8 @@
 {
     "translation": "Spirited Crystal",
-    "texture": "powah:block/spirited_crystal_block",
+    "texture": "powah:item/crystal_spirited",
     "growth_chance": 5,
-    "dropped_item": "powah:crystal_spirited",
+    "dropped_item": "kubejs:spirited_crystal_budding_shard",
     "normal_drop_chance": 2,
     "max_drop_chance": 6
 }

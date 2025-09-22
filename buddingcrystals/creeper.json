@@ -1,8 +1,8 @@
 {
     "translation": "Creeper",
-    "texture": "minecraft:block/gray_glazed_terracotta",
+    "texture": "biomeswevegone:block/green_mushroom_block",
     "growth_chance": 15,
-    "dropped_item": "minecraft:gunpowder",
+    "dropped_item": "kubejs:creeper_budding_shard",
     "normal_drop_chance": 4,
     "max_drop_chance": 6
 }

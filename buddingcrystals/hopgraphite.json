@@ -2,7 +2,7 @@
     "translation": "HOP Graphite",
     "texture":  "minecraft:block/polished_blackstone",
     "growth_chance": 5,
-    "dropped_item": "immersiveengineering:ingot_hop_graphite",
+    "dropped_item": "kubejs:hop_graphite_budding_shard",
     "normal_drop_chance": 2,
     "max_drop_chance": 6
 }

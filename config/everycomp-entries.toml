@@ -150,6 +150,9 @@
 			bloodshroom = true
 			enderbark = true
 
+		[types.wood_type.cataclysm]
+			chorus = true
+
 	[types.leaves_type]
 
 		[types.leaves_type.chipped]

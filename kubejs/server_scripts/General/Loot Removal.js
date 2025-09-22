@@ -3,7 +3,7 @@ LootJS.modifiers((IRRebirth) => {
     .addLootTypeModifier(LootType.CHEST)
     .removeLoot(["draconicevolution:draconium_ingot",
       "draconicevolution:draconium_dust",
-    'tconstruct:pickaxe',
+      'tconstruct:pickaxe',
       'tconstruct:pickadze',
       'tconstruct:mattock',
       'tconstruct:hand_axe',
@@ -32,7 +32,7 @@ LootJS.modifiers((IRRebirth) => {
       'tconstruct:plate_leggings',
       'tconstruct:plate_boots',
       'tconstruct:plate_shield',
-      "/silentgear:.*/"
+      '/alexsmobs:.*/'
     ]);
   IRRebirth
     .addLootTypeModifier(LootType.ENTITY)
@@ -67,7 +67,7 @@ LootJS.modifiers((IRRebirth) => {
       'tconstruct:plate_leggings',
       'tconstruct:plate_boots',
       'tconstruct:plate_shield',
-      "/silentgear:.*/"
+      'alexsmobs:elastic_tendon'
   ]);
   IRRebirth
     .addLootTypeModifier(LootType.UNKNOWN)
@@ -102,7 +102,7 @@ LootJS.modifiers((IRRebirth) => {
       'tconstruct:plate_leggings',
       'tconstruct:plate_boots',
       'tconstruct:plate_shield',
-      "/silentgear:.*/"
+      'alexsmobs:elastic_tendon'
   ]);
   IRRebirth
     .addLootTypeModifier(LootType.BLOCK)
@@ -137,7 +137,7 @@ LootJS.modifiers((IRRebirth) => {
       'tconstruct:plate_leggings',
       'tconstruct:plate_boots',
       'tconstruct:plate_shield',
-      "/silentgear:.*/"
+      'alexsmobs:elastic_tendon'
   ]);
   IRRebirth
     .addLootTypeModifier(LootType.FISHING)
@@ -172,7 +172,7 @@ LootJS.modifiers((IRRebirth) => {
       'tconstruct:plate_leggings',
       'tconstruct:plate_boots',
       'tconstruct:plate_shield',
-      "/silentgear:.*/"
+      'alexsmobs:elastic_tendon'
   ]);
   IRRebirth
     .addLootTypeModifier(LootType.GIFT)
@@ -207,7 +207,7 @@ LootJS.modifiers((IRRebirth) => {
       'tconstruct:plate_leggings',
       'tconstruct:plate_boots',
       'tconstruct:plate_shield',
-      "/silentgear:.*/"
+      'alexsmobs:elastic_tendon'
   ]);
 
 });

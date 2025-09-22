@@ -1,8 +1,0 @@
-{
-    "translation": "Prismarine",
-    "texture": "minecraft:item/prismarine_shard",
-    "growth_chance": 5,
-    "dropped_item": "minecraft:prismarine_crystals",
-    "normal_drop_chance": 2,
-    "max_drop_chance": 4
-} 

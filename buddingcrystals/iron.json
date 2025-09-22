@@ -1,8 +1,8 @@
 {
     "translation": "Iron",
-    "texture": "minecraft:block/iron_block",
+    "texture": "minecraft:item/iron_ingot",
     "growth_chance": 5,
-    "dropped_item": "minecraft:iron_ingot",
+    "dropped_item": "kubejs:iron_budding_shard",
     "normal_drop_chance": 2,
     "max_drop_chance": 6
 }

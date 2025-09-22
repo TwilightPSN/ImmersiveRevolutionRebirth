@@ -1,8 +1,8 @@
 {
     "translation": "Aluminum",
-    "texture": "minecraft:block/calcite",
+    "texture": "beo:item/aluminum_ingot",
     "growth_chance": 5,
-    "dropped_item": "immersiveengineering:ingot_aluminum",
+    "dropped_item": "kubejs:aluminum_budding_shard",
     "normal_drop_chance": 2,
     "max_drop_chance": 6
 }

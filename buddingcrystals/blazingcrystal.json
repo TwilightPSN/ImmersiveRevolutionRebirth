@@ -1,8 +1,8 @@
 {
     "translation": "Blazing Crystal",
-    "texture": "powah:block/blazing_crystal_block",
+    "texture": "powah:item/crystal_blazing",
     "growth_chance": 5,
-    "dropped_item": "powah:crystal_blazing",
+    "dropped_item": "kubejs:blazing_crystal_budding_shard",
     "normal_drop_chance": 2,
     "max_drop_chance": 6
 }

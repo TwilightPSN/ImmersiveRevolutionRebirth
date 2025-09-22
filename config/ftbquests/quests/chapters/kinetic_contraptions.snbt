@@ -23,8 +23,8 @@
 		{
 			id: "24F57DC3FC7B0F7A"
 			linked_quest: "63255A7E3A19332A"
-			x: 3.0d
-			y: -1.0d
+			x: 2.0d
+			y: -1.5d
 		}
 	]
 	quests: [
@@ -630,7 +630,7 @@
 			rewards: [{
 				count: 2
 				id: "4FA07ABA48CBD4B6"
-				item: "minecraft:ancient_debris"
+				item: "kubejs:raw_netherite_block"
 				type: "item"
 			}]
 			tasks: [{

@@ -1,8 +1,0 @@
-{
-    "translation": "Coal Coke",
-    "texture": "ae2:block/sky_stone_block",
-    "growth_chance": 5,
-    "dropped_item": "immersiveengineering:coal_coke",
-    "normal_drop_chance": 2,
-    "max_drop_chance": 6
-}

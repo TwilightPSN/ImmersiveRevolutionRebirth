@@ -1,8 +1,8 @@
 {
     "translation": "Bee",
-    "texture": "minecraft:block/honeycomb_block",
+    "texture": "minecraft:item/honeycomb",
     "growth_chance": 15,
-    "dropped_item": "minecraft:honeycomb",
+    "dropped_item": "kubejs:bee_budding_shard",
     "normal_drop_chance": 4,
     "max_drop_chance": 6
 }

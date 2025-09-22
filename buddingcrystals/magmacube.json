@@ -1,8 +1,8 @@
 {
     "translation": "Magma Cube",
-    "texture": "minecraft:block/orange_concrete",
+    "texture": "minecraft:item/magma_cream",
     "growth_chance": 15,
-    "dropped_item": "minecraft:magma_cream",
+    "dropped_item": "kubejs:magma_cube_budding_shard",
     "normal_drop_chance": 4,
     "max_drop_chance": 6
 }

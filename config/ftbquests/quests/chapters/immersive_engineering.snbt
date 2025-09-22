@@ -486,7 +486,7 @@
 				type: "observation"
 			}]
 			title: "Can it Crush"
-			x: 1.5d
+			x: 1.0d
 			y: -1.0d
 		}
 		{
@@ -512,7 +512,7 @@
 				type: "observation"
 			}]
 			title: "Power Arc"
-			x: 1.0d
+			x: 0.5d
 			y: -2.0d
 		}
 		{
@@ -556,7 +556,7 @@
 		}
 		{
 			dependencies: ["5ECDD562A5C902F6"]
-			description: ["With Biodiesel in production, we can make a Diesel generator to start generating much more power than before. This is one of our first major steps into large scale power protection."]
+			description: ["With Biodiesel in production, we can make a Diesel generator to start generating much more power than before. This is one of our first major steps into large scale power production."]
 			id: "29E99CB108C9DD1E"
 			optional: true
 			rewards: [{
@@ -812,7 +812,7 @@
 			}]
 			title: "Early Electrodes"
 			x: 0.0d
-			y: 0.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["47EA72930E8B263C"]

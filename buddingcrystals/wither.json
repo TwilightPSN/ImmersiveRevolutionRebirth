@@ -1,8 +1,8 @@
 {
     "translation": "Wither",
-    "texture": "extendedcrafting:block/nether_star_block",
+    "texture": "minecraft:item/nether_star",
     "growth_chance": 15,
-    "dropped_item": "silentgear:nether_star_fragment",
+    "dropped_item": "kubejs:wither_budding_shard",
     "normal_drop_chance": 2,
     "max_drop_chance": 4
 }

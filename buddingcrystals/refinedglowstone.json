@@ -1,8 +1,8 @@
 {
     "translation": "Refined Glowstone",
-    "texture": "mekanism:block/block_refined_glowstone",
+    "texture": "mekanism:item/ingot_refined_glowstone",
     "growth_chance": 5,
-    "dropped_item": "mekanism:ingot_refined_glowstone",
+    "dropped_item": "kubejs:refined_glowstone_budding_shard",
     "normal_drop_chance": 1,
     "max_drop_chance": 3
 }

@@ -209,44 +209,6 @@
 		}
 		{
 			dependencies: ["24DB690822140D7E"]
-			description: ["With Sophisticated Storage, we can also pipe in and out of the network using a Storage Controller. This simple block can link to chests in range to allow access to them using one central access point. This is a great starting point for advancing our storage."]
-			id: "631AFA5E8CC2810D"
-			require_sequential_tasks: false
-			rewards: [{
-				id: "2F68836C74ED62E8"
-				item: "sophisticatedstorage:basic_to_netherite_tier_upgrade"
-				type: "item"
-			}]
-			tasks: [{
-				id: "5B36FBB98E86D79A"
-				item: "sophisticatedstorage:controller"
-				type: "item"
-			}]
-			title: "Linking Storage"
-			x: -4.0d
-			y: -5.5d
-		}
-		{
-			dependencies: ["631AFA5E8CC2810D"]
-			description: ["In order to link storages to the Storage Controller, we need the Storage Tool. This will allow you to tell the controller which chests to connect to."]
-			id: "367827D38EAE8781"
-			require_sequential_tasks: false
-			rewards: [{
-				id: "5C33B62B90385952"
-				item: "minecraft:iron_block"
-				type: "item"
-			}]
-			tasks: [{
-				id: "0F3C56ADDC7DAA40"
-				item: "sophisticatedstorage:storage_tool"
-				type: "item"
-			}]
-			title: "THE Tool"
-			x: -5.0d
-			y: -5.5d
-		}
-		{
-			dependencies: ["24DB690822140D7E"]
 			description: ["Sophisticated Storage chests can be upgraded with the materials we gather. This increases the internal size of the chests allowing a single chest to eventually hold more than double its size."]
 			id: "4717B8DD6ABFFB74"
 			require_sequential_tasks: false
@@ -377,7 +339,7 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["631AFA5E8CC2810D"]
+			dependencies: ["24DB690822140D7E"]
 			description: ["Having to sift through the many chests we have can be tedious. This is where simple storage comes in. We can link the system to our Storage Controller or any other item and see all the inventories in one place."]
 			id: "232B6B3758CD612E"
 			rewards: [{
@@ -404,33 +366,7 @@
 				}
 			]
 			title: "It's Simple"
-			x: -3.0d
-			y: -5.5d
-		}
-		{
-			dependencies: ["232B6B3758CD612E"]
-			description: ["With a Simple Storage Network up and running, we can also import and export items directly into the network. This will place the items in the first available slot it finds."]
-			id: "44FB0F9E709186CA"
-			rewards: [{
-				count: 5
-				id: "140D0C82D8CC9201"
-				item: "storagenetwork:kabel"
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "2EE378018CB32CBE"
-					item: "storagenetwork:import_kabel"
-					type: "item"
-				}
-				{
-					id: "5DB8821BA20C1630"
-					item: "storagenetwork:export_kabel"
-					type: "item"
-				}
-			]
-			title: "Early Moving"
-			x: -2.0d
+			x: -4.0d
 			y: -5.5d
 		}
 		{

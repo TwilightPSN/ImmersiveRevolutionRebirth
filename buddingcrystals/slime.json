@@ -1,8 +1,8 @@
 {
     "translation": "Slime",
-    "texture": "minecraft:block/slime_block",
+    "texture": "minecraft:item/slime_ball",
     "growth_chance": 15,
-    "dropped_item": "minecraft:slime_ball",
+    "dropped_item": "kubejs:slime_budding_shard",
     "normal_drop_chance": 4,
     "max_drop_chance": 6
 }

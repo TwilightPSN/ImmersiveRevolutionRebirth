@@ -124,11 +124,10 @@ LootJS.modifiers((IRRebirth) => {
     IRRebirth.addBlockLootModifier("buddingcrystals:budding_constantan").randomChanceWithEnchantment("minecraft:silk_touch", [0, 1]).addLoot("buddingcrystals:budding_constantan");
     IRRebirth.addBlockLootModifier("buddingcrystals:budding_lead").randomChanceWithEnchantment("minecraft:silk_touch", [0, 1]).addLoot("buddingcrystals:budding_lead");
     IRRebirth.addBlockLootModifier("buddingcrystals:budding_uraninite").randomChanceWithEnchantment("minecraft:silk_touch", [0, 1]).addLoot("buddingcrystals:budding_uraninite");
-    IRRebirth.addBlockLootModifier("buddingcrystals:prismarine_cluster").removeLoot("minecraft:prismarine");
-    IRRebirth.addBlockLootModifier("buddingcrystals:prismarine_cluster").addLoot(LootEntry.of("minecraft:prismarine_crystals", 4));
     IRRebirth
         .addBlockLootModifier("minecraft:andesite")
         .randomChance(0.01) 
+        .randomChanceWithEnchantment("minecraft:silk_touch", [1, 0])
         .addLoot("create:andesite_alloy")
     IRRebirth
         .addBlockLootModifier("minecraft:andesite")
@@ -166,4 +165,4 @@ LootJS.modifiers((IRRebirth) => {
         .addEntityLootModifier("deeperdarker:sculk_centipede")
         .randomChance(0.05)
         .addLoot(LootEntry.of("minecraft:echo_shard", 1));
-    });
+});

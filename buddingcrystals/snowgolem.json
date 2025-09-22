@@ -1,8 +1,8 @@
 {
     "translation": "Snow Golem",
-    "texture": "minecraft:block/white_concrete",
+    "texture": "minecraft:block/carved_pumpkin",
     "growth_chance": 15,
-    "dropped_item": "minecraft:snowball",
+    "dropped_item": "kubejs:snow_golem_budding_shard",
     "normal_drop_chance": 4,
     "max_drop_chance": 6
 }

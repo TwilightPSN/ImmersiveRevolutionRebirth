@@ -1,8 +1,8 @@
 {
     "translation": "Nickel",
-    "texture": "minecraft:block/weathered_copper",
+    "texture": "beo:item/nickel_ingot",
     "growth_chance": 5,
-    "dropped_item": "immersiveengineering:ingot_nickel",
+    "dropped_item": "kubejs:nickel_budding_shard",
     "normal_drop_chance": 2,
     "max_drop_chance": 6
 }

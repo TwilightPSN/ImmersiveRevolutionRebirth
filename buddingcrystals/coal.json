@@ -1,8 +1,8 @@
 {
     "translation": "Coal",
-    "texture": "minecraft:block/coal_block",
+    "texture": "minecraft:item/coal",
     "growth_chance": 5,
-    "dropped_item": "minecraft:coal",
+    "dropped_item": "kubejs:coal_budding_shard",
     "normal_drop_chance": 2,
     "max_drop_chance": 6
 }

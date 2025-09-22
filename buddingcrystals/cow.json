@@ -1,8 +1,8 @@
 {
     "translation": "Cow",
-    "texture": "extendedcrafting:block/enhanced_redstone_ingot_block",
+    "texture": "minecraft:item/leather",
     "growth_chance": 15,
-    "dropped_item": "minecraft:leather",
+    "dropped_item": "kubejs:cow_budding_shard",
     "normal_drop_chance": 4,
     "max_drop_chance": 6
 }

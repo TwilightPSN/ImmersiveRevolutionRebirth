@@ -2,7 +2,7 @@
     "translation": "Uraninite",
     "texture": "powah:block/uraninite_block",
     "growth_chance": 5,
-    "dropped_item": "powah:uraninite",
+    "dropped_item": "kubejs:uraninite_budding_shard",
     "normal_drop_chance": 2,
     "max_drop_chance": 6
 }
