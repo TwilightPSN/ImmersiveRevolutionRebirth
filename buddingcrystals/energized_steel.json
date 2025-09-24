@@ -1,0 +1,8 @@
+{
+    "translation": "Energized Steel",
+    "texture": "powah:item/steel_energized",
+    "growth_chance": 5,
+    "dropped_item": "kubejs:energized_steel_budding_shard",
+    "normal_drop_chance": 2,
+    "max_drop_chance": 6
+}

@@ -1,0 +1,1 @@
+{"type":"immersiveengineering:sawmill","energy":1600,"input":{"item":"biomesoplenty:hellbark_log"},"result":{"count":6,"item":"biomesoplenty:hellbark_planks"},"secondaries":[{"output":{"tag":"forge:dusts/wood"},"stripping":true},{"output":{"tag":"forge:dusts/wood"},"stripping":false}],"stripped":{"item":"biomesoplenty:stripped_hellbark_log"}}

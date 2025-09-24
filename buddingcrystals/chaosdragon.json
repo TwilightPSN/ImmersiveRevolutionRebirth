@@ -1,8 +1,0 @@
-{
-    "translation": "Chaos Dragon",
-    "texture": "draconicevolution:block/creative_op_capacitor",
-    "growth_chance": 5,
-    "dropped_item": "draconicevolution:small_chaos_frag",
-    "normal_drop_chance": 2,
-    "max_drop_chance": 6
-}

@@ -1,0 +1,1 @@
+{"type":"immersiveengineering:sawmill","energy":1600,"input":{"item":"regions_unexplored:brimwood_log"},"result":{"count":6,"item":"regions_unexplored:brimwood_planks"},"secondaries":[{"output":{"tag":"forge:dusts/wood"},"stripping":true},{"output":{"tag":"forge:dusts/wood"},"stripping":false}],"stripped":{"item":"regions_unexplored:stripped_brimwood_log"}}

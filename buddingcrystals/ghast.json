@@ -1,8 +1,8 @@
 {
     "translation": "Ghast",
-    "texture": "biomeswevegone:block/white_sandstone",
+    "texture": "minecraft:item/ghast_tear",
     "growth_chance": 15,
-    "dropped_item": "minecraft:ghast_tear",
+    "dropped_item": "kubejs:ghast_budding_shard",
     "normal_drop_chance": 4,
     "max_drop_chance": 6
 }

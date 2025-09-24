@@ -1,8 +1,0 @@
-{
-    "translation": "Refined Obsidian",
-    "texture": "mekanism:block/block_refined_obsidian",
-    "growth_chance": 5,
-    "dropped_item": "mekanism:ingot_refined_obsidian",
-    "normal_drop_chance": 1,
-    "max_drop_chance": 3
-}

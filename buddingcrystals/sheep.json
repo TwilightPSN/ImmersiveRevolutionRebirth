@@ -2,7 +2,7 @@
     "translation": "Sheep",
     "texture": "minecraft:block/white_wool",
     "growth_chance": 15,
-    "dropped_item": "minecraft:string",
+    "dropped_item": "kubejs:sheep_budding_shard",
     "normal_drop_chance": 4,
     "max_drop_chance": 6
 }

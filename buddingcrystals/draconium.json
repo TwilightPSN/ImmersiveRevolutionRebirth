@@ -2,7 +2,7 @@
     "translation": "Draconium",
     "texture": "draconicevolution:block/draconium_block",
     "growth_chance": 2,
-    "dropped_item": "draconicevolution:draconium_ingot",
+    "dropped_item": "kubejs:draconium_budding_shard",
     "normal_drop_chance": 2,
     "max_drop_chance": 3
 }

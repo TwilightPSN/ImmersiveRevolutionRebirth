@@ -1,0 +1,1 @@
+{"type":"immersiveengineering:sawmill","energy":1600,"input":{"item":"tconstruct:bloodshroom_log"},"result":{"count":6,"item":"tconstruct:bloodshroom_planks"},"secondaries":[{"output":{"tag":"forge:dusts/wood"},"stripping":true},{"output":{"tag":"forge:dusts/wood"},"stripping":false}],"stripped":{"item":"tconstruct:stripped_bloodshroom_log"}}

@@ -165,8 +165,8 @@
 
 #Enchantments. Defines enchantments machines can accept.
 [enchantments]
-	quarry = ["minecraft:efficiency", "minecraft:fortune"]
-	adv_quarry = ["minecraft:efficiency", "minecraft:unbreaking", "minecraft:fortune", "minecraft:silk_touch"]
-	mini_quarry = ["minecraft:efficiency", "minecraft:unbreaking"]
-	adv_pump = ["minecraft:efficiency", "minecraft:unbreaking", "minecraft:fortune"]
+	quarry = ["minecraft:efficiency"]
+	adv_quarry = ["minecraft:efficiency"]
+	mini_quarry = ["minecraft:efficiency"]
+	adv_pump = ["minecraft:efficiency"]
 

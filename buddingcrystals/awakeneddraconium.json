@@ -1,8 +1,0 @@
-{
-    "translation": "Awakened Draconium",
-    "texture": "draconicevolution:block/awakened_draconium_block",
-    "growth_chance": 15,
-    "dropped_item": "draconicevolution:awakened_draconium_nugget",
-    "normal_drop_chance": 1,
-    "max_drop_chance": 2
-}

@@ -11,7 +11,7 @@
 			id: "19B1D564CE307C1D"
 			linked_quest: "6C694DEF01960C4A"
 			shape: "gear"
-			x: -2.5d
+			x: -3.0d
 			y: -0.5d
 		}
 		{
@@ -87,7 +87,7 @@
 			}]
 			title: "Smash!"
 			x: 0.5d
-			y: -1.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["10010D0E4452ACC7"]
@@ -144,7 +144,7 @@
 			}]
 			title: "Purify Potential"
 			x: 1.5d
-			y: -0.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["3ABAA63194B62E70"]
@@ -161,8 +161,8 @@
 				type: "item"
 			}]
 			title: "Splitting Liquids"
-			x: 0.5d
-			y: -0.5d
+			x: 1.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["26EC3327B0845800"]
@@ -183,8 +183,8 @@
 				type: "item"
 			}]
 			title: "Gaseous Infusion"
-			x: 1.5d
-			y: -1.5d
+			x: 2.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["6E9FEFE34F9A1E79"]
@@ -206,8 +206,8 @@
 				type: "item"
 			}]
 			title: "Brine Basin"
-			x: 1.5d
-			y: -2.5d
+			x: 3.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["10010D0E4452ACC7"]
@@ -243,8 +243,8 @@
 				type: "item"
 			}]
 			title: "Deadly Injection"
-			x: 2.5d
-			y: -1.5d
+			x: 3.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["0B5CECC9F68A74B0"]
@@ -262,7 +262,7 @@
 			}]
 			title: "Crystalline Conflicts"
 			x: 2.5d
-			y: -0.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["10010D0E4452ACC7"]
@@ -298,8 +298,8 @@
 				type: "item"
 			}]
 			title: "Dirty Duties"
-			x: 2.5d
-			y: 0.5d
+			x: 3.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["715A817659EB76A5"]
@@ -317,7 +317,7 @@
 				type: "item"
 			}]
 			title: "Sulfuric Dissolution"
-			x: 1.5d
+			x: 2.5d
 			y: 0.5d
 		}
 		{
@@ -337,7 +337,7 @@
 			}]
 			title: "Draconic Resource"
 			x: 1.5d
-			y: 1.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["10010D0E4452ACC7"]
@@ -464,7 +464,7 @@
 			}]
 			title: "P-P-Pressure"
 			x: 0.5d
-			y: -2.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["13160B706803907B"]
@@ -572,7 +572,11 @@
 		}
 		{
 			dependencies: ["0A10EED5B07A50AA"]
-			description: ["The Fission Reactor provides immense power generation using Fissile Fuel. It operates at high efficiency, producing large amounts of FE to power even the most demanding machines in our system."]
+			description: [
+				"The Fission Reactor provides immense power generation using Fissile Fuel. It operates at high efficiency, producing large amounts of FE to power even the most demanding machines in our system."
+				"{@pagebreak}"
+				"The Fission Reactor is also the key item in producing Budding Resources. You need to provide it with resources that have been oxidized and it will irradiate them. This irradiated resource can then be fed through a Pressurized Reaction Chamber with Redstone Acid and a Budding Amethyst to generate a Budding Resource. It takes 10,000 of a resource to make it's budding variant."
+			]
 			id: "57B92A99D1F22EF4"
 			rewards: [{
 				count: 4
@@ -937,7 +941,7 @@
 				type: "item"
 			}]
 			title: "Mining Mayhem"
-			x: -3.5d
+			x: -4.5d
 			y: -0.5d
 		}
 		{
@@ -1014,7 +1018,7 @@
 			}]
 			title: "Take It's Heart"
 			x: 0.5d
-			y: 0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0C1BEC40082A4BB0"]
@@ -1033,7 +1037,55 @@
 			}]
 			title: "The Other Side"
 			x: 0.5d
-			y: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"1201B29D3A11C204"
+				"1C77BC5EF2916F72"
+			]
+			description: ["Once we have gained access to Refined Obsidian, Netherite and Nether Stars, we can craft a portal and key to gain access to a dimension full of Netherrack minerals."]
+			id: "66440D61AD3ECFBC"
+			rewards: [{
+				id: "717F97049011DF7A"
+				item: "minecraft:netherite_block"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 10L
+					id: "7344315C2BAEBF07"
+					item: "kubejs:nether_mining_frame_bricks"
+					type: "item"
+				}
+				{
+					id: "2A8E87CF26F90EF1"
+					item: "kubejs:nether_mining_key"
+					type: "item"
+				}
+			]
+			title: "Nether Mining Portal"
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["66440D61AD3ECFBC"]
+			description: ["The Nether Mining Dimensions is a dimension free of the threats of The Nether but with the plentiful resource gains. We can strip mine here without fear of death, except by maybe starvation."]
+			id: "0877B7E49CB54FD3"
+			rewards: [{
+				count: 4
+				id: "31E0314FF4E3047D"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "jamd:nether"
+				id: "7D10A073373461E4"
+				type: "dimension"
+			}]
+			title: "Nether Mining Dimension"
+			x: 1.5d
+			y: -0.5d
 		}
 	]
 	title: "Mekanism"

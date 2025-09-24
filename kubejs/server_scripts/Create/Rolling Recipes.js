@@ -25,4 +25,6 @@ ServerEvents.recipes(IRRebirth => {
   IRRebirth.custom({"type":"createaddition:rolling","input": {"item": 'biomeswevegone:blue_sand'},"result": {"item": "create:sand_paper","count": 1}})
   IRRebirth.custom({"type":"createaddition:rolling","input": {"item": 'biomeswevegone:purple_sand'},"result": {"item": "create:sand_paper","count": 1}})
   IRRebirth.custom({"type":"createaddition:rolling","input": {"item": 'biomeswevegone:pink_sand'},"result": {"item": "create:sand_paper","count": 1}})
+  IRRebirth.custom({"type":"createaddition:rolling","input": {"item": 'minecraft:dried_kelp'},"result": {"item": "create:belt_connector","count": 1}})
+  IRRebirth.custom({"type":"createaddition:rolling","input": {"item": 'create_dd:rubber'},"result": {"item": "create:belt_connector","count": 4}})
 })

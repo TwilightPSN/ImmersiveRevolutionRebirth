@@ -1,0 +1,8 @@
+{
+    "translation": "Wither Skeleton",
+    "texture": "bygonenether:block/withered_debris",
+    "growth_chance": 15,
+    "dropped_item": "kubejs:wither_skeleton_budding_shard",
+    "normal_drop_chance": 2,
+    "max_drop_chance": 4
+}

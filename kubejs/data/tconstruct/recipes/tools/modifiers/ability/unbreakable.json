@@ -1,0 +1,15 @@
+{
+  "type": "tconstruct:modifier",
+  "allow_crystal": true,
+  "check_trait_level": true,
+  "inputs": [
+    {
+      "tag": "minecraft:dirt"
+    }
+  ],
+  "level": 1,
+  "result": "tconstruct:unbreakable",
+  "tools": {
+    "tag": "tconstruct:modifiable/durability"
+  }
+}

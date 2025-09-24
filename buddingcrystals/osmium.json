@@ -1,8 +1,8 @@
 {
     "translation": "Osmium",
-    "texture":  "mekanism:block/block_osmium",
+    "texture":  "mekanism:item/ingot_osmium",
     "growth_chance": 5,
-    "dropped_item": "mekanism:ingot_osmium",
+    "dropped_item": "kubejs:osmium_budding_shard",
     "normal_drop_chance": 2,
     "max_drop_chance": 6
 }

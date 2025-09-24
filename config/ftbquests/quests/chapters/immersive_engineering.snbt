@@ -346,7 +346,7 @@
 				type: "item"
 			}]
 			title: "Explorer's World"
-			x: -5.0d
+			x: -4.5d
 			y: -1.0d
 		}
 		{
@@ -365,7 +365,7 @@
 				type: "dimension"
 			}]
 			title: "The End..."
-			x: -6.0d
+			x: -5.5d
 			y: -1.0d
 		}
 		{
@@ -397,51 +397,6 @@
 			title: "The End at Home"
 			x: -5.0d
 			y: -2.0d
-		}
-		{
-			dependencies: ["60C64ED98B3DA5FE"]
-			description: ["Just like the Nether, The End has a vast amount of resources. These are the most plentiful resources you can find. By harnessing the power of the Shulker's, you can build an End Mining portal to gain access to these resources."]
-			id: "6601CE0A294C091A"
-			rewards: [{
-				id: "57F86F65875D568E"
-				item: "minecraft:chorus_flower"
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "1A1BDE791A0C2189"
-					item: "kubejs:end_mining_key"
-					type: "item"
-				}
-				{
-					count: 10L
-					id: "66DC6EBE3C89833F"
-					item: "kubejs:end_mining_frame_bricks"
-					type: "item"
-				}
-			]
-			title: "End Mining Portal"
-			x: -6.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["6601CE0A294C091A"]
-			description: ["The End Mining Dimension holds all of the resources you will ever need. We also are free of the attacks from the Endermen that roam The End normally. We can get a lot of resources here to get moving."]
-			id: "00859E1E3971657F"
-			rewards: [{
-				count: 2
-				id: "3A695569F5A03918"
-				item: "draconicevolution:end_draconium_ore"
-				type: "item"
-			}]
-			tasks: [{
-				dimension: "jamd:end"
-				id: "7B6FE3DE5DC54A76"
-				type: "dimension"
-			}]
-			title: "End Mining Dimension"
-			x: -5.5d
-			y: -3.0d
 		}
 		{
 			dependencies: ["38DE58C8666609EC"]
@@ -486,7 +441,7 @@
 				type: "observation"
 			}]
 			title: "Can it Crush"
-			x: 1.5d
+			x: 1.0d
 			y: -1.0d
 		}
 		{
@@ -512,7 +467,7 @@
 				type: "observation"
 			}]
 			title: "Power Arc"
-			x: 1.0d
+			x: 0.5d
 			y: -2.0d
 		}
 		{
@@ -556,7 +511,7 @@
 		}
 		{
 			dependencies: ["5ECDD562A5C902F6"]
-			description: ["With Biodiesel in production, we can make a Diesel generator to start generating much more power than before. This is one of our first major steps into large scale power protection."]
+			description: ["With Biodiesel in production, we can make a Diesel generator to start generating much more power than before. This is one of our first major steps into large scale power production."]
 			id: "29E99CB108C9DD1E"
 			optional: true
 			rewards: [{
@@ -812,7 +767,7 @@
 			}]
 			title: "Early Electrodes"
 			x: 0.0d
-			y: 0.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["47EA72930E8B263C"]

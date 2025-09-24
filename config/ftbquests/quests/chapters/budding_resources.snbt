@@ -6,17 +6,11 @@
 	icon: "minecraft:diamond"
 	id: "7BC44003BE5DAC4C"
 	order_index: 2
-	quest_links: [{
-		id: "60B535CC26DB2517"
-		linked_quest: "1C77BC5EF2916F72"
-		shape: "octagon"
-		x: 5.5d
-		y: -5.5d
-	}]
+	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["1C77BC5EF2916F72"]
-			description: ["Generates Crystals that drop Copper. Can also be grown in a Botany Pot."]
+			dependencies: ["133B7F6709116AD9"]
+			description: ["Generate relevant shards and can be grown within a Botany Pot. Requires Silk Touch to collect"]
 			id: "241DB91F20473000"
 			tasks: [{
 				id: "446D9A64697B9DF6"
@@ -27,8 +21,8 @@
 			y: -5.5d
 		}
 		{
-			dependencies: ["1C77BC5EF2916F72"]
-			description: ["Generates Crystals that drop Prismarine Clusters. Can also be grown in a Botany Pot."]
+			dependencies: ["133B7F6709116AD9"]
+			description: ["Generate relevant shards and can be grown within a Botany Pot. Requires Silk Touch to collect"]
 			id: "3535835547DDE1D2"
 			tasks: [{
 				id: "1EDE79B69555B31A"
@@ -39,8 +33,8 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["1C77BC5EF2916F72"]
-			description: ["Generates Crystals that drop Steel. Can also be grown in a Botany Pot."]
+			dependencies: ["133B7F6709116AD9"]
+			description: ["Generate relevant shards and can be grown within a Botany Pot. Requires Silk Touch to collect"]
 			id: "7441C33F697B241B"
 			tasks: [{
 				id: "406375327F5D77E3"
@@ -51,8 +45,8 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["1C77BC5EF2916F72"]
-			description: ["Generates Crystals that drop Certus Quartz. Can also be grown in a Botany Pot."]
+			dependencies: ["133B7F6709116AD9"]
+			description: ["Generate relevant shards and can be grown within a Botany Pot. Requires Silk Touch to collect"]
 			id: "34C7F560C1BDEBDE"
 			tasks: [{
 				id: "0F4B96607C188218"
@@ -63,20 +57,20 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["1C77BC5EF2916F72"]
-			description: ["Generates Crystals that drop Refined Obsidian. Can also be grown in a Botany Pot."]
+			dependencies: ["133B7F6709116AD9"]
+			description: ["Generate relevant shards and can be grown within a Botany Pot. Requires Silk Touch to collect"]
 			id: "1A381498EAEE2B7B"
 			tasks: [{
 				id: "6FA60A8BB58F26B2"
-				item: "buddingcrystals:budding_refinedobsidian"
+				item: "buddingcrystals:budding_refined_obsidian"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -8.0d
+			x: 3.5d
+			y: -8.5d
 		}
 		{
-			dependencies: ["1C77BC5EF2916F72"]
-			description: ["Generates Crystals that drop Aluminum. Can also be grown in a Botany Pot."]
+			dependencies: ["133B7F6709116AD9"]
+			description: ["Generate relevant shards and can be grown within a Botany Pot. Requires Silk Touch to collect"]
 			id: "094DB827FAF2FACF"
 			tasks: [{
 				id: "1DAC74AA66542FF4"
@@ -87,56 +81,56 @@
 			y: -5.5d
 		}
 		{
-			dependencies: ["1C77BC5EF2916F72"]
-			description: ["Generates Crystals that drop Energized Steel. Can also be grown in a Botany Pot."]
+			dependencies: ["133B7F6709116AD9"]
+			description: ["Generate relevant shards and can be grown within a Botany Pot. Requires Silk Touch to collect"]
 			id: "76C02E2AB8B47308"
 			tasks: [{
 				id: "3265F976390960BF"
-				item: "buddingcrystals:budding_energizedsteel"
+				item: "buddingcrystals:budding_energized_steel"
 				type: "item"
 			}]
 			x: 7.5d
 			y: -3.5d
 		}
 		{
-			dependencies: ["1C77BC5EF2916F72"]
-			description: ["Generates Crystals that drop Nitro Crystals. Can also be grown in a Botany Pot."]
+			dependencies: ["133B7F6709116AD9"]
+			description: ["Generate relevant shards and can be grown within a Botany Pot. Requires Silk Touch to collect"]
 			id: "0245BD9514849185"
 			tasks: [{
 				id: "462C69DD6B585923"
-				item: "buddingcrystals:budding_nitrocrystal"
+				item: "buddingcrystals:budding_nitro_crystal"
 				type: "item"
 			}]
 			x: 8.5d
 			y: -3.0d
 		}
 		{
-			dependencies: ["1C77BC5EF2916F72"]
-			description: ["Generates Crystals that drop Niotic Crystals. Can also be grown in a Botany Pot."]
+			dependencies: ["133B7F6709116AD9"]
+			description: ["Generate relevant shards and can be grown within a Botany Pot. Requires Silk Touch to collect"]
 			id: "082EA8A19F3D3BDB"
 			tasks: [{
 				id: "1490D0646D434FC7"
-				item: "buddingcrystals:budding_nioticcrystal"
+				item: "buddingcrystals:budding_niotic_crystal"
 				type: "item"
 			}]
 			x: 8.5d
 			y: -2.0d
 		}
 		{
-			dependencies: ["1C77BC5EF2916F72"]
-			description: ["Generates Crystals that drop Blazing Crystals. Can also be grown in a Botany Pot."]
+			dependencies: ["133B7F6709116AD9"]
+			description: ["Generate relevant shards and can be grown within a Botany Pot. Requires Silk Touch to collect"]
 			id: "4D46B43371C1D0AA"
 			tasks: [{
 				id: "13A5E026A9F5572F"
-				item: "buddingcrystals:budding_blazingcrystal"
+				item: "buddingcrystals:budding_blazing_crystal"
 				type: "item"
 			}]
 			x: 6.5d
 			y: -3.0d
 		}
 		{
-			dependencies: ["1C77BC5EF2916F72"]
-			description: ["Generates Crystals that drop Glowstone. Can also be grown in a Botany Pot."]
+			dependencies: ["133B7F6709116AD9"]
+			description: ["Generate relevant shards and can be grown within a Botany Pot. Requires Silk Touch to collect"]
 			id: "443D53A4D3B31E74"
 			tasks: [{
 				id: "031E99CB5CC099A3"
@@ -147,8 +141,8 @@
 			y: -5.5d
 		}
 		{
-			dependencies: ["1C77BC5EF2916F72"]
-			description: ["Generates Crystals that drop Fluix. Can also be grown in a Botany Pot."]
+			dependencies: ["133B7F6709116AD9"]
+			description: ["Generate relevant shards and can be grown within a Botany Pot. Requires Silk Touch to collect"]
 			id: "231C3B4AEA749F9A"
 			tasks: [{
 				id: "2B8D70EA1218B0CB"
@@ -159,8 +153,8 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["1C77BC5EF2916F72"]
-			description: ["Generates Crystals that drop Netherite. Can also be grown in a Botany Pot."]
+			dependencies: ["133B7F6709116AD9"]
+			description: ["Generate relevant shards and can be grown within a Botany Pot. Requires Silk Touch to collect"]
 			id: "6CE7E7813B72D35A"
 			tasks: [{
 				id: "1BD29B8A092EEDA9"
@@ -171,8 +165,8 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["1C77BC5EF2916F72"]
-			description: ["Generates Crystals that drop Gold. Can also be grown in a Botany Pot."]
+			dependencies: ["133B7F6709116AD9"]
+			description: ["Generate relevant shards and can be grown within a Botany Pot. Requires Silk Touch to collect"]
 			id: "6A3687C08E9CE87A"
 			tasks: [{
 				id: "66DA441F19249066"
@@ -183,8 +177,8 @@
 			y: -5.5d
 		}
 		{
-			dependencies: ["1C77BC5EF2916F72"]
-			description: ["Generates Crystals that drop Lapis Lazuli. Can also be grown in a Botany Pot."]
+			dependencies: ["133B7F6709116AD9"]
+			description: ["Generate relevant shards and can be grown within a Botany Pot. Requires Silk Touch to collect"]
 			id: "295769AB0DBE110B"
 			tasks: [{
 				id: "5E8C33CDA86BB902"
@@ -195,8 +189,8 @@
 			y: -6.5d
 		}
 		{
-			dependencies: ["1C77BC5EF2916F72"]
-			description: ["Generates Crystals that drop Emeralds. Can also be grown in a Botany Pot."]
+			dependencies: ["133B7F6709116AD9"]
+			description: ["Generate relevant shards and can be grown within a Botany Pot. Requires Silk Touch to collect"]
 			id: "698FAF968D024E11"
 			tasks: [{
 				id: "239DC4E573D6BD77"
@@ -207,8 +201,8 @@
 			y: -5.5d
 		}
 		{
-			dependencies: ["1C77BC5EF2916F72"]
-			description: ["Generates Crystals that drop Redstone. Can also be grown in a Botany Pot."]
+			dependencies: ["133B7F6709116AD9"]
+			description: ["Generate relevant shards and can be grown within a Botany Pot. Requires Silk Touch to collect"]
 			id: "4A089CC352F5970C"
 			tasks: [{
 				id: "09FA81C6729D4DE7"
@@ -219,8 +213,8 @@
 			y: -6.5d
 		}
 		{
-			dependencies: ["1C77BC5EF2916F72"]
-			description: ["Generates Crystals that drop Uranium. Can also be grown in a Botany Pot."]
+			dependencies: ["133B7F6709116AD9"]
+			description: ["Generate relevant shards and can be grown within a Botany Pot. Requires Silk Touch to collect"]
 			id: "041418A664F9C96F"
 			tasks: [{
 				id: "197F06C5519A6477"
@@ -231,8 +225,8 @@
 			y: -6.0d
 		}
 		{
-			dependencies: ["1C77BC5EF2916F72"]
-			description: ["Generates Crystals that drop Silver. Can also be grown in a Botany Pot."]
+			dependencies: ["133B7F6709116AD9"]
+			description: ["Generate relevant shards and can be grown within a Botany Pot. Requires Silk Touch to collect"]
 			id: "7C3CC5CF060F39D6"
 			tasks: [{
 				id: "5B4988EB5E8B827C"
@@ -243,8 +237,8 @@
 			y: -6.5d
 		}
 		{
-			dependencies: ["1C77BC5EF2916F72"]
-			description: ["Generates Crystals that drop Iron. Can also be grown in a Botany Pot."]
+			dependencies: ["133B7F6709116AD9"]
+			description: ["Generate relevant shards and can be grown within a Botany Pot. Requires Silk Touch to collect"]
 			id: "01B621912F1F1091"
 			tasks: [{
 				id: "056B093D42DA1A9E"
@@ -255,8 +249,8 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["1C77BC5EF2916F72"]
-			description: ["Generates Crystals that drop Uraninite. Can also be grown in a Botany Pot."]
+			dependencies: ["133B7F6709116AD9"]
+			description: ["Generate relevant shards and can be grown within a Botany Pot. Requires Silk Touch to collect"]
 			id: "57DAC261BEF8D79C"
 			tasks: [{
 				id: "02EFDC48BE4F51CD"
@@ -267,20 +261,20 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["1C77BC5EF2916F72"]
-			description: ["Generates Crystals that drop Spirited Crystals. Can also be grown in a Botany Pot."]
+			dependencies: ["133B7F6709116AD9"]
+			description: ["Generate relevant shards and can be grown within a Botany Pot. Requires Silk Touch to collect"]
 			id: "5D5FBBC6DB696E87"
 			tasks: [{
 				id: "2BDC83794B98B281"
-				item: "buddingcrystals:budding_spiritedcrystal"
+				item: "buddingcrystals:budding_spirited_crystal"
 				type: "item"
 			}]
 			x: 7.5d
 			y: -2.5d
 		}
 		{
-			dependencies: ["1C77BC5EF2916F72"]
-			description: ["Generates Crystals that drop Diamonds. Can also be grown in a Botany Pot."]
+			dependencies: ["133B7F6709116AD9"]
+			description: ["Generate relevant shards and can be grown within a Botany Pot. Requires Silk Touch to collect"]
 			id: "5A83D5B86BB3C732"
 			tasks: [{
 				id: "6319A58686F4D4F7"
@@ -291,8 +285,8 @@
 			y: -6.0d
 		}
 		{
-			dependencies: ["1C77BC5EF2916F72"]
-			description: ["Generates Crystals that drop Draconium. Can also be grown in a Botany Pot."]
+			dependencies: ["133B7F6709116AD9"]
+			description: ["Generate relevant shards and can be grown within a Botany Pot. Requires Silk Touch to collect"]
 			id: "2960BE453A13094F"
 			tasks: [{
 				id: "72CE0B0D7A229831"
@@ -303,8 +297,8 @@
 			y: -7.5d
 		}
 		{
-			dependencies: ["1C77BC5EF2916F72"]
-			description: ["Generates Crystals that drop Bronze. Can also be grown in a Botany Pot."]
+			dependencies: ["133B7F6709116AD9"]
+			description: ["Generate relevant shards and can be grown within a Botany Pot. Requires Silk Touch to collect"]
 			id: "474E67D583B55DDC"
 			tasks: [{
 				id: "0C5087BB70B21F00"
@@ -315,8 +309,8 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["1C77BC5EF2916F72"]
-			description: ["Generates Crystals that drop Electrum. Can also be grown in a Botany Pot."]
+			dependencies: ["133B7F6709116AD9"]
+			description: ["Generate relevant shards and can be grown within a Botany Pot. Requires Silk Touch to collect"]
 			id: "74AAB20FC60A532F"
 			tasks: [{
 				id: "2508F8193CD286DB"
@@ -327,8 +321,8 @@
 			y: -5.5d
 		}
 		{
-			dependencies: ["1C77BC5EF2916F72"]
-			description: ["Generates Crystals that drop Nickel. Can also be grown in a Botany Pot."]
+			dependencies: ["133B7F6709116AD9"]
+			description: ["Generate relevant shards and can be grown within a Botany Pot. Requires Silk Touch to collect"]
 			id: "1517F178A3C69BE5"
 			tasks: [{
 				id: "6C439264CB2E4B2C"
@@ -339,8 +333,8 @@
 			y: -6.0d
 		}
 		{
-			dependencies: ["1C77BC5EF2916F72"]
-			description: ["Generates Crystals that drop Nether Quartz. Can also be grown in a Botany Pot."]
+			dependencies: ["133B7F6709116AD9"]
+			description: ["Generate relevant shards and can be grown within a Botany Pot. Requires Silk Touch to collect"]
 			id: "52572AEB88E497FC"
 			tasks: [{
 				id: "101827A3D47EDAC3"
@@ -351,44 +345,32 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["1C77BC5EF2916F72"]
-			description: ["Generates Crystals that drop Salt. Can also be grown in a Botany Pot."]
-			id: "01ABFBD789088491"
-			tasks: [{
-				id: "1B5309F1B26BB382"
-				item: "buddingcrystals:budding_salt"
-				type: "item"
-			}]
-			x: 3.0d
-			y: -7.5d
-		}
-		{
-			dependencies: ["1C77BC5EF2916F72"]
-			description: ["Generates Crystals that drop HOP Graphite. Can also be grown in a Botany Pot."]
+			dependencies: ["133B7F6709116AD9"]
+			description: ["Generate relevant shards and can be grown within a Botany Pot. Requires Silk Touch to collect"]
 			id: "5881347FEDD8F961"
 			tasks: [{
 				id: "7A612595F37322D8"
-				item: "buddingcrystals:budding_hopgraphite"
+				item: "buddingcrystals:budding_hop_graphite"
 				type: "item"
 			}]
 			x: 10.0d
 			y: -6.5d
 		}
 		{
-			dependencies: ["1C77BC5EF2916F72"]
-			description: ["Generates Crystals that drop Osmium. Can also be grown in a Botany Pot."]
+			dependencies: ["133B7F6709116AD9"]
+			description: ["Generate relevant shards and can be grown within a Botany Pot. Requires Silk Touch to collect"]
 			id: "4ADF13CA2A1A5678"
 			tasks: [{
 				id: "5596A1539086F949"
 				item: "buddingcrystals:budding_osmium"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -7.0d
+			x: 3.5d
+			y: -7.5d
 		}
 		{
-			dependencies: ["1C77BC5EF2916F72"]
-			description: ["Generates Crystals that drop Brass. Can also be grown in a Botany Pot."]
+			dependencies: ["133B7F6709116AD9"]
+			description: ["Generate relevant shards and can be grown within a Botany Pot. Requires Silk Touch to collect"]
 			id: "43925BBA49CF84BC"
 			tasks: [{
 				id: "031E9F3A9386A501"
@@ -399,8 +381,8 @@
 			y: -7.0d
 		}
 		{
-			dependencies: ["1C77BC5EF2916F72"]
-			description: ["Generates Crystals that drop Constantan. Can also be grown in a Botany Pot."]
+			dependencies: ["133B7F6709116AD9"]
+			description: ["Generate relevant shards and can be grown within a Botany Pot. Requires Silk Touch to collect"]
 			id: "20F6F29E95E01E41"
 			tasks: [{
 				id: "7FB5B3C62C914E55"
@@ -411,8 +393,8 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["1C77BC5EF2916F72"]
-			description: ["Generates Crystals that drop Lead. Can also be grown in a Botany Pot."]
+			dependencies: ["133B7F6709116AD9"]
+			description: ["Generate relevant shards and can be grown within a Botany Pot. Requires Silk Touch to collect"]
 			id: "2124ED9F144E5A2C"
 			tasks: [{
 				id: "08DD5D5455C881BD"
@@ -423,8 +405,8 @@
 			y: -5.5d
 		}
 		{
-			dependencies: ["1C77BC5EF2916F72"]
-			description: ["Generates Crystals that drop Tin. Can also be grown in a Botany Pot."]
+			dependencies: ["133B7F6709116AD9"]
+			description: ["Generate relevant shards and can be grown within a Botany Pot. Requires Silk Touch to collect"]
 			id: "2B0DB0D8E74A7E77"
 			tasks: [{
 				id: "6D2996E2E9E00715"
@@ -435,20 +417,20 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["1C77BC5EF2916F72"]
-			description: ["Generates Crystals that drop Fluorite. Can also be grown in a Botany Pot."]
+			dependencies: ["133B7F6709116AD9"]
+			description: ["Generate relevant shards and can be grown within a Botany Pot. Requires Silk Touch to collect"]
 			id: "7471D9839E080A03"
 			tasks: [{
 				id: "278BCC03F398BC06"
 				item: "buddingcrystals:budding_fluorite"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -8.0d
+			x: 2.5d
+			y: -7.5d
 		}
 		{
-			dependencies: ["1C77BC5EF2916F72"]
-			description: ["Generates Crystals that drop Zinc. Can also be grown in a Botany Pot."]
+			dependencies: ["133B7F6709116AD9"]
+			description: ["Generate relevant shards and can be grown within a Botany Pot. Requires Silk Touch to collect"]
 			id: "6F2F24573D016955"
 			tasks: [{
 				id: "7C612632B945C22F"
@@ -459,56 +441,56 @@
 			y: -8.0d
 		}
 		{
-			dependencies: ["1C77BC5EF2916F72"]
-			description: ["Generates Crystals that drop Awakened Draconium Nuggets. Can also be grown in a Botany Pot."]
+			dependencies: ["133B7F6709116AD9"]
+			description: ["Generate relevant shards and can be grown within a Botany Pot. Requires Silk Touch to collect."]
 			id: "2D018DC9E315E196"
 			tasks: [{
 				id: "4763FE502F3EC948"
-				item: "buddingcrystals:budding_awakeneddraconium"
+				item: "buddingcrystals:budding_awakened_draconium"
 				type: "item"
 			}]
 			x: 5.5d
 			y: -8.5d
 		}
 		{
-			dependencies: ["1C77BC5EF2916F72"]
-			description: ["Generates Crystals that drop Refined Glowstone. Can also be grown in a Botany Pot."]
+			dependencies: ["133B7F6709116AD9"]
+			description: ["Generate relevant shards and can be grown within a Botany Pot. Requires Silk Touch to collect"]
 			id: "7189B2071FEAF5CE"
 			tasks: [{
 				id: "12F73E3603A90DDB"
-				item: "buddingcrystals:budding_refinedglowstone"
+				item: "buddingcrystals:budding_refined_glowstone"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -9.0d
+			x: 2.5d
+			y: -8.5d
 		}
 		{
-			dependencies: ["1C77BC5EF2916F72"]
-			description: ["Generates Crystals that drop Quantum Alloy. Can also be grown in a Botany Pot."]
+			dependencies: ["133B7F6709116AD9"]
+			description: ["Generate relevant shards and can be grown within a Botany Pot. Requires Silk Touch to collect"]
 			id: "3A50D262F2AC949E"
 			tasks: [{
 				id: "37585D07E022326B"
-				item: "buddingcrystals:budding_quantumalloy"
+				item: "buddingcrystals:budding_quantum_alloy"
 				type: "item"
 			}]
 			x: 3.5d
 			y: -3.5d
 		}
 		{
-			dependencies: ["1C77BC5EF2916F72"]
-			description: ["Generates Crystals that drop Sky Steel. Can also be grown in a Botany Pot."]
+			dependencies: ["133B7F6709116AD9"]
+			description: ["Generate relevant shards and can be grown within a Botany Pot. Requires Silk Touch to collect"]
 			id: "3B2A919A44F93CB1"
 			tasks: [{
 				id: "25D16D482A88649E"
-				item: "buddingcrystals:budding_skysteel"
+				item: "buddingcrystals:budding_sky_steel"
 				type: "item"
 			}]
 			x: 3.5d
 			y: -2.5d
 		}
 		{
-			dependencies: ["1C77BC5EF2916F72"]
-			description: ["Generates Crystals that drop Coal. Can also be grown in a Botany Pot."]
+			dependencies: ["133B7F6709116AD9"]
+			description: ["Generate relevant shards and can be grown within a Botany Pot. Requires Silk Touch to collect"]
 			id: "3875B7FD44F4A6AF"
 			tasks: [{
 				id: "696E078856B2C714"
@@ -517,6 +499,18 @@
 			}]
 			x: 0.0d
 			y: -6.5d
+		}
+		{
+			dependencies: ["57B92A99D1F22EF4"]
+			description: ["Budding Amethyst is randomly found in Geodes out in the world. You can pickup the budding clusters with Silk Touch. They can be duplicated through the method to make other budding."]
+			id: "133B7F6709116AD9"
+			tasks: [{
+				id: "79C0C5CE6CA33FF0"
+				item: "minecraft:budding_amethyst"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -5.5d
 		}
 	]
 	title: "Budding Resources"

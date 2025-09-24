@@ -1,8 +1,0 @@
-{
-    "translation": "Glow Squid",
-    "texture": "minecraft:block/light_blue_glazed_terracotta",
-    "growth_chance": 15,
-    "dropped_item": "minecraft:glow_ink_sac",
-    "normal_drop_chance": 4,
-    "max_drop_chance": 6
-}

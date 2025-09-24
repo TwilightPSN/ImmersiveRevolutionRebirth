@@ -1,8 +1,0 @@
-{
-    "translation": "Quantum Alloy",
-    "texture": "advanced_ae:block/quantum_alloy_block",
-    "growth_chance": 15,
-    "dropped_item": "advanced_ae:quantum_alloy",
-    "normal_drop_chance": 2,
-    "max_drop_chance": 4
-}

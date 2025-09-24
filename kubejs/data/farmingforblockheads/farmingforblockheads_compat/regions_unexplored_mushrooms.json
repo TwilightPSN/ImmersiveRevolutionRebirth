@@ -1,0 +1,34 @@
+{
+  "modId": "regions_unexplored",
+  "silent": true,
+  "group": {
+    "name": "Regions Unexplored Mushrooms",
+    "enabledByDefault": false,
+    "defaultPayment": {
+      "item": "minecraft:emerald"
+    },
+    "defaultCategory": "farmingforblockheads:other"
+  },
+  "customEntries": [
+    {
+      "output": {
+        "item": "regions_unexplored:blue_bioshroom"
+      }
+    },
+    {
+      "output": {
+        "item": "regions_unexplored:green_bioshroom"
+      }
+    },
+    {
+      "output": {
+        "item": "regions_unexplored:pink_bioshroom"
+      }
+    },
+    {
+      "output": {
+        "item": "regions_unexplored:yellow_bioshroom"
+      }
+    }
+  ]
+}

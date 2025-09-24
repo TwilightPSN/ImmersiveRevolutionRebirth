@@ -23,14 +23,18 @@
 		{
 			id: "24F57DC3FC7B0F7A"
 			linked_quest: "63255A7E3A19332A"
-			x: 3.0d
-			y: -1.0d
+			x: -1.5d
+			y: 0.0d
 		}
 	]
 	quests: [
 		{
 			dependencies: ["1A7820CA8E752427"]
-			description: ["Taking our Andesite and molding it with some Zinc nuggets creates a sturdy alloy to start with basic kinetic motion. This allow will be a staple in advancing further."]
+			description: [
+				"Taking our Andesite and molding it with some Zinc nuggets creates a sturdy alloy to start with basic kinetic motion. This allow will be a staple in advancing further."
+				""
+				"Andesite Alloy also has a chance to drop from Andesite around the world. This process makes the stone fragile and cobbled upon mining."
+			]
 			id: "6F753FCA6748FBF0"
 			require_sequential_tasks: false
 			rewards: [{
@@ -319,7 +323,7 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["0125871937D41659"]
+			dependencies: ["289E79DDFD2D2544"]
 			description: ["When you want to setup assembly lines with Create, Belts help to move and automate operations. They are used to transport and move items around your base."]
 			id: "34E47BB009AC7D5C"
 			require_sequential_tasks: false
@@ -620,17 +624,16 @@
 			}]
 			title: "Crude Steel"
 			x: -3.5d
-			y: -1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["510ABFA37AE208DF"]
 			description: ["The Nether is a dangerous place to adventure in but provides resources in a much more plentiful manner than the Overworld. Be weary though, the Piglins of The Nether do not like anyone messing with their resources."]
-			hide_dependent_lines: true
 			id: "75D693CEC7D6685A"
 			rewards: [{
 				count: 2
 				id: "4FA07ABA48CBD4B6"
-				item: "minecraft:ancient_debris"
+				item: "kubejs:raw_netherite_block"
 				type: "item"
 			}]
 			tasks: [{
@@ -639,7 +642,7 @@
 				type: "dimension"
 			}]
 			title: "The Nether"
-			x: -3.5d
+			x: -2.5d
 			y: 0.0d
 		}
 		{
@@ -760,34 +763,8 @@
 				}
 			]
 			title: "The Wither"
-			x: -2.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["1201B29D3A11C204"]
-			description: ["Once we have gained access to Quartz, Netherite and Nether Stars, we can craft a portal and key to gain access to a dimension full of Netherrack minerals."]
-			id: "66440D61AD3ECFBC"
-			rewards: [{
-				id: "717F97049011DF7A"
-				item: "minecraft:netherite_block"
-				type: "item"
-			}]
-			tasks: [
-				{
-					count: 10L
-					id: "7344315C2BAEBF07"
-					item: "kubejs:nether_mining_frame_bricks"
-					type: "item"
-				}
-				{
-					id: "2A8E87CF26F90EF1"
-					item: "kubejs:nether_mining_key"
-					type: "item"
-				}
-			]
-			title: "Nether Mining Portal"
-			x: -1.5d
-			y: 0.0d
+			x: -2.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["27F37B9E48984AD7"]
@@ -1003,25 +980,6 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["66440D61AD3ECFBC"]
-			description: ["The Nether Mining Dimensions is a dimension free of the threats of The Nether but with the plentiful resource gains. We can strip mine here without fear of death, except by maybe starvation."]
-			id: "0877B7E49CB54FD3"
-			rewards: [{
-				count: 4
-				id: "31E0314FF4E3047D"
-				item: "minecraft:blaze_rod"
-				type: "item"
-			}]
-			tasks: [{
-				dimension: "jamd:nether"
-				id: "7D10A073373461E4"
-				type: "dimension"
-			}]
-			title: "Nether Mining Dimension"
-			x: -1.5d
-			y: -1.0d
-		}
-		{
 			dependencies: ["0B5E7A2FDA4CA4FB"]
 			description: [
 				"The Nether holds various resources for us to gather for our advancements. In order to access The Nether, we need to venture and find the mysterious Sculk. This material can be crafted into a portal frame and activated using a key."
@@ -1054,7 +1012,7 @@
 				}
 			]
 			title: "Nether Portal"
-			x: -2.5d
+			x: -3.0d
 			y: -1.0d
 		}
 		{
@@ -1229,7 +1187,7 @@
 		}
 		{
 			dependencies: ["1A7820CA8E752427"]
-			description: ["While trains do work with Custom Portals in the pack, they WILL NOT line up. This is a limit of the mod allowing them to work. DO NOT attempt to make the portals bigger as the other end will always be a standard 2x3. Stick to making it look nice on your base end with a 3x3."]
+			description: ["While trains do work with Custom Portals in the pack, they WILL NOT line up. This is a limit of the mod allowing them to work. DO NOT attempt to break the portals and make them bigger as the portals may break and never reconnect."]
 			icon: "create:train_door"
 			id: "1215C314BD1747DC"
 			shape: "pentagon"
@@ -1241,6 +1199,24 @@
 			}]
 			x: -11.5d
 			y: 0.0d
+		}
+		{
+			dependencies: ["36851BE0E8C197B9"]
+			description: ["We can put our animals to work to generate kinetic energy for us. By using a Horse Crank, we can Lead up our animals and let them generate motion for us."]
+			id: "3E99939A9B2683ED"
+			rewards: [{
+				id: "39B497659BE7E009"
+				item: "minecraft:horse_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5DCD9261D8D5012D"
+				item: "createhorsepower:horse_crank"
+				type: "item"
+			}]
+			title: "Raw Horse Power"
+			x: -9.5d
+			y: -1.0d
 		}
 	]
 	title: "Create"

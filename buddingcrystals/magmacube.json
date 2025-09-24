@@ -1,8 +1,0 @@
-{
-    "translation": "Magma Cube",
-    "texture": "minecraft:block/orange_concrete",
-    "growth_chance": 15,
-    "dropped_item": "minecraft:magma_cream",
-    "normal_drop_chance": 4,
-    "max_drop_chance": 6
-}

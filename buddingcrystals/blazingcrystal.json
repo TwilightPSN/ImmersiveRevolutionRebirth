@@ -1,8 +1,0 @@
-{
-    "translation": "Blazing Crystal",
-    "texture": "powah:block/blazing_crystal_block",
-    "growth_chance": 5,
-    "dropped_item": "powah:crystal_blazing",
-    "normal_drop_chance": 2,
-    "max_drop_chance": 6
-}

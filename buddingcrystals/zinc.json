@@ -1,8 +1,8 @@
 {
     "translation": "Zinc",
-    "texture":  "create:block/zinc_block",
+    "texture":  "create:item/zinc_ingot",
     "growth_chance": 5,
-    "dropped_item": "create:zinc_ingot",
+    "dropped_item": "kubejs:zinc_budding_shard",
     "normal_drop_chance": 2,
     "max_drop_chance": 6
 }

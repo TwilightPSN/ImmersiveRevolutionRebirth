@@ -1,0 +1,8 @@
+{
+    "translation": "Quantum Alloy",
+    "texture": "advanced_ae:item/quantum_alloy",
+    "growth_chance": 15,
+    "dropped_item": "kubejs:quantum_alloy_budding_shard",
+    "normal_drop_chance": 2,
+    "max_drop_chance": 4
+}

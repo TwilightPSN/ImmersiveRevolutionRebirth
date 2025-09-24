@@ -1,0 +1,1 @@
+{"type":"immersiveengineering:sawmill","energy":1600,"input":{"item":"vanillabackport:pale_oak_log"},"result":{"count":6,"item":"vanillabackport:pale_oak_planks"},"secondaries":[{"output":{"tag":"forge:dusts/wood"},"stripping":true},{"output":{"tag":"forge:dusts/wood"},"stripping":false}],"stripped":{"item":"vanillabackport:stripped_pale_oak_log"}}

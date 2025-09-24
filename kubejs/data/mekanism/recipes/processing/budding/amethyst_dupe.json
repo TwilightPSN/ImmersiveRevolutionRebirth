@@ -1,0 +1,1 @@
+{"type":"mekanism:reaction","duration":500,"fluidInput":{"amount":100,"tag":"forge:redstone_acid"},"gasInput":{"amount":100,"gas":"kubejs:irradiated_amethyst"},"gasOutput":{"amount":10,"gas":"mekanism:spent_nuclear_waste"},"itemInput":{"ingredient":{"item":"minecraft:budding_amethyst"}},"itemOutput":{"count": 2, "item":"minecraft:budding_amethyst"}}

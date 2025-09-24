@@ -1,8 +1,8 @@
 {
     "translation": "Chicken",
-    "texture": "minecraft:block/yellow_wool",
+    "texture": "minecraft:item/feather",
     "growth_chance": 15,
-    "dropped_item": "minecraft:feather",
+    "dropped_item": "kubejs:chicken_budding_shard",
     "normal_drop_chance": 4,
     "max_drop_chance": 6
 }

@@ -384,9 +384,9 @@ ServerEvents.recipes(IRRebirth => {
           }
         ],
         "result": {
-          "item": "buddingcrystals:budding_chaosdragon"
+          "item": "buddingcrystals:budding_chaos_dragon"
         },
         "tier": "CHAOTIC",
         "total_energy": 1250000000
-      }).id('buddingcrystals:budding_chaosdragon')
+      }).id('buddingcrystals:budding_chaos_dragon')
 })

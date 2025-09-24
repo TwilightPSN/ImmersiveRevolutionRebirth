@@ -1,8 +1,8 @@
 {
     "translation": "Steel",
-    "texture":  "mekanism:block/block_steel",
+    "texture":  "mekanism:item/ingot_steel",
     "growth_chance": 5,
-    "dropped_item": "mekanism:ingot_steel",
+    "dropped_item": "kubejs:steel_budding_shard",
     "normal_drop_chance": 2,
     "max_drop_chance": 6
 }

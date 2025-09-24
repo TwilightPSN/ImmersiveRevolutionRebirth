@@ -77,7 +77,7 @@ ServerEvents.recipes(IRRebirth => {
       'ABA'
     ],
     {
-      A: 'immersiveengineering:slag_glass',
+      A: 'immersiveengineering:light_engineering',
       B: 'mekanism:basic_control_circuit',
       C: 'mekanism:basic_chemical_tank',
       D: 'mekanism:energy_tablet',

@@ -1,0 +1,8 @@
+{
+    "translation": "Chaos Dragon",
+    "texture": "draconicevolution:block/infused_obsidian",
+    "growth_chance": 5,
+    "dropped_item": "kubejs:chaos_dragon_budding_shard",
+    "normal_drop_chance": 2,
+    "max_drop_chance": 6
+}

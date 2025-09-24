@@ -35,25 +35,25 @@ ServerEvents.recipes(IRRebirth => {
             "type": "forge:nbt",
             "item": "extendedcrafting:singularity",
             "count": 1,
-            "nbt": "{Id:\"extendedcrafting:nitrocrystal\"}"
+            "nbt": "{Id:\"extendedcrafting:nitro_crystal\"}"
           },
           "F": {
             "type": "forge:nbt",
             "item": "extendedcrafting:singularity",
             "count": 1,
-            "nbt": "{Id:\"extendedcrafting:blazingcrystal\"}"
+            "nbt": "{Id:\"extendedcrafting:blazing_crystal\"}"
           },
           "G": {
             "type": "forge:nbt",
             "item": "extendedcrafting:singularity",
             "count": 1,
-            "nbt": "{Id:\"extendedcrafting:nioticcrystal\"}"
+            "nbt": "{Id:\"extendedcrafting:niotic_crystal\"}"
           },
           "H": {
             "type": "forge:nbt",
             "item": "extendedcrafting:singularity",
             "count": 1,
-            "nbt": "{Id:\"extendedcrafting:awakeneddraconium\"}"
+            "nbt": "{Id:\"extendedcrafting:awakened_draconium\"}"
           },
           "I": {
             "item": "draconicevolution:reactor_core"

@@ -1,8 +1,8 @@
 {
     "translation": "Squid",
-    "texture": "minecraft:block/black_wool",
+    "texture": "minecraft:item/ink_sac",
     "growth_chance": 15,
-    "dropped_item": "minecraft:ink_sac",
+    "dropped_item": "kubejs:squid_budding_shard",
     "normal_drop_chance": 4,
     "max_drop_chance": 6
 }

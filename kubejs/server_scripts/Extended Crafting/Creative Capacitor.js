@@ -32,7 +32,7 @@ ServerEvents.recipes(IRRebirth => {
             "type": "forge:nbt",
             "item": "extendedcrafting:singularity",
             "count": 1,
-            "nbt": "{Id:\"extendedcrafting:awakeneddraconium\"}"
+            "nbt": "{Id:\"extendedcrafting:awakened_draconium\"}"
           },
           "F": {
             "item": "draconicevolution:dragon_heart"

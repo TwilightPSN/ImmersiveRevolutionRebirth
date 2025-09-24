@@ -1,0 +1,1 @@
+{"type":"immersiveengineering:sawmill","energy":1600,"input":{"item":"biomesoplenty:jacaranda_log"},"result":{"count":6,"item":"biomesoplenty:jacaranda_planks"},"secondaries":[{"output":{"tag":"forge:dusts/wood"},"stripping":true},{"output":{"tag":"forge:dusts/wood"},"stripping":false}],"stripped":{"item":"biomesoplenty:stripped_jacaranda_log"}}

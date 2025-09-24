@@ -1,8 +1,8 @@
 {
     "translation": "Sculk",
-    "texture": "minecraft:block/sculk",
+    "texture": "minecraft:item/echo_shard",
     "growth_chance": 15,
-    "dropped_item": "minecraft:echo_shard",
+    "dropped_item": "kubejs:sculk_budding_shard",
     "normal_drop_chance": 4,
     "max_drop_chance": 6
 }

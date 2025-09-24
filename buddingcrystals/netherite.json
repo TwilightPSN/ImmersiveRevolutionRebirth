@@ -1,8 +1,8 @@
 {
     "translation": "Netherite",
-    "texture":  "minecraft:block/netherite_block",
+    "texture":  "minecraft:item/netherite_ingot",
     "growth_chance": 5,
-    "dropped_item": "minecraft:netherite_ingot",
+    "dropped_item": "kubejs:netherite_budding_shard",
     "normal_drop_chance": 1,
     "max_drop_chance": 2
 }

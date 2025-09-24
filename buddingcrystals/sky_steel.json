@@ -1,0 +1,8 @@
+{
+    "translation": "Sky Steel",
+    "texture": "megacells:item/sky_steel_ingot",
+    "growth_chance": 15,
+    "dropped_item": "kubejs:sky_steel_budding_shard",
+    "normal_drop_chance": 2,
+    "max_drop_chance": 4
+}

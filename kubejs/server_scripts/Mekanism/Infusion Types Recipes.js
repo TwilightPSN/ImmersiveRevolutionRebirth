@@ -2,4 +2,7 @@ ServerEvents.recipes(IRRebirth => {
     IRRebirth.custom({"type":"mekanism:infusion_conversion","input":{"ingredient":[{"tag":"forge:dusts/coal_coke"},{"item":"immersiveengineering:coal_coke"}]},"output":{"amount":20,"infuse_type":"mekanism:carbon"}})
     IRRebirth.custom({"type":"mekanism:infusion_conversion","input":{"ingredient":[{"item":"immersiveengineering:coke"}]},"output":{"amount":180,"infuse_type":"mekanism:carbon"}})
     IRRebirth.custom({"type":"mekanism:infusion_conversion","input":{"ingredient":[{"item":"minecraft:echo_shard"}]},"output":{"amount":20,"infuse_type":"kubejs:echo"}})
+    IRRebirth.custom({"type":"mekanism:infusion_conversion","input":{"ingredient":[{"item":"ae2:fluix_crystal"}]},"output":{"amount":20,"infuse_type":"kubejs:fluix"}})
+    IRRebirth.custom({"type":"mekanism:infusion_conversion","input":{"ingredient":[{"item":"ae2:fluix_block"}]},"output":{"amount":80,"infuse_type":"kubejs:fluix"}})
+    IRRebirth.custom({"type":"mekanism:infusion_conversion","input":{"ingredient":[{"item":"jaopca:storage_blocks.fluix"}]},"output":{"amount":180,"infuse_type":"kubejs:fluix"}})
 })

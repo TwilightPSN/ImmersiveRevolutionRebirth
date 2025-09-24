@@ -1,8 +1,8 @@
 {
     "translation": "Copper",
-    "texture": "minecraft:block/copper_block",
+    "texture": "minecraft:item/copper_ingot",
     "growth_chance": 5,
-    "dropped_item": "minecraft:copper_ingot",
+    "dropped_item": "kubejs:copper_budding_shard",
     "normal_drop_chance": 2,
     "max_drop_chance": 6
 }

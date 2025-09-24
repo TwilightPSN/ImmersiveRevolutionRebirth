@@ -1,8 +1,8 @@
 {
     "translation": "Enderman",
-    "texture": "extendedcrafting:block/ender_ingot_block",
+    "texture": "minecraft:item/ender_pearl",
     "growth_chance": 15,
-    "dropped_item": "minecraft:ender_pearl",
+    "dropped_item": "kubejs:enderman_budding_shard",
     "normal_drop_chance": 4,
     "max_drop_chance": 6
 }

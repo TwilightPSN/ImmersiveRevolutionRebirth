@@ -1,8 +1,8 @@
 {
     "translation": "Lead",
-    "texture":  "mekanism:block/block_lead",
+    "texture":  "beo:item/lead_ingot",
     "growth_chance": 5,
-    "dropped_item": "mekanism:ingot_lead",
+    "dropped_item": "kubejs:lead_budding_shard",
     "normal_drop_chance": 2,
     "max_drop_chance": 6
 }

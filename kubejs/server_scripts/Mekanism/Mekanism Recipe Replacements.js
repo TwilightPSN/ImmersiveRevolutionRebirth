@@ -4,9 +4,9 @@ ServerEvents.recipes(IRRebirth => {
   IRRebirth.replaceInput({ id: 'mekanism:infusion_conversion/redstone/from_block' },'minecraft:redstone_block','kubejs:acidic_redstone_block')
   IRRebirth.replaceInput({ id: 'mekanism:enriching/enriched/redstone' },'minecraft:redstone','kubejs:acidic_redstone')
   IRRebirth.replaceInput({ id: 'mekanism:steel_casing' },'#forge:ingots/steel','immersiveengineering:steel_scaffolding_standard')
-  IRRebirth.replaceInput({ id: 'mekanism:steel_casing' },'#forge:glass/silica','immersiveengineering:insulating_glass')
+  IRRebirth.replaceInput({ id: 'mekanism:steel_casing' },'#forge:glass/silica','immersiveengineering:heavy_engineering')
   IRRebirth.replaceInput({ id: 'mekanism:steel_casing' },'mekanism:ingot_osmium','kubejs:osmium_plate')
-  IRRebirth.replaceInput({ output: 'mekanism:energy_tablet' },'minecraft:gold_ingot','#forge:plates/brass')
+  IRRebirth.replaceInput({ output: 'mekanism:energy_tablet' },'minecraft:gold_ingot','immersiveengineering:generator')
   IRRebirth.replaceInput({ output: 'mekanism:energy_tablet' },'minecraft:redstone','kubejs:acidic_redstone')
   IRRebirth.shaped(
     Item.of('mekanism:thermal_evaporation_block', 4), 
@@ -18,7 +18,7 @@ ServerEvents.recipes(IRRebirth => {
     {
       A: '#forge:plates/steel',
       B: '#forge:rods/steel',
-      C: '#forge:storage_blocks/constantan'
+      C: 'immersiveengineering:light_engineering'
     }
   ).id('mekanism:thermal_evaporation/block')
   IRRebirth.replaceInput({ output: 'mekanismgenerators:advanced_solar_generator' },'minecraft:iron_ingot','#forge:plates/steel')
@@ -199,7 +199,7 @@ ServerEvents.recipes(IRRebirth => {
       C: '#forge:storage_blocks/osmium'
     }
   ).id('mekanismgenerators:turbine/casing')
-  IRRebirth.replaceInput({ output: 'mekanism:pressure_disperser' },'minecraft:iron_bars', '#forge:sheetmetals/steel')
+  IRRebirth.replaceInput({ output: 'mekanism:pressure_disperser' },'minecraft:iron_bars', 'immersiveengineering:radiator')
   IRRebirth.replaceInput({ output: 'mekanism:pressure_disperser' },'#forge:ingots/steel', '#forge:rods/steel')
   IRRebirth.replaceInput({ output: 'mekanism:supercharged_coil' },'#forge:ingots/copper', 'immersiveengineering:light_engineering')
   IRRebirth.shaped(
