@@ -8,6 +8,7 @@ MODS TO REMOVE FROM SERVER PACKS
 || Release 2.0.0 ||
 
 TO BEST EXPERIENCE THE NEW CHANGES A RESTART IS RECOMMENDED BUT NOT REQUIRED
+MANY OF THE CHANGES TAKING PLACE ARE FROM MEKANISM AND BUDDING CRYSTALS
 
 The Following Budding Crustals have been updated and will need to be re-acquired if you use an older world
 -Awakened Draconium
@@ -77,7 +78,9 @@ The Following Budding Crustals have been updated and will need to be re-acquired
 -Removed some of the starter quests
 -Changed where Mining Dimension quests were located
 -Adding a quest for Budding Amethyst to indicate Silk Touch
--Added text to Fission Reactor for Budding Resources.
+-Added text to Fission Reactor for Budding Resources
+-Changed quest text on all budding quests
+-Added quest for new Create Horse Crank
 
 // Recipe Changes //
 -Removed Stonecutting recipe for Industrial Iron block
@@ -110,7 +113,9 @@ The Following Budding Crustals have been updated and will need to be re-acquired
 -Added Fluix infuser type
 -Removed Silk Touch tooltip from Budding Clusters
 -Tinker's Budding Crystals support for Botany Pots
-
+-Moved all mobs drops to Datapacks
+-Ender Dragon is now only a 50% chance to drop Elytra
+-Datapack generated for IE Sawmill modded support
 
 
 

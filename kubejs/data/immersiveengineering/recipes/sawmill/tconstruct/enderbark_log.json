@@ -1,0 +1,1 @@
+{"type":"immersiveengineering:sawmill","energy":1600,"input":{"item":"tconstruct:enderbark_log"},"result":{"count":6,"item":"tconstruct:enderbark_planks"},"secondaries":[{"output":{"tag":"forge:dusts/wood"},"stripping":true},{"output":{"tag":"forge:dusts/wood"},"stripping":false}],"stripped":{"item":"tconstruct:stripped_enderbark_log"}}

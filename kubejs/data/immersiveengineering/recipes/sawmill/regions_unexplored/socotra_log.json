@@ -1,0 +1,1 @@
+{"type":"immersiveengineering:sawmill","energy":1600,"input":{"item":"regions_unexplored:socotra_log"},"result":{"count":6,"item":"regions_unexplored:socotra_planks"},"secondaries":[{"output":{"tag":"forge:dusts/wood"},"stripping":true},{"output":{"tag":"forge:dusts/wood"},"stripping":false}],"stripped":{"item":"regions_unexplored:stripped_socotra_log"}}

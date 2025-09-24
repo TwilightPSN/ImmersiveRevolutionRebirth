@@ -1,0 +1,1 @@
+{"type":"immersiveengineering:sawmill","energy":1600,"input":{"item":"biomesoplenty:willow_log"},"result":{"count":6,"item":"biomesoplenty:willow_planks"},"secondaries":[{"output":{"tag":"forge:dusts/wood"},"stripping":true},{"output":{"tag":"forge:dusts/wood"},"stripping":false}],"stripped":{"item":"biomesoplenty:stripped_willow_log"}}

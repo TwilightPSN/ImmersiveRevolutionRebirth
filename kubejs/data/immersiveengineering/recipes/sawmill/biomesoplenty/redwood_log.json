@@ -1,0 +1,1 @@
+{"type":"immersiveengineering:sawmill","energy":1600,"input":{"item":"biomesoplenty:redwood_log"},"result":{"count":6,"item":"biomesoplenty:redwood_planks"},"secondaries":[{"output":{"tag":"forge:dusts/wood"},"stripping":true},{"output":{"tag":"forge:dusts/wood"},"stripping":false}],"stripped":{"item":"biomesoplenty:stripped_redwood_log"}}

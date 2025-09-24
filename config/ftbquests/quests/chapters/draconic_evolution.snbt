@@ -410,7 +410,10 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["60C64ED98B3DA5FE"]
+			dependencies: [
+				"60C64ED98B3DA5FE"
+				"1D95E21C7984BD6C"
+			]
 			description: ["Just like the Nether, The End has a vast amount of resources. These are the most plentiful resources you can find. By harnessing the power of Draconium, you can build an End Mining portal to gain access to these resources."]
 			id: "6601CE0A294C091A"
 			rewards: [{

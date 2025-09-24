@@ -1,0 +1,1 @@
+{"type":"immersiveengineering:sawmill","energy":1600,"input":{"item":"biomeswevegone:pine_log"},"result":{"count":6,"item":"biomeswevegone:pine_planks"},"secondaries":[{"output":{"tag":"forge:dusts/wood"},"stripping":true},{"output":{"tag":"forge:dusts/wood"},"stripping":false}],"stripped":{"item":"biomeswevegone:stripped_pine_log"}}

@@ -1,0 +1,1 @@
+{"type":"immersiveengineering:sawmill","energy":1600,"input":{"item":"tconstruct:greenheart_log"},"result":{"count":6,"item":"tconstruct:greenheart_planks"},"secondaries":[{"output":{"tag":"forge:dusts/wood"},"stripping":true},{"output":{"tag":"forge:dusts/wood"},"stripping":false}],"stripped":{"item":"tconstruct:stripped_greenheart_log"}}

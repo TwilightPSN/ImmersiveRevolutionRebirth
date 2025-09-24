@@ -30,7 +30,11 @@
 	quests: [
 		{
 			dependencies: ["1A7820CA8E752427"]
-			description: ["Taking our Andesite and molding it with some Zinc nuggets creates a sturdy alloy to start with basic kinetic motion. This allow will be a staple in advancing further."]
+			description: [
+				"Taking our Andesite and molding it with some Zinc nuggets creates a sturdy alloy to start with basic kinetic motion. This allow will be a staple in advancing further."
+				""
+				"Andesite Alloy also has a chance to drop from Andesite around the world. This process makes the stone fragile and cobbled upon mining."
+			]
 			id: "6F753FCA6748FBF0"
 			require_sequential_tasks: false
 			rewards: [{
@@ -1183,7 +1187,7 @@
 		}
 		{
 			dependencies: ["1A7820CA8E752427"]
-			description: ["While trains do work with Custom Portals in the pack, they WILL NOT line up. This is a limit of the mod allowing them to work. DO NOT attempt to make the portals bigger as the other end will always be a standard 2x3. Stick to making it look nice on your base end with a 3x3."]
+			description: ["While trains do work with Custom Portals in the pack, they WILL NOT line up. This is a limit of the mod allowing them to work. DO NOT attempt to break the portals and make them bigger as the portals may break and never reconnect."]
 			icon: "create:train_door"
 			id: "1215C314BD1747DC"
 			shape: "pentagon"
@@ -1195,6 +1199,24 @@
 			}]
 			x: -11.5d
 			y: 0.0d
+		}
+		{
+			dependencies: ["36851BE0E8C197B9"]
+			description: ["We can put our animals to work to generate kinetic energy for us. By using a Horse Crank, we can Lead up our animals and let them generate motion for us."]
+			id: "3E99939A9B2683ED"
+			rewards: [{
+				id: "39B497659BE7E009"
+				item: "minecraft:horse_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5DCD9261D8D5012D"
+				item: "createhorsepower:horse_crank"
+				type: "item"
+			}]
+			title: "Raw Horse Power"
+			x: -9.5d
+			y: -1.0d
 		}
 	]
 	title: "Create"
