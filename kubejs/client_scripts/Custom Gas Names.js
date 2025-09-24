@@ -1,4 +1,4 @@
-ClientEvents.highPriorityAssets(IRRebirth => {
+ClientEvents.lang('en_us', IRRebirth => {
     IRRebirth.addLang('gas.kubejs.oxidized_aluminum', "Oxidized Aluminum")
     IRRebirth.addLang('gas.kubejs.oxidized_refined_obsidian', "Oxidized Refined Obsidian")
     IRRebirth.addLang('gas.kubejs.oxidized_certus_quartz', "Oxidized Certus Quartz")

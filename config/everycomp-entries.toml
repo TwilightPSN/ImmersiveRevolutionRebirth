@@ -58,6 +58,29 @@
 			seared_stone = true
 			scorched_stone = true
 
+		[types.stone_type.kubejs]
+			acidic_redstone_block = true
+			cobbled_andesite = true
+			raw_draconium_block = true
+			raw_netherite_block = true
+
+		[types.stone_type.immersiveengineering]
+			coke = true
+			hempcrete = true
+			concrete = true
+			duroplast = true
+			sheetmetal_copper = true
+			sheetmetal_aluminum = true
+			sheetmetal_lead = true
+			sheetmetal_silver = true
+			sheetmetal_nickel = true
+			sheetmetal_uranium = true
+			sheetmetal_constantan = true
+			sheetmetal_electrum = true
+			sheetmetal_steel = true
+			sheetmetal_iron = true
+			sheetmetal_gold = true
+
 	[types.wood_type]
 
 		[types.wood_type.biomeswevegone]

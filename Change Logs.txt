@@ -5,12 +5,12 @@ MODS TO REMOVE FROM SERVER PACKS
 -BadOptimizations
 
 
-|| Release 2.0.0 ||
+|| Beta 2.0.0 ||
 
 TO BEST EXPERIENCE THE NEW CHANGES A RESTART IS RECOMMENDED BUT NOT REQUIRED
 MANY OF THE CHANGES TAKING PLACE ARE FROM MEKANISM AND BUDDING CRYSTALS
 
-The Following Budding Crustals have been updated and will need to be re-acquired if you use an older world
+The Following Budding Crystals have been updated and will need to be re-acquired if you use an older world
 -Awakened Draconium
 -Blazing Crystal
 -Glow Squid
@@ -40,6 +40,7 @@ The Following Budding Crustals have been updated and will need to be re-acquired
 -Create: Extra Gauges
 -Create Ultimine
 -Create Horse Power
+-Chalk
 
 // Mods Removed //
 -Custom Portals Mod
@@ -55,10 +56,12 @@ The Following Budding Crustals have been updated and will need to be re-acquired
 -GeckoLib4
 -GuideME
 -Just Enough Items
+-Moonlight Library
 -Tinker's Integrations and Tweaks
 -Sophisticated Core
 -Sophisticated Storage
 -Stellar View
+-Tectonic
 
 // Mods Downgraded //
 -Every Compat
@@ -116,8 +119,7 @@ The Following Budding Crustals have been updated and will need to be re-acquired
 -Moved all mobs drops to Datapacks
 -Ender Dragon is now only a 50% chance to drop Elytra
 -Datapack generated for IE Sawmill modded support
-
-
+-Added support for various blocks with Stone Zone
 
 || Release 1.7.1 ||
 
