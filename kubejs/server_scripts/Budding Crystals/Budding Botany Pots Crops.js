@@ -36,9 +36,9 @@ ServerEvents.recipes(IRRebirth => {
         1
     )
     IRRebirth.recipes.botanypots.crop(
-        'buddingcrystals:refinedobsidian_cluster',
-        ['buddingcrystals:budding_refinedobsidian'], 
-        { block: 'buddingcrystals:refinedobsidian_cluster' },
+        'buddingcrystals:refined_obsidian_cluster',
+        ['buddingcrystals:budding_refined_obsidian'], 
+        { block: 'buddingcrystals:refined_obsidian_cluster' },
         [
             Item.of('kubejs:refined_obsidian_budding_shard')
                 .withChance(1)
@@ -156,9 +156,9 @@ ServerEvents.recipes(IRRebirth => {
         1
     )
     IRRebirth.recipes.botanypots.crop(
-        'buddingcrystals:refinedglowstone_cluster',
-        ['buddingcrystals:budding_refinedglowstone'], 
-        { block: 'buddingcrystals:refinedglowstone_cluster' },
+        'buddingcrystals:refined_glowstone_cluster',
+        ['buddingcrystals:budding_refined_glowstone'], 
+        { block: 'buddingcrystals:refined_glowstone_cluster' },
         [
             Item.of('kubejs:refined_glowstone_budding_shard')
                 .withChance(1)
@@ -168,9 +168,9 @@ ServerEvents.recipes(IRRebirth => {
         1
     )
     IRRebirth.recipes.botanypots.crop(
-        'buddingcrystals:awakeneddraconium_cluster',
-        ['buddingcrystals:budding_awakeneddraconium'], 
-        { block: 'buddingcrystals:awakeneddraconium_cluster' },
+        'buddingcrystals:awakened_draconium_cluster',
+        ['buddingcrystals:budding_awakened_draconium'], 
+        { block: 'buddingcrystals:awakened_draconium_cluster' },
         [
             Item.of('kubejs:awakened_draconium_budding_shard')
                 .withChance(1)
@@ -228,21 +228,9 @@ ServerEvents.recipes(IRRebirth => {
         1
     )
     IRRebirth.recipes.botanypots.crop(
-        'buddingcrystals:salt_cluster',
-        ['buddingcrystals:budding_salt'], 
-        { block: 'buddingcrystals:salt_cluster' },
-        [
-            Item.of('kubejs:salt_budding_shard')
-                .withChance(1)
-                .withRolls(2, 3) 
-        ],
-        1800,
-        1
-    )
-    IRRebirth.recipes.botanypots.crop(
-        'buddingcrystals:hopgraphite_cluster',
-        ['buddingcrystals:budding_hopgraphite'], 
-        { block: 'buddingcrystals:hopgraphite_cluster' },
+        'buddingcrystals:hop_graphite_cluster',
+        ['buddingcrystals:budding_hop_graphite'], 
+        { block: 'buddingcrystals:hop_graphite_cluster' },
         [
             Item.of('kubejs:hop_graphite_budding_shard')
                 .withChance(1)
@@ -408,9 +396,9 @@ ServerEvents.recipes(IRRebirth => {
         1
     )
     IRRebirth.recipes.botanypots.crop(
-        'buddingcrystals:energizedsteel_cluster',
-        ['buddingcrystals:budding_energizedsteel'], 
-        { block: 'buddingcrystals:energizedsteel_cluster' },
+        'buddingcrystals:energized_steel_cluster',
+        ['buddingcrystals:budding_energized_steel'], 
+        { block: 'buddingcrystals:energized_steel_cluster' },
         [
             Item.of('kubejs:energized_steel_budding_shard')
                 .withChance(1)
@@ -420,9 +408,9 @@ ServerEvents.recipes(IRRebirth => {
         1
     )
     IRRebirth.recipes.botanypots.crop(
-        'buddingcrystals:blazingcrystal_cluster',
-        ['buddingcrystals:budding_blazingcrystal'], 
-        { block: 'buddingcrystals:blazingcrystal_cluster' },
+        'buddingcrystals:blazing_crystal_cluster',
+        ['buddingcrystals:budding_blazing_crystal'], 
+        { block: 'buddingcrystals:blazing_crystal_cluster' },
         [
             Item.of('kubejs:blazing_crystal_budding_shard')
                 .withChance(1)
@@ -432,9 +420,9 @@ ServerEvents.recipes(IRRebirth => {
         1
     )
     IRRebirth.recipes.botanypots.crop(
-        'buddingcrystals:nioticcrystal_cluster',
-        ['buddingcrystals:budding_nioticcrystal'], 
-        { block: 'buddingcrystals:nioticcrystal_cluster' },
+        'buddingcrystals:niotic_crystal_cluster',
+        ['buddingcrystals:budding_niotic_crystal'], 
+        { block: 'buddingcrystals:niotic_crystal_cluster' },
         [
             Item.of('kubejs:niotic_crystal_budding_shard')
                 .withChance(1)
@@ -444,9 +432,9 @@ ServerEvents.recipes(IRRebirth => {
         1
     )    
     IRRebirth.recipes.botanypots.crop(
-        'buddingcrystals:spiritedcrystal_cluster',
-        ['buddingcrystals:budding_spiritedcrystal'], 
-        { block: 'buddingcrystals:spiritedcrystal_cluster' },
+        'buddingcrystals:spirited_crystal_cluster',
+        ['buddingcrystals:budding_spirited_crystal'], 
+        { block: 'buddingcrystals:spirited_crystal_cluster' },
         [
             Item.of('kubejs:spirited_crystal_budding_shard')
                 .withChance(1)
@@ -456,9 +444,9 @@ ServerEvents.recipes(IRRebirth => {
         1
     )    
     IRRebirth.recipes.botanypots.crop(
-        'buddingcrystals:nitrocrystal_cluster',
-        ['buddingcrystals:budding_nitrocrystal'], 
-        { block: 'buddingcrystals:nitrocrystal_cluster' },
+        'buddingcrystals:nitro_crystal_cluster',
+        ['buddingcrystals:budding_nitro_crystal'], 
+        { block: 'buddingcrystals:nitro_crystal_cluster' },
         [
             Item.of('kubejs:nitro_crystal_budding_shard')
                 .withChance(1)
@@ -540,9 +528,9 @@ ServerEvents.recipes(IRRebirth => {
         1
     )
     IRRebirth.recipes.botanypots.crop(
-        'buddingcrystals:witherskeleton_cluster',
-        ['buddingcrystals:budding_witherskeleton'], 
-        { block: 'buddingcrystals:witherskeleton_cluster' },
+        'buddingcrystals:wither_skeleton_cluster',
+        ['buddingcrystals:budding_wither_skeleton'], 
+        { block: 'buddingcrystals:wither_skeleton_cluster' },
         [
             Item.of('kubejs:wither_skeleton_budding_shard')
                 .withChance(1)
@@ -636,9 +624,9 @@ ServerEvents.recipes(IRRebirth => {
         1
     )
     IRRebirth.recipes.botanypots.crop(
-        'buddingcrystals:snowgolem_cluster',
-        ['buddingcrystals:budding_snowgolem'], 
-        { block: 'buddingcrystals:snowgolem_cluster' },
+        'buddingcrystals:snow_golem_cluster',
+        ['buddingcrystals:budding_snow_golem'], 
+        { block: 'buddingcrystals:snow_golem_cluster' },
         [
             Item.of('kubejs:snow_golem_budding_shard')
                 .withChance(1)
@@ -660,9 +648,9 @@ ServerEvents.recipes(IRRebirth => {
         1
     )
     IRRebirth.recipes.botanypots.crop(
-        'buddingcrystals:glowsquid_cluster',
-        ['buddingcrystals:budding_glowsquid'], 
-        { block: 'buddingcrystals:glowsquid_cluster' },
+        'buddingcrystals:glow_squid_cluster',
+        ['buddingcrystals:budding_glow_squid'], 
+        { block: 'buddingcrystals:glow_squid_cluster' },
         [
             Item.of('kubejs:glow_squid_budding_shard')
                 .withChance(1)
@@ -696,9 +684,9 @@ ServerEvents.recipes(IRRebirth => {
         1
     )
     IRRebirth.recipes.botanypots.crop(
-        'buddingcrystals:magmacube_cluster',
-        ['buddingcrystals:budding_magmacube'], 
-        { block: 'buddingcrystals:magmacube_cluster' },
+        'buddingcrystals:magma_cube_cluster',
+        ['buddingcrystals:budding_magma_cube'], 
+        { block: 'buddingcrystals:magma_cube_cluster' },
         [
             Item.of('kubejs:magma_cube_budding_shard')
                 .withChance(1)
@@ -732,9 +720,9 @@ ServerEvents.recipes(IRRebirth => {
         1
     )
     IRRebirth.recipes.botanypots.crop(
-        'buddingcrystals:skysteel_cluster',
-        ['buddingcrystals:budding_skysteel'], 
-        { block: 'buddingcrystals:skysteel_cluster' },
+        'buddingcrystals:sky_steel_cluster',
+        ['buddingcrystals:budding_sky_steel'], 
+        { block: 'buddingcrystals:sky_steel_cluster' },
         [
             Item.of('kubejs:sky_steel_budding_shard')
                 .withChance(1)
@@ -744,9 +732,9 @@ ServerEvents.recipes(IRRebirth => {
         1
     )
     IRRebirth.recipes.botanypots.crop(
-        'buddingcrystals:quantumalloy_cluster',
-        ['buddingcrystals:budding_quantumalloy'], 
-        { block: 'buddingcrystals:quantumalloy_cluster' },
+        'buddingcrystals:quantum_alloy_cluster',
+        ['buddingcrystals:budding_quantum_alloy'], 
+        { block: 'buddingcrystals:quantum_alloy_cluster' },
         [
             Item.of('kubejs:quantum_alloy_budding_shard')
                 .withChance(1)
@@ -756,13 +744,61 @@ ServerEvents.recipes(IRRebirth => {
         1
     )
     IRRebirth.recipes.botanypots.crop(
-        'buddingcrystals:chaosdragon_cluster',
-        ['buddingcrystals:budding_chaosdragon'], 
-        { block: 'buddingcrystals:chaosdragon_cluster' },
+        'buddingcrystals:chaos_dragon_cluster',
+        ['buddingcrystals:budding_chaos_dragon'], 
+        { block: 'buddingcrystals:chaos_dragon_cluster' },
         [
             Item.of('kubejs:chaos_dragon_budding_shard')
                 .withChance(1)
                 .withRolls(1, 3) 
+        ],
+        1800,
+        1
+    )
+    IRRebirth.recipes.botanypots.crop(
+        'tconstruct:earth_slime_crystal_cluster',
+        ['tconstruct:budding_earth_slime_crystal'], 
+        { block: 'tconstruct:earth_slime_crystal_cluster' },
+        [
+            Item.of('tconstruct:earth_slime_crystal')
+                .withChance(1)
+                .withRolls(2, 3) 
+        ],
+        1800,
+        1
+    )
+    IRRebirth.recipes.botanypots.crop(
+        'tconstruct:sky_slime_crystal_cluster',
+        ['tconstruct:budding_sky_slime_crystal'], 
+        { block: 'tconstruct:sky_slime_crystal_cluster' },
+        [
+            Item.of('tconstruct:sky_slime_crystal')
+                .withChance(1)
+                .withRolls(2, 3) 
+        ],
+        1800,
+        1
+    )
+    IRRebirth.recipes.botanypots.crop(
+        'tconstruct:ichor_slime_crystal_cluster',
+        ['tconstruct:budding_ichor_slime_crystal'], 
+        { block: 'tconstruct:ichor_slime_crystal_cluster' },
+        [
+            Item.of('tconstruct:ichor_slime_crystal')
+                .withChance(1)
+                .withRolls(2, 3) 
+        ],
+        1800,
+        1
+    )
+    IRRebirth.recipes.botanypots.crop(
+        'tconstruct:ender_slime_crystal_cluster',
+        ['tconstruct:budding_ender_slime_crystal'], 
+        { block: 'tconstruct:ender_slime_crystal_cluster' },
+        [
+            Item.of('tconstruct:ender_slime_crystal')
+                .withChance(1)
+                .withRolls(2, 3) 
         ],
         1800,
         1

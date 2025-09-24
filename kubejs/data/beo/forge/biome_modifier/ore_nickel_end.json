@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#minecraft:is_end",
+  "features": "beo:ore_nickel_end",
+  "step": "underground_ores"
+}

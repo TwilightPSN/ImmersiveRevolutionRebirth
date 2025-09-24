@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:unbreaking",
+    "minecraft:mending",
+    "apotheosis:life_mending"
+  ]
+}

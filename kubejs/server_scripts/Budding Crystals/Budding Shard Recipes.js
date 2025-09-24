@@ -45,7 +45,6 @@ ServerEvents.recipes((IRRebirth) => {
     'minecraft:redstone',
     'mekanism:ingot_refined_glowstone',
     'mekanism:ingot_refined_obsidian',
-    'mekanism:salt',
     'minecraft:echo_shard',
     'minecraft:mutton',
     'immersiveengineering:ingot_silver',
@@ -112,7 +111,6 @@ ServerEvents.recipes((IRRebirth) => {
     'kubejs:redstone_budding_shard',
     'kubejs:refined_glowstone_budding_shard',
     'kubejs:refined_obsidian_budding_shard',
-    'kubejs:salt_budding_shard',
     'kubejs:sculk_budding_shard',
     'kubejs:sheep_budding_shard',
     'kubejs:silver_budding_shard',
@@ -186,7 +184,7 @@ ServerEvents.recipes((IRRebirth) => {
         }
       )
     IRRebirth.shaped(
-      Item.of('minecraft:white_whool'), 
+      Item.of('minecraft:white_wool'), 
         [
           'AAA',
           'A A',

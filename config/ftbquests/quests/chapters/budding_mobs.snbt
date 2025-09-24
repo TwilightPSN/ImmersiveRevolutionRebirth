@@ -67,7 +67,7 @@
 			id: "18979F7AAD0CC070"
 			tasks: [{
 				id: "4A7153C034765D9A"
-				item: "buddingcrystals:budding_witherskeleton"
+				item: "buddingcrystals:budding_wither_skeleton"
 				type: "item"
 			}]
 			x: 1.0d
@@ -155,7 +155,7 @@
 			id: "0FD8D53882694F75"
 			tasks: [{
 				id: "71717A4241FC88F6"
-				item: "buddingcrystals:budding_magmacube"
+				item: "buddingcrystals:budding_magma_cube"
 				type: "item"
 			}]
 			x: 1.5d
@@ -191,7 +191,7 @@
 			id: "182163969C406F10"
 			tasks: [{
 				id: "7B020A02AC732FD5"
-				item: "buddingcrystals:budding_glowsquid"
+				item: "buddingcrystals:budding_glow_squid"
 				type: "item"
 			}]
 			x: 2.0d
@@ -215,7 +215,7 @@
 			id: "6CD133C0481935A5"
 			tasks: [{
 				id: "21299E6B77D772F4"
-				item: "buddingcrystals:budding_snowgolem"
+				item: "buddingcrystals:budding_snow_golem"
 				type: "item"
 			}]
 			x: 1.5d
@@ -263,7 +263,7 @@
 			id: "387EE9071B07C941"
 			tasks: [{
 				id: "274D6D638188070D"
-				item: "buddingcrystals:budding_chaosdragon"
+				item: "buddingcrystals:budding_chaos_dragon"
 				type: "item"
 			}]
 			x: 3.5d

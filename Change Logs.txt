@@ -4,7 +4,27 @@ MODS TO REMOVE FROM SERVER PACKS
 -Clear Water
 -BadOptimizations
 
-|| Release 1.8.0 ||
+
+|| Release 2.0.0 ||
+
+TO BEST EXPERIENCE THE NEW CHANGES A RESTART IS RECOMMENDED BUT NOT REQUIRED
+
+The Following Budding Crustals have been updated and will need to be re-acquired if you use an older world
+-Awakened Draconium
+-Blazing Crystal
+-Glow Squid
+-Niotic Crystal
+-Magma Cube
+-HOP Graphite
+-Nitro Crystal
+-Quantum Alloy
+-Refined Glowstone
+-Chaos Dragon
+-Energized Steel
+-Wither Skeleton
+-Spirited Crystal
+-Snow Golem
+-Refined Obsidian
 
 // Mods Added //
 -Nyf's Spiders (Popular Request)
@@ -15,12 +35,18 @@ MODS TO REMOVE FROM SERVER PACKS
 -Universal Sawmill
 -Create Encased
 -Create: Power Loader
+-Mekanism Fission Recipe
+-Create: Extra Gauges
+-Create Ultimine
+-Create Horse Power
 
 // Mods Removed //
 -Custom Portals Mod
 -Simple Inventory Sorter
 -Double Doors
 -Stack Refill
+-Just Hammers
+-TrashSlot
 
 // Mods Updated //
 -Advanced AE
@@ -38,31 +64,55 @@ MODS TO REMOVE FROM SERVER PACKS
 
 // Config Changes //
 -Updated Fancy Menu
--Spice of Life now grants only 1 heart per food (Requires Server/World config reset)
+-Spice of Life now grants only 1 heart per food
 -Chunkloaders mod is now a 3hr timeout
 -Coal Coke remove from Budding Crystals
 -Hid Minecraft Stronghold from Explorer's Compass
 -Bridging Mod no Longer needs Sneak
 -Hid Tinker's Potions from JEI
+-Quarry Plus can only accept Efficiency now
+-Updated Budding Crystals blocks to have underscores
 
 // Quest Changes //
 -Removed some of the starter quests
+-Changed where Mining Dimension quests were located
+-Adding a quest for Budding Amethyst to indicate Silk Touch
+-Added text to Fission Reactor for Budding Resources.
 
 // Recipe Changes //
 -Removed Stonecutting recipe for Industrial Iron block
 -Removed compacting Steel recipe
 -Faster Blast Furnace Steel
 -Faster Coke Oven for Blast Brick
+-Faster Coke Oven for Coal Coke
 -Raw Blast Brick now requires Super Heating
 -Additional Mixer Recipes for nuggets
 -Swapped sap recipes to be Superheated
--Budding Crystaks entire rework
+-Budding Crystals now drop Shards
+-Changed recipes for Create Belts
+-All resource gases are now obtained in an Oxidizer
+-ME Glass Cable moved to Infuser
+-Added recipes for Oxidized resources to Irradiated resources in Fission Generator
+-Budding blocks are now made in the PRC
 
 // Script Changes //
 -Removed Andesite Alloy drops from Silk Touch Andesite
 -Renamed Ancient Debris to Nether Ancient Debris Ore
+-Overworld Quartz and Ancient Debris now drop their resources
 -Added new textures for Nether Gold and Ancient Debris
 -Custom Portals are now generated with KubeJS
+-Moved all Ore Drops to Datapacks to better support fortune
+-Moved all Datapacks
+-Renamed all Gases for Budding (This will wipe any from previous worlds)
+-New Textures for custom Plates and Rods
+-Increased Size of Ancient Debris Ore veins
+-Disabled Create D&D Striated Ore Generation (Hopefully fixing MEGA veins)
+-Added Fluix infuser type
+-Removed Silk Touch tooltip from Budding Clusters
+-Tinker's Budding Crystals support for Botany Pots
+
+
+
 
 || Release 1.7.1 ||
 

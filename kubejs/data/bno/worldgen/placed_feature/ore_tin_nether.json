@@ -1,0 +1,27 @@
+{
+  "feature": "bno:ore_tin_nether",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 3
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "max_inclusive": {
+          "absolute": 110
+        },
+        "min_inclusive": {
+          "absolute": 40
+        }
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

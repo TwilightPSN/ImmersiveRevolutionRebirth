@@ -1,0 +1,59 @@
+{
+  "modId": "otbwg",
+  "silent": true,
+  "group": {
+    "name": "Oh The Biomes We've Gone Mushrooms",
+    "enabledByDefault": false,
+    "defaultPayment": {
+      "item": "minecraft:emerald"
+    },
+    "defaultCategory": "farmingforblockheads:other"
+  },
+  "customEntries": [
+    {
+      "output": {
+        "item": "biomeswevegone:purple_bulbis_oddity"
+      }
+    },
+    {
+      "output": {
+        "item": "biomeswevegone:bulbis_oddity"
+      }
+    },
+    {
+      "output": {
+        "item": "biomeswevegone:fungal_imparius"
+      }
+    },
+    {
+      "output": {
+        "item": "biomeswevegone:imparius_mushroom"
+      }
+    },
+    {
+      "output": {
+        "item": "biomeswevegone:shulkren_fungus"
+      }
+    },
+    {
+      "output": {
+        "item": "biomeswevegone:green_mushroom"
+      }
+    },
+    {
+      "output": {
+        "item": "biomeswevegone:weeping_milkcap"
+      }
+    },
+    {
+      "output": {
+        "item": "biomeswevegone:wood_blewit"
+      }
+    },
+    {
+      "output": {
+        "item": "biomeswevegone:sythian_fungus"
+      }
+    }
+  ]
+}

@@ -30,4 +30,5 @@ ServerEvents.recipes(IRRebirth => {
     IRRebirth.remove({id: 'create_mechanical_chicken:compacting/compacting_seed_oil'})
     IRRebirth.remove({id: 'create:industrial_iron_block_from_ingots_iron_stonecutting'})
     IRRebirth.remove({id: 'create_dd:compacting/steel_ingot'})
+    IRRebirth.remove({output: 'create:belt_connector'})
 })
