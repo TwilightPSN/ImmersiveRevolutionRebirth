@@ -4,6 +4,27 @@ MODS TO REMOVE FROM SERVER PACKS
 -Clear Water
 -BadOptimizations
 
+|| Release 2.0.1 ||
+
+// Mods Added //
+-Crafting Station JEI Edition
+
+// Quest Changes //
+-Added quest to allow players to avoid (or abuse?) a bug (dupe) with the Fission Reactor recipes
+-Removed Tinker's Crafting Station from Tinker's quest
+-Quest rewards added/changed in intro line
+
+// Config Changes //
+-Quark Double Doors enabled
+-Enabled Quark Management
+-Adjusted DarkModeEverywhere so Tinker's Crafting Station is correct
+
+// Script Changes //
+-Modified Default Options
+-Fixed Silk Touch double drops
+-Copper Ore is 1 each baseline
+-Fixed Amethyst Silk Touch
+
 || Release 2.0.0 ||
 
 TO BEST EXPERIENCE THE NEW CHANGES A RESTART IS RECOMMENDED BUT NOT REQUIRED
