@@ -24,7 +24,21 @@
                   }
                 }
               ],
-              "name": "minecraft:budding_amethyst"
+              "name": "minecraft:copper_ore"
+            },
+            {
+              "type": "minecraft:item",
+              "functions": [
+                {
+                  "enchantment": "minecraft:fortune",
+                  "formula": "minecraft:ore_drops",
+                  "function": "minecraft:apply_bonus"
+                },
+                {
+                  "function": "minecraft:explosion_decay"
+                }
+              ],
+              "name": "minecraft:raw_copper"
             }
           ]
         }
@@ -32,5 +46,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/budding_amethyst"
+  "random_sequence": "minecraft:blocks/copper_ore"
 }

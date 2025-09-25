@@ -53,8 +53,8 @@
 				item: "buddingcrystals:budding_certus_quartz"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -4.0d
+			x: 3.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["133B7F6709116AD9"]
@@ -90,7 +90,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: -3.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["133B7F6709116AD9"]
@@ -101,8 +101,8 @@
 				item: "buddingcrystals:budding_nitro_crystal"
 				type: "item"
 			}]
-			x: 8.5d
-			y: -3.0d
+			x: 8.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["133B7F6709116AD9"]
@@ -113,8 +113,8 @@
 				item: "buddingcrystals:budding_niotic_crystal"
 				type: "item"
 			}]
-			x: 8.5d
-			y: -2.0d
+			x: 7.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["133B7F6709116AD9"]
@@ -125,8 +125,8 @@
 				item: "buddingcrystals:budding_blazing_crystal"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -3.0d
+			x: 6.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["133B7F6709116AD9"]
@@ -150,7 +150,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: -3.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["133B7F6709116AD9"]
@@ -257,7 +257,7 @@
 				item: "buddingcrystals:budding_uraninite"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 7.0d
 			y: -4.0d
 		}
 		{
@@ -269,7 +269,7 @@
 				item: "buddingcrystals:budding_spirited_crystal"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 6.5d
 			y: -2.5d
 		}
 		{
@@ -474,7 +474,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: -3.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["133B7F6709116AD9"]
@@ -485,7 +485,7 @@
 				item: "buddingcrystals:budding_sky_steel"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 4.0d
 			y: -2.5d
 		}
 		{

@@ -21,13 +21,20 @@
 				"Draconium and Ancient Debris have also been changed to drop a raw resource. These resources are directly affected by fortune meaning you can get more use from Ancient Debris."
 			]
 			id: "599030C9DB9B1E08"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "77337738A585F875"
-				table_id: 236110544362459607L
-				team_reward: false
-				type: "choice"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "77337738A585F875"
+					table_id: 236110544362459607L
+					team_reward: false
+					type: "choice"
+				}
+				{
+					id: "106936EF858F5D5A"
+					item: "rechiseled:chisel"
+					type: "item"
+				}
+			]
 			size: 1.0d
 			tasks: [{
 				dimension: "minecraft:overworld"
@@ -43,12 +50,18 @@
 			description: ["We start with the tedious tasks of any Minecraft journey, gathering wood and stone. The material will be the stepping stones to moving forward with our operations and developing the tools we need to grow."]
 			id: "150B3A6B61937F78"
 			require_sequential_tasks: false
-			rewards: [{
-				count: 32
-				id: "2DC1487679990C55"
-				item: "minecraft:stone"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "5638AA7B01BDA0AF"
+					item: "minecraft:stonecutter"
+					type: "item"
+				}
+				{
+					id: "2E7EB2B7671443EF"
+					item: "sawmill:sawmill"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "720966397EDE1F2E"
@@ -658,11 +671,6 @@
 				}
 			]
 			tasks: [
-				{
-					id: "5A4DD15ABA84F19E"
-					item: "tconstruct:crafting_station"
-					type: "item"
-				}
 				{
 					id: "2AAD5F8B47B01E1A"
 					item: "tconstruct:tinker_station"
