@@ -1,50 +1,50 @@
 
 [tweaks]
-	"Double Door Opening" = false
-	"Armed Armor Stands" = true
-	"Automatic Recipe Unlock" = true
-	"Better Elytra Rocket" = true
-	"Campfires Boost Elytra" = true
-	"Compasses Work Everywhere" = true
-	"Coral On Cactus" = true
-	"Diamond Repair" = true
-	"Dragon Scales" = true
+	"Double Door Opening" = true
+	"Armed Armor Stands" = false
+	"Automatic Recipe Unlock" = false
+	"Better Elytra Rocket" = false
+	"Campfires Boost Elytra" = false
+	"Compasses Work Everywhere" = false
+	"Coral On Cactus" = false
+	"Diamond Repair" = false
+	"Dragon Scales" = false
 	"Dyeable Item Frames" = true
 	Emotes = true
 	"Enhanced Ladders" = true
-	"Glass Shard" = true
-	"Gold Tools Have Fortune" = true
+	"Glass Shard" = false
+	"Gold Tools Have Fortune" = false
 	"Grab Chickens" = true
-	"Hoe Harvesting" = true
+	"Hoe Harvesting" = false
 	"Horses Swim" = true
 	"Improved Sponges" = true
-	"Lock Rotation" = true
+	"Lock Rotation" = false
 	"Magma Keeps Concrete Powder" = true
 	"Map Washing" = true
 	"More Banner Layers" = true
 	"More Note Block Sounds" = true
 	"More Villagers" = true
-	"No Durability On Cosmetics" = true
+	"No Durability On Cosmetics" = false
 	"Pat The Dogs" = true
 	"Petals On Water" = true
 	"Pig Litters" = true
-	"Poison Potato Usage" = true
-	"Reacharound Placing" = true
-	"Renewable Spore Blossoms" = true
-	"Replace Scaffolding" = true
-	"Safer Creatures" = true
-	"Shulker Packing" = true
+	"Poison Potato Usage" = false
+	"Reacharound Placing" = false
+	"Renewable Spore Blossoms" = false
+	"Replace Scaffolding" = false
+	"Safer Creatures" = false
+	"Shulker Packing" = false
 	"Simple Harvest" = true
-	"Slabs To Blocks" = true
-	"Slimes To Magma Cubes" = true
-	"Snow Golem Player Heads" = true
-	"Utility Recipes" = true
-	"Vexes Die With Their Masters" = true
-	"Villagers Follow Emeralds" = true
-	"Zombie Villagers On Normal" = true
+	"Slabs To Blocks" = false
+	"Slimes To Magma Cubes" = false
+	"Snow Golem Player Heads" = false
+	"Utility Recipes" = false
+	"Vexes Die With Their Masters" = false
+	"Villagers Follow Emeralds" = false
+	"Zombie Villagers On Normal" = false
 
 	[tweaks.double_door_opening]
-		"Enable Doors" = false
+		"Enable Doors" = true
 		"Enable Fence Gates" = false
 		#This feature disables itself if any of the following mods are loaded:
 		# - utilitix
@@ -255,7 +255,7 @@
 		"Smelt Raw Ore Blocks" = true
 
 [general]
-	"Enable 'q' Button" = false
+	"Enable 'q' Button" = true
 	"'q' Button on the Right" = false
 	"Disable Q Menu Effects" = false
 	#How many advancements deep you can see in the advancement screen. Vanilla is 2.
@@ -296,9 +296,9 @@
 [categories]
 	automation = false
 	building = true
-	management = false
+	management = true
 	tools = false
-	tweaks = false
+	tweaks = true
 	world = true
 	mobs = true
 	client = false
@@ -540,7 +540,7 @@
 	"Automatic Tool Restock" = true
 	"Easy Transfering" = true
 	"Expanded Item Interactions" = true
-	"Hotbar Changer" = true
+	"Hotbar Changer" = false
 	"Inventory Sorting" = true
 	"Item Sharing" = true
 	"Quick Armor Swapping" = true

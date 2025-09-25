@@ -24,7 +24,7 @@
 		{
 			id: "632F77554559BAE6"
 			linked_quest: "780D0B7F4D20A17D"
-			x: 0.0d
+			x: 0.5d
 			y: -6.0d
 		}
 	]
@@ -494,7 +494,7 @@
 				}
 			]
 			title: "Does it Matter?"
-			x: 2.5d
+			x: 3.5d
 			y: -4.5d
 		}
 		{
@@ -654,7 +654,7 @@
 				}
 			]
 			title: "Stay Safe"
-			x: 0.0d
+			x: 1.0d
 			y: -5.0d
 		}
 		{
@@ -850,7 +850,7 @@
 				}
 			]
 			title: "Fusion Summon"
-			x: 1.5d
+			x: 2.5d
 			y: -4.5d
 		}
 		{
@@ -875,7 +875,7 @@
 				}
 			]
 			title: "Pew Pew"
-			x: 2.0d
+			x: 3.5d
 			y: -5.5d
 		}
 		{
@@ -923,7 +923,7 @@
 				type: "item"
 			}]
 			title: "D-T Phone Home"
-			x: 1.0d
+			x: 2.0d
 			y: -5.5d
 		}
 		{
@@ -1086,6 +1086,26 @@
 			title: "Nether Mining Dimension"
 			x: 1.5d
 			y: -0.5d
+		}
+		{
+			dependencies: ["57B92A99D1F22EF4"]
+			description: [
+				"Currently, there is a bug where the Fission Reactor must be broken after making the Irradiated material for any budding. After you make the 10,000 you need, empty the machine, break a single block and reassemble it. If you do not do this, the machine will continue to take the Oxidized materials and make the previous Irradiated material."
+				""
+				"This does mean that you can use this method to dupe higher end materials with lower end ones, this note is here to prevent doing so and allow you to avoid a dupe heavily breaking progression."
+			]
+			icon: "createdeco:decal_warning"
+			icon_scale: 2.0d
+			id: "7B1A006C69524BFE"
+			shape: "none"
+			size: 1.5d
+			tasks: [{
+				id: "1D8A8B91D5A41D53"
+				title: "Reactor Warning!"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -5.5d
 		}
 	]
 	title: "Mekanism"

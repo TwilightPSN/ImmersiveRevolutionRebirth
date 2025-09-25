@@ -1189,8 +1189,9 @@
 			dependencies: ["1A7820CA8E752427"]
 			description: ["While trains do work with Custom Portals in the pack, they WILL NOT line up. This is a limit of the mod allowing them to work. DO NOT attempt to break the portals and make them bigger as the portals may break and never reconnect."]
 			icon: "create:train_door"
+			icon_scale: 2.0d
 			id: "1215C314BD1747DC"
-			shape: "pentagon"
+			shape: "none"
 			size: 2.0d
 			tasks: [{
 				id: "615C4F92A0899A14"
