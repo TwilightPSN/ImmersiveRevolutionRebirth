@@ -24,8 +24,6 @@ MODS TO REMOVE FROM SERVER PACKS
 -Fixed Silk Touch double drops
 -Copper Ore is 1 each baseline
 -Fixed Amethyst Silk Touch
--Adjusted Andesite Alloy drop chance from Andesite to better scale with Fortune
-
 
 || Release 2.0.0 ||
 
