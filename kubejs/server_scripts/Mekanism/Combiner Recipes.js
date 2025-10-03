@@ -10,4 +10,5 @@ ServerEvents.recipes(IRRebirth => {
     IRRebirth.recipes.mekanism.combining(Item.of('immersiveengineering:ingot_electrum', 2), '#forge:ingots/gold', '#forge:ingots/silver')
     IRRebirth.recipes.mekanism.combining(Item.of('mekanism:ingot_bronze', 4), '#forge:ingots/tin', '3x #forge:ingots/copper')
     IRRebirth.recipes.mekanism.combining(Item.of('mekanism:ingot_bronze', 4), '3x #forge:ingots/copper', '#forge:ingots/tin')
+    IRRebirth.recipes.mekanism.combining('kubejs:obsidian_mesh', '4x mekanism:hdpe_stick', '#forge:storage_blocks/refined_obsidian')
 })

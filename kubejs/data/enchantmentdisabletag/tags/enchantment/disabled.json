@@ -3,6 +3,8 @@
   "values": [
     "minecraft:unbreaking",
     "minecraft:mending",
-    "apotheosis:life_mending"
+    "apotheosis:life_mending",
+    "apotheosis:unbreaking",
+    "apotheosis:endless_quiver"
   ]
 }

@@ -310,7 +310,11 @@
 		}
 		{
 			dependencies: ["43EA598EC21DA525"]
-			description: ["With the many tools and wrenches we will need, the Toolbelt allows us to stow them all away for use without using extra inventory slots. Simply put the belt on by hitting the designated hot key and then use the hot keys to add and remove items as needed. You can even swap the items with ones already in the belt."]
+			description: [
+				"With the many tools and wrenches we will need, the Toolbelt allows us to stow them all away for use without using extra inventory slots. Simply put the belt on by hitting the designated hot key and then use the hot keys to add and remove items as needed. You can even swap the items with ones already in the belt."
+				""
+				"To add more slots, simply apply the belt pouches in an anvil."
+			]
 			id: "7EC8D3471FB3EEDE"
 			optional: true
 			require_sequential_tasks: false

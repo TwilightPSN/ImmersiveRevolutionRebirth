@@ -52,7 +52,7 @@
             },
             { "function": "minecraft:explosion_decay" }
           ],
-          "name": "beo:raw_zinc"
+          "name": "create:raw_zinc"
         }
       ]
     }

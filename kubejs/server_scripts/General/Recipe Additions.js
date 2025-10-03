@@ -241,4 +241,18 @@ ServerEvents.recipes(IRRebirth => {
           'minecraft:soul_sand'
         ]
       )
+    IRRebirth.shaped(
+        Item.of('sophisticatedstorage:controller'), 
+        [
+          'ABA',
+          'CDC',
+          'ABA'
+        ],
+        {
+          A: '#forge:stone',
+          B: 'minecraft:comparator',
+          C: '#minecraft:planks',
+          D: 'create:item_vault'
+        }
+      ).id('sophisticatedstorage:controller')
 })

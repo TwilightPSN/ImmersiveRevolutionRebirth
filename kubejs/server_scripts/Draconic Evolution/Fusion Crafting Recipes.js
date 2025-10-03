@@ -389,4 +389,29 @@ ServerEvents.recipes(IRRebirth => {
         "tier": "CHAOTIC",
         "total_energy": 1250000000
       }).id('buddingcrystals:budding_chaos_dragon')
+    IRRebirth.custom({
+        "type": "draconicevolution:fusion_crafting",
+        "catalyst": {
+          "item": "draconicevolution:awakened_draconium_block"
+        },
+        "ingredients": [
+          {
+            "item": "draconicevolution:awakened_core"
+          },
+          {
+            "item": "draconicevolution:awakened_core"
+          },
+          {
+            "item": "draconicevolution:awakened_core"
+          },
+          {
+            "item": "draconicevolution:awakened_core"
+          }
+        ],
+        "result": {
+          "item": "kubejs:awakened_mesh"
+        },
+        "tier": "DRACONIC",
+        "total_energy": 1250000000
+      })
 })

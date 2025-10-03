@@ -22,7 +22,7 @@ ServerEvents.recipes(IRRebirth => {
     IRRebirth.remove({output: 'create_dd:andesite_sheet'})
     IRRebirth.remove({output: 'create_dd:flywheel'})
     IRRebirth.remove({output: 'create_dd:furnace_engine'})
-    IRRebirth.remove({output: 'createadditions:alternator'})
+    IRRebirth.remove({output: 'createaddition:alternator'})
     IRRebirth.remove({id: '/create_dd:emptying/sap_from_.*/'})
     IRRebirth.remove({id: 'createdeco:industrial_iron_nugget_from_industrial_iron_ingot'})
     IRRebirth.remove({id: '/createaddition:compat/tconstruct/.*/'})

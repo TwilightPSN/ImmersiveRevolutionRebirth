@@ -280,5 +280,24 @@ ServerEvents.recipes(IRRebirth => {
       E: 'create:chute',
       F: 'mekanism:jetpack_armored'
     }).id('create_jetpack:netherite_jetpack')
-
-  })
+    IRRebirth.recipes.create.mechanical_crafting(Item.of('immersiveengineering:blueprint', '{blueprint:"Machine Components"}'), [
+      'AABBBBBAA',
+      'ACCDEDCCA',
+      'BCFFEFFCB',
+      'BDFGEGFDB',
+      'BEEEHEEEB',
+      'BDFGEGFDB',
+      'BCFFEFFCB',
+      'ACCDEDCCA',
+      'AABBBBBAA'
+    ], {
+      A: 'immersiveengineering:heavy_engineering',
+      B: 'immersiveengineering:fluid_pipe',
+      C: 'immersiveengineering:light_engineering',
+      D: 'immersiveengineering:rs_engineering',
+      E: 'immersiveengineering:radiator',
+      F: 'immersiveengineering:generator',
+      G: 'immersiveengineering:steel_scaffolding_standard',
+      H: 'immersiveengineering:hemp_fabric'
+    }) 
+})

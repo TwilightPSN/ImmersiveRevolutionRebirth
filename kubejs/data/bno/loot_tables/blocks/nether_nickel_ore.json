@@ -58,7 +58,7 @@
               "function": "minecraft:explosion_decay"
             }
           ],
-          "name": "bno:raw_nickel"
+          "name": "immersiveengineering:raw_nickel"
         }
       ]
     }

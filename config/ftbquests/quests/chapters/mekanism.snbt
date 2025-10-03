@@ -27,6 +27,12 @@
 			x: 0.5d
 			y: -6.0d
 		}
+		{
+			id: "24CD47CE474E97C7"
+			linked_quest: "265D4F1383BFDBC6"
+			x: 0.0d
+			y: 2.0d
+		}
 	]
 	quests: [
 		{
@@ -424,7 +430,7 @@
 				type: "item"
 			}]
 			title: "Burnt Clay"
-			x: -0.5d
+			x: -1.0d
 			y: 1.5d
 		}
 		{
@@ -444,7 +450,7 @@
 				type: "item"
 			}]
 			title: "Pastey Procedures"
-			x: -1.5d
+			x: -2.0d
 			y: 1.5d
 		}
 		{

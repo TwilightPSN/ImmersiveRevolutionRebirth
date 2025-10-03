@@ -58,7 +58,7 @@
               "function": "minecraft:explosion_decay"
             }
           ],
-          "name": "bno:raw_aluminum"
+          "name": "immersiveengineering:raw_aluminum"
         }
       ]
     }

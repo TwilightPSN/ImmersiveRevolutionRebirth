@@ -6,13 +6,21 @@
 	icon: "draconicevolution:reactor_stabilizer"
 	id: "17FB7BECC622A718"
 	order_index: 0
-	quest_links: [{
-		id: "194AAB595E86D0D2"
-		linked_quest: "1D95E21C7984BD6C"
-		shape: "gear"
-		x: -2.5d
-		y: 1.5d
-	}]
+	quest_links: [
+		{
+			id: "194AAB595E86D0D2"
+			linked_quest: "1D95E21C7984BD6C"
+			shape: "gear"
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			id: "4C956A83C2CD0CEB"
+			linked_quest: "1FCCFF66C825C1AB"
+			x: 2.5d
+			y: 2.5d
+		}
+	]
 	quests: [
 		{
 			dependencies: ["1D95E21C7984BD6C"]
