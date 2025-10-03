@@ -52,7 +52,7 @@
             },
             { "function": "minecraft:explosion_decay" }
           ],
-          "name": "beo:raw_silver"
+          "name": "immersiveengineering:raw_silver"
         }
       ]
     }

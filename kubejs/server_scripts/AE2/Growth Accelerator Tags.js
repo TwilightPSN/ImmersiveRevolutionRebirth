@@ -50,7 +50,7 @@ ServerEvents.tags("block", (IRRebirth) => {
     "buddingcrystals:budding_spider",
     "buddingcrystals:budding_bee",
     "buddingcrystals:budding_snow_golem",
-    "buddingcrystals:budding_skysteel",
+    "buddingcrystals:budding_sky_steel",
     "buddingcrystals:budding_squid",
     "buddingcrystals:budding_glow_squid",
     "buddingcrystals:budding_blaze",
@@ -59,7 +59,6 @@ ServerEvents.tags("block", (IRRebirth) => {
     "buddingcrystals:budding_enderman",
     "buddingcrystals:budding_sculk",
     "buddingcrystals:budding_cow",
-    "buddingcrystals:budding_acidicredstone",
     "buddingcrystals:budding_magma_cube",
     "buddingcrystals:budding_chicken",
     "buddingcrystals:budding_phantom",
@@ -67,7 +66,6 @@ ServerEvents.tags("block", (IRRebirth) => {
     "buddingcrystals:budding_slime",
     "buddingcrystals:budding_wither",
     "buddingcrystals:budding_chaos_dragon",
-    "buddingcrystals:budding_coalcoke",
   ];
 
   buddingCrystals.forEach((crystal) => {

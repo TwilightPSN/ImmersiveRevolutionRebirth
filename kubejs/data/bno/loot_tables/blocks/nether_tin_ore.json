@@ -58,7 +58,7 @@
               "function": "minecraft:explosion_decay"
             }
           ],
-          "name": "bno:raw_tin"
+          "name": "mekanism:raw_tin"
         }
       ]
     }

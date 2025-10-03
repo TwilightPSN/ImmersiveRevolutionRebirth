@@ -1164,7 +1164,7 @@
 				type: "item"
 			}]
 			title: "Slurping Liquids"
-			x: 0.0d
+			x: 1.0d
 			y: 2.0d
 		}
 		{
@@ -1218,6 +1218,79 @@
 			title: "Raw Horse Power"
 			x: -9.5d
 			y: -1.0d
+		}
+		{
+			dependencies: [
+				"1DC92E38196D4E10"
+				"7BE55FA9BDE5E7F6"
+			]
+			description: ["With access to HOP Graphite, Hemp and Phenolic Resin, we can make a mesh to sift for Immersive Engineering resources."]
+			id: "757084BE31B08CCB"
+			tasks: [{
+				id: "1A93E422649A9337"
+				item: {
+					Count: 1
+					id: "kubejs:graphite_mesh"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "IE Sifting"
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"1DC92E38196D4E10"
+				"421B6C0FA9E9D45D"
+			]
+			description: ["Gaining access to PlaStick and Refined Obsidian, we can create a sturdy mesh to allow us to sift for Mekanism and Powah resources."]
+			id: "265D4F1383BFDBC6"
+			tasks: [{
+				id: "721ED164164078D3"
+				item: "kubejs:obsidian_mesh"
+				type: "item"
+			}]
+			title: "Mek/Powah Sifting"
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"1DC92E38196D4E10"
+				"2027EC662CB9A837"
+			]
+			description: ["Getting deep into Draconic Evolution allows us to make a Draconic sifter. This sifter can be used to process End Stone and generate Draconic resources, AND MORE!"]
+			id: "1FCCFF66C825C1AB"
+			tasks: [{
+				id: "478FDA818D72365C"
+				item: "kubejs:awakened_mesh"
+				type: "item"
+			}]
+			title: "Draconic Sifting"
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0B9B63389931F8CD"]
+			description: ["One of our best forms of armor before technology is the Echo Armor. We make this by making Echo Ingots and infusing potions and echo shards into our Netherite Armor. This armor is a set and will provide us with bonuses."]
+			id: "30A575B9831EC0AD"
+			rewards: [{
+				count: 4
+				id: "0A37D0E72A0C782B"
+				item: "minecraft:echo_shard"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6469295A1C62FEDD"
+				item: "create_deep_dark:echo_ingot"
+				type: "item"
+			}]
+			title: "Warden Warrior"
+			x: 0.0d
+			y: 2.0d
 		}
 	]
 	title: "Create"

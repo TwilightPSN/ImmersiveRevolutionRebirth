@@ -28,6 +28,12 @@
 			x: -4.0d
 			y: 0.0d
 		}
+		{
+			id: "7E5FCE643023533B"
+			linked_quest: "757084BE31B08CCB"
+			x: 1.5d
+			y: 3.0d
+		}
 	]
 	quests: [
 		{
@@ -871,6 +877,25 @@
 			}]
 			x: -1.0d
 			y: -0.5d
+		}
+		{
+			dependencies: ["02AED649A06B3A01"]
+			description: ["Using the Mechanical Crafter can be a very tiring process when you need bulk blocks. By making a special blueprint, we can begin to easily automate the machine parts we need."]
+			id: "14FE6194072364D2"
+			tasks: [{
+				id: "654D105070BFA52E"
+				item: {
+					Count: 1
+					id: "immersiveengineering:blueprint"
+					tag: {
+						blueprint: "Machine Components"
+					}
+				}
+				type: "item"
+			}]
+			title: "Blocks Made Easy"
+			x: -2.5d
+			y: -3.5d
 		}
 	]
 	title: "Immersive Engineering"

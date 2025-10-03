@@ -224,7 +224,8 @@ JEIEvents.addItems(IRRebirth => {
       'botanypots:terracotta_hopper_botany_pot',
       'botanypots:terracotta_botany_pot',
       'mekanism:creative_chemical_tank',
-      'mekanism:creative_fluid_tank']);
+      'mekanism:creative_fluid_tank',
+      ]);
 })
 
 JEIEvents.hideFluids(IRRebirth => {

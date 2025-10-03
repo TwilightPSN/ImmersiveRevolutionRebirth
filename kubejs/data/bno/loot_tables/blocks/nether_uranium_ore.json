@@ -58,7 +58,7 @@
               "function": "minecraft:explosion_decay"
             }
           ],
-          "name": "bno:raw_uranium"
+          "name": "mekanism:raw_uranium"
         }
       ]
     }

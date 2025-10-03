@@ -20,4 +20,5 @@ ServerEvents.recipes(IRRebirth => {
     IRRebirth.custom({"type":"immersiveengineering:bottling_machine","energy":75000,"fluid":{"amount":5000,"tag":"forge:experience/magma_cube"},"inputs":[{"item":"minecraft:budding_amethyst"}],"results":{"item":"buddingcrystals:budding_magma_cube"}})
     IRRebirth.custom({"type":"immersiveengineering:bottling_machine","energy":75000,"fluid":{"amount":5000,"tag":"forge:experience/phantom"},"inputs":[{"item":"minecraft:budding_amethyst"}],"results":{"item":"buddingcrystals:budding_phantom"}})
     IRRebirth.custom({"type":"immersiveengineering:bottling_machine","energy":75000,"fluid":{"amount":5000,"tag":"forge:experience/chicken"},"inputs":[{"item":"minecraft:budding_amethyst"}],"results":{"item":"buddingcrystals:budding_chicken"}})
+    IRRebirth.custom({"type":"immersiveengineering:bottling_machine","fluid":{"amount":1000,"tag":"forge:phenolic_resin"},"inputs":[{"item":"immersiveengineering:mold_plate"}, {"item":"immersiveengineering:hemp_fiber", "count": 20}, {"item":"immersiveengineering:graphite_electrode", "count": 4}],"results":[{"item":"kubejs:graphite_mesh"},{"item":"immersiveengineering:mold_plate"}]})
 })

@@ -4,6 +4,77 @@ MODS TO REMOVE FROM SERVER PACKS
 -Clear Water
 -BadOptimizations
 
+|| Release 2.1.0 ||
+
+Forge Updated to 47.4.9
+
+// Mods Added //
+-EMI
+-EMI Enchanting
+-EMI Loot
+-EMI Ores
+-EMI Trades
+-EMI: Create schematics
+-Schematic Energistics
+
+// Mods Updated //
+-AdvancedAE
+-All The Leaks
+-BadOptimizations
+-Balm
+-Better Animations Collection
+-Collective
+-Create: Extra Gauges
+-Every Compat
+-Farming for Blockheads
+-Forgiving Void
+-InsaneLib
+-Integrated Cataclysm
+-Just Enough Breeding
+-Just Enough Items
+-Just Enough Mekanism Multiblocks
+-Oh The Biomes We've Gone
+-Sophisticated Backpacks
+-Sophisticated Backpacks Create Integration
+-Sophisticated Core
+-Sophisticated Storage
+-Sophisticated Storage Create Integration
+-Stone Zone
+-Supplementaries
+-TCIntegrations
+
+// Mods Removed //
+-Just Enough Resources
+-Nyf's Spiders
+
+// Quest Changes //
+-Added info about Cloche to Budding
+-Added info about Anvil to Toolbelt
+-Added quests for the various new meshes
+-Added quest for the new blueprint for IE
+
+// Script Changes //
+-Fixed Sky Steel for Growth Accelerators
+-Adjusted Datapacks for BEO and BNO so they show proper drops in EMI
+-Generated Nether Portals in the world now spawn with Nether Frame Bricks & Sculk instead of Obsidian/Netherrack
+-Removed many armors that will now break
+-Soul Elytra now requires HDPE Elytra
+-Armors removed from loot
+-All budding can now be grown in Cloches
+-Fixed Budding Emerald not being able to Silk Touch
+-Apotheosis Endless Quiver and Unbreaking removed
+-Near Everything should now be Unbreakable (That can be)
+-Added Create Sifters for Modded Materials
+-Fixed Overworld and Deepslate Draconium dropping nothing
+-Draconium is now x1 in the End and x4 in the Overworld
+
+// Recipe Changes //
+-Changed recipe for Sophisticated Storage Controller
+-Extruder recipe for Sculk
+-Create Additions Alternator actually disabled
+-Added recipes for all IE blocks to special Blueprint
+-QuarryPlus enchantment mover recipe changed to default
+
 || Release 2.0.1 ||
 
 // Mods Added //
