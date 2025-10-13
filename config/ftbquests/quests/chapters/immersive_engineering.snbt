@@ -17,22 +17,22 @@
 			id: "1053DB2B1F2F9B7C"
 			linked_quest: "165BA06960C5C2AB"
 			shape: "gear"
-			x: -6.0d
-			y: 1.0d
+			x: -9.0d
+			y: 1.5d
 		}
 		{
 			icon: "immersiveengineering:alloy_smelter"
 			id: "188A67370B07C617"
 			linked_quest: "3DF334D3DF981D3D"
 			shape: "octagon"
-			x: -4.0d
+			x: -6.0d
 			y: 0.0d
 		}
 		{
 			id: "7E5FCE643023533B"
 			linked_quest: "757084BE31B08CCB"
-			x: 1.5d
-			y: 3.0d
+			x: -0.5d
+			y: 4.5d
 		}
 	]
 	quests: [
@@ -58,8 +58,8 @@
 				type: "item"
 			}]
 			title: "Hammah!"
-			x: -4.0d
-			y: 1.0d
+			x: -6.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["165BA06960C5C2AB"]
@@ -77,8 +77,8 @@
 				type: "item"
 			}]
 			title: "Get Treated"
-			x: -5.0d
-			y: 1.0d
+			x: -7.5d
+			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -103,8 +103,8 @@
 				type: "observation"
 			}]
 			title: "Sequential Oven"
-			x: -3.0d
-			y: 1.0d
+			x: -4.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["2D69C4A5F91F3CF7"]
@@ -127,7 +127,7 @@
 			}]
 			title: "Crudely Blasting"
 			x: -2.0d
-			y: 1.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["38DE58C8666609EC"]
@@ -149,8 +149,8 @@
 				type: "observation"
 			}]
 			title: "Improved Blasting"
-			x: -3.0d
-			y: 2.0d
+			x: -5.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["023D129314703FD1"]
@@ -169,8 +169,8 @@
 				type: "item"
 			}]
 			title: "Powered Blasting"
-			x: -4.0d
-			y: 2.0d
+			x: -6.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["38DE58C8666609EC"]
@@ -187,8 +187,8 @@
 				type: "item"
 			}]
 			title: "Electrical Kinetics"
-			x: -2.0d
-			y: 0.0d
+			x: -3.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["38DE58C8666609EC"]
@@ -205,33 +205,8 @@
 				type: "item"
 			}]
 			title: "Heat Differential"
-			x: -3.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["266CDDD166A086DA"]
-			description: ["Sometimes building and desgining can be tedious. We can leave this to the experts and use the Schematicannon to build for us. The pack comes included with schematics for all of the Immersive Engineering multiblocks for you to build."]
-			id: "780D07242DE7E506"
-			rewards: [{
-				id: "20FFC2CDDD0606AB"
-				item: "create:empty_schematic"
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "3144AACC48F9F7D5"
-					item: "create:schematicannon"
-					type: "item"
-				}
-				{
-					id: "7CD13D0F35112632"
-					item: "create:schematic_table"
-					type: "item"
-				}
-			]
-			title: "Laying Schematics"
-			x: -5.0d
-			y: 0.0d
+			x: -3.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["1274E79019C28F4A"]
@@ -249,8 +224,8 @@
 				type: "item"
 			}]
 			title: "Water Wheeling"
-			x: -3.5d
-			y: -1.0d
+			x: -5.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["1274E79019C28F4A"]
@@ -268,8 +243,8 @@
 				type: "item"
 			}]
 			title: "Windy Ways"
-			x: -2.5d
-			y: -1.0d
+			x: -4.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["68BD97666C35C625"]
@@ -288,8 +263,8 @@
 				type: "item"
 			}]
 			title: "Sailing Away"
-			x: -3.5d
-			y: -2.0d
+			x: -5.5d
+			y: -3.5d
 		}
 		{
 			dependencies: [
@@ -311,8 +286,8 @@
 				type: "item"
 			}]
 			title: "Energy Acceptance"
-			x: -0.5d
-			y: -3.0d
+			x: 0.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["1274E79019C28F4A"]
@@ -329,8 +304,8 @@
 				type: "item"
 			}]
 			title: "Compact Storage"
-			x: -1.5d
-			y: -1.5d
+			x: -3.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["3DF334D3DF981D3D"]
@@ -352,7 +327,7 @@
 				type: "item"
 			}]
 			title: "Explorer's World"
-			x: -4.5d
+			x: -7.0d
 			y: -1.0d
 		}
 		{
@@ -371,8 +346,8 @@
 				type: "dimension"
 			}]
 			title: "The End..."
-			x: -5.5d
-			y: -1.0d
+			x: -8.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["60C64ED98B3DA5FE"]
@@ -401,7 +376,7 @@
 				}
 			]
 			title: "The End at Home"
-			x: -5.0d
+			x: -10.0d
 			y: -2.0d
 		}
 		{
@@ -423,13 +398,12 @@
 				type: "observation"
 			}]
 			title: "Electrical Press"
-			x: -1.0d
-			y: 1.0d
+			x: -0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["47EA72930E8B263C"]
 			description: ["The multiblock Crusher from Immersive Engineering gives us access to crushing materials in a larger scale. This machine crushes items down, sometimes into other materials we were not able to get before."]
-			hide_dependency_lines: true
 			icon: "immersiveengineering:crusher"
 			id: "1787025054B9F175"
 			rewards: [{
@@ -447,8 +421,8 @@
 				type: "observation"
 			}]
 			title: "Can it Crush"
-			x: 1.0d
-			y: -1.0d
+			x: -0.5d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -473,8 +447,8 @@
 				type: "observation"
 			}]
 			title: "Power Arc"
-			x: 0.5d
-			y: -2.0d
+			x: 2.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["546D8110EC3DA895"]
@@ -499,8 +473,8 @@
 				}
 			]
 			title: "Mining Dimension Portal"
-			x: 0.5d
-			y: -4.0d
+			x: 2.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["68FF89B494B577B4"]
@@ -512,8 +486,8 @@
 				type: "dimension"
 			}]
 			title: "Mining Dimension"
-			x: -0.5d
-			y: -4.0d
+			x: 0.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["5ECDD562A5C902F6"]
@@ -534,8 +508,8 @@
 				type: "observation"
 			}]
 			title: "Environmental Catastrophe"
-			x: 0.0d
-			y: 3.0d
+			x: 3.5d
+			y: 5.5d
 		}
 		{
 			dependencies: [
@@ -559,11 +533,11 @@
 				type: "observation"
 			}]
 			title: "Refined"
-			x: 0.0d
-			y: 2.0d
+			x: 2.5d
+			y: 4.5d
 		}
 		{
-			dependencies: ["47EA72930E8B263C"]
+			dependencies: ["38DE58C8666609EC"]
 			description: ["The Fermenter multiblock can be used to generate Ethanol. This resource can be produce through various different crops and utilized into further resources."]
 			id: "1CA2206C39C24626"
 			rewards: [{
@@ -580,11 +554,11 @@
 				type: "observation"
 			}]
 			title: "Fermentation"
-			x: -1.0d
-			y: 2.0d
+			x: -1.5d
+			y: 5.5d
 		}
 		{
-			dependencies: ["47EA72930E8B263C"]
+			dependencies: ["38DE58C8666609EC"]
 			description: ["The Industrial Squeezer is used to extra oil from seeds. It can also be used to squeeze Coke Dust into Graphite Dust."]
 			id: "18EEE381A90610B5"
 			rewards: [{
@@ -602,14 +576,11 @@
 				type: "observation"
 			}]
 			title: "Squeezed Dry"
-			x: 0.0d
+			x: 3.0d
 			y: 1.0d
 		}
 		{
-			dependencies: [
-				"0649FCAA578DC2E6"
-				"6CBE6DD3F776E019"
-			]
+			dependencies: ["7BE55FA9BDE5E7F6"]
 			description: ["With the materials we have coming from all our machines, we are able to make a Quarry now to begin strip mining. This will allow us to gain materials while focusing on other tasks at hand."]
 			id: "45F9ED8270B59E26"
 			rewards: [{
@@ -623,8 +594,8 @@
 				type: "item"
 			}]
 			title: "Can't Touch This"
-			x: 2.0d
-			y: 0.0d
+			x: -1.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["18EEE381A90610B5"]
@@ -641,8 +612,8 @@
 				type: "item"
 			}]
 			title: "Graphiti"
-			x: 1.0d
-			y: 0.0d
+			x: 4.0d
+			y: -0.5d
 		}
 		{
 			dependencies: [
@@ -666,7 +637,7 @@
 			}]
 			title: "Bottled Up"
 			x: 1.0d
-			y: 2.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["07283140B11FB4CC"]
@@ -687,8 +658,8 @@
 				type: "observation"
 			}]
 			title: "Ka Chow!"
-			x: -2.5d
-			y: -2.0d
+			x: -4.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["29E99CB108C9DD1E"]
@@ -719,8 +690,8 @@
 				}
 			]
 			title: "Diggy Diggy Hole"
-			x: -1.0d
-			y: 3.0d
+			x: 4.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["546D8110EC3DA895"]
@@ -738,8 +709,8 @@
 				type: "item"
 			}]
 			title: "New Age Metal"
-			x: 1.5d
-			y: -3.5d
+			x: 4.0d
+			y: -4.5d
 		}
 		{
 			dependencies: [
@@ -772,13 +743,12 @@
 				type: "item"
 			}]
 			title: "Early Electrodes"
-			x: 0.0d
+			x: 1.5d
 			y: -1.0d
 		}
 		{
-			dependencies: ["47EA72930E8B263C"]
+			dependencies: ["38DE58C8666609EC"]
 			description: ["The Mixer is a machine we can use to mix up and make Redstone Acid. This acid is crucial to progressing further into Mekanism. We can also use the Mixer to combine experience with mob drops to create mob essence for special budding resources."]
-			hide_dependency_lines: true
 			id: "6CBE6DD3F776E019"
 			rewards: [{
 				id: "244D3E3C1C5D20E9"
@@ -794,8 +764,8 @@
 				type: "observation"
 			}]
 			title: "Multi-Mixer"
-			x: 1.0d
-			y: 1.0d
+			x: 0.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["7BE55FA9BDE5E7F6"]
@@ -814,7 +784,7 @@
 			}]
 			title: "Hardened Acid"
 			x: 2.0d
-			y: 2.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["546D8110EC3DA895"]
@@ -836,8 +806,8 @@
 				type: "observation"
 			}]
 			title: "AutoBelts Assemble"
-			x: -1.5d
-			y: -2.5d
+			x: -1.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["546D8110EC3DA895"]
@@ -854,8 +824,8 @@
 				type: "item"
 			}]
 			title: "Blocks from Nothing"
-			x: 2.0d
-			y: -2.5d
+			x: 5.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["38DE58C8666609EC"]
@@ -875,7 +845,7 @@
 				to_observe: "immersiveengineering:sawmill"
 				type: "observation"
 			}]
-			x: -1.0d
+			x: -2.0d
 			y: -0.5d
 		}
 		{
@@ -894,8 +864,8 @@
 				type: "item"
 			}]
 			title: "Blocks Made Easy"
-			x: -2.5d
-			y: -3.5d
+			x: -2.0d
+			y: -4.0d
 		}
 	]
 	title: "Immersive Engineering"

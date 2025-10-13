@@ -3,12 +3,6 @@ ItemEvents.modification((IRRebirth) => {
     "minecraft:ender_pearl",
     "minecraft:snowball",
     "powah:charged_snowball",
-    "minecraft:mushroom_stew",
-    "minecraft:rabbit_stew",
-    "minecraft:suspicious_stew",
-    "minecraft:beetroot_soup",
-    "biomeswevegone:white_puffball_stew",
-    "biomeswevegone:allium_addion_soup",
     "endermanoverhaul:corrupted_pearl",
     "endermanoverhaul:soul_pearl",
     "endermanoverhaul:ancient_pearl",
@@ -17,7 +11,6 @@ ItemEvents.modification((IRRebirth) => {
     "endermanoverhaul:icy_pearl",
     "endermanoverhaul:crimson_pearl",
     "endermanoverhaul:warped_pearl",
-    "aquaculture:turtle_soup",
     "minecraft:egg"
   ];
 

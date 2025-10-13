@@ -10,7 +10,7 @@
 	quests: [
 		{
 			description: [
-				"Welcome to The Immersive Revolution: Rebirth modpack. This pack is different than others you may have played before. Automation is your game and if you need to make something, you may want to look into automation as soon as you can! Good luck out there and have fun."
+				"Welcome to The Immersive Revolution: Rebirth modpack. This pack changes recipes to be different than others you may have used before. Automation is your game and if you need to make something, you may want to look into automation as soon as you can! Good luck out there and have fun."
 				"{@pagebreak}"
 				"Tools and armor are unbreakable so you can focus more on your technology and less on equipment. See Tinker's quests for how to make Unbreakable Tinker's tools."
 				""
@@ -42,8 +42,8 @@
 				type: "dimension"
 			}]
 			title: "Welcome to your Revolution"
-			x: -7.0d
-			y: -3.5d
+			x: -8.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["599030C9DB9B1E08"]
@@ -89,8 +89,8 @@
 				}
 			]
 			title: "The Basics"
-			x: -6.0d
-			y: -3.5d
+			x: -6.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["150B3A6B61937F78"]
@@ -136,8 +136,8 @@
 				}
 			]
 			title: "Crafting Starts"
-			x: -5.0d
-			y: -3.5d
+			x: -4.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["35008BA8C5E8AD5B"]
@@ -163,7 +163,7 @@
 				type: "item"
 			}]
 			title: "Getting Organized"
-			x: -4.0d
+			x: -2.5d
 			y: -3.5d
 		}
 		{
@@ -189,8 +189,8 @@
 				type: "item"
 			}]
 			title: "Getting Sophisticated"
-			x: -4.0d
-			y: -4.5d
+			x: -2.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["5EB800B895DDCBFB"]
@@ -217,8 +217,8 @@
 				type: "item"
 			}]
 			title: "Backpacking"
-			x: -3.0d
-			y: -4.5d
+			x: -1.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["24DB690822140D7E"]
@@ -244,8 +244,8 @@
 				type: "item"
 			}]
 			title: "Make 'em Bigger"
-			x: -5.0d
-			y: -4.5d
+			x: -4.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["5EB800B895DDCBFB"]
@@ -272,8 +272,8 @@
 				type: "item"
 			}]
 			title: "The Magic Cube"
-			x: -3.5d
-			y: -2.5d
+			x: -2.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["5EB800B895DDCBFB"]
@@ -305,7 +305,7 @@
 				}
 			]
 			title: "Getting Minerals"
-			x: -3.0d
+			x: 0.0d
 			y: -3.5d
 		}
 		{
@@ -330,8 +330,8 @@
 				type: "item"
 			}]
 			title: "All the Tools"
-			x: -2.0d
-			y: -4.0d
+			x: 1.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["43EA598EC21DA525"]
@@ -352,8 +352,8 @@
 				type: "item"
 			}]
 			title: "Get Create-ive"
-			x: -1.5d
-			y: -3.0d
+			x: 1.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["24DB690822140D7E"]
@@ -383,8 +383,8 @@
 				}
 			]
 			title: "It's Simple"
-			x: -4.0d
-			y: -5.5d
+			x: -2.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["43EA598EC21DA525"]
@@ -407,8 +407,8 @@
 				type: "item"
 			}]
 			title: "Magnetize"
-			x: -2.5d
-			y: -2.5d
+			x: 0.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["599030C9DB9B1E08"]
@@ -439,8 +439,8 @@
 				type: "item"
 			}]
 			title: "Gliding Around"
-			x: -7.0d
-			y: -4.5d
+			x: -7.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["599030C9DB9B1E08"]
@@ -461,8 +461,8 @@
 				type: "item"
 			}]
 			title: "Cooking Food"
-			x: -8.0d
-			y: -4.5d
+			x: -9.0d
+			y: -6.0d
 		}
 		{
 			dependencies: [
@@ -483,8 +483,8 @@
 				type: "item"
 			}]
 			title: "Digital Cooking"
-			x: -8.0d
-			y: -5.5d
+			x: -10.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["599030C9DB9B1E08"]
@@ -513,7 +513,7 @@
 				type: "item"
 			}]
 			title: "Keep it Running"
-			x: -8.0d
+			x: -9.0d
 			y: -2.5d
 		}
 		{
@@ -550,7 +550,7 @@
 				type: "item"
 			}]
 			title: "Fast Travel"
-			x: -7.0d
+			x: -7.5d
 			y: -2.5d
 		}
 		{
@@ -572,7 +572,7 @@
 			}]
 			title: "Gadget Builder"
 			x: -6.0d
-			y: -4.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["7A49B7F5D8A4E9E6"]
@@ -598,7 +598,7 @@
 			}]
 			title: "Fly Like an Eagle!"
 			x: -7.0d
-			y: -5.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["35008BA8C5E8AD5B"]
@@ -628,7 +628,7 @@
 				type: "item"
 			}]
 			title: "Super Powers"
-			x: -5.0d
+			x: -4.0d
 			y: -2.5d
 		}
 		{
@@ -688,7 +688,7 @@
 			]
 			title: "Tinkering Time"
 			x: -6.0d
-			y: -2.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["599030C9DB9B1E08"]
@@ -708,8 +708,8 @@
 				}
 			]
 			title: "Doug DimaStorage"
-			x: -9.0d
-			y: -4.0d
+			x: -10.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["599030C9DB9B1E08"]
@@ -730,7 +730,7 @@
 				type: "item"
 			}]
 			title: "Nature's Call"
-			x: -9.0d
+			x: -10.5d
 			y: -3.0d
 		}
 		{
@@ -755,7 +755,7 @@
 				type: "item"
 			}]
 			title: "Modifying Madness"
-			x: -6.5d
+			x: -5.5d
 			y: -1.5d
 		}
 		{
@@ -828,7 +828,7 @@
 			]
 			title: "Cooking Equipment"
 			x: -9.0d
-			y: -5.0d
+			y: -7.0d
 		}
 	]
 	title: "Getting Started"

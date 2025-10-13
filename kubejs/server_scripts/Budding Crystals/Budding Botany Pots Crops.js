@@ -803,4 +803,40 @@ ServerEvents.recipes(IRRebirth => {
         1800,
         1
     )
+    IRRebirth.recipes.botanypots.crop(
+        'buddingcrystals:ender_dragon_cluster',
+        ['buddingcrystals:budding_ender_dragon'], 
+        { block: 'buddingcrystals:ender_dragon_cluster' },
+        [
+            Item.of('kubejs:ender_dragon_budding_shard')
+                .withChance(1)
+                .withRolls(1, 2) 
+        ],
+        1800,
+        1
+    )
+    IRRebirth.recipes.botanypots.crop(
+        'buddingcrystals:pig_cluster',
+        ['buddingcrystals:budding_pig'], 
+        { block: 'buddingcrystals:pig_cluster' },
+        [
+            Item.of('kubejs:pig_budding_shard')
+                .withChance(1)
+                .withRolls(1, 2) 
+        ],
+        1800,
+        1
+    )
+    IRRebirth.recipes.botanypots.crop(
+        'buddingcrystals:rabbit_cluster',
+        ['buddingcrystals:budding_rabbit'], 
+        { block: 'buddingcrystals:rabbit_cluster' },
+        [
+            Item.of('kubejs:rabbit_budding_shard')
+                .withChance(1)
+                .withRolls(1, 2) 
+        ],
+        1800,
+        1
+    )
 })

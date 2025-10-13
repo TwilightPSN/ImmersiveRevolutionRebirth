@@ -5,4 +5,8 @@ ServerEvents.recipes(IRRebirth => {
     IRRebirth.custom({"type":"mekanism:infusion_conversion","input":{"ingredient":[{"item":"ae2:fluix_crystal"}]},"output":{"amount":20,"infuse_type":"kubejs:fluix"}})
     IRRebirth.custom({"type":"mekanism:infusion_conversion","input":{"ingredient":[{"item":"ae2:fluix_block"}]},"output":{"amount":80,"infuse_type":"kubejs:fluix"}})
     IRRebirth.custom({"type":"mekanism:infusion_conversion","input":{"ingredient":[{"item":"jaopca:storage_blocks.fluix"}]},"output":{"amount":180,"infuse_type":"kubejs:fluix"}})
+    IRRebirth.custom({"type":"mekanism:infusion_conversion","input":{"ingredient":[{"tag":"forge:ingots/refined_glowstone"}]},"output":{"amount":20,"infuse_type":"kubejs:refined_glowstone"}})
+    IRRebirth.custom({"type":"mekanism:infusion_conversion","input":{"ingredient":[{"tag":"forge:storage_blocks/refined_glowstone"}]},"output":{"amount":180,"infuse_type":"kubejs:refined_glowstone"}})
+    IRRebirth.custom({"type":"mekanism:infusion_conversion","input":{"ingredient":[{"tag":"forge:ingots/iron"}]},"output":{"amount":20,"infuse_type":"kubejs:iron"}})
+    IRRebirth.custom({"type":"mekanism:infusion_conversion","input":{"ingredient":[{"tag":"forge:storage_blocks/iron"}]},"output":{"amount":180,"infuse_type":"kubejs:iron"}})
 })

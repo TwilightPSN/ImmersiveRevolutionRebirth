@@ -265,6 +265,18 @@
 			x: 3.5d
 			y: 1.0d
 		}
+		{
+			dependencies: ["7BE55FA9BDE5E7F6"]
+			description: ["Generate relevant shards and can be grown within a Cloche or Botany Pot. Requires Silk Touch to collect"]
+			id: "6B797AC1B13F9F3F"
+			tasks: [{
+				id: "484D33B040ED13C6"
+				item: "buddingcrystals:budding_ender_dragon"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
 	]
 	title: "Budding Mobs"
 }

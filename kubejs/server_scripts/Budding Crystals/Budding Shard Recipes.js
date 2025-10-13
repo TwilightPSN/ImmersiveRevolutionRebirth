@@ -63,7 +63,10 @@ ServerEvents.recipes((IRRebirth) => {
     'minecraft:nether_star',
     'wstweaks:fragment',
     'create:zinc_ingot',
-    'minecraft:rotten_flesh'
+    'minecraft:rotten_flesh',
+    'minecraft:dragon_egg',
+    'minecraft:porkchop',
+    'minecraft:rabbit_foot'
   ];
 
   let matA = [
@@ -130,6 +133,9 @@ ServerEvents.recipes((IRRebirth) => {
     'kubejs:wither_skeleton_budding_shard',
     'kubejs:zinc_budding_shard',
     'kubejs:zombie_budding_shard',
+    'kubejs:ender_dragon_budding_shard',
+    'kubejs:pig_budding_shard',
+    'kubejs:rabbit_budding_shard'
 ];
 
   craftedItems.forEach((crafted, index) => {
@@ -202,5 +208,37 @@ ServerEvents.recipes((IRRebirth) => {
     IRRebirth.shapeless(
       Item.of('kubejs:nether_star_nugget'), 
         ['minecraft:nether_star']
+      )
+    IRRebirth.shaped(
+      Item.of('draconicevolution:dragon_heart'), 
+        [
+          'AAA',
+          'A A',
+          'AAA'
+        ],
+        {
+          A: 'kubejs:ender_dragon_budding_shard'
+        }
+      )
+    IRRebirth.shaped(
+      Item.of('minecraft:rabbit_hide'), 
+        [
+          'AA',
+          'AA'
+        ],
+        {
+          A: 'kubejs:rabbit_budding_shard'
+        }
+      )
+    IRRebirth.shaped(
+      Item.of('minecraft:rabbit'), 
+        [
+          'AA',
+          'AA',
+          'AA'
+        ],
+        {
+          A: 'kubejs:rabbit_budding_shard'
+        }
       )
 });

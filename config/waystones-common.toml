@@ -33,7 +33,7 @@
 	#If enabled, only the owner of a waystone (the one who placed it) can rename it.
 	restrictRenameToOwner = false
 	#If enabled, waystones generated in worldgen are unbreakable.
-	generatedWaystonesUnbreakable = true
+	generatedWaystonesUnbreakable = false
 	#If enabled, leashed mobs will be teleported with you
 	transportLeashed = false
 	#Whether to take leashed mobs with you when teleporting between dimensions

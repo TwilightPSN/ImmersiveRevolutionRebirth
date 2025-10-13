@@ -255,4 +255,15 @@ ServerEvents.recipes(IRRebirth => {
           D: 'create:item_vault'
         }
       ).id('sophisticatedstorage:controller')
+    IRRebirth.shaped(
+        Item.of('minecraft:chest'), 
+        [
+          'AAA',
+          'A A',
+          'AAA'
+        ],
+        {
+          A: '#minecraft:planks'
+        }
+      ).id('quark:building/crafting/chests/mixed_chest')
 })
