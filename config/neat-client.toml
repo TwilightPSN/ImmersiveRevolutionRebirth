@@ -47,9 +47,9 @@
 	#Whether bars on bosses should be shown
 	display_on_bosses = true
 	#Only show bars for mobs you are targeting
-	only_health_bar_for_target = false
+	only_health_bar_for_target = true
 	#Show bars for mobs that are at full health
-	show_entity_full_health = true
+	show_entity_full_health = false
 	#Show extra debug info on the bar when F3 is enabled
 	show_debug_with_f3 = true
 	#Show entity name

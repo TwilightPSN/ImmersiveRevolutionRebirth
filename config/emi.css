@@ -9,7 +9,7 @@
 	/**
 	 * Whether cheating in items is enabled.
 	 */
-	cheat-mode: false;
+	cheat-mode: true;
 
 	/**
 	 * How much EMI should use tooltips and popups to show controls and information.
@@ -61,12 +61,12 @@
 	/**
 	 * Whether to add mod name to tooltips
 	 */
-	append-mod-id: false;
+	append-mod-id: true;
 
 	/**
 	 * Whether to add mod name to item tooltips, in case another mod provides behavior
 	 */
-	append-item-mod-id: false;
+	append-item-mod-id: true;
 
 	/**
 	 * Prevents recipes being quick crafted from shifting around under the cursor.
@@ -88,7 +88,7 @@
 	 * Whether to have the search bar in the center of the screen, instead of to the
 	 * side.
 	 */
-	center-search-bar: true;
+	center-search-bar: false;
 
 	/**
 	 * Which sidebar type to switch to when searching.
@@ -202,7 +202,7 @@
 	/**
 	 * The pages in the right sidebar
 	 */
-	right-sidebar-pages: index, craftables;
+	right-sidebar-pages: index;
 
 	/**
 	 * The subpanels in the right sidebar
@@ -468,7 +468,7 @@
 	/**
 	 * Whether hovering the output of a recipe should show the recipe's EMI ID.
 	 */
-	show-recipe-ids: true;
+	show-recipe-ids: false;
 
 	/**
 	 * Whether to display additional widgets added to recipes from other mods.

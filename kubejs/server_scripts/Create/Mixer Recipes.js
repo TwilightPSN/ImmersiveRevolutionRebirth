@@ -1,5 +1,5 @@
 ServerEvents.recipes(IRRebirth => {
-    IRRebirth.recipes.create.mixing([Fluid.of('immersiveengineering:creosote', 250)], [Fluid.water(250), '#minecraft:logs'])
+    IRRebirth.recipes.create.mixing([Fluid.of('immersiveengineering:creosote', 100)], [Fluid.water(1000), '#minecraft:logs'])
     IRRebirth.recipes.create.mixing(['immersiveengineering:dust_nickel', Item.of('immersiveengineering:dust_nickel').withChance(0.25)], [Fluid.water(100),'jaopca:mekanism_dirty_dusts.nickel'])
     IRRebirth.recipes.create.mixing(['immersiveengineering:dust_silver', Item.of('immersiveengineering:dust_silver').withChance(0.25)], [Fluid.water(100), 'jaopca:mekanism_dirty_dusts.silver'])
     IRRebirth.recipes.create.mixing(['immersiveengineering:dust_aluminum', Item.of('immersiveengineering:dust_aluminum').withChance(0.25)], [Fluid.water(100), 'jaopca:mekanism_dirty_dusts.aluminum'])
@@ -18,4 +18,5 @@ ServerEvents.recipes(IRRebirth => {
     IRRebirth.recipes.create.mixing([Fluid.of('immersiveengineering:redstone_acid', 125)], [Fluid.water(1000), '4x #forge:dusts/redstone'])
     IRRebirth.recipes.create.mixing(['3x create:brass_nugget'], ['#forge:ingots/copper', '#forge:ingots/zinc']).heated()
     IRRebirth.recipes.create.mixing(['3x mekanism:nugget_steel'], ['#forge:ingots/iron', '#minecraft:coals']).heated()
+    IRRebirth.recipes.create.mixing(['jaopca:dusts.cobalt', Item.of('jaopca:dusts.cobalt').withChance(0.25)], [Fluid.water(100), 'jaopca:mekanism_dirty_dusts.cobalt'])
 })

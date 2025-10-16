@@ -27,4 +27,5 @@ ServerEvents.recipes(IRRebirth => {
   IRRebirth.replaceInput({ output: 'storagenetwork:import_filter_kabel'}, 'minecraft:barrel', 'create:smart_chute')
   IRRebirth.replaceOutput({output: 'agricraft:coal_pebble'}, 'agricraft:coal_pebble', 'pickletweaks:coal_piece')
   IRRebirth.replaceInput({output: 'deeperdarker:soul_elytra'}, 'minecraft:elytra', 'mekanism:hdpe_elytra')
+  IRRebirth.replaceInput({ input: 'minecraft:ender_pearl' },'minecraft:ender_pearl','#forge:ender_pearls')
 })

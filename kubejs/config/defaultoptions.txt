@@ -7,3 +7,12 @@ incompatibleResourcePacks:["file/Create-Construction-Wands.zip","file/CreateSoph
 advancedItemTooltips:false
 skipMultiplayerWarning:true
 soundCategory_music:0.0
+key_quark.keybind.sort_player:key.mouse.middle
+key_quark.keybind.sort_container:key.mouse.middle
+key_key.ftbchunks.map:key.keyboard.unknown
+key_key.ftbchunks.toggle_minimap:key.keyboard.unknown
+key_key.ftbchunks.claim_manager:key.keyboard.unknown
+key_key.ftbchunks.minimap.zoomIn:key.keyboard.unknown
+key_key.ftbchunks.minimap.zoomOut:key.keyboard.unknown
+key_key.ftbchunks.add_waypoint:key.keyboard.unknown
+key_key.ftbchunks.waypoint_manager:key.keyboard.unknown

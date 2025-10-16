@@ -1,8 +1,144 @@
-MODS TO REMOVE FROM SERVER PACKS
--Entity Model Features
--Entity Texture Features
+Mods to Remove from Servers
 -Clear Water
+
+UPDATE THESE YOU DUMMY
+-BCC
+-ServerConfigUpdater
+
+|| Release 2.1.5 ||
+
+// Mods Added //
+-Server Config Updater
+
+// Config Changes //
+-Enabled Create Potion crafting
+-Agricraft plants grow faster
+-Increased Chain Conveyor Capacity
+
+// Quest Changes //
+-Grammar and Spelling
+-Removed Budding quest lines for a single quest
+-Fixed dependencies for AE2 Cables quest
+-Added quest for Steam Boiler heaters
+-Change some quest locations
+-Added text about Steam Powered steam to Mekanism
+
+// Script Changes //
+-Adjusted tags for Budding with AE2
+-Fixed Excavator Schematic using IE Steel Blocks
+
+// Recipe Changes //
+-Removed Precision Mechanism from Generator Block blueprint
+-Adjusted values on Light Enginerring blueprint
+-Added blueprint recipes for Waterwheel and Windmill
+-Adjusted values on Steel Scaffolding blueprint
+
+|| Release 2.1.4 ||
+
+// Config Changes //
+-Fixed IE Machines Speeds Config (Reset Save/World Config)
+
+// Recipe Changes //
+-Cobalt for Create
+-Fixed Mob Experience Recipes
+
+// Script Changes //
+-Fixed End Gold
+-Tinker's added back to Loot
+-Added Rabbit and Pig Budding
+
+|| Release 2.1.3 ||
+
+// Mods Removed //
+-FTB Chunks x Xaero's Compat
+
+// Config Changes //
+-FTB Map Disabled
+
+|| Release 2.1.2 ||
+
+// Mods Added //
+-Xaero's Minimap
+-Xaero's World Map
+-FTB Chunks x Xaero's Compat
+-Xaero's Minimap & World Map - Waystones Compatibility
+
+// Mods Removed //
+-CullLeaves
+-EntityCulling
+-Durability Tooltip
+-Mod Name Tooltip
+-Stellar View
+-I Believe I Can Fly
+-FTB Quest Freeze Fix
+-Better Animations Collection
+-Entity Model Features
+-Entity Texture Feature
+-FallingLeaves
 -BadOptimizations
+-Resource Pack Overrides
+-FTB Chunks - Modded Support
+-Ambient Environment
+-Universal Bone Meal
+-Random Bone Meal Flowers
+
+// Mods Updated //
+-All The Leaks
+-Balm
+-BotanyTrees
+-Collective
+-Create Hypertubes
+-Cyclops Core
+-ExtendedAE
+-FindMe
+-Fzzy Config
+-Moonlight Library
+-Not Enough Animations
+-Oh The Trees You'll Grow
+-Rechiseled: AE2
+-Sophisticated Core
+-Stone Zone
+
+// Mods Downgraded //
+-Every Compat
+
+// Quest Changes //
+-Quests are more spread out
+
+// Config Changes //
+-Waystones Breakable
+-Neat now only shows on target and if <100% HP
+-Adjusted some Embedddium settings
+-Modname Tooltip from EMI
+-Hang Glider no long forces 3rd Person
+-Apotheosis Settings adjusted
+
+// Recipe Changes //
+-Changed Mold for IE Mesh
+-Changed some recipes to infuser that were missed on Oxidizer change
+-Adjusted blueprint requirements for blocks
+-Reverted Create Schematiccannon and Schematic Table recipes
+-Recipe for all planks to chest
+-Ender Pearl recipes should now all use tag items
+-Some Budding resource recipes adjusted
+-Mekanism Sawmill recipes for OTBWG, VanillaBackport & Regions Unexplored
+-Adjusted values on Budding Mobs
+-Adjusted Creosote values for Mixing
+-Removed all Create Stuff and Additions gear and tools
+
+// Script Changes //
+-Added some Infusion Types for Mekanism
+-Bowl based foods no longer stack to stop eating all at once
+-Added Ender Dragon Budding and relevent recipes
+-Middle Mouse Sort added to Default Options
+-Fixed Supplementaries Wrench having durability
+-Added script to stop Create SA entity drops
+
+|| Release 2.1.1 ||
+
+// Recipe Changes //
+-Added back all armors for Crafting
+-Removed Tinker's Jewlery OP Affixes
 
 || Release 2.1.0 ||
 

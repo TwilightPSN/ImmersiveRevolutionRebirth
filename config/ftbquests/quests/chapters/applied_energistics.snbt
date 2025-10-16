@@ -11,20 +11,20 @@
 			id: "45C239AA2DEEFF13"
 			linked_quest: "1AAF8C310BB892B1"
 			shape: "gear"
-			x: -3.5d
-			y: -0.5d
+			x: -10.5d
+			y: -3.5d
 		}
 		{
 			id: "37A1E401898B7323"
 			linked_quest: "7238E258FDDBD561"
-			x: -3.5d
-			y: 0.5d
+			x: -10.0d
+			y: -1.0d
 		}
 		{
 			id: "697132B393FA3B53"
 			linked_quest: "03835B0AAF486B09"
-			x: -4.5d
-			y: 0.5d
+			x: -11.0d
+			y: -2.0d
 		}
 	]
 	quests: [
@@ -43,15 +43,15 @@
 				type: "item"
 			}]
 			title: "Digital Sophistication"
-			x: -4.5d
-			y: -1.5d
+			x: -9.0d
+			y: -5.5d
 		}
 		{
 			dependencies: [
 				"7B0F71B2E191845D"
 				"7238E258FDDBD561"
 			]
-			description: ["The Inscriber is used use with our presses we found to make circuits to expand our system. We are going to want a few of these to keep them running at all times."]
+			description: ["The Inscriber is used with our presses we've found to make circuits to expand our system. We are going to want a few of these to keep them running at all times."]
 			id: "0AA2F1B9EDB6605E"
 			rewards: [{
 				count: 4
@@ -65,8 +65,8 @@
 				type: "item"
 			}]
 			title: "Pressing Matters"
-			x: -2.5d
-			y: 0.5d
+			x: -8.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0AA2F1B9EDB6605E"]
@@ -87,8 +87,8 @@
 				type: "item"
 			}]
 			title: "Let's Get Digital"
-			x: -1.5d
-			y: 0.5d
+			x: -5.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["0AA2F1B9EDB6605E"]
@@ -112,12 +112,12 @@
 				type: "item"
 			}]
 			title: "Terminally Crafted"
-			x: -2.0d
-			y: -1.0d
+			x: -6.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["1AAF8C310BB892B1"]
-			description: ["The Crystal Resonance Generator is a great wayto provide passive power to our early AE2 system. This machine can simply generator power and keep a simple network up and running with ease."]
+			description: ["The Crystal Resonance Generator is a great way to provide passive power to our early AE2 system. This machine can generate power and keep a simple network up and running with ease."]
 			id: "7B0F71B2E191845D"
 			rewards: [{
 				id: "4613F7CF4327B304"
@@ -130,8 +130,8 @@
 				type: "item"
 			}]
 			title: "Resonance is King"
-			x: -3.0d
-			y: -1.5d
+			x: -9.0d
+			y: -2.5d
 		}
 		{
 			dependencies: [
@@ -153,8 +153,8 @@
 				type: "item"
 			}]
 			title: "Advanced Cables"
-			x: -2.0d
-			y: -2.0d
+			x: -4.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["0AA2F1B9EDB6605E"]
@@ -172,8 +172,8 @@
 				type: "item"
 			}]
 			title: "Full Control"
-			x: -1.5d
-			y: 1.5d
+			x: -6.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["7B0F71B2E191845D"]
@@ -195,8 +195,8 @@
 				type: "item"
 			}]
 			title: "Networked Energy"
-			x: -4.0d
-			y: -2.5d
+			x: -7.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["03835B0AAF486B09"]
@@ -213,8 +213,8 @@
 				type: "item"
 			}]
 			title: "Chemical Reaction"
-			x: -5.5d
-			y: 0.5d
+			x: -12.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0AA2F1B9EDB6605E"]
@@ -232,8 +232,8 @@
 				type: "item"
 			}]
 			title: "Upgrades People!"
-			x: -3.5d
-			y: 1.5d
+			x: -10.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["34BD90F4B17072D2"]
@@ -250,8 +250,8 @@
 				type: "item"
 			}]
 			title: "Speedy Work"
-			x: -1.5d
-			y: -3.0d
+			x: -5.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["22F3F63D08B38C13"]
@@ -268,7 +268,7 @@
 				type: "item"
 			}]
 			title: "Digital Chest"
-			x: -0.5d
+			x: -4.0d
 			y: 1.5d
 		}
 		{
@@ -286,8 +286,8 @@
 				type: "item"
 			}]
 			title: "Digital Crafters"
-			x: 0.5d
-			y: 1.5d
+			x: -3.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5C4B22675FF3B0D7"]
@@ -319,8 +319,8 @@
 				}
 			]
 			title: "Crafting Computer"
-			x: -0.5d
-			y: 2.5d
+			x: -2.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["5C4B22675FF3B0D7"]
@@ -337,8 +337,8 @@
 				type: "item"
 			}]
 			title: "Pattern Portal"
-			x: 1.5d
-			y: 1.0d
+			x: -1.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["69388A50906DE924"]
@@ -368,13 +368,12 @@
 				}
 			]
 			title: "Auto-Crafters"
-			x: 1.5d
-			y: 2.0d
+			x: 1.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["1AAF8C310BB892B1"]
 			description: ["The Matter Condenser allows us to take mass amounts of items or fluids and create a Singularity. These Singularities are used to create more advanced pieces of our computer network."]
-			hide_dependency_lines: true
 			id: "3362930245E966F4"
 			rewards: [{
 				id: "010CC30E841C9CB7"
@@ -394,8 +393,8 @@
 				}
 			]
 			title: "Condense It"
-			x: 0.5d
-			y: 0.0d
+			x: -7.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["1AAF8C310BB892B1"]
@@ -425,8 +424,8 @@
 				}
 			]
 			title: "Wire Management"
-			x: -4.5d
-			y: -0.5d
+			x: -11.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["3362930245E966F4"]
@@ -444,8 +443,8 @@
 				type: "item"
 			}]
 			title: "Let's React"
-			x: 0.5d
-			y: -1.0d
+			x: -4.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["6FBBB4A15ABA5AF8"]
@@ -462,8 +461,8 @@
 				type: "item"
 			}]
 			title: "Meteor Steel"
-			x: 0.5d
-			y: -2.0d
+			x: -3.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["6F009C96CAAFDE07"]
@@ -494,11 +493,14 @@
 				}
 			]
 			title: "MEGA Memory"
-			x: 1.5d
-			y: -2.0d
+			x: -2.5d
+			y: -3.5d
 		}
 		{
-			dependencies: ["6674853D1EFF6FCC"]
+			dependencies: [
+				"6674853D1EFF6FCC"
+				"6ACABDB12C4824B6"
+			]
 			description: ["With the amount of waste that our reactors are going to be producing, we want to avoid barrels all over. These Radioactive Waste drives can store the waste to prevent a chance of it leaking and contaminating the environment."]
 			id: "780D0B7F4D20A17D"
 			rewards: [{
@@ -521,8 +523,8 @@
 				type: "item"
 			}]
 			title: "It's Radioactive"
-			x: -0.5d
-			y: -2.0d
+			x: -6.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0793751A64D16A0F"]
@@ -581,8 +583,8 @@
 				}
 			]
 			title: "Quantum Equipment"
-			x: 2.0d
-			y: 0.0d
+			x: 1.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["6FBBB4A15ABA5AF8"]
@@ -600,8 +602,8 @@
 				type: "item"
 			}]
 			title: "Breaking Matter"
-			x: 1.5d
-			y: -1.0d
+			x: -3.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["196F780928858FBF"]
@@ -618,8 +620,8 @@
 				type: "item"
 			}]
 			title: "Quantum Physics"
-			x: 2.5d
-			y: -1.0d
+			x: -0.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["69388A50906DE924"]
@@ -636,8 +638,8 @@
 				type: "item"
 			}]
 			title: "Getting Technical"
-			x: 2.5d
-			y: 1.0d
+			x: 0.0d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -662,8 +664,8 @@
 				type: "item"
 			}]
 			title: "Advancing Patterns"
-			x: 2.5d
-			y: 2.0d
+			x: 2.0d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -711,7 +713,7 @@
 				}
 			]
 			title: "Quantum Computing"
-			x: 2.5d
+			x: -1.5d
 			y: -2.0d
 		}
 		{
@@ -730,8 +732,8 @@
 				type: "dimension"
 			}]
 			title: "Void Dimension"
-			x: -5.5d
-			y: 1.5d
+			x: -10.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["38D85851706BCE61"]
@@ -756,7 +758,7 @@
 				}
 			]
 			title: "Void Dimension Portal"
-			x: -4.5d
+			x: -11.5d
 			y: 1.5d
 		}
 		{
@@ -774,8 +776,8 @@
 				type: "item"
 			}]
 			title: "Crafting Magic"
-			x: 0.5d
-			y: 2.5d
+			x: -1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["6ACABDB12C4824B6"]
@@ -796,8 +798,8 @@
 				type: "item"
 			}]
 			title: "Drive Depth"
-			x: -0.5d
-			y: 0.5d
+			x: -3.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["0AA2F1B9EDB6605E"]
@@ -814,8 +816,8 @@
 				type: "item"
 			}]
 			title: "So Long Press"
-			x: -2.5d
-			y: 2.0d
+			x: -8.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["6ACABDB12C4824B6"]
@@ -861,8 +863,8 @@
 				}
 			]
 			title: "To Infinity!"
-			x: -1.0d
-			y: -1.0d
+			x: -5.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["03835B0AAF486B09"]
@@ -880,8 +882,8 @@
 				type: "item"
 			}]
 			title: "Charge er' up"
-			x: -5.5d
-			y: -0.5d
+			x: -13.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["21E8F6587D7D6182"]
@@ -898,8 +900,8 @@
 				type: "item"
 			}]
 			title: "Quad Charger"
-			x: -5.5d
-			y: -1.5d
+			x: -12.5d
+			y: -4.0d
 		}
 	]
 	title: "Applied Energistics"

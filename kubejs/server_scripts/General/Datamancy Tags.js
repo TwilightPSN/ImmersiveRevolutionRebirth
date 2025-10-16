@@ -352,8 +352,8 @@ ServerEvents.tags("item", (IRRebirth) => {
 "alexsmobs:dimensional_carver", 
 "mob_grinding_utils:monocle", 
 "create:super_glue", 
-"createaddition:diamond_grit_sandpaper", 
-"expatternprovider:me_packing_tape"
+"expatternprovider:me_packing_tape",
+"supplementaries:wrench"
     ]);
     IRRebirth.add("datamancy:distracts_piglins", [
       "minecraft:gold_ingot",

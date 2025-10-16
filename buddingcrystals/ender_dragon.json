@@ -1,0 +1,8 @@
+{
+    "translation": "Ender Dragon",
+    "texture": "minecraft:block/obsidian",
+    "growth_chance": 5,
+    "dropped_item": "kubejs:ender_dragon_budding_shard",
+    "normal_drop_chance": 1,
+    "max_drop_chance": 3
+}

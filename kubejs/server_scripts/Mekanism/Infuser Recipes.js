@@ -16,4 +16,8 @@ ServerEvents.recipes(IRRebirth => {
     IRRebirth.recipes.mekanism.metallurgic_infusing(Item.of('ae2:fluix_glass_cable', 2), 'ae2:quartz_fiber', '20x kubejs:fluix')
     IRRebirth.recipes.mekanism.metallurgic_infusing('mekanism:basic_control_circuit', 'immersiveengineering:component_electronic_adv', '20x mekanism:redstone').id('mekanism:control_circuit/basic')
     IRRebirth.recipes.mekanism.metallurgic_infusing('mekanism:alloy_infused', 'immersiveengineering:rs_engineering', '20x mekanism:redstone').id('mekanism:metallurgic_infusing/alloy/infused')
+    IRRebirth.recipes.mekanism.metallurgic_infusing(Item.of('immersiveengineering:insulating_glass', 4), '2x #c:glass_blocks', '20x kubejs:iron')
+    IRRebirth.recipes.mekanism.metallurgic_infusing('extendedcrafting:luminessence', 'mekanism:pellet_antimatter', '20x kubejs:refined_glowstone')
+    IRRebirth.recipes.mekanism.metallurgic_infusing('extendedcrafting:black_iron_ingot', '#forge:ingots/steel', '20x mekanism:refined_obsidian')
+    IRRebirth.recipes.mekanism.metallurgic_infusing('extendedcrafting:redstone_ingot', '#forge:ingots/steel', '20x mekanism:redstone')
 })

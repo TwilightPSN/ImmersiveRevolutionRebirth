@@ -64,6 +64,9 @@ ServerEvents.recipes((IRRebirth) => {
     "budding_phantom",
     "budding_chicken",
     "budding_chaos_dragon",
+    "budding_ender_dragon",
+    "budding_pig",
+    "budding_rabbit"
   ];
 
   
