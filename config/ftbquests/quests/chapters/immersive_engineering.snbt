@@ -31,8 +31,8 @@
 		{
 			id: "7E5FCE643023533B"
 			linked_quest: "757084BE31B08CCB"
-			x: -0.5d
-			y: 4.5d
+			x: -1.5d
+			y: 4.0d
 		}
 	]
 	quests: [
@@ -210,7 +210,7 @@
 		}
 		{
 			dependencies: ["1274E79019C28F4A"]
-			description: ["Connecting Water Wheels to the Kinetic Dynamo will begin to passively generate power with the flow of water. You must make sure that the water is not also flowing to parts of the wheel is shouldn't be that would reduce its speed."]
+			description: ["Connecting Water Wheels to the Kinetic Dynamo will begin to passively generate power with the flow of water. You must make sure that water is not flowing to parts of the wheel where it shouldn't be as that would reduce its speed."]
 			id: "2926E1B744FACF79"
 			rewards: [{
 				count: 3
@@ -554,8 +554,8 @@
 				type: "observation"
 			}]
 			title: "Fermentation"
-			x: -1.5d
-			y: 5.5d
+			x: -2.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["38DE58C8666609EC"]
@@ -595,7 +595,7 @@
 			}]
 			title: "Can't Touch This"
 			x: -1.0d
-			y: 3.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["18EEE381A90610B5"]
@@ -636,7 +636,7 @@
 				type: "observation"
 			}]
 			title: "Bottled Up"
-			x: 1.0d
+			x: 0.0d
 			y: 3.5d
 		}
 		{
@@ -810,7 +810,10 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["546D8110EC3DA895"]
+			dependencies: [
+				"546D8110EC3DA895"
+				"1A7820CA8E752427"
+			]
 			description: ["A Mechanical Extruder can be used to create blocks based on the liquids around it and the block it is on. This will be critical in trying to get harder to gather resources."]
 			id: "63255A7E3A19332A"
 			rewards: [{
@@ -824,8 +827,8 @@
 				type: "item"
 			}]
 			title: "Blocks from Nothing"
-			x: 5.0d
-			y: -3.0d
+			x: 4.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["38DE58C8666609EC"]
@@ -861,11 +864,34 @@
 						blueprint: "Machine Components"
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			title: "Blocks Made Easy"
 			x: -2.0d
 			y: -4.0d
+		}
+		{
+			dependencies: ["7BE55FA9BDE5E7F6"]
+			description: [
+				"With access to the bottling machine, we can turn experience from our mob farm as well as mob drops into special budding mobs that will grant us shards to craft items. These budding plants can be grown in a Cloche or Botany Pot. They are also able to be accelerated with AE2 and automated with an Annihilation Plane."
+				""
+				"Requires Mob Grinding Utils Experience. Needs Silk Touch to be collected."
+			]
+			id: "2E645745053CF07F"
+			rewards: [{
+				id: "5C4238793FF9BA55"
+				item: "minecraft:budding_amethyst"
+				type: "item"
+			}]
+			tasks: [{
+				id: "40E6F87BB474F972"
+				item: "mob_grinding_utils:saw"
+				type: "item"
+			}]
+			title: "Budding Mobs"
+			x: 0.0d
+			y: 4.5d
 		}
 	]
 	title: "Immersive Engineering"

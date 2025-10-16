@@ -1,6 +1,38 @@
 Mods to Remove from Servers
 -Clear Water
 
+UPDATE THESE YOU DUMMY
+-BCC
+-ServerConfigUpdater
+
+|| Release 2.1.5 ||
+
+// Mods Added //
+-Server Config Updater
+
+// Config Changes //
+-Enabled Create Potion crafting
+-Agricraft plants grow faster
+-Increased Chain Conveyor Capacity
+
+// Quest Changes //
+-Grammar and Spelling
+-Removed Budding quest lines for a single quest
+-Fixed dependencies for AE2 Cables quest
+-Added quest for Steam Boiler heaters
+-Change some quest locations
+-Added text about Steam Powered steam to Mekanism
+
+// Script Changes //
+-Adjusted tags for Budding with AE2
+-Fixed Excavator Schematic using IE Steel Blocks
+
+// Recipe Changes //
+-Removed Precision Mechanism from Generator Block blueprint
+-Adjusted values on Light Enginerring blueprint
+-Added blueprint recipes for Waterwheel and Windmill
+-Adjusted values on Steel Scaffolding blueprint
+
 || Release 2.1.4 ||
 
 // Config Changes //

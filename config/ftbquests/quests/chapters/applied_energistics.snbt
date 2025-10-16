@@ -51,7 +51,7 @@
 				"7B0F71B2E191845D"
 				"7238E258FDDBD561"
 			]
-			description: ["The Inscriber is used use with our presses we found to make circuits to expand our system. We are going to want a few of these to keep them running at all times."]
+			description: ["The Inscriber is used with our presses we've found to make circuits to expand our system. We are going to want a few of these to keep them running at all times."]
 			id: "0AA2F1B9EDB6605E"
 			rewards: [{
 				count: 4
@@ -117,7 +117,7 @@
 		}
 		{
 			dependencies: ["1AAF8C310BB892B1"]
-			description: ["The Crystal Resonance Generator is a great wayto provide passive power to our early AE2 system. This machine can simply generator power and keep a simple network up and running with ease."]
+			description: ["The Crystal Resonance Generator is a great way to provide passive power to our early AE2 system. This machine can generate power and keep a simple network up and running with ease."]
 			id: "7B0F71B2E191845D"
 			rewards: [{
 				id: "4613F7CF4327B304"

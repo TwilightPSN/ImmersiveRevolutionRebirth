@@ -520,7 +520,7 @@
 			}]
 			title: "Fuel for the Ages"
 			x: -1.0d
-			y: -6.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["57B92A99D1F22EF4"]
@@ -1100,6 +1100,7 @@
 				""
 				"This does mean that you can use this method to dupe higher end materials with lower end ones, this note is here to prevent doing so and allow you to avoid a dupe heavily breaking progression."
 			]
+			hide_dependent_lines: true
 			icon: "createdeco:decal_warning"
 			icon_scale: 2.0d
 			id: "7B1A006C69524BFE"
@@ -1112,6 +1113,57 @@
 			}]
 			x: -1.5d
 			y: -8.25d
+		}
+		{
+			dependencies: [
+				"5C3507BA0D05D0B0"
+				"57B92A99D1F22EF4"
+				"7B1A006C69524BFE"
+			]
+			description: [
+				"Similar to the Budding Mobs, we have Budding Resources. These are much more difficult to make but will resolve near any issues with needing resources. You will need to process materials enmass through multiple Mekanism machines to finally get yourself a Budding Resource. Ensure to break the Fission Reactor and rebuild it each time due to a bug. These can also be grown in a Cloche or Botany Pot as well as be automated with AE2."
+				""
+				"Needs Silk Touch to be Collected."
+			]
+			id: "6FDC8002B2B108EC"
+			rewards: [{
+				id: "414E22C6F3526B94"
+				item: "minecraft:budding_amethyst"
+				type: "item"
+			}]
+			tasks: [{
+				id: "703B341FF600A830"
+				item: "minecraft:budding_amethyst"
+				type: "item"
+			}]
+			title: "Budding Mobs"
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["29F574AEBD0ED865"]
+			description: ["We need heat to be able to generate the steam. Using various heaters, we are able to send heat to our boiler and allow steam to be generated."]
+			id: "56D295592D330A75"
+			rewards: [{
+				count: 5
+				id: "2CA8F5E390AC09AB"
+				item: "mekanism:basic_thermodynamic_conductor"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1FE672C202C2077A"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(mekanism:resistive_heater)item(mekanism:fuelwood_heater))"
+					}
+				}
+				type: "item"
+			}]
+			title: "Heating Up"
+			x: -4.0d
+			y: -5.5d
 		}
 	]
 	title: "Mekanism"

@@ -20,7 +20,7 @@
          * Global growth rate multiplier for crops.
          * Range: 0.0 - 3.0
          */
-        "growth_multiplier": 1.0,
+        "growth_multiplier": 1.5,
         // Set this to true to make only mature crops drop seeds (to encourage trowel usage).
         "only_mature_seed_drops": false,
         // Set to true to completely disable the spawning of weeds

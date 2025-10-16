@@ -23,8 +23,8 @@
 		{
 			id: "24F57DC3FC7B0F7A"
 			linked_quest: "63255A7E3A19332A"
-			x: -2.0d
-			y: 0.5d
+			x: -13.0d
+			y: 2.5d
 		}
 	]
 	quests: [
@@ -463,7 +463,7 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["49A2F592D12DC5A5"]
+			dependencies: ["4492B51A9C727D78"]
 			description: ["Moving fluid early on is a crucial part of any operation. Fluid pipes, in combination with pumps, can help get any liquids you need flowing through your base."]
 			id: "4D0E448D7C9C75F4"
 			rewards: [{
@@ -485,8 +485,8 @@
 				}
 			]
 			title: "Fluid Motion"
-			x: -6.5d
-			y: 3.5d
+			x: -7.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["36851BE0E8C197B9"]
@@ -804,7 +804,7 @@
 		}
 		{
 			dependencies: ["7238E258FDDBD561"]
-			description: ["Certus is the key resource to getting a storage system running. This special materials is one that you want to get going now and keep going. Be sure to collect the flawless ones with a Cardboard Box so they don't wear away."]
+			description: ["Certus is the key resource to getting a storage system running. This special material is one that you want to get going now and keep going. Be sure to collect the Flawless Budding Blocks from meteors with a Cardboard Box so they don't wear away."]
 			id: "03835B0AAF486B09"
 			rewards: [
 				{
@@ -1087,6 +1087,10 @@
 				"Sometimes our steam engine isn't enough for the true kinetic energy we need. This is where Steam Boilers, Engines and Flywheels come into play. Simply filling a boiler with water above a heat chamber will generate steam for an engine and flywheel to convert into masses of kinetic energy."
 				""
 				"Blaze Burners can also be utilized to power the Boiler while Burning Chambers can power the Create Steam Engine."
+				""
+				"{@pagebreak}"
+				""
+				"Once you enter Mekanism, these burners can also provide Liquid Steam. This can be piped into a Rotary Condenstrator which will change it to the gas form for Mekanism use."
 			]
 			id: "14E31D7B2714779B"
 			rewards: [{

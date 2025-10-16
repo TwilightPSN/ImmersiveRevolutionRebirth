@@ -10,7 +10,7 @@ ServerEvents.recipes(IRRebirth => {
     IRRebirth.custom(
         {"type":"immersiveengineering:blueprint",
             "category":"Machine Components","inputs":[
-                {"base_ingredient":{"tag":"forge:plates/steel"},"count":6},
+                {"base_ingredient":{"tag":"forge:plates/steel"},"count":3},
                 {"item":"immersiveengineering:component_steel", "count": 1},
                 {"tag":"forge:rods/steel","count":1}],
                 "result":{"item":"immersiveengineering:steel_scaffolding_standard"}
@@ -19,7 +19,7 @@ ServerEvents.recipes(IRRebirth => {
     IRRebirth.custom(
         {"type":"immersiveengineering:blueprint",
             "category":"Machine Components","inputs":[
-                {"base_ingredient":{"item":"immersiveengineering:component_iron"},"count":8},
+                {"base_ingredient":{"item":"immersiveengineering:component_iron"},"count":3},
                 {"item":"create:precision_mechanism", "count": 1},
                 {"tag":"forge:sheetmetals/constantan","count":1},
                 {"tag":"forge:sheetmetals/iron","count":1},
@@ -62,7 +62,6 @@ ServerEvents.recipes(IRRebirth => {
         {"type":"immersiveengineering:blueprint",
             "category":"Machine Components","inputs":[
                 {"base_ingredient":{"item":"immersiveengineering:component_iron"},"count":1},
-                {"item":"create:precision_mechanism", "count": 1},
                 {"tag":"forge:plates/steel","count": 2},
                 {"tag":"forge:sheetmetals/electrum","count":2},
                 {"item":"immersiveengineering:coil_mv","count":1},
@@ -79,6 +78,26 @@ ServerEvents.recipes(IRRebirth => {
                 {"tag":"forge:sheetmetals/constantan", "count": 1},
                 {"tag":"forge:sheetmetals/steel","count":2}],
                 "result":{"item":"immersiveengineering:radiator"}
+            }
+        )
+    IRRebirth.custom(
+        {"type":"immersiveengineering:blueprint",
+            "category":"Machine Components","inputs":[
+                {"base_ingredient":{"tag":"forge:ingots/steel"},"count": 4},
+                {"tag":"forge:rods/treated_wood", "count": 14},
+                {"tag":"forge:plates/brass","count":4},
+                {"tag":"forge:treated_wood","count":6}],
+                "result":{"item":"immersiveengineering:windmill"}
+            }
+        )
+    IRRebirth.custom(
+        {"type":"immersiveengineering:blueprint",
+            "category":"Machine Components","inputs":[
+                {"base_ingredient":{"tag":"forge:ingots/steel"},"count": 3},
+                {"tag":"forge:rods/treated_wood", "count": 4},
+                {"tag":"forge:plates/brass","count":1},
+                {"tag":"forge:treated_wood","count":1}],
+                "result":{"item":"immersiveengineering:watermill"}
             }
         )
 })
